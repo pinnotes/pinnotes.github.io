@@ -1,0 +1,72 @@
+:root {
+  --primary-hue: 212deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 50%;
+  --navbar-height: 4rem;
+  --menu-height: 3.75rem;
+}
+
+.dark {
+  --primary-hue: 204deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 50%;
+}
+
+body {
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+body:is(html[class~="dark"] *) {
+  --tw-bg-opacity: 1;
+  /* background-color: rgb(11, 26, 29); */
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+/* .content {
+    font-family: "Times New Roman", Times, serif;
+  } */
+
+/* .content code:not(.code-block code) {
+  color: #c97c2e;
+} */
+
+.nav-container,
+nav {
+  /* background-color: aquamarine; */
+  /* background-color: rgb(31, 35, 40); */
+}
+
+/* nav , a{
+  color: rgb(253, 254, 255);
+} */
+
+.nav-container {
+  background-color: rgb(0, 60, 128);
+}
+
+.nav-container:is(html[class~="dark"] *) {
+  background-color: rgb(33, 40, 48);
+}
+
+nav .search-wrapper {
+  display: none;
+}
+@media (min-width: 768px) {
+
+  nav .search-wrapper {
+    display: inline-block;
+  }
+}
+
+
+.hextra-footer {
+  /* Styles will be applied to the footer element */
+}
+
+.hextra-footer:is(html[class~="dark"] *) {
+  /* Styles will be applied to the footer element in dark mode */
+  background-color: rgb(31, 35, 40);
+}
