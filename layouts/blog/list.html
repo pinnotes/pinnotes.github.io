@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{- $imagePath := .Site.Params.blog.list.image | default "images/abc.jpg" -}}
+
+{{- $borderClass := "hx-mt-8 hx-border-t " -}}
+  {{- $readMore := (T "readMore") | default "Read here →" -}}
+  <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        <br class="hx-mt-1.5 hx-text-sm" />
+        {{ if .Title }}<h1 class="hx-text-center hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Title }}</h1>{{ end }}
+        <div class="content">{{ .Content }}</div>
+        <div class="blogs-wrapper">
+        {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
+        {{- range $pages }}
+          <div class=" blog-card hx-mb-10">
+            <div class="blog-card-image">
+            <a href="{{ .RelPermalink }}" class="">
+              <img 
+              src="{{ $imagePath | relURL }}"
+               alt= {{ .Title }}
+               class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
+              </a>
+            </div>
+            <h3><a style="color: inherit; text-decoration: none;"
+               class=" blog-card-title hx-block hx-font-semibold hx-mt-4 hx-text-2xl "
+                href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{- if site.Params.blog.list.displayTags -}}
+              {{ with .Params.tags }}
+                <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+                  {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2">#{{ . }}</a>{{ end -}}
+                </p>
+              {{ end -}}
+            {{- end -}}
+            <a href="{{ .RelPermalink }}">
+            <p class=" blog-card.description hx-opacity-80 hx-mt-2 hx-leading-7">{{- partial "utils/page-description" . -}}</p>
+          </a>
+            <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
+              <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
+                {{- $readMore -}}
+              </a>
+            </p>
+            <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
+          </div>
+        {{ end -}}
+      </div>
+      </main>
+    </article>
+    <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
+  </div>
+{{- end -}}

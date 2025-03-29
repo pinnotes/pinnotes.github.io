@@ -6,6 +6,16 @@
   --menu-height: 3.75rem;
 }
 
+:root {
+  --clr-gray-light: #d7dfe2;
+  --clr-gray-med: #3b3c3d;
+  --clr-gray-dark: #414b56;
+  --clr-link: #4d97b2;
+  --clr-popular: #ef257a;
+  --clr-technology: #651fff;
+  --clr-psychology: #e85808;
+}
+
 .dark {
   --primary-hue: 204deg;
   --primary-saturation: 100%;
@@ -20,7 +30,7 @@ body {
 
 body:is(html[class~="dark"] *) {
   --tw-bg-opacity: 1;
-  /* background-color: rgb(11, 26, 29); */
+  background-color: rgb(13, 17, 23);
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
@@ -39,28 +49,30 @@ nav {
   /* background-color: rgb(31, 35, 40); */
 }
 
-/* nav , a{
-  color: rgb(253, 254, 255);
+/* nav , a:is(html[class~="dark"] *){
+  color: rgb(255, 255, 255);
 } */
 
 .nav-container {
-  background-color: rgb(0, 60, 128);
+  /* background-color: rgb(0, 60, 128); */
+  /* background-color: rgb(31, 35, 40); */
+  background: rgb(31, 35, 40);
 }
 
 .nav-container:is(html[class~="dark"] *) {
-  background-color: rgb(33, 40, 48);
+  /* background-color: rgb(33, 40, 48); */
+  background-color: rgb(31, 35, 40);
+  background: rgb(31, 35, 40);
 }
 
 nav .search-wrapper {
   display: none;
 }
 @media (min-width: 768px) {
-
   nav .search-wrapper {
     display: inline-block;
   }
 }
-
 
 .hextra-footer {
   /* Styles will be applied to the footer element */
@@ -69,4 +81,200 @@ nav .search-wrapper {
 .hextra-footer:is(html[class~="dark"] *) {
   /* Styles will be applied to the footer element in dark mode */
   background-color: rgb(31, 35, 40);
+}
+
+/* Custom Notes Blog List Cards  */
+
+.notes-blogs-wrapper {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* background-color: #121FCF; */
+}
+
+.notes-blog-card {
+  overflow: hidden;
+  box-shadow: 0px 2px 20px var(--clr-gray-light);
+  /* background: white; */
+  border-radius: 0.5rem;
+  position: relative;
+  width: 350px;
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+  /* cursor: pointer; */
+  /* background-color: #e2e1b4; */
+  /* border-radius: 10%; */
+  /* width: 327px; */
+}
+
+.notes-blog-card:is(html[class~="dark"] *) {
+  box-shadow: 0px 2px 20px var(--clr-gray-dark);
+}
+
+.notes-blog-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 40px var(--clr-gray-light);
+}
+
+.notes-blog-card:hover:is(html[class~="dark"] *) {
+  box-shadow: 0px 2px 20px var(--clr-gray-dark);
+}
+
+.notes-blog-card-thumb {
+  position: absolute;
+  object-fit: cover;
+  height: 14rem;
+  width: 100%;
+  /* border-radius: 10%; */
+}
+
+.blog-category-tag {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background: red;
+  padding: 0.5rem 1.3rem 0.5rem 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.popular {
+  background: var(--clr-popular);
+}
+
+.technology {
+  background: var(--clr-technology);
+}
+
+.psychology {
+  background: var(--clr-psychology);
+}
+
+.notes-blog-card-body {
+  margin: 15rem 1rem 1rem 1rem;
+}
+
+.notes-blog-tags {
+  /* background: #ffffff;
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--clr-link);
+}
+
+.notes-blog-tag {
+  background: #bebebe;
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  /* background: -webkit-linear-gradient(-70deg, rgb(130, 80, 223), rgb(212, 42, 50)); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  /* font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--clr-link); */
+}
+
+.notes-blog-title {
+  line-height: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.notes-blog-description {
+  color: var(--clr-gray-med);
+  /* font-size: 0.9rem; */
+}
+
+.notes-blog-description:is(html[class~="dark"] *) {
+  color: var(--clr-gray-light);
+}
+
+/* SIngle Page Notes BLog  */
+
+.notes-blog-cover {
+  border-radius: 0.5rem;
+  /* position: absolute; */
+  object-fit: cover;
+  height: 14rem;
+  width: 100%;
+}
+
+.blogs-wrapper {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* background-color: #121FCF; */
+}
+
+.blog-card {
+  overflow: hidden;
+  /* box-shadow: 0px 2px 20px var(--clr-gray-light); */
+  /* background: white; */
+  /* border-radius: 0.5rem; */
+  position: relative;
+  width: 350px;
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+}
+
+.blog-card-image{
+  border-radius: 0.5rem;
+  /* position: relative; */
+}
+
+.blog-card-image .blog-card-thumb {
+  border-radius: 0.5rem;
+  /* position: absolute; */
+  object-fit: cover;
+  height: 14rem;
+  width: 100%;
+  transition: 0.5s ;
+}
+
+.blog-card-image .blog-card-thumb:hover {
+  transform: scale(1.025);
+  transition: 1s;
+  z-index: 1;
+  /* border-radius: 0.5rem; */
+
+}
+
+.mona-sans {
+  font-family: "Mona Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.blog-card-tag:is(html[class~="dark"] *){
+  /* background: linear-gradient(to right, #121fcf 0%, #cf1512 100%); */
+
+  background: linear-gradient(140deg, #d2a8ff 12.09%, #f778ba 42.58%, #ff7b72 84.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.blog-card-tag{
+  background: -webkit-linear-gradient(-70deg, #8250df, #d42a32);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

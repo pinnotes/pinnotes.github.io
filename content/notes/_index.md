@@ -1,11 +1,6 @@
 ---
-date: '2025-03-21T13:46:10+05:30'
-draft: false
 title: 'Notes'
-toc: false
-layout: wide
-cascade:
-  type: docs
+width: full
 ---
 
 > [!NOTE]

@@ -54,8 +54,11 @@ menu:
     - name: Examples
       pageRef: /examples
       weight: 4
-    - name: Search
+    - name: Blog
+      pageRef: /blog
       weight: 5
+    - name: Search
+      weight: 10
       params:
         type: search
     # - name: GitHub
@@ -81,7 +84,8 @@ sidebar:
      - identifier: examples
        name: "Examples"
        url: "/examples"
-       weight: 3
+       weight: 4
+
   
 params:
   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
@@ -91,7 +95,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo.svg
+      path: images/pencil.svg # static - images folder
       dark: images/logo-dark.svg
       link: /
       width: 40
@@ -139,6 +143,14 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or "asc"
+      image: images/abc.jpg
+
+  notes:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
     
     article:
       displayPagination: true
@@ -148,3 +160,4 @@ params:
       enable: true
       # hover | always
       display: hover
+            
