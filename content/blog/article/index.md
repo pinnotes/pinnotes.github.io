@@ -1,5 +1,6 @@
 ---
 title: article
+section: article
 date: 2020-01-01
 authors:
   - name: imfing
@@ -13,6 +14,9 @@ tags:
   - Example
   - Guide
 excludeSearch: false
+image: /images/green.jpg
+cascade:
+ type: hero
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.

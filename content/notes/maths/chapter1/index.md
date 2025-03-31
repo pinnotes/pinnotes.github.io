@@ -1,5 +1,6 @@
 ---
-title: Markdown Syntax Guide
+title: Mathematics Chapter 1 Notes
+type: post
 date: 2020-01-01
 image: "/images/hello.jpg"
 authors:
@@ -10,7 +11,7 @@ authors:
     link: https://github.com/octocat
     image: https://github.com/octocat.png
 tags:
-  - Markdown
+  - Notes
   - Example
   - Guide
 excludeSearch: false

@@ -2,7 +2,7 @@
 title: "Blog"
 width : full
 cascade:
-  width: wide
+  width: normal
 ---
 
 <div style="text-align: center; margin-top: 1em;">

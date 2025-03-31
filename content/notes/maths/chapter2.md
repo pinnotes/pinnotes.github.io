@@ -1,5 +1,6 @@
 ---
-title: Markdown Syntax Guide
+title: Mathematics Chapter 2 Notes
+type: post
 date: 2020-01-01
 image: "/images/featured.jpg"
 authors:
@@ -16,7 +17,7 @@ tags:
 excludeSearch: false
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
+Download the notes for Chapter 2 of Mathematics.
 <!--more-->
 
 ## Basic Syntax

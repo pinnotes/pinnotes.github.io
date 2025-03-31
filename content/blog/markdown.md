@@ -1,5 +1,6 @@
 ---
-title: Markdown Syntax Guide
+title: Markdown Syntax 
+type: hero
 date: 2020-01-01
 authors:
   - name: imfing

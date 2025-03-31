@@ -19,7 +19,7 @@
      <div class="notes-blogs-wrapper">
       {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
       site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
-      {{- range $pages }}
+      {{- range  $pages }}
       <div class="hx-mb-10 notes-blog-card">
         <div class="notes-blog-card-banner">
           {{/*  <p class="blog-category-tag popular">Popular</p>  */}}

@@ -38,7 +38,8 @@ body {
 
 body:is(html[class~="dark"] *) {
   --tw-bg-opacity: 1;
-  background-color: rgb(13, 17, 23);
+  /* background-color: rgb(13, 17, 23); */
+  background-color: rgb(21, 23, 26);
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }

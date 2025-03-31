@@ -1,7 +1,8 @@
 ---
 title: Mathematics
+type: post
 date: 2020-01-01
-image: "/images/featured.jpg"
+image: "/images/orange.jpg"
 authors:
   - name: imfing
     link: https://github.com/imfing

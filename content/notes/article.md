@@ -3,7 +3,7 @@ title: Markdown Syntax Guide
 linkTitle: This Article offers 🚀.
 slug: Custom Link Slug HUgo ❤️
 date: 2020-01-01
-image: "/images/hello.jpg"
+image: "/images/code-1.jpg"
 authors:
   - name: imfing
     link: https://github.com/imfing

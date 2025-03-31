@@ -1,7 +1,7 @@
 ---
 title: ABC Syntax Guide
 date: 2020-01-01
-image: "/images/abc.jpg"
+image: "/images/abstract-1.jpg"
 authors:
   - name: imfing
     link: https://github.com/imfing
