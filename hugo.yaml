@@ -145,6 +145,15 @@ params:
       sortOrder: desc # or "asc"
       image: images/abc.jpg
 
+  courses:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+      image: images/green.jpg
+      gradientCard: false
+
   notes:
     list:
       displayTags: true
