@@ -14,7 +14,7 @@
         <img 
         src="{{ $imagePath | relURL }}"
          alt= {{ .Title }}
-         class="blog-card-thumb hx-mt-2 " loading="lazy" method="Resize" options="600x q80 webp">
+         class="notes-blog-cover hx-mt-2 " loading="lazy" method="Resize" options="600x q80 webp">
          
         <div class="hx-mt-4 hx-mb-8 hx-text-gray-500 hx-text-sm hx-flex hx-items-center hx-flex-wrap hx-gap-y-2">
           {{- with $date := .Date }}<span class="hx-mr-1">{{ partial "utils/format-date" $date }}</span>{{ end -}}

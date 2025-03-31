@@ -1,19 +1,19 @@
 ---
 date: '2025-03-21T13:40:40+05:30'
 draft: false
-title: ''
+title: 'Pinnotes Home'
 layout: hextra-home
 disableSidebar: false
 type: default
 width: normal
 ---
 
-<!-- markdownlint-disable MD033 MD034-->
-<!-- {{< hextra/hero-badge link="https://github.com/clevercloud/documentation">}}
+<!-- markdownlint-disable MD033 MD034 -->
+{{< hextra/hero-badge link="/courses">}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  Contribute
+  Courses
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}} -->
+{{< /hextra/hero-badge >}}
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
@@ -34,45 +34,54 @@ width: normal
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Environment Variables"
+    title="Computaional Thinking"
     subtitle="Environment variables are a simple way of configuring your applications, their deployment and their behaviour."
     link="doc/reference/reference-environment-variables"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/icons.png"
+    image="/images/green.jpg"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(58, 56, 113, 0.1),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="API"
+    title="English"
     subtitle="The Clever Cloud API reference."
     link="api"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
-    image="/images/metrics-home.png"
+    image="/images/abstract-1.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.1),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="The CLI Clever Tools"
+    title="Mathematics I"
     subtitle="An official Command Line Interface for Clever Cloud."
     link="doc/cli"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/brand.png"
+    image="/images/app.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(245, 116, 97, 0.1),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="Steps by Steps Guides"
+    title="Graded Assignments"
     subtitle="Find detailed tutorials to deploy your favorite framework on Clever Cloud"
     link="guides"
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+    image="/images/app.jpg"
+    imageClass="hx-top-[100%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
   >}}
   
   {{< hextra/feature-card
-    title="Deploy an application"
+    title="Extra Weekly Activites"
     subtitle="See supported languages and how to configure your app to deploy successfully"
     link="doc/applications"
   >}}
   {{< hextra/feature-card
     title="Connect your application to dependencies"
+    subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
+    link="doc/addons"
+  >}}
+  {{< hextra/feature-card
+    title="Connect your application"
+    icon="github"
     subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
     link="doc/addons"
   >}}

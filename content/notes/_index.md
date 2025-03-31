@@ -1,6 +1,8 @@
 ---
 title: 'Notes'
 width: full
+cascade:
+  width: wide
 ---
 
 > [!NOTE]

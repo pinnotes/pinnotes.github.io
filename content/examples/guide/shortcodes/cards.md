@@ -13,10 +13,10 @@ cascade:
   {{< card link="/" title="No Icon" >}}
 {{< /cards >}}
 
-{{< cards >}}
+{{< cards cols="3">}}
   {{< card link="/" title="Image Card" image="https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407" subtitle="Internet Image" >}}
-  {{< card link="/" title="Local Image" image="/images/card-image-unprocessed.jpg" subtitle="Raw image under static directory." >}}
-  {{< card link="/" title="Local Image" image="images/space.jpg" subtitle="Image under assets directory, processed by Hugo." method="Resize" options="600x q80 webp" >}}
+  {{< card link="/" title="Local Image" image="/images/code-2.jpg" subtitle="Raw image under static directory." >}}
+  {{< card link="/" title="Local Image" image="/images/orange.jpg" subtitle="Image under assets directory, processed by Hugo." method="Resize" options="600x q80 webp" >}}
 {{< /cards >}}
 
 ## Usage
@@ -73,12 +73,12 @@ For more on Hugo's built in image processing commands, methods, and options see 
 
 Card supports adding tags which could be useful to show extra status information.
 
-{{< cards >}}
+{{< cards  cols="3">}}
   {{< card link="../callout" title="Card with default tag" tag="tag text" >}}
   {{< card link="../callout" title="Card with error tag" tag="tag text" tagType="error" >}}
   {{< card link="../callout" title="Card with info tag" tag="tag text" tagType="info" >}}
   {{< card link="../callout" title="Card with warning tag" tag="tag text" tagType="warning" >}}
-  {{< card link="/" title="Image Card" image="https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407" subtitle="Internet Image" tag="tag text" tagType="error" >}}
+  {{< card link="/" title="Image Card" image="/images/code-1.jpg" subtitle="Internet Image from github" tag="tag text" tagType="error" >}}
 {{< /cards >}}
 
 ```

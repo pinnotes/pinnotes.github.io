@@ -1,6 +1,8 @@
 ---
 title: "Blog"
 width : full
+cascade:
+  width: wide
 ---
 
 <div style="text-align: center; margin-top: 1em;">

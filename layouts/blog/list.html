@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{- $imagePath := .Site.Params.blog.list.image | default "images/abc.jpg" -}}
 
-{{- $borderClass := "hx-mt-8 hx-border-t " -}}
+{{- $borderClass := "hx-mt-8 hx-border-t" -}}
   {{- $readMore := (T "readMore") | default "Read here →" -}}
   <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}

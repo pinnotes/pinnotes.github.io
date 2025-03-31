@@ -14,6 +14,7 @@ tags:
   - Example
   - Guide
 excludeSearch: false
+width: wide
 ---
 
 ### Jquery
