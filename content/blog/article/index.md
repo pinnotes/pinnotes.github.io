@@ -13,6 +13,7 @@ tags:
   - Markdown
   - Example
   - Guide
+  - featured
 excludeSearch: false
 image: /images/green.jpg
 cascade:

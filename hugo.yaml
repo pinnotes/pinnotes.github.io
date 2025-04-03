@@ -17,6 +17,12 @@ hasCJKLanguage: true
 #   googleAnalytics:
 #     ID: G-MEASUREMENT_ID
 
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
+  series: series
+
 outputs:
   home: [HTML]
   page: [HTML]

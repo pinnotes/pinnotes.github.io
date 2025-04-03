@@ -20,7 +20,7 @@
       {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
       site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
       {{- range  $pages }}
-      <div class="hx-mb-10 notes-blog-card">
+      <div class="hx-mb-10 notes-blog-card hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-700 dark:hover:hx-border-neutral-500">
         <div class="notes-blog-card-banner">
           {{/*  <p class="blog-category-tag popular">Popular</p>  */}}
         <a href="{{ .RelPermalink }}" >
@@ -39,18 +39,25 @@
           >{{ .Title }}</a
           >
         </h3>
-        {{- if site.Params.blog.list.displayTags -}} {{ with .Params.tags }}
-        {{/*  <p class="hx-opacity-50 hx-text-sm hx-leading-7 notes-blog-tags">
+        {{/*  {{- if site.Params.blog.list.displayTags -}} {{ with .Params.tags }}
+        <p class="mona-sans hx-text-sm hx-leading-7 notes-blog-tags">
           {{- range . }}<a class="hx-inline-block hx-mr-2 notes-blog-tag">{{ . }}</a>{{ end
           -}}
-        </p>  */}}
+        </p>
+        {{ end -}}
+        {{- end -}}  */}}
+        <a href="{{ .RelPermalink }}" >
+          <p class="hx-opacity-80  hx-leading-7 notes-blog-description">
+            {{- partial "utils/page-description" . -}}
+          </p>
+        </a>
+        {{- if site.Params.blog.list.displayTags -}} {{ with .Params.tags }}
+        <p class="mona-sans hx-text-sm hx-leading-7 ">
+          {{- range . }}<a class="hx-inline-block hx-mr-2 hx-mt-4 fireship-tag tag-react tag-md">#{{ . }}</a>{{ end
+          -}}
+        </p>
         {{ end -}}
         {{- end -}}
-        <a href="{{ .RelPermalink }}" >
-        <p class="hx-opacity-80  hx-leading-7 notes-blog-description">
-          {{- partial "utils/page-description" . -}}
-        </p>
-      </a>
       </div>
         {{/*  <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
           <a

@@ -22,13 +22,16 @@ width: normal
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx-mb-12">
+<div class="hx-mb-6">
 {{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
   Documentation and guides to deploy,  
   manage, and monitor your apps.
 {{< /hextra/hero-subtitle >}}
 </div>
 
+<div class="hx-mb-12">
+{{< hextra/hero-button text="Get Started" link="docs" >}}
+</div>
 
 <div class="hx-mt-6"></div>
 
@@ -36,7 +39,8 @@ width: normal
   {{< hextra/feature-card
     title="Computaional Thinking"
     subtitle="Environment variables are a simple way of configuring your applications, their deployment and their behaviour."
-    link="doc/reference/reference-environment-variables"
+    icon="sparkles"
+    link="/computationl-thinking/"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/green.jpg"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -45,7 +49,7 @@ width: normal
   {{< hextra/feature-card
     title="English"
     subtitle="The Clever Cloud API reference."
-    link="api"
+    link="blog"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
     image="/images/abstract-1.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -54,7 +58,7 @@ width: normal
   {{< hextra/feature-card
     title="Mathematics I"
     subtitle="An official Command Line Interface for Clever Cloud."
-    link="doc/cli"
+    link="courses"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/app.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"

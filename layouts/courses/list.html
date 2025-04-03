@@ -22,24 +22,27 @@
                class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
               </a>
             </div>
-            <h3><a style="color: inherit; text-decoration: none;"
-               class=" blog-card-title hx-block hx-font-semibold hx-mt-4 hx-text-2xl "
-                href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             {{- if site.Params.blog.list.displayTags -}}
               {{ with .Params.tags }}
                 <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-                  {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2">#{{ . }}</a>{{ end -}}
+                  {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2 hx-mt-4">#{{ . }}</a>{{ end -}}
                 </p>
               {{ end -}}
             {{- end -}}
-            <a href="{{ .RelPermalink }}">
-            <p class=" blog-card.description hx-opacity-80 hx-mt-2 hx-leading-7">{{- partial "utils/page-description" . -}}</p>
-          </a>
-            <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
+            <h3><a style="color: inherit; text-decoration: none;"
+              class=" blog-card-title hx-block hx-font-semibold hx-mt-1 hx-text-2xl "
+              href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <a href="{{ .RelPermalink }}">
+                  <p class=" blog-card.description hx-opacity-80 hx-mt-2 hx-leading-7">{{- partial "utils/page-description" . -}}</p>
+                </a>
+            {{/*  <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
               <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
                 {{- $readMore -}}
               </a>
-            </p>
+            </p>  */}}
+            <a href="{{ .RelPermalink }}" class="">
+              <button class="course-card-btn hx-mt-4 hx-font-medium hx-cursor-pointer">Explore <span>&rarr;</span></button>
+              </a>
             <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
           </div>
         {{ end -}}

@@ -10,9 +10,10 @@
         <br class="hx-mt-1.5 hx-text-sm" />
         {{ if .Title }}<h1 class="hx-text-center hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Title }}</h1>{{ end }}
         <div class="content">{{ .Content }}</div>
+        <h1  class="hx-text-center " >Blog with featured tag</h1>
         <div class="blogs-wrapper">
         {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
-        {{- range $pages }}
+        {{- range where $pages "Params.tags" "intersect" (slice "featured") }}
           <div class=" blog-card hx-mb-10">
             <div class="blog-card-image">
               {{ if .Params.image }}
@@ -34,13 +35,22 @@
             <h3><a style="color: inherit; text-decoration: none;"
                class=" blog-card-title hx-block hx-font-semibold hx-mt-4 hx-text-2xl "
                 href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            {{- if site.Params.blog.list.displayTags -}}
+            {{/*  {{- if site.Params.blog.list.displayTags -}}
               {{ with .Params.tags }}
                 <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-                  {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2">#{{ . }}</a>{{ end -}}
+                  {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2" >#{{ . }}</a>{{ end -}}
                 </p>
               {{ end -}}
-            {{- end -}}
+            {{- end -}}  */}}
+            {{- if site.Params.blog.list.displayTags -}}
+            {{with .GetTerms "tags"}}
+               <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+                {{- range . }}
+                  <a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2" href="{{.RelPermalink}}"  >#{{ .Name }}</a>{{ end -}}
+                </p>
+              {{ end -}}  
+         {{- end -}}
+
             <a href="{{ .RelPermalink }}">
             <p class=" blog-card.description hx-opacity-80 hx-mt-2 hx-leading-7">
               {{- partial "utils/page-description" . -}}</p>
