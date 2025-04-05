@@ -8,9 +8,9 @@ cascade:
 
 ### Statistics Graded Assignment 1
 
-<div class="card hextra-card hx-border-gray-200 ">
 The education minister wants to know the status of campus placements of B.Tech students in different engineering institutes of India. An analyst did a survey on the randomly selected four IITs of India and analysed the status of campus placements. Based on the information given, answer the questions (1), (2) and (3).
 
+<div class="card ">
 1. Identify the sample and population.
 
 - [ ] The sample consists of all the engineering institutes of India and the population consists of randomly selected four IITs of India.
@@ -33,7 +33,7 @@ The sample consists of four randomly selected IITs of India and the population c
 
 ---
 
-<div class="card hextra-card hx-border-gray-200 ">
+<div class="card  ">
 2. The report given by an analyst to the education minister about the status of campus placements states that “The campus placement of B.Tech students is 95% in different engineering institutes of India”. The given statement of analyst is based on which kind of statistical analysis?
    
 - [x]Descriptive Statistics
