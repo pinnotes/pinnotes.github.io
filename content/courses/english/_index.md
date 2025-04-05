@@ -1,5 +1,5 @@
 ---
-title: Computaional Thinking 
+title: English - I 
 date: 2020-01-01
 authors:
   - name: imfing
@@ -14,9 +14,10 @@ tags:
   - Guide
 excludeSearch: true
 width: nomral
-anotherUrl: "/computational-thinking/"
-# url: "/computational-thinking/"
-# slug: computaional
+cascade:
+  type: docs
+sidebar:
+  exclude: true
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.

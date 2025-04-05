@@ -15,6 +15,8 @@ tags:
   - Guide
 excludeSearch: true
 width: nomral
+sidebar:
+  exclude: true
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.

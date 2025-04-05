@@ -1,6 +1,5 @@
 ---
-title: English - I 
-type: hero
+title: Maths - I 2 💥
 date: 2020-01-01
 authors:
   - name: imfing
@@ -15,7 +14,5 @@ tags:
   - Guide
 excludeSearch: true
 width: nomral
----
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
-<!--more-->
+---
