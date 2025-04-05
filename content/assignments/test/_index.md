@@ -1,4 +1,0 @@
----
-linkTitle: "Assignments"
-title: Introduction
----

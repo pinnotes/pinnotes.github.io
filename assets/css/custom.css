@@ -155,6 +155,72 @@ nav .search-wrapper {
   background-color: rgb(31, 35, 40);
 }
 
+.content {
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(184, 184, 184, 0.822),
+      rgba(0, 0, 0, 0)
+    );
+  }
+
+  hr:is(html[class~="dark"] *) {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(59, 59, 59, 0.493),
+      rgba(0, 0, 0, 0)
+    );
+    border-top: 1px solid #8c8c8c;
+
+  }
+
+  .correct{
+    color: rgb(6, 177, 63);
+  }
+
+  .correct:is(html[class~="dark"] *) {
+    color: rgb(69, 202, 114);
+  }
+
+  .wrong{
+    color: rgb(207, 32, 42);
+  }
+
+  .wrong:is(html[class~="dark"] *){
+    color: rgb(216, 63, 71);
+  }
+}
+
+.card {
+  /* background-color: #ffffff; */
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  /* outline: 1px solid rgb(212, 212, 212); */
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  box-shadow: var(--shadow);
+}
+
+.card:is(html[class~="dark"] *) {
+  /* background-color: #ffffff; */
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  /* outline: 1px solid rgb(212, 212, 212); */
+  --shadow: rgba(0, 0, 0, 0.281) 0px 7px 29px 0px;
+  /* --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  box-shadow: var(--shadow);
+}
+
 .fireship-tag {
   display: inline-block;
   border-radius: 0.3rem;
@@ -308,6 +374,17 @@ nav .search-wrapper {
 .tag-electron {
   color: #313244;
   background: #adecf3;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  --tw-gradient-from: #f97316;
+  --tw-gradient-to: rgb(249 115 22 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #eab308;
+  background-clip: text;
+  color: #0000;
+  -webkit-background-clip: text;
 }
 
 /* Custom Notes Blog List Cards  */

@@ -8,9 +8,9 @@ cascade:
 ## Example
 
 {{< cards >}}
-  {{< card link="../callout" title="Callout" icon="warning" >}}
+  {{< card link="../callout" title="💀 Callout" icon="warning" tagType="error" >}}
   {{< card link="../callout" title="Card with tag" icon="tag" tag="custom tag">}}
-  {{< card link="/" title="No Icon" >}}
+  {{< card link="/" title="1️⃣ No Icon" >}}
 {{< /cards >}}
 
 {{< cards cols="3">}}
