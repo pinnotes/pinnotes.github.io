@@ -1,7 +1,6 @@
 ---
-title: Mathematics - I 
+title: Maths - I 2 💥
 date: 2020-01-01
-type: chapters
 authors:
   - name: imfing
     link: https://github.com/imfing
@@ -14,8 +13,6 @@ tags:
   - Example
   - Guide
 excludeSearch: true
-width: full
----
+width: nomral
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
-<!--more-->
+---

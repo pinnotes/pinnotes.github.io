@@ -1,7 +1,6 @@
 ---
-title: Mathematics - I 
+title: Mhhh
 date: 2020-01-01
-type: chapters
 authors:
   - name: imfing
     link: https://github.com/imfing
@@ -15,7 +14,6 @@ tags:
   - Guide
 excludeSearch: true
 width: full
+sidebar:
+  exclude: true
 ---
-
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
-<!--more-->

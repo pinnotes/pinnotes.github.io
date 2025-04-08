@@ -149,7 +149,7 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or "asc"
-      image: images/abc.jpg
+      image: images/git.jpg
 
   courses:
     list:

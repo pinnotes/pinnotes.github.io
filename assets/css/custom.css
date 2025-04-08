@@ -138,11 +138,24 @@ nav {
 }
 
 nav .search-wrapper {
-  display: none;
+  display: inline-block;
+  position: static;
+
+  .search-results{
+    left: auto;
+    max-height: min(calc(100vh - 11rem - env(safe-area-inset-bottom)), 400px);
+  }
 }
 @media (min-width: 768px) {
   nav .search-wrapper {
     display: inline-block;
+    position: relative;
+  }
+}
+
+.sidebar-container {
+  .search-wrapper{
+    display: none;
   }
 }
 

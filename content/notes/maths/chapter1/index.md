@@ -1,6 +1,5 @@
 ---
 title: Mathematics Chapter 1 Notes
-type: post
 date: 2020-01-01
 image: "/images/hello.jpg"
 authors:
