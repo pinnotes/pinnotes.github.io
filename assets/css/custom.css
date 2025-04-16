@@ -400,6 +400,12 @@ nav .search-wrapper {
   -webkit-background-clip: text;
 }
 
+
+.toc-active {
+  font-weight: bold;
+  color: #e86c1a; /* Example highlight color */
+}
+
 /* Custom Notes Blog List Cards  */
 
 .notes-blogs-wrapper {

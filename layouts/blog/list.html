@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{- $imagePath := .Site.Params.blog.list.image | default "images/abc.jpg" -}}
+{{- $img := (.Resources.ByType "image").GetMatch "*feature*" -}}
 
 {{- $borderClass := "hx-mt-8 hx-border-t" -}}
   {{- $readMore := (T "readMore") | default "Read here →" -}}
@@ -31,6 +32,12 @@
                alt= {{ .Title }}
                class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
               </a>
+              {{/*  {{ with $img }}
+              <span>alt</span>
+      
+              <img src="{{.RelPermalink}}" alt="{{.Title}}" class="blog-card-thumb">
+              {{end}}  */}}
+              
               {{ end }}
             </div>
             <h3><a style="color: inherit; text-decoration: none;"

@@ -1,6 +1,6 @@
 baseURL: https://pinnotes.github.io/ # pinnotes.github.io
 languageCode: en-us
-title:  
+title: Pinnotes
 
 module:
   imports:
@@ -98,11 +98,11 @@ params:
 
 params:
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
-      path: images/pencil.svg # static - images folder
-      dark: images/logo-dark.svg
+      path: images/favicon.svg # static - images folder
+      dark: images/favicon-dark.svg
       link: /
       width: 40
       height: 20

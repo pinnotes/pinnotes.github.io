@@ -1,20 +1,17 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-<script>
-  window.addEventListener("load", () => {
-    quicklink.listen();
-  });
-</script>
+const express = require('express');
+const path = require('path');
+const app = express();
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+app.use('/assets/js', express.static(path.join(__dirname, 'assets/js'), {
+    setHeaders: function (res, path, stat) {
+      if (path.endsWith('.js')) { // Set only for .js files
+        res.setHeader('Content-Type', 'application/javascript');
+      }
+    }
+  }));
 
-<!-- filepath: d:\Code\hextra-notes\layouts\partials\head.html -->
-<link rel="stylesheet" href="/assets/css/toc.css">
-<script src="/assets/js/toc-highlight.js" defer></script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
+// filepath: d:\Code\hextra-notes\assets\js\toc-highlight.js
+document.addEventListener("DOMContentLoaded", () => {
     const tocLinks = document.querySelectorAll(".hextra-toc a");
     const sections = Array.from(tocLinks).map(link => document.querySelector(link.getAttribute("href")));
 
@@ -27,6 +24,7 @@
         tocLinks.forEach((link, index) => {
             if (index === activeIndex) {
                 link.classList.add("toc-active");
+                console.log('hello');
             } else {
                 link.classList.remove("toc-active");
             }
@@ -36,4 +34,3 @@
     window.addEventListener("scroll", highlightTOC);
     highlightTOC(); // Run on page load
 });
-</script>

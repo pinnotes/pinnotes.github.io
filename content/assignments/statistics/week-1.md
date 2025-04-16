@@ -2,8 +2,6 @@
 title: Week 1
 linkTitle: Week 1
 weight: 1
-cascade:
-  type: docs
 ---
 
 ### Statistics Graded Assignment 1
