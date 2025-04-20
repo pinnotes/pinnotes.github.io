@@ -3,6 +3,7 @@ linkTitle: "Documentation"
 title: Introduction
 cascade:
  width: nomral
+ type: docs
 ---
 
 👋 Hello! Welcome to the Hextra documentation!

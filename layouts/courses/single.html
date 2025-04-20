@@ -2,7 +2,7 @@
 {{- $imagePath := .Site.Params.blog.list.image | default "images/abc.jpg" -}}
 
   <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
-    {{ partial "sidebar.html" (dict "context" .) }}
+    {{/*  {{ partial "sidebar.html" (dict "context" .) }}  */}}
     {{ partial "toc.html" . }}
     {{/*  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
     {{ partial "toc.html" . }}  */}}

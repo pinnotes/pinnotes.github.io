@@ -5,35 +5,12 @@
   });
 </script>
 
+{{/*  Google Fonts  */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
-<!-- filepath: d:\Code\hextra-notes\layouts\partials\head.html -->
-<link rel="stylesheet" href="/assets/css/toc.css">
-<script src="/assets/js/toc-highlight.js" defer></script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const tocLinks = document.querySelectorAll(".hextra-toc a");
-    const sections = Array.from(tocLinks).map(link => document.querySelector(link.getAttribute("href")));
-
-    const highlightTOC = () => {
-        let activeIndex = sections.findIndex(section => {
-            const rect = section.getBoundingClientRect();
-            return rect.top <= 150 && rect.bottom >= 150; // Adjust threshold as needed
-        });
-
-        tocLinks.forEach((link, index) => {
-            if (index === activeIndex) {
-                link.classList.add("toc-active");
-            } else {
-                link.classList.remove("toc-active");
-            }
-        });
-    };
-
-    window.addEventListener("scroll", highlightTOC);
-    highlightTOC(); // Run on page load
-});
-</script>
+{{/*  Chart JS   */}}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1"></script>

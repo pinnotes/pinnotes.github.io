@@ -153,3 +153,27 @@ X<sup>2</sup>
 ```
 
 X<sup>2</sup>
+
+
+`alert`
+
+==very important words==.
+
+<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+iit { color:  #ffb472;; font-weight: bold; }
+</style>
+
+# TODOs:
+
+- <r>TODO:</r> Important thing to do
+- <o>TODO:</o> Less important thing to do
+- <g>DONE:</g> Breath deeply and improve karma
+
+` <iit>IIT:</iit> Breath deeply and improve karma `
+
+<iit>IIT:</iit> Breath deeply and improve karma 
+
+### <iit>Heading</iit>

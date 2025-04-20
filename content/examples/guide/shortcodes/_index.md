@@ -3,6 +3,9 @@ title: Shortcodes
 weight: 9
 prev: /examples/guide/diagrams
 next: /examples/guide/shortcodes/callout
+cascade:
+ width: nomral
+ type: docs
 ---
 
 [Hugo Shortcodes](https://gohugo.io/content-management/shortcodes/) are simple snippets inside your content files calling built-in or custom templates.

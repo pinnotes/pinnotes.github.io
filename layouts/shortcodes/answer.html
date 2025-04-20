@@ -1,0 +1,5 @@
+{{- $type := .Get "type" | default "correct" -}}
+{{- $content := .InnerDeindent | markdownify -}}
+
+
+<p class="$type">{{ $content }}</div>

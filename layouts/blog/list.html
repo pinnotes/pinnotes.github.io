@@ -2,6 +2,7 @@
 {{- $imagePath := .Site.Params.blog.list.image | default "images/abc.jpg" -}}
 {{- $img := (.Resources.ByType "image").GetMatch "*feature*" -}}
 
+
 {{- $borderClass := "hx-mt-8 hx-border-t" -}}
   {{- $readMore := (T "readMore") | default "Read here →" -}}
   <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">

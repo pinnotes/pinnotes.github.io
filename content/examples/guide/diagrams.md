@@ -1,7 +1,5 @@
 ---
 title: Diagrams
-sidebar:
-  exclude: true
 cascade:
   type: docs
 weight: 6

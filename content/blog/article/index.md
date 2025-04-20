@@ -18,6 +18,8 @@ excludeSearch: false
 image: /images/green.jpg
 cascade:
  type: hero
+
+
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
