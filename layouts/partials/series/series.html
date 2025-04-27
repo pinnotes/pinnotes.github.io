@@ -1,6 +1,42 @@
 {{ if .Params.series }}
-<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5" {{
+<details style="margin-left:0px" class="series-list-border" {{
     if .Params.seriesOpened | default (.Site.Params.article.seriesOpened | default false) }} open {{ end }}>
     {{ partial "series/series_base.html" . }}
 </details>
 {{end}}
+
+<style>
+    .series-list-border {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #f9f9f9;
+    }
+
+    .series-list-border summary {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .series-list-border[open] {
+        border-color: #007acc;
+        background-color: #e6f7ff;
+    }
+
+    html[class~="dark"] {
+        .series-list-border {
+            border: 1px solid #555;
+            background-color: #333;
+            color: #ddd;
+        }
+
+        .series-list-border summary {
+            color: #fff;
+        }
+
+        .series-list-border[open] {
+            border-color: #66b2ff;
+            background-color: #1a1a1a;
+        }
+    }
+</style>

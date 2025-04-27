@@ -18,3 +18,74 @@
     </ul>
 </div>
 {{end}}
+
+<style>
+    .list-group {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 20px 0;
+        list-style: none;
+    }
+
+    .list-group-item {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .list-group-item:last-child {
+        border-bottom: none;
+    }
+
+    .list-group-item.active {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+
+    .list-group-item a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .list-group {
+            border: 1px solid #444;
+            background-color: #333;
+        }
+
+        .list-group-item {
+            border-bottom: 1px solid #444;
+            color: #ddd;
+        }
+
+        .list-group-item.active {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        .list-group-item a {
+            color: #ddd;
+        }
+
+        .list-group-item a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .list-group-item a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const listItems = document.querySelectorAll(".list-group-item");
+        listItems.forEach(item => {
+            item.addEventListener("click", function () {
+                listItems.forEach(i => i.classList.remove("active"));
+                this.classList.add("active");
+            });
+        });
+    });
+</script>

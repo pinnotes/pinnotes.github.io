@@ -1,5 +1,4 @@
 {{ define "main" }}
-{{ partial "hugo-tag-bar.html" . }}
   <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
     {{ partial "toc.html" (dict "Params" (dict "toc" false)) }}
@@ -11,22 +10,19 @@
         <div class="content">
           {{ .Content }}
         </div>
-        <div>
-          {{- range .Pages -}}
-            <div>
-              <h3>
-                <a
-                  style="color: inherit; text-decoration: none;"
-                  class="hx-block hx-font-semibold hx-mt-8 hx-text-2xl fireship-tag tag-node"
-                  href="{{ .RelPermalink }}"
-                  title="{{ .LinkTitle }}"
-                >
-                  {{ .Title }}
-                </a>
-              </h3>
-              <a class=" hx-mt-2 fireship-tag tag-node">{{ partial "utils/format-date" .Date }}</a>
+        <div class="hx-grid hx-grid-cols-1 hx-md-grid-cols-2 hx-lg-grid-cols-3 hx-xl-grid-cols-4 hx-gap-4">
+          {{ range .Data.Terms }}
+            <div class="hx-w-full">
+              <a
+                href="{{ .Page.RelPermalink }}"
+                title="{{ .Page.LinkTitle }}"
+                class="hx-hover-text-primary-600 fireship-tag tag-node hx-block  hx-text-xl hx-text-slate-900 hx-dark-text-slate-100 hx-bg-slate-100 hx-dark-bg-slate-800 hx-rounded-lg hx-shadow-sm hover:!hx-shadow-md hover:!hx-bg-slate-200 hover:!hx-dark-bg-slate-700"
+              >
+                {{- .Page.LinkTitle -}}
+                <span class="hx-text-sm hx-text-gray-600 ">&nbsp;{{ .Count }}</span>
+              </a>
             </div>
-          {{- end -}}
+          {{ end }}
         </div>
       </main>
     </article>

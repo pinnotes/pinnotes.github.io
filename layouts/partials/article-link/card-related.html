@@ -3,7 +3,7 @@
 {{- $borderClass := "hx-mt-8 hx-border-t" -}}
 {{- $readMore := (T "readMore") | default "Read here →" -}} 
 
-<div class=" related-card blog-card hx-mb-10">
+<div class=" related-card  hx-mb-10">
     <div class="blog-card-image">
       {{ if .Params.image }}
     <a href="{{ .RelPermalink }}" class="">
@@ -60,15 +60,22 @@
 
 
   <style>
-    related-card{
+    .related-card{
     overflow: hidden;
     /* box-shadow: 0px 2px 20px var(--clr-gray-light); */
     /* background: white; */
     /* border-radius: 0.5rem; */
     position: relative;
-    width: 290px;
+    width: 350px;
     margin: 1rem;
     transition: 250ms all ease-in-out;
     border-radius: 0.5rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      .related-card {
+        width: 350px;
+      } 
+      
     }
   </style>
