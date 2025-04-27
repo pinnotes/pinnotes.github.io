@@ -1,5 +1,5 @@
 ---
-title: article
+title: HUGO
 section: article
 date: 2020-01-01
 authors:
@@ -14,9 +14,11 @@ tags:
   - Example
   - Guide
   - featured
-excludeSearch: false
 image: /images/green.jpg
-
+series: ["WEB-DEV"]
+series_order: 2
+excludeSearch: false
+chapter: 2
 
 
 ---

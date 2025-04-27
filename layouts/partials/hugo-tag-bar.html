@@ -1,0 +1,94 @@
+<div class="hugo-tags-bar-container">
+    <div class="hugo-tags-bar">
+        <span class="hugo-tag active">All</span>
+        {{ range .Site.Taxonomies.tags.Alphabetical }}
+            <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .hugo-tags-bar-container {
+        overflow-x: auto;
+        padding: 10px 0;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .hugo-tags-bar {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        justify-content: center;
+    }
+
+    .hugo-tag {
+        background-color: #e0e0e0;
+        color: #333;
+        border-radius: 16px;
+        padding: 8px 16px;
+        margin-right: 8px;
+        font-size: 14px;
+        text-transform: capitalize;
+        cursor: pointer;
+        white-space: nowrap;
+        transition: background-color 0.3s ease;
+        border: 1px solid transparent;
+    }
+
+    .hugo-tag:hover {
+        background-color: #d0d0d0;
+        border-color: #ccc;
+    }
+
+    .hugo-tag.active {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .hugo-tags-bar-container::before,
+    .hugo-tags-bar-container::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 20px;
+        background: linear-gradient(to right, #f9f9f9, transparent);
+        pointer-events: none;
+    }
+
+    .hugo-tags-bar-container::after {
+        right: 0;
+        background: linear-gradient(to left, #f9f9f9, transparent);
+    }
+
+</style>
+
+<script>
+    const hugoTagsBar = document.querySelector('.hugo-tags-bar');
+    const tags = hugoTagsBar.querySelectorAll('.hugo-tag');
+    let currentActiveTag = tags[0]; // Initially set 'All' as active
+
+    tags.forEach(tag => {
+        tag.addEventListener('click', function(event) {
+            // Prevent default link behavior for our styling
+            event.preventDefault();
+
+            // Remove active class from the previously active tag
+            if (currentActiveTag) {
+                currentActiveTag.classList.remove('active');
+            }
+            // Add active class to the clicked tag
+            this.classList.add('active');
+            currentActiveTag = this;
+
+            // Navigate to the tag page (if it's not the 'All' tag)
+            if (this.textContent !== 'All') {
+                window.location.href = this.getAttribute('href');
+            } else {
+                // Handle the 'All' case (e.g., go back to the homepage or show all content)
+                window.location.href = '/'; // Or your desired "All" page
+            }
+        });
+    });
+</script>

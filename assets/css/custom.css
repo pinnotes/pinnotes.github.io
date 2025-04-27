@@ -158,11 +158,11 @@ nav .search-wrapper {
 /* Customise Content Styles  */
 
 .content {
-
   hr {
+    margin-top: 2rem;
     border: 0;
     height: 1px;
-    --tw-text-opacity: 0.1;
+    --tw-text-opacity: 0.2;
     --color: rgb(12 12 12 / var(--tw-text-opacity));
     border-top: 1px solid var(--color);
   }
@@ -170,7 +170,7 @@ nav .search-wrapper {
   hr:is(html[class~="dark"] *) {
     border: 0;
     height: 1px;
-    --tw-text-opacity: 0.1;
+    --tw-text-opacity: 0.2;
     --color: rgb(241 245 249 / var(--tw-text-opacity));
     border-top: 1px solid var(--color);
   }
@@ -189,6 +189,12 @@ nav .search-wrapper {
 
   .wrong:is(html[class~="dark"] *) {
     color: rgb(216, 63, 71);
+  }
+
+  /* Chart JS Styling */
+
+  .chart {
+    margin-top: 1rem;
   }
 }
 
@@ -413,6 +419,11 @@ nav .search-wrapper {
 .toc-active {
   font-weight: bold;
   color: #e86c1a; /* Example highlight color */
+}
+
+.toc-scrollable {
+  max-height: calc(100vh - var(--navbar-height) - 100px); 
+  overflow-y: auto;
 }
 
 /* Custom Notes Blog List Cards  */

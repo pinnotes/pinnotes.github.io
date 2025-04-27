@@ -1,0 +1,43 @@
+<div class="chapters">
+
+    <p class="support">
+      It looks like your browser does not support the <code>counter-set</code> property. Try viewing this demo in Firefox instead. </p>
+  
+    <h1>Learning CSS</h1>
+  
+    <h2><a style="color: inherit; text-decoration: none;"
+        class=" blog-card-title hx-block hx-font-semibold hx-mt-1 hx-text-2xl "
+        href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          
+  </div>
+
+
+  <style>
+    .chapters {
+      counter-reset: chapter;
+    }
+  
+    .chapters h2 {
+      counter-increment: chapter;
+    }
+  
+    .chapters h2::before {
+      content: "Chapter " counter(chapter) ": ";
+      font-weight: bold;
+    }
+  
+    .support {
+      display: none;
+    }
+  
+    @supports not (counter-set: chapter) {
+      .support {
+        display: block;
+      }
+  
+      .chapters h2::before {
+        content: "Chapter 1: ";
+        font-weight: bold;
+      }
+    }
+  </style>

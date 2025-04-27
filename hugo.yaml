@@ -23,6 +23,33 @@ taxonomies:
   author: authors
   series: series
 
+related:
+  includeNewer: false
+  indices:
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: keywords
+    pattern: ""
+    toLower: false
+    type: basic
+    weight: 100
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: date
+    pattern: ""
+    toLower: false
+    type: basic
+    weight: 10
+  - applyFilter: false
+    cardinalityThreshold: 0
+    name: tags
+    pattern: ""
+    toLower: false
+    type: basic
+    weight: 80
+  threshold: 80
+  toLower: false
+
 outputs:
   home: [HTML]
   page: [HTML]
@@ -104,25 +131,9 @@ docs:
 
 
 params:
-  docs:
-    sidebarTitle: "Documentation"
-    sidebarIcon: "book"
-    sidebarIconColor: "#000000"
-
-params:
+  # description
   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
-
-params:
-  navbar:
-    displayTitle: false
-    displayLogo: true
-    logo:
-      path: images/favicon.svg # static - images folder
-      dark: images/favicon-dark.svg
-      link: /
-      width: 40
-      height: 20
-
+ 
   editURL:
     enable: false
     base: "https://github.com/your-username/your-repo/edit/main"
@@ -139,6 +150,28 @@ params:
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: full
+  
+  highlightCurrentMenuArea: true
+  smartTOC: true
+  smartTOCHideUnfocusedChildren: true
+
+  # Sidebar
+  docs:
+    sidebarTitle: "Documentation"
+    sidebarIcon: "book"
+    sidebarIconColor: "#000000"
+
+  # navbar          
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/favicon.svg # static - images folder
+      dark: images/favicon-dark.svg
+      link: /
+      width: 40
+      height: 20
+
 
   footer:
     enable: false
@@ -167,6 +200,12 @@ params:
       sortOrder: desc # or "asc"
       image: images/git.jpg
 
+    article:
+      displayPagination: true
+      showRelatedContent: true
+      relatedContentLimit: 3
+  
+  
   courses:
     list:
       displayTags: true
@@ -182,9 +221,6 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or "asc"
-    
-    article:
-      displayPagination: true
 
   highlight:
     copy:
@@ -192,3 +228,5 @@ params:
       # hover | always
       display: hover
             
+
+

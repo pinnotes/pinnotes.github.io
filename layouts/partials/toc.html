@@ -83,3 +83,63 @@
 
   {{- end -}}
 {{- end -}}
+
+
+
+<script type="text/javascript">
+
+  {{/*  Use JavaScript to detect the section currently in view and update the TOC.  */}}
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const tocLinks = document.querySelectorAll(".hextra-toc a");
+    const sections = Array.from(tocLinks).map(link => document.querySelector(link.getAttribute("href")));
+
+    const highlightTOC = () => {
+        let activeIndex = sections.findIndex(section => {
+            const rect = section.getBoundingClientRect();
+            return rect.top <= 150 && rect.bottom >= 150; // Adjust threshold as needed
+        });
+console.log(activeIndex);
+console.log(tocLinks);
+        tocLinks.forEach((link, index) => {
+            if (index === activeIndex) {
+              console.log(index);
+                link.classList.add("toc-active");
+                console.log('toc-active');
+            } else {
+                link.classList.remove("toc-active");
+            }
+        });
+    };
+
+    window.addEventListener("scroll", highlightTOC);
+    highlightTOC(); // Run on page load
+});
+
+
+// filepath: d:\Code\hextra-notes\assets\js\toc-scroll.js
+document.addEventListener("DOMContentLoaded", () => {
+  const toc = document.querySelector(".hextra-toc");
+  const relatedArticles = document.querySelector(".related-articles"); // Add a class to the related articles section
+
+  if (toc && relatedArticles) {
+      const adjustTOCScroll = () => {
+          const relatedRect = relatedArticles.getBoundingClientRect();
+          const tocRect = toc.getBoundingClientRect();
+
+          if (relatedRect.top <= window.innerHeight) {
+              toc.classList.add("toc-scrollable");
+             
+            } else {
+              toc.classList.remove("toc-scrollable");
+
+          }
+      };
+
+      window.addEventListener("scroll", adjustTOCScroll);
+      adjustTOCScroll(); // Run on page load
+  }
+});
+
+
+</script>

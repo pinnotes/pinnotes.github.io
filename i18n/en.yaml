@@ -12,3 +12,16 @@ onThisPage: "Table of Contents"
 poweredBy: "Powered by Pinnotes"
 readMore: "Read more →"
 searchPlaceholder: "Search..."
+
+relatedArticles: "Related articles 📂🔥"
+
+
+article:
+  related_articles: "Related 📂"
+  read_next: "Read next 🔗"
+  read_more: "Read more →"
+  this_article: "This article"
+  table_of_contents: "Table of contents 📚"
+  zen_mode_title:
+    enable: "Enable zen mode"
+    disable: "Disable zen mode"

@@ -1,6 +1,17 @@
 ---
-title: Chart JS 
-linkTitle: Charts
+title: Chart JS 📈
+linkTitle: add chart.js in hugo
+description: How to add Chart JS in HUGO 🧑‍💻
+tags:
+  - chart.js
+  - featured
+image: /images/tree.jpg
+excludeSearch: false
+width: wide
+series: ["WEB-DEV"]
+series_order: 1
+excludeSearch: false
+chapter: 1
 ---
 
 

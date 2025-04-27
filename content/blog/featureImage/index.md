@@ -1,22 +1,18 @@
 ---
-title: Featured
+title: How to add article series in a blog post - HUGO
+description: I'have been trying to add this functionality in my HUGO website 
 section: article
 date: 2020-01-01
 authors:
-  - name: imfing
-    link: https://github.com/imfing
-    image: https://github.com/imfing.png
-  - name: Octocat
-    link: https://github.com/octocat
-    image: https://github.com/octocat.png
+  - name: Aryan
+    link: https://github.com/simplearyan
+    image: https://github.com/simplearyan.png
 tags:
   - Markdown
   - Example
   - Guide
   - featured
 excludeSearch: false
-cascade:
- type: hero
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
