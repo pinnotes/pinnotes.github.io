@@ -7,16 +7,45 @@
 <div class="related-articles">
 <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
 {{/*  <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "article.related_articles" | emojify }}</h2>  */}}
-<h2 class="hx-mt-8 ">{{ $relatedArticles}}</h2>
+<h2 class="hx-mt-8 hx-title ">{{ $relatedArticles}}</h2>
 <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
-<div class="blogs-wrapper">
+<div class="related-blogs-wrapper">
   {{ range . }}
   {{ partial "article-link/card-related.html" . }}
   {{ end }}
 </div>
 </div>
 
-<hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
+<hr class="{{$borderClass}} hx-mb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
 
 {{ end }}
 {{ end }}
+
+<style>
+  .hx-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .related-blogs-wrapper {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+   
+    /* Optional: Add some padding to the container */
+     background-color: #f9f9f9;  /* Optional: Add a background color */ 
+     border-radius: 8px;  /* Optional: Add rounded corners */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Optional: Add a subtle shadow */
+     max-width: 1200px;  /* Optional: Set a maximum width for the container */
+     border-radius: 8px;  /* Optional: Add rounded corners */
+     padding: 20px;  /* Optional: Add some padding to the container */   
+
+
+  }
+
+  html[class~="dark"] .related-blogs-wrapper {
+    background-color: #181b1e;  /* Optional: Add a background color */ 
+  }
+</style>

@@ -53,6 +53,9 @@
             {{- end -}}
           {{- end -}}
         </div>
+        
+        {{ partial "series/series.html" . }}
+
         <div class="content">
           {{ .Content }}
         </div>
@@ -61,8 +64,8 @@
           {{- .Scratch.Set "reversePagination" true -}}
           {{- partial "components/pager.html" . -}}
         {{ end }}
-        {{ partial "series.html" . }}
-        {{ partial "series/series.html" . }}
+        {{/*  {{ partial "series.html" . }}  */}}
+      {{ partial "article-from-this-series/series-articles.html" . }}
         {{ partial "related.html" . }}  
         {{- partial "components/comments.html" . -}}
       </main>

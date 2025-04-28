@@ -201,9 +201,9 @@ params:
       image: images/git.jpg
 
     article:
-      displayPagination: true
+      displayPagination: false
       showRelatedContent: true
-      relatedContentLimit: 3
+      relatedContentLimit: 4
   
   
   courses:
