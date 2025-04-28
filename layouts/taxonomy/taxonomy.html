@@ -12,14 +12,14 @@
         </div>
         <div class="hx-grid hx-grid-cols-1 hx-md-grid-cols-2 hx-lg-grid-cols-3 hx-xl-grid-cols-4 hx-gap-4">
           {{ range .Data.Terms }}
-            <div class="hx-w-full">
+            <div class="hx-w-full tags-card">
               <a
                 href="{{ .Page.RelPermalink }}"
                 title="{{ .Page.LinkTitle }}"
-                class="hx-hover-text-primary-600 fireship-tag tag-node hx-block  hx-text-xl hx-text-slate-900 hx-dark-text-slate-100 hx-bg-slate-100 hx-dark-bg-slate-800 hx-rounded-lg hx-shadow-sm hover:!hx-shadow-md hover:!hx-bg-slate-200 hover:!hx-dark-bg-slate-700"
+                class="hx-hover-text-primary-600 tags-title"
               >
                 {{- .Page.LinkTitle -}}
-                <span class="hx-text-sm hx-text-gray-600 ">&nbsp;{{ .Count }}</span>
+                <span class="hx-text-sm hx-text-gray-600 tags-count ">&nbsp;{{ .Count }}</span>
               </a>
             </div>
           {{ end }}
@@ -27,4 +27,60 @@
       </main>
     </article>
   </div>
+
+  <style>
+    .tags-card {
+      background-color: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .tags-card:hover {
+      transform: translateY(-0.3rem);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tags-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1f2937;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .tags-title:hover {
+      color: #2563eb;
+    }
+
+    .tags-count {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+
+    html[class~="dark"] {
+      .tags-card {
+      background-color: #1e293b;
+      border: 1px solid #334155;
+      }
+
+      .tags-card:hover {
+      box-shadow: 0 6px 10px rgba(255, 255, 255, 0.1);
+      }
+
+      .tags-title {
+      color: #e2e8f0;
+      }
+
+      .tags-title:hover {
+      color: #60a5fa;
+      }
+
+      .tags-count {
+      color: #94a3b8;
+      }
+    }
+  </style>
+
 {{ end }}

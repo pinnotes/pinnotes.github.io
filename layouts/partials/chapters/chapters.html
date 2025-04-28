@@ -1,0 +1,55 @@
+<div class="chapter-list">
+    <ul>
+        {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
+        {{- range $pages }}
+        {{ if .Title}}
+        <a href="{{ .RelPermalink }}">
+            <li class="chapter-item">{{ .Title }}</li>
+        </a>
+        {{ end -}}
+        {{- end -}}
+    </ul>
+</div>
+
+<style>
+    .chapter-list {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 20px;
+        padding: 0;
+    }
+
+    .chapter-item {
+        list-style-type: none;
+        margin: 8px 0;
+        padding: 12px 15px;
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        font-size: 17px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .chapter-item:hover {
+        background-color: #f9f9f9;
+        border-color: #d0d0d0;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+    }
+
+    html[class~="dark"] {               
+        .chapter-item {
+            background-color: #2c2c2c;
+            border: 1px solid #444;
+            color: #f0f0f0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .chapter-item:hover {
+            background-color: #3a3a3a;
+            border-color: #555;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+    }
+</style>
