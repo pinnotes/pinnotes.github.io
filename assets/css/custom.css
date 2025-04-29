@@ -93,6 +93,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   width: 100%;
   --tw-bg-opacity: 1;
   /* background-color: rgb(255 255 255 / var(--tw-bg-opacity)); */
@@ -106,6 +108,8 @@ body:is(html[class~="dark"] *) {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
+
+
 
 /* Custom Navbar Styles  */
 
@@ -422,7 +426,7 @@ nav .search-wrapper {
 }
 
 .toc-scrollable {
-  max-height: calc(100vh - var(--navbar-height) - 100px); 
+  max-height: calc(100vh - var(--navbar-height) - 100px);
   overflow-y: auto;
 }
 

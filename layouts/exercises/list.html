@@ -78,7 +78,7 @@
             >
           </h3>
           <a href="{{ .RelPermalink }}">
-          <p class="blog-card-description hx-opacity-80 hx-mt-2 hx-leading-7 latex-content">
+          <p class="blog-card-description hx-opacity-80 hx-mt-2 hx-leading-7 mathjax-content">
               {{- partial "utils/page-description" . -}}
             </p>
           </a>
@@ -198,16 +198,5 @@
     }
   }
 </style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    renderMathInElement(document.body, {
-      delimiters: [
-        { left: "$$", right: "$$", display: true }, // For block math
-        { left: "$", right: "$", display: false }   // For inline math
-      ]
-    });
-  });
-</script>
 
 {{- end -}}
