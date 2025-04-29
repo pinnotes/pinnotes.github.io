@@ -16,9 +16,10 @@
         {{/*  <div class="content">{{ .Content }}</div>  */}}
         {{/*  <h1  class="hx-text-center " >Blog with featured tag</h1>  */}}
         <div class="blogs-wrapper">
-        {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
+        {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
         {{/*  {{- range where $pages "Params.tags" "intersect" (slice "featured") }}  */}}
-        {{- range where $pages "Params.tags" "intersect" (slice "featured") }}
+        {{/*  {{- range where $pages "Params.tags" "intersect" (slice "featured") }}  */}}
+        {{- range  $pages  }}
           <div class=" blog-card hx-mb-10">
             <div class="blog-card-image">
               {{ if .Params.image }}

@@ -75,21 +75,24 @@ menu:
     - name: Courses
       pageRef: /courses
       weight: 1
+    - name: Exercises
+      pageRef: /exercises
+      weight: 2
     - name: Notes
       pageRef: /notes
-      weight: 2
+      weight: 3
     - name: IIT
       pageRef: /iit-madras
-      weight: 3
+      weight: 4
     - name: Assignments
       pageRef: /assignments
-      weight: 4
+      weight: 5
     - name: Examples
       pageRef: /examples
-      weight: 4
+      weight: 6
     - name: Blog
       pageRef: /blog
-      weight: 5
+      weight: 7
     - name: Search
       weight: 10
       params:

@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ partial "hugo-tag-bar.html" . }}
+{{ if eq .Type "tags" }}{{ partial "hugo-tag-bar.html" . }}{{ else }}{{ partial "hugo-category-bar.html" . }}{{ end }}
+{{/*  {{ partial "hugo-tag-bar.html" . }}  */}}
   <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
     {{ partial "toc.html" (dict "Params" (dict "toc" false)) }}
