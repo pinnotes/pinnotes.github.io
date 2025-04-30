@@ -1,12 +1,7 @@
-{{ define "main" }} 
-{{- $imagePath := .Site.Params.blog.list.image | default
-"images/abc.jpg" -}} 
-{{- $img := (.Resources.ByType "image").GetMatch
-"*feature*" -}}
- {{- $borderClass := "hx-mt-8 hx-border-t" -}} 
- {{- $readMore :=
-(T "readMore") | default "Read here →" -}}
- {{partial "hugo-category-bar.html" .
+{{ define "main" }} {{- $imagePath := .Site.Params.blog.list.image | default
+"images/abc.jpg" -}} {{- $img := (.Resources.ByType "image").GetMatch
+"*feature*" -}} {{- $borderClass := "hx-mt-8 hx-border-t" -}} {{- $readMore :=
+(T "readMore") | default "Read here →" -}} {{partial "hugo-category-bar.html" .
 }}
 
 <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
@@ -78,23 +73,23 @@
             >
           </h3>
           <a href="{{ .RelPermalink }}">
-          <p class="blog-card-description hx-opacity-80 hx-mt-2 hx-leading-7 mathjax-content">
+            <p
+              class="blog-card-description hx-opacity-80 hx-mt-2 hx-leading-7 mathjax-content"
+            >
               {{- partial "utils/page-description" . -}}
             </p>
           </a>
           {{- if site.Params.blog.list.displayTags -}} {{with .GetTerms
-            "categories"}}
-            <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7 ">
-              {{- range . }}
-              <a
+          "categories"}}
+          <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+            {{- range . }}
+            <a
               class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
               href="{{.RelPermalink}}"
               >#{{ .Name }}</a
-              >{{ end -}}
-            </p>
-            {{ end -}} {{- end -}}
-
-          {{/*
+            >{{ end -}}
+          </p>
+          {{ end -}} {{- end -}} {{/*
           <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
             <a
               class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font"
@@ -198,5 +193,12 @@
     }
   }
 </style>
+
+{{/* MathJax */}}
+<script
+  type="text/javascript"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
 
 {{- end -}}

@@ -18,28 +18,21 @@
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1"></script>
 
-<script
-  type="text/javascript"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-></script>
+{{/*  KaTeX  */}}
+<!-- https://katex.org/ -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
 
 <script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [
-        ["$", "$"],
-        ["\\(", "\\)"],
-      ],
-      displayMath: [
-        ["$$", "$$"],
-        ["\\[", "\\]"],
-      ],
-    },
-    options: {
-      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
-      // Restrict MathJax to process only elements with the class "mathjax-content"
-      elements: document.querySelectorAll(".mathjax-content"),
-    },
-  };
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true }, // For block math
+        { left: "$", right: "$", display: false }   // For inline math
+      ]
+    });
+  });
 </script>
