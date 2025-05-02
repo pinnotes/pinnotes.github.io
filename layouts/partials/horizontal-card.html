@@ -1,0 +1,60 @@
+{{- $borderClass := "hx-mt-8 hx-border-t" -}}
+
+{{- $pages := partial "utils/sort-pages" (dict "page" . "by"
+site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
+
+{{/*  {{- $seriesTitle := .seriesTitle -}}  */}}
+
+
+{{/*  {{- range where $pages "Params.series" "intersect" (slice "Mathematics") }}  */}}
+{{/*  {{- range where $pages "Params.series" "intersect" (slice $seriesTitle) }}  */}}
+{{/*  {{- range $pages }}  */}}
+{{/*  <h3>{{ .seriesTitle }}</h3>
+<li class="carousel__item">
+  <a href="{{ .RelPermalink }}" class="carousel__link">
+    {{- if .Params.image }}
+    <img
+      src="{{ .Params.image }}"
+      alt="{{ .Title }}"
+      class="carousel__image"
+    />
+    {{- else }}
+    <img
+      src="https://via.placeholder.com/150"
+      alt="Placeholder Image"
+      class="carousel__image"
+    />
+    {{- end }}
+    <div class="carousel__description">
+      <h3 class="carousel__title">{{ .Title }}</h3>
+    </div>
+  </a>
+</li>  */}}
+{{/*  {{- end }}  */}}
+ {{/*  {{- end }}  */}}
+
+
+ {{- $subPages := .Pages -}} <!-- Get all subpages of the current page -->
+
+ {{- range $subPages }}
+ <li class="carousel__item">
+   <a href="{{ .RelPermalink }}" class="carousel__link">
+     {{- if .Params.image }}
+     <img
+       src="{{ .Params.image }}"
+       alt="{{ .Title }}"
+       class="carousel__image"
+     />
+     {{- else }}
+     <img
+       src="https://via.placeholder.com/150"
+       alt="Placeholder Image"
+       class="carousel__image"
+     />
+     {{- end }}
+     <div class="carousel__description">
+       <h3 class="carousel__title">{{ .Title }}</h3>
+     </div>
+   </a>
+ </li>
+ {{- end }}

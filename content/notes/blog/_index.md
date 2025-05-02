@@ -1,5 +1,5 @@
 ---
-title: Mathematics
+title: Notes Blog
 type: docs
 date: 2020-01-01
 image: "/images/orange.jpg"
@@ -9,7 +9,8 @@ tags:
   - Guide
 excludeSearch: false
 cascade:
- series: ["Mathematics"]
+ series: ["Notes Blog"]
+
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.

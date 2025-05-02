@@ -1,19 +1,13 @@
 ---
-title: Notes Blogs
+title: ABC Syntax Guide
 date: 2020-01-01
-image: "/images/green.jpg"
-authors:
-  - name: imfing
-    link: https://github.com/imfing
-    image: https://github.com/imfing.png
-  - name: Octocat
-    link: https://github.com/octocat
-    image: https://github.com/octocat.png
+image: "/images/abstract-1.jpg"
 tags:
   - Markdown
   - Example
-  - Guide 
+  - Guide
 excludeSearch: false
+
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.

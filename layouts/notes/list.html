@@ -1,13 +1,15 @@
 {{ define "main" }} {{- $readMore := (T "readMore") | default "Read here →" -}}
+{{- $borderClass := "hx-mt-8 hx-border-t" -}}
+
 <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
   {{/*  {{ partial "toc.html" . }}  */}}
-  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+  {{/*  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}  */}}
   {{/*  {{ partial "toc.html" . }}  */}}
   <article
     class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]"
   >
   {{/*  hx-max-w-6xl  */}}
-    <main class="hx-w-full hx-min-w-0  hx-px-6 hx-pt-4 md:hx-px-12">
+    <main class="hx-w-full hx-max-w-6xl hx-min-w-0  hx-px-6 hx-pt-4 md:hx-px-12">
       <br class="hx-mt-1.5 hx-text-sm" />
       {{ if .Title }}
       <h1
@@ -16,14 +18,16 @@
         {{ .Title }}
       </h1>
       {{ end }}
-      {{/*  <div class="content">{{ .Content }}</div>  */}}
-     <div class="notes-blogs-wrapper">
+      <div class="content">{{ .Content }}</div>
+      <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
+
+     {{/*  <div class="notes-blogs-wrapper">
       {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
       site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
       {{- range  $pages }}
       <div class="hx-mb-10 notes-blog-card hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-700 dark:hover:hx-border-neutral-500">
         <div class="notes-blog-card-banner">
-          {{/*  <p class="blog-category-tag popular">Popular</p>  */}}
+          <p class="blog-category-tag popular">Popular</p>
         <a href="{{ .RelPermalink }}" >
         <img 
         src={{ .Params.image }}
@@ -40,13 +44,13 @@
           >{{ .Title }}</a
           >
         </h3>
-        {{/*  {{- if site.Params.blog.list.displayTags -}} {{ with .Params.tags }}
+        {{- if site.Params.blog.list.displayTags -}} {{ with .Params.tags }}
         <p class="mona-sans hx-text-sm hx-leading-7 notes-blog-tags">
           {{- range . }}<a class="hx-inline-block hx-mr-2 notes-blog-tag">{{ . }}</a>{{ end
           -}}
         </p>
         {{ end -}}
-        {{- end -}}  */}}
+        {{- end -}}
         <a href="{{ .RelPermalink }}" >
           <p class="hx-opacity-80  hx-leading-7 notes-blog-description">
             {{- partial "utils/page-description" . -}}
@@ -59,20 +63,16 @@
         </p>
         {{ end -}}
         {{- end -}}
-      </div>
-        {{/*  <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
-          <a
-            class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font"
-            href="{{ .RelPermalink }}"
-          >
-            {{- $readMore -}}
-          </a>
-        </p>  */}}
+          </div>
       </div>
       {{ end -}}
-    </div>
-    </main>
-  </article>
-  <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
+    </div>  */}}
+
+
+    {{ partial "horizontal-cards" . }}
+ 
+  </main>
+</article>
+<div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
 </div>
 {{- end -}}
