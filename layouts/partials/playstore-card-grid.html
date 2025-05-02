@@ -1,0 +1,326 @@
+{{- $borderClass := "hx-mt-8 hx-border-t" -}} {{- $pages := partial
+"utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "weight"
+site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
+.Params.Title -}}
+<div class="section-container">
+  <div class="section-header">
+    <a href="{{ .RelPermalink }}" class="section-link">
+      <h2 class="section-title">{{ $title }} &#8594;</h2>
+    </a>
+    {{/*
+    <div class="section-tags">
+      <a href="/tags/" class="section-tag">View All</a>
+    </div>
+    */}}
+    <div class="section-controls">
+      <button
+        class="arrow-prev"
+        aria-label="Previous"
+        onclick="scrollHorizontally(card-grid-container, -1)"
+      >
+        &#8249;
+      </button>
+      <button
+        class="arrow-next"
+        aria-label="Next"
+        onclick="scrollHorizontally(card-grid-container, 1)"
+      >
+        &#8250;
+      </button>
+    </div>
+  </div>
+  {{/*
+  <h2 class="section-title">{{ $title }}</h2>
+  <button
+    class="scroll-button left"
+    onclick="scrollHorizontally(this.parentNode, -1)"
+  >
+    &#8249;
+  </button>
+  */}}
+  <div class="card-grid-container">
+    {{- $subPages := .Pages -}}
+    <!-- Get all subpages of the current page -->
+    {{- range $subPages }}
+    <div class="card">
+      <div class="card-image-container">
+        {{- if .Params.image }}
+        <img class="card-image" src="{{ .Params.image }}" alt="{{ .Title }}" />
+        {{- else }}
+        <img
+          class="card-image"
+          src="https://via.placeholder.com/300/abcdef/ffffff?Text=Placeholder%20Image"
+          alt="Placeholder Image"
+        />
+        {{- end }}
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">{{ .Title }}</h3>
+        <p class="card-subtitle">Developer Name</p>
+      </div>
+    </div>
+    {{- end }}
+    <div class="card">
+      <div class="card-image-container">
+        <img
+          class="card-image"
+          src="https://via.placeholder.com/300/fedcba/ffffff?Text=Game%20Icon"
+          alt="Game Icon"
+        />
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Fun Game 2</h3>
+        <p class="card-subtitle">Publisher Inc.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image-container">
+        <img
+          class="card-image"
+          src="https://via.placeholder.com/300/aabbcc/ffffff?Text=Another%20App"
+          alt="Another App"
+        />
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Cool Utility 3</h3>
+        <p class="card-subtitle">Amazing Studio</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image-container">
+        <img
+          class="card-image"
+          src="https://via.placeholder.com/300/ddeeff/ffffff?Text=Puzzle%20Game"
+          alt="Puzzle Game"
+        />
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Brain Teaser 4</h3>
+        <p class="card-subtitle">Indie Devs</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image-container">
+        <img
+          class="card-image"
+          src="https://via.placeholder.com/300/ccbbaa/ffffff?Text=Music%20App"
+          alt="Music App"
+        />
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Melody Maker 5</h3>
+        <p class="card-subtitle">Sound Innovations</p>
+      </div>
+    </div>
+    {{/*
+    <button
+      class="scroll-button right"
+      onclick="scrollHorizontally(this.parentNode, 1)"
+    >
+      &#8250;
+    </button>
+    */}}
+  </div>
+</div>
+{{ end -}}
+
+<style>
+.section-container {
+    margin: 32px 0; /* Elegant spacing between sections */
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Balanced horizontal padding */
+}
+
+.section-title {
+    position: relative;
+    padding: 0 20px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #202124; /* Dark grey text */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.section-title:hover {
+    color: #1a73e8; /* Subtle hover effect */
+}
+
+.section-title::after {
+    content: "→";
+    position: absolute;
+    right: -24px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateX(-10px);
+    color: #5f6368; /* Medium grey text */
+}
+
+.section-title:hover::after {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.section-controls {
+    display: flex;
+    align-items: center;
+}
+
+.section-controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 28px; /* Adjusted size for elegance */
+    color: #5f6368; /* Medium grey text */
+    margin: 0 12px; /* Balanced spacing between arrows */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.section-controls button:hover {
+    color: #1a73e8; /* Highlight on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.card-grid-container {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0 0; /* Balanced horizontal padding */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.card-grid-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 12px; /* Softer corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elegant shadow */
+    margin: 12px;
+    width: 180px; /* Slightly larger card width */
+    flex-shrink: 0;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
+}
+
+.card:first-child {
+    margin-left: 20px;
+}
+
+.card:last-child {
+    margin-right: 20px;
+}
+
+.card-image-container {
+    width: 100%;
+    height: 180px; /* Adjusted image height */
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image fills the container */
+    display: block;
+}
+
+.card-content {
+    padding: 16px; /* More spacious content padding */
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #202124;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: #5f6368; /* Medium grey text */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+  html[class~="dark"] {
+    .section-title {
+      color: #e0e0e0; /* Light text for section titles */
+    }
+
+    .card {
+      background-color: #1e1e1e; /* Dark card background */
+      box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1); /* Light shadow */
+    }
+
+    .card-title {
+      color: #ffffff; /* White text for card titles */
+    }
+
+    .card-subtitle {
+      color: #b0b0b0; /* Light grey text for subtitles */
+    }
+
+    .scroll-button {
+      background-color: rgba(
+        255,
+        255,
+        255,
+        0.3
+      ); /* Light background for buttons */
+      color: #000000; /* Dark text for buttons */
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Select all card grid containers
+    const cardGridContainers = document.querySelectorAll(
+      ".card-grid-container"
+    );
+
+    cardGridContainers.forEach((container) => {
+      // Find the corresponding buttons within the same section
+      const prevButton = container
+        .closest(".section-container")
+        .querySelector(".arrow-prev");
+      const nextButton = container
+        .closest(".section-container")
+        .querySelector(".arrow-next");
+
+      const scrollAmount = container.querySelector(".card").offsetWidth * 2; // Adjust scroll amount based on card width
+
+      // Add click event for the previous button
+      prevButton.addEventListener("click", function () {
+        container.scrollBy({
+          left: -scrollAmount,
+          behavior: "smooth",
+        });
+      });
+
+      // Add click event for the next button
+      nextButton.addEventListener("click", function () {
+        container.scrollBy({
+          left: scrollAmount,
+          behavior: "smooth",
+        });
+      });
+    });
+  });
+</script>
