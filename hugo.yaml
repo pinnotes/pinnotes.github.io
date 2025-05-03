@@ -13,9 +13,9 @@ enableRobotsTXT: true
 enableEmoji: true
 hasCJKLanguage: true
 
-# services:
-#   googleAnalytics:
-#     ID: G-MEASUREMENT_ID
+services:
+ googleAnalytics:
+    ID: G-4VREMGGN3N
 
 taxonomies:
   tag: tags
