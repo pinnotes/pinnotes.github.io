@@ -1,9 +1,18 @@
 <div class="hugo-tags-bar-container">
     <div class="hugo-tags-bar">
-        {{/*  <span class="hugo-tag active">All</span>  */}}
-        <a href="../" class="hugo-tag active">All</a>
+        {{ $isAllActive := eq .Page.RelPermalink "/blog/" }}
+        {{ if $isAllActive }}
+            <span class="hugo-tag active">All</span>
+        {{ else }}
+            <a href="/blog/" class="hugo-tag">All</a>
+        {{ end }}
         {{ range .Site.Taxonomies.tags.Alphabetical }}
+        {{ $isActive := eq .Page.Permalink $.Page.Permalink }}
+        {{ if $isActive }}
+            <span class="hugo-tag active">{{ .Name }}</span>
+        {{ else }}
             <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
+        {{ end }}
         {{ end }}
     </div>
 </div>
@@ -113,7 +122,7 @@
     }
 </style>
 
-<script>
+{{/*  <script>
     const hugoTagsBar = document.querySelector('.hugo-tags-bar');
     const tags = hugoTagsBar.querySelectorAll('.hugo-tag');
     let currentActiveTag = tags[0]; // Initially set 'All' as active
@@ -136,8 +145,8 @@
                 window.location.href = this.getAttribute('href');
             } else {
                 // Handle the 'All' case (e.g., go back to the homepage or show all content)
-                window.location.href = '/'; // Or your desired "All" page
+                window.location.href = '/blog/'; // Or your desired "All" page
             }
         });
     });
-</script>
+</script>  */}}

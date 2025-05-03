@@ -5,22 +5,18 @@
         {{ index .Params.series 0 }} - {{ i18n "article.part_of_series" }}
     </summary>
     {{ $seriesName := strings.ToLower (index .Params.series 0) }}
-    {{ range $post := sort (index .Site.Taxonomies.series $seriesName) "Params.series_order" }}
+    {{ range $num,$post := sort (index .Site.Taxonomies.series $seriesName) "Params.series_order" }}
     {{ if eq $post.Permalink $.Page.Permalink }}
     <div
         class="series-list-item active">
-        {{ i18n "article.part" }} {{ $post.Params.series_order }}: {{ i18n "article.this_article" }}
+        {{/*  {{ i18n "article.part" }} {{ $post.Params.series_order }}: {{ i18n "article.this_article" }}  */}}
+        {{ i18n "article.part" }} {{ add $num 1 }}: {{ i18n "article.this_article" }}
     </div>
     {{ else }}
     <div
         class="series-list-item">
         <a href="{{$post.RelPermalink}}" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
-            {{/*  {{ if eq $post.Params.series_order 1 }}
-            {{ i18n "article.part" }}: {{ $post.Params.title}}
-            {{ else }}
-            {{ i18n "article.part" }} {{ $post.Params.series_order }}: {{ $post.Params.title}}
-            {{ end }}  */}}
-            {{ i18n "article.part" }} {{ $post.Params.series_order }}: {{ $post.Params.title}}
+            {{ i18n "article.part" }} {{ add $num 1 }}: {{ $post.Params.title}}
         </a>
     </div>
     {{end}}

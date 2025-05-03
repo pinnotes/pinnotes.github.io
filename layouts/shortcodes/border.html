@@ -1,0 +1,149 @@
+{{- $type := .Get "type" | default "basic" -}} {{- $title := .Get "title" -}}
+{{- $content := .InnerDeindent | markdownify -}} {{ if eq $type "tip" }}
+<details class="border-card border-card-{{ $type }}">
+  <summary class="border-card-header">
+    {{ if $title }}
+    <h3 class="header-title">{{ $title }}</h3>
+    {{ else }}
+    <h3 class="header-title">Tip</h3>
+    {{ end }}
+    <button class="dropdown-toggle" aria-expanded="false">▼</button>
+  </summary>
+  <div class="border-card-content">{{ $content }}</div>
+</details>
+{{ else }}
+<div class="border-card border-card-{{ $type }}">
+  {{ if $title }}
+  <div class="border-card-header">
+    <h3 class="header-title">{{ $title }}</h3>
+  </div>
+  {{ end }}
+  <div class="border-card-content">{{ $content }}</div>
+</div>
+{{ end }}
+
+<style>
+  /* Base styles for the border card */
+  .border-card {
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Header styles */
+  .border-card-header {
+    padding: 8px;
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+.header-title {
+    font-size: 1.25rem;
+    margin: 0;
+    color: inherit;
+}
+
+  /* Styles for different types */
+  .border-card-basic {
+    border: 2px solid #4caf50;
+  }
+
+  .border-card-question {
+    border: 2px solid #2196f3;
+    background-color: #e3f2fd;
+  }
+
+  .border-card-answer {
+    border: 2px solid #ff9800;
+    background-color: #fff3e0;
+  }
+
+  .border-card-tip {
+    border: 2px dashed #8bc34a;
+    background-color: #f1f8e9;
+  }
+
+  .border-card-conclusion {
+    border: 2px solid #9c27b0;
+    background-color: #f3e5f5;
+  }
+
+  .border-card-bonus {
+    border: 2px dotted #ffc107;
+    background-color: #fff8e1;
+  }
+
+  /* Details and summary styles */
+  details.border-card {
+    border: 2px dashed #8bc34a;
+    background-color: #f1f8e9;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  details.border-card summary {
+    list-style: none;
+    padding: 16px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  details.border-card summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details.border-card[open] {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  details.border-card .border-card-content {
+    padding: 16px;
+    border-top: 1px dashed #8bc34a;
+  }
+
+  /* Dark mode styles */
+  html:is([class~="dark"]) {
+    .border-card {
+      color: #e0e0e0;
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    .border-card {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .border-card-basic {
+      border: 2px solid #81c784;
+    }
+
+    .border-card-question {
+      border: 2px solid #64b5f6;
+      background-color: #1e293b;
+    }
+
+    .border-card-answer {
+      border: 2px solid #ffb74d;
+      background-color: #3e2723;
+    }
+
+    .border-card-tip {
+      border: 2px dashed #aed581;
+      background-color: #2a3b2a;
+    }
+
+    .border-card-conclusion {
+      border: 2px solid #ba68c8;
+      background-color: #3a2a3b;
+    }
+
+    .border-card-bonus {
+      border: 2px dotted #ffd54f;
+      background-color: #3b2a1e;
+    }
+
+
+  }
+</style>

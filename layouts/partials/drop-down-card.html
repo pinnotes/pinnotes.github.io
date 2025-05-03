@@ -1,0 +1,145 @@
+<div class="card">
+  <h3>Product Options</h3>
+  <p>Select an option to view more details.</p>
+  <div class="dropdown-container">
+    <label for="options" class="dropdown-label">Choose an Option:</label>
+    <div class="custom-select">
+      <select id="options" name="options">
+        <option value="">-- Select --</option>
+        <option value="option1">Option One</option>
+        <option value="option2">Option Two</option>
+        <option value="option3">Option Three</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="details-container" style="margin-top: 15px"></div>
+</div>
+
+<style>
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .dropdown-container {
+    margin-top: 10px;
+  }
+
+  .dropdown-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .custom-select {
+    position: relative;
+    width: 100%;
+  }
+
+  .custom-select select {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .custom-select::after {
+    content: "\25BC"; /* Down arrow character */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #777;
+  }
+
+  .details-summary-container {
+    margin-top: 15px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    overflow: hidden; /* To hide the details initially */
+  }
+
+  .details-summary-container summary {
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    outline: none; /* Remove default focus outline */
+  }
+
+  .details-summary-container summary::-webkit-details-marker {
+    display: none; /* Hide default marker in Chrome/Safari */
+  }
+
+  .details-summary-container summary::before {
+    content: "\25BE"; /* Down arrow */
+    display: inline-block;
+    margin-right: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .details-summary-container[open] summary::before {
+    transform: rotate(180deg); /* Rotate arrow when open */
+  }
+
+  .details-content {
+    padding: 10px;
+    border-top: 1px solid #eee;
+  }
+</style>
+
+<script>
+  const optionsDropdown = document.getElementById("options");
+  const detailsContainer = document.getElementById("details-container");
+
+  optionsDropdown.addEventListener("change", function () {
+    const selectedOption = this.value;
+    detailsContainer.innerHTML = ""; // Clear previous details
+
+    if (selectedOption === "option1") {
+      detailsContainer.innerHTML = `
+          <div class="details-summary-container">
+            <summary>Details for Option One</summary>
+            <div class="details-content">
+              <p>This is the detailed information for Option One. It includes specific features, specifications, and other relevant data.</p>
+              <ul>
+                <li>Feature A: Description of Feature A</li>
+                <li>Feature B: Description of Feature B</li>
+              </ul>
+            </div>
+          </div>
+        `;
+    } else if (selectedOption === "option2") {
+      detailsContainer.innerHTML = `
+          <div class="details-summary-container">
+            <summary>Summary of Option Two</summary>
+            <div class="details-content">
+              <p>Here's a summary of Option Two. It provides a brief overview of what this option entails.</p>
+              <p>Key point 1: Explanation.</p>
+              <p>Key point 2: Further details.</p>
+            </div>
+          </div>
+        `;
+    } else if (selectedOption === "option3") {
+      detailsContainer.innerHTML = `
+          <div class="details-summary-container">
+            <summary>More Info on Option Three</summary>
+            <div class="details-content">
+              <p>This section provides additional information about Option Three.</p>
+              <ol>
+    <li>Step 1: Instruction for step 1</li>
+              <li>Step 2: Instruction for step 2</li>
+            </ol>
+          </div>
+        </div>
+        `;
+    }
+  });
+</script>

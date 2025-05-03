@@ -1,0 +1,33 @@
+{{ define "main" }} {{- $readMore := (T "readMore") | default "Read here →" -}}
+{{- $borderClass := "hx-mt-8 hx-border-t" -}}
+
+<div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+  {{/*  {{ partial "toc.html" . }}  */}}
+  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+  {{/*  {{ partial "toc.html" . }}  */}}
+  <article
+    class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]"
+  >
+  {{/*  hx-max-w-6xl hx-px-6 */}}
+    <main class="hx-w-full hx-max-w-6xl hx-min-w-0   hx-pt-4 md:hx-px-12">
+      <br class="hx-mt-1.5 hx-text-sm" />
+      {{ if .Title }}
+      <h1
+        class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100"
+      >
+        {{ .Title }}
+      </h1>
+      {{ end }}
+      <div class="content  hx-px-6 ">{{ .Content }}</div>
+      {{/*  <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">  */}}
+
+    
+    {{ partial "cards/cards.html" . }}       
+    
+ 
+ 
+  </main>
+</article>
+<div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
+</div>
+{{- end -}}

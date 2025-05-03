@@ -1,6 +1,5 @@
 ---
 title: Mathematics
-type: docs
 date: 2020-01-01
 image: "/images/orange.jpg"
 tags:
@@ -8,8 +7,10 @@ tags:
   - Example
   - Guide
 excludeSearch: false
+type: cards
 cascade:
  series: ["Mathematics"]
+
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.

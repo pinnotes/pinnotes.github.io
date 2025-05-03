@@ -5,6 +5,8 @@ prev: /assignments/
 next: /week-1
 sidebar:
   open: true
+cascade:
+ type: notes
 ---
 
 Explore the following sections to learn how to use Hextra:

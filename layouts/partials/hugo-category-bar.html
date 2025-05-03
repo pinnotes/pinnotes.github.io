@@ -1,10 +1,35 @@
 <div class="hugo-tags-bar-container">
     <div class="hugo-tags-bar">
         {{/*  <span class="hugo-tag active">All</span>  */}}
-        <a href="../" class="hugo-tag active">All</a>
-        {{ range .Site.Taxonomies.categories.Alphabetical }}
-            <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
+        {{/*  <a href="/exercises/" class="hugo-tag active">All</a>  */}}
+        {{ $isAllActive := eq .Page.RelPermalink "/exercises/" }}
+        {{ if $isAllActive }}
+            <span class="hugo-tag active">All</span>
+        {{ else }}
+            <a href="/exercises/" class="hugo-tag">All</a>
         {{ end }}
+        {{ range .Site.Taxonomies.categories.Alphabetical }}
+            {{ $isActive := eq .Page.Permalink $.Page.Permalink }}
+            {{ if $isActive }}
+                <span class="hugo-tag active">{{ .Name }}</span>
+            {{ else }}
+                <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
+            {{ end }}
+        {{ end }}
+     
+{{/*  
+        {{ range .Site.Taxonomies.tags.Alphabetical }}
+        {{ if eq .Page.Section "exercises" }}
+            {{ $isActive := eq .Page.Permalink $.Page.Permalink }}
+            {{ if $isActive }}
+                <span class="hugo-tag active">{{ .Name }}</span>
+            {{ else }}
+                <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
+            {{ end }}
+            
+        {{ end }}
+            <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
+        {{ end }}  */}}
     </div>
 </div>
 
@@ -113,31 +138,4 @@
     }
 </style>
 
-<script>
-    const hugoTagsBar = document.querySelector('.hugo-tags-bar');
-    const tags = hugoTagsBar.querySelectorAll('.hugo-tag');
-    let currentActiveTag = tags[0]; // Initially set 'All' as active
 
-    tags.forEach(tag => {
-        tag.addEventListener('click', function(event) {
-            // Prevent default link behavior for our styling
-            event.preventDefault();
-
-            // Remove active class from the previously active tag
-            if (currentActiveTag) {
-                currentActiveTag.classList.remove('active');
-            }
-            // Add active class to the clicked tag
-            this.classList.add('active');
-            currentActiveTag = this;
-
-            // Navigate to the tag page (if it's not the 'All' tag)
-            if (this.textContent !== 'All') {
-                window.location.href = this.getAttribute('href');
-            } else {
-                // Handle the 'All' case (e.g., go back to the homepage or show all content)
-                window.location.href = '/'; // Or your desired "All" page
-            }
-        });
-    });
-</script>
