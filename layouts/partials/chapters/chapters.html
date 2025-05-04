@@ -2,18 +2,51 @@
   <ul>
     {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
     site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
-    {{- range $pages }}
-     {{ if .Title}}
+    {{- range $pages }} {{ if .Title}}
     <a href="{{ .RelPermalink }}">
       <li class="chapter-item">
+        {{- $img := (.Resources.ByType "image").GetMatch "*feature*" -}} {{- if
+        $img -}}
+        <img
+          class="chapter-image"
+          src="{{ $img.RelPermalink }}"
+          alt="{{ .Title }}"
+          loading="lazy"
+          width="100"
+          height="100"
+          style="border-radius: 8px; margin-right: 10px; float: left"
+        />
+        {{- end -}} {{- if .Params.image -}}
+        <img
+          class="chapter-image"
+          src="{{ .Params.image }}"
+          alt="{{ .Title }}"
+          loading="lazy"
+          width="100"
+          height="100"
+          style="border-radius: 8px; margin-right: 10px; float: left"
+        />
+        {{- end -}} {{- if .Params.icon -}}
+        <img
+          class="chapter-image"
+          src="{{ .Params.icon }}"
+          alt="{{ .Title }}"
+          loading="lazy"
+          width="100"
+          height="100"
+          style="border-radius: 8px; margin-right: 10px; float: left"
+        />
+        {{- end -}} {{ if .Params.emoji}}
+        <span class="chapter-emoji">{{ .Params.emoji }}</span>
+        {{ end -}}
+
         <h2 class="chapter-title">{{ .Title }}</h2>
         <p class="chapter-description">
           {{- partial "utils/page-description" . -}}
         </p>
       </li>
     </a>
-    {{ end -}} 
-    {{- end -}}
+    {{ end -}} {{- end -}}
   </ul>
 </div>
 
@@ -42,6 +75,19 @@
     cursor: pointer;
   }
 
+  .chapter-emoji {
+    position: absolute;
+
+    left: -12px;
+    transform: translateY(-100%);
+    font-size: 24px;
+    z-index: 1;
+  }
+
+  .chapter-item {
+    position: relative;
+  }
+
   .chapter-title {
     font-weight: bold;
     margin: 0 0 5px;
@@ -65,7 +111,7 @@
 
   html[class~="dark"] {
     .chapter-item {
-      color: #f0f0f0;
+      color: #ffffff;
       background-color: #1e293b;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     }
@@ -75,11 +121,11 @@
     }
 
     .chapter-title {
-      color: #e0e0e0;
+      color: #ffffff;
     }
 
     .chapter-description {
-      color: #b0b0b0;
+      color: #dddddd;
     }
   }
 </style>

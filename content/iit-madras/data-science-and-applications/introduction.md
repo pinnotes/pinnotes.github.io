@@ -7,6 +7,7 @@ description: "All the partials available in Blowfish."
 summary: ""
 slug: 'Introduction 🔥'
 linkTitle: Introduction 🔥
+emoji: 💫
 authors:
   - name: imfing
     link: https://github.com/imfing
@@ -25,7 +26,7 @@ width: nomral
 type: docs
 ---
 
-## A) Data Science & Applications
+## A) Data Science 🧠
 
  `IIT Madras` has launched the BS in `Data Science and Applications`. In this program, the course
  contents are delivered online and can be studied by anyone from anywhere, while the monthly

@@ -1,5 +1,6 @@
 ---
 title: Courses in the programme 🔥
+emoji: 📈
 date: 2020-01-01
 draft: false
 weight: 3

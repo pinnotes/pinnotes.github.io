@@ -7,7 +7,7 @@
     {{ else }}
     <h3 class="header-title">Tip</h3>
     {{ end }}
-    <button class="dropdown-toggle" aria-expanded="false">▼</button>
+    <span class="dropdown-toggle" aria-expanded="true"> </span>
   </summary>
   <div class="border-card-content">{{ $content }}</div>
 </details>
@@ -35,11 +35,11 @@
   .border-card-header {
     font-weight: bold;
   }
-.header-title {
+  .header-title {
     font-size: 1.25rem;
     margin: 0;
     color: inherit;
-}
+  }
 
   /* Styles for different types */
   .border-card-basic {
@@ -102,6 +102,35 @@
     border-top: 1px dashed #8bc34a;
   }
 
+  /* Animation for dropdown toggle */
+  .dropdown-toggle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #8bc34a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+
+  .dropdown-toggle::before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+  }
+
+  details[open] .dropdown-toggle::before {
+    transform: rotate(-135deg);
+  }
+
+
+
   /* Dark mode styles */
   html:is([class~="dark"]) {
     .border-card {
@@ -140,7 +169,5 @@
       border: 2px dotted #ffc107;
       background-color: #3e2723;
     }
-
-
   }
 </style>
