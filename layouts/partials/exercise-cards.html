@@ -1,0 +1,142 @@
+<div class="blogs-wrapper">
+  {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
+  site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}} 
+  {{- range $pages }}
+  <div class="blog-card hx-mb-10">
+    <h3>
+      <a
+        style="color: inherit; text-decoration: none"
+        class="blog-card-title hx-block hx-font-semibold hx-text-2xl"
+        href="{{ .RelPermalink }}"
+        >{{ .Title }}</a
+      >
+    </h3>
+    <a href="{{ .RelPermalink }}">
+      <p
+        class="blog-card-description hx-opacity-80 hx-mt-2 hx-leading-7 mathjax-content"
+      >
+        {{- partial "utils/page-description" . -}}
+      </p>
+    </a>
+    {{- if site.Params.blog.list.displayTags -}} {{with .GetTerms "categories"}}
+    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+      {{- range . }}
+      <a
+        class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
+        href="{{.RelPermalink}}"
+        >#{{ .Name }}</a>
+      {{ end -}}
+    </p>
+    {{ end -}} 
+    {{- end -}} 
+  </div>
+  {{ end -}}
+</div>
+
+<style>
+  .blog-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .blog-card-title {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .blog-card-title:hover {
+    color: #007acc;
+  }
+
+  .blog-card-tags {
+    margin-top: 0.5rem;
+  }
+
+  .blog-card-tag {
+    background-color: #e0e7ff;
+    color: #1e3a8a;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .blog-card-tag:hover {
+    background-color: #c7d2fe;
+    color: #1e40af;
+  }
+
+  .blog-card.description {
+    color: #555;
+    line-height: 1.6;
+  }
+
+  /* Dark mode styles */
+  html:is([class~="dark"], [class*="theme-dark"]) {
+    .blog-card {
+      background-color: #1e293b;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .blog-card:hover {
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .blog-card-title {
+      color: #e2e8f0;
+    }
+
+    .blog-card-title:hover {
+      color: #60a5fa;
+    }
+
+    .blog-card-tag {
+      background-color: #334155;
+      color: #93c5fd;
+    }
+
+    .blog-card-tag:hover {
+      background-color: #1e40af;
+      color: #bfdbfe;
+    }
+
+    .blog-card.description {
+      color: #cbd5e1;
+    }
+  }
+</style>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"],
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"],
+      ],
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
+    },
+  };
+</script>
+
+{{/* MathJax */}}
+<script
+  type="text/javascript"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>

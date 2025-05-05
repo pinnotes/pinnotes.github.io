@@ -104,12 +104,10 @@ body {
 body:is(html[class~="dark"] *) {
   --tw-bg-opacity: 1;
   /* background-color: rgb(13, 17, 23); */
-  background-color: rgb(21, 23, 26);
+  background-color: #15171a;
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
-
-
 
 /* Custom Navbar Styles  */
 
@@ -121,8 +119,7 @@ body:is(html[class~="dark"] *) {
 
 .nav-container:is(html[class~="dark"] *) {
   /* background-color: rgb(33, 40, 48); */
-  background-color: rgb(31, 35, 40);
-  background: rgb(31, 35, 40);
+  background-color: #15171a;
 }
 
 nav .search-wrapper {
@@ -585,6 +582,13 @@ nav .search-wrapper {
   margin: 1rem;
   transition: 250ms all ease-in-out;
   border-radius: 0.5rem;
+
+ .blog-card-title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
 }
 
 .blog-card-image {
