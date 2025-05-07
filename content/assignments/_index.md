@@ -3,8 +3,9 @@ date: '2025-03-21T13:46:34+05:30'
 draft: false
 title: 'Assignments'
 next: /statisctics/
+width: normal
 cascade:
- type: notes
+ width: normal
 ---
 
 Explore the following sections to learn how to use Hextra:

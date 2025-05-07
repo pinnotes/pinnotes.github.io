@@ -72,8 +72,9 @@
 
   .card-grid-container {
     position: relative;
-    overflow-x: auto;
-    white-space: nowrap;
+    display: flex;                                          
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: center; /* Center the cards */                 
     padding: 0 0; /* Balanced horizontal padding */
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -89,7 +90,7 @@
     border-radius: 12px; /* Softer corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elegant shadow */
     margin: 12px;
-    width: 180px; /* Slightly larger card width */
+    width: 250px; /* Slightly larger card width */
     flex-shrink: 0;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -98,14 +99,6 @@
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
-  }
-
-  .card:first-child {
-    margin-left: 20px;
-  }
-
-  .card:last-child {
-    margin-right: 20px;
   }
 
   .card-image-container {
@@ -174,5 +167,13 @@
       ); /* Light background for buttons */
       color: #000000; /* Dark text for buttons */
     }
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .card {
+      width: 300px; /* Full width on small screens */
+    }
+    
   }
 </style>

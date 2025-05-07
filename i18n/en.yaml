@@ -13,16 +13,16 @@ poweredBy: "Powered by Pinnotes"
 readMore: "Read more →"
 searchPlaceholder: "Search..."
 
-relatedArticles: "Related articles 📂🔥"
+relatedArticles: "Recommended Articles 📂🔥"
 
 
 article:
   related_articles: "Related 📂"
-  articles_from_same_series: "Similar Articles ⬇️"
+  articles_from_same_series: "Similar Articles "
   read_next: "Read next 🔗"
   read_more: "Read more →"
   this_article: "This article"
-  part_of_series: "Part of series"
+  part_of_series: "This article is part of a series."
   table_of_contents: "Table of contents 📚"
   zen_mode_title:
     enable: "Enable zen mode"

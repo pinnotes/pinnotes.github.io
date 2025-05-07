@@ -1,58 +1,160 @@
 <div class="blogs-wrapper">
-    {{ $imagePath := .Site.Params.blog.list.image | default "images/abc.jpg" }}
-    {{- $borderClass := "hx-mt-8 hx-border-t" -}}
-    {{ $readMore := (T "readMore") | default "Read here →" }}
-    {{ $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) }}
-
-  {{- range .Pages -}}
-  <div class=" blog-card hx-mb-10">
+  {{ $imagePath := .Site.Params.blog.list.image | default "images/abc.jpg" }}
+  {{- $borderClass := "hx-mt-8 hx-border-t" -}} {{ $readMore := (T "readMore") |
+  default "Read here →" }} {{ $pages := partial "utils/sort-pages" (dict "page"
+  . "by" site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder)
+  }} {{- range .Pages -}}
+  <div class="blog-card hx-mb-10">
     <div class="blog-card-image">
       {{ if .Params.image }}
-    <a href="{{ .RelPermalink }}" class="">
-      <img 
-      src={{ .Params.image }}
-       alt= {{ .Title }}
-       class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
+      <a href="{{ .RelPermalink }}" class="">
+        <img
+          src={{
+          .Params.image
+          }}
+          alt={{
+          .Title
+          }}
+          class="blog-card-thumb"
+          loading="lazy"
+          method="Resize"
+          options="600x q80 webp"
+        />
+      </a>
+      {{ else if .Params.svg }}
+      <a href="{{ .RelPermalink }}" class="">
+        <div class="svg-image">
+          <img src={{ .Params.icon }} alt="{{ .Title }}" class="icon">
+          {{/*  <h1 class="svg_image_title">{{ .Title }}</h1>  */}}
+          <span class="icon">{{ .Params.icon }}</span>
+        </div>
       </a>
       {{ else}}
-    <a href="{{ .RelPermalink }}" class="">
-      <img 
-      src="{{ $imagePath | relURL }}"
-       alt= {{ .Title }}
-       class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
+      <a href="{{ .RelPermalink }}" class="">
+        <img
+          src="{{ $imagePath | relURL }}"
+          alt={{
+          .Title
+          }}
+          class="blog-card-thumb"
+          loading="lazy"
+          method="Resize"
+          options="600x q80 webp"
+        />
       </a>
 
       {{ end }}
     </div>
-    <h3><a style="color: inherit; text-decoration: none;"
-       class=" blog-card-title hx-block hx-font-semibold hx-mt-4 hx-text-2xl "
-        href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    {{/*  {{- if site.Params.blog.list.displayTags -}}
-      {{ with .Params.tags }}
-        <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-          {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2" >#{{ . }}</a>{{ end -}}
-        </p>
-      {{ end -}}
-    {{- end -}}  */}}
+    <div class=" hx-mt-4"></div>
     {{- if site.Params.blog.list.displayTags -}}
-    {{with .GetTerms "tags"}}
-       <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-        {{- range . }}
-          <a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2" href="{{.RelPermalink}}"  >#{{ .Name }}</a>{{ end -}}
+    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+      <a
+        class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
+        href="{{.RelPermalink}}"
+        >{{ index .Params.tags 0 }}</a>
         </p>
-      {{ end -}}  
- {{- end -}}
-
-    <a href="{{ .RelPermalink }}">
-    <p class=" blog-card-description hx-opacity-80 hx-mt-2 hx-leading-7">
-      {{- partial "utils/page-description" . -}}</p>
-  </a>
-    <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
-      <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
-        {{- $readMore -}}
-      </a>
+    {{/*  {{with .GetTerms "tags"}}
+    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+      {{- range . }}
+      <a
+        class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
+        href="{{.RelPermalink}}"
+        >{{ .Name }}</a>
+      {{ end -}}
     </p>
-    <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
+    {{ end -}}  */}}
+     {{- end -}}
+    <h3>
+      <a
+        style="color: inherit; text-decoration: none"
+        class="blog-card-title hx-block hx-font-semibold hx-text-2xl"
+        href="{{ .RelPermalink }}"
+        >{{ .Title }}</a
+      >
+    </h3>
+    <a href="{{ .RelPermalink }}">
+      <p class="blog-card-description hx-opacity-80 hx-mt-2 hx-leading-7">
+        {{- partial "utils/page-description" . -}}
+      </p>
+    </a>
+    {{/* {{- if site.Params.blog.list.displayTags -}} {{ with .Params.tags }}
+    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+      {{- range . }}<a class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
+        >#{{ . }}</a
+      >{{ end -}}
+    </p>
+    {{ end -}} {{- end -}} */}} 
+
+    <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
+      <span class="hx-text-sm hx-text-neutral-500 dark:hx-text-neutral-400">
+        {{- $date := .Date.Format "January 2, 2006" -}}
+        {{- if eq .Params.dateFormat "long" -}}
+        {{- $date = .Date.Format "January 2, 2006" -}}
+        {{ end -}}
+        {{ $date }}
+        {{- if .Params.author -}}
+        {{- $author := .Params.author -}}
+        {{- if eq $author "true" -}}
+        {{- $author = .Site.Params.author -}}
+        {{ end -}}
+        {{- if $author -}}
+        <span class="hx-text-sm hx-text-neutral-500 dark:hx-text-neutral-400">
+          {{- $author -}}                     
+        </span>
+        {{ end -}}
+        {{- else -}}
+        {{- $author := .Params.author -}}
+        {{- if eq $author "true" -}}
+        {{- $author = .Site.Params.author -}}
+        {{ end -}}
+        {{- if $author -}}
+        <span class="hx-text-sm hx-text-neutral-500 dark:hx-text-neutral-400">
+          {{- $author -}}
+        {{ end -}}
+        {{ end -}}
+      </span>
+      {{/*  <a
+        class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font"
+        href="{{ .RelPermalink }}"
+      >
+        {{- $readMore -}}
+      </a>  */}}
+    </p>
+    
+    <hr
+      class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
+    />
   </div>
   {{- end -}}
 </div>
+
+<style>
+  .svg-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.5rem;
+    background: #0c232e;
+    background: linear-gradient(
+      90deg,
+      rgba(12, 35, 46, 1) 18%,
+      rgba(1, 1, 43, 1) 100%
+    );
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .svg_image_title {
+    text-transform: capitalize;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
+
+  .icon{
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+</style>

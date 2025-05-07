@@ -1,8 +1,12 @@
 <div class="chapter-list">
-  <ul>
-    {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
-    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
-    {{- range $pages }} {{ if .Title}}
+  <ul class="chapters_wrapper">
+    {{/*  {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
+    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}  */}}
+    {{/*  {{- range $pages }}  */}}
+    {{/*  {{ range $num,$post := partial "utils/sort-pages" (dict "page" . "by"
+    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) }}  */}}
+    {{ range $num, $page := .Pages }}
+      {{ if $page.Title }}
     <a href="{{ .RelPermalink }}">
       <li class="chapter-item">
         {{- $img := (.Resources.ByType "image").GetMatch "*feature*" -}} {{- if
@@ -40,7 +44,9 @@
         <span class="chapter-emoji">{{ .Params.emoji }}</span>
         {{ end -}}
 
-        <h2 class="chapter-title">{{ .Title }}</h2>
+        <h2 class="chapter-title"> 
+            <span class="gradient-text">{{ if lt (add $num 1) 10 }}0{{ end }}{{ add $num 1 }}</span> {{ .Title }}
+        </h2>
         <p class="chapter-description">
           {{- partial "utils/page-description" . -}}
         </p>
@@ -51,6 +57,23 @@
 </div>
 
 <style>
+
+  .chapters_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .gradient-text {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 .25rem;
+    list-style-type: decimal-leading-zero;
+  }
+
   .chapter-list {
     margin: 0 auto;
     margin-top: 40px;
@@ -80,7 +103,7 @@
 
     left: -12px;
     transform: translateY(-100%);
-    font-size: 24px;
+    font-size: 28px;
     z-index: 1;
   }
 
@@ -92,6 +115,7 @@
     font-weight: bold;
     margin: 0 0 5px;
     color: #333;
+    font-size: large;
   }
 
   .chapter-description {

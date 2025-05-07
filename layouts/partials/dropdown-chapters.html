@@ -1,0 +1,220 @@
+<div class="dropdown_section">
+  <div class="chapters_wrapper">
+    {{ range $num, $page := .Pages }}
+    <details class="chapter_name">
+      <summary class="chapter_header">
+        {{ if $page.Title }}
+        <h2 class="chapter_title">
+          <span class="chapter_icon">
+            {{ if eq $page.Type "chapter" }}📖{{ else if eq $page.Type "lesson"
+            }}📘{{ else if eq $page.Type "exercise" }}📝{{ else }}📓{{ end }} {{
+            .Title }}
+          </span>
+          {{/*
+          <span class="gradient_text">
+            {{ if lt (add $num 1) 10 }}{{ end }}{{ add $num 1 }}
+          </span>
+          */}}
+        </h2>
+        {{ end }}
+        <span class="dropdown-toggle" aria-expanded="true"> </span>
+      </summary>
+      <ul class="chapter_pages">
+        <li class="chapter_subtitle">
+          <span class="title">
+            <span class="title-arrow"> &#8250;</span>
+            Graded Assignments
+          </span>
+          <span class="icon">🧠</span>
+        </li>
+        {{ range .Pages }}
+        <li class="chapter_page">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <span>📙</span>
+        </li>
+        {{ end }}
+      </ul>
+    </details>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  .title-arrow {
+    font-size: 1.3rem;
+    rotate: 90deg;
+    text-transform: rotate(90deg);                  
+  }
+  .gradient_text {
+    background: linear-gradient(90deg, #001d3a, #2d96b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0.5rem 0 1rem;
+  }
+  .dropdown_section {
+    border: 3px solid #eee;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+
+  .chapters_wrapper {
+    overflow: hidden;
+  }
+
+  .chapter_name {
+    overflow: hidden;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 2px solid #eee;
+  }
+
+  .chapters_wrapper .chapter_name:last-child {
+    border-bottom: none;
+  }
+
+
+  .chapter_header {
+    padding: 10px 15px;
+    color: #181818;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .chapter_title {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .chapter_title h2 {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .chapter_description {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #1d1d1d;
+  }
+
+  .dropdown-toggle {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 50%;
+    background-color: #a5a5a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dropdown-toggle::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: solid #f8f9fa;
+    border-width: 2px 2px 0 0;
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease;
+  }
+
+  .chapter_name[open] .dropdown-toggle::before {
+    transform: rotate(135deg);
+  }
+
+  .chapter_name[open] .dropdown-toggle {
+  }
+
+  .chapter_pages {
+    padding: 15px 20px;
+    list-style: circle;
+    color: #181818;
+    font-weight: bold;
+    border-radius: 0 0 1rem 1rem;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+
+  .chapter_name[open] .chapter_pages {
+    max-height: 500px; /* Adjust based on expected content height */
+    opacity: 1;
+  }
+
+  .chapter_subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #444444;
+  }
+
+
+  .chapter_page {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .chapter_page a {
+    padding: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+
+  .chapter_page a:hover {
+    text-decoration: underline;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  html:is([class~="dark"]) {
+    .dropdown_section {
+      border-color: #2d96b6;
+      color: #f8f9fa;
+    }
+
+    .chapter_name {
+      border-bottom-color: #2d96b6;
+    }
+
+    .chapter_name[open] {
+      border-color: #2d96b6;
+    }
+
+    .chapter_title {
+      color: #f8f9fa;
+    }
+
+    .chapter_description {
+      color: #c7ebff;
+    }
+
+    .dropdown-toggle {
+      background-color: #2d96b6;
+    }
+
+    .dropdown-toggle::before {
+      border-color: #f8f9fa;
+    }
+
+    .chapter_pages {
+      color: #f8f9fa;
+    }
+
+    .chapter_page a {
+      color: #c7ebff;
+    }
+
+    .chapter_page a:hover {
+      color: #f8f9fa;
+      text-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+    }
+  }
+</style>

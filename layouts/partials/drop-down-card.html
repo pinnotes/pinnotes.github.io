@@ -1,145 +1,119 @@
-<div class="card">
-  <h3>Product Options</h3>
-  <p>Select an option to view more details.</p>
-  <div class="dropdown-container">
-    <label for="options" class="dropdown-label">Choose an Option:</label>
-    <div class="custom-select">
-      <select id="options" name="options">
-        <option value="">-- Select --</option>
-        <option value="option1">Option One</option>
-        <option value="option2">Option Two</option>
-        <option value="option3">Option Three</option>
-      </select>
+<div class="cards-wrapper">
+  {{ range .Pages }}
+  <div class="dropdown_card">
+    <div class="card-header">
+      <h3 class="card-title">{{ .Title }}</h3>
+      <span class="card-tag">{{ index .Params.tags 0 }}</span>
+    </div>
+    <div class="card-footer">
+      <details class="dropdown-details">
+        <summary class="dropdown-summary">More Options</summary>
+        <ul class="dropdown-list">
+          {{ range .Pages }}
+          <li class="dropdown-item">
+            <a href="{{ .Permalink }}">
+            {{ .Title }}
+            </a>
+              <span class="tag">{{ index .Params.tags 0 }}</span>
+            </li>
+          {{ end }}
+        </ul>
+      </details>
     </div>
   </div>
-
-  <div id="details-container" style="margin-top: 15px"></div>
+  {{ end }}
 </div>
 
 <style>
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 15px;
-    width: 300px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  .cards-wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center; /* Center cards horizontally */
   }
 
-  .dropdown-container {
-    margin-top: 10px;
-  }
-
-  .dropdown-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-
-  .custom-select {
-    position: relative;
-    width: 100%;
-  }
-
-  .custom-select select {
-    appearance: none;
-    background-color: #fff;
+  .dropdown_card {
     border: 1px solid #ddd;
-    border-radius: 3px;
-    padding: 8px;
+    border-radius: 8px;
     width: 100%;
-    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .custom-select::after {
-    content: "\25BC"; /* Down arrow character */
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    pointer-events: none;
-    color: #777;
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   }
 
-  .details-summary-container {
-    margin-top: 15px;
-    border: 1px solid #eee;
-    border-radius: 3px;
-    overflow: hidden; /* To hide the details initially */
+  .card-header {
+    padding: 16px;
+    margin-bottom: 12px;
   }
 
-  .details-summary-container summary {
-    padding: 10px;
-    background-color: #f9f9f9;
-    cursor: pointer;
-    outline: none; /* Remove default focus outline */
+  .card-title {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
   }
 
-  .details-summary-container summary::-webkit-details-marker {
-    display: none; /* Hide default marker in Chrome/Safari */
-  }
-
-  .details-summary-container summary::before {
-    content: "\25BE"; /* Down arrow */
+  .card-tag {
     display: inline-block;
-    margin-right: 8px;
-    transition: transform 0.3s ease-in-out;
+    background-color: #e0f7fa;
+    color: #00796b;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-top: 8px;
   }
 
-  .details-summary-container[open] summary::before {
-    transform: rotate(180deg); /* Rotate arrow when open */
+  .card-footer {
+    margin-top: 16px;
   }
 
-  .details-content {
-    padding: 10px;
-    border-top: 1px solid #eee;
+  .dropdown-details {
+    position: relative;
+  }
+
+  .dropdown-summary {
+    padding: 16px;
+
+    cursor: pointer;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: underline;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .dropdown-list {
+    margin: 0.5rem 0;
+    padding: 16px;
+    list-style: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+
+  .dropdown-details[open] .dropdown-list {
+    max-height: 200px; /* Adjust based on content */
+    opacity: 1;
+  }
+
+  .dropdown-item {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+
+  .dropdown-item a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .dropdown-item a:hover {
+    color: #007bff;
   }
 </style>
-
-<script>
-  const optionsDropdown = document.getElementById("options");
-  const detailsContainer = document.getElementById("details-container");
-
-  optionsDropdown.addEventListener("change", function () {
-    const selectedOption = this.value;
-    detailsContainer.innerHTML = ""; // Clear previous details
-
-    if (selectedOption === "option1") {
-      detailsContainer.innerHTML = `
-          <div class="details-summary-container">
-            <summary>Details for Option One</summary>
-            <div class="details-content">
-              <p>This is the detailed information for Option One. It includes specific features, specifications, and other relevant data.</p>
-              <ul>
-                <li>Feature A: Description of Feature A</li>
-                <li>Feature B: Description of Feature B</li>
-              </ul>
-            </div>
-          </div>
-        `;
-    } else if (selectedOption === "option2") {
-      detailsContainer.innerHTML = `
-          <div class="details-summary-container">
-            <summary>Summary of Option Two</summary>
-            <div class="details-content">
-              <p>Here's a summary of Option Two. It provides a brief overview of what this option entails.</p>
-              <p>Key point 1: Explanation.</p>
-              <p>Key point 2: Further details.</p>
-            </div>
-          </div>
-        `;
-    } else if (selectedOption === "option3") {
-      detailsContainer.innerHTML = `
-          <div class="details-summary-container">
-            <summary>More Info on Option Three</summary>
-            <div class="details-content">
-              <p>This section provides additional information about Option Three.</p>
-              <ol>
-    <li>Step 1: Instruction for step 1</li>
-              <li>Step 2: Instruction for step 2</li>
-            </ol>
-          </div>
-        </div>
-        `;
-    }
-  });
-</script>

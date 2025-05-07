@@ -9,6 +9,10 @@
           {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
           {{ .Content }}
         </div>
+        {{ partial "dropdown-chapters.html" . }}
+  
+        {{ partial "drop-down-card.html" . }}
+
         {{ partial "components/last-updated.html" . }}
         {{ partial "components/pager.html" . }}
         {{ partial "components/comments.html" . }}

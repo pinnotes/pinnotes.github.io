@@ -4,7 +4,7 @@ linkTitle: More chart.js in hugo
 description: How to add Chart JS in HUGO 🧑‍💻
 tags:
 - chart.js
-image: /images/tree.jpg
+image: /images/svg/bg.svg
 excludeSearch: false
 width: wide
 series: ["WEB-DEV"]

@@ -21,7 +21,7 @@ tags:
   - featured
 series: ["data-science-and-applications"]
 series_order: 1
-width: nomral
+width: normal
 type: chapters
 image: /images/green.jpg
 cascade:
