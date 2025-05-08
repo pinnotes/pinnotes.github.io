@@ -1,0 +1,124 @@
+<div class="hugo-tags-bar-container">
+    <div class="hugo-tags-bar">
+        {{ $isAllActive := eq .Page.RelPermalink "/series/" }}
+        {{ if $isAllActive }}
+            <span class="hugo-tag active">All</span>
+        {{ else }}
+            <a href="/series/" class="hugo-tag">All</a>
+        {{ end }}
+        {{ range .Site.Taxonomies.series.Alphabetical }}
+        {{ $isActive := eq .Page.Permalink $.Page.Permalink }}
+        {{ if $isActive }}
+            <span class="hugo-tag active">{{ .Name }}</span>
+        {{ else }}
+            <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+
+<style>
+
+    :root {
+    --before-light: rgb(226, 222, 222); /* Adjust this value to change the primary color hue */ 
+    --before-dark: #15171a; /* Adjust this value to change the primary color hue */ 
+
+    --color:var(--before-light); /* Adjust this value to change the primary color hue */
+    }
+
+    html[class~="dark"] {
+        --color: var(--before-dark); /* Adjust this value to change the primary color hue */
+    }
+
+
+    .hugo-tags-bar-container {
+        overflow-x: auto;
+        padding: 10px 0;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .hugo-tags-bar-container:is(html[class~="dark"] *) {
+        overflow-x: auto;
+        padding: 10px 0;
+        background-color: var(--color);
+        border-bottom: 1px solid #404040;
+    }
+
+    .hugo-tags-bar {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        justify-content: center;
+    }
+
+    @media screen and (max-width:1200px) {
+        .hugo-tags-bar {
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            justify-content: flex-start;
+        }
+       }
+
+    .hugo-tag {
+        background-color: #e0e0e0;
+        color: #333;
+        border-radius: 16px;
+        padding: 8px 16px;
+        margin-right: 8px;
+        font-size: 14px;
+        text-transform: capitalize;
+        cursor: pointer;
+        white-space: nowrap;
+        transition: background-color 0.3s ease;
+        border: 1px solid transparent;
+    }
+
+    .hugo-tag:is(html[class~="dark"] *) {
+        background-color: #292c33;
+        color: #d1d1d1;
+        border: 1px solid transparent;
+    }
+
+    .hugo-tag:hover {
+        background-color: #d0d0d0;
+        border-color: #ccc;
+    }
+
+    .hugo-tag:hover:is(html[class~="dark"] *) {
+        background-color: #303030;
+        border-color: #333333;
+    }
+
+    .hugo-tag.active {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .hugo-tag.active:is(html[class~="dark"] *) {
+        background-color: #ebebeb;
+        color: #2c2c2c;
+    }
+
+    .hugo-tags-bar-container::before,
+    .hugo-tags-bar-container::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 20px;
+        background: linear-gradient(to right, var(--color), transparent);
+        pointer-events: none;
+    }
+    
+    .hugo-tags-bar-container::after {
+        right: 0;
+        background: linear-gradient(to left, var(--color), transparent);
+    }
+
+    .hugo-tags-bar-container::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+    }
+</style>
+

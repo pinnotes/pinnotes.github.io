@@ -199,7 +199,7 @@ params:
     list:
       displayTags: true
       # date | lastmod | publishDate | title | weight
-      sortBy: date
+      sortBy: weight
       sortOrder: desc # or "asc"
       image: images/git.jpg
 

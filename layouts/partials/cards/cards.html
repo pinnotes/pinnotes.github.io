@@ -1,179 +1,179 @@
 <div class="card-grid-container">
-  {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
-  site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
-  {{- range $pages }}
-  <a href="{{ .RelPermalink }}">
-    <div class="card">
-      <div class="card-image-container">
-        {{- if .Params.image }}
-        <img class="card-image" src="{{ .Params.image }}" alt="{{ .Title }}" />
-        {{- else }}
-        <img
-          class="card-image"
-          src="https://via.placeholder.com/300/abcdef/ffffff?Text=Placeholder%20Image"
-          alt="Placeholder Image"
-        />
-        {{- end }}
+    {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
+    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
+    {{- range $pages }}
+    <a href="{{ .RelPermalink }}">
+      <div class="card">
+        <div class="card-image-container">
+          {{- if .Params.image }}
+          <img class="card-image" src="{{ .Params.image }}" alt="{{ .Title }}" />
+          {{- else }}
+          <img
+            class="card-image"
+            src="https://via.placeholder.com/300/abcdef/ffffff?Text=Placeholder%20Image"
+            alt="Placeholder Image"
+          />
+          {{- end }}
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">{{ .Title }}</h3>
+          <p class="card-subtitle">Developer Name</p>
+        </div>
       </div>
-      <div class="card-content">
-        <h3 class="card-title">{{ .Title }}</h3>
-        <p class="card-subtitle">Developer Name</p>
-      </div>
-    </div>
-  </a>
-  {{- end }}
-
-</div>
-
-<style>
-  .section-container {
-    margin: 32px 0; /* Elegant spacing between sections */
-  }
-
-  .section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px; /* Balanced horizontal padding */
-  }
-
-  .section-title {
-    position: relative;
-    font-size: 20px;
-    font-weight: bold;
-    color: #202124; /* Dark grey text */
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-
-  .section-title:hover {
-    color: #1a73e8; /* Subtle hover effect */
-  }
-
-  .section-controls {
-    display: flex;
-    align-items: center;
-  }
-
-  .section-controls button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 28px; /* Adjusted size for elegance */
-    color: #5f6368; /* Medium grey text */
-    margin: 0 12px; /* Balanced spacing between arrows */
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-
-  .section-controls button:hover {
-    color: #1a73e8; /* Highlight on hover */
-    transform: scale(1.1); /* Slight zoom effect */
-  }
-
-  .card-grid-container {
-    position: relative;
-    display: flex;                                          
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
-    justify-content: center; /* Center the cards */                 
-    padding: 0 0; /* Balanced horizontal padding */
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .card-grid-container::-webkit-scrollbar {
-    display: none;
-  }
-
-  .card {
-    display: inline-block;
-    background-color: #fff;
-    border-radius: 12px; /* Softer corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elegant shadow */
-    margin: 12px;
-    width: 250px; /* Slightly larger card width */
-    flex-shrink: 0;
-    overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
-  }
-
-  .card-image-container {
-    width: 100%;
-    height: 180px; /* Adjusted image height */
-    overflow: hidden;
-  }
-
-  .card-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure image fills the container */
-    display: block;
-  }
-
-  .card-content {
-    padding: 16px; /* More spacious content padding */
-  }
-
-  .card-title {
-    font-size: 16px;
-    font-weight: 600;
-    color: #202124;
-    margin-bottom: 6px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .card-subtitle {
-    font-size: 14px;
-    color: #5f6368; /* Medium grey text */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  html[class~="dark"] {
-    .section-title {
-      color: #e0e0e0; /* Light text for section titles */
+    </a>
+    {{- end }}
+  
+  </div>
+  
+  <style>
+    .section-container {
+      margin: 32px 0; /* Elegant spacing between sections */
     }
-
+  
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px; /* Balanced horizontal padding */
+    }
+  
+    .section-title {
+      position: relative;
+      font-size: 20px;
+      font-weight: bold;
+      color: #202124; /* Dark grey text */
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+  
     .section-title:hover {
       color: #1a73e8; /* Subtle hover effect */
     }
-
-    .card {
-      background-color: #1e1e1e; /* Dark card background */
-      box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1); /* Light shadow */
+  
+    .section-controls {
+      display: flex;
+      align-items: center;
     }
-
+  
+    .section-controls button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 28px; /* Adjusted size for elegance */
+      color: #5f6368; /* Medium grey text */
+      margin: 0 12px; /* Balanced spacing between arrows */
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+  
+    .section-controls button:hover {
+      color: #1a73e8; /* Highlight on hover */
+      transform: scale(1.1); /* Slight zoom effect */
+    }
+  
+    .card-grid-container {
+      position: relative;
+      display: flex;                                          
+      flex-wrap: wrap; /* Allow wrapping for smaller screens */
+      justify-content: center; /* Center the cards */                 
+      padding: 0 0; /* Balanced horizontal padding */
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+  
+    .card-grid-container::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .card {
+      display: inline-block;
+      background-color: #fff;
+      border-radius: 12px; /* Softer corners */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elegant shadow */
+      margin: 12px;
+      width: 250px; /* Slightly larger card width */
+      flex-shrink: 0;
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+  
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
+    }
+  
+    .card-image-container {
+      width: 100%;
+      height: 180px; /* Adjusted image height */
+      overflow: hidden;
+    }
+  
+    .card-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensure image fills the container */
+      display: block;
+    }
+  
+    .card-content {
+      padding: 16px; /* More spacious content padding */
+    }
+  
     .card-title {
-      color: #ffffff; /* White text for card titles */
+      font-size: 16px;
+      font-weight: 600;
+      color: #202124;
+      margin-bottom: 6px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
-
+  
     .card-subtitle {
-      color: #b0b0b0; /* Light grey text for subtitles */
+      font-size: 14px;
+      color: #5f6368; /* Medium grey text */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
-
-    .scroll-button {
-      background-color: rgba(
-        255,
-        255,
-        255,
-        0.3
-      ); /* Light background for buttons */
-      color: #000000; /* Dark text for buttons */
+  
+    html[class~="dark"] {
+      .section-title {
+        color: #e0e0e0; /* Light text for section titles */
+      }
+  
+      .section-title:hover {
+        color: #1a73e8; /* Subtle hover effect */
+      }
+  
+      .card {
+        background-color: #1e1e1e; /* Dark card background */
+        box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1); /* Light shadow */
+      }
+  
+      .card-title {
+        color: #ffffff; /* White text for card titles */
+      }
+  
+      .card-subtitle {
+        color: #b0b0b0; /* Light grey text for subtitles */
+      }
+  
+      .scroll-button {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.3
+        ); /* Light background for buttons */
+        color: #000000; /* Dark text for buttons */
+      }
     }
-  }
-
-  @media screen and (max-width: 768px) {
-
-    .card {
-      width: 300px; /* Full width on small screens */
+  
+    @media screen and (max-width: 768px) {
+  
+      .card {
+        width: 300px; /* Full width on small screens */
+      }
+      
     }
-    
-  }
-</style>
+  </style>

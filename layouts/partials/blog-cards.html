@@ -47,7 +47,7 @@
     </div>
     <div class=" hx-mt-4"></div>
     {{- if site.Params.blog.list.displayTags -}}
-    <p class="blog-card-tags hx-opacity-100 hx-text-sm ">
+    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7 ">
       <a
         class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
         href="{{.RelPermalink}}"
@@ -93,34 +93,10 @@
         {{- $date = .Date.Format "January 2, 2006" -}}
         {{ end -}}
         {{ $date }}
-        {{- if .Params.author -}}
-        {{- $author := .Params.author -}}
-        {{- if eq $author "true" -}}
-        {{- $author = .Site.Params.author -}}
-        {{ end -}}
-        {{- if $author -}}
-        <span class="hx-text-sm hx-text-neutral-500 dark:hx-text-neutral-400">
-          {{- $author -}}                     
-        </span>
-        {{ end -}}
-        {{- else -}}
-        {{- $author := .Params.author -}}
-        {{- if eq $author "true" -}}
-        {{- $author = .Site.Params.author -}}
-        {{ end -}}
-        {{- if $author -}}
-        <span class="hx-text-sm hx-text-neutral-500 dark:hx-text-neutral-400">
-          {{- $author -}}
-        {{ end -}}
-        {{ end -}}
       </span>
-      {{/*  <a
-        class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font"
-        href="{{ .RelPermalink }}"
-      >
-        {{- $readMore -}}
-      </a>  */}}
     </p>
+
+
     <hr
       class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
     />

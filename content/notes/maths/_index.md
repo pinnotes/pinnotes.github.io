@@ -7,6 +7,7 @@ tags:
   - Example
   - Guide
 excludeSearch: false
+weight: 4
 type: cards
 cascade:
  series: ["Mathematics"]

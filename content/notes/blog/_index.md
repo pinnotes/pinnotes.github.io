@@ -3,6 +3,7 @@ title: Notes Blog
 type: docs
 date: 2020-01-01
 image: "/images/orange.jpg"
+weight: 10
 tags:
   - Markdown
   - Example
