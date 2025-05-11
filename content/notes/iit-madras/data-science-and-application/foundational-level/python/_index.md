@@ -1,14 +1,15 @@
 ---
-title: SSC CHSL Exam 
+title: Python
 date: 2025-05-08
-image: "/images/orange.jpg"
 tags:
   - Notes 
-  - SSC Exam
+  - IIT Madras
 excludeSearch: false
 weight: 1
 cascade:
- series: ["SSC-CHSL"]
+ series: ["Foundational-level"]
+ image: "/images/code-1.jpg"
+
 
 ---
 

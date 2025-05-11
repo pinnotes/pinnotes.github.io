@@ -1,16 +1,16 @@
 ---
 title: 'Notes'
-width: full
+width: wide
 cascade:
   width: wide
+  section: notes
 ---
 
-<!-- <div style="text-align: center; margin-top: 1em;">
-{{< hextra/hero-badge link="index.xml" >}}
-  <span>RSS Feed</span>
-  {{< icon name="rss" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-</div> -->
-## Notes
 
-### All notes for better study 📓
+
+{{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
+  Documentation and guides to deploy,  
+  manage, and monitor your apps.
+{{< /hextra/hero-subtitle >}}
+
+---

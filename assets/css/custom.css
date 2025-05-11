@@ -199,6 +199,13 @@ nav .search-wrapper {
   }
 }
 
+#red {
+  color: rebeccapurple;
+}
+
+#blue {
+  color: #003b6c;
+}
 .card {
   /* background-color: #ffffff; */
   margin-top: 1.2rem;
@@ -427,6 +434,20 @@ nav .search-wrapper {
   overflow-y: auto;
 }
 
+.hextra-toc {
+
+  a:hover {
+    color: var(--link-color);
+  }
+  a:target {
+    color: var(--link-color);
+  }
+  a:visited {
+    color: var(--link-color);
+  } 
+}
+
+
 /* Custom Notes Blog List Cards  */
 
 .notes-blogs-wrapper {
@@ -550,11 +571,14 @@ nav .search-wrapper {
 /* SIngle Page Notes BLog  */
 
 .notes-blog-cover {
-  border-radius: 0.5rem;
-  /* position: absolute; */
-  object-fit: cover;
-  height: 14rem;
   width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* BLOG CARD START HERE */
@@ -581,17 +605,14 @@ nav .search-wrapper {
   margin: 1rem;
   transition: 250ms all ease-in-out;
   border-radius: 0.5rem;
-
 }
 
-
-  .blog-card-description {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-  }
-
+.blog-card-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
 
 .blog-card:hover {
   .blog-card-title {

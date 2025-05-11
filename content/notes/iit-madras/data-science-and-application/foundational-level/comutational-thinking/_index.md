@@ -1,5 +1,5 @@
 ---
-title: SSC CHSL Exam 
+title: Comutaional Thinking
 date: 2025-05-08
 image: "/images/orange.jpg"
 tags:

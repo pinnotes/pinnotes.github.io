@@ -1,14 +1,14 @@
 ---
-title: SSC CHSL Exam 
+title: Foundational Level
 date: 2025-05-08
 image: "/images/orange.jpg"
 tags:
   - Notes 
-  - SSC Exam
+  - IIT Madras
 excludeSearch: false
 weight: 1
 cascade:
- series: ["SSC-CHSL"]
+ series: ["Foundational-level"]
 
 ---
 

@@ -1,19 +1,23 @@
 ---
-title: SSC CHSL Exam 
+title: English
 date: 2020-01-01
-image: "/images/orange.jpg"
 tags:
   - Notes 
   - SSC Exam
 excludeSearch: false
 type: cards
+width: wide
 cascade:
- series: ["SSC-CHSL"]
+ series: ["SSC-CHSL", "English"]
+ image: "/images/notes/chsl/logo.png"
+ width: normal
+
 
 ---
 
-## SSC CHSL Exam 
-
-### Study Material for Exam Syllabus
+{{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
+  Documentation and guides to deploy,  
+  manage, and monitor your apps.
+{{< /hextra/hero-subtitle >}}
 
 ---

@@ -13,8 +13,8 @@ cascade:
 
 ---
 
-## SSC CHSL Exam 
-
-### Study Material for Exam Syllabus
-
+{{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
+  Documentation and guides to deploy,  
+  manage, and monitor your apps.
+{{< /hextra/hero-subtitle >}}
 ---
