@@ -1,5 +1,5 @@
 ---
-title: Programming in Python 🐍
+title: Chpater 1 - Programming in Python 🐍
 date: 2025-05-08
 tags:
   - Notes 
@@ -7,7 +7,6 @@ tags:
 excludeSearch: false
 weight: 1
 cascade:
- series: ["Programming-in-Python"]
  image: "/images/code-1.jpg"
 
 

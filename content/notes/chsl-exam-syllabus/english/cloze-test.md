@@ -120,13 +120,13 @@ problem areas.
 easier to know)
 - A comparative or superlative involved? (Example: she’s taller than me)
   
-### Previous Year Questions
+### Previous Year Questions 🙋‍♂️
 
 {{< border >}}
 **Directions**: 💡 In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find out the appropriate word in each case.
 {{< /border >}}
 
-#### Practice Set 1
+#### Practice Set 1 🧠
 
 Actually every day we all are engaged in this business of reading people. We do it (__1__). We want to figure others out. So, we (__2__) make guesses about what others think, value, want and feel and we do so based on our (__3__) beliefs and understandings about human nature. We do so because if we can figure out (__4__) and intentions of others the possibility of them (__5__) or hurting us, (__6__) and this will help us to (__7__) a lot of unnecessary pain and trouble. We also make second guesses about what they will do in future, how they will (__8__) if we make this or that response. We do all this second guessing based upon our (__9__) of what we believe about the persons inner nature __10__) his or her roles and, manners. We mind read their fill (__11__) their motives. Also, every day we mis-guess and misread. Why? Because of the complexity, (__12__), and multidimensional functioning of people. After all how well do you read your own thoughts, aims, values, motives, beliefs etc.? How well do you know your own structuring process your own thinking and (__13__) styles?
 
@@ -351,136 +351,139 @@ e) dull
 {{< border >}}
 **Question 15**
 
-a) mere
+a) obstinate
 
-b) moderate
+b) constitute
 
-c) retarding
+c) persist
 
-d) vehement
+d) repeat
 
-e) dull
+e) normalize
 
 {{< /border >}}
 
 {{< border >}}
 **Question 16**
 
-a) mere
+a) go
 
-b) moderate
+b) scramble
 
-c) retarding
+c) mount
 
-d) vehement
+d) yield
 
-e) dull
+e) crop
+
 
 {{< /border >}}
 
 {{< border >}}
 **Question 17**
 
-a) mere
+a) sustained
 
-b) moderate
+b) suspicious
 
-c) retarding
+c) horrific
 
-d) vehement
+d) erratic
 
-e) dull
-
+e) favourable
 {{< /border >}}
 
 {{< border >}}
 **Question 18**
 
-a) mere
+a) lists
 
-b) moderate
+b) trades
 
-c) retarding
+c) services
 
-d) vehement
+d) inventories
 
-e) dull
+e) details
 
 {{< /border >}}
 
 {{< border >}}
 **Question 19**
 
-a) mere
+a) prospect
 
-b) moderate
+b) progress
 
-c) retarding
+c) view
 
-d) vehement
+d) extent
 
-e) dull
-
+e) deposit
 {{< /border >}}
 
 {{< border >}}
 **Question 20**
 
-a) mere
+a) support
 
-b) moderate
+b) ignore
 
-c) retarding
+c) propel
 
-d) vehement
+d) prolong
 
-e) dull
+e) Insulate
+
 
 {{< /border >}}
 
 {{< border >}}
 **Question 21**
 
-a) mere
+a) position
 
-b) moderate
+b) promote
 
-c) retarding
+c) process
 
-d) vehement
+d) pass
 
-e) dull
+e) form
 
 {{< /border >}}
 
 {{< border >}}
 **Question 22**
 
-a) mere
+a) hurrying
 
-b) moderate
+b) passing
 
-c) retarding
+c) pairing
 
-d) vehement
+d) gobbling
 
-e) dull
+e) throwing
 
 {{< /border >}}
 
 {{< border >}}
 **Question 23**
 
-a) mere
+a) keep
 
-b) moderate
+b) make
 
-c) retarding
+c) feed
 
-d) vehement
+d) grow
 
-e) dull
+e) fight
+
 
 {{< /border >}}
 
 {{< /borders >}}
+
+**Correct Answer**: 14 – b; 15 – c; 16 – e; 17 – c; 18 – b; 19 – a; 20 – e; 21 – b; 22 – d; 23 - b

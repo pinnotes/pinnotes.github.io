@@ -1,5 +1,5 @@
 ---
-title: Comutaional Thinking
+title: English II
 date: 2025-05-08
 image: "/images/orange.jpg"
 tags:

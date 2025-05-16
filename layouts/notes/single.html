@@ -56,7 +56,16 @@
     </article>
   </div>
 
+  {{ if .Params.code }}
   <style>
+    code{
+    color: blueviolet;
+  }
+  </style>
+  {{ end }}
+
+  <style>
+
     .notes-blog-cover {
       width: 100%;
       height: auto;

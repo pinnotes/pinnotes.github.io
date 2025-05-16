@@ -1,15 +1,15 @@
 ---
-title: Programming in Python 🐍
+title: Mathematics
 date: 2025-05-08
+image: "/images/orange.jpg"
+type: cards
 tags:
   - Notes 
-  - IIT Madras
+  - SSC Exam
 excludeSearch: false
 weight: 1
 cascade:
- series: ["Programming-in-Python"]
- image: "/images/code-1.jpg"
-
+ series: ["SSC-CHSL"]
 
 ---
 

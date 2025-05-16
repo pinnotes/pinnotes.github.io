@@ -17,7 +17,7 @@
         </div>
         <div class="card-content">
           <h3 class="card-title">{{ .Title }}</h3>
-          <p class="card-subtitle">Developer Name</p>
+          <p class="card-subtitle">{{- partial "utils/page-description" . -}}</p>
         </div>
       </div>
     </a>

@@ -1,13 +1,13 @@
 ---
-title: Programming in Python 🐍
+title: Cheatsheets 👀 
 date: 2025-05-08
 tags:
-  - Notes 
-  - IIT Madras
+  - Programming 
 excludeSearch: false
+type: cards
 weight: 1
 cascade:
- series: ["Programming-in-Python"]
+ series: ["Programming"]
  image: "/images/code-1.jpg"
 
 
