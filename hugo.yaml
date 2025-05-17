@@ -72,24 +72,24 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - name: Courses
-      pageRef: /courses
-      weight: 1
+    # - name: Courses
+      # pageRef: /courses
+      # weight: 1//////////////////////////////
     - name: Exercises
       pageRef: /exercises
-      weight: 2
+      weight: 3
     - name: Notes
       pageRef: /notes
-      weight: 3
+      weight: 2
     - name: IIT
       pageRef: /iit-madras
       weight: 4
     - name: Assignments
       pageRef: /assignments
       weight: 5
-    - name: Examples
-      pageRef: /examples
-      weight: 6
+    # - name: Examples
+      # pageRef: /examples
+      # weight: 6
     - name: Blog
       pageRef: /blog
       weight: 7

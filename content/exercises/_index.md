@@ -3,6 +3,7 @@ title: "Exercises"
 width : full
 cascade:
   width: normal
+  math: true
 ---
 
 <div style="text-align: center; margin-top: 1em;">
