@@ -1,0 +1,23 @@
+<!-- filepath: d:\Code\hextra-notes\layouts\shortcodes\calculate.html -->
+{{ $n := .Get "n" | float }}
+{{ $m := .Get "m" | float }}
+{{ $op := .Get "op" | default "+" }}
+
+{{ $result := "" }}
+{{ if and (ne $n "") (ne $m "") }}
+  {{ if eq $op "+" }}
+    {{ $result = add $n $m }}
+  {{ else if eq $op "-" }}
+    {{ $result = sub $n $m }}
+  {{ else if eq $op "*" }}
+    {{ $result = mul $n $m }}
+  {{ else if eq $op "/" }}
+    {{ $result = div $n $m }}
+  {{ else }}
+    {{ errorf "Unsupported operation: %s" $op }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Shortcode 'calculate' requires 'n' and 'm' parameters." }}
+{{ end }}
+
+{{ $result }}

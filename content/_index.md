@@ -9,9 +9,9 @@ width: normal
 ---
 
 <!-- markdownlint-disable MD033 MD034 -->
-{{< hextra/hero-badge link="/courses">}}
+{{< hextra/hero-badge link="/notes">}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  Courses
+  Notes
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 

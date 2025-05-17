@@ -1,0 +1,144 @@
+{{ $id := delimit (slice "calculator-container" (partial "functions/uid.html" .)) "-" }}
+{{ $id := delimit (slice "result" (partial "functions/uid.html" .)) "-" }}
+
+{{ $formula := .Get "formula" | default "n1 * m1 + n2 - m2 / n3" }}
+
+<div id="calculator-container">
+  {{/* Dynamically render all params except 'formula' */}}
+  {{ range $key, $value := .Params }}
+    {{- if ne $key "formula" -}}
+      <div>
+        <label for="{{ $key }}">{{ $key }}:</label>
+        <input type="number" id="{{ $key }}" value="{{ $value }}">
+      </div>
+    {{- end -}}
+  {{ end }}
+  <div>
+    <label for="formula">Formula:</label>
+    <input type="text" id="formula" value="{{ $formula }}">
+  </div>
+  <button onclick="calculate()">Solve</button>
+  <div id="result">Result: </div>
+</div>
+
+<script>
+function calculate() {
+  // Get all input fields except the formula
+  const inputs = document.querySelectorAll('#calculator-container input[type="number"]');
+  let formula = document.getElementById('formula').value;
+  const resultDiv = document.getElementById('result');
+
+  // Replace all variable names in the formula with their values
+  inputs.forEach(input => {
+    // Use RegExp with word boundaries to avoid partial replacements
+    const re = new RegExp('\\b' + input.id + '\\b', 'g');
+    formula = formula.replace(re, input.value);
+  });
+
+  try {
+    // Evaluate the expression using JavaScript's eval() function
+    // WARNING: Using eval() can be risky with untrusted input.
+    const finalAnswer = eval(formula);
+    resultDiv.textContent = `Result: ${finalAnswer}`;
+  } catch (error) {
+    resultDiv.textContent = `Result: Error in formula`;
+    console.error("Formula evaluation error:", error);
+  }
+}
+</script>
+
+<style>
+    #calculator-container {
+        max-width: 350px;
+        margin: 2em auto;
+        padding: 1.5em 2em;
+        border-radius: 12px;
+        background: #f9f9f9;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        font-family: system-ui, sans-serif;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    #calculator-container div {
+        margin-bottom: 1em;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    #calculator-container label {
+        flex: 0 0 60px;
+        font-weight: 500;
+    }
+
+    #calculator-container input[type="number"],
+    #calculator-container input[type="text"] {
+        flex: 1;
+        padding: 0.4em 0.6em;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1em;
+        background: #fff;
+        color: #222;
+        transition: border 0.2s;
+    }
+
+    #calculator-container input:focus {
+        border-color: #0078d4;
+        outline: none;
+    }
+
+    #calculator-container button {
+        width: 100%;
+        padding: 0.6em 0;
+        background: #0078d4;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 1.1em;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+    #calculator-container button:hover {
+        background: #005fa3;
+    }
+
+    #result {
+        margin-top: 1em;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #007800;
+        min-height: 1.5em;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        #calculator-container {
+            background: #23272f;
+            color: #f3f3f3;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.32);
+        }
+        #calculator-container input[type="number"],
+        #calculator-container input[type="text"] {
+            background: #181b20;
+            color: #f3f3f3;
+            border: 1px solid #444;
+        }
+        #calculator-container input:focus {
+            border-color: #4fa3ff;
+        }
+        #calculator-container button {
+            background: #4fa3ff;
+            color: #181b20;
+        }
+        #calculator-container button:hover {
+            background: #0078d4;
+            color: #fff;
+        }
+        #result {
+            color: #7fff7f;
+        }
+    }
+</style>
+{{/* End of calculator shortcode */}}

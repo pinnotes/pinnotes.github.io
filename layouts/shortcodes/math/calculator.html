@@ -1,0 +1,171 @@
+{{ $formula := .Get "formula" | default "n1 * m1 + n2 - m2 / n3" }}
+{{ $n1 := .Get "n1" | default 1 }}
+{{ $m1 := .Get "m1" | default 4 }}
+{{ $n2 := .Get "n2" | default 2 }}
+{{ $m2 := .Get "m2" | default 5 }}
+{{ $n3 := .Get "n3" | default 3 }}
+{{ $m3 := .Get "m3" | default 6 }}
+
+
+<div id="calculator-container">
+  <div>
+    <label for="n1">n1:</label>
+    <input type="number" id="n1" value="{{ $n1 }}">
+  </div>
+  <div>
+    <label for="m1">m1:</label>
+    <input type="number" id="m1" value="{{ $m1 }}">
+  </div>
+  <div>
+    <label for="n2">n2:</label>
+    <input type="number" id="n2" value="{{ $n2 }}">
+  </div>
+  <div>
+    <label for="m2">m2:</label>
+    <input type="number" id="m2" value="{{ $m2 }}">
+  </div>
+  <div>
+    <label for="n3">n3:</label>
+    <input type="number" id="n3" value="{{ $n3 }}">     
+  </div>
+  <div>
+    <label for="m3">m3:</label>
+    <input type="number" id="m3" value="{{ $m3 }}">                                                                                     
+  </div>
+  <div>
+    <label for="formula">Formula:</label>
+    {{ if eq $formula "" }}
+    <input type="text" id="formula" value="n1 * m1 + n2 - m2 / n3">
+    {{ else }}
+    <input type="text" id="formula" value="{{ $formula }}">
+    {{ end }}
+  </div>
+  <button onclick="calculate()">Solve</button>
+  <div id="result">Result: </div>
+</div>
+
+<script>
+function calculate() {
+  const n1 = parseFloat(document.getElementById('n1').value);
+  const m1 = parseFloat(document.getElementById('m1').value);
+  const n2 = parseFloat(document.getElementById('n2').value);
+  const m2 = parseFloat(document.getElementById('m2').value);
+  const n3 = parseFloat(document.getElementById('n3').value);
+  const m3 = parseFloat(document.getElementById('m3').value);
+  const formula = document.getElementById('formula').value;
+  const resultDiv = document.getElementById('result');
+
+  try {
+    // Replace variable names in the formula string
+    let expression = formula.replace(/n1/g, n1);
+    expression = expression.replace(/m1/g, m1);
+    expression = expression.replace(/n2/g, n2);
+    expression = expression.replace(/m2/g, m2);
+    expression = expression.replace(/n3/g, n3);
+    expression = expression.replace(/m3/g, m3);
+
+    // Evaluate the expression using JavaScript's eval() function
+    // WARNING: Using eval() can be risky with untrusted input.
+    const finalAnswer = eval(expression);
+    resultDiv.textContent = `Result: ${finalAnswer}`;
+  } catch (error) {
+    resultDiv.textContent = `Result: Error in formula`;
+    console.error("Formula evaluation error:", error);
+  }
+}
+</script>
+
+<style>
+    #calculator-container {
+        max-width: 350px;
+        margin: 2em auto;
+        padding: 1.5em 2em;
+        border-radius: 12px;
+        background: #f9f9f9;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        font-family: system-ui, sans-serif;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    #calculator-container div {
+        margin-bottom: 1em;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    #calculator-container label {
+        flex: 0 0 60px;
+        font-weight: 500;
+    }
+
+    #calculator-container input[type="number"],
+    #calculator-container input[type="text"] {
+        flex: 1;
+        padding: 0.4em 0.6em;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1em;
+        background: #fff;
+        color: #222;
+        transition: border 0.2s;
+    }
+
+    #calculator-container input:focus {
+        border-color: #0078d4;
+        outline: none;
+    }
+
+    #calculator-container button {
+        width: 100%;
+        padding: 0.6em 0;
+        background: #0078d4;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 1.1em;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+    #calculator-container button:hover {
+        background: #005fa3;
+    }
+
+    #result {
+        margin-top: 1em;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #007800;
+        min-height: 1.5em;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        #calculator-container {
+            background: #23272f;
+            color: #f3f3f3;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.32);
+        }
+        #calculator-container input[type="number"],
+        #calculator-container input[type="text"] {
+            background: #181b20;
+            color: #f3f3f3;
+            border: 1px solid #444;
+        }
+        #calculator-container input:focus {
+            border-color: #4fa3ff;
+        }
+        #calculator-container button {
+            background: #4fa3ff;
+            color: #181b20;
+        }
+        #calculator-container button:hover {
+            background: #0078d4;
+            color: #fff;
+        }
+        #result {
+            color: #7fff7f;
+        }
+    }
+</style>

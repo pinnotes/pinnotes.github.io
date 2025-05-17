@@ -1,0 +1,59 @@
+<!-- filepath: d:\Code\hextra-notes\layouts\shortcodes\math\formula.html -->
+{{ $n_str := .Get "n" }}
+{{ $m_str := .Get "m" }}
+{{ $formula := .Get "formula" }}
+
+{{ $n_raw := split $n_str "," }}
+{{ $m_raw := split $m_str "," }}
+
+{{ $n_array := slice }}
+{{ range $n_raw }}
+  {{ $n_array = $n_array | append (float (trim . " ")) }}
+{{ end }}
+
+{{ $m_array := slice }}
+{{ range $m_raw }}
+  {{ $m_array = $m_array | append (float (trim . " ")) }}
+{{ end }}
+
+{{ $.Scratch.Set "results" (slice) }}
+
+{{ if and (ne $n_str "") (ne $m_str "") (ne $formula "") (eq (len $n_array) (len $m_array)) }}
+  {{ range $index, $n_val := $n_array }}
+    {{ $m_val := index $m_array $index }}
+    {{ $result := "" }}
+    {{ if in $formula "+" }}
+      {{ $result = add $n_val $m_val }}
+    {{ else if in $formula "-" }}
+      {{ $result = sub $n_val $m_val }}
+    {{ else if in $formula "*" }}
+      {{ $result = mul $n_val $m_val }}
+    {{ else if in $formula "/" }}
+      {{ $result = div $n_val $m_val }}
+    {{ else }}
+      {{ $result = "Unsupported formula" }}
+    {{ end }}
+    {{ $.Scratch.Add "results" (slice $result) }}
+  {{ end }}
+{{ else if ne (len $n_array) (len $m_array) }}
+  {{ errorf "Shortcode 'formula': The number of 'n' values must match the number of 'm' values." }}
+{{ else }}
+  {{ errorf "Shortcode 'formula' requires 'n', 'm', and 'formula' parameters." }}
+{{ end }}
+
+{{ $results := $.Scratch.Get "results" }}
+
+<div>
+  <h3>Formula Calculation</h3>
+  <p>Formula: {{ $formula }}</p>
+  <p>Results: {{ delimit $results ", " }}</p>
+</div>
+{{/*
+  This shortcode calculates the result of a formula applied to two lists of numbers.
+  Usage: {{< formula n="1,2,3" m="4,5,6" formula="+" >}}
+  This will calculate (1+4), (2+5), and (3+6).
+*/}}
+{{/*
+  Note: The formula can be any valid mathematical operation supported by the functions in Hugo.
+  Supported operations: +, -, *, /
+*/}}
