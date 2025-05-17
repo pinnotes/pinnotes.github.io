@@ -5,11 +5,11 @@ image: "/images/orange.jpg"
 type: cards
 tags:
   - Notes 
-  - SSC Exam
 excludeSearch: false
 weight: 1
 cascade:
- series: ["SSC-CHSL"]
+ series: ["Foundational-Level"]
+ math: true
 
 ---
 

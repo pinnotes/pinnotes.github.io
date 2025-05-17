@@ -1,14 +1,15 @@
 ---
-title: Foundational Level
+title: Books 📚
 date: 2025-05-08
-image: "/images/orange.jpg"
 tags:
-  - Notes 
-  - IIT Madras
+  - Programming 
 excludeSearch: false
+type: cards
 weight: 1
 cascade:
- series: ["Foundational-level"]
+ series: ["Programming"]
+ image: "/images/code-1.jpg"
+
 
 ---
 
