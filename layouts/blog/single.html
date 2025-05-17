@@ -66,7 +66,8 @@
         {{ end }}
       {{ partial "article-from-this-series/series-articles.html" . }}
       {{ partial "related.html" . }}  
-      {{ partial "google/vertical-ad-cards.html" . }}
+      {{/*  {{ partial "google/vertical-ad-cards.html" . }}  */}}
+      {{ partial "google/horizontal-ad-cards.html" . }}
         {{- partial "components/comments.html" . -}}
       </main>
     </article>
