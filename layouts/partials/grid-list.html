@@ -1,0 +1,55 @@
+<div class="grid-container">
+  <div class="grid-item card-large">Card 1 (Large)</div>
+  <div class="grid-item">Card 2</div>
+  <div class="grid-item">Card 3</div>
+  <div class="grid-item">Card 4</div>
+</div>
+
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to a single column for smaller screens */
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Media query for larger screens (e.g., tablets and desktops) */
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: 3fr 1fr; /* Left takes 3/4, Right takes 1/4 */
+    }
+
+    .card-large {
+      grid-row: 1 / span 3;
+    }
+  }
+
+/* Media query for two equal columns */
+@media (min-width: 468px) and (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+    }
+
+    .card-large {
+        grid-row: auto; /* No row spanning */
+    }
+}
+
+  /* Media query for when all cards should take the same space */
+  @media (max-width: 467px) {
+    .grid-item {
+      /* Implicitly each card takes 1fr of the single column */
+    }
+
+    .card-large {
+      grid-row: auto; /* Reset the row spanning */
+    }
+  }
+</style>

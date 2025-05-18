@@ -1,167 +1,226 @@
-{{ define "main" }}
-{{- $imagePath := .Site.Params.blog.list.image | default "images/abc.jpg" -}}
+{{ define "main" }} {{- $imagePath := .Site.Params.blog.list.image | default
+"images/abc.jpg" -}} {{- $borderClass := "hx-mt-8 hx-border-t" -}} {{- $readMore
+:= (T "readMore") | default "Read here →" -}}
+<div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true
+  "displayPlaceholder" true) }}
+  <article
+    class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]"
+  >
+    <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-3">
+      <br class="hx-mt-1.5 hx-text-sm" />
 
-{{- $borderClass := "hx-mt-8 hx-border-t" -}}
-  {{- $readMore := (T "readMore") | default "Read here →" -}}
-  <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
-    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
-    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-3">
-        <br class="hx-mt-1.5 hx-text-sm" />
-
-        <div class="grid-layout">
-          <ul class="grid-layout__list">
-            <li class="featured-gird-item">
-              {{ range first 1 (where .Pages "Params.tags" "intersect" (slice "featured")) }}
-              <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
+      <div class="grid-layout-section">
+        <ul class="grid-container">
+          <li class="grid-item card-large featured-grid-item">
+            {{ range first 1 (where .Pages "Params.tags" "intersect" (slice
+            "featured")) }}
+            <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
               <div class="grid-layout__item">
-                <img src="{{ .Params.image | default $imagePath }}" alt="{{ .Title }}" class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4" />
-                  <div class="grid-layout__item-content">
+                <img
+                  src="{{ .Params.image | default $imagePath }}"
+                  alt="{{ .Title }}"
+                  class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4"
+                />
+                <div class="grid-layout__item-content">
+                  <p class="hx-opacity-100 hx-text-sm hx-leading-7">
                     {{ with index .Params.tags 0 }}
-                      <span class="hx-inline-block hx-bg-gray-200 hx-text-gray-800 hx-text-xs hx-font-semibold hx-px-2 hx-py-1 hx-rounded hx-mb-2">{{ . }}</span>
+                    <span class="gradient-tag mona-sans hx-inline-block"
+                      >{{ . }}</span
+                    >
                     {{ end }}
-                    <h2 class="hx-text-2xl hx-font-bold hx-text-gray-900 hx-mb-4">{{ .Title }}</h2>
-                    <p class="blog-card-description hx-text-base hx-text-gray-700">
-                      {{- partial "utils/page-description" . -}}
-                    </p>
-                  </div>
+                  </p>
+                  <h2 class="hx-text-xl hx-font-bold hx-mb-2">{{ .Title }}</h2>
+                  <p class="blog-card-description hx-opacity-80">
+                    {{- partial "utils/page-description" . -}}
+                  </p>
                 </div>
-                </a>
-              {{ end }}
-            </li>
-            
-
-            {{ range first 3 (where .Site.RegularPages "Params.tags" "intersect" (slice "Notes")) }}
-            <li class="grid-item">
-              <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
-                <div class="grid-layout__item">
-                  <img src="{{ .Params.image | default $imagePath }}" alt="{{ .Title }}" class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4" />
-                  <div class="grid-layout__item-content">
-                    {{ with index .Params.tags 0 }}
-                      <span class="hx-inline-block hx-bg-gray-200 hx-text-gray-800 hx-text-xs hx-font-semibold hx-px-2 hx-py-1 hx-rounded hx-mb-2">{{ . }}</span>
-                    {{ end }}
-                    <h2 class="hx-text-xl hx-font-bold hx-text-gray-900 hx-mb-4">{{ .Title }}</h2>
-                    <p class="blog-card-description hx-text-base hx-text-gray-700">
-                      {{- partial "utils/page-description" . -}}
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </li>
+              </div>
+            </a>
             {{ end }}
-          </ul>
-        </div>
+          </li>
 
-        .
-     
+          {{ range first 3 (where .Site.RegularPages "Params.tags" "intersect"
+          (slice "Notes")) }}
+          <li class="grid-item">
+            <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
+              <div class="grid-layout__item">
+                <img
+                  src="{{ .Params.image | default $imagePath }}"
+                  alt="{{ .Title }}"
+                  class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4"
+                />
+                <div class="grid-layout__item-content">
+                  <p class="hx-opacity-100 hx-text-xs hx-leading-7">
+                    {{ with index .Params.tags 0 }}
+                    <span class="gradient-tag mona-sans hx-inline-block"
+                      >{{ . }}</span
+                    >
+                    {{ end }}
+                  </p>
+                  <h2 class="hx-text-xl hx-font-bold">{{ .Title }}</h2>
+                  <p class="grid-card-description hx-opacity-80">
+                    {{- partial "utils/page-description" . -}}
+                  </p>
+                </div>
+              </div>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </main>
+  </article>
+  <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
+</div>
 
-
-      </main>
-    </article>
-    <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
-  </div>
-
-  <style>
-  .grid-layout {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+<style>
+  .gradient-tag {
+    background: -webkit-linear-gradient(-70deg, #8250df, #d42a32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
   }
 
-  .grid-layout__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  .gradient-tag:is(html[class~="dark"] *) {
+    background: linear-gradient(
+      140deg,
+      #d2a8ff 12.09%,
+      #f778ba 42.58%,
+      #ff7b72 84.96%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
-  .featured-gird-item {
-    grid-column: 1 / -1;
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to a single column for smaller screens */
+    gap: 30px;
   }
 
   .grid-item {
+  }
+
+  .grid-layout__item-link {
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .grid-item .grid-layout__item {
-    flex-direction: row;
-    align-items: flex-start;
-   
-  }
-
-  .grid-item img {
-    width: 140px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 0.5rem;
-    margin-bottom: 0;
-    flex-shrink: 0;
-  }
-
-  .grid-item .grid-layout__item-content {
-    flex: 1 1 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  @media (max-width: 767px) {
-    .grid-item,
-    .grid-item .grid-layout__item {
-      flex-direction: column;
-      align-items: stretch;
-    }
-    .grid-item img {
-      width: 160px;
-      height: 160px;
-      margin-bottom: 1rem;
-    }
+    width: 100%;
+    text-decoration: none;
   }
 
   .grid-layout__item {
-    background: #fff;
-    border-radius: 0.75rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-    transition: box-shadow 0.2s;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .featured-grid-item .grid-layout__item {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+
+  .grid-item .grid-layout__item img {
+    width: 120px;
+    height: 120px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  .featured-grid-item .grid-layout__item img {
+    width: 100%;
     height: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    aspect-ratio: 16/9;
   }
 
-  .grid-layout__item-link:hover .grid-layout__item {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  .grid-layout__item-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 
-  @media (min-width: 768px) {
-    .grid-layout__list {
-      grid-template-columns: 1.2fr 1fr;
-      gap: 2rem;
+  .grid-card-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Media query for larger screens (e.g., tablets and desktops) */
+  @media (min-width: 1005px) {
+    .grid-container {
+      grid-template-columns: 1.2fr 1fr; /* Left takes 3/4, Right takes 1/4 */
     }
-    .featured-gird-item {
-      grid-column: 1 / 2;
-      grid-row: 1 / 3;
-      /* Make featured item bigger */
-      .grid-layout__item {
-        min-height: 100%;
-        height: 100%;
-      }
+
+    .card-large {
+      grid-row: 1 / span 3;
     }
+  }
+
+  /* Media query for two equal columns */
+  @media (min-width: 550px) and (max-width: 1005px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+    }
+
+    .card-large {
+      grid-row: auto; /* No row spanning */
+    }
+
     .grid-layout__item {
-      
+      flex-direction: column;
+    }
+
+    .grid-item .grid-layout__item img {
+      width: 100%;
+      height: 100%;
+      margin-right: 0;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      aspect-ratio: 16/9;
     }
   }
 
-  @media (max-width: 767px) {
-    .grid-layout__item,
-    .featured-gird-item .grid-layout__item {
-      
+  /* Media query for when all cards should take the same space */
+  @media (min-width: 550px) and (max-width: 800px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
     }
   }
-  </style>
+
+  /* Media query for when all cards should take the same space */
+  @media (max-width: 550px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .grid-item .grid-layout__item img {
+      width: 100%;
+      height: 100%;
+      margin-right: 0;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      aspect-ratio: 16/9;
+    }
+
+    .grid-layout__item {
+      flex-direction: column;
+    }
+  }
+</style>
 
 {{- end -}}
