@@ -4,7 +4,7 @@ date: 2020-01-01
 draft: false
 weight: 1
 linkTitle: Data Science & Applications
-description: " IIT Madras has launched the BS in Data Science and Applications."
+description: " IIT Madras has launched the BS in Data Science and Applications. kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllllllllllllllllllllllllllllllllllllllllllll eeeeeeeeeeeeeeeeeeee dddddddddddddddddddddddddd gggggggggggggggggggggggggggggggggggg JJJJJJJJJJJJJJJJJJ"
 summary: ""
 slug: 'student'
 authors:

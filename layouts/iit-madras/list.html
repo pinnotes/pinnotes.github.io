@@ -6,223 +6,162 @@
   <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-3">
         <br class="hx-mt-1.5 hx-text-sm" />
-        {{/*  {{ if .Title }}<h1 class="hx-text-center hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Title }}</h1>{{ end }}  */}}
-        {{/*  <div class="content">{{ .Content }}</div>  */}}
-       <h1 class="hx-text-center">Blogs with type hero</h1> 
-        <div class="blogs-wrapper">
-        {{- $pages := where .Site.RegularPages "Type" "hero" -}}
-        {{- range $pages }}
-          <div class=" blog-card hx-mb-10">
-            <div class="blog-card-image">
-              {{ if .Params.image }}
-            <a href="{{ .RelPermalink }}" class="">
-              <img 
-              src={{ .Params.image }}
-               alt= {{ .Title }}
-               class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
-              </a>
-              {{ else}}
-            <a href="{{ .RelPermalink }}" class="">
-              <img 
-              src="{{ $imagePath | relURL }}"
-               alt= {{ .Title }}
-               class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
-              </a>
+
+        <div class="grid-layout">
+          <ul class="grid-layout__list">
+            <li class="featured-gird-item">
+              {{ range first 1 (where .Pages "Params.tags" "intersect" (slice "featured")) }}
+              <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
+              <div class="grid-layout__item">
+                <img src="{{ .Params.image | default $imagePath }}" alt="{{ .Title }}" class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4" />
+                  <div class="grid-layout__item-content">
+                    {{ with index .Params.tags 0 }}
+                      <span class="hx-inline-block hx-bg-gray-200 hx-text-gray-800 hx-text-xs hx-font-semibold hx-px-2 hx-py-1 hx-rounded hx-mb-2">{{ . }}</span>
+                    {{ end }}
+                    <h2 class="hx-text-2xl hx-font-bold hx-text-gray-900 hx-mb-4">{{ .Title }}</h2>
+                    <p class="blog-card-description hx-text-base hx-text-gray-700">
+                      {{- partial "utils/page-description" . -}}
+                    </p>
+                  </div>
+                </div>
+                </a>
               {{ end }}
-            </div>
-            <h3><a style="color: inherit; text-decoration: none;"
-               class=" blog-card-title hx-block hx-font-semibold hx-mt-4 hx-text-2xl "
-                href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            {{- if site.Params.blog.list.displayTags -}}
-              {{ with .Params.tags }}
-                <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-                  {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2">#{{ . }}</a>{{ end -}}
-                </p>
-              {{ end -}}
-            {{- end -}}
-            <a href="{{ .RelPermalink }}">
-            <p class=" blog-card.description hx-opacity-80 hx-mt-2 hx-leading-7">
-              {{- partial "utils/page-description" . -}}</p>
-          </a>
-            <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
-              <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
-                {{- $readMore -}}
+            </li>
+            
+
+            {{ range first 3 (where .Site.RegularPages "Params.tags" "intersect" (slice "Notes")) }}
+            <li class="grid-item">
+              <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
+                <div class="grid-layout__item">
+                  <img src="{{ .Params.image | default $imagePath }}" alt="{{ .Title }}" class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4" />
+                  <div class="grid-layout__item-content">
+                    {{ with index .Params.tags 0 }}
+                      <span class="hx-inline-block hx-bg-gray-200 hx-text-gray-800 hx-text-xs hx-font-semibold hx-px-2 hx-py-1 hx-rounded hx-mb-2">{{ . }}</span>
+                    {{ end }}
+                    <h2 class="hx-text-xl hx-font-bold hx-text-gray-900 hx-mb-4">{{ .Title }}</h2>
+                    <p class="blog-card-description hx-text-base hx-text-gray-700">
+                      {{- partial "utils/page-description" . -}}
+                    </p>
+                  </div>
+                </div>
               </a>
-            </p>
-            <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
-          </div>
-        {{ end -}}
-      </div>
-
-      <h1 class="hx-text-center">Notes with type post</h1> 
-
-      <div class="notes-blogs-wrapper">
-        {{- $pages := where .Site.RegularPages "Type" "post"  -}}
-        {{- range  $pages }}
-        <div class="hx-mb-10 notes-blog-card">
-          <div class="notes-blog-card-banner">
-            {{/*  <p class="blog-category-tag popular">Popular</p>  */}}
-          <a href="{{ .RelPermalink }}" >
-          <img 
-          src={{ .Params.image }}
-           alt= {{ .Title }}
-           class="notes-blog-card-thumb" loading="lazy" method="Resize" options="600x q80 webp">
-          </a>
+            </li>
+            {{ end }}
+          </ul>
         </div>
-        <div class="notes-blog-card-body">
-          <h3>
-            <a
-            style="color: inherit; text-decoration: none"
-            class="hx-block hx-font-semibold  hx-text-2xl notes-blog-title"
-            href="{{ .RelPermalink }}"
-            >{{ .Title }}</a
-            >
-          </h3>
-          {{- if site.Params.blog.list.displayTags -}} {{ with .Params.tags }}
-          {{/*  <p class="hx-opacity-50 hx-text-sm hx-leading-7 notes-blog-tags">
-            {{- range . }}<a class="hx-inline-block hx-mr-2 notes-blog-tag">{{ . }}</a>{{ end
-            -}}
-          </p>  */}}
-          {{ end -}}
-          {{- end -}}
-          <a href="{{ .RelPermalink }}" >
-          <p class="hx-opacity-80  hx-leading-7 notes-blog-description">
-            {{- partial "utils/page-description" . -}}
-          </p>
-        </a>
-        </div>
-          {{/*  <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
-            <a
-              class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font"
-              href="{{ .RelPermalink }}"
-            >
-              {{- $readMore -}}
-            </a>
-          </p>  */}}
-        </div>
-        {{ end -}}
-      </div>
 
-            <h1 class="hx-text-center">Blog with featured tag</h1>
-      <div class="blogs-wrapper">
-        {{/*  {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}  */}}
-        {{- $pages := where .Site.RegularPages "Params.tags" "intersect" (slice "featured") -}}
-        {{- range  $pages }}
-        {{/*  {{- range where $pages "Params.tags" "intersect" (slice "featured") }}  */}}
-          <div class=" blog-card hx-mb-10">
-            <div class="blog-card-image">
-              {{ if .Params.image }}
-            <a href="{{ .RelPermalink }}" class="">
-              <img 
-              src={{ .Params.image }}
-               alt= {{ .Title }}
-               class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
-              </a>
-              {{ else}}
-            <a href="{{ .RelPermalink }}" class="">
-              <img 
-              src="{{ $imagePath | relURL }}"
-               alt= {{ .Title }}
-               class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
-              </a>
-              {{ end }}
-            </div>
-            <h3><a style="color: inherit; text-decoration: none;"
-               class=" blog-card-title hx-block hx-font-semibold hx-mt-4 hx-text-2xl "
-                href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            {{/*  {{- if site.Params.blog.list.displayTags -}}
-              {{ with .Params.tags }}
-                <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-                  {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2" >#{{ . }}</a>{{ end -}}
-                </p>
-              {{ end -}}
-            {{- end -}}  */}}
-            {{- if site.Params.blog.list.displayTags -}}
-            {{with .GetTerms "tags"}}
-               <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-                {{- range . }}
-                  <a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2" href="{{.RelPermalink}}"  >#{{ .Name }}</a>{{ end -}}
-                </p>
-              {{ end -}}  
-         {{- end -}}
-
-            <a href="{{ .RelPermalink }}">
-            <p class=" blog-card.description hx-opacity-80 hx-mt-2 hx-leading-7">
-              {{- partial "utils/page-description" . -}}</p>
-          </a>
-            <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
-              <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
-                {{- $readMore -}}
-              </a>
-            </p>
-            <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
-          </div>
-        {{ end -}}
-      </div>
-
-
-            <h1 class="hx-text-center">Blog with Documentation series</h1>
-      <div class="blogs-wrapper">
-        {{/*  {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}  */}}
-        {{- $pages := where .Site.RegularPages "Params.series" "intersect" (slice "Documentation") -}}
-        {{- range  $pages }}
-        {{/*  {{- range where $pages "Params.tags" "intersect" (slice "featured") }}  */}}
-          <div class=" blog-card hx-mb-10">
-            <div class="blog-card-image">
-              {{ if .Params.image }}
-            <a href="{{ .RelPermalink }}" class="">
-              <img 
-              src={{ .Params.image }}
-               alt= {{ .Title }}
-               class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
-              </a>
-              {{ else}}
-            <a href="{{ .RelPermalink }}" class="">
-              <img 
-              src="{{ $imagePath | relURL }}"
-               alt= {{ .Title }}
-               class="blog-card-thumb " loading="lazy" method="Resize" options="600x q80 webp">
-              </a>
-              {{ end }}
-            </div>
-            <h3><a style="color: inherit; text-decoration: none;"
-               class=" blog-card-title hx-block hx-font-semibold hx-mt-4 hx-text-2xl "
-                href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            {{/*  {{- if site.Params.blog.list.displayTags -}}
-              {{ with .Params.tags }}
-                <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-                  {{- range . }}<a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2" >#{{ . }}</a>{{ end -}}
-                </p>
-              {{ end -}}
-            {{- end -}}  */}}
-            {{- if site.Params.blog.list.displayTags -}}
-            {{with .GetTerms "series"}}
-               <p class=" blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-                {{- range . }}
-                  <a class=" blog-card-tag mona-sans hx-inline-block hx-mr-2" href="{{.RelPermalink}}"  >#{{ .Name }}</a>{{ end -}}
-                </p>
-              {{ end -}}  
-         {{- end -}}
-
-            <a href="{{ .RelPermalink }}">
-            <p class=" blog-card.description hx-opacity-80 hx-mt-2 hx-leading-7">
-              {{- partial "utils/page-description" . -}}</p>
-          </a>
-            <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
-              <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
-                {{- $readMore -}}
-              </a>
-            </p>
-            <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
-          </div>
-        {{ end -}}
-      </div>
+        .
+     
 
 
       </main>
     </article>
     <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
   </div>
+
+  <style>
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .grid-layout__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .featured-gird-item {
+    grid-column: 1 / -1;
+  }
+
+  .grid-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .grid-item .grid-layout__item {
+    flex-direction: row;
+    align-items: flex-start;
+   
+  }
+
+  .grid-item img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+
+  .grid-item .grid-layout__item-content {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (max-width: 767px) {
+    .grid-item,
+    .grid-item .grid-layout__item {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .grid-item img {
+      width: 160px;
+      height: 160px;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .grid-layout__item {
+    background: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .grid-layout__item-link:hover .grid-layout__item {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  }
+
+  @media (min-width: 768px) {
+    .grid-layout__list {
+      grid-template-columns: 1.2fr 1fr;
+      gap: 2rem;
+    }
+    .featured-gird-item {
+      grid-column: 1 / 2;
+      grid-row: 1 / 3;
+      /* Make featured item bigger */
+      .grid-layout__item {
+        min-height: 100%;
+        height: 100%;
+      }
+    }
+    .grid-layout__item {
+      
+    }
+  }
+
+  @media (max-width: 767px) {
+    .grid-layout__item,
+    .featured-gird-item .grid-layout__item {
+      
+    }
+  }
+  </style>
+
 {{- end -}}
