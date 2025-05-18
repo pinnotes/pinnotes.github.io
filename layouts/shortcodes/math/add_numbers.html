@@ -1,0 +1,42 @@
+{{- $uid := .Page.Scratch.Get "addCounter" | default 0 -}}
+{{- .Page.Scratch.Set "addCounter" (add $uid 1) -}}
+
+<div class="add-container">
+  <input 
+    type="number" 
+    id="num1-{{ $uid }}" 
+    value="{{ .Get "num1" }}" 
+    placeholder="First number"
+  >
+  <input 
+    type="number" 
+    id="num2-{{ $uid }}" 
+    value="{{ .Get "num2" }}" 
+    placeholder="Second number"
+  >
+  <button onclick="addNumbers({{ $uid }})">
+    {{ .Get "buttonText" | default "Calculate Sum" }}
+  </button>
+  <div id="result-{{ $uid }}" class="result-display"></div>
+</div>
+
+<script>
+function addNumbers(uid) {
+  const num1 = parseFloat(document.getElementById(`num1-${uid}`).value) || 0;
+  const num2 = parseFloat(document.getElementById(`num2-${uid}`).value) || 0;
+  document.getElementById(`result-${uid}`).textContent = `Result: ${num1 + num2}`;
+}
+</script>
+
+<style>
+.add-container {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.result-display {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+</style>

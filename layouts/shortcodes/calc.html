@@ -1,0 +1,40 @@
+{{ $id := printf "mathjs_calc_%d" now.UnixNano }}
+{{ $formula := .Get "formula" | default "a + b" }}
+
+<!-- Load math.js from CDN (only once per page in production) -->
+<script src="https://cdn.jsdelivr.net/npm/mathjs@11.11.2/lib/browser/math.js"></script>
+
+<div id="{{ $id }}">
+  <div>
+    <label for="formula-{{ $id }}">Formula:</label>
+    <input type="text" id="formula-{{ $id }}" value="{{ $formula }}">
+  </div>
+  {{ range $key, $value := .Params }}
+    {{ if ne $key "formula" }}
+      <div>
+        <label for="{{ $key }}-{{ $id }}">{{ $key }}:</label>
+        <input type="number" id="{{ $key }}-{{ $id }}" value="{{ $value }}">
+      </div>
+    {{ end }}
+  {{ end }}
+  <button onclick="mathjsCalc_{{ $id }}()">Calculate</button>
+  <div id="result-{{ $id }}" style="margin-top:0.5em;font-weight:bold;"></div>
+</div>
+
+<script>
+function mathjsCalc_{{ $id }}() {
+  try {
+    const formula = document.getElementById('formula-{{ $id }}').value;
+    const scope = {};
+    {{ range $key, $value := .Params }}
+      {{ if ne $key "formula" }}
+        scope["{{ $key }}"] = parseFloat(document.getElementById('{{ $key }}-{{ $id }}').value) || 0;
+      {{ end }}
+    {{ end }}
+    const result = math.evaluate(formula, scope);
+    document.getElementById('result-{{ $id }}').textContent = "Result: " + result;
+  } catch (e) {
+    document.getElementById('result-{{ $id }}').textContent = "Invalid formula";
+  }
+}
+</script>

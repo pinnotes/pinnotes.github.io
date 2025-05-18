@@ -1,0 +1,38 @@
+<!-- filepath: d:\Code\hextra-notes\layouts\shortcodes\math\calc3.html -->
+{{ $id := printf "calc_%d" now.UnixNano }}
+{{ $formula := .Get "formula" | default "a + b" }}
+
+<div id="{{ $id }}">
+    <label for="formula-{{ $id }}">Formula:</label>
+    <input type="text" id="formula-{{ $id }}" value="{{ $formula }}">
+
+    {{ range $key, $value := .Params }}
+        {{ if ne $key "formula" }}
+            <label for="{{ $key }}-{{ $id }}">{{ $key }}:</label>
+            <input type="number" id="{{ $key }}-{{ $id }}" value="{{ $value }}">
+        {{ end }}
+    {{ end }}
+
+    <button onclick="calculate_{{ $id }}()">Calculate</button>
+    <p>Result: <span id="result-{{ $id }}"></span></p>
+</div>
+
+<script>
+function calculate_{{ $id }}() {
+    try {
+        const formulaInput = document.getElementById('formula-{{ $id }}').value;
+        const vars = {};
+        {{ range $key, $value := .Params }}
+            {{ if ne $key "formula" }}
+                vars["{{ $key }}"] = parseFloat(document.getElementById('{{ $key }}-{{ $id }}').value) || 0;
+            {{ end }}
+        {{ end }}
+
+        const result = new Function(...Object.keys(vars), 'return ' + formulaInput + ';')(...Object.values(vars));
+        document.getElementById('result-{{ $id }}').textContent = result;
+    } catch (error) {
+        document.getElementById('result-{{ $id }}').textContent = "Invalid Formula";
+        console.error("Error in calculate_{{ $id }}():", error);
+    }
+}
+</script>

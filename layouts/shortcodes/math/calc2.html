@@ -1,46 +1,57 @@
-{{ $formula := .Get "formula" | default "n1 * m1 + n2 - m2 / n3" }}
+{{ $formulas := slice }}
+{{ range $key, $value := .Params }}
+  {{- if (findRE "^formula[0-9]*$" $key) -}}
+    {{ $formulas = $formulas | append (dict "key" $key "value" $value) }}
+  {{- end -}}
+{{ end }}
+{{ if not $formulas }}
+  {{ $formulas = (slice (dict "key" "formula" "value" (.Get "formula" | default "n1 * m1 + n2 - m2 / n3"))) }}
+{{ end }}
 
 <div id="calculator-container">
-  {{/* Dynamically render all params except 'formula' */}}
   {{ range $key, $value := .Params }}
-    {{- if ne $key "formula" -}}
+    {{- if not (findRE "^formula[0-9]*$" $key) -}}
       <div>
         <label for="{{ $key }}">{{ $key }}:</label>
         <input type="number" id="{{ $key }}" value="{{ $value }}">
       </div>
     {{- end -}}
   {{ end }}
-  <div>
-    <label for="formula">Formula:</label>
-    <input type="text" id="formula" value="{{ $formula }}">
-  </div>
-  <button onclick="calculate()">Solve</button>
-  <div id="result">Result: </div>
+  {{ range $f := $formulas }}
+    <div>
+      <label for="{{ $f.key }}">{{ $f.key }}:</label>
+      <input type="text" id="{{ $f.key }}" value="{{ $f.value }}">
+      <span id="result-{{ $f.key }}" class="result-display"></span>
+    </div>
+  {{ end }}
+  <button type="button" onclick="calculate()">Solve</button>
 </div>
 
 <script>
 function calculate() {
-  // Get all input fields except the formula
-  const inputs = document.querySelectorAll('#calculator-container input[type="number"]');
-  let formula = document.getElementById('formula').value;
-  const resultDiv = document.getElementById('result');
-
-  // Replace all variable names in the formula with their values
+  const container = document.getElementById('calculator-container');
+  const inputs = container.querySelectorAll('input[type="number"]');
+  const formulas = container.querySelectorAll('input[type="text"]');
+  const vars = {};
   inputs.forEach(input => {
-    // Use RegExp with word boundaries to avoid partial replacements
-    const re = new RegExp('\\b' + input.id + '\\b', 'g');
-    formula = formula.replace(re, input.value);
+    const varName = input.id;
+    vars[varName] = input.value === "" ? "0" : input.value;
   });
 
-  try {
-    // Evaluate the expression using JavaScript's eval() function
-    // WARNING: Using eval() can be risky with untrusted input.
-    const finalAnswer = eval(formula);
-    resultDiv.textContent = `Result: ${finalAnswer}`;
-  } catch (error) {
-    resultDiv.textContent = `Result: Error in formula`;
-    console.error("Formula evaluation error:", error);
-  }
+  formulas.forEach(formulaInput => {
+    let formula = formulaInput.value;
+    Object.keys(vars).forEach(varName => {
+      const re = new RegExp('\\b' + varName + '\\b', 'g');
+      formula = formula.replace(re, vars[varName]);
+    });
+    const resultSpan = document.getElementById('result-' + formulaInput.id);
+    try {
+      const finalAnswer = eval(formula);
+      resultSpan.textContent = ` = ${finalAnswer}`;
+    } catch (error) {
+      resultSpan.textContent = ` = Error`;
+    }
+  });
 }
 </script>
 
@@ -138,4 +149,3 @@ function calculate() {
         }
     }
 </style>
-{{/* End of calculator shortcode */}}
