@@ -1,6 +1,12 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Comprehensive Course on Sets and Functions
+---
+title: Comprehensive Course on Sets and Functions
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 1
+---
 
 ## 1. Numbers and Basic Operations
 

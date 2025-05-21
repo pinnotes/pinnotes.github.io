@@ -1,13 +1,13 @@
 ---
 title: Mathematics
 date: 2025-05-08
-image: "/images/orange.jpg"
 type: cards
 tags:
   - Notes 
 excludeSearch: false
 weight: 1
 cascade:
+ image: "/images/orange.jpg"
  series: ["Foundational-Level"]
  math: true
 

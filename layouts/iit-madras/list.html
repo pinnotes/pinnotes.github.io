@@ -1,9 +1,12 @@
 {{ define "main" }} {{- $imagePath := .Site.Params.blog.list.image | default
 "images/abc.jpg" -}} {{- $borderClass := "hx-mt-12 hx-mb-12 hx-border-t" -}} {{- $readMore
 := (T "readMore") | default "Read here →" -}}
+
 <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+
   {{ partial "sidebar.html" (dict "context" . "disableSidebar" true
   "displayPlaceholder" true) }}
+
   <article
     class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]"
   >
