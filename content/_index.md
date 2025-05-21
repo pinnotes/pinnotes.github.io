@@ -35,6 +35,14 @@ width: normal
 
 <div class="hx-mt-6"></div>
 
+{{< cards cols="3">}}
+  {{< card link="/" title="Image Card" image="https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407" subtitle="Internet Image" >}}
+  {{< card link="/" title="Local Image" image="/images/code-2.jpg" subtitle="Raw image under static directory." >}}
+  {{< card link="/" title="Local Image" image="/images/orange.jpg" subtitle="Image under assets directory, processed by Hugo." method="Resize" options="600x q80 webp" >}}
+{{< /cards >}}
+
+<div class="hx-mb-6"></div>
+
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Computaional Thinking"
