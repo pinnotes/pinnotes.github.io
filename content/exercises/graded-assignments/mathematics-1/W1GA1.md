@@ -7,20 +7,24 @@ excludeSearch: false
 width: wide
 ---
 
-## 1. Multiple Choice Questions (MSQ)
+### 1. Multiple Choice Questions (MSQ) 🧠
 
-**Question 1:**
-Which of the following are irrational numbers?
+<br/>
 
-(a) $3^{1/3}$
+{{< border >}}
+**Q1**. Which of the following are irrational numbers❓
 
-(b) $(\sqrt{8}+\sqrt{2})(\sqrt{12}-\sqrt{3})$
+**(a)** $3^{1/3}$
 
-(c) $\frac{\sqrt{18}-3}{\sqrt{2}-1}$
+**(b)** $(\sqrt{8}+\sqrt{2})(\sqrt{12}-\sqrt{3})$
 
-(d) $\frac{\sqrt{8}+\sqrt{2}}{\sqrt{8}-\sqrt{2}}$
+**(c)** $\frac{\sqrt{18}-3}{\sqrt{2}-1}$
 
-**Solution:**
+**(d)** $\frac{\sqrt{8}+\sqrt{2}}{\sqrt{8}-\sqrt{2}}$
+{{< /border >}}
+
+{{< border >}}
+✅ **Solution:**
 
 (a) $3^{1/3}$ is irrational as it cannot be written as a fraction $p/q$ with $p, q \in \mathbb{Z}, q \neq 0$.
 
@@ -30,9 +34,9 @@ Which of the following are irrational numbers?
 
 (d) $\frac{\sqrt{8}+\sqrt{2}}{\sqrt{8}-\sqrt{2}} = \frac{3\sqrt{2}}{\sqrt{2}} = 3$ (rational).
 
-**Answer:** (a), (b)
+**Answer:** ✅ (a), (b)
+{{< /border >}}
 
----
 
 ## 2. Examples and Additional Solutions
 
@@ -87,6 +91,7 @@ Let $x$ be the number who watched all three movies.
 {{< /border >}}
 
 {{< border title="Answer" >}}
+
 $$
 (x-10) + (10+x) + (5+x) + (55-x) + (50-x) + x + (40-x) = 180
 $$
