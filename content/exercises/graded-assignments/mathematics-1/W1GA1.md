@@ -81,6 +81,7 @@ Number who watched Avatar and RRR $N(A \cup R) = 40$
 Number who watched Dabang and RRR $N(D \cup R) = 55$
 Let $x$ be the number who watched all three movies.
 
+{{< border >}}
 **Solution:**
 
 $$
@@ -92,6 +93,7 @@ x + 150 = 180 \implies x = 30
 $$
 
 Number who watched only RRR and Avatar = $40 - x = 10$
+{{< /border >}}
 
 ---
 
@@ -116,10 +118,15 @@ Let $R_2 = \{(x,y) \mid x, y \in S, y = x^2\}$
 Find the cardinality of $R_1 \setminus (R_1 \cap R_2)$.
 
 **Solution:**
+
 $S = \{0,1,2,\ldots,18\}$
+
 $R_1 = \{(0,0),(1,3),(2,6),(3,9),(4,12),(5,15),(6,18)\}$
+
 $R_2 = \{(0,0),(1,1),(2,4),(3,9),(4,16)\}$
+
 $R_1 \cap R_2 = \{(0,0),(3,9)\}$
+
 $R_1 \setminus (R_1 \cap R_2) = \{(1,3),(2,6),(4,12),(5,15),(6,18)\}$
 
 **Answer:** 5
