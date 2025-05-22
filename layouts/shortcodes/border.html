@@ -31,8 +31,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
     .border-card-content{
-      overflow-x: scroll;
+      overflow-x: auto;
       overflow-y: hidden;
+      padding: 0;
+      margin: 0;
+      scrollbar-width: none;
+    -ms-overflow-style: none;
     }
 
     p{
@@ -45,6 +49,10 @@
     margin: 0;
     margin-top: 0.5rem;
     }
+  }
+
+  .border-card-content::-webkit-scrollbar {
+    display: none;
   }
 
   /* Header styles */

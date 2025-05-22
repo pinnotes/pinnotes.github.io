@@ -170,6 +170,11 @@ nav .search-wrapper {
   justify-content: center;
 }
 
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 a{
   code{
     color: var(--link-color);
