@@ -53,16 +53,20 @@ Consider a table of materials and their dielectric constants:
 **Solution:**
 Each material maps to a unique dielectric constant, so the function is bijective.
 
----
+{{< border type="question" title="Q3">}}
 
-**Example (Q3):**
 Given:
+
 $A = \{x \in \mathbb{N} \mid x \bmod 2 = 0 \text{ and } 1 \leq x \leq 10\} = \{2,4,6,8,10\}$
+
 $B = \{x \in \mathbb{N} \mid x \bmod 5 = 0 \text{ and } 6 \leq x \leq 25\} = \{10,15,20,25\}$
+
 $C = \{x \in \mathbb{N} \mid x \bmod 7 = 0 \text{ and } 7 \leq x \leq 29\} = \{7,14,21,28\}$
 
 Find $A \setminus (B \cup C)$, $B \setminus (A \cup C)$, $C \setminus (B \cup A)$.
+{{< /border >}}
 
+{{< border type="tip" title="Answer" >}}
 **Solution:**
 $A \setminus (B \cup C) = \{2,4,6,8\}$
 $B \setminus (A \cup C) = \{15,20,25\}$
@@ -71,19 +75,18 @@ $C \setminus (B \cup A) = \{7,14,21,28\}$ (note: likely a typo in the original f
 Thus,
 $A \setminus (B \cup C) \cup B \setminus (A \cup C) \cup C \setminus (B \cup A) = \{2,4,6,8,15,20,25,7,14,21,28\}$
 **Cardinality:** 11
+{{< /border >}}
 
----
-
+{{< border type="question" >}}
 **Example (Q4):**
 Total number of people = 180
 Number who watched Dabang $N(D) = 95$
 Number who watched Avatar and RRR $N(A \cup R) = 40$
 Number who watched Dabang and RRR $N(D \cup R) = 55$
 Let $x$ be the number who watched all three movies.
+{{< /border >}}
 
-{{< border >}}
-**Solution:**
-
+{{< border title="Answer" >}}
 $$
 (x-10) + (10+x) + (5+x) + (55-x) + (50-x) + x + (40-x) = 180
 $$
@@ -119,7 +122,7 @@ Find the cardinality of $R_1 \setminus (R_1 \cap R_2)$.
 
 {{< /border >}}
 
-{{< border >}}
+{{< border title="Solution" >}}
 **Solution:**
 
 $S = \{0,1,2,\ldots,18\}$
@@ -140,7 +143,7 @@ $R_1 \setminus (R_1 \cap R_2) = \{(1,3),(2,6),(4,12),(5,15),(6,18)\}$
 In a Zoo, there are 6 Bengal white tigers and 7 Bengal royal tigers. Out of these, 5 are males and 10 are either Bengal royal tigers or males. Find the number of female Bengal white tigers.
 {{< /border >}}
 
-{{< border >}}
+{{< border type="conclusion" >}}
 **Solution:**
 Let BW = Bengal White, BR = Bengal Royal, M = Male.
 $n(BR) = 7$, $n(M) = 5$, $n(BR \cup M) = 10$
