@@ -108,8 +108,8 @@ Thus, $A = \{-3,-2,-1,0,1,2\}$; **cardinality = 6**.
 
 **Answer:** 6
 
----
 
+{{< border >}}
 **Question 6:**
 Consider $S = \{a \mid a \in \mathbb{N}, a \leq 18\}$.
 Let $R_1 = \{(x,y) \mid x, y \in S, y = 3x\}$
@@ -117,6 +117,9 @@ Let $R_2 = \{(x,y) \mid x, y \in S, y = x^2\}$
 
 Find the cardinality of $R_1 \setminus (R_1 \cap R_2)$.
 
+{{< /border >}}
+
+{{< border >}}
 **Solution:**
 
 $S = \{0,1,2,\ldots,18\}$
@@ -130,12 +133,14 @@ $R_1 \cap R_2 = \{(0,0),(3,9)\}$
 $R_1 \setminus (R_1 \cap R_2) = \{(1,3),(2,6),(4,12),(5,15),(6,18)\}$
 
 **Answer:** 5
+{{< /border >}}
 
----
-
+{{< border >}}
 **Question 7:**
 In a Zoo, there are 6 Bengal white tigers and 7 Bengal royal tigers. Out of these, 5 are males and 10 are either Bengal royal tigers or males. Find the number of female Bengal white tigers.
+{{< /border >}}
 
+{{< border >}}
 **Solution:**
 Let BW = Bengal White, BR = Bengal Royal, M = Male.
 $n(BR) = 7$, $n(M) = 5$, $n(BR \cup M) = 10$
@@ -153,8 +158,7 @@ So, male Bengal Royal tigers = 2, male Bengal White tigers = 3
 Female Bengal White tigers = 6 - 3 = **3**
 
 **Answer:** 3
-
----
+{{< /border >}}
 
 ## 4. Additional Examples and Incorrect Questions (Not for Marks)
 
