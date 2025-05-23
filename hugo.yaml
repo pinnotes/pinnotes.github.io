@@ -1,6 +1,6 @@
 baseURL: https://pinnotes.github.io/ # pinnotes.github.io
 languageCode: en-us
-title: Pinnotes
+title: PinNotes
 
 module:
   imports:

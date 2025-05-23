@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2c3e50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Pushpin head -->
+  <circle cx="100" cy="60" r="30" fill="#f39c12" />
+  <!-- Pushpin body -->
+  <rect x="90" y="90" width="20" height="70" fill="#34495e" />
+  <!-- Note sheet -->
+  <rect x="50" y="30" width="100" height="100" fill="#ecf0f1" stroke="#2980b9" stroke-width="2" rx="10" ry="10" />
+  <!-- Academic icon: book -->
+  <path d="M70 50 h60 v40 h-60 z" fill="#2980b9" />
+  <line x1="70" y1="50" x2="130" y2="90" stroke="#ecf0f1" stroke-width="2" />
+  <line x1="130" y1="50" x2="70" y2="90" stroke="#ecf0f1" stroke-width="2" />
+</svg>

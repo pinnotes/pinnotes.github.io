@@ -1,0 +1,70 @@
+<svg viewBox="0 0 200 112" width="200" height="112" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eafffa"/>
+      <stop offset="100%" stop-color="#c7f7f5"/>
+    </linearGradient>
+    <!-- Orange shape gradient -->
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb366"/>
+      <stop offset="100%" stop-color="#ff7f32"/>
+    </linearGradient>
+    <!-- Blue shape gradient -->
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3fd0ff"/>
+      <stop offset="100%" stop-color="#0047ff"/>
+    </linearGradient>
+    <!-- Purple shape gradient -->
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6d0ff"/>
+      <stop offset="100%" stop-color="#b59aff"/>
+    </linearGradient>
+    <!-- Pink shape gradient -->
+    <linearGradient id="pinkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb3e6"/>
+      <stop offset="100%" stop-color="#ff7fcc"/>
+    </linearGradient>
+    <!-- Cat face gradient -->
+    <radialGradient id="catFace" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#b57bff"/>
+    </radialGradient>
+    <!-- Cat ear gradient -->
+    <linearGradient id="catEar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb3ff"/>
+      <stop offset="100%" stop-color="#a259ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="200" height="112" fill="url(#bg)" />
+  <!-- Orange abstract shape (left) -->
+  <path d="M0,90 Q40,60 60,70 Q90,80 60,112 Q30,110 0,90 Z" fill="url(#orangeGrad)" />
+  <!-- Blue abstract shape (middle) -->
+  <path d="M55,80 Q80,40 120,60 Q110,100 70,112 Q60,100 55,80 Z" fill="url(#blueGrad)" />
+  <!-- Purple cube (middle right) -->
+  <rect x="110" y="70" width="40" height="30" rx="8" fill="url(#purpleGrad)" />
+  <path d="M110,70 Q130,85 150,70" fill="none" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  <!-- Pink stack (top right) -->
+  <ellipse cx="170" cy="40" rx="22" ry="10" fill="url(#pinkGrad)" />
+  <rect x="148" y="40" width="44" height="30" rx="11" fill="url(#pinkGrad)" opacity="0.7"/>
+  <rect x="150" y="60" width="40" height="10" rx="8" fill="url(#pinkGrad)" opacity="0.5"/>
+  <!-- Cat-like character (center top) -->
+  <g>
+    <!-- Ears -->
+    <ellipse cx="120" cy="22" rx="6" ry="8" fill="url(#catEar)" transform="rotate(-15 120 22)"/>
+    <ellipse cx="140" cy="20" rx="6" ry="8" fill="url(#catEar)" transform="rotate(15 140 20)"/>
+    <!-- Face -->
+    <ellipse cx="130" cy="32" rx="18" ry="16" fill="url(#catFace)" />
+    <!-- Eyes -->
+    <ellipse cx="124" cy="32" rx="3" ry="4" fill="#222"/>
+    <ellipse cx="136" cy="32" rx="3" ry="4" fill="#222"/>
+    <ellipse cx="123" cy="31" rx="1" ry="1.5" fill="#fff" opacity="0.8"/>
+    <ellipse cx="135" cy="31" rx="1" ry="1.5" fill="#fff" opacity="0.8"/>
+    <!-- Smile -->
+    <path d="M127,39 Q130,42 133,39" stroke="#222" stroke-width="1.2" fill="none" />
+    <!-- Cheeks -->
+    <ellipse cx="122" cy="36" rx="1.2" ry="0.7" fill="#ffb3e6" opacity="0.7"/>
+    <ellipse cx="138" cy="36" rx="1.2" ry="0.7" fill="#ffb3e6" opacity="0.7"/>
+  </g>
+</svg>
