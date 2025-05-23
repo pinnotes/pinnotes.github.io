@@ -1,14 +1,15 @@
 ---
-title: English II
+title: English II 📖
 date: 2025-05-08
-image: "/images/orange.jpg"
+type: cards
 tags:
   - Notes 
   - SSC Exam
 excludeSearch: false
 weight: 1
 cascade:
- series: ["SSC-CHSL"]
+ series: ["Foundational-Level"]
+ image: "/images/orange.jpg"
 
 ---
 

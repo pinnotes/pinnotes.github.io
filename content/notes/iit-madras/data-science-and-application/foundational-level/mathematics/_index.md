@@ -1,5 +1,5 @@
 ---
-title: Mathematics
+title: Mathematics 🧮
 date: 2025-05-08
 type: cards
 tags:

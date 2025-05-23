@@ -159,7 +159,7 @@ $readMore := (T "readMore") | default "Read here →" -}}
                   src="{{ .Params.image | default $imagePath }}"
                   alt="{{ .Title }}"
                   class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4"
-                  style="aspect-ratio: 1/1;"
+                  style="aspect-ratio: 1/1"
                 />
                 <div class="grid-layout__item-content">
                   <p class="hx-opacity-100 hx-text-sm hx-leading-7">
@@ -212,7 +212,78 @@ $readMore := (T "readMore") | default "Read here →" -}}
       <hr
         class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
       />
-      
+
+      <div class="grid-layout-section">
+        <ul class="grid-container">
+          {{ range first 6 (where .Site.RegularPages "Params.tags" "intersect"
+          (slice "Notes")) }}
+          <li class="grid-item">
+            <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
+              <div class="grid-layout__item">
+                <img
+                  src="{{ .Params.image | default $imagePath }}"
+                  alt="{{ .Title }}"
+                  class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4"
+                />
+                <div class="grid-layout__item-content">
+                  <p class="hx-opacity-100 hx-text-xs hx-leading-7">
+                    {{ with index .Params.tags 0 }}
+                    <span class="gradient-tag mona-sans hx-inline-block"
+                      >{{ . }}</span
+                    >
+                    {{ end }}
+                  </p>
+                  <h2 class="hx-text-xl hx-font-bold">{{ .Title }}</h2>
+                  <p class="grid-card-description hx-opacity-80">
+                    {{- partial "utils/page-description" . -}}
+                  </p>
+                </div>
+              </div>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <hr
+        class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
+      />
+
+      <div class="grid-layout-section">
+        <ul class="grid-container one-grid">
+          {{ range first 5 (where .Site.RegularPages "Params.tags" "intersect"
+          (slice "Programming")) }}
+          <li class="grid-item featured-grid-item">
+            <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
+              <div class="grid-layout__item">
+                <img
+                  src="{{ .Params.image | default $imagePath }}"
+                  alt="{{ .Title }}"
+                  class="hx-w-full hx-h-48 hx-object-cover hx-rounded-md hx-mb-4"
+                />
+                <div class="grid-layout__item-content">
+                  <p class="hx-opacity-100 hx-text-xs hx-leading-7">
+                    {{ with index .Params.tags 0 }}
+                    <span class="gradient-tag mona-sans hx-inline-block"
+                      >{{ . }}</span
+                    >
+                    {{ end }}
+                  </p>
+                  <h2 class="hx-text-xl hx-font-bold">{{ .Title }}</h2>
+                  <p class="grid-card-description hx-opacity-80">
+                    {{- partial "utils/page-description" . -}}
+                  </p>
+                </div>
+              </div>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <hr
+        class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
+      />
     </main>
   </article>
   <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
@@ -306,6 +377,10 @@ $readMore := (T "readMore") | default "Read here →" -}}
 
     .three-grid {
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    .one-grid {
+      grid-template-columns: repeat(5, 1fr);
     }
 
     .card-large {
