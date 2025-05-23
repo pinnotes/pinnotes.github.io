@@ -7,7 +7,7 @@ excludeSearch: false
 weight: 1
 cascade:
  series: ["English"]
- image: "/images/svg/dark-gradient.svg/"
+ image: "/images/svg/dark-gradient.svg"
 
 ---
 
