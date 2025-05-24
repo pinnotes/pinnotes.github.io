@@ -1,0 +1,26 @@
+---
+title: Prime NUmbers
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 12
+---
+
+Based on the sources and our conversation history, here's a comprehensive overview of prime numbers:
+
+*   **Definition:** A prime number is a natural number that has **no factors other than 1 and itself**. It must have **exactly two factors**.
+*   **Factors:** The only factors of a prime number `p` are `1` and `p`.
+*   **Why 1 is Not Prime:** It is important that a prime number must have **two *separate* factors**. While 1 has 1 as a factor (because 1 times 1 is 1), it has **only one factor**, which is 1 itself. Therefore, 1 is technically not considered a prime number.
+*   **Smallest Primes:** The smallest prime number is **2** because it has exactly two factors: 1 and itself. The next prime numbers are 3, 5, and 7.
+*   **Even Numbers:** After the number 2, **no even numbers can be prime** because they are all multiples of 2, meaning 2 divides them in addition to 1 and themselves. For example, 4 is divisible by 2, and 6 is not prime because it's a multiple of 3.
+*   **Generating Primes (Sieve of Eratosthenes):** There is a method called the **sieve of Eratosthenes** to generate prime numbers. You start by listing numbers (e.g., from 1 to 100). You know 1 is not prime. You take the first unmarked number, which is 2, declare it a prime, and then **knock off all its multiples** (all the even numbers) as non-primes. Then, you look for the next number that hasn't been marked off, which is 3, declare it a prime, and mark off all its multiples (some of which might already be marked). You continue this process; the next unmarked number will be the next prime (e.g., 5 is found this way). This method is a good way to generate primes up to a certain number without missing any.
+*   **Prime Factorization:** A very important fact is that every number can be **uniquely factorized into the prime numbers** that form it. This is also called the **prime factorization**. For example, 12 can be written as 2 × 6 or 4 × 3, but its fundamental unique prime factorization is 2 × 2 × 3, or using exponentiation, 2² × 3. Similarly, 126 is 2 × 3² × 7. This unique decomposition property is used implicitly a lot.
+*   **Infinitude of Primes:** It is a known result that the set of prime numbers is an **infinite set**. There cannot be a largest prime number. Euclid provided a proof for this. The proof involves assuming there is a finite list of all primes (p₁, p₂, ..., pk), constructing a new number N by multiplying all these primes together and adding 1 (N = p₁ × p₂ × ... × pk + 1). This new number N must be larger than any prime in the list. If the list was exhaustive of all primes, N must be composite (not prime). If N is composite, it must have a prime factor, and this prime factor must be in the original list (say pⱼ). So, pⱼ divides N. However, pⱼ also divides the product p₁ × p₂ × ... × pk (since pⱼ is one of the factors). A property of divisibility states that if a number divides a sum (a+b) and also divides one part (a), it must divide the other part (b). In this case, pⱼ divides N (the sum) and pⱼ divides the product (one part), so pⱼ must divide 1 (the other part). But pⱼ is a prime number, which is by definition greater than 1, and therefore cannot divide 1. This is a contradiction, meaning the initial assumption (that the list of primes is finite) must be false. Thus, the set of primes is infinite, and there is no largest prime.
+*   **Distribution:** Prime numbers have been extensively studied in an area called number theory. One topic is their distribution within the natural numbers. As numbers get larger, the gaps between primes tend to become larger. The function π(x) denotes the number of primes less than or equal to a given number x. For large x, π(x) is approximately x / log(x).
+*   **Applications:** Despite seemingly abstract, prime numbers are actually quite useful. One important application is in **cryptography**. Cryptography affects day-to-day life, such as protecting electronic commerce transactions. Much of this encryption relies on the existence of large prime numbers and the fact that it is **difficult to factorize** the product of two large primes.
+*   **Computational Problems:** There are two related computational problems: checking if a number is prime (**primality testing**) and finding the prime factors of a number (**factorization**). Primality testing can be done efficiently. However, there is **no efficient way to factorize** a large number. This paradox (being able to check if a number is prime efficiently, but not being able to factorize it quickly if it isn't prime) is why primes are important in cryptography.
+*   **Set Representation:** The set of prime numbers can be defined as a **subset of the natural numbers**. Using set comprehension, the set of primes (P) can be defined as the set of natural numbers `p` such that the factors of `p` consist of exactly two elements {1, p}, and `p` is not 1.
+
+In summary, prime numbers are foundational in number theory, possess unique properties like the basis for unique prime factorization, are infinite in quantity, and have significant practical applications, particularly in securing digital communications.
