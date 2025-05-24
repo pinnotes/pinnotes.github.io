@@ -1,3 +1,13 @@
+---
+title: Quick review of Adverbs
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 21
+---
+
 Drawing on the sources and our conversation history, let's take a quick review of **adverbs** in English.
 
 **What are Adverbs?**

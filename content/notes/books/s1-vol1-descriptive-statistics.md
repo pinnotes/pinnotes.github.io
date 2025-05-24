@@ -8,7 +8,7 @@ excludeSearch: false
 weight: 1
 cascade:
  series: ["English"]
- image: "/images/svg/emoji.svg/"
+ image: "/images/svg/emoji.svg"
 
 ---
 Certainly! Below is a detailed explanation of the key topics in the **IIT Madras BS Descriptive Statistics** PDF, presented with examples, questions, and step-by-step solutions in a clear and structured layout[1].

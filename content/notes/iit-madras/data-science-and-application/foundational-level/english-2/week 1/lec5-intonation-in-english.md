@@ -1,3 +1,13 @@
+---
+title: figures of speech
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 1
+---
+
 Based on the sources and our conversation history, let's discuss intonation in English.
 
 **Intonation** is described as a **feature of pronunciation**. It refers to the **melody of speech** and is **created by changing the pitch of the voice**. Intonation is considered an **extra-linguistic** or **prosodic feature** of language, along with rhythm and pitch. These features are primarily noticeable **when we speak**.

@@ -1,3 +1,13 @@
+---
+title: figures of speech
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 1
+---
+
 Drawing on the information from the sources you provided, the two YouTube videos titled "Figures of Speech - Part 1" and "Figures of Speech - Part 2" discuss **figures of speech** as literary devices that help make language more **impactful**. They contribute to making a speaker sound more prepared and demonstrate a good and effective control over language. Figures of speech can be used to say more or less than what is literally meant. Their use can take language performance to the next level, demonstrating command and control, adding to confidence, and enabling the ability to function better in that language. Figures of speech help language become better and get combined with the efficient use of grammatically accurate and situationally appropriate language. They make our language **richer**.
 
 Figures of speech are described as a specific device that can be used in both **written and spoken language**. They are also considered **literary devices**. A complete list of figures of speech is not readily available; they are often part of a native speaker's capacity, particularly metaphors which can be contextual and culturally grounded. While native speakers may acquire them effortlessly from context, paying attention to them, their context of use, and their function can help non-native speakers use them effortlessly and effectively over time. This involves continuous and careful practice, reading published material, listening to spontaneous speech, and allowing these devices to evolve in one's subconscious.

@@ -8,7 +8,7 @@ code: true
 weight: 1
 cascade:
  series: ["Programming"]
- image: "/images/code-1.jpg"
+ image: "/images/svg/code.svg"
 
 
 ---

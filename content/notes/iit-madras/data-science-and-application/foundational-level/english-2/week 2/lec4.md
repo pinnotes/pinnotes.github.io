@@ -1,3 +1,13 @@
+---
+title: Important concepts in adjectives
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 22
+---
+
 Based on the sources and our conversation history, let's delve into some **important concepts in adjectives**. Understanding these details, particularly how they relate to the structure of sentences and how our minds process them, can significantly impact your command of English and boost your confidence.
 
 Adjectives are a fundamental part of speech. While we may be familiar with their basic definition, exploring certain aspects can deepen our understanding.

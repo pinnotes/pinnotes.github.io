@@ -1,3 +1,13 @@
+---
+title: Important concepts in adjectives
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 22
+---
+
 Drawing on the information from the sources and our conversation history, let's explore the concepts of **Comment, Viewpoint, and Focus adverbs**.
 
 We've previously discussed adverbs in general as words or sets of words that modify verbs, adjectives, and other adverbs, indicating aspects like when, where, how, and how much an action is performed. These types of adverbs, such as adverbs of manner, degree, place, and time, often relate to the structural aspects of a sentence.

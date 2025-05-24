@@ -5,9 +5,7 @@ tags:
   - Programming 
 excludeSearch: false
 weight: 1
-cascade:
- series: ["Programming"]
- image: "/images/code-2.jpg"
+
 
 ---
 

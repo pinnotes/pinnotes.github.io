@@ -1,3 +1,13 @@
+---
+title: tenses and aspects in English
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 22
+---
+
 Drawing on the sources and our conversation history, let's review **tenses and aspects in English**. Understanding these concepts is underlined as very important for looking at different forms of verbs and how they work in a sentence. Gaining this understanding, particularly of how it works in the human mind's subconscious computation, can help you achieve accuracy and build communicative confidence in speaking.
 
 In English, we talk about verbs having **forms** which indicate both **tense** and **aspect**.

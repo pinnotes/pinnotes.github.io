@@ -1,3 +1,13 @@
+---
+title: figures of speech
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 1
+---
+
 Based on the sources and our previous conversation about language features like discourse markers and figures of speech, we can discuss the concepts of rhythm and pitch in English.
 
 Rhythm and pitch are described as two specific and salient features of language. They are also known as extra-linguistic or prosodic features. While often used metaphorically, they are fundamentally features of speech. Understanding rhythm and pitch, along with other features like tone, stress, and accent, is crucial for improving language learning and achieving communicative confidence. They are considered embedded and in-built for native speakers but require conscious attention for learners.

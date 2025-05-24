@@ -1,4 +1,15 @@
-Based on the information from the sources, discourse markers are specific elements in language, often found in speech, that **do not usually form part of a "serious discussion on language"** but have very important, though often undiscussed, functions. They are essentially **connectors that join ideas expressed through sentences and phrases**. Sometimes they are referred to as **"fillers," but they are important for conveying ideas and making speech or writing coherent**. Discourse markers are used in both spoken and written language.
+---
+title: figures of speech
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 1
+---
+
+Based on the information from the sources, discourse markers are specific elements in language, 
+often found in speech, that **do not usually form part of a "serious discussion on language"** but have very important, though often undiscussed, functions. They are essentially **connectors that join ideas expressed through sentences and phrases**. Sometimes they are referred to as **"fillers," but they are important for conveying ideas and making speech or writing coherent**. Discourse markers are used in both spoken and written language.
 
 Understanding discourse markers helps to **make language more impactful, impressive, and demonstrates a command over the language**. They are described as adding **emphasis and flair** to conversations. Effortless-sounding speech often takes a lot of effort to achieve, and paying attention to these markers is part of that effort. Language learning should be a conscious process, and focusing on discourse markers can significantly help in building sentences, ideas, and overall discourse understanding.
 

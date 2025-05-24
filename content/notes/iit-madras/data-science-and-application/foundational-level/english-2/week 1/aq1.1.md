@@ -1,4 +1,12 @@
-
+---
+title: Activity Questions
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 2
+---
 
 1. "The cafe was like a battleship stripped for action.” The figure of speech used here is ___.
 

@@ -1,3 +1,13 @@
+---
+title: Activity Questions
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 3
+---
+
 1. Which among the following use alliteration in its name?
 
 Kolkata Knight Riders

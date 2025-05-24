@@ -9,7 +9,7 @@ excludeSearch: false
 weight: 1
 cascade:
  series: ["Foundational-Level"]
- image: "/images/svg/circle-gradient.svg/"
+ image: "/images/svg/circle-gradient.svg"
 
 ---
 

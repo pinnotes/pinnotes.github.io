@@ -1,3 +1,13 @@
+---
+title: figures of speech Part - 2
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 1
+---
+
 Drawing on the information from the sources, the query about "figures of speech part 2" leads us to explore further literary devices that enhance language impact. As discussed previously, figures of speech are literary devices that help make language more impactful. They make comparisons or draw parallels between unrelated things and do not provide a literal interpretation.
 
 The source "Figures of Speech - Part 2" delves into several specific types:

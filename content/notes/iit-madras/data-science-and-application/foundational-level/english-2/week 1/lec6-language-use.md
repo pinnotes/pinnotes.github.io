@@ -1,3 +1,13 @@
+---
+title: figures of speech
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 1
+---
+
 Based on the sources and our conversation history, **language use** can be understood as the practical application of language to communicate, express ideas, interact with others, and create discourse. It is about how we actually employ language, in both spoken and written forms, to achieve our communicative goals. Learning a language is fundamentally about being able to interact with others and convey ideas effectively.
 
 The goal of language learning, as discussed, is often tied to developing **communicative confidence**. Effective language use allows us to sound **emphatic, effective, and impressive**, demonstrating **command and control**. It enables us to convey messages clearly, ensuring the listener receives the speaker's intention without ambiguity. Effortless-sounding speech, in reality, takes considerable effort.

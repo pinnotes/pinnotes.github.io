@@ -6,9 +6,7 @@ tags:
   - Notes 
 excludeSearch: false
 weight: 1
-cascade:
- series: ["English"]
- image: "/images/hello.jpg"
+
 
 ---
 

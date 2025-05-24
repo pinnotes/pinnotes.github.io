@@ -1,3 +1,13 @@
+---
+title: tenses and aspects in English
+date: 2025-05-08
+tags:
+  - Notes 
+  - IIT Madras
+excludeSearch: false
+weight: 22
+---
+
 Okay, let's review the structure and functions of **passives** in English, drawing on the information from the sources and our previous discussion.
 
 Understanding passive constructions is highlighted as important for mastering English, and looking at how they function in the mind can contribute to accuracy and confidence.

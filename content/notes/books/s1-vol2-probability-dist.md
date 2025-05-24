@@ -6,9 +6,7 @@ tags:
   - Notes 
 excludeSearch: false
 weight: 1
-cascade:
- series: ["English"]
- image: "/images/hello.jpg"
+
 
 ---
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
