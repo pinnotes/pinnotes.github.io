@@ -17,45 +17,42 @@ width: normal
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  Deploy and manage your apps  
-  on Clever Cloud
+  Your Academic Companion: PinNotes
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mb-6">
 {{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
-  Documentation and guides to deploy,  
-  manage, and monitor your apps.
+  PinNotes is your go-to platform for accessing high-quality academic notes and practice questions across a wide range of subjects.
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="hx-mb-12">
-{{< hextra/hero-button text="Get Started" link="docs" >}}
+{{< hextra/hero-button text="Get Started" link="notes" >}}
 </div>
 
-<div class="hx-mt-6"></div>
+<!-- <div class="hx-mt-6"></div>
 
-{{< cards cols="3">}}
-  {{< card link="/" title="Image Card" image="https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc0407" subtitle="Internet Image" >}}
+{{< cards cols="2">}}
   {{< card link="/" title="Local Image" image="/images/code-2.jpg" subtitle="Raw image under static directory." >}}
   {{< card link="/" title="Local Image" image="/images/orange.jpg" subtitle="Image under assets directory, processed by Hugo." method="Resize" options="600x q80 webp" >}}
-{{< /cards >}}
+{{< /cards >}} -->
 
 <div class="hx-mb-6"></div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Computaional Thinking"
+    title="Practice Questions"
     subtitle="Environment variables are a simple way of configuring your applications, their deployment and their behaviour."
     icon="sparkles"
-    link="/computationl-thinking/"
+    link="/exercises/"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/green.jpg"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(58, 56, 113, 0.1),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="English"
+    title="Blogs"
     subtitle="The Clever Cloud API reference."
     link="blog"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
@@ -63,39 +60,22 @@ width: normal
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.1),hsla(0,0%,100%,0));"
   >}}
-  {{< hextra/feature-card
-    title="Mathematics I"
-    subtitle="An official Command Line Interface for Clever Cloud."
-    link="courses"
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/app.jpg"
-    imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(245, 116, 97, 0.1),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="Graded Assignments"
-    subtitle="Find detailed tutorials to deploy your favorite framework on Clever Cloud"
-    link="guides"
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/app.jpg"
-    imageClass="hx-top-[100%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
-  >}}
   
-  {{< hextra/feature-card
+  <!-- {{< hextra/feature-card
     title="Extra Weekly Activites"
     subtitle="See supported languages and how to configure your app to deploy successfully"
     link="doc/applications"
-  >}}
-  {{< hextra/feature-card
-    title="Connect your application to dependencies"
+  >}} -->
+  <!-- {{< hextra/feature-card
+    title="IITM BS Degree Graded Assignments"
     subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
-    link="doc/addons"
-  >}}
+    link="assignments"
+  >}} -->
   {{< hextra/feature-card
-    title="Connect your application"
+    title="About "
     icon="github"
     subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
-    link="doc/addons"
+    link="about"
   >}}
   
 {{< /hextra/feature-grid >}}

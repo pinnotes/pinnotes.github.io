@@ -84,9 +84,9 @@ menu:
     - name: IIT
       pageRef: /iit-madras
       weight: 4
-    - name: Assignments
-      pageRef: /assignments
-      weight: 5
+    # - name: Assignments
+      # pageRef: /assignments
+      # weight: 5
     # - name: Examples
       # pageRef: /examples
       # weight: 6
@@ -117,10 +117,10 @@ sidebar:
        name: "IIT Madras"
        url: "/iit-madras"
        weight: 3
-     - identifier: examples
-       name: "Examples"
-       url: "/examples"
-       weight: 4
+    #  - identifier: examples
+      #  name: "Examples"
+      #  url: "/examples"
+      #  weight: 4
 docs:
     - name: "Introduction"
       url: "/docs/"

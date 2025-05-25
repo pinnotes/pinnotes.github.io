@@ -9,8 +9,7 @@ cascade:
 
 
 {{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
-  Documentation and guides to deploy,  
-  manage, and monitor your apps.
+PinNotes is your go-to platform for accessing high-quality academic notes and practice questions across a wide range of subjects.
 {{< /hextra/hero-subtitle >}}
 
 ---
