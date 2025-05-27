@@ -85,9 +85,25 @@ To integrate GeoGebra into a Hugo website as a shortcode, you can create a custo
 
 ---
 
-## Graph
+## GeoGebra-JS Graph
 
 {{< geogebra-js id="fe9vckwu" width="800" height="600" >}}
+
+{{< geogebra-js id="qhqxxhp9" width="800" height="600" >}}
+
+
+
+## Math/GeoGebra
+
+{{< math/geogebra id="azbxfs9y" width="600" height="600" >}}
+
+{{< math/geogebra id="fe9vckwu" width="600" height="600" >}}
+
+{{< math/geogebra id="u7mzkqt2" width="600" height="600" >}}
+
+## i-frame
+
+<iframe src="https://www.geogebra.org/classic/azbxfs9y?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
 
 ## 2. How Hugo Shortcodes Work

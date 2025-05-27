@@ -108,6 +108,10 @@ Add a slider for angle size, and watch a triangle's shape change as the angle is
 - Use color coding for different elements (e.g., red for important points, blue for lines).
 - Align text and objects neatly for a professional look.
 
+{{< geogebra-js id="fe9vckwu" width="650" height="500" >}}
+
+{{< geogebra-js id="qhqxxhp9" width="650" height="500" >}}
+
 ---
 
 ## **GeoGebra Math Practice (for Algebra and Step-by-Step Problems)**

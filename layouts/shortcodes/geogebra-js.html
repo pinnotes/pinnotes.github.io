@@ -1,7 +1,8 @@
+{{ $id := delimit (slice "ggb_%d" (partial "functions/uid.html" .)) "-" }}
 {{ $materialID := .Get "id" | default "" }}
 {{ $width := .Get "width" | default "800" }}
 {{ $height := .Get "height" | default "600" }}
-<div id="ggb-element-{{ $materialID }}"></div>
+<div id="{{ $id }}"></div>
 <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 <script>
   var params = {
@@ -15,6 +16,6 @@
   };
   var applet = new GGBApplet(params, true);
   window.addEventListener("load", function() {
-    applet.inject('ggb-element-{{ $materialID }}');
+    applet.inject('{{ $id }}');
   });
 </script>

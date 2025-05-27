@@ -1,0 +1,19 @@
+{{ $id := delimit (slice "ggb_%d" (partial "functions/uid.html" .)) "-" }}
+
+{{ $materialID := .Get "id" | default "" }}
+{{ $width := .Get "width" | default "800" }}
+{{ $height := .Get "height" | default "600" }}
+<iframe
+  src="https://www.geogebra.org/material/iframe/id/{{ $materialID }}/width/{{ $width }}/height/{{ $height }}/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/sdz/false/sfbl/false"
+  width="{{ $width }}"
+  height="{{ $height }}"
+  style="border:0;"
+  allowfullscreen>
+</iframe>
+
+
+
+<style>
+
+
+</style>
