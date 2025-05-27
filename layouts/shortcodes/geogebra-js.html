@@ -1,12 +1,16 @@
-{{ $id := delimit (slice "ggb_%d" (partial "functions/uid.html" .)) "-" }}
 {{ $materialID := .Get "id" | default "" }}
 {{ $width := .Get "width" | default "800" }}
 {{ $height := .Get "height" | default "600" }}
-<div id="{{ $id }}"></div>
-<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+{{ $appName := .Get "appName" | default "graphing" }}
+
+<div id="ggb-element-{{ $materialID }}"></div>
+{{ if not (.Page.Scratch.Get "geogebra_script_loaded") }}
+  <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+  {{ .Page.Scratch.Set "geogebra_script_loaded" true }}
+{{ end }}
 <script>
   var params = {
-    "appName": "graphing",
+    "appName": "{{ $appName }}",
     "width": {{ $width }},
     "height": {{ $height }},
     "showToolBar": true,
@@ -16,6 +20,6 @@
   };
   var applet = new GGBApplet(params, true);
   window.addEventListener("load", function() {
-    applet.inject('{{ $id }}');
+    applet.inject('ggb-element-{{ $materialID }}');
   });
 </script>

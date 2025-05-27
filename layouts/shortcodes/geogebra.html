@@ -1,8 +1,10 @@
 <!-- filepath: d:\Code\hextra-notes\layouts\shortcodes\geogebra.html -->
 {{ $id := delimit (slice "ggb_%d" (partial "functions/uid.html" .)) "-" }}
+{{- $uid := .Page.Scratch.Get "addCounter" | default 0 -}}
+{{- .Page.Scratch.Set "addCounter" (add $uid 1) -}}
 
 {{/*  {{ $id := printf "ggb_%d" now.UnixNano }}  */}}
-<div id="{{ $id }}"></div>
+<div id="{{ $uid }}"></div>
 <script>
   var applet = new GGBApplet({
     {{ with .Get "material_id" }}"material_id": "{{ . }}",{{ end }}
@@ -14,7 +16,7 @@
     "showMenuBar": {{ .Get "menu" | default "false" }}
   }, true);
   window.addEventListener("load", function() {
-    applet.inject('{{ $id }}');
+    applet.inject('{{ $uid }}');
   });
 </script>
 

@@ -112,6 +112,8 @@ Add a slider for angle size, and watch a triangle's shape change as the angle is
 
 {{< geogebra-js id="qhqxxhp9" width="650" height="500" >}}
 
+{{< geogebra-js id="u7mzkqt2" width="650" height="500" appName="classic" >}}
+
 ---
 
 ## **GeoGebra Math Practice (for Algebra and Step-by-Step Problems)**

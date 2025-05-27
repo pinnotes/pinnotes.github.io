@@ -79,6 +79,12 @@ GeoGebra Classroom is an integrated platform where teachers can:
 
 **GeoGebra Classroom** can be used standalone or in conjunction with other LMS platforms like Google Classroom for a seamless experience[^3][^5].
 
+{{< geogebra material_id="azbxfs9y" width="700" height="500" app="classic" toolbar="true" algebra="true" menu="true" >}}
+
+{{< geogebra material_id="qhqxxhp9" width="700" height="500" app="graphing" toolbar="true" algebra="true" menu="true" >}}
+
+{{< geogebra material_id="u7mzkqt2" width="700" height="500" app="classic" toolbar="true" algebra="true" menu="true" >}}
+
 ---
 
 ### **3. Workflow Example: Integrating GeoGebra with Google Classroom**
