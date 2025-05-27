@@ -1,0 +1,20 @@
+{{ $materialID := .Get "id" | default "" }}
+{{ $width := .Get "width" | default "800" }}
+{{ $height := .Get "height" | default "600" }}
+<div id="ggb-element-{{ $materialID }}"></div>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script>
+  var params = {
+    "appName": "graphing",
+    "width": {{ $width }},
+    "height": {{ $height }},
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "showMenuBar": true,
+    "material_id": "{{ $materialID }}"
+  };
+  var applet = new GGBApplet(params, true);
+  window.addEventListener("load", function() {
+    applet.inject('ggb-element-{{ $materialID }}');
+  });
+</script>

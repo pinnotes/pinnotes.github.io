@@ -1,0 +1,20 @@
+<!-- filepath: d:\Code\hextra-notes\layouts\shortcodes\geogebra.html -->
+{{ $id := delimit (slice "ggb_%d" (partial "functions/uid.html" .)) "-" }}
+
+{{/*  {{ $id := printf "ggb_%d" now.UnixNano }}  */}}
+<div id="{{ $id }}"></div>
+<script>
+  var applet = new GGBApplet({
+    {{ with .Get "material_id" }}"material_id": "{{ . }}",{{ end }}
+    "appName": "{{ .Get "app" | default "graphing" }}",
+    "width": {{ .Get "width" | default "600" }},
+    "height": {{ .Get "height" | default "400" }},
+    "showToolBar": {{ .Get "toolbar" | default "false" }},
+    "showAlgebraInput": {{ .Get "algebra" | default "false" }},
+    "showMenuBar": {{ .Get "menu" | default "false" }}
+  }, true);
+  window.addEventListener("load", function() {
+    applet.inject('{{ $id }}');
+  });
+</script>
+

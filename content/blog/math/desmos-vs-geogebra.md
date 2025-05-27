@@ -1,5 +1,6 @@
 ---
 title: Side-by-Side comparison of **Desmos** and **GeoGebra** across key criteria
+description: Integrates with Google Classroom, Coursify.me, and remote learning systems
 date: 2025-05-17
 authors:
   - name: Aryan
@@ -10,6 +11,7 @@ tags:
 excludeSearch: true
 width: nomral
 image: "/images/hello.jpg"
+toc: false
 ---
 
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
@@ -40,6 +42,18 @@ Here is a detailed, side-by-side comparison of **Desmos** and **GeoGebra** acros
 
 ---
 
+## Embed Graphs
+
+#### Desmos Graph
+
+<iframe src="https://www.desmos.com/calculator/j7o6cj1fil?embed" width="800" height="600" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+<iframe src="https://www.desmos.com/calculator/u7j7ai1klt?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+#### GeoGebra Graph
+
+<iframe src="https://www.geogebra.org/graphing/qhqxxhp9?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
 ## Key Takeaways
 
 **Desmos:**
@@ -69,6 +83,33 @@ Here is a detailed, side-by-side comparison of **Desmos** and **GeoGebra** acros
 - **Choose GeoGebra** if you need advanced geometry, 3D modeling, or want to create highly interactive and customizable math visualizations, especially for higher-level math.
 
 Both are free, widely used, and highly respected in education. Many teachers use both, depending on the topic and classroom needs[^6][^14][^8].
+
+## GeoGebra Shortcode
+
+{{< geogebra material_id="qhqxxhp9" width="700" height="500" app="graphing" toolbar="false" algebra="false" menu="false" >}}
+
+## GeoGebra Shortcode 2
+
+{{< geogebra material_id="qhqxxhp9" width="700" height="500" app="graphing" toolbar="true" algebra="true" menu="true" >}}
+
+## i frame
+
+<iframe src="https://www.geogebra.org/material/iframe/id/qhqxxhp9/width/800/height/600/border/888888/sfsb/false/smb/false/stb/false/stbh/false/ai/false/sdz/false/sfbl/false" width="800" height="600" style="border:0px;"></iframe>
+
+<iframe src="https://www.geogebra.org/material/iframe/id/qhqxxhp9/width/800/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/sdz/false/sfbl/false" width="800" height="600" style="border:0px;"></iframe>
+
+## i frame 2
+
+<iframe scrolling="no"
+src="https://www.geogebra.org/material/iframe/id/qhqxxhp9/width/800/height/715/border/888888/rc/false/ai/false/sdz/false/smb/false/stb/false/stbh/false/ld/false/sri/false"
+width="800px"
+height="715px"
+style="border:0px;" allowfullscreen>
+</iframe>
+
+<iframe src="https://www.geogebra.org/graphing/fe9vckwu?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
+<iframe src="https://www.geogebra.org/material/iframe/id/fe9vckwu/width/800/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/sdz/false/sfbl/false" width="800" height="600" style="border:0px;"></iframe>
 
 <div style="text-align: center">⁂</div>
 

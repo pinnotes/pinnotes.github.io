@@ -30,5 +30,9 @@ To determine which statements about the function \$ y = x^n \$ (where \$ n \$ is
 ---
 
 **Final Answer:**
-\boxed{Statements 4 and 5 are true.}
+
+$\boxed{ Statements  4 and  5 are  true. }$
+
+$\boxed{3}$
+
 {{< /border >}}
