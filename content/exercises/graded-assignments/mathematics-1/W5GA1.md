@@ -1,16 +1,18 @@
 ---
 title: Mathematics Week 5 Graded Assignment
+weight: 5
 tags: 
 - mathematics
 categories:
-- graded assignment
-image: /images/tree.jpg
+- Mathematics Graded Assignment
+series:
+- Mathematics Graded Assignment
 excludeSearch: false
 width: wide
 ---
 
 
-2. 
+1. 
 
 {{< border >}}
 

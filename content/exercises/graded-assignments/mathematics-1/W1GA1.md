@@ -1,13 +1,19 @@
 ---
-title: Mathematics Graded Assignment
+title: Mathematics Graded Assignment Week - 1
+weight: 1
 tags: 
 - mathematics
 categories:
-- graded assignment
-image: /images/tree.jpg
+- Mathematics Graded Assignment
+series:
+- Mathematics Graded Assignment
 excludeSearch: false
 width: wide
 ---
+
+## Mathematics for Data Science - 1
+
+## Graded Assignment Week - 1
 
 ### 1. Multiple Choice Questions (MSQ) 🧠
 

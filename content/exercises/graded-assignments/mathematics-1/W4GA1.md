@@ -1,10 +1,12 @@
 ---
 title: Mathematics Week 4 Graded Assignment
+weight: 4
 tags: 
 - mathematics
 categories:
-- graded assignment
-image: /images/tree.jpg
+- Mathematics Graded Assignment
+series:
+- Mathematics Graded Assignment
 excludeSearch: false
 width: wide
 ---

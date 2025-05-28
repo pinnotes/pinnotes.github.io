@@ -99,7 +99,7 @@ To integrate GeoGebra into a Hugo website as a shortcode, you can create a custo
 
 {{< math/geogebra id="fe9vckwu" width="600" height="600" >}}
 
-{{< math/geogebra id="u7mzkqt2" width="600" height="600" >}}
+{{< math/geogebra id="u7mzkqt2" width="600" height="600" sri="true" >}}
 
 ## i-frame
 

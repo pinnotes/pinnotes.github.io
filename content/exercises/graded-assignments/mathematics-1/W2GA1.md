@@ -1,10 +1,12 @@
 ---
 title: Mathematics Week 2 Graded Assignment
+weight: 2
 tags: 
 - mathematics
 categories:
-- graded assignment
-image: /images/tree.jpg
+- Mathematics Graded Assignment
+series:
+- Mathematics Graded Assignment
 excludeSearch: false
 ---
 

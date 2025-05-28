@@ -1,10 +1,12 @@
 ---
 title: Week 7 - Sequence and Limits
+weight: 7
 tags: 
 - mathematics
 categories:
-- graded assignment
-image: /images/tree.jpg
+- Mathematics Graded Assignment
+series:
+- Mathematics Graded Assignment
 excludeSearch: false
 width: wide
 ---

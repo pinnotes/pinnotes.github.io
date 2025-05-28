@@ -1,10 +1,12 @@
 ---
 title: Week 7 Graded Assignment Solution
-tags:
-- statistics 1
+weight: 7
+tags: 
+- statistics
 categories:
-- graded assignment
-image: /images/tree.jpg
+- Statistics Graded Assignment
+series:
+- Statistics Graded Assignment
 excludeSearch: false
 width: wide
 ---

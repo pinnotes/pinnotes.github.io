@@ -3,6 +3,7 @@ title: "Blog"
 width : full
 cascade:
   width: normal
+  section: blog
 ---
 
 <div style="text-align: center; margin-top: 1em;">

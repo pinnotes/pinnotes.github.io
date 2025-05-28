@@ -10,10 +10,16 @@
 {{ $ai   := .Get "ai"   | default "false" }}
 {{ $sdz  := .Get "sdz"  | default "false" }}
 {{ $sfbl := .Get "sfbl" | default "false" }}
+{{ $sri  := .Get "sri"  | default "false" }}
+
+{{ if not $materialID }}
+  <p class="error">GeoGebra material ID is required.</p>
+  {{ return }}
+{{ end }}
 
 <div class="ggb-responsive-container" style="--aspect:{{ $aspect }}%;">
   <iframe
-    src="https://www.geogebra.org/material/iframe/id/{{ $materialID }}/width/{{ $width }}/height/{{ $height }}/border/888888/sfsb/{{ $sfsb }}/smb/{{ $smb }}/stb/{{ $stb }}/ai/{{ $ai }}/sdz/{{ $sdz }}/sfbl/{{ $sfbl }}"
+    src="https://www.geogebra.org/material/iframe/id/{{ $materialID }}/width/{{ $width }}/height/{{ $height }}/border/888888/sfsb/{{ $sfsb }}/smb/{{ $smb }}/stb/{{ $stb }}/ai/{{ $ai }}/sdz/{{ $sdz }}/sfbl/{{ $sfbl }}/sri/{{ $sri }}"
     allowfullscreen
     loading="lazy"
   ></iframe>
@@ -36,3 +42,5 @@
   display: block;
 }
 </style>
+
+{{/*  {{< math/geogebra id="abcd1234" width="700" height="500" sfsb="false" smb="true" stb="true" ai="true" sdz="false" sfbl="true" >}}  */}}

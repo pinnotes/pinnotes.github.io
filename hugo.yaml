@@ -135,7 +135,7 @@ docs:
 
 params:
   # description
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: PinNotes is your go-to platform for accessing high-quality academic notes and practice questions across a wide range of subjects. Whether you’re preparing for exams, brushing up on concepts, or seeking targeted revision, PinNotes helps you organize, highlight, and master your studies with ease. With intuitive navigation and a growing library of resources, PinNotes is designed to support students at every stage of their educational journey—making learning efficient, effective, and engaging.
  
   editURL:
     enable: false

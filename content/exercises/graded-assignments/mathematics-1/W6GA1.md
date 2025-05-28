@@ -1,10 +1,12 @@
 ---
-title: Mathematics Graded Assignment
+title: Mathematics Graded Assignment Week 6
+weight: 6
 tags: 
 - mathematics
 categories:
-- graded assignment
-image: /images/tree.jpg
+- Mathematics Graded Assignment
+series:
+- Mathematics Graded Assignment
 excludeSearch: false
 width: wide
 ---
