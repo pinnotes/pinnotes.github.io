@@ -1,14 +1,17 @@
 ---
-title: About
+title: About PinNotes
+description: PinNotes is your go-to platform for accessing high-quality academic notes and practice questions across a wide range of subjects. Whether you’re preparing for exams, brushing up on concepts, or seeking targeted revision, PinNotes helps you organize, highlight, and master your studies with ease. With intuitive navigation and a growing library of resources, PinNotes is designed to support students at every stage of their educational journey—making learning efficient, effective, and engaging.
 toc: false
 ---
 
 <div class="about-card-body">
 <article class="about-card">
- <img src="/images/avatar.jpg" alt="Avatar wallpaper" class="about-img" />
+ <img src="/images/utils/aryan.jpg" alt="Avatar wallpaper" class="about-img" />
 
 <div class="about-content">
-    <h1>Aryan: The Creator of Pinnotes</h1>
+    <h1>
+    Aryan: The Creator of PinNotes
+    </h1>
 
  <!-- <div class="infos">
       <svg width="141" height="29" viewBox="0 0 141 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +27,7 @@ toc: false
 </div> -->
 
    <p class="synopsis">
-      Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.
+      PinNotes can stand out as a modern, student-friendly platform that simplifies academic success and makes learning both effective and enjoyable.
     </p>
 
   <div class="icons">
@@ -45,13 +48,6 @@ toc: false
 </article>
 </div>
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# give me some nice ideas, marketing tag lines , description and a name and a logo for my notes website named pinnotes through one can access notes on different academic subjects and practices questions
-
-Here are creative ideas, marketing taglines, a concise description, a logo concept, and additional branding suggestions for your notes website, **PinNotes**:
-
----
 
 ## 1. **Name \& Brand Identity**
 
@@ -129,100 +125,11 @@ Here are creative ideas, marketing taglines, a concise description, a logo conce
 
 With these ideas, **PinNotes** can stand out as a modern, student-friendly platform that simplifies academic success and makes learning both effective and enjoyable.
 
-<div style="text-align: center">⁂</div>
-
-[^1]: S1_VOL2_PROBABILITYDISTRIBUTIONS.pdf
-
-[^2]: https://thetutorresource.com/catchy-tutoring-slogans/
-
-[^3]: https://www.starterstory.com/online-courses-business-slogans
-
-[^4]: https://blog.boon.so/online-teaching-platforms-slogan-ideas/
-
-[^5]: https://www.wix.com/blog/website-name-ideas
-
-[^6]: https://namefatso.com/blog/note-business-name-ideas
-
-[^7]: https://www.canva.com/logos/templates/education/
-
-[^8]: https://99designs.com/inspiration/logos/education
-
-[^9]: https://www.brandcrowd.com/maker/tag/notes
-
-[^10]: https://www.studyfetch.com/features/notes
-
-[^11]: https://www.allexamnotes.com/about/
-
-[^12]: https://www.webfx.com/industries/education/higher-education/website-examples/
-
-[^13]: https://www.indeed.com/career-advice/career-development/taglines
-
-[^14]: https://10web.io/business-name-generator/educational-website/
-
-[^15]: https://www.brandcrowd.com/maker/tag/study
-
-[^16]: https://penseum.com
-
-[^17]: https://searchengineland.com/effective-about-us-page-examples-390207
-
-[^18]: https://w3-lab.com/education-website-design-ideas-examples/
-
-[^19]: https://infinitylearn.com/surge/study-materials/english/slogans/education/
-
-[^20]: https://www.brandcrowd.com/business-name-generator/tag/notes
-
-[^21]: https://www.vistaprint.com/logomaker/ideas/academic-logos
-
-[^22]: https://www.brandcrowd.com/maker/tag/note
-
-[^23]: https://durable.co/slogan-generator/education-slogan-ideas
-
-[^24]: https://www.webfx.com/blog/marketing/brand-slogan-examples/
-
-[^25]: https://byjus.com/english/slogans-on-education/
-
-[^26]: https://mindfieldconsulting.com/100-catchy-and-creative-names-for-learning-management-systems/
-
-[^27]: https://www.brandroot.com/education-business-name-generator
-
-[^28]: https://99designs.com/inspiration/logos/study
-
-[^29]: https://looka.com/logo-ideas/education-logo-design/
-
-[^30]: https://www.mindgrasp.ai
-
-[^31]: https://www.studydrive.net
-
-[^32]: https://www.neurosciencemarketing.com/blog/articles/college-branding-taglines.htm
-
-[^33]: https://blog.boon.so/elearning-slogan-ideas/
-
-[^34]: https://www.starterstory.com/education-products-business-instagram-username-ideas
-
-[^35]: https://www.brandcrowd.com/business-name-generator/tag/exam
-
-[^36]: https://www.founderjar.com/blog-name-generator/education/
-
-[^37]: https://10web.io/business-name-generator/educational-blog/
-
-[^38]: https://99designs.com/inspiration/logos/e-learning
-
-[^39]: https://www.vistaprint.com/logomaker/ideas/study-logos
-
-[^40]: https://amanote.com
-
-[^41]: https://www.collegeraptor.com/find-colleges/articles/tips-tools-advice/10-free-online-study-tools/
-
-Hextra is designed to be a simple, fast, and flexible theme for building modern static websites. It is especially well-suited for documentation websites but can also be used for various types of sites, such as blogs, portfolios, and more.
-
-Hugo, like Jekyll, is a static site generator. What sets Hugo apart is that it is a single binary, making it easy to install and run on various platforms. It is also extremely fast and reliable, capable of rendering a site with thousands of pages in milliseconds.
-
-Hextra is built with a mindset focused on having a minimal footprint. To get started, no extra dependencies like Node.js packages are required; all you need is a single YAML configuration file, along with your Markdown content. Thus, we can focus on writing quality content instead of setting up tooling.
-
 ## Credits
 
-Hextra cannot be built without the following tools and inspirations:
+PinNotes cannot be built without the following tools and inspirations:
 
+- [Github](https://github.com/pinnotes/pinnotes.github.io)
 - [Hugo](https://gohugo.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Heroicons](https://heroicons.com/)
