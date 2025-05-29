@@ -5,7 +5,7 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 22
+weight: 21.5
 ---
 
 1. Adverbs of manner answer the question of _____.

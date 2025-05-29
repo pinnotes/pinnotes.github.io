@@ -5,7 +5,7 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 2
+weight: 1.5
 ---
 
 1. Below is a list of numbers: 22, -17, 47, -2000, 0, 1, 43, 1729, 6174, -63, 100, 32, -9. How many natural numbers are there in the given list?

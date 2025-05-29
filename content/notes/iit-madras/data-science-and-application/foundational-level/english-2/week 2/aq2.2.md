@@ -1,11 +1,11 @@
 ---
-title: Activity Questions 2.1
+title: Activity Questions 2.2
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 23
+weight: 22.5
 ---
 
 1. ‘I was taking a walk when the phone call arrived.’ This sentence is in the:
@@ -90,7 +90,15 @@ True
 
 False
 {{< border type="tip" title="Solution" >}}
+Based on the information in the sources, the statement "The verbs ‘take’, ‘sleep’, ‘bring’, and ‘work’ all take irregular past forms" is **False**.
 
+Here's why, drawing on the provided sources:
+
+*   The sources list 'take', 'sleep', and 'bring' as **irregular verbs** and show their past simple and past participle forms do not follow the regular '-ed' pattern (take -> took/taken, sleep -> slept/slept, bring -> brought/brought).
+*   The sources discuss **regular verbs** as those where the past simple and past participle are formed by adding '-ed'. Examples of regular verbs given include 'clean', 'live', 'paint', and 'study'. They contrast this with irregular patterns where '-ed' does not work.
+*   The verb 'work' is not listed among the irregular verbs in the sources. Instead, an exercise in the sources asks for the past simple/past participle of 'work', and the answer key confirms it is 'worked' for both past simple and past participle. This form ('worked') follows the regular '-ed' pattern.
+
+Therefore, while 'take', 'sleep', and 'bring' are presented as irregular verbs in the sources, 'work' is presented as a regular verb.
 {{< /border >}}
 
 5. I am going to the shops in a little while.’ The tense marker here is:
@@ -103,5 +111,16 @@ Going (-ing)
 
 A little while
 {{< border type="tip" title="Solution" >}}
+Drawing on the sources provided, the tense marker in the sentence ‘I am going to the shops in a little while.’ is **Am**.
 
+Here's the breakdown based on the information in the sources:
+
+*   Sources state that **auxiliaries are markers of tense**.
+*   Specifically, forms of the verb 'be', such as 'am', 'is', 'are', 'was', and 'were', are described as auxiliary verbs and **tense markers**.
+*   In the sentence 'I am going...', 'am' is the auxiliary verb, a form of 'be', and it marks the present tense.
+*   The **'-ing'** part of 'going' is identified as the **continuous marker**, distinct from the tense marker. Tense is on the auxiliary ('am'), and the aspect (continuous) is on the main verb ('going') through the '-ing' suffix.
+*   'I' is the subject pronoun, not a tense marker.
+*   'A little while' is a phrase indicating the time of the action, relating to the future in this context, but it is not the part of the verb structure that marks the tense itself.
+
+Therefore, the auxiliary verb 'am' is the component that signals the tense in this sentence.
 {{< /border >}}

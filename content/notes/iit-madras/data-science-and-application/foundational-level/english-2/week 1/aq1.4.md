@@ -5,7 +5,7 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 3
+weight: 4.5
 ---
 
 1. Rhythm is formed by a set of syllables repeating at regular intervals of time.

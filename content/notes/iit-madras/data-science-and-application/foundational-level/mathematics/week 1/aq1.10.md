@@ -5,7 +5,7 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 11
+weight: 10.5
 ---
 
 

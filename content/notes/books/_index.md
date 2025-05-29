@@ -5,7 +5,7 @@ tags:
   - Programming 
 excludeSearch: false
 type: cards
-weight: 1
+weight: 10
 cascade:
  series: ["Programming"]
  image: "/images/svg/circle-gradient.svg"

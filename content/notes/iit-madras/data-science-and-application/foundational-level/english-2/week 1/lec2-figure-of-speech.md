@@ -1,11 +1,11 @@
 ---
-title: figures of speech Part - 2
+title: Figures of Speech Part - 2
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 1
+weight: 2
 ---
 
 Drawing on the information from the sources, the query about "figures of speech part 2" leads us to explore further literary devices that enhance language impact. As discussed previously, figures of speech are literary devices that help make language more impactful. They make comparisons or draw parallels between unrelated things and do not provide a literal interpretation.
@@ -22,4 +22,4 @@ The source "Figures of Speech - Part 2" delves into several specific types:
 *   **Hyperbole** is a figure of speech that emphasizes something by adding exaggerated elements to it. This refers to exaggeration. Examples include "I have been waiting forever for him to say yes" or "you speak so sweet I'll get a cavity from all the talking".
 *   **Euphemism** is a well-known device for expressing taboo or embarrassing things in a particular way. It means saying something else while meaning something else. For instance, using "passed away" instead of "die," "guest worker" instead of "temporary worker," "downsizing" instead of "firing people," or "Correctional Facility" in place of "jail" or "prison". Euphemism itself is sometimes used in metaphorical contexts.
 
-These figures of speech, along with those previously discussed such as Simile, Metaphor, and Personification (covered in "Figures of Speech - Part 1"), serve to make language richer, add emphasis and flair, and demonstrate a command over the language. Paying attention to how others use these devices in speech and writing is highlighted as a way to learn and use them effectively.
+These figures of speech, along with those previously discussed such as Simile, Metaphor, and Personification (covered in "Figures of Speech - Part 1"), serve to make language richer, add emphasis and flair, and demonstrate a command over the language. Paying attention to how others use these devices in speech and writing is highlighted as a way to learn and use them effectively. 

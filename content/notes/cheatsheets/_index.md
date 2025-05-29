@@ -5,7 +5,7 @@ tags:
   - Programming 
 excludeSearch: false
 type: cards
-weight: 1
+weight: 5
 cascade:
  series: ["Programming"]
  image: "/images/svg/code.svg"

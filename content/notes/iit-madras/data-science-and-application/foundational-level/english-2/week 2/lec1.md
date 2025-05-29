@@ -1,5 +1,5 @@
 ---
-title: Quick review of Adverbs
+title: Adverbs - A Quick Review
 date: 2025-05-08
 tags:
   - Notes 

@@ -1,11 +1,11 @@
 ---
-title: figures of speech
+title: Rhythm and Pitch in English
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 1
+weight: 4
 ---
 
 Based on the sources and our previous conversation about language features like discourse markers and figures of speech, we can discuss the concepts of rhythm and pitch in English.

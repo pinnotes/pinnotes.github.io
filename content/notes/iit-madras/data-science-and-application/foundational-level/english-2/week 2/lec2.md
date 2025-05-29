@@ -1,5 +1,5 @@
 ---
-title: tenses and aspects in English
+title: Tenses and Aspects in English
 date: 2025-05-08
 tags:
   - Notes 

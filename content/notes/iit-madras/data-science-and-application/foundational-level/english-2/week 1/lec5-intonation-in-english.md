@@ -1,11 +1,11 @@
 ---
-title: figures of speech
+title: Intonation in English
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 1
+weight: 5
 ---
 
 Based on the sources and our conversation history, let's discuss intonation in English.

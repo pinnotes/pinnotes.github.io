@@ -1,11 +1,11 @@
 ---
-title: Important concepts in adjectives
+title: Adverbs - Comment, Viewpoint and Focus
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 22
+weight: 26
 ---
 
 Drawing on the information from the sources and our conversation history, let's explore the concepts of **Comment, Viewpoint, and Focus adverbs**.

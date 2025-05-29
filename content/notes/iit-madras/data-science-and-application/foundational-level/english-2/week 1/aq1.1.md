@@ -5,7 +5,8 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 2
+weight: 1.5
+weight: 1.5
 ---
 
 1. "The cafe was like a battleship stripped for action.” The figure of speech used here is ___.

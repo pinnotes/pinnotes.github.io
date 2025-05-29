@@ -5,7 +5,7 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 3
+weight: 2.5
 ---
 
 1. Which among the following use alliteration in its name?

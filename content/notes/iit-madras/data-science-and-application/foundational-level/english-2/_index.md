@@ -1,5 +1,6 @@
 ---
 title: English II 📖
+description: This course aims at achieving fluency and confidence in spoken and written English. This course will use insights from theories of learning and dominant methods of teaching language.
 date: 2025-05-08
 type: cards
 tags:
@@ -14,8 +15,7 @@ cascade:
 ---
 
 {{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
-  Documentation and guides to deploy,  
-  manage, and monitor your apps.
+  Lecture Notes and Activity Questions for IIT Madras Data Science And Electronic Systems Foundation Course - English II.
 {{< /hextra/hero-subtitle >}}
 
 ---

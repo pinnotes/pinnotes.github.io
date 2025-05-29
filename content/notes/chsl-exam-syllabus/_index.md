@@ -6,7 +6,7 @@ tags:
   - Notes 
   - SSC Exam
 excludeSearch: false
-weight: 1
+weight: 3
 cascade:
  series: ["SSC-CHSL"]
 

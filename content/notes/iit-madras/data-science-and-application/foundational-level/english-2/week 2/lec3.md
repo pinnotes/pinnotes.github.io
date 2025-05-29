@@ -1,11 +1,11 @@
 ---
-title: tenses and aspects in English
+title: Structure and Functions of Passives in English
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 22
+weight: 23
 ---
 
 Okay, let's review the structure and functions of **passives** in English, drawing on the information from the sources and our previous discussion.

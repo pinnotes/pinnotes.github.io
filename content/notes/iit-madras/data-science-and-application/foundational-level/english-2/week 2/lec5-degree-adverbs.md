@@ -1,11 +1,11 @@
 ---
-title: Important concepts in adjectives
+title: Degree Adverbs
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 22
+weight: 25
 ---
 
 Based on the sources provided and our conversation history, here are some **important concepts in degree adverbs**:

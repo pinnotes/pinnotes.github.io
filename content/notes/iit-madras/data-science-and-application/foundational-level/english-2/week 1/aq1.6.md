@@ -5,7 +5,7 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 3
+weight: 6.5
 ---
 
 1. English belongs to ----------------- language family.

@@ -1,11 +1,11 @@
 ---
-title: Important concepts in adjectives
+title: Important concepts in Adjectives
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 22
+weight: 24
 ---
 
 Based on the sources and our conversation history, let's delve into some **important concepts in adjectives**. Understanding these details, particularly how they relate to the structure of sentences and how our minds process them, can significantly impact your command of English and boost your confidence.

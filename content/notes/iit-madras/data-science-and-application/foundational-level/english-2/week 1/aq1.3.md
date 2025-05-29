@@ -5,7 +5,7 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 3
+weight: 3.5
 ---
 1. Which among the following sentences use discourse markers to express opinion
 

@@ -1,5 +1,5 @@
 ---
-title: figures of speech
+title: Figures of Speech Part - 1
 date: 2025-05-08
 tags:
   - Notes 

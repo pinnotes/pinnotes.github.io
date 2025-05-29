@@ -1,11 +1,11 @@
 ---
-title: figures of speech
+title: Discourse Markers
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 1
+weight: 3
 ---
 
 Based on the information from the sources, discourse markers are specific elements in language, 

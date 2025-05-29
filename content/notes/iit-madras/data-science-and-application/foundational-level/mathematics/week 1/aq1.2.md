@@ -5,7 +5,7 @@ tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 2
+weight: 2.5
 ---
 
 1. Which of the following option(s) is(are) true?
