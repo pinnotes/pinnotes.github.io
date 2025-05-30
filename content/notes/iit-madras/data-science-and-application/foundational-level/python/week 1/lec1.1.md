@@ -1,5 +1,5 @@
 ---
-title: Quadratic formula
+title: Introduction
 date: 2025-05-08
 tags:
   - Notes 

@@ -1,9 +1,9 @@
 ---
-title: Introduction to Strings
+title: Introduction
 date: 2025-05-08
 tags:
   - Notes 
   - IIT Madras
 excludeSearch: false
-weight: 11
+weight: 23
 ---
