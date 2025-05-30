@@ -46,7 +46,9 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
     <div class="card">
       <div class="card-image-container">
         {{- if .Params.image }}
-        <img class="card-image" src="{{ .Params.image }}" alt="{{ .Title }}" />
+        <img class="card-image" src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy"
+          method="Resize"
+          options="600x q80 webp" />
         {{- else }}
         <img
           class="card-image"
