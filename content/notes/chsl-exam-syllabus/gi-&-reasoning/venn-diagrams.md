@@ -8,10 +8,6 @@ tags:
 excludeSearch: false
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Venn Diagrams: Easy Explanation with Examples and Diagrams
-
 Venn diagrams are powerful tools to visually represent relationships between different groups (called sets). They help you quickly see what items are shared between groups and what items are unique to each group. Here’s a simple, step-by-step explanation with examples and diagrams, based on your PDF and additional resources.
 
 ---

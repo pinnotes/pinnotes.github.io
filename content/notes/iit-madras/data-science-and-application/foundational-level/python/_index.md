@@ -14,8 +14,7 @@ cascade:
 ---
 
 {{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
-  Documentation and guides to deploy,  
-  manage, and monitor your apps.
+  Lecture Notes and Activity Questions for IIT Madras Data Science And Electronic Systems Foundation Course - Programming in Python 🐍.
 {{< /hextra/hero-subtitle >}}
 
 ---
