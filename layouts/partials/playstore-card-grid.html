@@ -43,74 +43,66 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
     <!-- Get all subpages of the current page -->
     {{- range $subPages }}
     <a href="{{ .RelPermalink }}">
-      <div class="card">
-        <div class="card-image-container">
-          {{- $img := .Resources.GetMatch .Params.image -}} {{- if $img -}} {{
-          $thumb := $img.Fill "400x240 webp q80" }}
-          <img
-            class="card-image"
-            src="{{ $thumb.RelPermalink }}"
-            width="{{ $thumb.Width }}"
-            height="{{ $thumb.Height }}"
-            alt="{{ .Title }}"
-            loading="lazy"
-          />
-          {{- else -}}
-          <img
-            class="card-image"
-            src="https://via.placeholder.com/300/abcdef/ffffff?Text=Placeholder%20Image"
-            alt="Placeholder Image"
-            width="300"
-            height="180"
-            loading="lazy"
-          />
-          {{- end }}
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">{{ .Title }}</h3>
-          <p class="card-subtitle">
-            {{- partial "utils/page-description" . -}}
-          </p>
-        </div>
+    <div class="card">
+      <div class="card-image-container">
+        {{- if .Params.image }}
+        
+        <img class="card-image" src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy"
+          method="Resize"
+          options="600x q80 webp" />
+        {{- else }}
+        <img
+          class="card-image"
+          src="https://via.placeholder.com/300/abcdef/ffffff?Text=Placeholder%20Image"
+          alt="Placeholder Image"
+        />
+        {{- end }}
       </div>
+      <div class="card-content">
+        <h3 class="card-title">{{ .Title }}</h3>
+        <p class="card-subtitle"> {{- partial "utils/page-description" . -}}</p>
+      </div>
+    </div>
     </a>
     {{- end }}
-    <div class="card">{{ partial "google/notes-In-feed-ad.html" . }}</div>
+    <div class="card">
+      {{ partial "google/notes-In-feed-ad.html" . }}
+    </div>
   </div>
 </div>
 {{ end -}}
 
 <style>
-  .section-container {
+.section-container {
     margin: 32px 0; /* Elegant spacing between sections */
-  }
+}
 
-  .section-header {
+.section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px; /* Balanced horizontal padding */
-  }
+}
 
-  .section-title {
+.section-title {
     position: relative;
     font-size: 20px;
     font-weight: 600;
     color: #202124; /* Dark grey text */
     cursor: pointer;
     transition: color 0.3s ease;
-  }
+}
 
-  .section-title:hover {
+.section-title:hover {
     color: #1a73e8; /* Subtle hover effect */
-  }
+}
 
-  .section-controls {
+.section-controls {
     display: flex;
     align-items: center;
-  }
+}
 
-  .section-controls button {
+.section-controls button {
     background: none;
     border: none;
     cursor: pointer;
@@ -118,71 +110,72 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
     color: #5f6368; /* Medium grey text */
     margin: 0 12px; /* Balanced spacing between arrows */
     transition: color 0.3s ease, transform 0.3s ease;
-  }
+}
 
-  .section-controls button:hover {
+.section-controls button:hover {
     color: #1a73e8; /* Highlight on hover */
     transform: scale(1.1); /* Slight zoom effect */
-  }
+}
 
-  .card-grid-container {
+.card-grid-container {
     position: relative;
     overflow-x: auto;
     white-space: nowrap;
     padding: 0 0; /* Balanced horizontal padding */
     scrollbar-width: none;
     -ms-overflow-style: none;
-  }
+}
 
-  .card-grid-container::-webkit-scrollbar {
+.card-grid-container::-webkit-scrollbar {
     display: none;
-  }
+}
 
-  .card {
+.card {
     height: 350px; /* Adjusted card height for better visibility */
     display: inline-block;
     border: 1px solid #c4c4c4; /* Light grey border */
-    border-radius: 0.25rem; /* Softer corners */
+    border-radius: .25rem; /* Softer corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elegant shadow */
     margin: 12px;
     width: 250px; /* Slightly larger card width */
     flex-shrink: 0;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
+}
 
-  .card:hover {
+.card:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
-  }
+}
 
-  .card:first-child {
-    margin-left: 20px;
-  }
+.card:first-child {
+  margin-left: 20px;
+}
 
-  .card:last-child {
-    margin-right: 20px;
-  }
+.card:last-child {
+  margin-right: 20px;
+}
 
-  .card-image-container {
+.card-image-container {
     width: 100%;
     height: 180px; /* Adjusted image height */
     overflow: hidden;
-    border-radius: 0.25rem; /* Softer corners */
-  }
+    border-radius: .25rem; /* Softer corners */
 
-  .card-image {
+}
+
+.card-image {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure image fills the container */
     display: block;
-  }
+}
 
-  .card-content {
+.card-content {
     padding: 16px 0; /* More spacious content padding */
-  }
+}
 
-  .card-title {
+.card-title {
     font-size: 16px;
     font-weight: 600;
     color: #202124;
@@ -195,9 +188,9 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
     -webkit-box-orient: vertical;
     line-height: 1.5rem; /* Adjusted line height for readability */
     max-height: 3rem; /* Limit height to 2 lines */
-  }
+}
 
-  .card-subtitle {
+.card-subtitle {
     font-size: 14px;
     color: #5f6368; /* Medium grey text */
     white-space: pre-wrap;
@@ -208,20 +201,20 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
     -webkit-box-orient: vertical;
     line-height: 1.5rem; /* Adjusted line height for readability */
     max-height: 3rem; /* Limit height to 2 lines */
-  }
+}
 
   html[class~="dark"] {
+    
     .section-title {
       color: #e0e0e0; /* Light text for section titles */
     }
 
     .section-title:hover {
-      color: #1a73e8; /* Subtle hover effect */
+        color: #1a73e8; /* Subtle hover effect */
     }
-
-    .card {
-      border-color: #3f3f3f;
-    }
+    
+    .card{
+    border-color: #3f3f3f;}
 
     .card-title {
       color: #ffffff; /* White text for card titles */
@@ -259,7 +252,7 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
         .closest(".section-container")
         .querySelector(".arrow-next");
 
-      const scrollAmount = container.querySelector(".card").offsetWidth * 2; // Adjust scroll amount based on card width
+      const scrollAmount = container.querySelector(".card").offsetWidth * 2 ; // Adjust scroll amount based on card width
 
       // Add click event for the previous button
       prevButton.addEventListener("click", function () {
