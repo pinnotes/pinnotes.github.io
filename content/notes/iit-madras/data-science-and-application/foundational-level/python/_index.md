@@ -1,5 +1,6 @@
 ---
 title: Programming in Python 🐍
+type: cards
 date: 2025-05-08
 tags:
   - Notes 
