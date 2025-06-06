@@ -1,12 +1,11 @@
 <div class="chapter-list">
   <ul class="chapters_wrapper">
-    {{/*  {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
-    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}  */}}
-    {{/*  {{- range $pages }}  */}}
-    {{/*  {{ range $num,$post := partial "utils/sort-pages" (dict "page" . "by"
-    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) }}  */}}
-    {{ range $num, $page := .Pages }}
-      {{ if $page.Title }}
+    {{/* {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
+    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
+    */}} {{/* {{- range $pages }} */}} {{/* {{ range $num,$post := partial
+    "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "weight"
+    site.Params.blog.list.sortOrder) }} */}} {{ range $num, $page := .Pages }}
+    {{ if $page.Title }}
     <a href="{{ .RelPermalink }}">
       <li class="chapter-item">
         {{- $img := (.Resources.ByType "image").GetMatch "*feature*" -}} {{- if
@@ -44,8 +43,11 @@
         <span class="chapter-emoji">{{ .Params.emoji }}</span>
         {{ end -}}
 
-        <h2 class="chapter-title"> 
-            <span class="gradient-text">{{ if lt (add $num 1) 10 }}0{{ end }}{{ add $num 1 }}</span> {{ .Title }}
+        <h2 class="chapter-title">
+          <span class="gradient-text"
+            >{{ if lt (add $num 1) 10 }}0{{ end }}{{ add $num 1 }}</span
+          >
+          {{ .Title }}
         </h2>
         <p class="chapter-description">
           {{- partial "utils/page-description" . -}}
@@ -57,7 +59,6 @@
 </div>
 
 <style>
-
   .chapters_wrapper {
     display: flex;
     flex-direction: column;
@@ -70,8 +71,17 @@
     background: linear-gradient(90deg, #ff7e5f, #feb47b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0 .25rem;
+    margin: 0 0.25rem;
     list-style-type: decimal-leading-zero;
+  }
+
+  .chapter-image {
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 10px;
+    float: left;
+    object-fit: cover;
+    aspect-ratio: 4 / 3; /* Maintain aspect ratio */
   }
 
   .chapter-list {
@@ -122,6 +132,14 @@
     margin: 0;
     color: #666;
     font-size: 14px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    line-height: 1.5rem; /* Adjusted line height for readability */
+    max-height: 3rem; /* Limit height to 2 lines */
   }
 
   .chapter-item:focus-within {
@@ -150,6 +168,12 @@
 
     .chapter-description {
       color: #dddddd;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .chapter-image {
+      display: none; /* Hide images on smaller screens */
     }
   }
 </style>

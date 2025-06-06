@@ -1,7 +1,7 @@
 ---
 title: Mathematics 🧮
 date: 2025-05-08
-type: cards
+type: chapters
 tags:
   - Notes 
 excludeSearch: false
@@ -10,6 +10,7 @@ cascade:
  image: "/images/orange.jpg"
  series: ["Foundational-Level"]
  math: true
+ emoji: 🧮
 
 ---
 
