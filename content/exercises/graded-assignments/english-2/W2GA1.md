@@ -21,15 +21,12 @@ d) Is listening patiently
 {{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
-Drawing upon the information in the sources, the adverb in the sentence "Seetha is listening patiently" is **patiently**.
+The adverb in the sentence "Seetha is listening patiently" is **c) Patiently**.
 
-An adverb is defined as a word or a set of words that modifies verbs, adjectives, and other adverbs. Adverbs express *when*, *where*, and *how* an action is performed or indicate the quality or degree of the action.
-
-In your sentence, the word "patiently" modifies the verb phrase "is listening". It tells us *how* Seetha is listening. Adverbs that describe the manner in which an action is performed are called adverbs of manner.
-
-Many adverbs, especially adverbs of manner, usually end in the suffix "-ly". For example, words like equally, carefully, slowly, and fast add to or modify the verb and give information about the manner in which the action is being performed. Adverbs can often be formed by adding "-ly" to an adjective. The word "patiently" fits this pattern, indicating the manner of listening.
-
-Therefore, "patiently" functions as an adverb modifying the verb "is listening".
+Here's why:
+*   An **adverb** is a word or a set of words that modifies verbs, adjectives, and other adverbs. They typically express *when*, *where*, and *how* an action is performed, or indicate the quality or degree of the action.
+*   In the given sentence, "patiently" describes **how** Seetha is "listening".
+*   Many adverbs, especially those indicating **manner** (how an action is performed), are formed by adding the suffix "-ly" to an adjective. For example, from "beautiful" (adjective) to "beautifully" (adverb), or "careful" (adjective) to "carefully" (adverb). "Patiently" fits this description, as it comes from the adjective "patient".
 {{< /border >}}
 
 {{< border >}}
