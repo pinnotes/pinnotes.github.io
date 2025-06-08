@@ -1,23 +1,24 @@
 ---
-title: English II Graded Assignment
+title: Week 2 English II Graded Assignment
 tags: 
-- mathematics
+- english
 categories:
 - graded assignment
-image: /images/tree.jpg
-excludeSearch: false
 ---
 
-1. Identify the adverb in the following sentence.
+{{< border >}}
+
+**1**. Identify the adverb in the following sentence.
            Seetha is listening patiently.
 
-Listening
+a) Listening
 
-My
+b) My
 
-Patiently
+c) Patiently
 
-Is listening patiently
+d) Is listening patiently
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Drawing upon the information in the sources, the adverb in the sentence "Seetha is listening patiently" is **patiently**.
@@ -31,16 +32,18 @@ Many adverbs, especially adverbs of manner, usually end in the suffix "-ly". For
 Therefore, "patiently" functions as an adverb modifying the verb "is listening".
 {{< /border >}}
 
-2. Identify the adverb in the following sentence.
-          My dog is not sleeping.
+{{< border >}}
+**2**. Identify the adverb in the following sentence.
+         * My dog is not sleeping.*
 
-Is not
+a) Is not
 
-Is not sleeping
+b) Is not sleeping
 
-Not
+c) Not
 
-My
+d) My
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Drawing upon the information in the sources and our conversation history, the adverb in the sentence "My dog is not sleeping" is **Not**.
@@ -61,15 +64,17 @@ Let's look at the other options provided:
 Therefore, based on the function of modifying the verb phrase "is sleeping" and providing information about the action (in this case, its negation), **Not** is the adverb in the sentence.
 {{< /border >}}
 
-3. Tense denotes:
+{{< border >}}
+**3**. Tense denotes:
 
-State of the event
+a) State of the event
 
-Time of the event
+b) Time of the event
 
-Form of the verb
+c) Form of the verb
 
-None of the above
+d) None of the above
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the sources provided, tense primarily denotes the **Time of the event**.
@@ -84,11 +89,13 @@ Here's a breakdown of why, drawing directly from the sources:
 The sources mention "forms of the verbs", and these forms can indicate tense (e.g., adding '-ed' for past tense in regular verbs, or changes like 'am' to 'was', or the use of auxiliary verbs like 'is', 'was', 'will' as tense markers). However, the form itself is the manifestation of the tense and aspect, not what the tense *denotes* in terms of meaning. Tense is the grammatical feature that carries the information about time.
 {{< /border >}}
 
-4. Intransitive verbs cannot be recast in passive form.
+{{< border >}}
+**4**. Intransitive verbs cannot be recast in passive form.
 
-True
+**a**) True
 
-False
+**b**) False
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the statement "Intransitive verbs cannot be recast in passive form" is **True**.
@@ -106,15 +113,17 @@ Therefore, because forming a passive sentence, according to the sources, require
 
 **Complete the following sentences with the most appropriate word. (Q5 and 6)**
 
-5. She bought an _______ sound system.
+{{< border >}}
+**5**. She bought an _______ sound system.
 
-Food
+**a**) Food
 
-Expensive
+**b**) Expensive
 
-Cheap
+**c**) Cheap
 
-Expenditure
+**d**) Expenditure
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the most fitting word to complete the sentence "She bought an _______ sound system." is **Expensive**.
@@ -133,15 +142,17 @@ Here's why:
 Therefore, drawing on the direct example provided in the source material about adjective usage with "system" after "an", **Expensive** is the most appropriate choice.
 {{< /border >}}
 
-6. My cat is sleeping on the _____ roof.
+{{< border >}}
+**6**. My cat is sleeping on the _____ roof.
 
-Think
+**a**) Think
 
-Thinly
+**b**) Thinly
 
-Thin
+**c**) Thin
 
-Understanding
+**d**) Understanding
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources and our conversation history, the word that best completes the sentence "My cat is sleeping on the _____ roof" is **Thin**.
@@ -161,15 +172,17 @@ Here's the breakdown:
 The completed sentence would be: "My cat is sleeping on the **thin** roof."
 {{< /border >}}
 
-7. ________, I never believed in the rumours.’
+{{< border >}}
+**7**. ________, I never believed in the rumours.’
 
-Frankly
+**a**) Frankly
 
-Honestly
+**b**) Honestly
 
-To be honest
+**c**) To be honest
 
-All of the above
+**d**) All of the above
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Drawing on the information in the sources, the words that can fill the blank in the sentence "________, I never believed in the rumours." are **Frankly**, **Honestly**, and **To be honest**. These are all listed as examples of words and phrases that express the speaker's attitude or opinion, and are often used at the beginning of a sentence, sometimes followed by a comma, to add a comment on the situation or what is being said.
@@ -188,11 +201,13 @@ The sentence "________, I never believed in the rumours" is a statement where th
 Since **all three options** are identified in the sources as serving this function and fitting this grammatical structure, the most appropriate answer is **All of the above**.
 {{< /border >}}
 
-8. ‘Only he can explain the lecture’. Here, ‘only’ refers to the lecture.
+{{< border >}}
+**8**. ‘Only he can explain the lecture’. Here, ‘only’ refers to the lecture.
 
-True
+**a**) True
 
-False
+**b**) False
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the statement 'Only he can explain the lecture’. Here, ‘only’ refers to the lecture' is **False**.
@@ -208,15 +223,17 @@ Here's why:
 Therefore, "only" in this sentence refers to "he", not "the lecture".
 {{< /border >}}
 
-9. ‘Environmentally speaking, the industry being set up in a biologically dense zone will certainly have an adverse impact.’ This sentence has ___ adverbs.
+{{< border >}}
+**9**. ‘Environmentally speaking, the industry being set up in a biologically dense zone will certainly have an adverse impact.’ This sentence has ___ adverbs.
 
-0
+**a**) 0
 
-1
+**b**) 1
 
-2
+**c**) 2
 
-3
+**d**) 3
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the analysis of the sentence and the information from the sources, the sentence 'Environmentally speaking, the industry being set up in a biologically dense zone will certainly have an adverse impact.’ has **3** adverbs (or adverbial units).
@@ -232,15 +249,17 @@ Therefore, counting these three distinct adverbial elements – the initial view
 The correct option is **3**.
 {{< /border >}}
 
-10. ‘He is extremely talented’, here the word ‘extremely’ is ___.
+{{< border >}}
+**10**. ‘He is extremely talented’, here the word ‘extremely’ is ___.
 
-Adjective
+**a**) Adjective
 
-Degree adverb
+**b**) Degree adverb
 
-Verb
+**c**) Verb
 
-Preposition
+**d**) Preposition
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the word ‘extremely’ in the sentence ‘He is extremely talented’ is a **Degree adverb**.
