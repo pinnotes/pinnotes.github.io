@@ -47,6 +47,7 @@
           {{ .Content }}
         </div>
         {{- partial "components/last-updated.html" . -}}
+          {{- partial "components/pager.html" . -}}
         {{- if (site.Params.blog.article.displayPagination | default true) -}}
           {{- .Scratch.Set "reversePagination" true -}}
           {{- partial "components/pager.html" . -}}

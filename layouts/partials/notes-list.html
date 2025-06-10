@@ -2,6 +2,7 @@
 "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "weight"
 site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
 .Params.Title -}}
+
 <div class="section-container">
   <div class="section-header">
     <a href="{{ .RelPermalink }}" class="section-link">
@@ -82,7 +83,6 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
     justify-content: space-between;
     align-items: center;
     padding: 0 20px; /* Balanced horizontal padding */
-    
 }
 
 .section-title {

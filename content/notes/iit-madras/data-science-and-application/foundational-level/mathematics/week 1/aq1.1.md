@@ -8,15 +8,19 @@ excludeSearch: false
 weight: 1.5
 ---
 
-1. Below is a list of numbers: 22, -17, 47, -2000, 0, 1, 43, 1729, 6174, -63, 100, 32, -9. How many natural numbers are there in the given list?
+{{< border >}}
 
-6
+**1**. Below is a list of numbers: 22, -17, 47, -2000, 0, 1, 43, 1729, 6174, -63, 100, 32, -9. How many natural numbers are there in the given list?
 
-7
+a) 6
 
-8
+b) 7
 
-9
+c) 8
+
+d) 9
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the sources, the set of **natural numbers** is denoted by **N**. This set includes **0, 1, 2, 3, 4, 5, and so on**. The sources explicitly state that whenever they are talking about natural numbers, it **always includes a 0**, even though some books may not. Natural numbers are primarily used for counting.
 
@@ -44,15 +48,18 @@ Counting these numbers, we find there are **9** natural numbers in the given lis
 This corresponds to one of the options provided. The number of natural numbers in the list is **9**.
 {{< /border >}}
 
-2. Suppose a class has M students. If we distribute 3 pens to each student, then 4 pens will remain. If there are 70 pens in total, what is the value of M?
+{{< border >}}
+**2**. Suppose a class has M students. If we distribute 3 pens to each student, then 4 pens will remain. If there are 70 pens in total, what is the value of M?
 
-22
+a) 22
 
-20
+b) 20
 
-19
+c) 19
 
-23
+d) 23
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Okay, let's determine the value of M, the number of students in the class, based on the information provided and drawing on the concepts discussed in the sources.
 
@@ -89,15 +96,18 @@ Let's verify this: If there are 22 students and each gets 3 pens, that's 22 * 3 
 The value of M is **22**. This is one of the options provided.
 {{< /border >}}
 
-3. Consider ‘2’ to be the first prime number. Which of the following will be the sixteenth prime number?
+{{< border >}}
+**3**. Consider ‘2’ to be the first prime number. Which of the following will be the sixteenth prime number?
 
-47
+a) 47
 
-61
+b) 61
 
-59
+c) 59
 
-53
+d) 53
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the sources and our conversation, we can determine the sixteenth prime number.
 
@@ -173,7 +183,8 @@ Comparing this to the provided options:
 Therefore, the sixteenth prime number is **53**.
 {{< /border >}}
 
-4. If 
+{{< border >}}
+**4**. If 
 x
 x mod 3 = 1 and 
 x
@@ -181,13 +192,15 @@ x mod 7 = 4. Which of the following is(are) possible values for
 x
 x?
 
-25
+a) 25
 
-34
+b) 34
 
-58
+c) 58
 
-67
+d) 67
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the sources and our conversation history, we can evaluate which of the given options are possible values for `x` by using the concept of the **modulo** operation.
 
@@ -226,8 +239,8 @@ Let's check each of the possible values provided:
 Therefore, the possible values for `x` among the given options are **25** and **67**.
 {{< /border >}}
 
-5. 
-Suppose Sheetal’s birthday is on the 
+{{< border >}}
+**5**. Suppose Sheetal’s birthday is on the 
 P
 Pth of October and Karthik’s birthday is on the 
 Q
@@ -241,6 +254,8 @@ P
 2
 Q
 P−2Q will be __________
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information from the sources, let's determine the value of P - 2Q.
 

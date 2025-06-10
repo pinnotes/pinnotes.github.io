@@ -72,9 +72,12 @@ $readMore := (T "readMore") | default "Read here →" -}}
         </ul>
       </div>
 
-      <hr
-        class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
-      />
+      <div class="section-header">
+        <div class="header-title">
+          English
+        </div>
+        <span class="link">View All</span>
+      </div>
 
       <div class="grid-layout-section">
         <ul class="grid-container">
@@ -245,9 +248,15 @@ $readMore := (T "readMore") | default "Read here →" -}}
         </ul>
       </div>
 
-      <hr
-        class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
-      />
+      <hr class="section-divider">
+      <div class="animated-section-header">
+        <div class="animated-header-title">
+          Programming Playlist
+        </div>
+        <span class="animated-header-link">View All </span>
+      </div>
+      <hr class="section-border">
+
 
       <div class="grid-layout-section">
         <ul class="grid-container one-grid">
@@ -309,6 +318,101 @@ $readMore := (T "readMore") | default "Read here →" -}}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .section-divider {
+    margin: 4rem 0;
+    margin-bottom: 0.8rem;
+    border-top: 6px solid #222; /* Thick dark border */
+    border-radius: 2px;
+    contrast-more:border-t contrast-more:border-neutral-400 contrast-more:dark:border-neutral-800;
+  }
+
+  .animated-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .animated-header-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--hx-text-color);
+    transition: color 0.3s ease;
+  }
+  .animated-header-link {
+    font-size: 1rem;
+    color: var(--hx-primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  .animated-header-link:hover {
+    text-decoration: underline;
+    color: var(--hx-primary-color-hover, #0091e6);
+    position: relative;
+    transition: color 0.3s;
+    }
+    .animated-header-link::after {
+    content: "→";
+    display: inline-block;
+    margin-left: 0.3em;
+    transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+    position: relative;
+    top: 0.03em;
+    }
+  .section-border {
+    margin: 2rem 0;
+    margin-top: 0.8rem;
+    border-top: 1px solid #22222234; /* Thick dark border */
+    border-radius: 2px;
+    contrast-more:border-t contrast-more:border-neutral-400 contrast-more:dark:border-neutral-800;
+  }
+  .section-border:is(html[class~="dark"] *) {
+    border-top: 1px solid #ffffff18; /* Light border for dark mode */
+  }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    background-color: var(--hx-bg-secondary, #1b2635);
+    border-radius: 0.75rem;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #1b2635;
+    margin-top: 2.5rem;
+    }
+
+  .section-header:is(html[class~="dark"] *) {
+    .section-header {
+      background-color: #111827;
+      color: #f3f4f6;
+    }
+    .header-title {
+      color: #f3f4f6;
+    }
+    .link {
+      color: #a78bfa;
+    }
+  }
+  .header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--hx-text-color);
+  }
+  .link {
+    font-size: 1rem;
+    color: var(--hx-primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  .link:hover {
+    text-decoration: underline;
+    color: var(--hx-primary-color-hover, #cdbfff);
+  } 
+
 
   .grid-container {
     display: grid;
