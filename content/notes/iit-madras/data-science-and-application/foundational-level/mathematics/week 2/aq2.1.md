@@ -19,7 +19,7 @@ weight: 21.5
 
 
 {{< border >}}
-
+ 
 {{< /border >}}
 
 {{< border type="tip" title="Solution" >}}

@@ -76,6 +76,7 @@
   }
 
   .chapter-image {
+    display: none; /* Hide images by default */
     width: 100px;
     border-radius: 8px;
     margin-right: 10px;
@@ -168,6 +169,12 @@
 
     .chapter-description {
       color: #dddddd;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .chapter-image {
+      display: block; /* Show items on larger screens */
     }
   }
 

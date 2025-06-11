@@ -1,0 +1,119 @@
+<div class="blogs-wrapper">
+  {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
+  site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}} 
+  {{- range $pages }}
+  <div class="question-card hx-mb-10">
+    <h3>
+      <a
+        style="color: inherit; text-decoration: none"
+        class="question-card-title hx-block hx-font-semibold hx-text-xl"
+        href="{{ .RelPermalink }}"
+        >
+        {{ .Title }}
+        </a
+      >
+    </h3>
+    <a href="{{ .RelPermalink }}">
+      <p
+        class="blog-card-description hx-opacity-90 hx-mt-2 hx-leading-7 mathjax-content"
+      >
+        {{- partial "utils/page-description" . -}}
+      </p>
+    </a>
+    {{- if site.Params.blog.list.displayTags -}} {{with .GetTerms "categories"}}
+    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+      {{- range . }}
+      <a
+        class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
+        href="{{.RelPermalink}}"
+        >#{{ .Name }}</a>
+      {{ end -}}
+    </p>
+    {{ end -}} 
+    {{- end -}} 
+  </div>
+  {{ end -}}
+</div>
+
+<style>
+    .question-card {
+        border: 3px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 20px;
+        background: #fff;
+    }
+    .question-card h3 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    @media (max-width: 600px) {
+        .question-card {
+            padding: 12px;
+        }
+        .question-card .question-card-title {
+            font-size: 1.1rem;
+        }
+        .blog-card-description {
+            font-size: 0.95rem;
+        }
+        .blog-card-tags {
+            font-size: 0.85rem;
+        }
+    }
+    .blogs-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    .question-card {
+        flex: 1 1 620px;
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    html:is([class~="dark"], [class*="theme-dark"])  {
+        .question-card {
+            background: #181a1b;
+            border-color: #333;
+        }
+        .question-card h3 {
+            color: #f3f3f3;
+        }
+        .blog-card-description,
+        .blog-card-tags {
+            color: #cfcfcf;
+        }
+        .blog-card-tag {
+            color: #b3e5fc;
+        }
+    }
+
+
+</style>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"],
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"],
+      ],
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
+    },
+  };
+</script>
+
+{{/* MathJax */}}
+<script
+  type="text/javascript"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
