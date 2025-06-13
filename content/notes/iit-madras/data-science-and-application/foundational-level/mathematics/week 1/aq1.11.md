@@ -115,7 +115,19 @@ Which of the following is true?
 
 The image also provides context stating: "The domain and range of the function that is shown in Figure 1 are [m, x] and [n, y] respectively, where m, n, x, y ∈ ℝ."
 
-{{< math/geogebra id="azbxfs9y" width="600" height="600" >}}
+{{< math/geogebra id="azbxfs9y" width="600" height="300" >}}
+
+{{< plotly formula="Math.sin(x)" xmin="-6.28" xmax="6.28" step="0.05" title="y = sin(x)" xlabel="x" ylabel="y" >}}
+
+{{< plotly formula="x^2-5" xmin="-6.28" xmax="6.28" step="0.05" title="y = sin(x)" xlabel="x" ylabel="y" >}}
+
+{{< plotly formula="(Math.pow(x,2)) - 5" xmin="-6.28" xmax="6.28" step="0.05" title="y = sin(x)" xlabel="x" ylabel="y" >}}
+
+{{< math/geogebra id="fe9vckwu" width="600" height="300" >}}
+
+{{< math/geogebra id="qm9mevaj" width="400" height="300" >}}
+
+{{< plotly formula="x*x + 2*x + 1" xmin="-10" xmax="10" step="0.1" title="Quadratic: y = x² + 2x + 1" xlabel="x" ylabel="y" >}}
 
 A coordinate graph (Figure 1) is shown with several plotted points including (0, 9), (-4, 2), (3, 1), and (9, 6), suggesting there may be additional questions related to this graph that would follow this context.
 

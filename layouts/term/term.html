@@ -15,7 +15,8 @@
           {{ if eq .Type "tags" }}
         {{ partial "blog-cards.html" . }}
           {{ else }}
-        {{ partial "exercise-cards.html" . }}
+        {{/*  {{ partial "exercise-cards.html" . }}  */}}
+        {{ partial "question-cards.html" . }}
           {{ end }}
       </main>
     </article>

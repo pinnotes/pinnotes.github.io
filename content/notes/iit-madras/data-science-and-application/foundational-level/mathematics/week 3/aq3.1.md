@@ -8,6 +8,7 @@ excludeSearch: false
 weight: 31.5
 ---
 
+{{< math/geogebra id="rbjh4eef" width="600" height="300" >}}
 
 {{< border >}}
 **Question 1:** Which of the graphs in Figure 1 represents the following function: $y = x^2 - x + 1$?

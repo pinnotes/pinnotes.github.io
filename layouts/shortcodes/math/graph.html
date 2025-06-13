@@ -1,0 +1,39 @@
+<!-- filepath: d:\Code\hextra-notes\layouts\shortcodes\plotly.html -->
+{{ $id := printf "plotly_%d" now.UnixNano }}
+{{ $formula := .Get "formula" | default "Math.sin(x)" }}
+{{ $xmin := .Get "xmin" | default "-10" }}
+{{ $xmax := .Get "xmax" | default "10" }}
+{{ $step := .Get "step" | default "0.1" }}
+{{ $title := .Get "title" | default "Plotly Graph" }}
+{{ $xlabel := .Get "xlabel" | default "x" }}
+{{ $ylabel := .Get "ylabel" | default "y" }}
+
+<div id="{{ $id }}" style="width:100%;max-width:600px;height:400px;"></div>
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+<script>
+(function() {
+  var x = [];
+  var y = [];
+  for (var i = Number({{ $xmin }}); i <= Number({{ $xmax }}); i += Number({{ $step }}) ) {
+    x.push(i);
+    try {
+      y.push(eval("{{ $formula }}".replace(/x/g, "(" + i + ")")));
+    } catch(e) {
+      y.push(null);
+    }
+  }
+  Plotly.newPlot("{{ $id }}", [{
+    x: x,
+    y: y,
+    mode: 'lines',
+    line: {color: '#0078d4'},
+    name: "{{ $formula }}"
+  }], {
+    title: "{{ $title }}",
+    xaxis: {title: "{{ $xlabel }}"},
+    yaxis: {title: "{{ $ylabel }}"}
+  }, {responsive: true});
+})();
+</script>
+
+{{/*  {{< plotly formula="Math.sin(x)" xmin="-6.28" xmax="6.28" step="0.05" title="y = sin(x)" xlabel="x" ylabel="y" >}}  */}}

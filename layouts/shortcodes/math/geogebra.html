@@ -1,46 +1,70 @@
 <!-- filepath: d:\Code\hextra-notes\layouts\shortcodes\math\geogebra.html -->
 {{ $materialID := .Get "id" | default "" }}
-{{ $width := .Get "width" | default "800" }}
+{{ $width := .Get "width" | default "800" }} 
 {{ $height := .Get "height" | default "600" }}
 {{ $aspect := div (float $height) (float $width) | mul 100 }}
 
-{{ $sfsb := .Get "sfsb" | default "true" }}
-{{ $smb  := .Get "smb"  | default "false" }}
-{{ $stb  := .Get "stb"  | default "false" }}
-{{ $ai   := .Get "ai"   | default "false" }}
-{{ $sdz  := .Get "sdz"  | default "false" }}
-{{ $sfbl := .Get "sfbl" | default "false" }}
-{{ $sri  := .Get "sri"  | default "false" }}
+{{/*  Engable Right Click, Zomming and Keboard Editing  */}}
+{{ $rc := .Get "rc" | default "false"}}
+{{/*  Show the Algebra Input Bar. */}}
+{{ $ai := .Get "ai" | default "false" }}
+{{/* Enable Shoft-Drag & Zoom  */}}
+{{ $sdz := .Get "sdz" | default "false" }}
+{{/*  Show the GeoGebra Menu Bar. */}}
+{{ $smb := .Get "smb" | default "false" }} 
+{{/*  Show the GeoGebra Toolbar. */}}
+{{ $stb := .Get "stb" | default "false" }} 
+{{/*  Show Toolbar Help */}}
+{{ $stbh := .Get "stbh" | default "false" }}
+{{/*  Allow label dragging */}}
+{{ $Id := .Get "Id" | default "false" }}
+{{/*  Show Reset icon (top-right)  */}}
+{{ $sri := .Get "sri" | default "false" }}
+{{/*  Show play button that starts the construction   */}}
+{{ $ctl := .Get "ctl" | default "false" }}
 
-{{ if not $materialID }}
-  <p class="error">GeoGebra material ID is required.</p>
-  {{ return }}
-{{ end }}
+
+{{/*  Show full-screen button. Make sure you alse add allowfullscreen to the iframe tag.  */}}
+{{ $sfsb := .Get "sfsb" | default "false" }} 
+{{/*  Show zoom buttons  */}}
+{{ $szb := .Get "szb" | default "false" }}
+
+{{ $sfbl := .Get "sfbl" | default "false" }}
+
+ {{ if not $materialID }}
+<p class="error">GeoGebra material ID is required.</p>
+{{ return }} {{ end }}
 
 <div class="ggb-responsive-container" style="--aspect:{{ $aspect }}%;">
   <iframe
-    src="https://www.geogebra.org/material/iframe/id/{{ $materialID }}/width/{{ $width }}/height/{{ $height }}/border/888888/sfsb/{{ $sfsb }}/smb/{{ $smb }}/stb/{{ $stb }}/ai/{{ $ai }}/sdz/{{ $sdz }}/sfbl/{{ $sfbl }}/sri/{{ $sri }}"
+    src="https://www.geogebra.org/material/iframe/id/{{ $materialID }}/width/{{ $width }}/height/{{ $height }}/border/888888/rc/{{ $rc }}/szb/{{ $szb }}/ctl/{{ $ctl }}/Id/{{ $Id }}/stbh/{{ $stbh }}/sfsb/{{ $sfsb }}/smb/{{ $smb }}/stb/{{ $stb }}/ai/{{ $ai }}/sdz/{{ $sdz }}/sfbl/{{ $sfbl }}/sri/{{ $sri }}"
     allowfullscreen
     loading="lazy"
+    style="border: 1px solid #e4e4e4; border-radius: 4px"
   ></iframe>
 </div>
 
 <style>
-.ggb-responsive-container {
-  position: relative;
-  width: 100%;
-  padding-top: var(--aspect, 75%);
-  max-width: 900px;
-  margin: 1em auto;
-}
-.ggb-responsive-container iframe {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display: block;
-}
+  .ggb-responsive-container {
+    position: relative;
+    width: 100%;
+    padding-top: var(--aspect, 75%);
+    max-width: 900px;
+    margin: 1em auto;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+  }
+  .ggb-responsive-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    object-fit: cover;
+  }
 </style>
 
-{{/*  {{< math/geogebra id="abcd1234" width="700" height="500" sfsb="false" smb="true" stb="true" ai="true" sdz="false" sfbl="true" >}}  */}}
+{{/* {{< math/geogebra id="abcd1234" width="700" height="500" sfsb="false"
+smb="true" stb="true" ai="true" sdz="false" sfbl="true" >}} */}}
