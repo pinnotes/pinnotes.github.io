@@ -1,7 +1,7 @@
 <!-- filepath: d:\Code\hextra-notes\layouts\shortcodes\geogebra.html -->
-{{ $id := delimit (slice "ggb_%d" (partial "functions/uid.html" .)) "-" }}
-{{- $uid := .Page.Scratch.Get "addCounter" | default 0 -}}
-{{- .Page.Scratch.Set "addCounter" (add $uid 1) -}}
+{{ $uid := delimit (slice "ggb_%d" (partial "functions/uid.html" .)) "-" }}
+{{/*  {{- $uid := .Page.Scratch.Get "addCounter" | default 0 -}}
+{{- .Page.Scratch.Set "addCounter" (add $uid 1) -}}  */}}
 
 {{/*  {{ $id := printf "ggb_%d" now.UnixNano }}  */}}
 <div id="{{ $uid }}"></div>

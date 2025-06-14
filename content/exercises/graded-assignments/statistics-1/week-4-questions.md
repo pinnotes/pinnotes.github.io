@@ -25,6 +25,20 @@ series:
 
 {{< math/calc3 a=10 b=5 c=3 d=5 e=5 f=5 g=5 h=5 i=5 j=5 k=5 l=5 m=5 n=5 formula="a+b+c+d+e+f+g+h+i+j+k+l+m+n / 2" >}}
 
+{{< calc/calc-wrapper >}}
+  {{< calc/input name="a" value="2" >}}
+  {{< calc/input name="b" value="3" >}}
+  {{< calc/formula value="a + b * 2" >}}
+  {{< calc/answer >}}
+{{< /calc/calc-wrapper >}}
+
+{{< calc/calc-wrapper >}}
+  {{< calc/input name="a" value="2" >}}
+  {{< calc/input name="b" value="3" >}}
+  {{< calc/formula value="Math.pow(2,a)" >}}
+  {{< calc/answer >}}
+{{< /calc/calc-wrapper >}}
+
 **Solution:**
 Let $m_x$ and $\sigma_x$ be the mean and population standard deviation of sales of OnePlus respectively.
 
@@ -38,9 +52,9 @@ $$
 
 Therefore, Population standard deviation of sales of OnePlus = $\sqrt{\sigma_x^2}$
 
-{{< math/calc3 a=10 b=5 formula="a + b * 2" >}}
+<!-- {{< math/calc3 a=10 b=5 formula="a + b * 2" >}} -->
 
-{{< math/calc3 x=2 y=3 z=4 formula="x * y + z" >}}
+<!-- {{< math/calc3 x=2 y=3 z=4 formula="x * y + z" >}} -->
 
 ---
 

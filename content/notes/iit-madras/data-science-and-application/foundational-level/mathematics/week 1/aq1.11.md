@@ -119,6 +119,8 @@ The image also provides context stating: "The domain and range of the function t
 
 {{< plotly formula="Math.sin(x)" xmin="-6.28" xmax="6.28" step="0.05" title="y = sin(x)" xlabel="x" ylabel="y" >}}
 
+### Quadratic Equation
+
 {{< plotly formula="x^2-5" xmin="-6.28" xmax="6.28" step="0.05" title="y = sin(x)" xlabel="x" ylabel="y" >}}
 
 {{< plotly formula="(Math.pow(x,2)) - 5" xmin="-6.28" xmax="6.28" step="0.05" title="y = sin(x)" xlabel="x" ylabel="y" >}}

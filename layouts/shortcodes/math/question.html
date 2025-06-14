@@ -1,0 +1,53 @@
+{{/* Generate a unique ID for this instance */}}
+{{- $uid := .Page.Scratch.Get "addCounter" | default 0 -}}
+{{- .Page.Scratch.Set "addCounter" (add $uid 1) -}}
+
+{{ $formula := .Get "formula" | default "a + b" }}
+<div id="calc-{{$uid}}" class="calc-box">
+  {{ range $key, $value := .Params }}
+    {{ if ne $key "formula" }}
+      <label>
+        {{ $key }}:
+        <input type="number" id="calc-{{$uid}}-{{$key}}" value="{{ $value }}">
+      </label>
+      <br>
+    {{ end }}
+  {{ end }}
+  <label>
+    Formula:
+    <input type="text" id="calc-{{$uid}}-formula" value="{{ $formula }}">
+  </label>
+  <br>
+  <button type="button" onclick="calcSolve('calc-{{$uid}}')">Solve</button>
+  <div id="calc-{{$uid}}-result">Result: </div>
+</div>
+
+<script>
+function calcSolve(boxId) {
+  const box = document.getElementById(boxId);
+  const inputs = box.querySelectorAll('input[type="number"]');
+  let formula = box.querySelector('input[type="text"]').value;
+  inputs.forEach(input => {
+    const varName = input.id.split('-').pop();
+    formula = formula.replace(new RegExp('\\b' + varName + '\\b', 'g'), input.value || '0');
+  });
+  try {
+    // For public sites, use a math parser instead of eval for safety!
+    const result = eval(formula);
+    box.querySelector('[id$="result"]').textContent = "Result: " + result;
+  } catch {
+    box.querySelector('[id$="result"]').textContent = "Result: Error in formula";
+  }
+}
+</script>
+
+<style>
+.calc-box {
+  border: 1px solid #ccc; border-radius: 8px; padding: 1em; margin: 1em 0; max-width: 320px;
+  background: #f9f9f9; font-family: system-ui, sans-serif;
+}
+.calc-box label { display: block; margin-bottom: 0.5em; }
+.calc-box input { margin-left: 0.5em; }
+.calc-box button { margin-top: 0.5em; }
+.calc-box div[id$="result"] { margin-top: 0.5em; font-weight: bold; color: #007800; }
+</style>

@@ -90,7 +90,7 @@ Both are free, widely used, and highly respected in education. Many teachers use
 
 ## GeoGebra Shortcode 2
 
-{{< geogebra material_id="qhqxxhp9" width="700" height="500" app="graphing" toolbar="true" algebra="true" menu="true" >}}
+{{< geogebra material_id="fe9vckwu" width="700" height="500" app="graphing" toolbar="true" algebra="true" menu="true" >}}
 
 ## i frame
 

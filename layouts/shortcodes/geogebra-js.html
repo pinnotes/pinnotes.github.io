@@ -1,4 +1,6 @@
 {{ $materialID := .Get "id" | default "" }}
+{{ $id := delimit (slice "chart" (partial "functions/uid.html" .)) "-" }}
+
 {{ $width := .Get "width" | default "800" }}
 {{ $height := .Get "height" | default "600" }}
 {{ $appName := .Get "appName" | default "graphing" }}

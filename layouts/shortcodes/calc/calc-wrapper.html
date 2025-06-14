@@ -1,0 +1,128 @@
+{{/* Generate a unique ID for this instance */}}
+{{- $wrapperId := .Page.Scratch.Get "addCounter" | default 0 -}}
+{{- .Page.Scratch.Set "addCounter" (add $wrapperId 1) -}}
+
+{{/*  {{ $wrapperId := printf "calc_x%d" now.UnixNano }}  */}}
+
+<div class="calc-wrapper" id="{{ $wrapperId }}">
+  <div class="calc-fields">
+    {{ .Inner | .Page.RenderString (dict "wrapperId" $wrapperId) }}
+  </div>
+  <button class="calc-btn" onclick="calc_('{{$wrapperId}}')">Calculate</button>
+  <div class="calc-answer" id="answer-{{ $wrapperId }}">Result: </div>
+</div>
+
+<script>
+function calc_(Id) {
+  // Use the wrapper ID to find the correct elements
+  var wrapper = document.getElementById(Id);                  
+  {{/*  var wrapper = document.getElementById('{{ $wrapperId }}');  */}}
+  var inputs = wrapper.querySelectorAll('input[data-calc-var]');
+  var vars = {};
+  inputs.forEach(function(input) {
+    var name = input.getAttribute('data-calc-var');
+    vars[name] = parseFloat(input.value) || 0;
+  });
+  var formulaInput = wrapper.querySelector('input[data-calc-formula]');
+  var answerDiv = wrapper.querySelector('.calc-answer');
+  if (!formulaInput || !answerDiv) {
+    answerDiv.textContent = "Result: Error (missing formula or answer)";
+    return;
+  }
+  var formula = formulaInput.value;
+  Object.keys(vars).forEach(function(name) {
+    var re = new RegExp('\\b' + name + '\\b', 'g');
+    formula = formula.replace(re, vars[name]);
+  });
+  try {
+    var result = eval(formula);
+    answerDiv.textContent = "Result: " + result;
+  } catch (e) {
+    answerDiv.textContent = "Result: Error";
+  }
+}
+</script>
+<style>
+.calc-wrapper {
+  max-width: 350px;
+  margin: 2em auto;
+  padding: 1.5em 2em;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  font-family: system-ui, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+.calc-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.calc-label {
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+.calc-input, .calc-formula {
+  width: 100%;
+  padding: 0.4em 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  background: #fff;
+  color: #222;
+  transition: border 0.2s;
+}
+.calc-input:focus, .calc-formula:focus {
+  border-color: #0078d4;
+  outline: none;
+}
+.calc-btn {
+  width: 100%;
+  padding: 0.6em 0;
+  background: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background 0.2s;
+}
+.calc-btn:hover {
+  background: #005fa3;
+}
+.calc-answer {
+  margin-top: 1em;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #007800;
+  min-height: 1.5em;
+}
+@media (prefers-color-scheme: dark) {
+  .calc-wrapper {
+    background: #23272f;
+    color: #f3f3f3;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.32);
+  }
+  .calc-input, .calc-formula {
+    background: #181b20;
+    color: #f3f3f3;
+    border: 1px solid #444;
+  }
+  .calc-input:focus, .calc-formula:focus {
+    border-color: #4fa3ff;
+  }
+  .calc-btn {
+    background: #4fa3ff;
+    color: #181b20;
+  }
+  .calc-btn:hover {
+    background: #0078d4;
+    color: #fff;
+  }
+  .calc-answer {
+    color: #7fff7f;
+  }
+}
+</style>
