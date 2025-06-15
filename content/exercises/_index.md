@@ -1,6 +1,7 @@
 ---
 title: "Exercises"
 width : full
+math: true
 cascade:
   width: normal
   math: true

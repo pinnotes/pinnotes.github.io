@@ -1,0 +1,41 @@
+{{- $relatedQuestions := (T "relatedQuestions") | default "More Questions"}}
+{{- $borderClass := "hx-mt-8 hx-border-t" -}}
+
+{{ if .Params.showRelatedContent | default (.Site.Params.blog.article.showRelatedContent | default false)}}
+{{ $related := .Site.RegularPages.Related . | first .Site.Params.blog.article.relatedContentLimit }}
+{{ with $related }}
+<div class="related-articles">
+<hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
+{{/*  <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "article.related_articles" | emojify }}</h2>  */}}
+<h2 class="hx-mt-8 hx-title ">{{ $relatedQuestions}}</h2>
+<hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
+<div class="related-questions-wrapper">
+  {{ range . }}
+  {{ partial "question-cards.html" . }}
+  {{ end }}
+</div>
+</div>
+
+<hr class="{{$borderClass}} hx-mb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
+
+{{ end }}
+{{ end }}
+
+<style>
+  .hx-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .related-questions-wrapper {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: grid;
+    justify-items: center;
+   
+    /* Optional: Add some padding to the container */
+
+
+  }
+
+
+</style>

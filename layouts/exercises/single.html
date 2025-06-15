@@ -52,6 +52,7 @@
           {{- .Scratch.Set "reversePagination" true -}}
           {{- partial "components/pager.html" . -}}
         {{ end }}
+        {{- partial "related-question-cards.html" . -}}
         {{- partial "components/comments.html" . -}}
       </main>
     </article>
