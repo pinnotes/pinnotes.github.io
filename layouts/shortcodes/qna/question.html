@@ -8,37 +8,49 @@
   <div class="calc-fields">
     {{ .Inner | .Page.RenderString (dict "wrapperId" $wrapperId) }}
   </div>
-  <button class="calc-btn" onclick="calc_('{{$wrapperId}}')">Calculate</button>
-  <div class="calc-answer" id="answer-{{ $wrapperId }}">Result: </div>
+  <button class="calc-btn" onclick="calc_('{{ $wrapperId }}')">Calculate</button>
 </div>
-
 <script>
 function calc_(Id) {
-  // Use the wrapper ID to find the correct elements
-  var wrapper = document.getElementById(Id);                  
-  {{/*  var wrapper = document.getElementById('{{ $wrapperId }}');  */}}
+  var wrapper = document.getElementById(Id);
   var inputs = wrapper.querySelectorAll('input[data-calc-var]');
   var vars = {};
   inputs.forEach(function(input) {
     var name = input.getAttribute('data-calc-var');
     vars[name] = parseFloat(input.value) || 0;
   });
-  var formulaInput = wrapper.querySelector('input[data-calc-formula]');
-  var answerDiv = wrapper.querySelector('.calc-answer');
-  if (!formulaInput || !answerDiv) {
-    answerDiv.textContent = "Result: Error (missing formula or answer)";
-    return;
-  }
-  var formula = formulaInput.value;
-  Object.keys(vars).forEach(function(name) {
-    var re = new RegExp('\\b' + name + '\\b', 'g');
-    formula = formula.replace(re, vars[name]);
+
+  // Evaluate formulas in order, storing results by label
+  var formulas = wrapper.querySelectorAll('[data-calc-formula]');
+  formulas.forEach(function(formulaEl) {
+    var label = formulaEl.getAttribute('data-calc-label');
+    var formula = formulaEl.getAttribute('data-calc-formula');
+    // Replace all variable names in the formula with their values
+    Object.keys(vars).forEach(function(name) {
+      var re = new RegExp('\\b' + name + '\\b', 'g');
+      formula = formula.replace(re, vars[name]);
+    });
+    // Replace previous formula results by label
+    Object.keys(vars).forEach(function(name) {
+      var re = new RegExp('\\b' + name + '\\b', 'g');
+      formula = formula.replace(re, vars[name]);
+    });
+    try {
+      var result = eval(formula);
+      vars[label] = result;
+      // Show result in the formula label if a result span exists
+      var resultSpan = formulaEl.parentElement.querySelector('.calc-formula-result');
+      if(resultSpan) resultSpan.textContent = " = " + result;
+    } catch (e) {
+      if(resultSpan) resultSpan.textContent = " = Error";
+    }
   });
-  try {
-    var result = eval(formula);
-    answerDiv.textContent = "Result: " + result;
-  } catch (e) {
-    answerDiv.textContent = "Result: Error";
+
+  // Show the last formula's result in the answer box
+  var lastLabel = formulas.length ? formulas[formulas.length-1].getAttribute('data-calc-label') : null;
+  var answerDiv = wrapper.querySelector('.calc-answer');
+  if (answerDiv && lastLabel && vars[lastLabel] !== undefined) {
+    answerDiv.textContent = "Result: " + vars[lastLabel];
   }
 }
 </script>

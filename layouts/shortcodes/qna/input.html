@@ -10,4 +10,10 @@
 
   {{/*  <label class="calc-label" for="input-{{ $wrapper }}-{{ .Get "name" }}">{{ .Get "name" | title }}:</label>  */}}
   {{/*  <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">  */}}
+  {{/*  <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">  */}}
+
+
+<div>
+  <label class="calc-label" for="input-{{ $wrapper }}-{{ .Get "name" }}">{{ .Get "name" | title }}:</label>
   <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">
+</div>

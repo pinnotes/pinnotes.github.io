@@ -1,8 +1,8 @@
 {{ $wrapper := .Parent.Get "wrapperId" }}
-<div>
+{{/*  <div>
   <label class="calc-label" for="formula-{{ $wrapper }}">{{ .Get "label" | default "Formula:" }} =</label>
   <input class="calc-formula" type="text" id="formula-{{ $wrapper }}" data-calc-formula value="{{ .Get "value" | default "a + b" }}">
-</div>
+</div>  */}}
 
 {{/*  <div>
   <label class="calc-label" for="formula-{{ $wrapper }}">Formula:</label>
@@ -19,3 +19,13 @@
     {{ .Get "value" | default "a + b" }}
   </p>
 </div>  */}}
+
+{{ $label := .Get "label" | default (printf "formula_%s" $wrapper) }}
+<div>
+  <label class="calc-label" for="formula-{{ $wrapper }}">
+    {{ $label }}
+  </label>
+  <p class="calc-formula" id="formula-{{ $wrapper }}" data-calc-formula="{{ .Get "value" | default "a + b" }}" data-calc-label="{{ $label }}">
+    {{ .Get "value" | default "a + b" }}<span class="calc-formula-result"></span>
+  </p>
+</div>
