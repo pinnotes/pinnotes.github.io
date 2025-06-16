@@ -1,6 +1,6 @@
 
-  <a href="{{ .RelPermalink }}">
-  <div class="question-card hx-mb-10">
+<div class="question-card hx-mb-10 question-mathjax hextra-scrollbar">
+    <a href="{{ .RelPermalink }}">
       <div class="question-header mona-sans fireship-tag tag-cloud-functions">
         <h3>
           <a
@@ -14,7 +14,7 @@
       </div>
       <div class="question-content">
         <p
-          class="blog-card-description mona-sans hx-opacity-100 hx-mt-2 hx-leading-7 mathjax-content"
+          class="blog-card-description mona-sans hx-opacity-100 hx-mt-2 hx-leading-7 mathjax"
         >
           {{- partial "utils/page-description" . -}}
         </p>
@@ -43,8 +43,8 @@
         </p>
         {{ end -}} {{- end -}}
       </div>
+    </a>
     </div>
-  </a>
 
 
 <style>
@@ -121,9 +121,11 @@
       color: #b3e5fc;
     }
   }
+
+
 </style>
 
-<script>
+{{/*  <script>
   window.MathJax = {
     tex: {
       inlineMath: [
@@ -139,11 +141,34 @@
       skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
     },
   };
-</script>
+</script>  */}}
 
 {{/* MathJax */}}
-<script
+{{/*  <script
   type="text/javascript"
   async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-></script>
+></script>  */}}
+
+
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  options: {
+    enableMenu: false,
+    elements: document.querySelectorAll('.mathjax')
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.mathjax').forEach(el => {
+    el.addEventListener('contextmenu', e => e.preventDefault());
+  });
+});
+</script>

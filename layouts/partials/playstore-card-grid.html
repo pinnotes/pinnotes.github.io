@@ -5,7 +5,7 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
 <div class="section-container">
   <div class="section-header">
     <a href="{{ .RelPermalink }}" class="section-link">
-      <h2 class="section-title">{{ $title }} &#8250;</h2>
+      <h2 class="section-title mona-sans">{{ $title }} &#8250;</h2>
     </a>
     {{/*
     <div class="section-tags">
@@ -59,7 +59,7 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
         {{- end }}
       </div>
       <div class="card-content">
-        <h3 class="card-title">{{ .Title }}</h3>
+        <h3 class="card-title mona-sans">{{ .Title }}</h3>
         <p class="card-subtitle"> {{- partial "utils/page-description" . -}}</p>
       </div>
     </div>

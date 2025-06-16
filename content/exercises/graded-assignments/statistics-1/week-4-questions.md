@@ -1,6 +1,7 @@
 ---
 title: Week 4 Statistics Graded Assignment Questions
 weight: 12
+math: true
 tags: 
 - statistics
 categories:
@@ -8,6 +9,9 @@ categories:
 series:
 - Statistics Graded Assignment
 ---
+
+
+{{< qna/question >}}
 
 ### Questions (1)–(6): Based on Table 4.1.G
 
@@ -21,23 +25,12 @@ series:
 | Punjab | k | l |
 | Chennai | m | n |
 
+
 #### 1. What is the population standard deviation of sales of OnePlus? (Enter the answer correct to 2 decimal accuracy)
 
-{{< math/calc3 a=10 b=5 c=3 d=5 e=5 f=5 g=5 h=5 i=5 j=5 k=5 l=5 m=5 n=5 formula="a+b+c+d+e+f+g+h+i+j+k+l+m+n / 2" >}}
+  {{< qna/input name="a" value="2" >}}
+  {{< qna/input name="b" value="3" >}}
 
-{{< calc/calc-wrapper >}}
-  {{< calc/input name="a" value="2" >}}
-  {{< calc/input name="b" value="3" >}}
-  {{< calc/formula value="a + b * 2" >}}
-  {{< calc/answer >}}
-{{< /calc/calc-wrapper >}}
-
-{{< calc/calc-wrapper >}}
-  {{< calc/input name="a" value="2" >}}
-  {{< calc/input name="b" value="3" >}}
-  {{< calc/formula value="Math.pow(2,a)" >}}
-  {{< calc/answer >}}
-{{< /calc/calc-wrapper >}}
 
 **Solution:**
 Let $m_x$ and $\sigma_x$ be the mean and population standard deviation of sales of OnePlus respectively.
@@ -50,7 +43,12 @@ $$
 \sigma_x^2 = \frac{(a - m_x)^2 + (c - m_x)^2 + (e - m_x)^2 + (g - m_x)^2 + (i - m_x)^2 + (k - m_x)^2 + (m - m_x)^2}{7}
 $$
 
+  {{< qna/formula value="Math.pow(2,a)" >}}
+  {{< qna/result >}}
 Therefore, Population standard deviation of sales of OnePlus = $\sqrt{\sigma_x^2}$
+
+{{< /qna/question >}}
+
 
 <!-- {{< math/calc3 a=10 b=5 formula="a + b * 2" >}} -->
 

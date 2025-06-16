@@ -1,0 +1,5 @@
+{{ $wrapper := .Parent.Get "wrapperId" }}
+<div>
+  <label class="calc-label" for="formula-{{ $wrapper }}">Formula:</label>
+  <input class="calc-formula" type="text" id="formula-{{ $wrapper }}" data-calc-formula value="{{ .Get "value" | default "a + b" }}">
+</div>

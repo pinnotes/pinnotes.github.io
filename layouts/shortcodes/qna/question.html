@@ -1,0 +1,44 @@
+{{/* Generate a unique ID for this instance */}}
+{{- $wrapperId := .Page.Scratch.Get "addCounter" | default 0 -}}
+{{- .Page.Scratch.Set "addCounter" (add $wrapperId 1) -}}
+
+{{/*  {{ $wrapperId := printf "calc_x%d" now.UnixNano }}  */}}
+
+<div class="calc-wrapper" id="{{ $wrapperId }}">
+  <div class="calc-fields">
+    {{ .Inner | .Page.RenderString (dict "wrapperId" $wrapperId) }}
+  </div>
+  <button class="calc-btn" onclick="calc_('{{$wrapperId}}')">Calculate</button>
+  <div class="calc-answer" id="answer-{{ $wrapperId }}">Result: </div>
+</div>
+
+<script>
+function calc_(Id) {
+  // Use the wrapper ID to find the correct elements
+  var wrapper = document.getElementById(Id);                  
+  {{/*  var wrapper = document.getElementById('{{ $wrapperId }}');  */}}
+  var inputs = wrapper.querySelectorAll('input[data-calc-var]');
+  var vars = {};
+  inputs.forEach(function(input) {
+    var name = input.getAttribute('data-calc-var');
+    vars[name] = parseFloat(input.value) || 0;
+  });
+  var formulaInput = wrapper.querySelector('input[data-calc-formula]');
+  var answerDiv = wrapper.querySelector('.calc-answer');
+  if (!formulaInput || !answerDiv) {
+    answerDiv.textContent = "Result: Error (missing formula or answer)";
+    return;
+  }
+  var formula = formulaInput.value;
+  Object.keys(vars).forEach(function(name) {
+    var re = new RegExp('\\b' + name + '\\b', 'g');
+    formula = formula.replace(re, vars[name]);
+  });
+  try {
+    var result = eval(formula);
+    answerDiv.textContent = "Result: " + result;
+  } catch (e) {
+    answerDiv.textContent = "Result: Error";
+  }
+}
+</script>

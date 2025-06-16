@@ -175,6 +175,18 @@ nav .search-wrapper {
   overflow-y: hidden;
 }
 
+.MathJax {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+                  
+
+mjx-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 a {
   code {
     color: var(--link-color);

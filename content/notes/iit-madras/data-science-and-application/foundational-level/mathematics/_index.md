@@ -7,10 +7,10 @@ tags:
 excludeSearch: false
 weight: 1
 cascade:
- image: "/images/orange.jpg"
+ image: "/images/svg/circle-gradient.svg"
  series: ["Foundational-Level"]
  math: true
- emoji: 🧮
+ emoji: 🧠
 
 ---
 

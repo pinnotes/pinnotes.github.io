@@ -2,7 +2,7 @@
 title: English II 📖
 description: This course aims at achieving fluency and confidence in spoken and written English. This course will use insights from theories of learning and dominant methods of teaching language.
 date: 2025-05-08
-type: cards
+type: chapters
 tags:
   - Notes 
   - SSC Exam
