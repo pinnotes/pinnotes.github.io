@@ -17,20 +17,16 @@ series:
 
 | Dealer's Location | OnePlus | BBK Electronics |
 | :-- | :-- | :-- |
-| Chennai | a | b |
-| Punjab | c | d |
-| Chennai | e | f |
-| Punjab | g | h |
-| Chennai | i | j |
-| Punjab | k | l |
-| Chennai | m | n |
+| Chennai | {{< qna/input name="a" value="2" >}} | {{< qna/input name="b" value="2" >}} |
+| Punjab | {{< qna/input name="c" value="2" >}} | {{< qna/input name="d" value="2" >}} |
+| Chennai | {{< qna/input name="e" value="2" >}} | {{< qna/input name="f" value="2" >}} |
+| Punjab | {{< qna/input name="g" value="2" >}} | {{< qna/input name="h" value="2" >}} |
+| Chennai | {{< qna/input name="i" value="2" >}} | {{< qna/input name="j" value="2" >}} |
+| Punjab | {{< qna/input name="k" value="2" >}} | {{< qna/input name="l" value="2" >}} |
+| Chennai | {{< qna/input name="m" value="2" >}} | {{< qna/input name="n" value="2" >}} |
 
 
 #### 1. What is the population standard deviation of sales of OnePlus? (Enter the answer correct to 2 decimal accuracy)
-
-  {{< qna/input name="a" value="2" >}}
-  {{< qna/input name="b" value="3" >}}
-
 
 **Solution:**
 Let $m_x$ and $\sigma_x$ be the mean and population standard deviation of sales of OnePlus respectively.
@@ -39,11 +35,12 @@ $$
 m_x = \frac{a+c+e+g+i+k+m}{7}
 $$
 
+  {{< qna/formula label="mean" value="((a+b+c+d+e+f+g+h+i+j+k+l+m+n))/7" >}}
+
 $$
 \sigma_x^2 = \frac{(a - m_x)^2 + (c - m_x)^2 + (e - m_x)^2 + (g - m_x)^2 + (i - m_x)^2 + (k - m_x)^2 + (m - m_x)^2}{7}
 $$
 
-  {{< qna/formula value="Math.pow(2,a)" >}}
   {{< qna/result >}}
 Therefore, Population standard deviation of sales of OnePlus = $\sqrt{\sigma_x^2}$
 

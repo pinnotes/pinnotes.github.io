@@ -1,80 +1,115 @@
-
 <div class="question-card hx-mb-10 question-mathjax hextra-scrollbar">
-    <a href="{{ .RelPermalink }}">
-      <div class="question-header mona-sans fireship-tag tag-cloud-functions">
-        <h3>
-          <a
-            style="color: inherit; text-decoration: none"
-            class="question-card-title hx-block hx-font-semibold hx-text-xl"
-            href="{{ .RelPermalink }}"
-          >
-            {{ .Title }}
-          </a>
-        </h3>
-      </div>
-      <div class="question-content">
-        <p
-          class="blog-card-description mona-sans hx-opacity-100 hx-mt-2 hx-leading-7 mathjax"
+  <a href="{{ .RelPermalink }}">
+    <div class="question-header mona-sans">
+      <h3>
+        <a
+          style="color: inherit; text-decoration: none"
+          class="question-card-title hx-block hx-font-semibold hx-text-xl"
+          href="{{ .RelPermalink }}"
         >
-          {{- partial "utils/page-description" . -}}
-        </p>
-        {{/*  {{- if site.Params.blog.list.displayTags -}} {{with .GetTerms
-        "categories"}}
-        <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-          {{- range . }}
-          <a
-            class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
-            href="{{.RelPermalink}}"
-            >#{{ .Name }}</a
-          >
-          {{ end -}}
-        </p>  */}}
-        </p>
-        {{- if site.Params.blog.list.displayTags -}} {{with .GetTerms
-        "categories"}}
-        <p class="hx-opacity-100 hx-text-sm hx-leading-7 hx-mt-2">
-          {{- range . }}
-          <a
-            class="fireship-tag tag-md tag-stripe mona-sans hx-inline-block hx-mr-2"
-            href="{{.RelPermalink}}"
-            >{{ .Name }}</a
-          >
-          {{ end -}}
-        </p>
-        {{ end -}} {{- end -}}
-      </div>
-    </a>
+          {{ .Title }}
+        </a>
+      </h3>
     </div>
-
+    <a href="{{ .RelPermalink }}">
+    <div class="question-content">
+      <p
+        class="question-card-description mona-sans hx-opacity-100 hx-mt-2 hx-leading-7 mathjax"
+      >
+        {{- partial "utils/page-description" . -}}
+      </p>
+      {{/* {{- if site.Params.blog.list.displayTags -}} {{with .GetTerms
+      "categories"}}
+      <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
+        {{- range . }}
+        <a
+          class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
+          href="{{.RelPermalink}}"
+          >#{{ .Name }}</a
+        >
+        {{ end -}}
+      </p>
+      */}}
+    </div>
+    </a>
+    <div class="question-tags">
+      {{- if site.Params.blog.list.displayTags -}} {{with .GetTerms
+      "categories"}}
+      <p class="hx-opacity-100 hx-text-sm hx-leading-7 hx-mt-2">
+        {{- range . }}
+        <a
+          class="mona-sans hx-inline-block hx-mr-2"
+          href="{{.RelPermalink}}"
+          >{{ .Name }}</a
+        >
+        {{ end -}}
+      </p>
+      {{ end -}} {{- end -}}
+    </div>
+  </a>
+</div>
 
 <style>
-  .question-tag {
-    margin-top: 0.5rem;
-    color: #001824;
-    border: #001824 2px solid;
-    border-radius: 25px;
-    padding: 2px 6px;
-    font-size: 0.7rem;
-    text-decoration: none;
-  }                               
   .question-card {
-    border: 4px solid #242121;
+    border: 3px solid #333333;
     border-radius: 12px;
 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
+  .question-card:hover {
+    .question-card h3 {
+      color: #0969da;
+      text-decoration: underline;
+    }
+  }
   .question-header {
     display: block;
     overflow: hidden;
-    border-radius: 8px 8px 8px 8px;
-    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 16px;
+
+    color: #001824;
+    border-bottom: 3px solid #333333;
+
+    
+  }
+  .question-card-title {
+    font-weight: 700;
   }
   .question-card h3 {
     margin: 0;
     font-size: 1.2rem;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
   }
   .question-content {
-    padding: 0 20px 20px 20px;
+    padding: 16px;
+    padding-top: 0;
+  }
+  .question-card-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    color: #303030;
+    font-weight: 600;
+  }
+  .question-tags {
+    padding: 0 16px 16px 16px;
+    color: #1a1a1a;
+    color: #0969da;
+    border-top: 0px solid #333333;
+    text-transform: capitalize;
+  }
+  .gradient-text {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0.25rem;
+    list-style-type: decimal-leading-zero;
   }
   @media (max-width: 600px) {
     .question-header {
@@ -121,11 +156,10 @@
       color: #b3e5fc;
     }
   }
-
-
 </style>
 
-{{/*  <script>
+{{/*
+<script>
   window.MathJax = {
     tex: {
       inlineMath: [
@@ -141,34 +175,41 @@
       skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
     },
   };
-</script>  */}}
-
-{{/* MathJax */}}
-{{/*  <script
+</script>
+*/}} {{/* MathJax */}} {{/*
+<script
   type="text/javascript"
   async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-></script>  */}}
-
-
+></script>
+*/}}
 
 <script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  },
-  options: {
-    enableMenu: false,
-    elements: document.querySelectorAll('.mathjax')
-  }
-};
+  window.MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"],
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"],
+      ],
+    },
+    options: {
+      enableMenu: false,
+      elements: document.querySelectorAll(".mathjax"),
+    },
+  };
 </script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  async
+></script>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll('.mathjax').forEach(el => {
-    el.addEventListener('contextmenu', e => e.preventDefault());
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".mathjax").forEach((el) => {
+      el.addEventListener("contextmenu", (e) => e.preventDefault());
+    });
   });
-});
 </script>

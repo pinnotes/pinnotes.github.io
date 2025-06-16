@@ -1,5 +1,5 @@
 ---
-title: Mathematics Graded Assignment Week - 1
+title: 🪨 Mathematics Graded Assignment Week 1 😶
 weight: 1
 tags: 
 - mathematics

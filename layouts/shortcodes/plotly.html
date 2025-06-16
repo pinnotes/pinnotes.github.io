@@ -32,7 +32,10 @@
     title: "{{ $title }}",
     xaxis: {title: "{{ $xlabel }}"},
     yaxis: {title: "{{ $ylabel }}"}
-  }, {responsive: true});
+  }, {
+    responsive: true,
+    displayModeBar: false // Hides the modebar (menu tools)
+  });
 })();
 </script>
 
