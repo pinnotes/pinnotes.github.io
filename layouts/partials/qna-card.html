@@ -5,49 +5,54 @@
 
 <div class="card-container mona-sans">
   <a href="{{.RelPermalink}}">
-  <div class="question-card math">
-    <div class="card-header">
-      <img
-        src="https://via.placeholder.com/40"
-        alt="Profile Picture"
-        class="profile-pic"
-      />
-      <div class="header-info">
-        <span class="subject">{{ .Title }}</span>
-        <span class="time-ago">4 minutes ago</span>
+    <div class="question-card {{.Params.subject | lower}}">
+      <div class="card-header">
+        <img
+          src="{{.Params.avatar | default "https://github.com/pinnotes.png"}}"
+          alt="Profile Picture"
+          class="profile-pic"
+        />
+        <div class="header-info">
+          <span class="subject">{{ .Title | default "Default" }}</span>
+          <span class="time-ago">{{.Params.subtitle}}</span>
+        </div>
+        <div class="points">{{.Params.label | default "Default"}}</div>
       </div>
-      <div class="points">5 Poin</div>
+      <div class="card-body katex-desc">
+        <p>{{- partial "utils/page-description" . -}}</p>
+      </div>
+      {{/* <button class="answer-button">Lets answer now</button> */}}
     </div>
-    <div class="card-body">
-      <p>Two block of mass m1=7 kg and m2 = 6kg connected with a light...?</p>
-    </div>
-    {{/* <button class="answer-button">Lets answer now</button> */}}
-  </div>
   </a>
 
-  <a href="{{.RelPermalink}}">
-  <div class="question-card history">
-    <div class="card-header">
-      <img
-        src="https://via.placeholder.com/40"
-        alt="Profile Picture"
-        class="profile-pic"
-      />
-      <div class="header-info">
-        <span class="subject">{{ .Title }}</span>
-        <span class="time-ago">20 minutes ago</span>
+  {{/*  <a href="{{.RelPermalink}}">  */}}
+    {{/*  <div class="question-card history">
+      <div class="card-header">
+        <img
+          src="https://via.placeholder.com/40"
+          alt="Profile Picture"
+          class="profile-pic"
+        />
+        <div class="header-info">
+          <span class="subject">{{ .Title }}</span>
+          <span class="time-ago">20 minutes ago</span>
+        </div>
+        <div class="points">9 Poin</div>
       </div>
-      <div class="points">9 Poin</div>
-    </div>
-    <div class="card-body katex-desc">
-      <p>{{- partial "utils/page-description" . -}}</p>
-    </div>
-    {{/* <button class="answer-button">Lets answer now</button> */}}
-  </div>
-  </a>
+      <div class="card-body katex-desc">
+        <p>Two block of mass m1=7 kg and m2 = 6kg connected with a light...?</p>
+      </div>  */}}
+      {{/* <button class="answer-button">Lets answer now</button> */}}
+    {{/*  </div>  */}}
+  {{/*  </a>  */}}
 </div>
 
 <style>
+  :root {
+    --opacity: 0.6; /* Default opacity for the cards */
+    --border-opacity: 0.6; /* Default border opacity for the cards */
+  }
+
   .card-container {
     display: flex;
     flex-direction: column;
@@ -64,12 +69,20 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    border: 3px solid rgba(65, 157, 255, var(--opacity)); /* Blue border for the card using --math-border-color and opacity */
+  }
+
+  .question-card:hover {
+    --opacity: 0.9; /* Full opacity on hover */
+    --border-opacity: 0.9; /* Full border opacity on hover */
   }
 
   .card-header {
     display: flex;
     align-items: center;
     gap: 10px;
+    border-bottom: 1px solid #e0e0e0; /* Light border at the bottom */
+    padding-bottom: 10px; /* Padding for the header */
   }
 
   .profile-pic {
@@ -90,6 +103,11 @@
     font-weight: 600;
     color: #333;
     font-size: 1.05em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Clamp to 2 lines */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
   }
 
   .time-ago {
@@ -117,6 +135,12 @@
     color: #555;
     line-height: 1.5;
     margin: 0; /* Remove default paragraph margin */
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* Clamp to 4 lines */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
   }
 
   .answer-button {
@@ -137,8 +161,35 @@
     background-color: #5b0bb0; /* Darker purple on hover */
   }
 
-  /* Optional: Styling for the bottom navigation if needed, though not directly asked for cards */
-  /* .bottom-nav { ... } */
+  .english {
+    border: 3px solid rgba(52, 152, 219, var(--border-opacity)); /* blue */
+  }
+  .python {
+    border: 3px solid rgba(241, 196, 15, var(--border-opacity)); /* yellow */
+  }
+  .statistics {
+    border: 3px solid rgba(46, 204, 113, var(--border-opacity)); /* green */
+  }
+  .programming {
+    border: 3px solid rgba(155, 89, 182, var(--border-opacity)); /* purple */
+  }
+  .coding {
+    border: 3px solid rgba(231, 76, 60, var(--border-opacity)); /* red */
+  }
+  .pyq {
+    border: 3px solid rgba(230, 126, 34, var(--border-opacity)); /* orange */
+  }
+  .machine-learning {
+    border: 3px solid rgba(26, 188, 156, var(--border-opacity)); /* teal */
+  }
+  .history {
+    border-color: rgba(255, 153, 0, var(--opacity)); /* orange */
+  }
+  .math{
+    border-color: rgba(255, 87, 34, var(--opacity)); /* red */
+  }
+
+
   html:is([class~="dark"]) {
     .card-container {
       background-color: transparent;

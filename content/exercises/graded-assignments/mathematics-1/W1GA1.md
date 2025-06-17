@@ -1,14 +1,13 @@
 ---
 title: 🪨 Mathematics Graded Assignment Week 1 😶
+description: Q1. Which of the following are irrational numbers❓ (a) $3^{1/3}$ (b) $(\sqrt{8}+\sqrt{2})(\sqrt{12}-\sqrt{3})$ (c) $\frac{\sqrt{18}-3}{\sqrt{2}-1}$ (d) $\frac{\sqrt{8}+\sqrt{2}}{\sqrt{8}-\sqrt{2}}$
 weight: 1
-tags: 
-- mathematics
+subject: programming
+subtitle: Graded Assignment
+
 categories:
 - Mathematics Graded Assignment
-series:
-- Mathematics Graded Assignment
-excludeSearch: false
-width: wide
+
 ---
 
 ## Mathematics for Data Science - 1
