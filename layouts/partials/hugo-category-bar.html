@@ -1,36 +1,35 @@
 <div class="hugo-tags-bar-container hextra-scrollbar">
-    <div class="hugo-tags-bar">
-        {{/*  <span class="hugo-tag active">All</span>  */}}
-        {{/*  <a href="/exercises/" class="hugo-tag active">All</a>  */}}
-        {{ $isAllActive := eq .Page.RelPermalink "/exercises/" }}
-        {{ if $isAllActive }}
-            <span class="hugo-tag active">All</span>
-        {{ else }}
-            <a href="/exercises/" class="hugo-tag">All</a>
+<div class="hugo-tags-bar">
+    {{ $isAllActive := eq .Page.RelPermalink "/exercises/" }}
+    {{ $activeTag := "" }}
+    {{ if not $isAllActive }}
+      {{ range .Site.Taxonomies.categories.Alphabetical }}
+        {{ if eq .Page.Permalink $.Page.Permalink }}
+          {{ $activeTag = .Name }}
         {{ end }}
-        {{ range .Site.Taxonomies.categories.Alphabetical }}
-            {{ $isActive := eq .Page.Permalink $.Page.Permalink }}
-            {{ if $isActive }}
-                <span class="hugo-tag active">{{ .Name }}</span>
-            {{ else }}
-                <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
-            {{ end }}
-        {{ end }}
-     
-{{/*  
-        {{ range .Site.Taxonomies.tags.Alphabetical }}
-        {{ if eq .Page.Section "exercises" }}
-            {{ $isActive := eq .Page.Permalink $.Page.Permalink }}
-            {{ if $isActive }}
-                <span class="hugo-tag active">{{ .Name }}</span>
-            {{ else }}
-                <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
-            {{ end }}
-            
-        {{ end }}
-            <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
-        {{ end }}  */}}
-    </div>
+      {{ end }}
+    {{ end }}
+
+    {{/* Render All tag first */}}
+    {{ if $isAllActive }}
+      <span class="hugo-tag active">All</span>
+    {{ else }}
+      <a href="/exercises/" class="hugo-tag">All</a>
+    {{ end }}
+
+    {{/* Render active tag immediately after All, if not All */}}
+    {{ if and (not $isAllActive) $activeTag }}
+      <span class="hugo-tag active">{{ $activeTag }}</span>
+    {{ end }}
+
+    {{/* Render the rest, skipping the active tag */}}
+    {{ range .Site.Taxonomies.categories.Alphabetical }}
+      {{ $isActive := eq .Page.Permalink $.Page.Permalink }}
+      {{ if not (and (not $isAllActive) $isActive) }}
+        <a href="{{ .Page.Permalink }}" class="hugo-tag">{{ .Name }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
 </div>
 
 <style>
@@ -65,7 +64,7 @@
         display: flex;
         align-items: center;
         padding: 0 15px;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     @media screen and (max-width:1200px) {
@@ -84,7 +83,8 @@
         padding: 8px 16px;
         margin-right: 8px;
         font-size: 14px;
-        text-transform: capitalize;
+        font-weight: 500;
+        text-transform: uppercase;
         cursor: pointer;
         white-space: nowrap;
         transition: background-color 0.3s ease;

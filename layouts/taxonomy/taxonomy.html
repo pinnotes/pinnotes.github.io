@@ -12,16 +12,16 @@
         </div>
         <div class="hx-grid hx-grid-cols-1 hx-md-grid-cols-2 hx-lg-grid-cols-3 hx-xl-grid-cols-4 hx-gap-4">
           {{ range .Data.Terms }}
+          <a
+            href="{{ .Page.RelPermalink }}"
+            title="{{ .Page.LinkTitle }}"
+            class="hx-hover-text-primary-600 tags-title"
+          >
             <div class="hx-w-full tags-card">
-              <a
-                href="{{ .Page.RelPermalink }}"
-                title="{{ .Page.LinkTitle }}"
-                class="hx-hover-text-primary-600 tags-title"
-              >
                 {{- .Page.LinkTitle -}}
                 <span class="hx-text-sm hx-text-gray-600 tags-count ">&nbsp;{{ .Count }}</span>
-              </a>
-            </div>
+              </div>
+            </a>
           {{ end }}
         </div>
       </main>

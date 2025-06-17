@@ -1,0 +1,41 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Abstract dark background -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#232629"/>
+      <stop offset="100%" stop-color="#181a1b"/>
+    </radialGradient>
+    <linearGradient id="shapeGrad1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3a3d40" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#232629" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bgGrad)"/>
+  <ellipse cx="200" cy="150" rx="160" ry="80" fill="url(#shapeGrad1)" opacity="0.5"/>
+  <ellipse cx="600" cy="250" rx="180" ry="90" fill="url(#shapeGrad1)" opacity="0.4"/>
+  <ellipse cx="400" cy="200" rx="300" ry="160" fill="url(#shapeGrad1)" opacity="0.15"/>
+
+  <!-- HUGO logo (simplified: colored hexagon with "HUGO") -->
+  <g transform="translate(120,200)">
+    <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30" fill="#ff4088" stroke="#fff" stroke-width="4"/>
+    <text x="0" y="12" font-family="Arial Black, Arial, sans-serif" font-size="36" fill="#fff" text-anchor="middle" font-weight="bold">HUGO</text>
+  </g>
+
+  <!-- Chart.js logo (simplified: pie chart in circle) -->
+  <g transform="translate(680,200)">
+    <circle cx="0" cy="0" r="60" fill="#fff" stroke="#ff6384" stroke-width="8"/>
+    <!-- Pie slices -->
+    <path d="M0,0 L0,-50 A50,50 0 0,1 43.3,25 Z" fill="#ff6384"/>
+    <path d="M0,0 L43.3,25 A50,50 0 0,1 0,50 Z" fill="#36a2eb"/>
+    <path d="M0,0 L0,50 A50,50 0 0,1 -43.3,25 Z" fill="#ffcd56"/>
+    <path d="M0,0 L-43.3,25 A50,50 0 0,1 0,-50 Z" fill="#4bc0c0"/>
+    <!-- Chart.js text -->
+    <text x="0" y="70" font-family="Arial Black, Arial, sans-serif" font-size="20" fill="#ff6384" text-anchor="middle">Chart.js</text>
+  </g>
+
+  <!-- Plus sign in the center -->
+  <g>
+    <rect x="390" y="175" width="20" height="50" rx="8" fill="#fff" opacity="0.9"/>
+    <rect x="375" y="190" width="50" height="20" rx="8" fill="#fff" opacity="0.9"/>
+  </g>
+</svg>

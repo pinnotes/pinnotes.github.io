@@ -8,7 +8,7 @@ excludeSearch: false
 type: cards
 cascade:
  series: ["SSC-CHSL", "Quantiative-Aptitude"]
- image: "/images/orange.jpg"
+ image: "/images/svg/ssc.svg"
  math: true
 
 

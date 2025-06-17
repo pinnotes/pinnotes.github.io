@@ -3,25 +3,26 @@
   rel="stylesheet"
 />
 
-<div class="card-container mona-sans">
+<div class="card-container mona-sans hextra-scrollbar">
   <a href="{{.RelPermalink}}">
     <div class="question-card {{.Params.subject | lower}}">
       <div class="card-header">
+        {{- if .Params.avatar }}            
         <img
-          src="{{.Params.avatar | default "https://github.com/pinnotes.png"}}"
+          src="{{.Params.avatar }}"
           alt="Profile Picture"
           class="profile-pic"
         />
+        {{ end -}}
         <div class="header-info">
-          <span class="subject">{{ .Title | default "Default" }}</span>
+          <span class="subject">{{ .Title | default "PinNotes" }}</span>
           <span class="time-ago">{{.Params.subtitle}}</span>
         </div>
-        <div class="points">{{.Params.label | default "Default"}}</div>
+        <div class="points">{{.Params.label | default "Solution"}}</div>
       </div>
       <div class="card-body katex-desc">
         <p>{{- partial "utils/page-description" . -}}</p>
       </div>
-      {{/* <button class="answer-button">Lets answer now</button> */}}
     </div>
   </a>
 
@@ -130,6 +131,56 @@
     color: #ff9800;
   }
 
+  .question-card.iit .points {
+    background-color: #ffe0b2; /* Orange-ish for Math points */
+    color: #ff9800;
+  }
+
+  .question-card.programming .points {
+    background-color: #e1bee79f; /* Light purple for Programming points */
+    color: #8e24aa;
+  }
+
+  .question-card.coding .points {
+    background-color: #ffccbc; /* Light red for Coding points */
+    color: #e64a19;
+  }
+
+  .question-card.pyq .points {
+    background-color: #fff3e0; /* Light orange for PYQ points */
+    color: #f57c00;
+  }
+
+  .question-card.machine-learning .points {
+    background-color: #b2dfdb; /* Light teal for Machine Learning points */
+    color: #00796b;
+  }
+
+  .question-card.history .points {
+    background-color: #ffecb3; /* Light yellow for History points */
+    color: #f57f17;
+  }                                 
+  .question-card.english .points {
+    background-color: #e1bee7; /* Light purple for English points */
+    color: #6a1b9a;
+  }
+  .question-card.statistics .points {
+    background-color: #c5cae9; /* Light blue for Statistics points */
+    color: #3949ab;
+  }
+  .question-card.python .points {
+    background-color: #fff9c4; /* Light yellow for Python points */
+    color: #fbc02d;
+  }
+  .question-card.civics .points {
+    background-color: #c8e6c9; /* Light green for Civics points */
+    color: #388e3c;
+  }                   
+  .question-card.ssc .points {
+    background-color: #f8bbd0; /* Light pink for SSC points */
+    color: #d81b60;
+  }
+
   .card-body p {
     font-size: 1em;
     color: #555;
@@ -143,23 +194,6 @@
     text-overflow: ellipsis; /* Add ellipsis for overflow */
   }
 
-  .answer-button {
-    background-color: #6a0dad; /* Purple button color */
-    color: #fff;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 15px; /* More rounded button */
-    font-size: 1em;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: fit-content; /* Adjust width to content */
-    align-self: flex-end; /* Align button to the right */
-  }
-
-  .answer-button:hover {
-    background-color: #5b0bb0; /* Darker purple on hover */
-  }
 
   .english {
     border: 3px solid rgba(52, 152, 219, var(--border-opacity)); /* blue */
@@ -188,6 +222,12 @@
   .math{
     border-color: rgba(255, 87, 34, var(--opacity)); /* red */
   }
+  .civics {
+    border: 3px solid rgba(52, 152, 219, var(--border-opacity)); /* blue */
+  }
+  .ssc {
+    border: 3px solid rgba(241, 196, 15, var(--border-opacity)); /* yellow */
+  }
 
 
   html:is([class~="dark"]) {
@@ -197,11 +237,13 @@
 
     .question-card {
       background-color: #181828;
+      background-color: transparent;
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
     }
 
     .card-header {
       /* no change needed */
+      border-bottom: 1px solid #232345;
     }
 
     .profile-pic {
@@ -230,13 +272,5 @@
       color: #e0e0f0;
     }
 
-    .answer-button {
-      background-color: #a259ff;
-      color: #fff;
-    }
-
-    .answer-button:hover {
-      background-color: #7c2ae8;
-    }
   }
 </style>

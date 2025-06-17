@@ -9,7 +9,7 @@ excludeSearch: false
 weight: 1
 cascade:
  series: ["Programming-in-Python"]
- image: "/images/code-1.jpg"
+ image: "/images/svg/dark-code.svg"
 
 
 ---

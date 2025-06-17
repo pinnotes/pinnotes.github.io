@@ -1,137 +1,140 @@
 <div class="card-grid-container">
-    {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
-    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
-    {{- range $pages }}
-    <a href="{{ .RelPermalink }}">
-      <div class="card">
-        <div class="card-image-container">
-          {{- if .Params.image }}
-          <img class="card-image" src="{{ .Params.image }}" alt="{{ .Title }}" />
-          {{- else }}
-          <img
-            class="card-image"
-            src="https://via.placeholder.com/300/abcdef/ffffff?Text=Placeholder%20Image"
-            alt="Placeholder Image"
-          />
-          {{- end }}
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">{{ .Title }}</h3>
-          <p class="card-subtitle">{{- partial "utils/page-description" . -}}</p>
-        </div>
+  {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
+  site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}} {{-
+  range $pages }}
+  <a href="{{ .RelPermalink }}">
+    <div class="card">
+      <div class="card-image-container">
+        {{- if .Params.image }}
+        <img class="card-image" src="{{ .Params.image }}" alt="{{ .Title }}" />
+        {{- else }}
+        <img
+          class="card-image"
+          src="https://via.placeholder.com/300/abcdef/ffffff?Text=Placeholder%20Image"
+          alt="Placeholder Image"
+        />
+        {{- end }}
       </div>
-    </a>
-    {{- end }}
-  
-  </div>
-  
-  <style>
-  
-    .card-grid-container {
-      margin-top: 40px;
-      position: relative;
-      display: flex;                                          
-      flex-wrap: wrap; /* Allow wrapping for smaller screens */
-      justify-content: center; /* Center the cards */                 
-      padding: 0 0; /* Balanced horizontal padding */
-      scrollbar-width: none;
-      -ms-overflow-style: none;
+      <div class="card-content">
+        <h3 class="card-title">{{ .Title }}</h3>
+        <p class="card-subtitle">{{- partial "utils/page-description" . -}}</p>
+      </div>
+    </div>
+  </a>
+  {{- end }}
+</div>
+
+<style>
+  .card-grid-container {
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: center; /* Center the cards */
+    padding: 0 0; /* Balanced horizontal padding */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .card-grid-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 12px; /* Softer corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elegant shadow */
+    margin: 12px;
+    width: 250px; /* Slightly larger card width */
+    flex-shrink: 0;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
+  }
+
+  .card-image-container {
+    width: 100%;
+    height: 180px; /* Adjusted image height */
+    overflow: hidden;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image fills the container */
+    display: block;
+  }
+
+  .card-content {
+    padding: 16px; /* More spacious content padding */
+  }
+
+  .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #202124;
+    margin-bottom: 6px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Clamp to 2 lines */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
+  }
+
+  .card-subtitle {
+    font-size: 14px;
+    color: #5f6368; /* Medium grey text */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Clamp to 2 lines */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
+  }
+
+  html[class~="dark"] {
+    .section-title {
+      color: #e0e0e0; /* Light text for section titles */
     }
-  
-    .card-grid-container::-webkit-scrollbar {
-      display: none;
+
+    .section-title:hover {
+      color: #1a73e8; /* Subtle hover effect */
     }
-  
+
     .card {
-      display: inline-block;
-      background-color: #fff;
-      border-radius: 12px; /* Softer corners */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elegant shadow */
-      margin: 12px;
-      width: 250px; /* Slightly larger card width */
-      flex-shrink: 0;
-      overflow: hidden;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Light shadow */
     }
-  
-    .card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced hover shadow */
-    }
-  
-    .card-image-container {
-      width: 100%;
-      height: 180px; /* Adjusted image height */
-      overflow: hidden;
-    }
-  
-    .card-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* Ensure image fills the container */
-      display: block;
-    }
-  
-    .card-content {
-      padding: 16px; /* More spacious content padding */
-    }
-  
+
     .card-title {
-      font-size: 16px;
-      font-weight: 600;
-      color: #202124;
-      margin-bottom: 6px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      color: #ffffff; /* White text for card titles */
     }
-  
+
     .card-subtitle {
-      font-size: 14px;
-      color: #5f6368; /* Medium grey text */
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      color: #b0b0b0; /* Light grey text for subtitles */
     }
-  
-    html[class~="dark"] {
-      .section-title {
-        color: #e0e0e0; /* Light text for section titles */
-      }
-  
-      .section-title:hover {
-        color: #1a73e8; /* Subtle hover effect */
-      }
-  
-      .card {
-        background-color: #1e1e1e; /* Dark card background */
-        box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1); /* Light shadow */
-      }
-  
-      .card-title {
-        color: #ffffff; /* White text for card titles */
-      }
-  
-      .card-subtitle {
-        color: #b0b0b0; /* Light grey text for subtitles */
-      }
-  
-      .scroll-button {
-        background-color: rgba(
-          255,
-          255,
-          255,
-          0.3
-        ); /* Light background for buttons */
-        color: #000000; /* Dark text for buttons */
-      }
+
+    .scroll-button {
+      background-color: rgba(
+        255,
+        255,
+        255,
+        0.3
+      ); /* Light background for buttons */
+      color: #000000; /* Dark text for buttons */
     }
-  
-    @media screen and (max-width: 768px) {
-  
-      .card {
-        width: 300px; /* Full width on small screens */
-      }
-      
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 180px; /* Full width on small screens */
     }
-  </style>
+  }
+</style>

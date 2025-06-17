@@ -1,0 +1,73 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#f5f6fa"/>
+  
+  <!-- Circular arrangement of icons (like flower petals) -->
+  <!-- Graduation Hat (top, 12 o'clock) -->
+  <g transform="translate(300,120)">
+    <!-- Hat base -->
+    <rect x="-30" y="0" width="60" height="20" rx="4" fill="#2d3436"/>
+    <!-- Hat top -->
+    <polygon points="-40,0 0,-25 40,0 0,15" fill="#636e72"/>
+    <!-- Tassel -->
+    <line x1="0" y1="15" x2="0" y2="35" stroke="#fdcb6e" stroke-width="4"/>
+    <circle cx="0" cy="35" r="5" fill="#fdcb6e"/>
+  </g>
+  <!-- Mathematics Symbol (right, 3 o'clock): Sigma Σ -->
+  <g transform="translate(480,300)">
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="60" font-family="serif" fill="#00b894" font-weight="bold">&#8721;</text>
+  </g>
+  <!-- Brain (bottom, 6 o'clock) -->
+  <g transform="translate(300,480)">
+    <ellipse cx="0" cy="0" rx="38" ry="28" fill="#ffeaa7" stroke="#fd79a8" stroke-width="3"/>
+    <path d="M-20,-10 Q-25,-30 0,-28 Q25,-30 20,-10" fill="none" stroke="#fd79a8" stroke-width="2"/>
+    <path d="M-15,10 Q-25,30 0,28 Q25,30 15,10" fill="none" stroke="#fd79a8" stroke-width="2"/>
+    <path d="M-10,-5 Q-20,0 -10,10" fill="none" stroke="#fd79a8" stroke-width="2"/>
+    <path d="M10,-5 Q20,0 10,10" fill="none" stroke="#fd79a8" stroke-width="2"/>
+    <circle cx="-15" cy="-7" r="3" fill="#fd79a8"/>
+    <circle cx="15" cy="-7" r="3" fill="#fd79a8"/>
+  </g>
+  <!-- Mathematics Symbol (left, 9 o'clock): Pi π -->
+  <g transform="translate(120,300)">
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="60" font-family="serif" fill="#0984e3" font-weight="bold">&#960;</text>
+  </g>
+  <!-- Graduation Hat (top-left, 10:30) -->
+  <g transform="translate(185,175) rotate(-30 0 0)">
+    <rect x="-20" y="0" width="40" height="12" rx="2" fill="#636e72"/>
+    <polygon points="-25,0 0,-15 25,0 0,9" fill="#b2bec3"/>
+    <line x1="0" y1="9" x2="0" y2="22" stroke="#fdcb6e" stroke-width="2"/>
+    <circle cx="0" cy="22" r="3" fill="#fdcb6e"/>
+  </g>
+  <!-- Brain (top-right, 1:30) -->
+  <g transform="translate(415,175) rotate(30 0 0)">
+    <ellipse cx="0" cy="0" rx="20" ry="14" fill="#ffeaa7" stroke="#fd79a8" stroke-width="2"/>
+    <path d="M-8,-5 Q-12,-15 0,-14 Q12,-15 8,-5" fill="none" stroke="#fd79a8" stroke-width="1.5"/>
+    <path d="M-6,5 Q-12,15 0,14 Q12,15 6,5" fill="none" stroke="#fd79a8" stroke-width="1.5"/>
+  </g>
+  <!-- Brain (bottom-left, 7:30) -->
+  <g transform="translate(185,425) rotate(-30 0 0)">
+    <ellipse cx="0" cy="0" rx="20" ry="14" fill="#ffeaa7" stroke="#fd79a8" stroke-width="2"/>
+    <path d="M-8,-5 Q-12,-15 0,-14 Q12,-15 8,-5" fill="none" stroke="#fd79a8" stroke-width="1.5"/>
+    <path d="M-6,5 Q-12,15 0,14 Q12,15 6,5" fill="none" stroke="#fd79a8" stroke-width="1.5"/>
+  </g>
+  <!-- Mathematics Symbol (bottom-right, 4:30): Integral ∫ -->
+  <g transform="translate(415,425)">
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-size="50" font-family="serif" fill="#e17055" font-weight="bold">&#8747;</text>
+  </g>
+  
+  <!-- SSC CHSL Logo (center, foreground) -->
+  <g transform="translate(300,300)">
+    <!-- Outer circle -->
+    <circle cx="0" cy="0" r="70" fill="#fff" stroke="#d35400" stroke-width="8"/>
+    <!-- Inner emblem (simplified Ashoka Chakra) -->
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#2980b9" stroke-width="4"/>
+    <g>
+      <line x1="0" y1="-28" x2="0" y2="28" stroke="#2980b9" stroke-width="2"/>
+      <line x1="-28" y1="0" x2="28" y2="0" stroke="#2980b9" stroke-width="2"/>
+      <line x1="-20" y1="-20" x2="20" y2="20" stroke="#2980b9" stroke-width="1.5"/>
+      <line x1="20" y1="-20" x2="-20" y2="20" stroke="#2980b9" stroke-width="1.5"/>
+    </g>
+    <!-- SSC CHSL text -->
+    <text x="0" y="60" text-anchor="middle" font-size="28" font-family="Arial Black, Arial, sans-serif" fill="#d35400" font-weight="bold">SSC CHSL</text>
+  </g>
+</svg>
