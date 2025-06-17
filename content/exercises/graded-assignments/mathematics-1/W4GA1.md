@@ -11,12 +11,6 @@ excludeSearch: false
 width: wide
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# extract all questions and solution from this pdf
-
-Below are all the questions and their solutions extracted from the provided PDF (Maths-1-Week-4.pdf)[^1]:
-
 ---
 
 ## Multiple Select Question (MSQ)

@@ -5,18 +5,11 @@ tags:
 - mathematics
 categories:
 - Mathematics Graded Assignment
+- Week-7-Sequence-and-Limits
 series:
 - Mathematics Graded Assignment
 excludeSearch: false
 width: wide
----
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# extract all questions and solution from this pdf
-
-Here are all the questions and their solutions from the PDF "Week-7-Sequence-and-Limits.pdf"[^1]:
-
 ---
 
 ## 1. Multiple Choice/Statement Analysis

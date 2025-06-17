@@ -5,18 +5,11 @@ tags:
 - mathematics
 categories:
 - Mathematics Graded Assignment
+- Limits, Continuity, Differentiability, and Derivatives
 series:
 - Mathematics Graded Assignment
 excludeSearch: false
 width: wide
----
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# extract all questions and solutions from this pdf
-
-Here are all the questions and solutions extracted from the PDF "Week-8.pdf" for the assignment on Limits, Continuity, Differentiability, and Derivatives[^1].
-
 ---
 
 ## 1. Multiple Select Questions (MSQ)

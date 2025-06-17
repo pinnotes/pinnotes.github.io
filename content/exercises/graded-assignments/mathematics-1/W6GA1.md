@@ -5,18 +5,11 @@ tags:
 - mathematics
 categories:
 - Mathematics Graded Assignment
+- Week-6-Logarithms
 series:
 - Mathematics Graded Assignment
 excludeSearch: false
 width: wide
----
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# extract all questions and solution from this pdf
-
-Here are all the questions and their solutions from the PDF "Copy-of-Week-6-Logarithms.pdf"[^1]:
-
 ---
 
 ## Multiple Choice Questions (MCQ)

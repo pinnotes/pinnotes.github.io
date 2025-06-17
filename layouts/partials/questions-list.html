@@ -1,14 +1,23 @@
 <div class="blogs-wrapper">
   {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
   site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}} {{-
-  range $pages }} {{ partial "question-cards.html" . }} {{ end -}}
+  range $pages }} 
+  {{/*  {{ partial "question-cards.html" . }}   */}}
+  {{ partial "qna-card.html" . }}
+  {{ end -}}
 </div>
 
 <style>
   .blogs-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 20px;
     padding: 0 18px;
   }
+  @media (max-width: 768px) {
+    .blogs-wrapper {
+      justify-content: center;
+      gap: 20px;
+    }
+  }                       
 </style>

@@ -1,0 +1,191 @@
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+  rel="stylesheet"
+/>
+
+<div class="card-container mona-sans">
+  <a href="{{.RelPermalink}}">
+  <div class="question-card math">
+    <div class="card-header">
+      <img
+        src="https://via.placeholder.com/40"
+        alt="Profile Picture"
+        class="profile-pic"
+      />
+      <div class="header-info">
+        <span class="subject">{{ .Title }}</span>
+        <span class="time-ago">4 minutes ago</span>
+      </div>
+      <div class="points">5 Poin</div>
+    </div>
+    <div class="card-body">
+      <p>Two block of mass m1=7 kg and m2 = 6kg connected with a light...?</p>
+    </div>
+    {{/* <button class="answer-button">Lets answer now</button> */}}
+  </div>
+  </a>
+
+  <a href="{{.RelPermalink}}">
+  <div class="question-card history">
+    <div class="card-header">
+      <img
+        src="https://via.placeholder.com/40"
+        alt="Profile Picture"
+        class="profile-pic"
+      />
+      <div class="header-info">
+        <span class="subject">{{ .Title }}</span>
+        <span class="time-ago">20 minutes ago</span>
+      </div>
+      <div class="points">9 Poin</div>
+    </div>
+    <div class="card-body katex-desc">
+      <p>{{- partial "utils/page-description" . -}}</p>
+    </div>
+    {{/* <button class="answer-button">Lets answer now</button> */}}
+  </div>
+  </a>
+</div>
+
+<style>
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between cards */
+    width: 100%;
+    max-width: 400px; /* Max width for the cards as seen in the mobile view */
+  }
+
+  .question-card {
+    background-color: #fff;
+    border-radius: 20px; /* More rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .profile-pic {
+    width: 45px; /* Slightly larger profile picture */
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #eee; /* Placeholder background */
+  }
+
+  .header-info {
+    flex-grow: 1; /* Allows it to take up available space */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subject {
+    font-weight: 600;
+    color: #333;
+    font-size: 1.05em;
+  }
+
+  .time-ago {
+    font-size: 0.85em;
+    color: #888;
+  }
+
+  .points {
+    background-color: #e0f7fa; /* Light blue background for points */
+    color: #007bff; /* Blue text for points */
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 0.9em;
+    white-space: nowrap; /* Prevent "Poin" from wrapping */
+  }
+
+  .question-card.math .points {
+    background-color: #ffe0b2; /* Orange-ish for Math points */
+    color: #ff9800;
+  }
+
+  .card-body p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+    margin: 0; /* Remove default paragraph margin */
+  }
+
+  .answer-button {
+    background-color: #6a0dad; /* Purple button color */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px; /* More rounded button */
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: fit-content; /* Adjust width to content */
+    align-self: flex-end; /* Align button to the right */
+  }
+
+  .answer-button:hover {
+    background-color: #5b0bb0; /* Darker purple on hover */
+  }
+
+  /* Optional: Styling for the bottom navigation if needed, though not directly asked for cards */
+  /* .bottom-nav { ... } */
+  html:is([class~="dark"]) {
+    .card-container {
+      background-color: transparent;
+    }
+
+    .question-card {
+      background-color: #181828;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-header {
+      /* no change needed */
+    }
+
+    .profile-pic {
+      background-color: #22223a;
+    }
+
+    .subject {
+      color: #f3f3fa;
+    }
+
+    .time-ago {
+      color: #b0b0c3;
+    }
+
+    .points {
+      background-color: #223344;
+      color: #4fc3f7;
+    }
+
+    .question-card.math .points {
+      background-color: #4e3a1e;
+      color: #ffb74d;
+    }
+
+    .card-body p {
+      color: #e0e0f0;
+    }
+
+    .answer-button {
+      background-color: #a259ff;
+      color: #fff;
+    }
+
+    .answer-button:hover {
+      background-color: #7c2ae8;
+    }
+  }
+</style>

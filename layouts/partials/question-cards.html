@@ -52,9 +52,12 @@
 <style>
   .question-card {
     border: 3px solid #333333;
-    border-radius: 12px;
-
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+  padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
   .question-card:hover {
     .question-card h3 {
@@ -66,8 +69,7 @@
     display: block;
     overflow: hidden;
     border-radius: 10px 10px 0px 0px;
-    padding: 16px;
-
+    padding: 0 0 20px 0;
     color: #001824;
     border-bottom: 3px solid #333333;
 
@@ -86,8 +88,7 @@
     -webkit-line-clamp: 1;
   }
   .question-content {
-    padding: 16px;
-    padding-top: 0;
+    padding: 0;
   }
   .question-card-description {
     overflow: hidden;
@@ -98,7 +99,7 @@
     font-weight: 600;
   }
   .question-tags {
-    padding: 0 16px 16px 16px;
+    padding: 0 16px 0 0;
     color: #1a1a1a;
     color: #0969da;
     border-top: 0px solid #333333;
@@ -113,10 +114,10 @@
   }
   @media (max-width: 600px) {
     .question-header {
-      padding: 12px;
+      padding: 0 0 12px 0;
     }
     .question-content {
-      padding: 0 12px 12px 12px;
+      padding: 0 0 0 0;
     }
     .question-card .question-card-title {
       font-size: 1rem;

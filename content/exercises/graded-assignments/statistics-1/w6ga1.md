@@ -11,10 +11,6 @@ excludeSearch: false
 width: wide
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# extract all questions and solution from this pdf
-
 Here are all the questions and their solutions from the PDF **Week_6_Graded_Solution.pdf** (Statistics for Data Science-1, Week-6 Graded Assignment)[^1]:
 
 ---

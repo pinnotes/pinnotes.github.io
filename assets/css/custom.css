@@ -175,15 +175,20 @@ nav .search-wrapper {
   overflow-y: hidden;
 }
 
-.MathJax {
+.katex{
   overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.MathJax {
+  overflow-x: scroll;
   overflow-y: hidden;
 }
 
                   
 
 mjx-container {
-  overflow-x: auto;
+  overflow-x: scroll;
   overflow-y: hidden;
 }
 

@@ -57,7 +57,9 @@ Therefore, Population standard deviation of sales of OnePlus = $\sqrt{\sigma_x^2
   {{< qna/input name="a" value="2" >}}
   {{< qna/input name="b" value="3" >}}
   {{< qna/formula label="sum" value="a + b" >}}
+   The sum is: {{< qna/formula-value label="sum" >}}
   {{< qna/formula label="average" value="sum / 2" >}}
+   The average is: {{< qna/formula-value label="average" >}}
   {{< qna/result >}}
 {{< /qna/question >}}
 

@@ -1,0 +1,3 @@
+{{ $wrapper := .Parent.Get "wrapperId" }}
+{{ $label := .Get "label" }}
+<span class="calc-formula-value" data-calc-value="{{ $label }}" id="value-{{ $wrapper }}-{{ $label | urlize }}"></span>
