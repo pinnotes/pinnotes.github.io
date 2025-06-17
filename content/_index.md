@@ -79,3 +79,5 @@ width: normal
   >}}
   
 {{< /hextra/feature-grid >}}
+
+{{< home/home >}}

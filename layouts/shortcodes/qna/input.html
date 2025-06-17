@@ -13,7 +13,20 @@
   {{/*  <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">  */}}
 
 
-<div>
+<span>
   <label class="calc-label" for="input-{{ $wrapper }}-{{ .Get "name" }}">{{ .Get "name" | title }}:</label>
   <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">
-</div>
+</span>
+
+<style>
+  .calc-input {
+    background-color: transparent;
+    width: 5ch;
+    
+  }
+  .calc-input:focus {
+    outline: none;
+    border-color: #007bff;
+    
+  }                       
+</style>

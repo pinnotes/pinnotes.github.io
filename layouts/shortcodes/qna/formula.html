@@ -25,7 +25,7 @@
   <label class="calc-label" for="formula-{{ $wrapper }}">
     {{ $label }}
   </label>
-  <p class="calc-formula" id="formula-{{ $wrapper }}" data-calc-formula="{{ .Get "value" | default "a + b" }}" data-calc-label="{{ $label }}">
+  <span class="calc-formula" id="formula-{{ $wrapper }}" data-calc-formula="{{ .Get "value" | default "a + b" }}" data-calc-label="{{ $label }}">
     {{ .Get "value" | default "a + b" }}<span class="calc-formula-result"></span>
-  </p>
+  </span>
 </div>

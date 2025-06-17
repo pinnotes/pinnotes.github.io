@@ -4,6 +4,11 @@
   range $pages }} 
   {{/*  {{ partial "question-cards.html" . }}   */}}
   {{ partial "qna-card.html" . }}
+  {{ with .Pages }}
+    {{ range . }}
+      {{ partial "qna-card.html" . }}
+    {{ end }}
+  {{ end }}
   {{ end -}}
 </div>
 
