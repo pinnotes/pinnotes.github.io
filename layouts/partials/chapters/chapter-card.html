@@ -1,14 +1,14 @@
 
 
 {{ if .page.Title }}
-    <a href="{{ .RelPermalink }}">
+    <a href="{{ .page.RelPermalink }}">
       <li class="chapter-item">
         {{- $img := (.Resources.ByType "image").GetMatch "*feature*" -}} {{- if
         $img -}}
         <img
           class="chapter-image"
           src="{{ $img.RelPermalink }}"
-          alt="{{ .Title }}"
+          alt="{{ .page.Title }}"
           loading="lazy"
           width="100"
           height="100"
@@ -18,7 +18,7 @@
         <img
           class="chapter-image"
           src="{{ .page.Params.image }}"
-          alt="{{ .Title }}"
+          alt="{{ .page.Title }}"
           loading="lazy"
           width="100"
           height="100"
@@ -28,7 +28,7 @@
         <img
           class="chapter-image"
           src="{{ .page.Params.icon }}"
-          alt="{{ .Title }}"
+          alt="{{ .page.Title }}"
           loading="lazy"
           width="100"
           height="100"

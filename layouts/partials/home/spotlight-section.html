@@ -117,16 +117,12 @@
   /* Responsive adjustments for smaller screens */
   @media (max-width: 992px) {
     .spotlight-content {
-      flex-direction: column; /* Stack content vertically on smaller screens */
-      text-align: center;
       gap: 40px;
     }
 
     .spotlight-images {
-      grid-template-columns: repeat(
-        auto-fit,
-        minmax(180px, 1fr)
-      ); /* Adjust image card grid */
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+
       justify-content: center; /* Center grid items */
     }
 
@@ -150,6 +146,10 @@
   }
 
   @media (max-width: 600px) {
+    .spotlight-content {
+      flex-direction: column;
+    }
+
     .spotlight-images {
       grid-template-columns: 1fr; /* Single column on very small screens */
     }

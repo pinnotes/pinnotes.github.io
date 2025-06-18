@@ -1,28 +1,30 @@
-<div class="blogs-wrapper">
+<div class="question-list-wrapper">
   {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
   site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}} {{-
-  range $pages }} 
-  {{/*  {{ partial "question-cards.html" . }}   */}}
-  {{ partial "qna-card.html" . }}
-  {{ with .Pages }}
-    {{ range . }}
-      {{ partial "qna-card.html" . }}
-    {{ end }}
-  {{ end }}
-  {{ end -}}
+  range $pages }} {{/* {{ partial "question-cards.html" . }} */}} {{ partial
+  "qna-card.html" . }}
+   {{ with .Pages }} 
+   {{ range . }} 
+   {{ partial "qna-card.html" . }} 
+   {{ end }} 
+   {{ end }} 
+   {{ end -}}
 </div>
 
 <style>
-  .blogs-wrapper {
+  .question-list-wrapper {
+    margin-top: 0px;
+    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 0 18px;
+    justify-content: center;
   }
   @media (max-width: 768px) {
-    .blogs-wrapper {
+    .question-list-wrapper {
       justify-content: center;
       gap: 20px;
     }
-  }                       
+  }
 </style>
