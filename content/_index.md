@@ -9,7 +9,7 @@ width: normal
 ---
 
 <!-- markdownlint-disable MD033 MD034 -->
-{{< hextra/hero-badge link="/notes">}}
+<!-- {{< hextra/hero-badge link="/notes">}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
   Notes
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
@@ -29,7 +29,7 @@ width: normal
 
 <div class="hx-mb-12">
 {{< hextra/hero-button text="Get Started" link="notes" >}}
-</div>
+</div> -->
 
 <!-- <div class="hx-mt-6"></div>
 
@@ -40,7 +40,7 @@ width: normal
 
 <div class="hx-mb-6"></div>
 
-{{< hextra/feature-grid >}}
+<!-- {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Practice Questions"
     subtitle="Environment variables are a simple way of configuring your applications, their deployment and their behaviour."
@@ -61,16 +61,16 @@ width: normal
     style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.1),hsla(0,0%,100%,0));"
   >}}
   
-  <!-- {{< hextra/feature-card
+  {{< hextra/feature-card
     title="Extra Weekly Activites"
     subtitle="See supported languages and how to configure your app to deploy successfully"
     link="doc/applications"
-  >}} -->
-  <!-- {{< hextra/feature-card
+  >}}
+   {{< hextra/feature-card
     title="IITM BS Degree Graded Assignments"
     subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
     link="assignments"
-  >}} -->
+  >}}
   {{< hextra/feature-card
     title="About "
     icon="github"
@@ -78,6 +78,6 @@ width: normal
     link="about"
   >}}
   
-{{< /hextra/feature-grid >}}
+{{< /hextra/feature-grid >}} -->
 
 {{< home/home >}}

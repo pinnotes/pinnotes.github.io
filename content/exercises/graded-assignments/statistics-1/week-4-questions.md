@@ -79,6 +79,7 @@ $$
 Therefore, Standard deviation of sales of BBK Electronics = $\sqrt{S_y^2}$
 
 ---
+{{< qna/question type="answer" >}}
 
 #### 3. What is the sample co-variance between the sales of OnePlus and BBK Electronics? (Enter the answer correct to 2 decimal accuracy)
 
@@ -93,6 +94,7 @@ $$
 $$
 = \frac{(a - m_x)(b - m_y) + (c - m_x)(d - m_y) + (e - m_x)(f - m_y) + (g - m_x)(h - m_y) + (i - m_x)(j - m_y) + (k - m_x)(l - m_y) + (m - m_x)(n - m_y)}{6}
 $$
+{{< /qna/question >}}
 
 ---
 

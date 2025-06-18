@@ -1,5 +1,6 @@
 ---
-draft: true
+draft: false
+description: Solution for IIT Madras Course Mathematics I Garaded Assignments
 cascade:
  title: Mathematics I 
  subtitle: Graded Assignment

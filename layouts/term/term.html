@@ -13,7 +13,7 @@
           {{ .Content }}
         </div>
         {{ if eq .Type "tags" }}
-          {{ partial "blog-cards.html" . }}
+          {{ partial "blog-list.html" . }}
         {{ else if eq .Type "series" }}
           {{ partial "chapters/chapters.html" . }}
         {{ else }}

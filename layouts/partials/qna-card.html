@@ -9,7 +9,7 @@
       <div class="card-header">
         {{- if .Params.avatar }}            
         <img
-          src="{{.Params.avatar }}"
+          src="{{.Params.avatar | default "https://github.com/pinnotes.png"}}"
           alt="Profile Picture"
           class="profile-pic"
         />
@@ -50,7 +50,7 @@
 
 <style>
   :root {
-    --opacity: 0.6; /* Default opacity for the cards */
+    --opacity: 0.3; /* Default opacity for the cards */
     --border-opacity: 0.6; /* Default border opacity for the cards */
   }
 
@@ -74,7 +74,7 @@
   }
 
   .question-card:hover {
-    --opacity: 0.9; /* Full opacity on hover */
+    --opacity: 0.6; /* Full opacity on hover */
     --border-opacity: 0.9; /* Full border opacity on hover */
   }
 
@@ -217,10 +217,10 @@
     border: 3px solid rgba(26, 188, 156, var(--border-opacity)); /* teal */
   }
   .history {
-    border-color: rgba(255, 153, 0, var(--opacity)); /* orange */
+    border-color: rgba(255, 153, 0, var(--border-opacity)); /* orange */
   }
   .math{
-    border-color: rgba(255, 87, 34, var(--opacity)); /* red */
+    border-color: rgba(255, 87, 34, var(--border-opacity)); /* red */
   }
   .civics {
     border: 3px solid rgba(52, 152, 219, var(--border-opacity)); /* blue */

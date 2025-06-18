@@ -1,9 +1,8 @@
-<div class="blogs-wrapper">
-  {{ $imagePath := .Site.Params.blog.list.image | default "images/svg/circle-gradient.svg/" }}
-  {{- $borderClass := "hx-mt-8 hx-border-t" -}} {{ $readMore := (T "readMore") |
-  default "Read here →" }} {{ $pages := partial "utils/sort-pages" (dict "page"
-  . "by" site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder)
-  }} {{- range .Pages -}}
+{{ $imagePath := .Site.Params.blog.list.image | default "images/svg/circle-gradient.svg/" }}
+{{- $borderClass := "hx-mt-8 hx-border-t" -}} {{ $readMore := (T "readMore") |
+default "Read here →" }} {{ $pages := partial "utils/sort-pages" (dict "page"
+. "by" site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) }}
+
   <div class="blog-card hx-mb-10">
     <div class="blog-card-image">
       {{ if .Params.image }}
@@ -101,13 +100,8 @@
       class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
     />
   </div>
-  {{- end -}}
+ 
 
-  <div class="blog-card">
-  {{ partial "google/blog-In-feed-ad.html" . }}
-  </div>
-
-</div>
 
 <style>
   .svg-image {

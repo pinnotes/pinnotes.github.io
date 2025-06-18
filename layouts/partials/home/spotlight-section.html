@@ -1,0 +1,163 @@
+<section class="spotlight-section mona-sans">
+  <div class="spotlight-content">
+    <div class="spotlight-text">
+      <h2>
+        <span class=""></span>Spotlight. <br />
+        <span class="gradient-title">Handwritten</span> <br />
+        notes you'll love
+      </h2>
+      <p>Best study material from the community, handpicked for you.</p>
+      <a href="/notes">
+        <button class="explore-button">Explore all Collections</button>
+      </a>
+    </div>
+    <div class="spotlight-images">
+      {{ range first 6 (where .Site.RegularPages "Params.tags" "intersect"
+      (slice "Notes")) }}
+
+      <!-- Tag for "notes" section -->
+      <a href="{{.RelPermalink}}">
+        <div class="spotlight-image-card">
+          <img src="{{.Params.image}}" alt="{{.Title}}" />
+          <p>{{.Title}}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<style>
+  .spotlight-section {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    flex-direction: column; /* Stack items vertically */
+    border-bottom: 1px solid #eaeaea; /* Subtle border at the bottom */
+    margin-bottom: 40px;
+  }
+
+  .spotlight-content {
+    display: flex;
+    align-items: center; /* Vertically align items in the flex container */
+    max-width: 1200px; /* Max width of the content */
+    width: 90%; /* Responsive width */
+    gap: 60px; /* Space between image grid and text content */
+    margin-bottom: 40px; /* Space below the section */
+  }
+
+  .spotlight-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns */
+    gap: 25px; /* Space between image cards */
+    flex-shrink: 0; /* Prevent the image grid from shrinking */
+  }
+
+  .spotlight-image-card {
+    background-color: #ffffff; /* White background for image cards */
+    border-radius: 20px; /* Rounded corners for cards */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    width: 220px; /* Fixed width for the cards as seen in the image */
+    height: 220px; /* Fixed height for the cards */
+    justify-content: center; /* Center content vertically */
+    text-align: center;
+  }
+
+  .spotlight-image-card img {
+    width: 120px; /* Adjust image size */
+    height: 120px; /* Adjust image size */
+    object-fit: contain; /* Ensure the image fits within its bounds without cropping */
+    margin-bottom: 10px;
+  }
+
+  .spotlight-image-card p {
+    font-size: 1em;
+    font-weight: 600;
+    color: #333; /* Darker text color */
+  }
+
+  .spotlight-text {
+    flex-grow: 1; /* Allows the text content to take up available space */
+  }
+
+  .spotlight-text h2 {
+    font-size: 2.8em; /* Large heading size */
+    color: #0d0c1e; /* Dark heading color */
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+  .spotlight-text p {
+    font-size: 1.1em;
+    color: #666; /* Medium gray for paragraph text */
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  .explore-button {
+    background-color: #5d2ce1; /* Purple button background */
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px; /* More rounded button */
+    font-size: 1.05em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .explore-button:hover {
+    background-color: #4a23b3; /* Slightly darker purple on hover */
+  }
+
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 992px) {
+    .spotlight-content {
+      flex-direction: column; /* Stack content vertically on smaller screens */
+      text-align: center;
+      gap: 40px;
+    }
+
+    .spotlight-images {
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(180px, 1fr)
+      ); /* Adjust image card grid */
+      justify-content: center; /* Center grid items */
+    }
+
+    .spotlight-image-card {
+      width: 180px;
+      height: 180px;
+    }
+
+    .spotlight-image-card img {
+      width: 90px;
+      height: 90px;
+    }
+
+    .spotlight-text h2 {
+      font-size: 2.2em;
+    }
+
+    .spotlight-text p {
+      font-size: 1em;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .spotlight-images {
+      grid-template-columns: 1fr; /* Single column on very small screens */
+    }
+
+    .spotlight-image-card {
+      width: 100%; /* Full width cards */
+      height: auto; /* Auto height */
+      padding: 15px;
+    }
+  }
+</style>

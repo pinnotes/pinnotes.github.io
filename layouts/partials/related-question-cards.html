@@ -11,7 +11,8 @@
 <hr class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400">
 <div class="related-questions-wrapper">
   {{ range . }}
-  {{ partial "question-cards.html" . }}
+  {{/*  {{ partial "question-cards.html" . }}  */}}
+  {{ partial "qna-card.html" . }}
   {{ end }}
 </div>
 </div>
@@ -31,6 +32,8 @@
     margin-bottom: 80px;
     display: grid;
     justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
    
     /* Optional: Add some padding to the container */
 

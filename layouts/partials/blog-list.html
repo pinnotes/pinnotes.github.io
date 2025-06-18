@@ -1,0 +1,5 @@
+<div class="blogs-wrapper">
+  {{- range .Pages -}} {{ partial "blog-cards.html" . }} {{- end -}}
+
+  <div class="blog-card">{{ partial "google/blog-In-feed-ad.html" . }}</div>
+</div>

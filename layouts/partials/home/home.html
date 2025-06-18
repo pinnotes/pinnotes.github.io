@@ -1,37 +1,137 @@
-<div class="home-hero-container">
-    <div class="home-hero dark-image-background">
-        <h1 class="home-hero-title">Welcome to Our Library</h1>
-        <p class="home-hero-subtitle">Explore a world of knowledge and imagination</p>
-        <a href="/explore" class="home-hero-button">Explore Now</a>
-    </div>
+{{ partial "home/spotlight-section.html" . }}
+
+<div class="questions-container mona-sans">
+  <h3 class="questions-container-title">Practice</h3>
+  <div class="questions-section">
+    {{ range first 12 (where .Site.RegularPages "Params.categories" "intersect"
+    (slice "Statistics Graded Assignment")) }} {{ partial "qna-card.html" . }}
+    {{ end }}
+  </div>
 </div>
 
-<div class="home-content-container">
-    <div class="home-content">
-        <h2 class="home-content-title">Featured Collections</h2>
-        <p class="home-content-description">Discover our curated collections of books, articles, and more.</p>
-    </div>
-
-    <div class="home-collections-grid">
-        {{ partial "home/collection-card.html" . }}
-    </div>                                                                                                                                                                                              
+<div class="chapter-collections-container mona-sans">
+  <h2 class="chapter-collections-title gradient-text">IITM BS Degree</h2>
+  <ul class="chapters_wrapper">
+    {{ range $index, $page := first 8 (where .Site.RegularPages "Params.series"
+    "intersect" (slice "Programming")) }} {{ partial
+    "chapters/chapter-card.html" (dict "page" $page "num" $index) }} {{ end }}
+  </ul>
 </div>
 
-<div class="home-books-section">
-        {{ partial "home/books-section.html" . }}
+<div class="blog-container hextra-scrollbar mona-sans">
+  <h3 class="blog-container-title gradient-title">Blogs</h3>
+  <div class="blog-section scroll-horizontal">
+    {{ range first 8 (where .Site.RegularPages "Params.tags" "intersect" (slice
+    "IITM BS Degree")) }} {{partial "blog-cards.html" .}} {{ end }}
+  </div>
 </div>
-
 
 <style>
-    .home-hero-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 60vh;
-        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-        padding: 3rem 1rem;
-        border-radius: 1.5rem;
-        box-shadow: 0 8px 32px rgba(30, 60, 114, 0.15);
-        margin-bottom: 2rem;
+  .questions-container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .questions-container-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+  .questions-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+    padding: 0 20px;
+    list-style-type: none;
+
+    @media (max-width: 1024px) and (min-width: 669px) { 
+      grid-template-columns: repeat(2, 1fr);
     }
+
+    @media (max-width: 668px) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 0;
+      justify-content: center;
+    }
+  }
+
+  .chapter-collections-container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .chapter-collections-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+  .chapter-collections-title.gradient-text {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .chapters_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: center;
+    @media (max-width: 768px) {
+      gap: 0;
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+      width: 100%;
+    }
+    img.chapter-image {
+      display: none; /* Hide images by default */
+    }
+    .chapter-description {
+      display: none; /* Hide descriptions by default */
+    }
+  }
+
+  .blog-container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+
+    hr {
+      display: none;
+    }
+  }
+
+  .blog-container-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  .gradient-title {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .scroll-horizontal {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+  }
+
+  .blog-card {
+    flex: 0 0 auto; /* Prevents the card from shrinking */
+    width: 300px; /* Fixed width for each card */
+  }
+  .blog-card-description {
+    display: none;
+  }
 </style>

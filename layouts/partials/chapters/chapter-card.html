@@ -1,23 +1,64 @@
-<div class="chapter-list">
-  <ul class="chapters_wrapper">
-    {{/* {{- $pages := partial "utils/sort-pages" (dict "page" . "by"
-    site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) -}}
-    */}} {{/* {{- range $pages }} */}} {{/* {{ range $num,$post := partial
-    "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "weight"
-    site.Params.blog.list.sortOrder) }} */}} {{ range $num, $page := .Pages }}
-    {{ partial "chapters/chapter-card.html" (dict "page" $page "num" $num) }}
-    {{ end }}
-  </ul>
-</div>
+
+
+{{ if .page.Title }}
+    <a href="{{ .RelPermalink }}">
+      <li class="chapter-item">
+        {{- $img := (.Resources.ByType "image").GetMatch "*feature*" -}} {{- if
+        $img -}}
+        <img
+          class="chapter-image"
+          src="{{ $img.RelPermalink }}"
+          alt="{{ .Title }}"
+          loading="lazy"
+          width="100"
+          height="100"
+          style="border-radius: 8px; margin-right: 10px; float: left"
+        />
+        {{- end -}} {{- if .page.Params.image -}}
+        <img
+          class="chapter-image"
+          src="{{ .page.Params.image }}"
+          alt="{{ .Title }}"
+          loading="lazy"
+          width="100"
+          height="100"
+          style="border-radius: 8px; margin-right: 10px; float: left"
+        />
+        {{- end -}} {{- if .page.Params.icon -}}
+        <img
+          class="chapter-image"
+          src="{{ .page.Params.icon }}"
+          alt="{{ .Title }}"
+          loading="lazy"
+          width="100"
+          height="100"
+          style="border-radius: 8px; margin-right: 10px; float: left"
+        />
+        {{- end -}} {{ if .page.Params.emoji}}
+        <span class="chapter-emoji">{{ .page.Params.emoji }}</span>
+        {{ end -}}
+
+        <h2 class="chapter-title mona-sans">
+          <span class="gradient-text"
+            >{{ if lt (add .num 1) 10 }}0{{ end }}{{ add .num 1 }}</span
+          >
+          {{ .page.Title }}
+        </h2>
+        <p class="chapter-description">
+            {{- if .page.Params.description -}}
+            {{ .page.Params.description | markdownify | plainify }}
+            {{- else -}}
+            {{- partial "utils/page-description" .page -}}
+            {{- end -}}
+          {{/*  {{- partial "utils/page-description" . -}}  */}}
+        </p>
+      </li>
+    </a>
+    {{ end -}}
+
 
 <style>
-  .chapters_wrapper {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-  }
+
 
   .gradient-text {
     background: linear-gradient(90deg, #ff7e5f, #feb47b);
@@ -35,11 +76,6 @@
     float: left;
     object-fit: cover;
     aspect-ratio: 4 / 3; /* Maintain aspect ratio */
-  }
-
-  .chapter-list {
-    margin: 0 auto;
-    margin-top: 40px;
   }
 
   .chapter-item {

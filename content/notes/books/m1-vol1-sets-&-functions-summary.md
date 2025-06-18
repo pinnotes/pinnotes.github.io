@@ -1,5 +1,5 @@
 ---
-title: M1_VOL1_SETS&FUNCTIONS.pdf
+title: M1 VOL1 SETS & FUNCTIONS
 date: 2025-05-08
 tags:
   - Notes 
