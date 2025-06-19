@@ -26,6 +26,7 @@
 
 <style>
   .card-grid-container {
+    gap: 10px; /* Reduced gap for a more compact layout */
     margin-top: 40px;
     position: relative;
     display: flex;
@@ -36,16 +37,12 @@
     -ms-overflow-style: none;
   }
 
-  .card-grid-container::-webkit-scrollbar {
-    display: none;
-  }
-
+ 
   .card {
     display: inline-block;
     background-color: #fff;
     border-radius: 12px; /* Softer corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elegant shadow */
-    margin: 12px;
     width: 250px; /* Slightly larger card width */
     flex-shrink: 0;
     overflow: hidden;
