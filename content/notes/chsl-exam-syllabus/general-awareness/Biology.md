@@ -1,9 +1,7 @@
 ---
-title: Blood and Relation
+title: Biology
 date: 2025-05-06
 ---
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
 ## 📚 Study Material Extracted from Biology PDF (SSC CHSL EXAM)
 

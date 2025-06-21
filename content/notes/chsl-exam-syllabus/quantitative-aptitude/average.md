@@ -1,18 +1,8 @@
 ---
 title: Average
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
 ---
 
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Comprehensive Guide to Averages: Concepts, Formulas, Examples, and Practice
-
----
 
 ### **1. What is an Average?**
 

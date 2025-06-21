@@ -5,7 +5,7 @@ tags:
   - Notes 
   - SSC Exam
 excludeSearch: false
-type: cards
+type: chapters
 width: wide
 cascade:
  series: ["SSC-CHSL", "English"]

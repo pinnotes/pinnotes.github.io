@@ -5,7 +5,7 @@ tags:
   - Notes 
   - SSC Exam
 excludeSearch: false
-type: cards
+type: chapters
 cascade:
  series: ["SSC-CHSL", "Reasoning"]
  image: "/images/svg/bg.svg"
@@ -17,4 +17,5 @@ cascade:
   Documentation and guides to deploy,  
   manage, and monitor your apps.
 {{< /hextra/hero-subtitle >}}
+
 ---

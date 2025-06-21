@@ -1,10 +1,8 @@
 ---
-title: Blood and Relation
+title: Vedic Civilization
+emoji: 🕉️
 date: 2025-05-06
 ---
-
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
 ## 🕉️ Vedic Civilization – Easy SSC CHSL Study Guide with Emojis
 

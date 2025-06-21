@@ -1,15 +1,7 @@
 ---
 title: Trigonometry
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
 ---
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Trigonometry: Easy Explanation, Formulas, Examples, Cheatsheets, Practice Questions, and Visuals
 
 This guide summarizes the **Trigonometry** PDF for competitive exams, making the topic simple with clear explanations, formulas, solved examples, cheatsheets, practice questions (with answers), and visual aids.
 

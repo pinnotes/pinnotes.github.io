@@ -1,15 +1,9 @@
 ---
 title: Ratio and Proportion
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
+
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Ratio and Proportion: Easy Explanation, Formulas, Examples, Cheatsheet, Practice Questions, Images \& Graphics
 
 This guide breaks down the **Ratio and Proportion** PDF into simple explanations, key formulas, solved examples, a cheatsheet, practice questions (with answers), and visual aids for better understanding.
 

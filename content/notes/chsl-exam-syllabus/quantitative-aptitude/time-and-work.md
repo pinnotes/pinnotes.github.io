@@ -1,15 +1,7 @@
 ---
 title: Time and Work
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
 ---
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Time and Work: Easy Explanation, Formulas, Examples, Cheatsheets, Practice Questions, Images \& Graphics
 
 This guide simplifies the **Time and Work** topic from your PDF, including core concepts, key formulas, solved examples, a cheatsheet, practice questions (with answers), and visual aids for clarity.
 

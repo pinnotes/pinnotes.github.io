@@ -1,9 +1,7 @@
 ---
-title: Blood and Relation
+title:  Public Finance in India 
 date: 2025-05-06
 ---
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
 ## 💰 Public Finance in India – SSC CHSL Study Guide with Emojis 🇮🇳✨
 

@@ -1,15 +1,9 @@
 ---
 title: Number System
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
+
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Number System PDF Course: Easy Explanation, Formulas, Examples, Cheatsheets, Practice Questions, and Visuals
 
 This guide breaks down the essential points from your Number System PDF, making it easy to understand for competitive exams. It includes definitions, formulas, worked examples, cheatsheets, visuals, and practice questions with solutions.
 

@@ -1,15 +1,9 @@
 ---
 title: Mesuration
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
+
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Mensuration PDF Course: Easy Explanation, Formulas, Examples, Cheatsheets \& Practice
 
 Mensuration is the mathematics of measuring geometric figures-calculating their area, perimeter, and volume. This summary breaks down the key concepts, formulas, solved examples, and practice questions from the provided PDF, making it easy to understand and apply for exams.
 

@@ -5,7 +5,7 @@ tags:
   - Notes 
   - SSC Exam
 excludeSearch: false
-type: cards
+type: chapters
 cascade:
  series: ["SSC-CHSL", "Quantiative-Aptitude"]
  image: "/images/svg/ssc.svg"

@@ -1,15 +1,9 @@
 ---
 title: Mixture and Alligation
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
+
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Mixture and Alligation PDF Course: Easy Explanation, Formulas, Examples, Cheatsheet \& Practice
 
 This summary simplifies the key points of the Mixture and Alligation PDF, including core concepts, formulas, worked examples, a cheatsheet, and all practice questions with clear answers.
 

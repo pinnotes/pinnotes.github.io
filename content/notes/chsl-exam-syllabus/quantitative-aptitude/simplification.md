@@ -1,15 +1,7 @@
 ---
 title: Simplification
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
 ---
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Simplification: Easy Explanation, Formulas, Examples, Cheatsheet, Practice Questions, Images \& Graphics
 
 This summary explains the **Simplification** chapter from your PDF for SSC and other competitive exams. You'll find key concepts, formulas, solved examples, a cheatsheet, practice questions, and visual aids for better understanding[^1].
 

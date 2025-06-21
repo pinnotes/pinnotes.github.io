@@ -1,14 +1,24 @@
 ---
 title: Idioms 
-description: The voice of a verb indicates whether the subject of the sentence performs the action or receives the action. There are two main voices in English:- active and passive.
-date: 2020-01-01
-tags:
-  - English 
-excludeSearch: false
+
+date: 2025-06-09
+
 
 ---
 
-The **voice** of a verb indicates whether the *subject* of the sentence `performs the action` or `receives the action`. There are two main voices in English: *active* and *passive*.
+### **What Are Idioms and Phrases? 🤔**
+
+- **Idioms** are expressions whose meanings are different from the literal meanings of the words.
+    - Example: "Break the ice" means to start a conversation, not literally break ice! 🧊🗣️
+- **Phrases** are groups of words that work together as a unit, often with a special meaning.
+
+---
+
+### **Why Are They Important? 🏆**
+
+- Idioms and phrases are common in English exams (SSC, RRB, Bank, etc.).
+- Knowing them helps you score well and sound more natural in English! 🎯
+
 
 <!--more-->
 

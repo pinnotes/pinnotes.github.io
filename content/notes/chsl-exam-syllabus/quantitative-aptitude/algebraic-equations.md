@@ -1,69 +1,112 @@
 ---
-title: Algebraic Equations
-description: hello
+title: Algebraic Equations 📚✨
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
+---
+
+Algebraic equations are polynomial equations used in quantitative aptitude exams. They can be of degree 1 (linear), degree 2 (quadratic), or degree 3 (cubic)[^1].
 
 ---
 
-description: "This is an inline equation: $E = mc^2$ and a block equation: $$a^2 + b^2 = c^2$$"
+**Linear Equations (Degree 1) ➗**
 
-$\displaystyle \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }$
-        $\displaystyle \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$
-        $\displaystyle {1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots }= \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \quad\quad \text{for }\lvert q\rvert<1.$
+- Form: \$ ax + c = 0 \$
+- Examples:
+    - \$ 2x + 3y = 4 \$
+    - \$ x + y + z = 10 \$
+- **Solving Linear Equations:**
+    - Use substitution or elimination to find variable values.
+    - Example:
+        - \$ 2x + 3y = 13 \$  ...(1)
+        - \$ 3x + 2y = 12 \$  ...(2)
+        - Multiply and subtract to eliminate a variable:
+            - \$ 3 \times (2) - 2 \times (1) \$ → \$ 5x = 10 \$ → \$ x = 2 \$
+            - Substitute \$ x \$ into (1): \$ y = 3 \$
+        - **Result:** \$ x < y \$ ✅
+    - Another Example:
+        - \$ 4x + 5y = 14 \$ ...(1)
+        - \$ 2x + 3y = 5 \$ ...(2)
+        - Multiply (2) by 2: \$ 4x + 6y = 10 \$
+        - Subtract (1): \$ y = -4 \$, then \$ x = 1 \$
+        - **Result:** \$ x > y \$ 👍
 
+---
 
-{{< border type="basic" title="Question" >}}
+**Quadratic Equations (Degree 2) 🟪**
 
+- Form: \$ ax^2 + bx + c = 0 \$
+- Examples:
+    - \$ x^2 + 2x + 3 = 0 \$
+    - \$ y^2 - 3y + 4 = 0 \$
 
-"This is an inline equation: $E = mc^2$ and a block equation: $$a^2 + b^2 = c^2$$"
+**Solving Quadratic Equations:**
 
- {{< /border >}}
+1. **Factorization Method 🧩**
+    - Split the middle term and factorize.
+    - Example:
+        - \$ x^2 - 2x - 15 = 0 \$
+        - \$ x^2 - 5x + 3x - 15 = 0 \$
+        - \$ x(x-5) + 3(x-5) = 0 \$
+        - \$ (x+3)(x-5) = 0 \$
+        - **Solutions:** \$ x = -3 \$ or \$ x = 5 \$ 🎯
+2. **Sridharacharya’s (Quadratic Formula) Method 🧮**
+    - Formula: \$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \$
+    - Example:
+        - For \$ x^2 - 2x - 15 = 0 \$:
+            - \$ x_1 = 5 \$, \$ x_2 = -3 \$ ✔️
+3. **Comparing Roots**
+    - Example:
+        - \$ x^2 = 625 \$ → \$ x = +25 \$ or \$ -25 \$
+        - \$ y = \sqrt{625} \$ → \$ y = 25 \$
+        - **Result:** \$ x \leq y \$ 🟰
+    - Example:
+        - \$ m = \sqrt{324} = 18 \$
+        - \$ n^2 - 16n - 36 = 0 \$ → \$ n = 18 \$ or \$ n = -2 \$
+        - **Result:** \$ m \geq n \$ 🆚
 
-{{< border type="basic" title="Conclusion" >}}
+---
 
+**Cubic Equations (Degree 3) 🟦**
 
-"This is an inline equation: $E = mc^2$ and a block equation: $$a^2 + b^2 = c^2$$"
+- Form: \$ ax^3 + bx^2 + cx + d = 0 \$
+- Examples:
+    - \$ x^3 + 2x^2 + 3x + 4 = 0 \$
+    - \$ 2x^3 + 12x^2 + 30x + 48 = 0 \$
 
- {{< /border >}}
+**Solving and Comparing:**
 
-{{< border >}}
+- Example:
+    - \$ x = \sqrt{15625} = 25 \$
+    - \$ y^2 = 625 \$ → \$ y = +25, -25 \$
+    - **Result:** \$ y \leq x \$ 🧑‍🏫
 
-I need to highlight these <mark>very important words</mark>.
+---
 
-{{< /border >}}
+## Key Points to Remember 📝
 
-{{< border >}}
+- **Linear equations**: Degree 1, straight-line solutions.
+- **Quadratic equations**: Degree 2, solved by factorization or quadratic formula.
+- **Cubic equations**: Degree 3, solved by finding cube roots or factorization.
+- Always compare solutions as required (e.g., \$ x < y \$, \$ x \geq y \$).
+- For square roots, only the positive root is considered unless otherwise specified.
+- For quadratic equations, always check for both possible roots.
 
-This \(\sigma(z) = \frac{1}{1 + e^{-z}}\) is inline.
+---
 
-{{< /border >}}
+### Emojis Legend
 
-{{< border >}}
+- ➗ Linear Equations
+- 🟪 Quadratic Equations
+- 🟦 Cubic Equations
+- 🧩 Factorization
+- 🧮 Formula Method
+- 🎯 Solution
+- 🆚 Comparison
+- 🟰 Equal/Relation
+- 🧑‍🏫 Explanation
 
-$$F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j\omega t} \, dt$$
+You can use these notes to quickly revise and practice algebraic equations for quant aptitude tests![^1]
 
-{{< /border >}}
+<div style="text-align: center">⁂</div>
 
-{{< border >}}
+[^1]: Algebric-Equations.pdf
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-{{< /border >}}
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```

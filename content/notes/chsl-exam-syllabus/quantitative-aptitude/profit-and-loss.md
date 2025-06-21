@@ -1,15 +1,8 @@
 ---
 title: Profit and Loss
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
+
 ---
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Profit and Loss: Easy Explanation, Formulas, Examples, Cheatsheet, Practice Questions, Images \& Graphics
 
 This guide breaks down the **Profit and Loss** chapter from your PDF for SSC and other competitive exams, using simple language, step-by-step formulas, practical examples, a cheatsheet, solved practice questions, and visual aids.
 
