@@ -1,6 +1,16 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+---
+title: Admission Criteria
+description: "The admission criteria for the IIT Madras BS Degree in Data Science and Applications are designed to be flexible and inclusive, allowing students from diverse backgrounds to apply. Here are the main criteria and entry routes"
+date: 2020-01-01
+weight: 4
+emoji: 🎫
+slug: "What are the admission criteria for the IIT Madras BS Data Science programme"
+series_order: 4
+---
 
-# What are the admission criteria for the IIT Madras BS Data Science programme
+---
+
+## What are the admission criteria for the IIT Madras BS Data Science programme
 
 The admission criteria for the IIT Madras BS Degree in Data Science and Applications are designed to be flexible and inclusive, allowing students from diverse backgrounds to apply. Here are the main criteria and entry routes:
 

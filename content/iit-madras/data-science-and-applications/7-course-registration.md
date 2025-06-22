@@ -1,4 +1,14 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+---
+title: Course Registration
+description: "Course registration is a structured, term-wise process that determines how students enroll in courses for each trimester of the IIT Madras BS Degree in Data Science and Applications."
+date: 2020-01-01
+weight: 5
+emoji: 🌀
+slug: "Course Registration in the IIT Madras BS Degree Programme"
+series_order: 5
+---
+
+---
 
 ## Course Registration in the IIT Madras BS Degree Programme
 

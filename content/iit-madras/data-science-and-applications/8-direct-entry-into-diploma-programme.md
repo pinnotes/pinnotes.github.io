@@ -1,4 +1,14 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+---
+title: Direct Entry
+description: "The IIT Madras BS Degree in Data Science and Applications offers a **Direct Entry into the Diploma Programme** for learners who already have a strong academic foundation."
+date: 2020-01-01
+weight: 6
+emoji: 🎯
+slug: "Direct Entry into the Diploma Programme (IIT Madras BS Data Science & Applications)"
+series_order: 6
+---
+
+---
 
 ## Direct Entry into the Diploma Programme (IIT Madras BS Data Science \& Applications)
 

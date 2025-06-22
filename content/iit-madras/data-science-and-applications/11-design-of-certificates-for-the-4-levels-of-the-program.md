@@ -1,4 +1,14 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+---
+title: Design of Certificates
+description: "The IIT Madras BS Degree in Data Science and Applications awards formal certificates at four key exit points, each with a distinct design and official status. The certificate designs have been finalized and are displayed on the programme website."
+date: 2020-01-01
+weight: 9
+emoji: 🎆
+slug: "Design of Certificates for the 4 Levels of the IIT Madras BS Degree Programme"
+series_order: 9
+---
+
+---
 
 ## Design of Certificates for the 4 Levels of the IIT Madras BS Degree Programme
 

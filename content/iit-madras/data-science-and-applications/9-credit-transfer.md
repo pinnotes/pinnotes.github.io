@@ -1,4 +1,14 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+---
+title: Credit Transfer
+description: "The IIT Madras BS Degree in Data Science and Applications offers structured options for credit transfer, allowing students to incorporate relevant coursework from NPTEL/SWAYAM and IIT Madras campus courses into their degree requirements."
+date: 2020-01-01
+weight: 7
+emoji: 💳
+slug: "Credit Transfer in the IIT Madras BS Degree Programme"
+series_order: 7
+---
+
+---
 
 ## Credit Transfer in the IIT Madras BS Degree Programme
 

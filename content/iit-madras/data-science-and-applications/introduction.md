@@ -1,29 +1,17 @@
 ---
 title: Introduction
+description: "
+ `IIT Madras` has launched the BS in `Data Science and Applications`. In this program, the course
+ contents are delivered online and can be studied by anyone from anywhere, while the monthly
+ quizzes and final semester exams will have to be attended in-person at designated centres."
 date: 2020-01-01
-draft: false
 weight: 1
-description: "All the partials available in Blowfish."
-summary: ""
 slug: 'Introduction 🔥'
 linkTitle: Introduction 🔥
 emoji: 💫
-authors:
-  - name: imfing
-    link: https://github.com/imfing
-    image: https://github.com/imfing.png
-  - name: Octocat
-    link: https://github.com/octocat
-    image: https://github.com/octocat.png
-tags:
-  - Markdown
-  - Example
-  - Guide
-  - featured
-series: ["student-handbook"]
 series_order: 1
-width: nomral
-type: docs
+---
+
 ---
 
 ## A) Data Science 🧠

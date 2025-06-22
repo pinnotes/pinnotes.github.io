@@ -1,4 +1,14 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+---
+title: Learner Life Cycle
+description: "The learner life cycle in the IIT Madras BS Degree in Data Science and Applications outlines the different stages and statuses a student may experience from admission to completion or exit. This process is designed to provide flexibility, support, and clear progression criteria for all learners"
+date: 2020-01-01
+weight: 8
+emoji: 🚴
+slug: "Learner Life Cycle in the IIT Madras BS Degree Programme"
+series_order: 8
+---
+
+---
 
 ## Learner Life Cycle in the IIT Madras BS Degree Programme
 

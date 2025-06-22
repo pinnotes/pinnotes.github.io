@@ -1,8 +1,18 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+---
+title: Academic Aspects
+description: "The academic structure and policies of the IIT Madras BS Degree in Data Science and Applications are designed to ensure rigor, flexibility, and accessibility for a diverse student population."
+date: 2020-01-01
+weight: 10
+emoji: 👩‍🎓
+slug: "Academic Aspects of the IIT Madras BS Degree in Data Science and Applications"
+series_order: 10
+---
+
+---
 
 ## Academic Aspects of the IIT Madras BS Degree in Data Science and Applications
 
-The academic structure and policies of the IIT Madras BS Degree in Data Science and Applications are designed to ensure rigor, flexibility, and accessibility for a diverse student population. Below are the key academic aspects as outlined in the official student handbook[^1].
+The academic structure and policies of the IIT Madras BS Degree in Data Science and Applications are designed to ensure rigor, flexibility, and accessibility for a diverse student population.
 
 ---
 

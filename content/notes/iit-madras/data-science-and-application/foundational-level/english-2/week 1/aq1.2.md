@@ -8,17 +8,19 @@ excludeSearch: false
 weight: 2.5
 ---
 
-1. Which among the following use alliteration in its name?
+{{< border >}}
+**Q1**. Which among the following use alliteration in its name?
 
-Kolkata Knight Riders
+a) Kolkata Knight Riders
 
-Peter Parker
+b) Peter Parker
 
-Big Billion Days
+c) Big Billion Days
 
-All of the above
+d) All of the above
+{{</ border >}}
 
-
+{{< border >}}
 Based on the information in the sources, **alliteration** is a literary device where the **first sounds of two adjacent words or phrases are similar or the same**. This repetition of the initial sound is used to make language more impactful and rhythmic. Examples from the sources include:
 *   "Betty baked buns besides beacons" (repetition of the /b/ sound)
 *   "Tick Tock" (repetition of the /t/ sound)
@@ -36,11 +38,14 @@ Let's examine the names provided:
 *   **Big Billion Days:** This name includes the adjacent words "Big" and "Billion", both starting with the initial /b/ sound. This aligns with the definition and examples of alliteration provided.
 
 Since all three individual names utilize alliteration based on the source material, the correct answer is **All of the above**.
+{{</ border >}}
 
 
+{{< border >}}
 2. Who knows why the cold wind blows,
 Or where it goes, or what it knows.”
 The figure of speech used here is ____.
+{{</ border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the sources and our conversation history, the figure of speech used in the lines:
@@ -60,11 +65,13 @@ Here's why:
 Other figures of speech mentioned in the sources, such as alliteration (repetition of initial sounds), simile (comparison using 'like' or 'as'), metaphor (implicit comparison), paradox (conflicting but true statement), oxymoron (contradictory words together), antithesis (opposing ideas in parallel), irony (opposite outcome than expected), pun (word with double meaning), synecdoche (part for whole), metonymy (related name for another), litotes (negative for positive), hyperbole (exaggeration), or euphemism (polite phrasing for taboo) do not fit the structure or meaning conveyed in the given lines.
 {{< /border >}}
 
+{{< border >}}
 3. “Tyger Tyger, burning bright,
 In the forests of the night;
 What immortal hand or eye,
 Could frame thy fearful symmetry?”
 The figure of speech used here is ____.
+{{</ border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information from the sources and our previous discussions, the figure of speech prominently used in the lines:
@@ -86,7 +93,10 @@ Here's the breakdown, drawing on the sources:
 Considering the phrasing and the impact of the question about the creation, Personification captures the essence of attributing human-like creative power to the immortal entity.
 {{< /border >}}
 
+{{< border >}}
 4. “The robber was pickpocketed” is an example of ____.
+{{</ border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information from the sources and our conversation history, the figure of speech used in the sentence “The robber was pickpocketed” is **Paradox**.
 
@@ -99,8 +109,11 @@ Here's the explanation drawing on the sources:
 *   While the situation described could also be considered ironic, as it involves an outcome opposite to what might be expected (a robber being robbed is the opposite of a robber robbing), the sources' description of paradox specifically highlights the presentation of a statement or situation that "sounds impossible or conflicting", which more directly addresses the contradictory nature inherent in the description itself.
 {{< /border >}}
 
+{{< border >}}
 5. “We shall not flag or fail. We shall go on to the end. We shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air...” is an example of ___.
+{{</ border >}}
    
+
 {{< border type="tip" title="Solution" >}}
 Based on the information from the sources and our conversation history, the figure of speech used in the lines:
 

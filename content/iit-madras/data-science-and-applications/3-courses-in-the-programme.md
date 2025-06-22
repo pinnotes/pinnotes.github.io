@@ -1,29 +1,14 @@
 ---
 title: Courses in the programme 🔥
-emoji: 📈
+description: "IIT Madras has launched the BS in `Data Science and Applications`. In this program, the course contents are delivered online and can be studied by anyone from anywhere, while the monthly quizzes and final semester exams will have to be attended in-person at designated centres."
 date: 2020-01-01
-draft: false
 weight: 3
-description: "The number of courses the learner can choose in the IIT Madras BS in Data Science and Applications."
-summary: ""
+emoji: 📃
 slug: "Courses in the programme 🔥"
 linkTitle: Courses in the programme 🔥
-authors:
-  - name: imfing
-    link: https://github.com/imfing
-    image: https://github.com/imfing.png
-  - name: Octocat
-    link: https://github.com/octocat
-    image: https://github.com/octocat.png
-tags:
-  - IIT Madras
-  - BS Degree
-  - Data Science and Applications
-  - featured
-series: ["data-science-and-applications"]
 series_order: 3
-width: nomral
-type: docs
+---
+
 ---
 
 ### Course in the programme 🧑‍💻

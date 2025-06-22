@@ -1,25 +1,15 @@
 ---
 title: Fees Structure
-emoji: 💡
-date: 2020-01-01
-draft: false
-weight: 3
 description: "The number of courses the learner can choose in the IIT Madras BS in Data Science and Applications."
-summary: ""
+date: 2020-01-01
+weight: 3
+emoji: 💸
 slug: "Fees Structure 🔥"
 linkTitle: Fees Structure 🔥
-tags:
-  - IIT Madras
-  - BS Degree
-  - Data Science and Applications
-  - featured
-series: ["data-science-and-applications"]
 series_order: 3
-width: nomral
-type: docs
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+---
 
 ## IIT Madras BS Degree in Data Science and Applications: Fees Structure
 
