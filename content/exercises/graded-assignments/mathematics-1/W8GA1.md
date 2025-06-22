@@ -1,15 +1,11 @@
 ---
 title: Mathematics Week 8 Graded Assignment
 weight: 8
-tags: 
-- mathematics
 categories:
 - Mathematics Graded Assignment
 - Limits, Continuity, Differentiability, and Derivatives
-series:
-- Mathematics Graded Assignment
-excludeSearch: false
-width: wide
+---
+
 ---
 
 ## 1. Multiple Select Questions (MSQ)

@@ -1,15 +1,8 @@
 ---
 title: Percentage
 date: 2024-05-07
-tags:
-  - Notes 
-  - SSC Exam
-excludeSearch: false
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-## Percentages: Easy Explanation, Formulas, Examples, Cheatsheets, Practice Questions, and Visuals
 
 This guide summarizes the key concepts from your **Percentage** PDF, making the topic simple with step-by-step explanations, formulas, conversion tables, solved examples, cheatsheets, practice questions (with answers), and visual aids.
 

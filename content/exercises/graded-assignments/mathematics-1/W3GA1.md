@@ -1,17 +1,17 @@
 ---
-title: Mathematics Week 3 Graded Assignment
+title: Mathematics for Data Science 1
 weight: 3
-tags: 
-- mathematics
+label: Week 3
+keywords: 
+- Mathematics for Data Science 1
 categories:
 - Mathematics Graded Assignment
-series:
-- Mathematics Graded Assignment
-excludeSearch: false
-width: wide
 ---
 
-#### 1. Consider three Airports A, B, and C. Two friends Ananya and Madhuri want to meet at Airport C. Ananya Boarded Flight 1 from Point A to C which is 1200 km, due to bad weather, Flight 1 slowed down, and the average speed was reduced by 200 km/h and the time increased by 30 minutes. Madhuri boarded Flight 2 from Point B to C which is 1800 km, the average speed of Flight 2 is 720 km/h. What is the waiting time, and who will be waiting at the airport? (Given Ananya and Madhuri boarded at the same time)
+
+{{< border type="question" >}}
+
+##### 1. Consider three Airports A, B, and C. Two friends Ananya and Madhuri want to meet at Airport C. Ananya Boarded Flight 1 from Point A to C which is 1200 km, due to bad weather, Flight 1 slowed down, and the average speed was reduced by 200 km/h and the time increased by 30 minutes. Madhuri boarded Flight 2 from Point B to C which is 1800 km, the average speed of Flight 2 is 720 km/h. What is the waiting time, and who will be waiting at the airport? (Given Ananya and Madhuri boarded at the same time)
 
 Waiting Time is 1 hr and Ananya is waiting.
 
@@ -20,6 +20,7 @@ Waiting Time is 1 hr and Madhuri is waiting.
 Waiting Time is 30 min and Ananya is waiting.
 
 Waiting Time is 30 min and Madhuri is waiting.
+{{</ border >}}
 
 {{< border >}}
 **Step-by-Step Explanation:**
@@ -69,24 +70,25 @@ $$
 \boxed{Waiting Time is 30 min and Ananya is waiting.}
 {{< /border >}}
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# extract all questions and solutions from this pdf
-
-Here are all questions and solutions extracted from the attached **Week-3.pdf** file[^1]:
-
----
 
 ## **Multiple Choice Questions (MSQ)**
 
+{{< border type="question" >}}
 **Question 1**
 If the slope of the parabola $y = a x^{2} + b x + c$ at $(2,3)$ is 5 and the $X$-coordinate of the vertex of the parabola is 3, then which of the following is/are true?
 **Options:**
-(a) $y = -\frac{5}{2}x^{2} + 15x - 17$
-(b) $y = \frac{5}{2}x^{2} + 15x - 17$
-(c) $y = -\frac{5}{2}x^{2} + 15x + 17$
-(d) $6y = -15x^{2} + 90x - 102$
 
+(a) $y = -\frac{5}{2}x^{2} + 15x - 17$
+
+(b) $y = \frac{5}{2}x^{2} + 15x - 17$
+
+(c) $y = -\frac{5}{2}x^{2} + 15x + 17$
+
+(d) $6y = -15x^{2} + 90x - 102$
+{{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **Option (a):** Slope at $x=2$ is $-5(2)+15=5$. Vertex at $x=3$ (matches).
@@ -94,17 +96,24 @@ If the slope of the parabola $y = a x^{2} + b x + c$ at $(2,3)$ is 5 and the $X$
 - **Option (c):** $y(2) = 27 \neq 3$ (does not pass through $(2,3)$).
 - **Option (d):** Equivalent to option (a).
 **Correct options:** (a), (d)
+{{</ border >}}
 
----
+{{< border type="question" >}}
 
 **Question 2**
 Two parabolas $y = x^{2} + 3x + 2$ and $y = -x^{2} - 5x - 4$ are intersecting at two points $A$ (not on the $X$-axis) and $B$. Suppose a straight line $\ell_{1}$ passes through $A$ with slope equal to the slope of the parabola $y = -x^{2} - 5x - 4$ at point $A$ and two straight lines $\ell_{2}$ and $\ell_{3}$ pass through $B$ with slopes equal to the slopes of the parabolas $y = x^{2} + 3x + 2$ and $y = -x^{2} - 5x - 4$ at point $B$, respectively. Which of the following is/are true?
 **Options:**
-(a) $\ell_{1}$ and $\ell_{2}$ are parallel.
-(b) $\ell_{1}$ and $\ell_{3}$ are parallel.
-(c) $\ell_{1}$ and $\ell_{3}$ are intersecting at point $(-2,3)$.
-(d) $\ell_{2}$ and $\ell_{3}$ are intersecting at point $(-1,0)$.
 
+(a) $\ell_{1}$ and $\ell_{2}$ are parallel.
+
+(b) $\ell_{1}$ and $\ell_{3}$ are parallel.
+
+(c) $\ell_{1}$ and $\ell_{3}$ are intersecting at point $(-2,3)$.
+
+(d) $\ell_{2}$ and $\ell_{3}$ are intersecting at point $(-1,0)$.
+{{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **Intersection points:** $(-3,2)$ and $(-1,0)$.
@@ -120,106 +129,132 @@ Two parabolas $y = x^{2} + 3x + 2$ and $y = -x^{2} - 5x - 4$ are intersecting at
     - $\ell_{1}$ and $\ell_{3}$ intersect at $(-2,3)$.
     - $\ell_{2}$ and $\ell_{3}$ intersect at $(-1,0)$.
 **Correct options:** (a), (c), (d)
+{{</ border >}}
 
----
 
 ## **Numerical Answer Type (NAT)**
 
+{{< border type="question" >}}
+
 **Question 3**
 Suppose $f(x) = a x^{2} + b x + c$, where $a, b, c \in \mathbb{Z} \setminus \{0\}$. The sum and product of roots of $f(x)$ are $\frac{-7}{4}$ and $\frac{-1}{2}$ respectively. Find the value of $2a + 4b + 2c$.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **Equation:** $4x^{2} + 7x - 2 = 0$
 - **Coefficients:** $a=4$, $b=7$, $c=-2$
 - **Calculation:** $2a + 4b + 2c = 8 + 28 - 4 = 32$
 **Answer:** $32$
+{{</ border >}}
 
----
-
+{{< border type="question" >}}
 **Question 4**
 A class of 140 students are arranged in rows such that the number of students in a row is one less than thrice the number of rows. Find the number of students in each row.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **Let rows = $p$:** $p(3p - 1) = 140$
 - **Solve:** $p=7$
 - **Students per row:** $3(7) - 1 = 20$
 **Answer:** $20$
+{{</ border >}}
 
----
 
 ## **Comprehension Type Questions**
 
 The daily production cost (in lakh ₹) of manufacturing an electric device is $p(x) = 7400 - 60x + 15x^{2}$, where $x$ is the number of electric devices produced per day. The daily transportation cost (in lakh ₹) of $x$ devices is given by the slope of $p(x)$ at point $x$.
 
+{{< border type="question" >}}
 **Question 5**
 How many electric devices should be produced per day to yield minimum production cost?
+{{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **Minimum at $x = 2$**
 **Answer:** $2$
+{{</ border >}}
 
----
-
+{{< border type="question" >}}
 **Question 6**
 If the transportation cost on a day is 30 (in lakh ₹), find the number of devices transported.
+{{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **Slope:** $30x - 60 = 30 \implies x = 3$
 **Answer:** $3$
+{{</ border >}}
 
----
-
+{{< border type="question" >}}
 **Question 7**
 If the production cost on a day is 7475 (in lakh ₹), find the number of devices produced.
+{{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **Solve:** $x=5$ (only positive solution)
 **Answer:** $5$
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 8**
 If the slope of parabola $y = a x^{2} + b x + c$ at points $(3,2)$ and $(2,3)$ are 16 and 12 respectively, find $a$.
+{{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **Solve:** $6a + b = 16$, $4a + b = 12$
 - **Subtract:** $2a = 4 \implies a = 2$
 **Answer:** $2$
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 9**
 The product of two consecutive odd natural numbers is 143. Find the largest number among them.
+{{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **Numbers:** $11, 13$
 **Answer:** $13$
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 10**
 The slope of a parabola $y = 3x^{2} - 11x + 10$ at a point $P$ is 7. Find the $y$-coordinate of $P$.
+{{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **Slope:** $6x - 11 = 7 \implies x = 3$
 - **$y(3) = 4$**
 **Answer:** $4$
+{{</ border >}}
 
----
 
 ## **Additional Questions (from later sections of the PDF)**
 
+{{< border type="conclusion" >}}
 **Question 11**
 Find out the points where the curve $y = 4x^{2} + x$ and the straight line $y = 2x - 3$ intersect with each other.
 **Solution:**
 
 - **No real intersection points.**
 **Answer:** The curve and the straight line do not intersect.
+{{</ border >}}
 
----
-
+{{< border type="conclusion">}}
 **Question 12**
 Let $a$ and $b$ be two consecutive positive odd natural numbers such that $a^{2} + b^{2} = 394$. Find the value of $a + b$.
 **Solution:**
@@ -227,9 +262,9 @@ Let $a$ and $b$ be two consecutive positive odd natural numbers such that $a^{2}
 - **Numbers:** $13, 15$
 - **Sum:** $28$
 **Answer:** $28$
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **Question 13**
 A class of 352 students are arranged in rows such that the number of students in a row is one less than thrice the number of rows. Find the number of students in each row.
 **Solution:**
@@ -238,9 +273,9 @@ A class of 352 students are arranged in rows such that the number of students in
 - **Solve:** $x=11$
 - **Students per row:** $3(11) - 1 = 32$
 **Answer:** $32$
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **Question 14**
 In order to cover a fixed distance of 48 km, two vehicles start from the same place. The faster one takes 2 hrs less and has a speed 4 km/hr more than the slower one.
 (a) What is the speed (in km/hr) of the slower vehicle?
@@ -254,18 +289,18 @@ In order to cover a fixed distance of 48 km, two vehicles start from the same pl
 
 - **Time:** $48 / 12 = 4$ hrs
 **Answer:** $4$
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **Question 15**
 The maximum value of a quadratic function $f$ is $-3$, its axis of symmetry is $x=2$, and the value at $x=0$ is $-9$. What will be the coefficient of $x^{2}$ in the expression of $f$?
 **Solution:**
 
 - **Coefficient:** $-1.5$
 **Answer:** $-1.5$
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **Question 16**
 A ball is thrown from 3 m off the ground and reaches a maximum height of 5 m. It returns to 3 m after 2 seconds. Let $h(t) = a t^{2} + b t + c$ be the height function. What is the value of $a$?
 **Solution:**
@@ -273,18 +308,18 @@ A ball is thrown from 3 m off the ground and reaches a maximum height of 5 m. It
 - **Using points:** $(0,3)$, $(1,5)$, $(2,3)$
 - **Solve:** $a = -2$
 **Answer:** $-2$
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **Question 17**
 The product of two consecutive odd natural numbers is 255. Find the largest number among them.
 **Solution:**
 
 - **Numbers:** $15, 17$
 **Answer:** $17$
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **Question 18**
 The slope of a parabola $y = 3x^{2} - 11x + 10$ at a point $P$ is 1. Find the $y$-coordinate of $P$.
 **Solution:**
@@ -292,26 +327,26 @@ The slope of a parabola $y = 3x^{2} - 11x + 10$ at a point $P$ is 1. Find the $y
 - **Slope:** $6x - 11 = 1 \implies x = 2$
 - **$y(2) = 0$**
 **Answer:** $0$
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **Question 19**
 A ball is thrown. The height function is $h(t) = -0.5 t^{2} + 4 t + 1$. What is the time taken to reach maximum height?
 **Solution:**
 
 - **Time:** $t = 4$
 **Answer:** $4$
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **Question 20**
 What is the maximum height attained?
 **Solution:**
 
 - **Height:** $h(4) = 9$
 **Answer:** $9$
+{{</ border >}}
 
----
 
 ## **Summary Table**
 

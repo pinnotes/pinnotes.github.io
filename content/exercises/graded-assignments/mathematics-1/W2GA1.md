@@ -1,13 +1,10 @@
 ---
-title: Mathematics Week 2 Graded Assignment
+title: Mathematics for Data Science 1
 weight: 2
-tags: 
-- mathematics
 categories:
 - Mathematics Graded Assignment
-series:
-- Mathematics Graded Assignment
-excludeSearch: false
+label: Week 2
+subtitle: Graded Assignment Solution
 ---
 
 

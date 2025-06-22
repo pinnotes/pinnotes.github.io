@@ -1,5 +1,5 @@
 ---
-title: 🪨 Mathematics Graded Assignment Week 1 😶
+title: Mathematics for Data Science 1
 description: Q1. Which of the following are irrational numbers❓ (a) $3^{1/3}$ (b) $(\sqrt{8}+\sqrt{2})(\sqrt{12}-\sqrt{3})$ (c) $\frac{\sqrt{18}-3}{\sqrt{2}-1}$ (d) $\frac{\sqrt{8}+\sqrt{2}}{\sqrt{8}-\sqrt{2}}$
 weight: 1
 subject: programming
@@ -10,15 +10,13 @@ categories:
 
 ---
 
-## Mathematics for Data Science - 1
-
 ## Graded Assignment Week - 1
 
 ### 1. Multiple Choice Questions (MSQ) 🧠
 
 <br/>
 
-{{< border >}}
+{{< border type="question" >}}
 **Q1**. Which of the following are irrational numbers❓
 
 **(a)** $3^{1/3}$
@@ -45,7 +43,9 @@ categories:
 {{< /border >}}
 
 
-## 2. Examples and Additional Solutions
+### 2. Examples and Additional Solutions
+
+{{< border type="bonus" >}}
 
 **Example (QL):**
 Consider a table of materials and their dielectric constants:
@@ -63,6 +63,7 @@ Consider a table of materials and their dielectric constants:
 
 **Solution:**
 Each material maps to a unique dielectric constant, so the function is bijective.
+{{</ border >}}
 
 {{< border type="question" title="Q3">}}
 
@@ -77,7 +78,7 @@ $C = \{x \in \mathbb{N} \mid x \bmod 7 = 0 \text{ and } 7 \leq x \leq 29\} = \{7
 Find $A \setminus (B \cup C)$, $B \setminus (A \cup C)$, $C \setminus (B \cup A)$.
 {{< /border >}}
 
-{{< border type="tip" title="Answer" >}}
+{{< border title="Solution" >}}
 **Solution:**
 $A \setminus (B \cup C) = \{2,4,6,8\}$
 $B \setminus (A \cup C) = \{15,20,25\}$
@@ -114,17 +115,22 @@ Number who watched only RRR and Avatar = $40 - x = 10$
 
 ## 3. Numerical Answer Type (NAT)
 
+{{< border type="question" >}}
+
 **Question 5:**
 Suppose $f: D \longrightarrow \mathbb{R}$ is a function defined by $f(x) = \frac{\sqrt{x^2-9}}{x+3}$, where $D \subset \mathbb{Z}$. Let $A$ be the set of integers not in the domain of $f$. Find the cardinality of $A$.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 Domain requires $x^2 - 9 \geq 0$ and $x+3 \neq 0$, so $x \notin \{-3,-2,-1,0,1,2\}$.
 Thus, $A = \{-3,-2,-1,0,1,2\}$; **cardinality = 6**.
 
 **Answer:** 6
+{{</ border >}}
 
 
-{{< border >}}
+{{< border type="question" >}}
 **Question 6:**
 Consider $S = \{a \mid a \in \mathbb{N}, a \leq 18\}$.
 Let $R_1 = \{(x,y) \mid x, y \in S, y = 3x\}$
@@ -135,7 +141,6 @@ Find the cardinality of $R_1 \setminus (R_1 \cap R_2)$.
 {{< /border >}}
 
 {{< border title="Solution" >}}
-**Solution:**
 
 $S = \{0,1,2,\ldots,18\}$
 
@@ -150,12 +155,12 @@ $R_1 \setminus (R_1 \cap R_2) = \{(1,3),(2,6),(4,12),(5,15),(6,18)\}$
 **Answer:** 5
 {{< /border >}}
 
-{{< border >}}
+{{< border type="question" >}}
 **Question 7:**
 In a Zoo, there are 6 Bengal white tigers and 7 Bengal royal tigers. Out of these, 5 are males and 10 are either Bengal royal tigers or males. Find the number of female Bengal white tigers.
 {{< /border >}}
 
-{{< border type="conclusion" >}}
+{{< border >}}
 **Solution:**
 Let BW = Bengal White, BR = Bengal Royal, M = Male.
 $n(BR) = 7$, $n(M) = 5$, $n(BR \cup M) = 10$
@@ -177,17 +182,23 @@ Female Bengal White tigers = 6 - 3 = **3**
 
 ## 4. Additional Examples and Incorrect Questions (Not for Marks)
 
+{{< border >}}
+
 **Example (Q8):**
 Define $R = \{(A,B) \mid A \text{ and } B \text{ are cousins}\}$,
 and $S = \{(A,B) \mid A \text{ is son of } B\}$.
 
 **Solution:**
 (Not fully solved, but shows how relations are defined for family relationships.)
+{{</ border >}}
 
----
+{{< border >}}
 
 **Example (Q9):**
 Given $R(m)$ has cardinality $m = 8$, $S(n)$ has cardinality $n = 8$, so $m + n = 16$.
+{{</ border >}}
+
+{{< border >}}
 
 **Example (Q10):**
 Define $f = \{(A,B) \mid A \text{ is son of } B\}$ as a function from $P$ to $Q$.
@@ -198,8 +209,9 @@ Define $f = \{(A,B) \mid A \text{ is son of } B\}$ as a function from $P$ to $Q$
 - **Option 2:** Function, not injective (not one-one).
 - **Option 3:** Function, onto (every element in codomain has preimage).
 - **Option 4:** Bijective (both injective and surjective).
+{{</ border >}}
 
----
+
 
 ## Summary Table
 

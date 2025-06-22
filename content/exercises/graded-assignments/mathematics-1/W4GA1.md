@@ -1,26 +1,26 @@
 ---
 title: Mathematics Week 4 Graded Assignment
 weight: 4
-tags: 
-- mathematics
+label: Week 4
+keywords:
+- Mathematics for Data Science 1
 categories:
 - Mathematics Graded Assignment
-series:
-- Mathematics Graded Assignment
-excludeSearch: false
-width: wide
 ---
 
 ---
 
 ## Multiple Select Question (MSQ)
 
+{{< border  type="question" >}}
 **1. Consider the line $\left(L_{x}\right)$ and parabola $\left(P_{x}\right)$ as shown in below figure.**
 
 **Which among the following represents the graph of $\frac{P_{x}}{L_{x}}$ ?**
 
 **Answer:** Option b
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 The equation of $L_{x}$ from the graph is $f(x)=3x-9$.
@@ -32,13 +32,15 @@ $$
 $$
 
 Therefore, the graph of $y=x-3$ is option 2.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **2. Consider $f(x)=x^{3}-4x^{2}-17x+60$ and $g(x)=x^{3}+5x^{2}-8x-12$, whose one of the roots are given in the set $\{3,2,-3,-2\}$. Choose the set of correct options regarding $f(x)$ and $g(x)$.**
 
 **Answer:** Option b
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 From the given set, $x=3$ is one of the root of $f(x)$, since $f(3)=0$. To find the other roots:
@@ -72,15 +74,17 @@ g(x)\text{ is negative when }x\in(-\infty,-6)\cup(-1,-2)
 $$
 
 So, option c and e are incorrect.
-
----
+{{</ border >}}
 
 ## Numerical Answer Type (NAT)
 
+{{< border  type="question" >}}
 **3. Consider a rectangular box whose length is $x$, height is 3 units less than length, and breadth is 5 units more than height. If the volume of the rectangular box is 24 unit$^{3}$, then choose the correct value of $x$ from the given options.**
 
 **Answer:** Option b (which is 4, as seen from the solution)
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 Let the length of rectangular box be $x$, then the height is $h=x-3$ and breadth is $b=h+5=x-3+5=x+2$.
@@ -98,11 +102,11 @@ x^{3}-x^{2}-6x=24
 $$
 
 From the given options, option b (which is 4) satisfies the equation.
-
----
+{{</ border >}}
 
 ## Multiple Select Question (MSQ)
 
+{{< border  type="question" >}}
 **4. Consider a polynomial function $f(x)$ of degree 4 which intersects the X-axis at $x=2, x=-3$ and $x=-4$. Moreover, $f(x)<0$ when $x\in(1,2)$, and $f(x)>0$ when $x\in(-1,1)$. Find out the equation of the polynomial.**
 
 **Answer:** Option b
@@ -110,7 +114,9 @@ From the given options, option b (which is 4) satisfies the equation.
 $$
 a(x^{4}+4x^{3}-7x^{2}-22x+24), a>0
 $$
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 Given that $f(x)$ has degree 4 and intersects the X-axis at $x=2, x=-3, x=-4$. Also, $f(x)<0$ when $x\in(1,2)$, and $f(x)>0$ when $x\in(-1,1)$. This means when $x=1, f(x)=0$.
@@ -126,13 +132,15 @@ $$
 $$
 
 Hence, option b is correct.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **5. Consider a polynomial function $f(x)=\frac{-1}{300}(x-2)^{2}(x-3)(x+1)^{2}(x+4)(x-5)$. Choose the correct set of options.**
 
 **Answer:** Option b, c, d and e
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 From the above graph,
@@ -142,9 +150,9 @@ From the above graph,
 - The function $f(x)$ is negative when $x\in(-1,2)$. So, option e is correct.
 
 Also, if we replace $x$ by $-x$ in $f(x)$, then $f(-x) \neq -f(x)$ or $f(-x) \neq f(x)$. So, $f(x)$ is neither even nor odd function.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **6. Consider a polynomial function $P(x)=(x^{4}+4x^{3}+x+10)$ and $Q(x)=(x^{3}+2x^{2}-6)$. If $M(x)$ is the equation of the straight line passing through $(2, Q(2))$ and having slope 3, then find out the equation of $P(x)+M(x)Q(x)$.**
 
 **Answer:** Option A
@@ -152,7 +160,9 @@ Also, if we replace $x$ by $-x$ in $f(x)$, then $f(-x) \neq -f(x)$ or $f(-x) \ne
 $$
 4x^{4}+14x^{3}+8x^{2}-17x-14
 $$
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 $M(x)$ is the equation of the straight line passing through $(2, Q(2))=(2,10)$ and having slope 3.
@@ -174,11 +184,12 @@ $$
 $$
 
 Thus, option A is correct.
+{{</ border >}}
 
----
 
 ## Numerical Answer Type (NAT)
 
+{{< border  type="question" >}}
 **7. A function $f(x)$ which is the best fit for the data given in the Table-1 recorded by a student, is**
 
 $$
@@ -188,7 +199,9 @@ $$
 **What will be the value of $c$, so that SSE (Sum Squared Error) will be minimum?**
 
 **Answer:** 3.4
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 
@@ -219,13 +232,15 @@ SSE is minimized at:
 $$
 c=\frac{34}{10}=3.4
 $$
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **8. An ant named $B$, wants to climb an uneven cliff and reach its anthill (i.e., home of ant). On its way home, $B$ makes sure that it collects some food. A group of ants have reached the food locations which are at $x$-intercepts of the function $f(x)=(x^{2}-19)((x-9)^{3}-1)$. As ants secrete pheromones (a form of signals which other ants can detect and reach the food location), $B$ gets to know the food location. Then the sum of the $x$-coordinates of all the food locations is**
 
 **Answer:** 10
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 $$
@@ -241,13 +256,15 @@ $$
 $$
 
 Sum of roots: $\sqrt{19} - \sqrt{19} + 10 = 10$.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **9. The Ministry of Road Transport and Highways wants to connect three aspirational districts with two roads $r_1$ and $r_2$. Two roads are connected if they intersect. The shape of the two roads $r_1$ and $r_2$ follows polynomial curve $f(x)=(x-19)(x-17)^2$ and $g(x)=-(x-19)(x-17)$ respectively. What will be the $x$-coordinate of the third aspirational district, if the first two are at $x$-intercepts of $f(x)$ and $g(x)$.**
 
 **Answer:** 16
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 Find $x$ such that $f(x)=g(x)$:
@@ -273,13 +290,15 @@ x=19,17,16
 $$
 
 Hence, the third aspirational district is at $x=16$.
+{{</ border >}}
 
----
-
+{{< border type="question" >}}
 **10. Let $r(x)$ be a polynomial function which is obtained as the quotient after dividing the polynomial $p(x)=(x+5)(x-3)(x^2-4)$ by the polynomial $q(x)=(x-2)(2+x)$. Choose the correct option which represents the polynomial $r(x)$ most appropriately.**
 
 **Answer:** Option 1
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 $$
@@ -287,8 +306,8 @@ $$
 $$
 
 Therefore, $r(x)=(x+5)(x-3)$. Option 1 is correct.
+{{</ border >}}
 
----
 
 This covers all questions and solutions from the PDF[^1].
 

@@ -47,7 +47,7 @@
     padding: 0 20px;
     list-style-type: none;
 
-    @media (max-width: 1024px) and (min-width: 669px) { 
+    @media (max-width: 1024px) and (min-width: 669px) {
       grid-template-columns: repeat(2, 1fr);
     }
 
@@ -131,6 +131,10 @@
     flex: 0 0 auto; /* Prevents the card from shrinking */
     width: 300px; /* Fixed width for each card */
     margin: 0;
+
+    img {
+      height: auto;
+    }
   }
   .blog-card-description {
     display: none;

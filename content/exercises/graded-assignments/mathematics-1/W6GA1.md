@@ -1,19 +1,16 @@
 ---
-title: Mathematics Graded Assignment Week 6
+title: Mathematics Week 6 Graded Assignment 
 weight: 6
-tags: 
-- mathematics
 categories:
 - Mathematics Graded Assignment
 - Week-6-Logarithms
-series:
-- Mathematics Graded Assignment
-excludeSearch: false
-width: wide
+---
+
 ---
 
 ## Multiple Choice Questions (MCQ)
 
+{{< border type="question" >}}
 **1. If \$ 18^x - 12^x - (2 \times 8^x) = 0 \$, then the value of \$ x \$ is:**
 
 **Options:**
@@ -24,12 +21,14 @@ width: wide
 4. In 18
 
 **Answer:** Option 1 (Note: The options are confusing and possibly mislabeled. The intended answer is likely a specific value or expression, but as shown, it is marked as Option 1, which is not a valid solution. However, the PDF marks Option 1 as correct. This may be an error in the PDF.)
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 The question appears to be misprinted or the options are incorrect. Normally, solving \$ 18^x - 12^x - 2 \cdot 8^x = 0 \$ would require more context or correct options. No valid solution is provided in the PDF.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **2. Suppose three distinct persons \$ A, B \$ and \$ C \$ are standing on the X-axis of the XY-plane (as shown in the figure M1W9G-1) and the distance between \$ B \$ and \$ A \$ is same as the distance between \$ C \$ and \$ B \$. The coordinates of \$ A, B \$ and \$ C \$ are \$ (\log_5 3, 0), (\log_5 (3x-92), 0) \$ and \$ (\log_5 (3x-94), 0) \$ respectively. What is the distance between \$ C \$ and \$ B \$?**
 
 **Options:**
@@ -40,7 +39,9 @@ The question appears to be misprinted or the options are incorrect. Normally, so
 4. $\log_5(3)$ units
 
 **Answer:** Option 3
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 Given \$ A = (\log_5 3, 0) \$, \$ B = (\log_5 (3x-92), 0) \$, \$ C = (\log_5 (3x-94), 0) \$, and \$ AB = BC \$.
 
@@ -49,9 +50,9 @@ Let \$ AB = BC \implies |\log_5 (3x-92) - \log_5 3| = |\log_5 (3x-94) - \log_5 (
 Assuming \$ B \$ is midpoint, solve for \$ x \$ and find \$ CB = \log_5 (3x-92) - \log_5 (3x-94) \$.
 However, the PDF gives the answer as Option 3, which is $\log_5(3)$ units.
 (Note: The solution logic is unclear and likely incomplete or misprinted.)
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **3. In a city, a rumour is spreading about the safety of corona vaccination. Suppose \$ N \$ number of people live in the city and \$ f(t) \$ is the number of people who have not yet heard about the rumour after \$ t \$ days. Suppose \$ f(t) = N e^{-kt} \$, where \$ k \$ is a constant. If the population of the city is 1000, and suppose 40 have heard the rumour after the first day. After how many days (approximately) half of the population would have heard the rumour?**
 
 **Options:**
@@ -62,13 +63,15 @@ However, the PDF gives the answer as Option 3, which is $\log_5(3)$ units.
 4. 12
 
 **Answer:** Option 2 (17)
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 Given \$ N = 1000 \$, \$ f(1) = 1000 - 40 = 960 \implies 960 = 1000 e^{-k \cdot 1} \implies e^{-k} = 0.96 \implies k = -\ln(0.96) \$.
 Half of the population hears the rumour when \$ f(t) = 500 \implies 500 = 1000 e^{-kt} \implies e^{-kt} = 0.5 \implies -kt = \ln(0.5) \implies t = \frac{\ln(0.5)}{-k} = \frac{\ln(0.5)}{\ln(0.96)} \approx 17 \$.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **4. Consider the function \$ f(x) = \log_2(12 + 4x - x^2) \$. Choose the correct set of option(s):**
 
 **Options:**
@@ -80,6 +83,9 @@ e. \$ f(x) \$ is one-one function when \$ x \$ is in $(-\infty, 2]$.
 ✓. The range of \$ f \$ is $(-\infty, 4]$.
 
 **Answer:** The PDF does not specify a single correct answer, but the options are provided for selection.
+{{</ border >}}
+
+{{< border >}}
 **Analysis:**
 
 - **a:** Incorrect. \$ f(x) \$ is not strictly increasing in $[2, \infty)$; the quadratic \$ 12 + 4x - x^2 \$ is decreasing for \$ x > 2 \$.
@@ -90,14 +96,14 @@ e. \$ f(x) \$ is one-one function when \$ x \$ is in $(-\infty, 2]$.
 - **✓:** Incorrect. The range is not $(-\infty, 4]$.
 
 **No official solution is given in the PDF.**
-
----
+{{</ border >}}
 
 ## Questions 5 and 6
 
 **5 and 6. Use the following information for the questions 5 and 6.
 Consider the function \$ f(x) = \frac{2e^x}{3e^x + 1} \$ from \$ \mathbb{R} \$ to \$ \mathbb{R} \$.**
 
+{{< border  type="question" >}}
 **6. Which of the following is true about \$ f \$?**
 
 **Options:**
@@ -107,12 +113,14 @@ Consider the function \$ f(x) = \frac{2e^x}{3e^x + 1} \$ from \$ \mathbb{R} \$ t
 10. \$ f \$ is a bijective function.
 
 **Answer:** Option 2 (i.e., option 8: \$ f \$ is a one to one function)
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 The function \$ f(x) = \frac{2e^x}{3e^x + 1} \$ is strictly increasing (since the derivative is positive for all \$ x \$), and thus one-to-one.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **11. The inverse of \$ f \$ would be:**
 
 **Options:**
@@ -123,7 +131,9 @@ The function \$ f(x) = \frac{2e^x}{3e^x + 1} \$ is strictly increasing (since th
 
 **Answer:** Option 3 (i.e., option 13)
 **Note:** Options 13 and 14 are identical and likely a typo.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 Let \$ y = \frac{2e^x}{3e^x + 1} \$.
 To find inverse:
@@ -133,13 +143,14 @@ To find inverse:
 \$ e^x = \frac{y}{2-3y} \$
 \$ x = \ln\left(\frac{y}{2-3y}\right) \$
 But the options are in terms of \$ x \$, and likely a misprint. The correct inverse is \$ f^{-1}(y) = \ln\left(\frac{y}{2-3y}\right) \$, but the options are not matching exactly.
+{{</ border >}}
 
----
 
 ## Multiple Select Questions (MSQ)
 
 **7 and 8. The amount of gold (in kilograms) sold by a jeweler on the \$ m \$th day of 2019 is given by the function \$ f(m) = \log_{10}(m + 1) - \frac{1}{2} \log_{m+1}(0.01) \$ (where \$ m = 1 \$ corresponds to the 1st January, 2019, and \$ m = 365 \$ corresponds to the 31st December, 2019).**
 
+{{< border  type="question" >}}
 **7. If \$ m > n > 9 \$, then choose the correct option(s):**
 
 **Options:**
@@ -150,12 +161,15 @@ But the options are in terms of \$ x \$, and likely a misprint. The correct inve
 4. \$ f(m) \leq f(n) \$
 
 **Answer:** Option 1 (\$ f(m) > f(n) \$)
+{{</ border >}}
+
+{{< border >}}
 
 **Solution:**
 For \$ m > n > 9 \$, the function \$ f(m) \$ increases as \$ m \$ increases.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **8. Choose the correct option(s):**
 
 **Options:**
@@ -166,12 +180,14 @@ For \$ m > n > 9 \$, the function \$ f(m) \$ increases as \$ m \$ increases.
 4. The jeweler sold at least 10 kg gold daily throughout the year 2019.
 
 **Answer:** Options 2 and 3
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 The function \$ f(m) \$ is positive and increasing. For \$ m = 365 \$, \$ f(365) \$ is large enough to ensure at least 730 kg gold sold in the year and at least 2 kg gold sold daily.
+{{</ border >}}
 
----
-
+{{< border  type="question" >}}
 **9. The stock market chart of a tourism company (A) is shown roughly in the Figure M1W9G-2. This company was listed in February (\$ x = 2 \$) and experiences a logarithmic fall after the COVID-19 outbreak which is given by \$ y = -a \log(x - h) + a \$. \$ x \$ represents the number of months since the beginning of the year and \$ y \$ represents the stock price in ₹1000. During the 10th month the pharmacy company announced that the vaccine is made for the COVID-19. Thereafter, the stock price of the company (A) is raised exponentially \$ y = 10^{x-b} \$. Choose the correct set of options. (Note: \$ a \$ is any positive real number, \$ b \$ is a positive integer and \$ h \$ is a constant.)**
 
 **Options:**
@@ -182,7 +198,9 @@ The function \$ f(m) \$ is positive and increasing. For \$ m = 365 \$, \$ f(365)
 4. If the vaccine was not made and the stock price just followed the same logarithmic function throughout, then the investor would have lost his/her entire investment on the 12th month.
 
 **Answer:** Options 1, 2, and 4
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **Option 1:** \$ a = 1.5 \$ and \$ h = 2 \$ are plausible values for the logarithmic fall.
@@ -191,15 +209,18 @@ The function \$ f(m) \$ is positive and increasing. For \$ m = 365 \$, \$ f(365)
 - **Option 4:** If the stock price follows the logarithmic function, it would tend to negative infinity, implying total loss.
 
 The PDF marks options 1, 2, and 4 as correct. This may be due to a scaling or typographical error in the question.
+{{</ border >}}
 
----
 
 ## Numerical Answer Type (NAT)
 
+{{< border type="question" >}}
 **10. If \$ m \log_3 2 + 2 \log_3 m = 16 \$. Then, what is the value of \$ m \$?**
 
 **Answer:** 27
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 Let \$ m = 3^k \$.
 Then, \$ 3^k \log_3 2 + 2k = 16 \$.
@@ -208,9 +229,9 @@ Alternatively, substitute \$ m = 27 \$:
 \$ 27 \log_3 2 + 2 \log_3 27 = 27 \log_3 2 + 2 \times 3 = 27 \log_3 2 + 6 \$.
 But \$ 27 \log_3 2 + 6 \neq 16 \$.
 This suggests a possible error in the question or solution, but the PDF answer is 27.
+{{</ border >}}
 
----
-
+{{< border type="conclusion" >}}
 **11. Choose the correct options with respect to the graph of a function \$ f(x) \$ shown below.**
 
 **Options:** (Not listed, but the answer is given as Option (a), (d), (e))
@@ -219,8 +240,8 @@ This suggests a possible error in the question or solution, but the PDF answer i
 
 **Solution:**
 Without the graph, the specific options cannot be determined. The PDF marks options (a), (d), (e) as correct.
+{{</ border >}}
 
----
 
 ## Summary Table
 

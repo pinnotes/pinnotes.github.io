@@ -44,6 +44,7 @@
     width: 90%; /* Responsive width */
     gap: 60px; /* Space between image grid and text content */
     margin-bottom: 40px; /* Space below the section */
+    margin-top: 2rem;
   }
 
   .spotlight-images {
@@ -158,6 +159,43 @@
       width: 100%; /* Full width cards */
       height: auto; /* Auto height */
       padding: 15px;
+    }
+  }
+
+  html:is(.dark) {
+    .spotlight-section {
+      border-bottom: 1px solid #23232a;
+      background: #181824;
+    }
+
+    .spotlight-content {
+      /* No background, but keep text readable */
+    }
+
+    .spotlight-text h2 {
+      color: #f3f3fa;
+    }
+
+    .spotlight-text p {
+      color: #b0b0c3;
+    }
+
+    .spotlight-image-card {
+      background-color: #23232a;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    }
+
+    .spotlight-image-card p {
+      color: #e0e0f0;
+    }
+
+    .explore-button {
+      background-color: #7c4dff;
+      color: #fff;
+    }
+
+    .explore-button:hover {
+      background-color: #5d2ce1;
     }
   }
 </style>
