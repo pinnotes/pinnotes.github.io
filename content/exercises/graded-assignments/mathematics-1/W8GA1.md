@@ -10,6 +10,7 @@ categories:
 
 ## 1. Multiple Select Questions (MSQ)
 
+{{< border >}}
 **Question 1:**
 Match the given functions in Column A with the equations of their tangents at the origin $(0,0)$ in column B and the plotted graphs and the tangents in Column C, given in Table M2W2G1.
 
@@ -26,21 +27,18 @@ Option 2: i) $\rightarrow$ b) $\rightarrow 3$
 Option 3: iii) $\rightarrow$ b) $\rightarrow 1$
 Option 4: iii) $\rightarrow$ c) $\rightarrow 2$
 Option 5: i) $\rightarrow$ a) $\rightarrow 1$
+{{< border >}}
 
+{{</ border >}}
 **Solution:**
 
-- **i):** $f(x)=x2^{x}$, $f'(0)=1$ → tangent: $y=x$ → matches with b) and graph 3
-
-**i) $\rightarrow$ b) $$
-\rightarrow 3**  
-- **ii):** $f(x)=x(x-2)(x+2)$, $f'(0)=-4$ → tangent: $y=-4x$ → matches with a) and graph 1  
-**ii) $\rightarrow$ a)
-$$\rightarrow 1**
+- **i):** $f(x)=x2^{x}$, $f'(0)=1$ → tangent: $y=x$ → matches with b) and graph 3 **i) $\rightarrow$ b $$\rightarrow 3**  
+- **ii):** $f(x)=x(x-2)(x+2)$, $f'(0)=-4$ → tangent: $y=-4x$ → matches with a) and graph 1  **ii) $\rightarrow$ a) $$\rightarrow 1**
 - **iii):** $f(x)=-x(x-2)(x+2)$, $f'(0)=4$ → tangent: $y=4x$ → matches with c) and graph 2
 
 **iii) $\rightarrow$ c) \$\$\rightarrow 2**
+{{</ border >}}
 
----
 
 **Question 2:**
 Consider the following two functions $f(x)$ and $g(x)$:

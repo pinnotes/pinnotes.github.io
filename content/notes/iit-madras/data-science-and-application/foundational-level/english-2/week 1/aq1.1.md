@@ -9,8 +9,12 @@ weight: 1.5
 weight: 1.5
 ---
 
-1. "The cafe was like a battleship stripped for action.” The figure of speech used here is ___.
+{{< border >}}
 
+1. "The cafe was like a battleship stripped for action.” The figure of speech used here is ___.
+{{</ border >}}
+
+{{< border >}}
 Drawing on the information from the sources discussing figures of speech:
 
 The figure of speech used in the sentence "The cafe was like a battleship stripped for action" is **Simile**.
@@ -20,9 +24,13 @@ A simile is a literary device used for the comparison of two completely unassoci
 In the given sentence, the cafe is explicitly compared to "a battleship stripped for action" using the word "**like**". This fits the definition and characteristic use of "like" or "as" in a simile. The purpose of this comparison, as with other similes, is to create impact, provide comparison, make language impactful, and create a picture in the reader's mind.
 
 This contrasts with a metaphor, which is also a type of comparison, but where a word or phrase is used in place of another to suggest likeness or analogy *without* typically using "like" or "as" for the direct comparison.
+{{</ border >}}
 
+{{< border >}}
 2. “Do not go gentle into that good night.” The figure of speech used here is ____.
+{{</ border >}}
 
+{{< border >}}
 Drawing on the information from the sources and our conversation history, the figure of speech used in the sentence "Do not go gentle into that good night" is **Juxtaposition**.
 
 Here's why, based on the sources:
@@ -39,9 +47,13 @@ While other figures might also be present:
 *   While similar in nature to **Antithesis**, antithesis typically involves two distinct components following a parallel grammatical structure, which is not the primary structure of this single imperative sentence. The opposition is within the single statement.
 
 Therefore, based on the descriptions provided in the sources, **Juxtaposition** most accurately describes the primary figure of speech at play, where the opposing ideas of "going gentle" and "that good night" are placed together to create impactful contrast.
+{{</ border >}}
 
-3. “From the earth thou springest Like a cloud of fire.” The figure of speech used here is a metaphor. This statement is ____
+{{< border >}}
+1. “From the earth thou springest Like a cloud of fire.” The figure of speech used here is a metaphor. This statement is ____
+{{</ border >}}
 
+{{< border >}}
 Based on the information provided in the sources and our conversation history, the statement "From the earth thou springest / Like a cloud of fire.” The figure of speech used here is a metaphor. This statement is **incorrect**.
 
 Here is why, according to the sources:
@@ -52,10 +64,14 @@ Here is why, according to the sources:
 *   A **Metaphor** is described as a type of comparison in which a word or a phrase is used in place of another to suggest likeness or analogy between the two things. A metaphor does not carry any literal meaning. While not explicitly stated that "like" or "as" are *not* used, the definition focuses on using one thing *in place of* another, and the examples given ("This is the icing on the cake," "life is a roller coaster") do not use "like" or "as". This implicitly contrasts with the explicit mention of "like" or "as" for similes.
 
 In the sentence "From the earth thou springest / **Like** a cloud of fire," the comparison between "thou springest" and "a cloud of fire" is made using the word "**Like**". This precisely matches the description and examples of a **Simile** in the sources, which explicitly state that similes commonly use "**like**" or "as" for comparison.
+{{</ border >}}
 
+{{< border >}}
 4. “Conspiring with him how to load and bless 
 With fruit the vines that round the thatch-eves run.” The figure of speech used here is ___.
+{{</ border >}}
 
+{{< border >}}
 Drawing on the information in the sources, the figure of speech used in the sentence “Conspiring with him how to load and bless With fruit the vines that round the thatch-eves run,” is **Personification**.
 
 Here's why, based on the sources:
@@ -64,3 +80,4 @@ Here's why, based on the sources:
 *   **Personification** is a type of figure of speech where **a thing or an idea is given human attributes or emotions**. It helps establish a deeper connection and creates poetic expression in speech and writing. The sources provide examples like "books are my favorite companions" where books (inanimate) are given the human attribute of being companions, or "The Stars winked at us" where stars (inanimate) are given the human action of winking.
 *   In your sentence, the vines (inanimate things) are described as "Conspiring with him" and are also implied to "bless With fruit". "Conspiring" is a human action involving planning, often secretly. "Bless" also implies a human or divine action of bestowing something good. By attributing these human actions ("conspiring," "bless") to the vines, the sentence is giving human qualities to an inanimate object.
 *   This direct assignment of human attributes and actions to non-human things precisely matches the definition and examples of **Personification** provided in the sources.
+{{</ border >}}
