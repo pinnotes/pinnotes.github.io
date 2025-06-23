@@ -121,6 +121,7 @@ site.Params.blog.list.sortOrder) -}} {{- range $pages }} {{- $title :=
 .card-grid-container {
     position: relative;
     overflow-x: auto;
+    overflow-y: hidden; /* Hide vertical scrolling glitch */
     white-space: nowrap;
     padding: 0 0; /* Balanced horizontal padding */
     scrollbar-width: none;
