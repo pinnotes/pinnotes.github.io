@@ -1,17 +1,9 @@
 ---
-title: Week 7 Graded Assignment Solution
+title: Week 7 Graded Assignment 
 weight: 7
-tags: 
-- statistics
 categories:
 - Statistics Graded Assignment
-series:
-- Statistics Graded Assignment
-excludeSearch: false
-width: wide
 ---
-
-Here are all the questions and their solutions from the attached **Week_7_Graded_Solution.pdf**[^1]:
 
 ---
 

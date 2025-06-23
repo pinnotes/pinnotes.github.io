@@ -1,17 +1,9 @@
 ---
-title: Week 4 Graded Assignment Solution
+title: Week 4 Graded Assignment 
 weight: 4
-tags: 
-- statistics
 categories:
 - Statistics Graded Assignment
-series:
-- Statistics Graded Assignment
-excludeSearch: false
-width: wide
 ---
-
-Here are all the questions and their solutions from the attached PDF **Week_4_Graded_Solution.pdf**[^1]:
 
 ---
 

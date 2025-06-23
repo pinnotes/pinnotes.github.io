@@ -1,17 +1,9 @@
 ---
-title: Week 2 Graded Assignment Solution
+title: Week 2 Graded Assignment 
 weight: 2
-tags: 
-- statistics
 categories:
 - Statistics Graded Assignment
-series:
-- Statistics Graded Assignment
-excludeSearch: false
-width: wide
 ---
-
-Here are all the questions and their solutions from the PDF **Statistics for Data Science-1, Week-2 Graded Assignment Solution**[^1]:
 
 ---
 

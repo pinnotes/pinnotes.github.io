@@ -3,18 +3,30 @@
   <a href="{{.RelPermalink}}">
     <div class="question-card {{.Params.subject | lower}}">
       <div class="card-header">
-        {{- if .Params.avatar }}            
-        <img
-          src="{{.Params.avatar | default "https://github.com/pinnotes.png"}}"
-          alt="Profile Picture"
-          class="profile-pic"
-        />
+        {{- if .Params.avatar }}   
+         {{- if (hasSuffix .Params.avatar ".svg") -}}
+            <img 
+            src="{{.Params.avatar}}" 
+            alt="Profile SVG" 
+            class="profile-pic"
+            style="background:none; padding:0; border-radius:0;"
+              />
+            </span>
+          {{ else -}}
+           <img
+             src="{{.Params.avatar | default "https://github.com/pinnotes.png"}}"
+             alt="Profile Picture"
+             class="profile-pic"
+           />
+          {{- end -}}
         {{ end -}}
         <div class="header-info">
           <span class="subject">{{ .Title | default "PinNotes" }}</span>
           <span class="time-ago">{{.Params.subtitle}}</span>
         </div>
+        {{- if .Params.label }}
         <div class="points">{{.Params.label | default "Solution"}}</div>
+        {{ end}}
       </div>
       <div class="card-body katex-desc">
         <p>{{- partial "utils/page-description" . -}}</p>

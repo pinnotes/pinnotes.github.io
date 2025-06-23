@@ -1,17 +1,9 @@
 ---
-title: Week 5 Graded Assignment Solution
+title: Week 5 Graded Assignment 
 weight: 5
-tags: 
-- statistics
 categories:
 - Statistics Graded Assignment
-series:
-- Statistics Graded Assignment
-excludeSearch: false
-width: wide
 ---
-
-Here are all the questions and their solutions from the **Week_5_GA_Solution.pdf** (Statistics for Data Science-1, Week-5 Graded Assignment)[^1]:
 
 ---
 

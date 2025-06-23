@@ -1,12 +1,8 @@
 ---
-title: Week 4 Statistics Graded Assignment Questions
+title: Week 4 Statistics Graded Assignment
 weight: 12
 math: true
-tags: 
-- statistics
 categories:
-- Statistics Graded Assignment
-series:
 - Statistics Graded Assignment
 ---
 

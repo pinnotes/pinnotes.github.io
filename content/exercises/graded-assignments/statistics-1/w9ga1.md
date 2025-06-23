@@ -1,18 +1,10 @@
 ---
-title: Week 9 Graded Assignment Solution
+title: Week 9 Graded Assignment 
 weight: 9
 description: A discrete random variable $ X $ can take the values $ 1,2,3,···,n $. For these values the cumulative distribution function is defined by - $$ F(x) = P(X < x) = \frac{x^2 + k}{m}; \quad x = 1, 2, 3, \ldots, n $$ Find the value of $ k $.
-tags: 
-- statistics
 categories:
 - Statistics Graded Assignment
-series:
-- Statistics Graded Assignment
-excludeSearch: false
-width: wide
 ---
-
-Here are all the questions and their solutions from the **Week_9_Graded_Solution.pdf** (Statistics for Data Science-1, Week-9 Graded Assignment)[^1]:
 
 ---
 

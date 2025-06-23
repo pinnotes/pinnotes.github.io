@@ -1,17 +1,9 @@
 ---
-title: Week 6 Graded Assignment Solution
+title: Week 6 Graded Assignment 
 weight: 6
-tags: 
-- statistics
 categories:
 - Statistics Graded Assignment
-series:
-- Statistics Graded Assignment
-excludeSearch: false
-width: wide
 ---
-
-Here are all the questions and their solutions from the PDF **Week_6_Graded_Solution.pdf** (Statistics for Data Science-1, Week-6 Graded Assignment)[^1]:
 
 ---
 

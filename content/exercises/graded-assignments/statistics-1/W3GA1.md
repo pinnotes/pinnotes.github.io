@@ -1,191 +1,236 @@
 ---
-title: Week 3 Graded Assignment Solution
+title: Week 3 Graded Assignment 
 weight: 3
-tags: 
-- statistics
 categories:
 - Statistics Graded Assignment
-series:
-- Statistics Graded Assignment
-excludeSearch: false
-width: wide
 ---
-
-Here are all the questions and their solutions from the PDF **Statistics for Data Science-1, Week-2 Graded Assignment Solution**[^1]:
 
 ---
 
-## 1. Which of the following statements is/are incorrect?
+**1. The numbers a, b, c, d have frequencies (x + 6), (x + 2), (x − 3) and x respectively. If their mean is m, find the value of x. (Enter the value as next highest integer)**
 
-**Options:**
-(a) To represent the share of a particular category, bar chart is the most appropriate graphical representation.
-(b) The multiplication of the total number of observations and relative frequency of a particular observation should be equal to the frequency of that observation.
-(c) Mean can be defined for a categorical variable.
-(d) Mode of a categorical variable is the widest slice in a pie chart.
-
-**Answer:** a, c
 **Solution:**
-To show the share of a particular category, a pie chart is the most appropriate graphical representation. Thus, option (a) is incorrect.
-Relative frequency for the ith observation is \$ Rf_i = f_i / N \$, so \$ f_i = Rf_i \times N \$. Thus, option (b) is correct.
-Mean cannot be defined for categorical data as meaningful mathematical operations are not possible. Thus, option (c) is incorrect.
-In a pie chart, the widest slice corresponds to the mode (highest frequency). Thus, option (d) is correct.
-Therefore, options (a) and (c) are correct (as the question asks for incorrect statements).
+
+$$
+\frac{a(x + 6) + b(x + 2) + c(x − 3) + dx}{(x + 6) + (x + 2) + (x − 3) + x} = m
+$$
+
+$$
+\frac{ax + 6a + bx + 2b + cx − 3c + dx}{4x + 5} = m
+$$
+
+$$
+ax + bx + cx + dx + 6a + 2b − 3c = m(4x + 5) = (4m)x + 5m
+$$
+
+$$
+(a + b + c + d − 4m)x = 5m − 6a − 2b + 3c
+$$
+
+$$
+x = \frac{5m − 6a − 2b + 3c}{a + b + c + d − 4m}
+$$
+
+Suppose, we substitute values of a, b, c, d and m as 2, 7, 9, 17 and 6.88 respectively,
+
+$$
+x = \frac{(5 \times 6.88) − (6 \times 2) − (2 \times 7) + (3 \times 9)}{2 + 7 + 9 + 17 − (4 \times 6.88)} = 4.73
+$$
+
+Hence, x = 5[^1].
 
 ---
 
-## 2. If the exam is for a total of 500 marks, then what is the aggregate distribution of marks in Physics, Maths and Biology?
+**2. What is the mean of the original dataset? (Correct up to 2 decimal place accuracy)**
 
-(Refer to Figure 2.1.G, which shows: Physics 35%, Maths 18%, Biology 10%)
-
-**Answer:** 315
 **Solution:**
-Physics: \$ 500 \times 0.35 = 175 \$
-Maths: \$ 500 \times 0.18 = 90 \$
-Biology: \$ 500 \times 0.10 = 50 \$
-Aggregate: \$ 175 + 90 + 50 = 315 \$
+Let the sum of all the observations of noted dataset be $T$ and for the original dataset be $T'$.
+
+$$
+\text{Mean} = \frac{T}{N} = m \implies T = m \times N
+$$
+
+$$
+T' = T - p + x
+$$
+
+$$
+\text{Mean for original dataset} = \frac{T'}{N}
+$$
+
+Suppose, N = 8, m = 13, s = 8, x = 18, p = 13:
+
+$$
+T = 13 \times 8 = 104
+$$
+
+$$
+T' = 104 - 13 + 18 = 109
+$$
+
+$$
+\text{Mean for original dataset} = \frac{109}{8} = 13.625
+$$
+
+[^1]
 
 ---
 
-## 3. Choose the correct statement(s):
+**3. What is the sample variance of the original dataset? (Correct up to 2 decimal place accuracy)**
 
-**Options:**
-(a) The pie chart is misleading because it does not obey the area principle.
-(b) The pie chart has round off errors.
-(c) The pie chart is not a misleading graph.
-(d) The slices of pie chart adds up to 100%.
-
-**Answer:** c, d
 **Solution:**
-The pie chart obeys the area principle and the slices add up to 100%. Thus, options (c) and (d) are correct.
+Sample variance,
+
+$$
+s^2 = \frac{\sum(x_i - \bar{x})^2}{N-1}
+$$
+
+Let $\sum x_i^2 = A$ for noted dataset and for the original dataset be $B$.
+
+$$
+B = A - p^2 + x^2
+$$
+
+where,
+
+$$
+A = \left(\frac{s^2 + N m^2}{N-1}\right) \times (N-1)
+$$
+
+$$
+\text{Sample variance for the original dataset} = \frac{B}{N-1} - \frac{(T')^2}{N(N-1)}
+$$
+
+Suppose, N = 8, m = 13, s = 8, x = 18, p = 13:
+
+$$
+A = \left(\frac{8^2 + 8 \times 13^2}{7}\right) \times 7 = 1800
+$$
+
+$$
+B = 1800 - 13^2 + 18^2 = 1955
+$$
+
+$$
+\text{Sample variance} = \frac{1955}{7} - \frac{109^2}{8 \times 7} = 67.125
+$$
+
+[^1]
 
 ---
 
-## 4. What is the combined relative frequency of the academy A, B and D?
+**4. Let the data $x_1, x_2, ..., x_n$ represent the retail prices in rupees of a certain commodity in n randomly selected shops in a particular city. What will be the sample variance in the retail prices, if c rupees is added to all the retail prices? (Correct up to 2 decimal place accuracy)**
 
-(Refer to Table 2.1.G: Academy C has 50 players, E has 75 players; total 200 players.)
-
-**Answer:** 0.375 (Range: 0.370, 0.380)
 **Solution:**
-Relative frequency for C: \$ 50/200 = 0.25 \$
-Relative frequency for E: \$ 75/200 = 0.375 \$
-Combined relative frequency for A, B, D: \$ 1 - (0.25 + 0.375) = 0.375 \$
+If $c$ rupees is added to all retail prices, new prices $y_i = x_i + c$.
+
+$$
+\text{New variance} = \text{Old variance}
+$$
+
+Example: n = 6, observations = 46, 34, 82, 37, 83, 66
+
+$$
+\text{Mean} = \frac{46 + 34 + 82 + 37 + 83 + 66}{6} = 58
+$$
+
+$$
+\text{Sample variance} = \frac{(46-58)^2 + (34-58)^2 + (82-58)^2 + (37-58)^2 + (83-58)^2 + (66-58)^2}{5} = 485.2
+$$
+
+[^1]
 
 ---
 
-## 5. Median of the given data is:
+**5. Suppose, we have n observations such that $x_1, x_2, ..., x_n$. Calculate 10th, 50th and 100th percentiles?**
 
-**Options:**
-(a) Academy C
-(b) Academy E
-(c) Academy D
-(d) Median is not defined for the given data
-(e) Insufficient data
-
-**Answer:** d
 **Solution:**
-The data is nominal and cannot be ordered, so median is not defined.
+To find the sample 100p percentile of a dataset of size n:
+
+1. Arrange the data in ascending order.
+2. If np is not integer, take the smallest integer greater than np. The data value in that position is the sample 100p percentile.
+3. If np is integer, take the average of values in positions np and np+1.
+
+Example: n = 7, observations = 31, 36, 25, 34, 115, 108, 88
+Ascending order: 25, 31, 34, 36, 88, 108, 115
+
+- 10th percentile: np = 0.7 → 1st observation = 25
+- 50th percentile: np = 3.5 → 4th observation = 36
+- 100th percentile: np = 7 → last observation = 115[^1]
 
 ---
 
-## 6. Mode of the given data is:
+**6. Calculate the Inter Quartile Range (IQR) of the data.**
 
-**Options:**
-(a) Academy C
-(b) Academy E
-(c) Academy D
-(d) Mode is not defined for the given data
-(e) Insufficient data
-
-**Answer:** b
 **Solution:**
-Academy E has the highest frequency (75), so it is the mode.
+IQR = Q3 − Q1
+
+- Q1: p = 0.25, np = 1.75 → Q1 = 31
+- Q3: p = 0.75, np = 5.25 → Q3 = 108
+
+IQR = 108 − 31 = 77[^1]
 
 ---
 
-## 7. Which of the following graphical representations is appropriate for the number of players in each academy for the given data in Table 2.1.G?
+**7. How many outliers are there?**
 
-**Options:**
-(a) Bar chart
-(b) Pie chart
-(c) Pareto chart
-(d) Both bar chart and pareto chart
-
-**Answer:** d
 **Solution:**
-Bar chart and Pareto chart are both appropriate for showing counts. Pie chart is for proportions.
+Outliers < Q1 − 1.5 × IQR or > Q3 + 1.5 × IQR
+
+- Q1 = 31, Q3 = 108, IQR = 77
+- Lower bound: 31 − (1.5 × 77) = −84.5
+- Upper bound: 108 + (1.5 × 77) = 223.5
+
+No observations outside these bounds. Hence, no outliers[^1].
 
 ---
 
-## 8. The data of number of students sharing the same rank is collected. Which of the following is/are suitable to represent the collected data?
+**8. In a deck, there are cards numbered 1 to n such that the number of cards of a given number is the same as the number on the card. Which of the following statement(s) is/are true about the mean and mode of the numbers on this deck of card?**
 
-**Options:**
-(a) (plot with missing baseline)
-(b) (plot with correct baseline and order)
-(c) (plot with incorrect order of categories)
+a. Mode is n.
+b. Mean is $\frac{2n + 1}{3}$.
+c. Mode is n − 1.
+d. Mean is n.
+e. Mean is $\frac{n + 1}{2}$.
+f. Mode is not defined for this data.
 
-**Answer:** b
+**Answer:** a, b
+
 **Solution:**
-Option (b) correctly preserves the order and is not misleading.
+Number (xi), Frequency (fi): 1:1, 2:2, ..., n:n
+
+- Mode = n
+- Total observations = $1 + 2 + ... + n = \frac{n(n+1)}{2}$
+- Sum = $1^2 + 2^2 + ... + n^2 = \frac{n(n+1)(2n+1)}{6}$
+- Mean = $\frac{n(n+1)(2n+1)/6}{n(n+1)/2} = \frac{2n+1}{3}$
+
+Example for n = 42: Mode = 42, Mean = 28.33[^1].
 
 ---
 
-## 9. Choose the correct statement about categorical data:
+**9. Figure 3.1.G shows a stem and leaf plot of the ratings (out of 100) of an actor’s performance in different movies. What is the Inter Quartile Range (IQR) (Correct up to 1 decimal point accuracy)?**
 
-**Options:**
-(a) Categorical data have measurement units.
-(b) Categorical data can take numerical values, but no meaningful mathematical operations can be performed on it.
-(c) Categorical data is quantitative in nature.
-(d) All of the above
-
-**Answer:** b
 **Solution:**
-Categorical data can be coded numerically, but no meaningful mathematical operations can be performed.
+n = 10
+
+- Q1 = 3rd observation = 72
+- Q3 = 8th observation = 87
+- IQR = 87 − 72 = 15[^1]
 
 ---
 
-## 10. How many students have secured B grade?
+**10. What is the median rating, if x points are added to all of his ratings and then converted to y points? (Correct up to 2 decimal point accuracy)**
 
-(Refer to Figure 2.2.G: B grade 32.5% of 80 students.)
-
-**Answer:** 26
 **Solution:**
-\$ 80 \times 0.325 = 26 \$
+Median of original data (10 observations) = mean of 5th and 6th = (75 + 78)/2 = 76.5
 
----
+- If x points added: median = 76.5 + x
+- If then converted to y points: median = $(76.5 + x) \times \frac{y}{100}$
 
-## 11. What is the ratio of the students secured C grade to the students secured A grade?
-
-(Figure 2.2.G: C grade 22.5%, A grade 25% of 80 students.)
-
-**Answer:** 0.9
-**Solution:**
-C grade: \$ 80 \times 0.225 = 18 \$
-A grade: \$ 80 \times 0.25 = 20 \$
-Ratio: \$ 18/20 = 0.9 \$
-
----
-
-This is the complete set of questions and solutions from the PDF[^1].
+Example: x = 3, y = 40
+Median = (76.5 + 3) × 0.4 = 31.8[^1]
 
 <div style="text-align: center">⁂</div>
 
-[^1]: Week_2_Graded_Solution.pdf
-
-[^2]: https://www.scribd.com/document/687483981/Week-2-Graded-Assignment-Solution
-
-[^3]: https://www.scribd.com/document/768404514/IIT-Madras-Week-2-Graded-Assignments
-
-[^4]: https://www.studocu.com/in/document/indian-institute-of-technology-madras/programming-and-data-science/week-2-graded-solution-bs-ds/82822211
-
-[^5]: https://gradedassignments.github.io/iit-madras-graded-assignments/
-
-[^6]: https://www.youtube.com/watch?v=aI1a91rzTrs
-
-[^7]: https://groups.google.com/a/nptel.iitm.ac.in/g/ma1001-discuss/c/_lVR3xXnj5M
-
-[^8]: https://iitmdatascience.com/term2
-
-[^9]: https://www.studocu.com/in/document/indian-institute-of-technology-madras/iitm-online-degree-data-science-and-programming/week-2-graded-assignment/105815343
-
-[^10]: https://www.youtube.com/watch?v=6EPGq4-zDV8
+[^1]: Week_3_Graded_Solution.pdf
 

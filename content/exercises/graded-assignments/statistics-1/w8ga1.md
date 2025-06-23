@@ -1,17 +1,9 @@
 ---
-title: Week 8 Graded Assignment Solution
+title: Week 8 Graded Assignment 
 weight: 8
-tags: 
-- statistics
 categories:
 - Statistics Graded Assignment
-series:
-- Statistics Graded Assignment
-excludeSearch: false
-width: wide
 ---
-
-Here are all the questions and their solutions from the **Week_8_Graded_-Solution.pdf** (Statistics for Data Science-1, Week 8 Graded Assignment)[^1]:
 
 ---
 
