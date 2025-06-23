@@ -17,7 +17,7 @@
       </div>
       <div class="card-content">
         <h3 class="card-title">{{ .Title }}</h3>
-        <p class="card-subtitle">{{- partial "utils/page-description" . -}}</p>
+        {{/*  <p class="card-subtitle">{{- partial "utils/page-description" . -}}</p>  */}}
       </div>
     </div>
   </a>
@@ -36,7 +36,6 @@
     overflow: hidden; /* Hide overflow for a cleaner look */
   }
 
- 
   .card {
     display: inline-block;
     background-color: #fff;
@@ -48,6 +47,8 @@
     border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 0; /* No padding for a cleaner look */
+    margin-bottom: 0; /* No margin at the bottom for a compact layout */
   }
 
   .card:hover {
@@ -56,13 +57,14 @@
 
   .card-image-container {
     width: 100%;
-    height: 180px; /* Adjusted image height */
+    height: 190px; /* Adjusted image height */
     overflow: hidden;
   }
 
   .card-image {
     width: 100%;
     height: 100%;
+    aspect-ratio: 9 / 16; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure image fills the container */
     display: block;
   }
