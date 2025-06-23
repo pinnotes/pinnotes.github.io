@@ -1,6 +1,6 @@
 ---
 title: Courses in the programme 🔥
-description: "IIT Madras has launched the BS in `Data Science and Applications`. In this program, the course contents are delivered online and can be studied by anyone from anywhere, while the monthly quizzes and final semester exams will have to be attended in-person at designated centres."
+description: "The number of courses the learner can choose in the IIT Madras BS in Data Science and Applications."
 date: 2020-01-01
 weight: 3
 emoji: 📃

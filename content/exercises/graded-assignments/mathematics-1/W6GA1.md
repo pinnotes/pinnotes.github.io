@@ -1,5 +1,6 @@
 ---
 title: Mathematics Week 6 Graded Assignment 
+label: Week 6
 weight: 6
 categories:
 - Mathematics Graded Assignment

@@ -1,14 +1,11 @@
 ---
 title: Mathematics Week 9 Graded Assignment
+label: Week 9
 weight: 9
-tags: 
-- mathematics
 categories:
 - Mathematics Graded Assignment
-series:
-- Mathematics Graded Assignment
-excludeSearch: false
-width: wide
+---
+
 ---
 
 ## 1. Match Functions with Graphs and Area

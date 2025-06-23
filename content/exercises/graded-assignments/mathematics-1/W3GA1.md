@@ -1,5 +1,5 @@
 ---
-title: Mathematics for Data Science 1
+title: Mathematics Week 3 Graded Assignment
 weight: 3
 label: Week 3
 keywords: 

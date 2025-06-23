@@ -144,7 +144,7 @@ params:
  
   editURL:
     enable: false
-    base: "https://github.com/your-username/your-repo/edit/main"
+    base: "https://github.com/pinnotes/your-repo/edit/main"
 
   theme:
     # light | dark | system
@@ -211,7 +211,7 @@ params:
     article:
       displayPagination: false
       showRelatedContent: true
-      relatedContentLimit: 4
+      relatedContentLimit: 8
   
   
   courses:

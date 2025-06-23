@@ -1,15 +1,10 @@
 ---
 title: Week 7 - Sequence and Limits
+label: Week 7
 weight: 7
-tags: 
-- mathematics
 categories:
 - Mathematics Graded Assignment
 - Week-7-Sequence-and-Limits
-series:
-- Mathematics Graded Assignment
-excludeSearch: false
-width: wide
 ---
 
 ## 1. Multiple Choice/Statement Analysis

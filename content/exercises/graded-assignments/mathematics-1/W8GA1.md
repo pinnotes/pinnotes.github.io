@@ -1,6 +1,8 @@
 ---
 title: Mathematics Week 8 Graded Assignment
 weight: 8
+label: Week 8
+subtitle: Week 8 Graded Assignment
 categories:
 - Mathematics Graded Assignment
 - Limits, Continuity, Differentiability, and Derivatives
@@ -27,9 +29,9 @@ Option 2: i) $\rightarrow$ b) $\rightarrow 3$
 Option 3: iii) $\rightarrow$ b) $\rightarrow 1$
 Option 4: iii) $\rightarrow$ c) $\rightarrow 2$
 Option 5: i) $\rightarrow$ a) $\rightarrow 1$
-{{< border >}}
-
 {{</ border >}}
+
+{{< border >}}
 **Solution:**
 
 - **i):** $f(x)=x2^{x}$, $f'(0)=1$ → tangent: $y=x$ → matches with b) and graph 3 **i) $\rightarrow$ b $$\rightarrow 3**  
@@ -39,7 +41,7 @@ Option 5: i) $\rightarrow$ a) $\rightarrow 1$
 **iii) $\rightarrow$ c) \$\$\rightarrow 2**
 {{</ border >}}
 
-
+{{< border >}}
 **Question 2:**
 Consider the following two functions $f(x)$ and $g(x)$:
 
@@ -64,14 +66,16 @@ Option 2: $f(x)$ is discontinuous only at $x=0$
 Option 3: $f(x)$ is discontinuous only at $x=3$
 Option 4: $g(x)$ is discontinuous at $x=2$
 Option 5: $g(x)$ is discontinuous at $x=3$
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **f(x):** Continuous at $x=0$, discontinuous at $x=3$ → **Option 3**
 - **g(x):** Continuous at $x=2$, discontinuous at $x=3$ → **Option 5**
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 3:**
 Consider the graphs given below (Curve 1, Curve 2, Curve 3, Curve 4).
 
@@ -82,7 +86,9 @@ Option 3: Curve 2 has derivative 0 at $x=0$.
 Option 4: Curve 3 is continuous but not differentiable at the origin.
 Option 5: Curve 4 is not differentiable anywhere.
 Option 6: Curve 4 has derivative 0 at $x=0$.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **Curve 1:** Continuous and differentiable at origin → **Option 1**
@@ -91,9 +97,9 @@ Option 6: Curve 4 has derivative 0 at $x=0$.
 - **Curve 4:** Differentiable at $x=1$, not everywhere, but not differentiable at all points is false; option 5 is false. Option 6 is also false.
 *Clarification: Based on solution, only Option 1 and Option 4 are correct, but solution text is unclear about Curve 2; likely Option 3 is also correct, but solution says Curve 2 is differentiable. User should verify with figure.*
 *However, as per solution: Curve 2 is differentiable at origin with derivative 0, so Option 3 is correct. Option 2 is incorrect (since Curve 2 is differentiable at origin). Option 4 is correct.*
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 4:**
 Consider the function:
 
@@ -111,14 +117,16 @@ Option 3: $f(x)$ is not differentiable at $x=0$
 Option 4: $f(x)$ is differentiable at $x=0$
 Option 5: The derivative of $f(x)$ at $x=0$ (if exists) is 0
 Option 6: The derivative of $f(x)$ at $x=0$ (if exists) is 1
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **f(x):** Continuous at $x=0$ → **Option 2**
 - **Differentiable at $x=0$, derivative is 0** → **Option 4, 5**
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 5:**
 Let $f$ be a polynomial of degree 5:
 
@@ -133,39 +141,47 @@ Option 1: $a_{1}=f'(0)$
 Option 2: $5a_{5}+3a_{3}=\frac{1}{2}\left(f'(1)+f'(-1)-2f'(0)\right)$
 Option 3: $4a_{4}+2a_{2}=\frac{1}{2}\left(f'(1)-f'(-1)\right)$
 Option 4: None of the above
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **Option 1:** $a_{1}=f'(0)$ → **True**
 - **Option 2:** $5a_{5}+3a_{3}=\frac{1}{2}\left(f'(1)+f'(-1)-2f'(0)\right)$ → **True**
 - **Option 3:** $4a_{4}+2a_{2}=\frac{1}{2}\left(f'(1)-f'(-1)\right)$ → **True**
 - **Option 4:** **False**
+{{</ border >}}
 
----
 
 ## 2. Numerical Answer Type (NAT)
 
+{{< border >}}
 **Question 6:**
 Let $f$ be a differentiable function at $x=3$. The tangent line to the graph of the function $f$ at the point $(3,0)$, passes through the point $(5,4)$. What will be the value of $f'(3)$?
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 Slope of tangent = $\frac{4-0}{5-3}=2$.
 **Answer:** $f'(3)=2$
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 7:**
 Let $f$ and $g$ be two functions which are differentiable at each $x \in \mathbb{R}$. Suppose that, $f(x)=g(x^{2}+5x)$, and $f'(0)=10$. Find the value of $g'(0)$.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 $f'(x)=g'(x^{2}+5x)(2x+5)$
 At $x=0$, $f'(0)=g'(0)\times5=10$
 **Answer:** $g'(0)=2$
+{{</ border >}}
 
----
 
 ## 3. Comprehension Type Questions
 
+{{< border >}}
 **Question 8:**
 Consider the following statements:
 
@@ -193,16 +209,18 @@ e^{4} & t=2 \\
 $$
 
 Find the number of the correct statements.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **p(t):** Continuous at $t=3$
 - **q(t):** Not continuous at $t=2$ (left limit $e^5$, right limit $e^4$)
 **Only Statement Q is correct.**
 **Answer:** 1
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 9:**
 If $L_p(t)=At+B$ denotes the best linear approximation of the function $p(t)$ at the point $t=1$, then find the value of $2A+B$.
 
@@ -212,20 +230,22 @@ $p(1)=13$, $p'(1)=5$
 Linear approximation: $L_p(t)=5t+8$
 So, $A=5$, $B=8$
 **Answer:** $2A+B=18$
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 10:**
 If $L_q(t)=e^{4}(At+B)+Ce^{5}$ denotes the best linear approximation of the function $q(t)$ at the point $t=3$, then find the value of $A+B+C$.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 $q(3)=e^{5}-e^{4}$, $q'(3)=e^{4}$
 Linear approximation: $L_q(t)=e^{4}(t-4)+e^{5}$
 So, $A=1$, $B=-4$, $C=1$
 **Answer:** $A+B+C=-2$
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 11:**
 Consider a function $f: \mathbb{R} \rightarrow \mathbb{R}$ defined as:
 
@@ -237,24 +257,28 @@ B & \text{if } x=0
 $$
 
 If $f(x)$ is continuous at $x=0$, then find the value of $114B-A$.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 For continuity, $A=-14$
 $B=\frac{-2730}{114}$
 **Answer:** $114B-A=-2716$
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 12:**
 The distance (in meters) traveled by a car after $t$ minutes is given by the function $d(t)=g(4t^{3}+2t^{2}+5t+2)$, where $g$ is a differentiable function with domain $\mathbb{R}$. Find the instantaneous speed of the car after 5 min, where $g'(577)=2$.
+{{< border >}}
 
+{{</ border >}}
 **Solution:**
 $d'(t)=g'(4t^{3}+2t^{2}+5t+2)(12t^{2}+4t+5)$
 At $t=5$, $d'(5)=g'(577)\times325=2\times325=650$
 **Answer:** 650
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 13:**
 Consider the functions:
 
@@ -278,27 +302,31 @@ S: $q(t)$ is continuous, $p(t)$ is not differentiable
 T: Neither is continuous
 
 Find the number of correct statements.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 
 - **p(t):** Not continuous at $t=2$
 - **q(t):** Continuous, but not differentiable at $x=0,7,8$
 **Only S is correct.**
 **Answer:** 1
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 14:**
 If linear function $L_p(t)=At+B$ denotes the best linear approximation of the function $p(t)$ at the point $t=1$, find the value of $\frac{-2}{e^{-1}-1}(A+B)$.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 $A+B=p(1)$
 $p(1)=\frac{2e^{-1}-2}{-1}=2(1-e^{-1})$
 $\frac{-2}{e^{-1}-1}(A+B)=4$
 **Answer:** 4
+{{</ border >}}
 
----
-
+{{< border >}}
 **Question 15:**
 Consider the function:
 
@@ -307,15 +335,17 @@ q(t)=|t(t-7)(t-8)|
 $$
 
 If $m$ is slope of the tangent of the function $q(t)$ at point $t=\frac{3}{2}$, find the value $m-\frac{27}{4}$.
+{{</ border >}}
 
+{{< border >}}
 **Solution:**
 For $0 \leq t < 7$, $q(t)=t(t-7)(t-8)$
 $q'(t)=3t^{2}-30t+56$
 $q'\left(\frac{3}{2}\right)=\frac{27}{4}-45+56=\frac{27}{4}+11$
 But solution says $m-\frac{27}{4}=11$
 **Answer:** 11
+{{</ border >}}
 
----
 
 This covers all questions and solutions from the provided PDF[^1].
 
