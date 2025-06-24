@@ -1,18 +1,9 @@
 ---
-title: Week 6 Practice Assignment Solution
+title: Week 6 Practice Assignment 
 weight: 6
-tags: 
-- Mathematics
-- Mathematics for Data Science - 1
-- Practice Assignment
-- Week-6
 categories:
 - Mathematics Practice Assignment
-series:
-- Mathematics Practice Assignment
 ---
-
-Here are all the questions and their solutions extracted from the PDF "Week-6-practice-assignment-solution.pdf"[^1]:
 
 ---
 

@@ -1,18 +1,9 @@
 ---
-title: Week 7 Practice Assignment Solution
+title: Week 7 Practice Assignment 
 weight: 7
-tags: 
-- Mathematics
-- Mathematics for Data Science - 1
-- Practice Assignment
-- Week-7
 categories:
 - Mathematics Practice Assignment
-series:
-- Mathematics Practice Assignment
 ---
-
-Below are all the questions and their solutions extracted from the provided PDF: **Week-7-practice-assignment-solution.pdf**[^1].
 
 ---
 
