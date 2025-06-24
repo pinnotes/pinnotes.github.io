@@ -1,4 +1,5 @@
 ---
+title: Python Week 1
 weight: 1
 subject: programming
 subtitle: Graded Assignment
