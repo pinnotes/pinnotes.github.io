@@ -8,17 +8,20 @@ excludeSearch: false
 weight: 6.5
 ---
 
+{{< border type="question" >}}
 1. English belongs to ----------------- language family.
 
 Munda
 
-Tibeto-burman
+Tibe-to-burman
 
 Dravidian
 
 Indo Aryan
 
 None of these
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information provided in the sources:
 
@@ -33,11 +36,14 @@ Thus, drawing on the information in the sources, the correct answer among the ch
 **None of these**
 {{< /border >}}
 
+{{< border type="question" >}}
 2. Elasticity and flexibility are basic features of any language.
 
 True
 
 False
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information provided in the sources, the statement "Elasticity and flexibility are basic features of any language" is **True**.
 
@@ -51,6 +57,7 @@ The sources explicitly discuss these characteristics when describing how languag
 These descriptions, particularly those referring to "languages" in a general sense, support the idea that elasticity and flexibility are inherent characteristics of languages.
 {{< /border >}}
 
+{{< border type="question" >}}
 3. There are _____ language families in India.
 
 2
@@ -60,6 +67,8 @@ These descriptions, particularly those referring to "languages" in a general sen
 3
 
 6
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, there are **five** main language families in India.
 
@@ -73,11 +82,14 @@ The sources list these families as:
 Examples of languages from these families and their locations are also provided. This diversity contributes to the multilingual nature of Indian society, which is described as being "a very fabric of our society".
 {{< /border >}}
 
+{{< border type="question" >}}
 4. Monolingualism is the very fabric of our society. 
 
 True
 
 False
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the statement "Monolingualism is the very fabric of our society" is **False**.
 
@@ -86,11 +98,14 @@ The sources explicitly state that **"Multilingualism is a very fabric of our soc
 Furthermore, the sources discuss monolingualism as a common misconception among some teachers and people, suggesting that children should only be exposed to a single language like English. This view is presented as incorrect, as **"Multilingualism is a very fabric of our society"** and **"Our brain is equipped to be multilingual; we are multilingual in nature"**. Multilingualism is also noted to have significant benefits, especially cognitive ones.
 {{< /border >}}
 
+{{< border type="question" >}}
 5. First language/mother tongue aids the learning of a second language.
 
 True
 
 False
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the statement "First language/mother tongue aids the learning of a second language" is **True**.
 

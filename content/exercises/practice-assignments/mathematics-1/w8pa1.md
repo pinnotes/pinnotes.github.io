@@ -1,18 +1,9 @@
 ---
-title: Week 8 Practice Assignment Solution
+title: Week 8 Practice Assignment 
 weight: 8
-tags: 
-- Mathematics
-- Mathematics for Data Science - 1
-- Practice Assignment
-- Week-8
 categories:
 - Mathematics Practice Assignment
-series:
-- Mathematics Practice Assignment
 ---
-
-Based on the available resource for the **Week 8 Practice Assignment Solution** PDF (Mathematics for Data Science - 2: Limits, Continuity, Differentiability, and the derivative), here are all the questions and solutions extracted[^1].
 
 ---
 

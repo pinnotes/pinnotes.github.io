@@ -1,18 +1,9 @@
 ---
-title: Week 4 Practice Assignment Solution
+title: Week 4 Practice Assignment 
 weight: 4
-tags: 
-- Mathematics
-- Mathematics for Data Science - 1
-- Practice Assignment
-- Week-4
 categories:
 - Mathematics Practice Assignment
-series:
-- Mathematics Practice Assignment
 ---
-
-Below are all the questions and their solutions extracted from the provided PDF "Week-4-Practice-Assignment-Solution.pdf"[^1].
 
 ---
 
