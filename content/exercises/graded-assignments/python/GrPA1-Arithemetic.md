@@ -3,7 +3,7 @@ title: GrPA 1 Numbers (Arithemetic)
 label: Graded
 weight: 1
 subject: programming
-subtitle: GrPA 1
+subtitle: Week 1 GrPA
 categories:
 - Python Graded Assignment
 ---
