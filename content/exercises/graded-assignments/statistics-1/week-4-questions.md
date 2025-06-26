@@ -51,12 +51,21 @@ Therefore, Population standard deviation of sales of OnePlus = $\sqrt{\sigma_x^2
 
 {{< qna/question >}}
 The value of a: {{% qna/variable name="a" value="2" %}} meters.
+
 b = {{< qna/variable name="b" value="3" >}} meters.
-{{< qna/formula label="sum" title="Sum of " value="a + b" >}}
-   The sum is: {{< qna/formula-value label="sum" >}}
-  {{< qna/formula label="average" title="Average of a and b is " value="sum / 2" >}}
-   The average is: {{< qna/formula-value label="average" >}}
-  {{< qna/result >}}
+
+{{< qna/formula label="sum" title="Sum of " value="a + b" hide="false" >}}
+
+**Formula**: Sum of a + b = {{< qna/variable-value name="a" >}} + {{< qna/variable-value name="b" >}}
+
+The sum is: {{< qna/formula-value label="sum" >}}
+
+{{< qna/formula label="average" title="Average of a and b is " value="sum / 2" >}}
+
+The average is: {{< qna/formula-value label="average" >}}
+
+{{< qna/result >}}
+
 {{< /qna/question >}}
 
 #### 2. What is the sample standard deviation of sales of BBK Electronics? (Enter the answer correct to 2 decimal accuracy)

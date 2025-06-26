@@ -77,10 +77,22 @@ Note: You must update your JS to read .textContent instead of .value for these v
     border-color: #007bff;
   }                 
   .calc-variable{
-  border: 1px solid #007bff;
-  border-radius: 8px;
-  padding: 3px;
-  padding-top: 0;
-  padding-bottom: 0;
+    /* Basic styling for the editable span */
+    display: inline-block;
+    min-width: 1.5em; /* Ensure it's not too small when empty */
+    padding: 0.2em 0.5em;
+    border-bottom: 2px solid #ccc; /* Add a bottom border to indicate it's editable */
+    transition: all 0.2s ease-in-out;
+    cursor: text;
+    text-align: center;
+    font-weight: bold;
+    color: #007bff; /* A distinct color */
   }      
+  .calc-variable:focus{
+   /* Style when the user is editing the content */
+    outline: none; /* Remove default browser outline */
+    border-color: #007bff; /* Change border color on focus */
+    background-color: #e9f5ff; /* Light background on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle glow */
+  }
 </style>

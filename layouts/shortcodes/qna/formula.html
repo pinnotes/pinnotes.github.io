@@ -22,11 +22,22 @@
 
 {{ $label := .Get "label" | default (printf "formula_%s" $wrapper) }}
 {{ $title := .Get "title" | default $label }}
+{{ $hide := .Get "hide" | default "true" }}
+
+{{/*  {{ if not (eq $hide "true") }}  */}}
 <div>
-  <label class="calc-label" for="formula-{{ $wrapper }}">
+  <label class="calc-label" for="formula-{{ $wrapper }}" style="{{ if eq $hide "true" }}display:none;{{ end }}">
     {{ $title }}
   </label>
-  <span class="calc-formula" id="formula-{{ $wrapper }}" data-calc-formula="{{ .Get "value" | default "a + b" }}" data-calc-label="{{ $label }}">
+  <span 
+  class="calc-formula"
+   id="formula-{{ $wrapper }}"
+    data-calc-formula="{{ .Get "value" | default "a + b" }}"
+     data-calc-label="{{ $label }}"
+     data-calc-hide="{{ $hide }}"
+     style="{{ if eq $hide "true" }}display:none;{{ end }}"
+     >
     {{ .Get "value" | default "a + b" }}<span class="calc-formula-result"></span>
   </span>
 </div>
+{{/*  {{ end }}  */}}
