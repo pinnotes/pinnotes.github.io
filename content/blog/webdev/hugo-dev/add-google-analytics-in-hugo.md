@@ -1,21 +1,21 @@
 ---
-title: how to add google analytics in hugo
+title: Add Google Analytics in HUGO 🌟
 linkTitle: Add Google analytics
 tags:
-- chart.js
+- HUGO
+keywords:
+- google analytics
+- HUGO
+- webdev
+- web development
+- tracking
 svg: true
 icon: 🌟
-excludeSearch: false
-width: wide
-series: ["HUGO-DEV"]
+series: ["HUGO"]
 series_order: 1
-excludeSearch: false
-chapter: 3
 ---
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# how to add google analytics in hugo
+## how to add google analytics in hugo
 
 To add Google Analytics to your Hugo site, follow these clear steps:
 
