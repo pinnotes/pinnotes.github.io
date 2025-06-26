@@ -21,9 +21,10 @@
 </div>  */}}
 
 {{ $label := .Get "label" | default (printf "formula_%s" $wrapper) }}
+{{ $title := .Get "title" | default $label }}
 <div>
   <label class="calc-label" for="formula-{{ $wrapper }}">
-    {{ $label }}
+    {{ $title }}
   </label>
   <span class="calc-formula" id="formula-{{ $wrapper }}" data-calc-formula="{{ .Get "value" | default "a + b" }}" data-calc-label="{{ $label }}">
     {{ .Get "value" | default "a + b" }}<span class="calc-formula-result"></span>

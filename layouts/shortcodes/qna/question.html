@@ -1,28 +1,27 @@
 {{/* Generate a unique ID for this instance */}} {{- $wrapperId :=
 .Page.Scratch.Get "addCounter" | default 0 -}} {{- .Page.Scratch.Set
-"addCounter" (add $wrapperId 1) -}} 
-
-{{ $type := .Get "type" | default "basic" }}
-
+"addCounter" (add $wrapperId 1) -}} {{ $type := .Get "type" | default "basic" }}
 
 <div class="calc-wrapper calc-type-{{ $type }}" id="{{ $wrapperId }}">
   <div class="calc-fields">
     {{ .Inner | .Page.RenderString (dict "wrapperId" $wrapperId) }}
   </div>
   <button class="calc-btn" onclick="calc_('{{ $wrapperId }}')">
-    Calculate
+   👉 Answer
   </button>
 </div>
-
 
 <script>
   function calc_(Id) {
     var wrapper = document.getElementById(Id);
-    var inputs = wrapper.querySelectorAll("input[data-calc-var]");
+    // Select both input and contenteditable span elements
+    var inputs = wrapper.querySelectorAll("[data-calc-var]");
     var vars = {};
     inputs.forEach(function (input) {
       var name = input.getAttribute("data-calc-var");
-      vars[name] = parseFloat(input.value) || 0;
+      // Use .value for input elements, .textContent for others (like span)
+      var val = input.value !== undefined ? input.value : input.textContent;
+      vars[name] = parseFloat(val) || 0;
     });
 
     // Evaluate formulas in order, storing results by label
@@ -32,13 +31,21 @@
       var formula = formulaEl.getAttribute("data-calc-formula");
       // Replace all variable names in the formula with their values
       Object.keys(vars).forEach(function (name) {
-        var re = new RegExp("\\b" + name + "\\b", "g");
-        formula = formula.replace(re, vars[name]);
+        formula = formula.replace(
+          /\b[a-zA-Z_][a-zA-Z0-9_]*\b/g,
+          function (match) {
+            return vars.hasOwnProperty(match) ? vars[match] : 0;
+          }
+        );
       });
       // Replace previous formula results by label
       Object.keys(vars).forEach(function (name) {
-        var re = new RegExp("\\b" + name + "\\b", "g");
-        formula = formula.replace(re, vars[name]);
+        formula = formula.replace(
+          /\b[a-zA-Z_][a-zA-Z0-9_]*\b/g,
+          function (match) {
+            return vars.hasOwnProperty(match) ? vars[match] : 0;
+          }
+        );
       });
       try {
         var result = eval(formula);
@@ -47,14 +54,15 @@
         var valueSpan = wrapper.querySelector(
           '[data-calc-value="' + label + '"]'
         );
-        if (valueSpan) valueSpan.textContent = result;
+        if (valueSpan) valueSpan.textContent = Number(result).toLocaleString(undefined, { maximumFractionDigits: 5 });
         // Show result in the formula label if a result span exists
         var resultSpan = formulaEl.parentElement.querySelector(
           ".calc-formula-result"
         );
-        if (resultSpan) resultSpan.textContent = " = " + result;
+        if (resultSpan)
+          resultSpan.textContent = " = " + Number(result).toLocaleString(undefined, { maximumFractionDigits: 5 });
       } catch (e) {
-        if (resultSpan) resultSpan.textContent = " = Error";
+        if (resultSpan) resultSpan.textContent = " = Error🚫";
       }
     });
 
@@ -64,59 +72,107 @@
       : null;
     var answerDiv = wrapper.querySelector(".calc-answer");
     if (answerDiv && lastLabel && vars[lastLabel] !== undefined) {
-      answerDiv.textContent = "Result: " + vars[lastLabel];
+      answerDiv.textContent = "✅ Result: " + Number(vars[lastLabel]).toLocaleString(undefined, { maximumFractionDigits: 5 });
     }
   }
+  // Calculate result on window load
+  window.addEventListener("DOMContentLoaded", function () {
+    calc_("{{ $wrapperId }}");
+  });
+
+  // To calculate the result automatically when the user edits a variable (contenteditable or input),
+  // add an event listener for input and change events on all [data-calc-var] elements.
+  window.addEventListener("DOMContentLoaded", function () {
+    calc_("{{ $wrapperId }}");
+    // Listen for changes on all variable fields
+    var wrapper = document.getElementById("{{ $wrapperId }}");
+    if (wrapper) {
+      wrapper.querySelectorAll("[data-calc-var]").forEach(function (el) {
+        el.addEventListener("input", function () {
+          calc_("{{ $wrapperId }}");
+        });
+        // For input elements, also listen to 'change'
+        el.addEventListener("change", function () {
+          calc_("{{ $wrapperId }}");
+        });
+      });
+    }
+  });
 </script>
 
-
 <style>
-.calc-wrapper {
-  padding: 1em 1em;
-  border-radius: 12px;
-  background: #f9f9f9;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  font-family: system-ui, sans-serif;
-  transition: background 0.3s, color 0.3s,;
-  border: 3px solid #e0e0e0;
-
-  h1,h2,h3,h4,h5,h6{
-  margin-top: 0;
-  }
-    p{
-    margin-top: 1rem;
-    }
-    ol{
-    margin-top: 0;
-    }
-    .katex-display{
-    margin: 0;
-    margin-top: 0.5rem;
-    }
-}
-
-.calc-wrapper::-webkit-scrollbar{
-  display: none; /* Hide scrollbar for WebKit browsers */
-}
-
-/* Border styles for each type */
-.calc-type-basic      { border: 3px solid #0078d4; }
-.calc-type-question   { border: 3px dashed #e67e22; }
-.calc-type-bonus      { border: 3px double #27ae60; }
-.calc-type-conclusion { border: 3px solid #8e44ad; }
-.calc-type-answer     { border: 3px solid #4caf50; }
-
-html:is(.dark) {
   .calc-wrapper {
-    background: #23272f;
-    color: #f3f3f3;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.32);
-    border-color: #444;
+    padding: 1em 1em;
+    border-radius: 12px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    font-family: system-ui, sans-serif;
+    transition: background 0.3s, color 0.3s;
+    border: 3px solid #e0e0e0;
+    margin-top: 2rem;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0;
+    }
+    p {
+      margin-top: 1rem;
+    }
+    ol {
+      margin-top: 0;
+    }
+    .katex-display {
+      margin: 0;
+      margin-top: 0.5rem;
+    }
   }
-  .calc-type-basic      { border-color: #4fa3ff; }
-  .calc-type-question   { border-color: #f39c12; }
-  .calc-type-bonus      { border-color: #2ecc71; }
-  .calc-type-conclusion { border-color: #9b59b6; }
-  .calc-type-answer     { border-color: #4caf50; }
-}
+
+  .calc-wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+  }
+
+  /* Border styles for each type */
+  .calc-type-basic {
+    border: 3px solid #0078d4;
+  }
+  .calc-type-question {
+    border: 3px dashed #e67e22;
+  }
+  .calc-type-bonus {
+    border: 3px double #27ae60;
+  }
+  .calc-type-conclusion {
+    border: 3px solid #8e44ad;
+  }
+  .calc-type-answer {
+    border: 3px solid #4caf50;
+  }
+
+  html:is(.dark) {
+    .calc-wrapper {
+      background: #23272f;
+      color: #f3f3f3;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.32);
+      border-color: #444;
+    }
+    .calc-type-basic {
+      border-color: #4fa3ff;
+    }
+    .calc-type-question {
+      border-color: #f39c12;
+    }
+    .calc-type-bonus {
+      border-color: #2ecc71;
+    }
+    .calc-type-conclusion {
+      border-color: #9b59b6;
+    }
+    .calc-type-answer {
+      border-color: #4caf50;
+    }
+  }
 </style>

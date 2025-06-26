@@ -1,0 +1,86 @@
+{{ $wrapper := .Parent.Get "wrapperId" }}
+{{/*  <div>
+  <label class="calc-label" for="input-{{ $wrapper }}-{{ .Get "name" }}">{{ .Get "name" | title }}:</label>
+  <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">
+</div>  */}}
+{{/*  <p>
+  <label class="calc-label" for="input-{{ $wrapper }}-{{ .Get "name" }}">{{ .Get "name" | title }}:</label>
+  <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">
+</p>  */}}
+
+  {{/*  <label class="calc-label" for="input-{{ $wrapper }}-{{ .Get "name" }}">{{ .Get "name" | title }}:</label>  */}}
+  {{/*  <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">  */}}
+  {{/*  <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">  */}}
+
+
+{{/*  <span>
+  <label class="calc-label" for="input-{{ $wrapper }}-{{ .Get "name" }}">{{ .Get "name" | title }}:</label>
+  <input class="calc-input" type="number" id="input-{{ $wrapper }}-{{ .Get "name" }}" data-calc-var="{{ .Get "name" }}" value="{{ .Get "value" | default "0" }}">
+</span>  */}}
+
+{{/*  <span>
+  <label class="calc-label" for="input-{{ $wrapper }}-{{ .Get "name" }}">{{ .Get "name" | title }}:</label>
+  <span
+    class="calc-input"
+    id="input-{{ $wrapper }}-{{ .Get "name" }}"
+    data-calc-var="{{ .Get "name" }}"
+    contenteditable="true"
+    spellcheck="false"
+    style="display:inline-block; min-width:3ch;"
+  >{{ .Get "value" | default "0" }}</span>
+</span>  */}}
+
+{{/*  <span>
+  <span
+    class="calc-input"
+    id="input-{{ $wrapper }}-{{ .Get "name" }}"
+    data-calc-var="{{ .Get "name" }}"
+    contenteditable="true"
+    spellcheck="false"
+    style="display:inline-block; min-width:1ch;"
+  >{{ .Get "value" | default "0" }}</span>
+</span>  */}}
+
+{{/*  <span>
+  <code
+   class="calc-input"
+    id="input-{{ $wrapper }}-{{ .Get "name" }}"
+    data-calc-var="{{ .Get "name" }}"
+    contenteditable="true"
+    spellcheck="false"
+    style="display:inline-block; min-width:1ch;">
+    {{ .Get "value" | default "0" }}
+  </code>
+</span>  */}}
+
+<span>
+<span
+   class="calc-input calc-variable"
+    id="input-{{ $wrapper }}-{{ .Get "name" }}"
+    data-calc-var="{{ .Get "name" }}"
+    contenteditable="true"
+    spellcheck="false"
+    style="display:inline-block; min-width:1ch;">
+    {{ .Get "value" | default "0" }}</span></span>
+
+{{/* 
+TODO:
+Note: You must update your JS to read .textContent instead of .value for these variables.  */}}
+
+<style>
+  .calc-input {
+    max-width: 50ch;
+    text-align: center;
+  }
+  .calc-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }                 
+  .calc-variable{
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  padding: 3px;
+  padding-top: 0;
+  padding-bottom: 0;
+  }      
+</style>

@@ -13,13 +13,13 @@ categories:
 
 | Dealer's Location | OnePlus | BBK Electronics |
 | :-- | :-- | :-- |
-| Chennai | {{< qna/input name="a" value="2" >}} | {{< qna/input name="b" value="2" >}} |
-| Punjab | {{< qna/input name="c" value="2" >}} | {{< qna/input name="d" value="2" >}} |
-| Chennai | {{< qna/input name="e" value="2" >}} | {{< qna/input name="f" value="2" >}} |
-| Punjab | {{< qna/input name="g" value="2" >}} | {{< qna/input name="h" value="2" >}} |
-| Chennai | {{< qna/input name="i" value="2" >}} | {{< qna/input name="j" value="2" >}} |
-| Punjab | {{< qna/input name="k" value="2" >}} | {{< qna/input name="l" value="2" >}} |
-| Chennai | {{< qna/input name="m" value="2" >}} | {{< qna/input name="n" value="2" >}} |
+| Chennai | {{< qna/variable name="a" value="2" >}} | {{< qna/variable name="b" value="2" >}} |
+| Punjab | {{< qna/variable name="c" value="2" >}} | {{< qna/variable name="d" value="2" >}} |
+| Chennai | {{< qna/variable name="e" value="2" >}} | {{< qna/variable name="f" value="2" >}} |
+| Punjab | {{< qna/variable name="g" value="2" >}} | {{< qna/variable name="h" value="2" >}} |
+| Chennai | {{< qna/variable name="i" value="2" >}} | {{< qna/variable name="j" value="2" >}} |
+| Punjab | {{< qna/variable name="k" value="2" >}} | {{< qna/variable name="l" value="2" >}} |
+| Chennai | {{< qna/variable name="m" value="2" >}} | {{< qna/variable name="n" value="2" >}} |
 
 
 #### 1. What is the population standard deviation of sales of OnePlus? (Enter the answer correct to 2 decimal accuracy)
@@ -31,7 +31,7 @@ $$
 m_x = \frac{a+c+e+g+i+k+m}{7}
 $$
 
-  {{< qna/formula label="mean" value="((a+b+c+d+e+f+g+h+i+j+k+l+m+n))/7" >}}
+  {{< qna/formula label="mean" title="Mean = " value="((a+b+c+d+e+f+g+h+i+j+k+l+m+n))/7" >}}
 
 $$
 \sigma_x^2 = \frac{(a - m_x)^2 + (c - m_x)^2 + (e - m_x)^2 + (g - m_x)^2 + (i - m_x)^2 + (k - m_x)^2 + (m - m_x)^2}{7}
@@ -50,11 +50,11 @@ Therefore, Population standard deviation of sales of OnePlus = $\sqrt{\sigma_x^2
 ---
 
 {{< qna/question >}}
-  {{< qna/input name="a" value="2" >}}
-  {{< qna/input name="b" value="3" >}}
-  {{< qna/formula label="sum" value="a + b" >}}
+The value of a: {{% qna/variable name="a" value="2" %}} meters.
+b = {{< qna/variable name="b" value="3" >}} meters.
+{{< qna/formula label="sum" title="Sum of " value="a + b" >}}
    The sum is: {{< qna/formula-value label="sum" >}}
-  {{< qna/formula label="average" value="sum / 2" >}}
+  {{< qna/formula label="average" title="Average of a and b is " value="sum / 2" >}}
    The average is: {{< qna/formula-value label="average" >}}
   {{< qna/result >}}
 {{< /qna/question >}}
