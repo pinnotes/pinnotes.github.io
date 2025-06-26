@@ -13,13 +13,13 @@ categories:
 
 | Dealer's Location | OnePlus | BBK Electronics |
 | :-- | :-- | :-- |
-| Chennai | {{< qna/variable name="a" value="2" >}} | {{< qna/variable name="b" value="2" >}} |
-| Punjab | {{< qna/variable name="c" value="2" >}} | {{< qna/variable name="d" value="2" >}} |
-| Chennai | {{< qna/variable name="e" value="2" >}} | {{< qna/variable name="f" value="2" >}} |
-| Punjab | {{< qna/variable name="g" value="2" >}} | {{< qna/variable name="h" value="2" >}} |
-| Chennai | {{< qna/variable name="i" value="2" >}} | {{< qna/variable name="j" value="2" >}} |
-| Punjab | {{< qna/variable name="k" value="2" >}} | {{< qna/variable name="l" value="2" >}} |
-| Chennai | {{< qna/variable name="m" value="2" >}} | {{< qna/variable name="n" value="2" >}} |
+| Chennai | {{< qna/var name="a" value="2" >}} | {{< qna/var name="b" value="2" >}} |
+| Punjab | {{< qna/var name="c" value="2" >}} | {{< qna/var name="d" value="2" >}} |
+| Chennai | {{< qna/var name="e" value="2" >}} | {{< qna/var name="f" value="2" >}} |
+| Punjab | {{< qna/var name="g" value="2" >}} | {{< qna/var name="h" value="2" >}} |
+| Chennai | {{< qna/var name="i" value="2" >}} | {{< qna/var name="j" value="2" >}} |
+| Punjab | {{< qna/var name="k" value="2" >}} | {{< qna/var name="l" value="2" >}} |
+| Chennai | {{< qna/var name="m" value="2" >}} | {{< qna/var name="n" value="2" >}} |
 
 
 #### 1. What is the population standard deviation of sales of OnePlus? (Enter the answer correct to 2 decimal accuracy)
@@ -50,13 +50,13 @@ Therefore, Population standard deviation of sales of OnePlus = $\sqrt{\sigma_x^2
 ---
 
 {{< qna/question >}}
-The value of a: {{% qna/variable name="a" value="2" %}} meters.
+The value of a: {{% qna/var name="a" value="2" %}} meters.
 
-b = {{< qna/variable name="b" value="3" >}} meters.
+b = {{< qna/var name="b" value="3" >}} meters.
 
 {{< qna/formula label="sum" title="Sum of " value="a + b" hide="false" >}}
 
-**Formula**: Sum of a + b = {{< qna/variable-value name="a" >}} + {{< qna/variable-value name="b" >}}
+**Formula**: Sum of a + b = {{< qna/var-value name="a" >}} + {{< qna/var-value name="b" >}}
 
 The sum is: {{< qna/formula-value label="sum" >}}
 

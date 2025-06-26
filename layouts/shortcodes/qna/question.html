@@ -74,125 +74,36 @@
     if (answerDiv && lastLabel && vars[lastLabel] !== undefined) {
       answerDiv.textContent = "✅ Result: " + Number(vars[lastLabel]).toLocaleString(undefined, { maximumFractionDigits: 5 });
     }
+    
+    // Update all variable-value spans for this wrapper
+    updateVariableValueSpans(wrapper, vars);
   }
-  // Calculate result on window load
+  
+
+  // Update all variable-value spans for this wrapper using current vars
+  function updateVariableValueSpans(wrapper, vars) {
+    if (!wrapper) return;
+    wrapper.querySelectorAll('.qna-variable-value').forEach(function(el) {
+      var name = el.getAttribute('data-var-name');
+      el.textContent = (vars && vars[name] !== undefined) ? vars[name] : '';
+    });
+  }
+
+  // Calculate result on window load and set up listeners
   window.addEventListener("DOMContentLoaded", function () {
     calc_("{{ $wrapperId }}");
-  });
-
-  // To calculate the result automatically when the user edits a variable (contenteditable or input),
-  // add an event listener for input and change events on all [data-calc-var] elements.
-  {{/*  window.addEventListener("DOMContentLoaded", function () {
-    calc_("{{ $wrapperId }}");
-    // Listen for changes on all variable fields
     var wrapper = document.getElementById("{{ $wrapperId }}");
     if (wrapper) {
       wrapper.querySelectorAll("[data-calc-var]").forEach(function (el) {
         el.addEventListener("input", function () {
           calc_("{{ $wrapperId }}");
         });
-        // For input elements, also listen to 'change'
         el.addEventListener("change", function () {
           calc_("{{ $wrapperId }}");
         });
       });
     }
-  });  */}}
-
-
-// Store each variable's value to localStroage on input/change.
-// On page load, restore values from localStroage (if present).
-
-// Helper to get a unique key for each variable in this calculator
-function getVarKey(wrapperId, varName) {
-  return "calc_" + wrapperId + "_" + varName;
-}
-
-{{/*  function saveVarsToLocal(wrapperId) {
-  var wrapper = document.getElementById(wrapperId);
-  if (!wrapper) return;
-  wrapper.querySelectorAll("[data-calc-var]").forEach(function (el) {
-    var name = el.getAttribute("data-calc-var");
-    var val = el.value !== undefined ? el.value : el.textContent;
-    localStorage.setItem(getVarKey(wrapperId, name), val);
   });
-}  */}}
-
-// And in your JS (in question.html), after every input/change, store the value in localStorage by variable name:
-
-function saveVarsToLocalByName(wrapperId) {
-  var wrapper = document.getElementById(wrapperId);
-  if (!wrapper) return;
-  wrapper.querySelectorAll("[data-calc-var]").forEach(function (el) {
-    var name = el.getAttribute("data-calc-var");
-    var val = el.value !== undefined ? el.value : el.textContent;
-    localStorage.setItem("qna_var_" + name, val);
-  });
-}
-
-// Call this function whenever a variable is updated:
-window.addEventListener("DOMContentLoaded", function () {
-  var wrapper = document.getElementById("{{ $wrapperId }}");
-  if (wrapper) {
-    wrapper.querySelectorAll("[data-calc-var]").forEach(function (el) {
-      el.addEventListener("input", function () {
-        saveVarsToLocalByName("{{ $wrapperId }}");
-        calc_("{{ $wrapperId }}");
-        updateVariableValueSpans();
-      });
-      el.addEventListener("change", function () {
-        saveVarsToLocalByName("{{ $wrapperId }}");
-        calc_("{{ $wrapperId }}");
-        updateVariableValueSpans();
-      });
-    });
-  }
-  updateVariableValueSpans();
-});
-
-// Function to update all variable-value spans
-function updateVariableValueSpans() {
-  document.querySelectorAll('.qna-variable-value').forEach(function(el) {
-    var name = el.getAttribute('data-var-name');
-    var val = localStorage.getItem('qna_var_' + name);
-    el.textContent = val !== null ? val : '';
-  });
-}
-
-function restoreVarsFromLocal(wrapperId) {
-  var wrapper = document.getElementById(wrapperId);
-  if (!wrapper) return;
-  wrapper.querySelectorAll("[data-calc-var]").forEach(function (el) {
-    var name = el.getAttribute("data-calc-var");
-    var stored = localStorage.getItem(getVarKey(wrapperId, name));
-    if (stored !== null) {
-      if (el.value !== undefined) {
-        el.value = stored;
-      } else {
-        el.textContent = stored;
-      }
-    }
-  });
-}
-
-// On DOMContentLoaded, restore values and set up listeners
-window.addEventListener("DOMContentLoaded", function () {
-  restoreVarsFromLocal("{{ $wrapperId }}");
-  calc_("{{ $wrapperId }}");
-  var wrapper = document.getElementById("{{ $wrapperId }}");
-  if (wrapper) {
-    wrapper.querySelectorAll("[data-calc-var]").forEach(function (el) {
-      el.addEventListener("input", function () {
-        saveVarsToLocal("{{ $wrapperId }}");
-        calc_("{{ $wrapperId }}");
-      });
-      el.addEventListener("change", function () {
-        saveVarsToLocal("{{ $wrapperId }}");
-        calc_("{{ $wrapperId }}");
-      });
-    });
-  }
-});
 
 </script>
 
