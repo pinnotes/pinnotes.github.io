@@ -1,20 +1,21 @@
 ---
-title: integrate google adsence in hugo with ads customization
-linkTitle: Add Google Adsence
+title: Monetize Your Hugo Site with Google AdSense 💰
+linkTitle: Add Google Adsence 💵
 tags:
-- chart.js
+- HUGO
+keywords:
+- google adsense
+- HUGO
+- ads customization
+- webdev
+- web development
 svg: true
 icon: 🌟
-excludeSearch: false
-width: wide
-series: ["HUGO-DEV"]
+series: ["HUGO"]
 series_order: 1
-excludeSearch: false
-chapter: 3
 ---
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# integrate google adsence in hugo with ads customization
+## integrate google adsence in hugo with ads customization
 
 To integrate Google AdSense into your Hugo website with ad customization, follow these clear steps. This process works for most Hugo themes (including PaperMod, Blowfish, Academic, and others) and allows you to control where and how ads appear.
 
