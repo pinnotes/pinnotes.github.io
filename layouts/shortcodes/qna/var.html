@@ -42,4 +42,16 @@ Note: You must update your JS to read .textContent instead of .value for these v
     background-color: #e9f5ff; /* Light background on focus */
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle glow */
   }
+ html:is(.dark) {
+    .calc-variable {
+      border-bottom: 2px solid #555;
+      color: #66bfff;
+      background-color: #181c20;
+    }
+    .calc-variable:focus {
+      border-color: #66bfff;
+      background-color: #22303a;
+      box-shadow: 0 0 5px rgba(102, 191, 255, 0.5);
+    }
+  }
 </style>

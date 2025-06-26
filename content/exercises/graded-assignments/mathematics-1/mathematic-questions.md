@@ -65,7 +65,7 @@ For parabola y = ax² + bx + c, the slope at any point is:
 
 **Step 2: Set up equations using given conditions** 📐
 
-At point ({{< qna/var-value name="a" >}}, {{< qna/var-value name="b" >}}), slope = {{< qna/var-value name="x" >}}:
+At point ({{% qna/var-value name="a" %}}, {{% qna/var-value name="b" %}}), slope = <span class="qna-variable-value" data-var-name="x"></span> :-
 
 \$ 2a(3) + b = 31 \$
 \$ 6a + b = 31 \quad ...(equation 1) \$

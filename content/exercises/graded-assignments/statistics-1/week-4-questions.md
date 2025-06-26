@@ -56,7 +56,7 @@ b = {{< qna/var name="b" value="3" >}} meters.
 
 {{< qna/formula label="sum" title="Sum of " value="a + b" hide="false" >}}
 
-**Formula**: Sum of a + b = {{< qna/var-value name="a" >}} + {{< qna/var-value name="b" >}}
+**Formula**: Sum of a + b={{< qna/var-value name="a" >}} + {{< qna/var-value name="b" >}}
 
 The sum is: {{< qna/formula-value label="sum" >}}
 
