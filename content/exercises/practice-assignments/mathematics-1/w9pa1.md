@@ -1,18 +1,9 @@
 ---
-title: Week 9 Practice Assignment Solution
+title: Week 9 Practice Assignment 
 weight: 9
-tags: 
-- Mathematics
-- Mathematics for Data Science - 1
-- Practice Assignment
-- Week-9
 categories:
 - Mathematics Practice Assignment
-series:
-- Mathematics Practice Assignment
 ---
-
-Based on the attached **Week-9-Practice-Assignment-Solution.pdf**[^1], here are all the questions and solutions extracted, organized by question type and with clear question and solution pairs.
 
 ---
 

@@ -8,6 +8,7 @@ excludeSearch: false
 weight: 5.5
 ---
 
+{{< border type="question" >}}
 1. Intonations help in:
 
 a) Resolving ambiguity
@@ -17,6 +18,7 @@ b) Imbuing the speaker’s state of mind in the spoken words
 c) Both (a) and (b)
 
 d) Neither (a) nor (b)
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, intonations help in both resolving ambiguity and imbuing the speaker's state of mind in the spoken words.
@@ -29,6 +31,7 @@ Here's how the sources support this:
 *   **Imbuing the speaker's state of mind in the spoken words**: Intonation helps us express several things, including giving an idea about the emotional aspects of the speaker. The sources mention that intonation helps identify things like **shock, surprise, anger, sarcasm, pleasure, [and] interest**. These are described as "attitudinal issues where it helps us identify things". Therefore, how people speak and use intonation allows listeners to infer the speaker's attitude or state of mind.
 {{< /border >}}
 
+{{< border type="question" >}}
 2. 'The sun rises in the east.' This sentence would ordinarily be spoken in a ______.
 
 Rising intonation
@@ -38,6 +41,8 @@ Flat intonation
 Falling intonation
 
 Any of the above
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the sentence "The sun rises in the east." would ordinarily be spoken in a **Flat intonation**.
 
@@ -51,11 +56,14 @@ Here's why, drawing from the sources:
 Therefore, according to the sources, the standard or usual intonation for this type of sentence is flat.
 {{< /border >}}
 
+{{< border type="question" >}}
 3. The intonation of words can be made out through text alone.
 
 True
 
 False
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the statement "The intonation of words can be made out through text alone" is **False**.
 
@@ -66,6 +74,7 @@ Crucially, the sources explicitly state that intonation is **"not visible in wri
 Therefore, according to the provided material, the intonation of words is primarily a feature of **spoken language** and cannot ordinarily be discerned from text alone.
 {{< /border >}}
 
+{{< border type="question" >}}
 4. 'Did you know that Alex and John are moving to Bombay?’ If the emphasis is on ‘you’, then the meaning is that:
 
 The speaker believes that the person they are talking to would not know that Alex and John are moving to Bombay
@@ -75,6 +84,8 @@ The speaker is amazed that Alex and John are moving to a city like Bombay
 The speaker is amazed that Alex and John, of all people, are moving to Bombay
 
 None of the above
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Drawing on the information in the sources and our conversation history regarding the impact of stress on meaning in English speech, when the word "**you**" is stressed in the sentence "Did **you** know that Alex and John are moving to Bombay?", it highlights the subject of the verb "know".
 
@@ -95,6 +106,7 @@ Therefore, if the emphasis is on "**you**" in "Did **you** know that Alex and Jo
 **The speaker believes that the person they are talking to would not know that Alex and John are moving to Bombay**.
 {{< /border >}}
 
+{{< border type="question" >}}
 5. Did you know that Alex and John are moving to Bombay?’ if the emphasis is on ‘know’, then the meaning is that:
 
 The speaker believes that the person they are talking to would not know that Alex and John are moving to Bombay
@@ -104,6 +116,8 @@ The speaker is amazed that Alex and John are moving to a city like Bombay
 The speaker believes that the person they are talking to would react if they knew that Alex and John were moving to Bombay.
 
 The speaker is amazed that Alex and John, of all people, are moving to Bombay.
+{{< /border >}}
+
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources and our conversation history regarding how stress affects the meaning of a sentence, stressing a particular word highlights it and can imply a contrast or distinction.
 

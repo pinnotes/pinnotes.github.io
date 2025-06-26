@@ -7,13 +7,17 @@ tags:
 excludeSearch: false
 weight: 3.5
 ---
-1. Which among the following sentences use discourse markers to express opinion
+
+{{< border type="question" >}}
+**1**. Which among the following sentences use discourse markers to express opinion
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Drawing on the information in the sources, discourse markers are words or phrases that can be used to help structure conversation or express the speaker's attitude or viewpoint. They can appear at the beginning of a sentence and take the entire sentence into their scope.
 
 Examining the sentences you provided based on the sources:
 
+{{< border type="question" >}}
 *   "**I guess** he rode the vehicle yesterday"
     *   Source states that using phrases like "I guess so" can show indifference or a subtle negative opinion. This suggests that "I guess" functions as a discourse marker that indicates a level of uncertainty or a tentative opinion. In this sentence, "**I guess**" is used to express the speaker's tentative opinion about the likelihood of him riding the vehicle yesterday.
 
@@ -25,31 +29,32 @@ Examining the sentences you provided based on the sources:
 
 *   "He was the first one to finish the task"
     *   This sentence does not appear to use a discourse marker to express opinion, based on the categories and examples provided in the sources. "The first one" here refers to order or rank within the context of finishing the task, not a comment on the statement itself.
+{{< /border >}}
 
 Therefore, among the sentences provided, the one that uses a discourse marker to express opinion (specifically, a tentative or uncertain opinion) is:
 
 *   **"I guess he rode the vehicle yesterday"**
 {{< /border >}}
 
-2. I lost my wallet and ____, I was fined for speeding.
+{{< border type="question" >}}
+1. I lost my wallet and ____, I was fined for speeding.
 
-Nevertheless
-
-In addition to that
-
-On top of that
-
-Apparently
+- Nevertheless
+- In addition to that
+- On top of that
+- Apparently
+{{< /border >}}
    
 {{< border type="tip" title="Solution" >}}
 
 {{< /border >}}
 
+{{< border type="question" >}}
 3. Discourse markers are syntactically independent. This statement is ___.
 
-True
-
-False
+- True
+- False
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the statement "Discourse markers are syntactically independent" is **True**.
@@ -61,15 +66,15 @@ Crucially, the sources explicitly state that discourse markers **"can very well 
 In contrast, elements like **complements** are described as **"essential, structurally indispensable part of a sentence clause or a phrase"**. Removing a complement makes the sentence **"incomplete"** and **"ungrammatical"**. **Adjuncts**, while often optional, typically modify verbs or other elements *within* the sentence structure. The description of discourse markers as "additional" and capable of standing alone positions them as more syntactically independent than even adjuncts, as they do not necessarily modify anything within the adjacent sentence but rather relate it to the broader discourse or express the speaker's stance.
 {{< /border >}}
 
+{{< border type="question" >}}
 4. Which of the following markers express justification to an already stated statement?
 
-In addition to that
+- In addition to that
+- I mean
+- Apparently
+- None of the above
+{{< /border >}}
 
-I mean
-
-Apparently
-
-None of the above
 {{< border type="tip" title="Solution" >}}
 Based on the information provided in the sources and our conversation history:
 
@@ -92,15 +97,14 @@ Which of the following markers express justification to an already stated statem
 - **None of the above**
 {{< /border >}}
 
+{{< border type="question" >}}
 5. “He did not clear the exam and, as a result, he could not apply for that job.” Here the discourse marker is ____.
 
-Did not clear
-
-As a result
-
-Could not
-
-No discourse marker
+- Did not clear
+- As a result
+- Could not
+- No discourse marker
+{{< /border >}}
 
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources and our conversation history, let's analyse the sentence "He did not clear the exam and, as a result, he could not apply for that job" to identify the discourse marker.

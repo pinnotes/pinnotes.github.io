@@ -1,18 +1,9 @@
 ---
-title: Week 5 Practice Assignment Solution
+title: Week 5 Practice Assignment 
 weight: 5
-tags: 
-- Mathematics
-- Mathematics for Data Science - 1
-- Practice Assignment
-- Week-5
 categories:
 - Mathematics Practice Assignment
-series:
-- Mathematics Practice Assignment
 ---
-
-Below are all the questions and their solutions extracted from the PDF "Week-5-Practice-Assignment-Solution.pdf"[^1].
 
 ---
 

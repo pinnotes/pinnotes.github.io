@@ -1,18 +1,9 @@
 ---
-title: Week 2 Practice Assignment Solution
+title: Week 2 Practice Assignment 
 weight: 2
-tags: 
-- Mathematics
-- Mathematics for Data Science - 1
-- Practice Assignment
-- Week-2
 categories:
 - Mathematics Practice Assignment
-series:
-- Mathematics Practice Assignment
 ---
-
-Here are all the questions and their solutions extracted from the provided PDF ("Week-2-Practice-Assignment-Solution.pdf") for **Mathematics for Data Science - 1**[^1][^2]:
 
 ---
 

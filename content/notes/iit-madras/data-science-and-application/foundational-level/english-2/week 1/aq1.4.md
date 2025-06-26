@@ -8,11 +8,13 @@ excludeSearch: false
 weight: 4.5
 ---
 
+{{< border type="question" >}}
 1. Rhythm is formed by a set of syllables repeating at regular intervals of time.
 
 True
 
 False
+{{< /border >}}
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the statement "Rhythm is formed by a set of syllables repeating at regular intervals of time" is **True**.
 
@@ -23,11 +25,13 @@ Crucially, when discussing English rhythm, the sources, citing David Crystal, st
 Therefore, the concept that rhythm involves syllables (specifically stressed syllables in English) occurring or being arranged in a pattern that repeats at roughly regular intervals of time is directly supported by the sources.
 {{< /border >}}
 
+{{< border type="question" >}}
 2. In English speech, the rhythm can be noticed in the regular occurrence of stressed syllables.
 
 True
 
 False
+{{< /border >}}
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, the statement "In English speech, the rhythm can be noticed in the regular occurrence of stressed syllables" is **True**.
 
@@ -38,6 +42,7 @@ One source, citing David Crystal, explicitly states that **"English uses stresse
 Therefore, the idea that the rhythm in English speech is associated with stressed syllables occurring at regular intervals is directly supported by the provided material.
 {{< /border >}}
 
+{{< border type="question" >}}
 3. ‘The children are playing football at the park.’
 Given that the stress is on the italicised word, which among the following is the implied meaning of the sentence?
 
@@ -46,6 +51,7 @@ It is the children and not someone else who is playing football at the park.
 The children are playing football at the park, not doing something else.
 
 The children are playing football at the park, not at the house or any other place.
+{{< /border >}}
 {{< border type="tip" title="Solution" >}}
 Drawing on the information in the sources regarding how stress affects meaning in English speech-, we can analyse the implied meaning of the sentence "The **children** are playing football at the park" when the word "**children**" is stressed.
 
@@ -74,6 +80,7 @@ The implied meaning of the sentence "The **children** are playing football at th
 **It is the children and not someone else who is playing football at the park.**
 {{< /border >}}
 
+{{< border type="question" >}}
 4. Pitch allows the ordering of sounds based on
 
 Stress
@@ -81,6 +88,7 @@ Stress
 Frequency
 
 Syllable
+{{< /border >}}
 {{< border type="tip" title="Solution" >}}
 Based on the information in the sources, pitch allows the ordering of sounds based on **Frequency**.
 
@@ -89,6 +97,7 @@ The sources explain that the pitch of the voice is determined by the **frequency
 Going back to pitch, the source explicitly states that "the **pitch is property that allows the ordering of sounds on a frequency-related scale**", and pitches are compared as high and low,.
 {{< /border >}}
 
+{{< border type="question" >}}
 5. The feeling of ecstasy in your speech is marked by
 
 High pitch
@@ -96,6 +105,7 @@ High pitch
 Low pitch
 
 No noticeable pitch variation
+{{< /border >}}
 {{< border type="tip" title="Solution" >}}
 Based on the information provided in the sources, the feeling of ecstasy in your speech is marked by **High pitch**.
 

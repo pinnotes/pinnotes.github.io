@@ -1,18 +1,9 @@
 ---
-title: Week 3 Practice Assignment Solution
+title: Week 3 Practice Assignment 
 weight: 3
-tags: 
-- Mathematics
-- Mathematics for Data Science - 1
-- Practice Assignment
-- Week-3
 categories:
 - Mathematics Practice Assignment
-series:
-- Mathematics Practice Assignment
 ---
-
-Here are all the questions and their solutions extracted from the provided PDF ("Week-3-Practice-Assignment-Solution.pdf") for **Mathematics for Data Science - 1**[^1]:
 
 ---
 
