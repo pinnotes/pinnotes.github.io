@@ -2,15 +2,12 @@
 title: Programming in Python 🐍
 type: chapters
 date: 2025-05-08
-tags:
-  - Notes 
-  - IIT Madras
 excludeSearch: false
 weight: 1
 cascade:
  series: ["Programming-in-Python"]
  image: "/images/svg/dark-code.svg"
-
+ keywords: ["Python","Programming","Notes","IITM"]
 
 ---
 

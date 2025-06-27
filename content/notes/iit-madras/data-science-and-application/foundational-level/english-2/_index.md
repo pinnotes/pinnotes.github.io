@@ -3,14 +3,12 @@ title: English II 📖
 description: This course aims at achieving fluency and confidence in spoken and written English. This course will use insights from theories of learning and dominant methods of teaching language.
 date: 2025-05-08
 type: chapters
-tags:
-  - Notes 
-  - SSC Exam
 excludeSearch: false
 weight: 1
 cascade:
  series: ["Foundational-Level"]
  image: "/images/svg/circle-gradient.svg"
+ keywords: ["English 2","IITM","Notes",""]
 
 ---
 
