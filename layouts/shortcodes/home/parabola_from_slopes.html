@@ -1,0 +1,356 @@
+{{/*
+    Hugo Shortcode to find the equation of a parabola (y = ax^2 + bx + c) given two points and the slope at each.
+    
+    Usage:
+    {{< parabola_from_slopes x1="3" y1="2" m1="31" x2="2" y2="3" m2="14" >}}
+*/}}
+
+<script src="https://cdn.jsdelivr.net/npm/mathjs@11.11.2/lib/browser/math.min.js"></script>
+
+<style>
+    /* Scoped CSS for the solver */
+    .parabola-slopes-solver-container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 2.5rem;
+        background-color: #fefefe;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+
+    .parabola-slopes-solver-container h3 {
+        text-align: center;
+        color: #007bff;
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .equation-display {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #1a1a1a;
+        background-color: #f0f8ff;
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px dashed #cce5ff;
+    }
+    
+    .input-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1 1 150px;
+    }
+
+    .input-group label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #555;
+        text-align: center;
+    }
+
+    .input-group input[type="number"] {
+        width: 100%;
+        max-width: 150px;
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        text-align: center;
+        transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .input-group input:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+    }
+    
+    .solver-button-container {
+        text-align: center;
+    }
+
+    .solver-button {
+        padding: 1rem 2.5rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+    }
+
+    .solver-button:hover {
+        background-color: #0056b3;
+        transform: translateY(-2px);
+    }
+
+    .solver-result {
+        margin-top: 2.5rem;
+        padding: 1.8rem;
+        background-color: #eaf6ff;
+        border-radius: 10px;
+        border: 1px solid #b3d9ff;
+        line-height: 1.8;
+        font-size: 1.1rem;
+        color: #1a2a3a;
+        word-wrap: break-word;
+    }
+    
+    .result-item {
+        margin-bottom: 0.8rem;
+    }
+
+    .result-label {
+        font-weight: 700;
+        color: #0056b3;
+    }
+
+    .result-value {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #fff;
+        padding: 0.2em 0.5em;
+        border-radius: 4px;
+        border: 1px solid #d4e3f1;
+    }
+
+    .solver-error {
+        color: #dc3545;
+        font-weight: bold;
+    }
+
+    
+    html:is(.dark) {
+        .parabola-slopes-solver-container {
+            background-color: #181c24;
+            border-color: #232a36;
+            color: #e0e6ef;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.32);
+        }
+        .parabola-slopes-solver-container h3 {
+            color: #6cb6ff;
+        }
+        .equation-display {
+            background-color: #232a36;
+            color: #e0e6ef;
+            border-color: #2d3a4d;
+        }
+        .input-group label {
+            color: #b3c6e0;
+        }
+        .input-group input[type="number"] {
+            background-color: #232a36;
+            color: #e0e6ef;
+            border-color: #2d3a4d;
+        }
+        .input-group input:focus {
+            border-color: #6cb6ff;
+            box-shadow: 0 0 8px rgba(108,182,255,0.4);
+        }
+        .solver-button {
+            background-color: #2563eb;
+            color: #fff;
+        }
+        .solver-button:hover {
+            background-color: #174ea6;
+        }
+        .solver-result {
+            background-color: #232a36;
+            border-color: #2d3a4d;
+            color: #e0e6ef;
+        }
+        .result-label {
+            color: #6cb6ff;
+        }
+        .result-value {
+            background-color: #181c24;
+            color: #e0e6ef;
+            border-color: #2d3a4d;
+        }
+        .solver-error {
+            color: #ff6b6b;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .parabola-slopes-solver-container {
+            padding: 1rem;
+            max-width: 100vw;
+            border-radius: 0;
+            box-shadow: none;
+        }
+        .equation-display {
+            font-size: 1.2rem;
+            padding: 0.5rem;
+        }
+        .input-row {
+            flex-direction: column;
+            gap: 0.8rem;
+            margin-bottom: 1rem;
+        }
+        .input-group {
+            flex: 1 1 100%;
+            align-items: stretch;
+        }
+        .input-group input[type="number"] {
+            max-width: 100%;
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
+        .solver-button {
+            width: 100%;
+            padding: 0.8rem 0;
+            font-size: 1rem;
+        }
+        .solver-result {
+            padding: 1rem;
+            font-size: 1rem;
+        }
+    }
+
+</style>
+
+<div class="parabola-slopes-solver-container">
+    <h3>Find Parabola Equation from Two Points and Slopes</h3>
+    
+    <div class="equation-display">
+        y = ax² + bx + c
+    </div>
+    
+    <div class="input-row">
+        <div class="input-group">
+            <label>Point 1 (x₁, y₁):</label>
+            <input type="number" id="x1-input-{{ .Ordinal }}" value="{{ .Get "x1" | default "3" }}">
+            <input type="number" id="y1-input-{{ .Ordinal }}" value="{{ .Get "y1" | default "2" }}">
+        </div>
+        <div class="input-group">
+            <label>Slope at x₁ (m₁):</label>
+            <input type="number" id="m1-input-{{ .Ordinal }}" value="{{ .Get "m1" | default "31" }}">
+        </div>
+        <div class="input-group">
+            <label>Point 2 (x₂, y₂):</label>
+            <input type="number" id="x2-input-{{ .Ordinal }}" value="{{ .Get "x2" | default "2" }}">
+            <input type="number" id="y2-input-{{ .Ordinal }}" value="{{ .Get "y2" | default "3" }}">
+        </div>
+        <div class="input-group">
+            <label>Slope at x₂ (m₂):</label>
+            <input type="number" id="m2-input-{{ .Ordinal }}" value="{{ .Get "m2" | default "14" }}">
+        </div>
+    </div>
+    
+    <div class="solver-button-container">
+        <button class="solver-button" onclick="findCoefficientsFromSlopes('{{ .Ordinal }}')">Find Coefficients</button>
+    </div>
+
+    <div class="solver-result" id="results-output-{{ .Ordinal }}">
+        Results will appear here.
+    </div>
+</div>
+
+<script>
+    // Global function to solve for a, b, and c using slopes and points.
+    window.findCoefficientsFromSlopes = function(ordinal) {
+        const x1 = parseFloat(document.getElementById('x1-input-' + ordinal).value);
+        const y1 = parseFloat(document.getElementById('y1-input-' + ordinal).value);
+        const m1 = parseFloat(document.getElementById('m1-input-' + ordinal).value);
+        const x2 = parseFloat(document.getElementById('x2-input-' + ordinal).value);
+        const y2 = parseFloat(document.getElementById('y2-input-' + ordinal).value);
+        const m2 = parseFloat(document.getElementById('m2-input-' + ordinal).value);
+        const output = document.getElementById('results-output-' + ordinal);
+
+        if (typeof math === 'undefined') {
+            output.innerHTML = '<span class="solver-error">Error: Math.js library not loaded.</span>';
+            return;
+        }
+        
+        try {
+            if (isNaN(x1) || isNaN(y1) || isNaN(m1) || isNaN(x2) || isNaN(y2) || isNaN(m2)) {
+                throw new Error("Please enter valid numbers for all inputs.");
+            }
+            
+            if (x1 === x2) {
+                throw new Error("The x-coordinates of the two points must be different to find a unique solution.");
+            }
+
+            // --- Step 1: Solve for 'a' and 'b' using the slopes ---
+            // System of equations:
+            // 2*a*x1 + b = m1
+            // 2*a*x2 + b = m2
+            
+            // Coefficient matrix for [a, b]
+            const A_matrix = [
+                [2 * x1, 1],
+                [2 * x2, 1]
+            ];
+            
+            // Constant vector [m1, m2]
+            const B_vector = [m1, m2];
+
+            // Solve using Math.js
+            const solution_ab = math.lusolve(A_matrix, B_vector);
+
+            if (!solution_ab || solution_ab.length === 0) {
+                 output.innerHTML = '<span class="solver-error">Could not find a unique solution for a and b from the slopes.</span>';
+                 return;
+            }
+
+            const a_solution = solution_ab[0][0];
+            const b_solution = solution_ab[1][0];
+
+            // --- Step 2: Solve for 'c' using one of the points ---
+            // Using Point 1: y1 = a*x1^2 + b*x1 + c
+            // c = y1 - a*x1^2 - b*x1
+            const c_solution = y1 - a_solution * Math.pow(x1, 2) - b_solution * x1;
+
+            // --- Step 3: Verify the consistency of the solutions with the second point ---
+            // Check if Point 2 satisfies the equation with the found a, b, and c
+            const y2_calculated = a_solution * Math.pow(x2, 2) + b_solution * x2 + c_solution;
+            const isConsistent = math.abs(y2_calculated - y2) < 1e-9; // Use tolerance for floating-point comparison
+
+            // --- Format the final output ---
+            const a_formatted = Number(a_solution).toLocaleString(undefined, { maximumFractionDigits: 6 });
+            const b_formatted = Number(b_solution).toLocaleString(undefined, { maximumFractionDigits: 6 });
+            const c_formatted = Number(c_solution).toLocaleString(undefined, { maximumFractionDigits: 6 });
+            const y2_calculated_formatted = Number(y2_calculated).toLocaleString(undefined, { maximumFractionDigits: 6 });
+            
+            let consistencyMessage = '';
+            if (isConsistent) {
+                consistencyMessage = `<span style="color: green; font-weight: bold;">The inputs are consistent. A unique parabola exists.</span>`;
+            } else {
+                consistencyMessage = `<span style="color: #dc3545; font-weight: bold;">The inputs are inconsistent. No single parabola can pass through both points with the given slopes.</span>`;
+            }
+
+            const resultHTML = `
+                <div class="result-item"><span class="result-label">Result from Slopes:</span> <span class="result-value">a = ${a_formatted}</span>, <span class="result-value">b = ${b_formatted}</span></div>
+                <div class="result-item"><span class="result-label">Calculated 'c' from Point 1:</span> <span class="result-value">c = ${c_formatted}</span></div>
+                <hr style="margin: 1rem 0; border-color: #cce5ff;">
+                <div class="result-item"><span class="result-label">Calculated Equation:</span> <span class="result-value">y = ${a_formatted}x² ${b_formatted >= 0 ? '+' : ''} ${b_formatted}x ${c_formatted >= 0 ? '+' : ''} ${c_formatted}</span></div>
+                <div class="result-item"><span class="result-label">Checking with Point 2 (${x2}, ${y2}):</span><br>
+                If x = ${x2}, the calculated y is <span class="result-value">${y2_calculated_formatted}</span> (expected y is <span class="result-value">${y2}</span>).</div>
+                <hr style="margin: 1rem 0; border-color: #cce5ff;">
+                <div class="result-item">${consistencyMessage}</div>
+            `;
+            output.innerHTML = resultHTML;
+
+        } catch (error) {
+            output.innerHTML = `<span class="solver-error">Error: ${error.message}</span>`;
+            console.error("Solver error:", error);
+        }
+    }
+</script>
