@@ -1,0 +1,316 @@
+{{/*
+    Hugo Shortcode to solve a quadratic equation using JavaScript (Math.js) - Manually.
+    It takes the coefficients a, b, and c as separate parameters.
+    
+    Usage:
+    {{< solve_quadratic a="1" b="-5" c="6" var="x" >}} 
+    
+    This will solve the equation x^2 - 5x + 6 = 0.
+*/}}
+
+{{/*  math.sqrt(discriminant)   // → Math.sqrt(discriminant)
+math.format(value, {precision: 5}) // → Number(value).toLocaleString(undefined, {maximumFractionDigits: 5})
+math.complex(real, imag) // → `${real} + ${imag}i` (or similar)  */}}
+
+<!-- Import Math.js from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/mathjs@11.11.2/lib/browser/math.min.js"></script>
+
+<style>
+    /* Scoped CSS for the shortcode */
+    .quadratic-solver-container {
+        max-width: 600px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        font-family: sans-serif;
+    }
+
+    .calc-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.01em;
+    color: #007bff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+
+    .equation-display {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+    .input-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-group label {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        color: #495057;
+    }
+
+    .input-group input[type="number"], .input-group input[type="text"] {
+        padding: 0.75rem;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        font-size: 1rem;
+        transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+    
+    .input-group input:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+    
+    .solver-button-container {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .solver-button {
+        padding: 0.75rem 2rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .solver-button:hover {
+        background-color: #0056b3;
+    }
+
+    .solver-result {
+        margin-top: 2rem;
+        padding: 1.5rem;
+        background-color: #e9ecef;
+        border-radius: 6px;
+        border: 1px solid #ced4da;
+        font-size: 1.1rem;
+        font-family: monospace;
+        color: #212529;
+    }
+
+    .solver-error {
+        color: #dc3545;
+        font-weight: bold;
+    }
+
+    .solution-highlight {
+        font-weight: bold;
+        color: green;
+    }
+
+    /* Dark mode support */
+   html:is(.dark) {
+        .quadratic-solver-container {
+            background-color: #23272f;
+            border-color: #343a40;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.32);
+            color: #f1f3f5;
+        }
+        .equation-display {
+            color: #e9ecef;
+        }
+        .input-group label {
+            color: #ced4da;
+        }
+        .input-group input[type="number"], .input-group input[type="text"] {
+            background-color: #181a1b;
+            border-color: #495057;
+            color: #f1f3f5;
+        }
+        .input-group input:focus {
+            border-color: #66b2ff;
+            box-shadow: 0 0 5px rgba(102, 178, 255, 0.5);
+        }
+        .solver-button {
+            background-color: #339af0;
+            color: #fff;
+        }
+        .solver-button:hover {
+            background-color: #1971c2;
+        }
+        .solver-result {
+            background-color: #2b3035;
+            border-color: #495057;
+            color: #f1f3f5;
+        }
+        .solver-error {
+            color: #ff6b6b;
+        }
+        .solution-highlight {
+            color: #51cf66;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .quadratic-solver-container {
+            padding: 1rem;
+            max-width: 98vw;
+        }
+        .equation-display {
+            font-size: 1.1rem;
+        }
+        .input-grid {
+            grid-template-columns: 1fr;
+            gap: 1rem 0;
+        }
+        .solver-result {
+            font-size: 1rem;
+            padding: 1rem;
+        }
+        .solver-button {
+            width: 100%;
+            padding: 0.75rem 0;
+        }
+    }
+</style>
+
+<div class="quadratic-solver-container mona-sans">
+    <h3 class="calc-title">Quadratic Equation Solver</h3>
+    
+    <div class="equation-display">
+        <span id="a-display-{{ .Ordinal }}">a</span>x² + 
+        <span id="b-display-{{ .Ordinal }}">b</span>x + 
+        <span id="c-display-{{ .Ordinal }}">c</span> = 0
+    </div>
+
+    <div class="input-grid">
+        <div class="input-group">
+            <label for="a-input-{{ .Ordinal }}">a (coefficient of x²):</label>
+            <input type="number" id="a-input-{{ .Ordinal }}" value="{{ .Get "a" | default "1" }}" oninput="updateDisplay('a', this.value, '{{ .Ordinal }}')">
+        </div>
+        <div class="input-group">
+            <label for="b-input-{{ .Ordinal }}">b (coefficient of x):</label>
+            <input type="number" id="b-input-{{ .Ordinal }}" value="{{ .Get "b" | default "0" }}" oninput="updateDisplay('b', this.value, '{{ .Ordinal }}')">
+        </div>
+        <div class="input-group">
+            <label for="c-input-{{ .Ordinal }}">c (constant):</label>
+            <input type="number" id="c-input-{{ .Ordinal }}" value="{{ .Get "c" | default "0" }}" oninput="updateDisplay('c', this.value, '{{ .Ordinal }}')">
+        </div>
+        <div class="input-group">
+            <label for="var-input-{{ .Ordinal }}">Variable:</label>
+            <input type="text" id="var-input-{{ .Ordinal }}" value="{{ .Get "var" | default "x" }}" oninput="updateDisplay('var', this.value, '{{ .Ordinal }}')">
+        </div>
+    </div>
+    
+    <div class="solver-button-container">
+        <button class="solver-button" onclick="solveQuadraticEquation('{{ .Ordinal }}')">Solve Equation</button>
+    </div>
+
+    <div class="solver-result" id="solution-output-{{ .Ordinal }}">
+        Solutions will appear here.
+    </div>
+</div>
+
+<script>
+    // Functions to update the equation display and solve the equation.
+    // They are defined globally to be accessible from `onclick` and `oninput` attributes.
+    
+    window.updateDisplay = function(param, value, ordinal) {
+        const displayElement = document.getElementById(param + '-display-' + ordinal);
+        if (displayElement) {
+            displayElement.textContent = value;
+        }
+    }
+
+    window.solveQuadraticEquation = function(ordinal) {
+        const aInput = document.getElementById('a-input-' + ordinal);
+        const bInput = document.getElementById('b-input-' + ordinal);
+        const cInput = document.getElementById('c-input-' + ordinal);
+        const varInput = document.getElementById('var-input-' + ordinal);
+        const solutionOutput = document.getElementById('solution-output-' + ordinal);
+
+        const a = parseFloat(aInput.value);
+        const b = parseFloat(bInput.value);
+        const c = parseFloat(cInput.value);
+        const variable = varInput.value || 'x';
+
+        // Check if Math.js is loaded
+        {{/*  if (typeof math === 'undefined') {
+            solutionOutput.innerHTML = '<span class="solver-error">Error: Math.js library not loaded.</span>';
+            return;
+        }  */}}
+        
+        try {
+            if (isNaN(a) || isNaN(b) || isNaN(c)) {
+                throw new Error("Please enter valid numbers for a, b, and c.");
+            }
+
+            if (a === 0) {
+                // If a is 0, it's a linear equation. Solve it as such.
+                if (b === 0) {
+                    if (c === 0) {
+                        solutionOutput.innerHTML = `Solution: <span class="solution-highlight">Infinite solutions.</span>`;
+                    } else {
+                        solutionOutput.innerHTML = `Solution: <span class="solver-error">No solution.</span>`;
+                    }
+                    return;
+                }
+                const linearSolution = -c / b;
+                solutionOutput.innerHTML = `This is a linear equation. Solution for ${variable}: <span class="solution-highlight">${math.format(linearSolution, {precision: 5})}</span>`;
+                return;
+            }
+
+            // Create the quadratic expression string
+            const expression = `${a}*${variable}^2 + ${b}*${variable} + ${c}`;
+
+            // MANUAL CALCULATION
+            // Calculate the discriminant
+            const discriminant = b * b - 4 * a * c;
+
+            if (discriminant > 0) {
+                // Two real roots
+                const root1 = (-b + math.sqrt(discriminant)) / (2 * a);
+                const root2 = (-b - math.sqrt(discriminant)) / (2 * a);
+                solutionOutput.innerHTML = `Solutions for ${variable}: <span class="solution-highlight">${math.format(root1, {precision: 5})}, ${math.format(root2, {precision: 5})}</span>`;
+            } else if (discriminant === 0) {
+                // One real root
+                const root = -b / (2 * a);
+                solutionOutput.innerHTML = `Single solution for ${variable}: <span class="solution-highlight">${math.format(root, {precision: 5})}</span>`;
+            } else {
+                // Complex roots
+                const realPart = -b / (2 * a);
+                const imagPart = math.sqrt(-discriminant) / (2 * a);
+                solutionOutput.innerHTML = `Complex solutions for ${variable}: <span class="solution-highlight">${math.format(math.complex(realPart, imagPart), {precision: 5})}, ${math.format(math.complex(realPart, -imagPart), {precision: 5})}</span>`;
+            }
+            
+        } catch (error) {
+            solutionOutput.innerHTML = `<span class="solver-error">Error: ${error.message}</span>`;
+            console.error("Solver error:", error);
+        }
+    }
+    
+    // Initial update of the display when the shortcode loads
+    document.addEventListener('DOMContentLoaded', () => {
+        // We use a timeout to ensure the DOM is fully loaded before trying to update.
+        // This is a common workaround for Hugo's render flow.
+        setTimeout(() => {
+            const ordinal = '{{ .Ordinal }}';
+            updateDisplay('a', document.getElementById('a-input-' + ordinal).value, ordinal);
+            updateDisplay('b', document.getElementById('b-input-' + ordinal).value, ordinal);
+            updateDisplay('c', document.getElementById('c-input-' + ordinal).value, ordinal);
+        }, 100);
+    });
+
+</script>
