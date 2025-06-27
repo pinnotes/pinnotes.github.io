@@ -1,0 +1,333 @@
+{{/*
+    Hugo Shortcode to find the equation of a parabola given two points and the slope at one of them.
+    It solves for the coefficients a, b, and c in y = ax^2 + bx + c.
+    
+    Usage:
+    {{< parabola_from_points x1="0" y1="1" x2="2" y2="5" slope_at_x1="2" >}}
+    (This solves for the parabola passing through (0,1) and (2,5) with a slope of 2 at x=0).
+*/}}
+
+<script src="{{ "/js/math.min.js" | relURL }}"></script>
+
+<style>
+    /* Scoped CSS for the parabola equation solver */
+    .parabola-eq-solver-container {
+        max-width: 700px;
+        margin: 2rem auto;
+        padding: 2.5rem;
+        background-color: #fcfcfc;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+
+    .parabola-eq-solver-container h3 {
+        text-align: center;
+        color: #0056b3;
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .parabola-equation-formula {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #1a1a1a;
+        background-color: #f0f8ff;
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px dashed #cce5ff;
+    }
+    
+    .input-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #555;
+    }
+
+    .input-group input[type="number"] {
+        width: 100%;
+        max-width: 120px;
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        text-align: center;
+        transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .input-group input:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+    }
+    
+    .solver-button-container {
+        text-align: center;
+    }
+
+    .solver-button {
+        padding: 1rem 2.5rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+    }
+
+    .solver-button:hover {
+        background-color: #0056b3;
+        transform: translateY(-2px);
+    }
+
+    .solver-result {
+        margin-top: 2.5rem;
+        padding: 1.8rem;
+        background-color: #eaf6ff;
+        border-radius: 10px;
+        border: 1px solid #b3d9ff;
+        line-height: 1.8;
+        font-size: 1.1rem;
+        color: #1a2a3a;
+        word-wrap: break-word; /* Ensure long equations wrap */
+    }
+    
+    .result-item {
+        margin-bottom: 0.8rem;
+    }
+
+    .result-label {
+        font-weight: 700;
+        color: #0056b3;
+    }
+
+    .result-value {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #fff;
+        padding: 0.2em 0.5em;
+        border-radius: 4px;
+        border: 1px solid #d4e3f1;
+    }
+
+    .solver-error {
+        color: #dc3545;
+        font-weight: bold;
+    }
+
+   html:is(.dark) {
+        .parabola-eq-solver-container {
+            background-color: #181c24;
+            border: 1px solid #232a36;
+            color: #e0e6ef;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.32);
+        }
+        .parabola-eq-solver-container h3 {
+            color: #7ec3ff;
+        }
+        .parabola-equation-formula {
+            background-color: #1a2230;
+            color: #e0e6ef;
+            border: 1px dashed #3a6ea8;
+        }
+        .input-group label {
+            color: #b3c9e7;
+        }
+        .input-group input[type="number"] {
+            background-color: #232a36;
+            color: #e0e6ef;
+            border: 1px solid #3a6ea8;
+        }
+        .input-group input:focus {
+            border-color: #7ec3ff;
+            box-shadow: 0 0 8px rgba(126,195,255,0.25);
+        }
+        .solver-button {
+            background-color: #3a6ea8;
+            color: #fff;
+        }
+        .solver-button:hover {
+            background-color: #7ec3ff;
+            color: #181c24;
+        }
+        .solver-result {
+            background-color: #232a36;
+            border: 1px solid #3a6ea8;
+            color: #e0e6ef;
+        }
+        .result-label {
+            color: #7ec3ff;
+        }
+        .result-value {
+            background-color: #181c24;
+            color: #e0e6ef;
+            border: 1px solid #3a6ea8;
+        }
+        .solver-error {
+            color: #ff6b6b;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .parabola-eq-solver-container {
+            padding: 1rem;
+            max-width: 98vw;
+        }
+        .parabola-eq-solver-container h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .parabola-equation-formula {
+            font-size: 1.1rem;
+            padding: 0.6rem;
+            margin-bottom: 1rem;
+        }
+        .input-row {
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .input-group input[type="number"] {
+            max-width: 100%;
+            font-size: 1rem;
+            padding: 0.6rem;
+        }
+        .solver-button {
+            width: 100%;
+            padding: 0.8rem 0;
+            font-size: 1rem;
+        }
+        .solver-result {
+            padding: 1rem;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+    }
+
+</style>
+
+<div class="parabola-eq-solver-container">
+    <h3>Parabola Equation from Two Points and Slope</h3>
+    
+    <div class="parabola-equation-formula">
+        y = ax² + bx + c
+    </div>
+    
+    <div class="input-row">
+        <div class="input-group">
+            <label>Point 1 (x₁, y₁):</label>
+            <input type="number" id="x1-input-{{ .Ordinal }}" value="{{ .Get "x1" | default "0" }}">
+            <input type="number" id="y1-input-{{ .Ordinal }}" value="{{ .Get "y1" | default "1" }}">
+        </div>
+        <div class="input-group">
+            <label>Point 2 (x₂, y₂):</label>
+            <input type="number" id="x2-input-{{ .Ordinal }}" value="{{ .Get "x2" | default "2" }}">
+            <input type="number" id="y2-input-{{ .Ordinal }}" value="{{ .Get "y2" | default "5" }}">
+        </div>
+        <div class="input-group">
+            <label>Slope (m) at x₁:</label>
+            <input type="number" id="slope-input-{{ .Ordinal }}" value="{{ .Get "slope_at_x1" | default "2" }}">
+        </div>
+    </div>
+    
+    <div class="solver-button-container">
+        <button class="solver-button" onclick="findParabolaEquation('{{ .Ordinal }}')">Find Equation</button>
+    </div>
+
+    <div class="solver-result" id="equation-output-{{ .Ordinal }}">
+        Equation coefficients will appear here.
+    </div>
+</div>
+
+<script>
+    // Global function to solve the system of equations.
+    window.findParabolaEquation = function(ordinal) {
+        const x1 = parseFloat(document.getElementById('x1-input-' + ordinal).value);
+        const y1 = parseFloat(document.getElementById('y1-input-' + ordinal).value);
+        const x2 = parseFloat(document.getElementById('x2-input-' + ordinal).value);
+        const y2 = parseFloat(document.getElementById('y2-input-' + ordinal).value);
+        const m = parseFloat(document.getElementById('slope-input-' + ordinal).value);
+        const output = document.getElementById('equation-output-' + ordinal);
+
+        if (typeof math === 'undefined') {
+            output.innerHTML = '<span class="solver-error">Error: Math.js library not loaded.</span>';
+            return;
+        }
+        
+        try {
+            if (isNaN(x1) || isNaN(y1) || isNaN(x2) || isNaN(y2) || isNaN(m)) {
+                throw new Error("Please enter valid numbers for all inputs.");
+            }
+            
+            if (x1 === x2) {
+                throw new Error("The x-coordinates of the two points must be different.");
+            }
+
+            // --- Formulate the system of linear equations ---
+            // We need to solve for A, B, and C.
+            // Equation 1: A*x1^2 + B*x1 + C = y1
+            // Equation 2: A*x2^2 + B*x2 + C = y2
+            // Equation 3: 2*A*x1 + B       = m
+            
+            // Create the coefficient matrix A_matrix
+            const A_matrix = [
+                [x1*x1, x1, 1], // Coefficients for a, b, c in the first equation
+                [x2*x2, x2, 1], // Coefficients for a, b, c in the second equation
+                [2 * x1, 1, 0]  // Coefficients for a, b, c in the third equation
+            ];
+            
+            // Create the constant vector B_vector
+            const B_vector = [y1, y2, m];
+
+            // Use Math.js to solve the linear system A_matrix * X = B_vector
+            // where X is the vector [a, b, c]
+            const solution = math.lusolve(A_matrix, B_vector);
+
+            if (!solution || solution.length === 0) {
+                 output.innerHTML = '<span class="solver-error">Could not find a unique solution. Please check the input values.</span>';
+                 return;
+            }
+
+            // Extract the coefficients a, b, and c from the solution vector
+            const a = math.format(solution[0][0], { precision: 6 });
+            const b = math.format(solution[1][0], { precision: 6 });
+            const c = math.format(solution[2][0], { precision: 6 });
+
+            // Construct the final equation string
+            const equation = `y = ${a}x² ${b >= 0 ? '+' : ''} ${b}x ${c >= 0 ? '+' : ''} ${c}`;
+
+            const resultHTML = `
+                <div class="result-item"><span class="result-label">Coefficient a:</span> <span class="result-value">${a}</span></div>
+                <div class="result-item"><span class="result-label">Coefficient b:</span> <span class="result-value">${b}</span></div>
+                <div class="result-item"><span class="result-label">Coefficient c:</span> <span class="result-value">${c}</span></div>
+                <hr style="margin: 1rem 0; border-color: #cce5ff;">
+                <div class="result-item"><span class="result-label">Parabola Equation:</span> <span class="result-value">${equation}</span></div>
+            `;
+            output.innerHTML = resultHTML;
+
+        } catch (error) {
+            output.innerHTML = `<span class="solver-error">Error: ${error.message}</span>`;
+            console.error("Parabola equation solver error:", error);
+        }
+    }
+</script>
