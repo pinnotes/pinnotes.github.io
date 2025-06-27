@@ -11,3 +11,5 @@ width: normal
 {{< home/home >}}
 
 {{< home/quad_eq >}}
+
+{{< home/parabola_solver >}}

@@ -1,0 +1,354 @@
+{{/*
+    Hugo Shortcode to solve for the vertex, focus, and directrix of a parabola.
+    It takes the coefficients a, b, and c for the equation y = ax^2 + bx + c.
+    
+    This version uses pure JavaScript for calculations, no external library needed.
+    
+    Usage:
+    {{< parabola_solver_js a="1" b="-4" c="5" >}}
+    This solves y = x^2 - 4x + 5.
+*/}}
+
+<style>
+    /* Scoped CSS for the parabola solver (same as before for consistency) */
+    .parabola-solver-container {
+        max-width: 650px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: #fcfcfc;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+
+    .parabola-solver-container h3 {
+        text-align: center;
+        color: #0056b3;
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .equation-display {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #1a1a1a;
+        background-color: #f0f8ff;
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px dashed #cce5ff;
+    }
+
+    .input-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #555;
+    }
+
+    .input-group input[type="number"] {
+        width: 100%;
+        max-width: 120px;
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        text-align: center;
+        transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .input-group input:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+    }
+
+    .solver-button-container {
+        text-align: center;
+    }
+
+    .solver-button {
+        padding: 1rem 2.5rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+    }
+
+    .solver-button:hover {
+        background-color: #0056b3;
+        transform: translateY(-2px);
+    }
+
+    .solver-result {
+        margin-top: 2.5rem;
+        padding: 1.8rem;
+        background-color: #eaf6ff;
+        border-radius: 10px;
+        border: 1px solid #b3d9ff;
+        line-height: 1.8;
+        font-size: 1.1rem;
+        color: #1a2a3a;
+    }
+    
+    .result-item {
+        margin-bottom: 0.8rem;
+    }
+
+    .result-label {
+        font-weight: 700;
+        color: #0056b3;
+    }
+
+    .result-value {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #fff;
+        padding: 0.2em 0.5em;
+        border-radius: 4px;
+        border: 1px solid #d4e3f1;
+    }
+
+    .solver-error {
+        color: #dc3545;
+        font-weight: bold;
+    }
+
+    /* Dark mode support */
+    html:is(.dark) {
+        .parabola-solver-container {
+            background-color: #181c24;
+            border-color: #232a36;
+            color: #e0e6ef;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.32);
+        }
+
+        .parabola-solver-container h3 {
+            color: #7bb6ff;
+        }
+
+        .equation-display {
+            background-color: #232a36;
+            color: #e0e6ef;
+            border-color: #35507a;
+        }
+
+        .input-group label {
+            color: #b3c7e6;
+        }
+
+        .input-group input[type="number"] {
+            background-color: #232a36;
+            color: #e0e6ef;
+            border-color: #35507a;
+        }
+
+        .input-group input:focus {
+            border-color: #339cff;
+            box-shadow: 0 0 8px rgba(51, 156, 255, 0.4);
+        }
+
+        .solver-button {
+            background-color: #339cff;
+            color: #fff;
+        }
+
+        .solver-button:hover {
+            background-color: #1976d2;
+        }
+
+        .solver-result {
+            background-color: #1a273a;
+            border-color: #35507a;
+            color: #e0e6ef;
+        }
+
+        .result-label {
+            color: #7bb6ff;
+        }
+
+        .result-value {
+            background-color: #232a36;
+            color: #e0e6ef;
+            border-color: #35507a;
+        }
+
+        .solver-error {
+            color: #ff6b6b;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .parabola-solver-container {
+            padding: 1rem;
+            max-width: 98vw;
+        }
+        .equation-display {
+            font-size: 1.2rem;
+            padding: 0.6rem;
+        }
+        .input-grid {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .solver-button {
+            width: 100%;
+            padding: 0.8rem 0;
+            font-size: 1rem;
+        }
+        .solver-result {
+            padding: 1rem;
+            font-size: 1rem;
+        }
+    }
+</style>
+
+<div class="parabola-solver-container">
+    <h3>Parabola Properties Calculator (JS Only)</h3>
+    
+    <div class="equation-display">
+        y = <span id="a-display-{{ .Ordinal }}">a</span>x² + <span id="b-display-{{ .Ordinal }}">b</span>x + <span id="c-display-{{ .Ordinal }}">c</span>
+    </div>
+
+    <div class="input-grid">
+        <div class="input-group">
+            <label for="a-input-{{ .Ordinal }}">a:</label>
+            <input type="number" id="a-input-{{ .Ordinal }}" value="{{ .Get "a" | default "1" }}" oninput="updateParabolaDisplayJS('a', this.value, '{{ .Ordinal }}')">
+        </div>
+        <div class="input-group">
+            <label for="b-input-{{ .Ordinal }}">b:</label>
+            <input type="number" id="b-input-{{ .Ordinal }}" value="{{ .Get "b" | default "0" }}" oninput="updateParabolaDisplayJS('b', this.value, '{{ .Ordinal }}')">
+        </div>
+        <div class="input-group">
+            <label for="c-input-{{ .Ordinal }}">c:</label>
+            <input type="number" id="c-input-{{ .Ordinal }}" value="{{ .Get "c" | default "0" }}" oninput="updateParabolaDisplayJS('c', this.value, '{{ .Ordinal }}')">
+        </div>
+    </div>
+    
+    <div class="solver-button-container">
+        <button class="solver-button" onclick="calculateParabolaPropertiesJS('{{ .Ordinal }}')">Calculate Properties</button>
+    </div>
+
+    <div class="solver-result" id="results-output-{{ .Ordinal }}">
+        Results will appear here.
+    </div>
+</div>
+
+<script>
+    // Pure JavaScript functions for calculations and display updates.
+    // Use `window.` to make them globally accessible from `onclick` and `oninput`.
+
+    /**
+     * Updates the displayed coefficient in the equation.
+     * @param {string} param The coefficient name ('a', 'b', or 'c').
+     * @param {string} value The new value from the input.
+     * @param {string} ordinal The unique ID part for the shortcode instance.
+     */
+    window.updateParabolaDisplayJS = function(param, value, ordinal) {
+        const displayElement = document.getElementById(param + '-display-' + ordinal);
+        if (displayElement) {
+            displayElement.textContent = value;
+        }
+    }
+
+    /**
+     * Formats a number to a fixed number of decimal places.
+     * @param {number} num The number to format.
+     * @param {number} precision The number of decimal places.
+     * @returns {string} The formatted number string.
+     */
+    function formatNumber(num, precision = 6) {
+        if (typeof num !== 'number' || isNaN(num)) {
+            return 'N/A';
+        }
+        // Use toFixed to control decimal places.
+        return num.toFixed(precision);
+    }
+
+    /**
+     * Calculates the parabola properties (vertex, focus, directrix).
+     * @param {string} ordinal The unique ID part for the shortcode instance.
+     */
+    window.calculateParabolaPropertiesJS = function(ordinal) {
+        const aInput = document.getElementById('a-input-' + ordinal);
+        const bInput = document.getElementById('b-input-' + ordinal);
+        const cInput = document.getElementById('c-input-' + ordinal);
+        const resultsOutput = document.getElementById('results-output-' + ordinal);
+
+        const a = parseFloat(aInput.value);
+        const b = parseFloat(bInput.value);
+        const c = parseFloat(cInput.value);
+
+        try {
+            if (isNaN(a) || isNaN(b) || isNaN(c)) {
+                throw new Error("Please enter valid numbers for a, b, and c.");
+            }
+
+            if (a === 0) {
+                resultsOutput.innerHTML = '<span class="solver-error">Error: "a" cannot be 0. This is a linear equation, not a parabola.</span>';
+                return;
+            }
+
+            // --- Calculation Formulas using standard JavaScript ---
+            // Vertex x-coordinate: -b / 2a
+            const vertexX = -b / (2 * a);
+            
+            // Vertex y-coordinate: plug vertexX back into the equation y = ax^2 + bx + c
+            const vertexY = (a * Math.pow(vertexX, 2)) + (b * vertexX) + c;
+            
+            // Focus y-coordinate: (4ac - b^2 + 1) / 4a
+            const focusY = (4 * a * c - Math.pow(b, 2) + 1) / (4 * a);
+
+            // Directrix y-value: y = (4ac - b^2 - 1) / 4a
+            const directrixY = (4 * a * c - Math.pow(b, 2) - 1) / (4 * a);
+            
+            // Format the results for display
+            const vertexXFormatted = formatNumber(vertexX);
+            const vertexYFormatted = formatNumber(vertexY);
+            const focusYFormatted = formatNumber(focusY);
+            const directrixYFormatted = formatNumber(directrixY);
+
+            const resultHTML = `
+                <div class="result-item"><span class="result-label">Vertex:</span> <span class="result-value">(${vertexXFormatted}, ${vertexYFormatted})</span></div>
+                <div class="result-item"><span class="result-label">Focus:</span> <span class="result-value">(${vertexXFormatted}, ${focusYFormatted})</span></div>
+                <div class="result-item"><span class="result-label">Directrix:</span> <span class="result-value">y = ${directrixYFormatted}</span></div>
+            `;
+            resultsOutput.innerHTML = resultHTML;
+
+        } catch (error) {
+            resultsOutput.innerHTML = `<span class="solver-error">Error: ${error.message}</span>`;
+            console.error("Parabola solver error:", error);
+        }
+    }
+    
+    // Initial update of the display when the shortcode loads
+    document.addEventListener('DOMContentLoaded', () => {
+        // Use a timeout to ensure all elements are loaded before updating.
+        setTimeout(() => {
+            const ordinal = '{{ .Ordinal }}';
+            updateParabolaDisplayJS('a', document.getElementById('a-input-' + ordinal).value, ordinal);
+            updateParabolaDisplayJS('b', document.getElementById('b-input-' + ordinal).value, ordinal);
+            updateParabolaDisplayJS('c', document.getElementById('c-input-' + ordinal).value, ordinal);
+        }, 100);
+    });
+</script>
