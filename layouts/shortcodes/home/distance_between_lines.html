@@ -1,0 +1,324 @@
+{{/*
+    Hugo Shortcode to find the distance between two linear equations (Ax + By + C = 0).
+    It first checks for parallelism.
+    
+    Usage:
+    {{< distance_between_lines a1="3" b1="4" c1="10" a2="6" b2="8" c2="5" >}}
+    (Calculates the distance between 3x + 4y + 10 = 0 and 6x + 8y + 5 = 0).
+*/}}
+
+<style>
+    /* Scoped CSS for the solver */
+    .line-distance-container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 2.5rem;
+        background-color: #fcfcfc;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+
+    .line-distance-container h3 {
+        text-align: center;
+        color: #1abc9c; /* A fresh green/teal color */
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+    
+    .equation-formula {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #555;
+    }
+
+    .coordinates-input-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #555;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .input-pair {
+        display: flex;
+        gap: 0.5rem;
+    }
+    
+    .input-pair span {
+        font-size: 1.2rem;
+        font-weight: bold;
+        align-self: center;
+        margin: 0 5px;
+    }
+
+    .input-pair input[type="number"] {
+        width: 100%;
+        max-width: 70px;
+        padding: 0.8rem;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        text-align: center;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .input-pair input[type="number"]:focus {
+        outline: none;
+        border-color: #1abc9c;
+        box-shadow: 0 0 10px rgba(26, 188, 156, 0.4);
+    }
+    
+    .solver-button-container {
+        text-align: center;
+    }
+
+    .solver-button {
+        padding: 1rem 2.5rem;
+        background-color: #1abc9c;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.1s;
+    }
+
+    .solver-result {
+        margin-top: 2.5rem;
+        padding: 1.5rem;
+        background-color: #e6f6f3;
+        border: 1px solid #b3e2d6;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #0d6d5d;
+        text-align: center;
+    }
+
+    .solver-error {
+        color: #c0392b;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    html:is(.dark) {
+        .line-distance-container {
+            background-color: #23272e;
+            border-color: #32363e;
+            color: #e0e6ed;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+        .line-distance-container h3 {
+            color: #4ef0c7;
+        }
+        .equation-formula {
+            color: #bfc9d6;
+        }
+        .input-group label {
+            color: #bfc9d6;
+        }
+        .input-pair input[type="number"] {
+            background-color: #23272e;
+            border-color: #3a3f4b;
+            color: #e0e6ed;
+            min-width: 12px;
+        }
+        .input-pair input[type="number"]:focus {
+            border-color: #4ef0c7;
+            box-shadow: 0 0 10px rgba(78, 240, 199, 0.3);
+        }
+        .solver-button {
+            background-color: #4ef0c7;
+            color: #23272e;
+        }
+        .solver-result {
+            background-color: #23332e;
+            border-color: #4ef0c7;
+            color: #4ef0c7;
+        }
+        .solver-error {
+            color: #ff7675;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .line-distance-container {
+            padding: 1rem;
+            max-width: 98vw;
+            font-size: 1rem;
+        }
+        .line-distance-container h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        .equation-formula {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        .coordinates-input-grid {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .input-group label {
+            font-size: 1rem;
+        }
+        .input-pair input[type="number"] {
+            max-width: 55px;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        .solver-button {
+            width: 100%;
+            padding: 0.8rem 0;
+            font-size: 1rem;
+        }
+        .solver-result {
+            font-size: 1.1rem;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+    }
+
+</style>
+
+<div class="line-distance-container">
+    <h3>Distance Between Two Lines</h3>
+    <p style="text-align: center; font-size: 1.1rem; color: #666;">Enter the coefficients for two lines in the form `Ax + By + C = 0`.</p>
+    
+    <div class="coordinates-input-grid">
+        <div class="input-group">
+            <label>Line 1 (A₁x + B₁y + C₁ = 0):</label>
+            <div class="input-pair">
+                <input type="number" id="a1-input-{{ .Ordinal }}" value="{{ .Get "a1" | default "3" }}"><span>x +</span>
+                <input type="number" id="b1-input-{{ .Ordinal }}" value="{{ .Get "b1" | default "4" }}"><span>y +</span>
+                <input type="number" id="c1-input-{{ .Ordinal }}" value="{{ .Get "c1" | default "10" }}"><span>= 0</span>
+            </div>
+        </div>
+        <div class="input-group">
+            <label>Line 2 (A₂x + B₂y + C₂ = 0):</label>
+            <div class="input-pair">
+                <input type="number" id="a2-input-{{ .Ordinal }}" value="{{ .Get "a2" | default "6" }}"><span>x +</span>
+                <input type="number" id="b2-input-{{ .Ordinal }}" value="{{ .Get "b2" | default "8" }}"><span>y +</span>
+                <input type="number" id="c2-input-{{ .Ordinal }}" value="{{ .Get "c2" | default "5" }}"><span>= 0</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="solver-button-container">
+        <button class="solver-button" onclick="calculateLineDistance('{{ .Ordinal }}')">Calculate Distance</button>
+    </div>
+
+    <div class="solver-result" id="distance-output-{{ .Ordinal }}">
+        Distance will appear here.
+    </div>
+</div>
+
+<script>
+    /**
+     * Calculates the distance between two lines given their coefficients.
+     * @param {string} ordinal The unique ID suffix for the shortcode instance.
+     */
+    window.calculateLineDistance = function(ordinal) {
+        const getVal = (id) => parseFloat(document.getElementById(id + '-' + ordinal).value);
+        const outputElement = document.getElementById('distance-output-' + ordinal);
+
+        try {
+            const a1 = getVal('a1-input');
+            const b1 = getVal('b1-input');
+            const c1 = getVal('c1-input');
+            const a2 = getVal('a2-input');
+            const b2 = getVal('b2-input');
+            const c2 = getVal('c2-input');
+
+            // Validate inputs
+            if (isNaN(a1) || isNaN(b1) || isNaN(c1) || isNaN(a2) || isNaN(b2) || isNaN(c2)) {
+                throw new Error("Please enter valid numbers for all coefficients.");
+            }
+            
+            // Floating-point tolerance for comparisons
+            const tolerance = 1e-9;
+
+            // --- Step 1: Check for parallelism ---
+            // Condition for parallel lines: a1*b2 = a2*b1
+            const cross_product_ab = a1 * b2 - a2 * b1;
+            
+            if (Math.abs(cross_product_ab) > tolerance) {
+                // Lines are not parallel, they intersect. The distance is 0.
+                outputElement.innerHTML = `<span style="color: #c0392b;">Lines are not parallel; they intersect. Distance = 0</span>`;
+                return;
+            }
+
+            // --- Step 2: Normalize the equations to have the same A and B coefficients ---
+            // Find a scaling factor. We need to handle cases where A or B is zero.
+            let c2_normalized;
+            let A_normalized, B_normalized;
+
+            if (Math.abs(a1) > tolerance || Math.abs(b1) > tolerance) {
+                // We'll normalize to the coefficients of the first line.
+                // Find a scaling factor to make A2 = A1 and B2 = B1
+                let scale_factor = 1;
+                if (Math.abs(a2) > tolerance) {
+                    scale_factor = a1 / a2;
+                } else if (Math.abs(b2) > tolerance) {
+                    scale_factor = b1 / b2;
+                } else {
+                     throw new Error("Invalid coefficients for Line 2 (A2 and B2 cannot both be zero).");
+                }
+                
+                // Scale C2 to find the normalized C2
+                c2_normalized = scale_factor * c2;
+                A_normalized = a1;
+                B_normalized = b1;
+
+            } else {
+                throw new Error("Invalid coefficients for Line 1 (A1 and B1 cannot both be zero).");
+            }
+            
+            // --- Step 3: Check for coincident lines ---
+            if (Math.abs(c1 - c2_normalized) < tolerance) {
+                outputElement.innerHTML = `<span style="color: #2c3e50;">Lines are coincident (the same line). Distance = 0</span>`;
+                return;
+            }
+
+            // --- Step 4: Calculate the distance for parallel lines ---
+            const denominator = Math.sqrt(Math.pow(A_normalized, 2) + Math.pow(B_normalized, 2));
+
+            if (denominator < tolerance) {
+                 throw new Error("Invalid coefficients (A and B cannot both be zero).");
+            }
+
+            const distance = Math.abs(c1 - c2_normalized) / denominator;
+
+            // Format the result for display
+            const formattedDistance = distance.toFixed(6);
+            
+            outputElement.innerHTML = `Distance = <span style="color: #1abc9c;">${formattedDistance}</span>`;
+
+        } catch (error) {
+            outputElement.innerHTML = `<span class="solver-error">Error: ${error.message}</span>`;
+            console.error("Line distance solver error:", error);
+        }
+    }
+</script>

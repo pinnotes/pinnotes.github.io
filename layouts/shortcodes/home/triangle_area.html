@@ -1,0 +1,194 @@
+{{/*
+    Hugo Shortcode to find the area of a triangle given the coordinates of its three vertices.
+    It uses the Shoelace formula implemented in JavaScript.
+
+    Usage:
+    {{< triangle_area x1="0" y1="0" x2="4" y2="0" x3="2" y3="3" >}}
+    (This solves for a triangle with vertices (0,0), (4,0), and (2,3), with an area of 6).
+*/}}
+
+<style>
+    /* Scoped CSS for the solver */
+    .triangle-area-container {
+        max-width: 700px;
+        margin: 2rem auto;
+        padding: 2.5rem;
+        background-color: #f7f7f7;
+        border: 1px solid #e5e5e5;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+
+    .triangle-area-container h3 {
+        text-align: center;
+        color: #e67e22; /* A warm, engaging color */
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .coordinates-input-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #555;
+        text-align: center;
+    }
+
+    .input-pair {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .input-pair input[type="number"] {
+        width: 100%;
+        max-width: 80px;
+        padding: 0.8rem;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        text-align: center;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .input-pair input[type="number"]:focus {
+        outline: none;
+        border-color: #e67e22;
+        box-shadow: 0 0 10px rgba(230, 126, 34, 0.4);
+    }
+    
+    .solver-button-container {
+        text-align: center;
+    }
+
+    .solver-button {
+        padding: 1rem 2.5rem;
+        background-color: #e67e22;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.1s;
+    }
+
+    .solver-button:hover {
+        background-color: #d35400;
+        transform: translateY(-2px);
+    }
+
+    .solver-result {
+        margin-top: 2.5rem;
+        padding: 1.5rem;
+        background-color: #fff5e6;
+        border: 1px solid #f2c799;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #d35400;
+        text-align: center;
+    }
+
+    .solver-error {
+        color: #c0392b;
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+
+<div class="triangle-area-container">
+    <h3>Triangle Area Calculator</h3>
+    <p style="text-align: center; font-size: 1.1rem; color: #666;">Find the area of a triangle by entering the coordinates of its three vertices.</p>
+    
+    <div class="coordinates-input-grid">
+        <div class="input-group">
+            <label>Vertex 1 (x₁, y₁):</label>
+            <div class="input-pair">
+                <input type="number" id="x1-input-{{ .Ordinal }}" value="{{ .Get "x1" | default "0" }}" placeholder="x1">
+                <input type="number" id="y1-input-{{ .Ordinal }}" value="{{ .Get "y1" | default "0" }}" placeholder="y1">
+            </div>
+        </div>
+        <div class="input-group">
+            <label>Vertex 2 (x₂, y₂):</label>
+            <div class="input-pair">
+                <input type="number" id="x2-input-{{ .Ordinal }}" value="{{ .Get "x2" | default "4" }}" placeholder="x2">
+                <input type="number" id="y2-input-{{ .Ordinal }}" value="{{ .Get "y2" | default "0" }}" placeholder="y2">
+            </div>
+        </div>
+        <div class="input-group">
+            <label>Vertex 3 (x₃, y₃):</label>
+            <div class="input-pair">
+                <input type="number" id="x3-input-{{ .Ordinal }}" value="{{ .Get "x3" | default "2" }}" placeholder="x3">
+                <input type="number" id="y3-input-{{ .Ordinal }}" value="{{ .Get "y3" | default "3" }}" placeholder="y3">
+            </div>
+        </div>
+    </div>
+    
+    <div class="solver-button-container">
+        <button class="solver-button" onclick="calculateTriangleArea('{{ .Ordinal }}')">Calculate Area</button>
+    </div>
+
+    <div class="solver-result" id="area-output-{{ .Ordinal }}">
+        Area will appear here.
+    </div>
+</div>
+
+<script>
+    /**
+     * Calculates the area of a triangle using the Shoelace formula.
+     * @param {string} ordinal The unique ID suffix for the shortcode instance.
+     */
+    window.calculateTriangleArea = function(ordinal) {
+        const getVal = (id) => parseFloat(document.getElementById(id + '-' + ordinal).value);
+        const outputElement = document.getElementById('area-output-' + ordinal);
+
+        try {
+            const x1 = getVal('x1-input');
+            const y1 = getVal('y1-input');
+            const x2 = getVal('x2-input');
+            const y2 = getVal('y2-input');
+            const x3 = getVal('x3-input');
+            const y3 = getVal('y3-input');
+
+            // Validate inputs
+            if (isNaN(x1) || isNaN(y1) || isNaN(x2) || isNaN(y2) || isNaN(x3) || isNaN(y3)) {
+                throw new Error("Please enter valid numbers for all coordinates.");
+            }
+
+            // Apply the Shoelace formula
+            const area = 0.5 * Math.abs(
+                (x1 * y2 + x2 * y3 + x3 * y1) - (y1 * x2 + y2 * x3 + y3 * x1)
+            );
+
+            // Check if the points are collinear (area is 0)
+            if (area === 0) {
+                 outputElement.innerHTML = `<span style="color: #2c3e50;">The points are collinear. Area = 0</span>`;
+                 return;
+            }
+
+            // Format the result for display
+            const formattedArea = area.toFixed(4); // Use toFixed for clean decimals
+            
+            outputElement.innerHTML = `Area = <span style="color: #e67e22;">${formattedArea}</span>`;
+
+        } catch (error) {
+            outputElement.innerHTML = `<span class="solver-error">Error: ${error.message}</span>`;
+            console.error("Triangle area solver error:", error);
+        }
+    }
+</script>

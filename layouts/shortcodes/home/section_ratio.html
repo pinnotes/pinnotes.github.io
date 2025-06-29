@@ -1,0 +1,244 @@
+{{/*
+    Hugo Shortcode to find the ratio (k:1) in which a point P divides a line segment AB.
+    It takes the coordinates of the two endpoints A and B, and the dividing point P.
+
+    Usage:
+    {{< section_ratio x1="1" y1="2" x2="6" y2="7" x_p="3" y_p="4" >}}
+    (This solves for the ratio in which (3,4) divides the segment from (1,2) to (6,7). The ratio is 2:3).
+*/}}
+
+<style>
+    /* Scoped CSS for the section ratio solver */
+    .section-ratio-container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 2.5rem;
+        background-color: #fcfcfc;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+
+    .section-ratio-container h3 {
+        text-align: center;
+        color: #6c5ce7; /* A pleasing purple color */
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .coordinates-input-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1 1 200px;
+        min-width: 150px;
+    }
+
+    .input-group label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #555;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .input-pair {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .input-pair input[type="number"] {
+        width: 100%;
+        max-width: 90px;
+        padding: 0.8rem;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        text-align: center;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .input-pair input[type="number"]:focus {
+        outline: none;
+        border-color: #6c5ce7;
+        box-shadow: 0 0 10px rgba(108, 92, 231, 0.4);
+    }
+    
+    .solver-button-container {
+        text-align: center;
+    }
+
+    .solver-button {
+        padding: 1rem 2.5rem;
+        background-color: #6c5ce7;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.1s;
+    }
+
+    .solver-button:hover {
+        background-color: #4a3ebf;
+        transform: translateY(-2px);
+    }
+
+    .solver-result {
+        margin-top: 2.5rem;
+        padding: 1.5rem;
+        background-color: #f3f0ff;
+        border: 1px solid #c2b2ff;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #4a3ebf;
+        text-align: center;
+    }
+
+    .solver-error {
+        color: #d63031;
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+
+<div class="section-ratio-container">
+    <h3>Find the Section Ratio (k:1)</h3>
+    <p style="text-align: center; font-size: 1.1rem; color: #666;">Enter the coordinates of the endpoints A and B, and the dividing point P.</p>
+    
+    <div class="coordinates-input-row">
+        <div class="input-group">
+            <label>Point A (x₁, y₁):</label>
+            <div class="input-pair">
+                <input type="number" id="x1-input-{{ .Ordinal }}" value="{{ .Get "x1" | default "1" }}" placeholder="x1">
+                <input type="number" id="y1-input-{{ .Ordinal }}" value="{{ .Get "y1" | default "2" }}" placeholder="y1">
+            </div>
+        </div>
+        <div class="input-group">
+            <label>Point B (x₂, y₂):</label>
+            <div class="input-pair">
+                <input type="number" id="x2-input-{{ .Ordinal }}" value="{{ .Get "x2" | default "6" }}" placeholder="x2">
+                <input type="number" id="y2-input-{{ .Ordinal }}" value="{{ .Get "y2" | default "7" }}" placeholder="y2">
+            </div>
+        </div>
+        <div class="input-group">
+            <label>Point P (x, y):</label>
+            <div class="input-pair">
+                <input type="number" id="x-input-{{ .Ordinal }}" value="{{ .Get "x_p" | default "3" }}" placeholder="x">
+                <input type="number" id="y-input-{{ .Ordinal }}" value="{{ .Get "y_p" | default "4" }}" placeholder="y">
+            </div>
+        </div>
+    </div>
+    
+    <div class="solver-button-container">
+        <button class="solver-button" onclick="calculateRatio('{{ .Ordinal }}')">Calculate Ratio</button>
+    </div>
+
+    <div class="solver-result" id="ratio-output-{{ .Ordinal }}">
+        Ratio will appear here.
+    </div>
+</div>
+
+<script>
+    /**
+     * Finds the ratio k:1 in which point P divides segment AB.
+     * @param {string} ordinal The unique ID suffix for the shortcode instance.
+     */
+    window.calculateRatio = function(ordinal) {
+        const getVal = (id) => parseFloat(document.getElementById(id + '-' + ordinal).value);
+        const outputElement = document.getElementById('ratio-output-' + ordinal);
+
+        try {
+            // Coordinates of Point A
+            const x1 = getVal('x1-input');
+            const y1 = getVal('y1-input');
+            
+            // Coordinates of Point B
+            const x2 = getVal('x2-input');
+            const y2 = getVal('y2-input');
+            
+            // Coordinates of Point P (the dividing point)
+            const x_p = getVal('x-input');
+            const y_p = getVal('y-input');
+
+            // Validate inputs
+            if (isNaN(x1) || isNaN(y1) || isNaN(x2) || isNaN(y2) || isNaN(x_p) || isNaN(y_p)) {
+                throw new Error("Please enter valid numbers for all coordinates.");
+            }
+
+            // Calculate ratio k using x-coordinates
+            const numerator_x = x1 - x_p;
+            const denominator_x = x_p - x2;
+
+            if (denominator_x === 0) {
+                // This means x_p = x2, so the dividing point is B. The ratio is undefined, or 0:1.
+                // We should check if all coordinates match B.
+                if (x_p === x2 && y_p === y2) {
+                    outputElement.innerHTML = `Point P is the endpoint B. Ratio is 0 : 1.`;
+                    return;
+                }
+                throw new Error("Division by zero in x-coordinate calculation. The point P might be the endpoint B or lies outside the line segment in a way that x_p = x2.");
+            }
+
+            const k_x = numerator_x / denominator_x;
+
+            // Calculate ratio k using y-coordinates and check for consistency
+            const numerator_y = y1 - y_p;
+            const denominator_y = y_p - y2;
+            
+            if (denominator_y === 0 && y_p !== y2) {
+                // This can happen if P is not B, but y_p = y2 (horizontal line segment)
+                throw new Error("Division by zero in y-coordinate calculation. The point P might be the endpoint B or lies outside the line segment in a way that y_p = y2.");
+            }
+
+            if (denominator_y === 0 && y_p === y2) {
+                // The line is horizontal, so we only need to rely on the x-calculation.
+                // We don't need to check k_y, so skip the consistency check for horizontal lines.
+                // This is a safe fallback.
+            } else {
+                const k_y = numerator_y / denominator_y;
+                // Check if the ratios from x and y are consistent
+                if (Math.abs(k_x - k_y) > 1e-9) { // Use a small tolerance for floating-point comparison
+                    throw new Error(`Inconsistent ratio: k_x = ${k_x.toFixed(4)}, k_y = ${k_y.toFixed(4)}. The points A, B, and P are not collinear.`);
+                }
+            }
+
+            // Format the result
+            const sign = Math.sign(k_x);
+            let divisionType = sign > 0 ? "internally" : "externally";
+            let ratio_m_n_text = "";
+            let simplified_k = Math.abs(k_x);
+            
+            // Try to simplify the ratio to a fraction
+            let tolerance = 1e-6; // Tolerance for floating-point issues
+            for (let d = 1; d <= 1000; d++) {
+                let n = simplified_k * d;
+                if (Math.abs(n - Math.round(n)) < tolerance) {
+                    ratio_m_n_text = `${Math.round(n)} : ${d}`;
+                    break;
+                }
+            }
+            if (!ratio_m_n_text) {
+                ratio_m_n_text = `${simplified_k.toFixed(3)} : 1`;
+            }
+
+            outputElement.innerHTML = `Ratio is <span style="color: #6c5ce7;">${ratio_m_n_text}</span>. Point P divides the segment AB <span style="color: #6c5ce7;">${divisionType}</span>.`;
+
+        } catch (error) {
+            outputElement.innerHTML = `<span class="solver-error">Error: ${error.message}</span>`;
+            console.error("Section ratio solver error:", error);
+        }
+    }
+</script>
