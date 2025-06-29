@@ -1,30 +1,105 @@
 ---
 title: Quadratic formula
 date: 2025-05-08
-tags:
-  - Notes 
-  - IIT Madras
-excludeSearch: false
 weight: 39
 ---
 
-Based on the sources and our conversation, the **quadratic formula** is a powerful tool used to find the **roots** (or solutions) of a quadratic equation.
+Solving a quadratic equation using the **Quadratic Formula** is a universal method that provides the solutions (or "roots") for any quadratic equation in standard form. This powerful formula is actually derived directly from the "completing the square" method, making it a reliable tool even when other methods like factoring are difficult or impossible 🛠️.
 
-A quadratic equation is formed when a quadratic function, which is in the form ax² + bx + c where a is not equal to 0, is set equal to a value, often 0 for the standard form: ax² + bx + c = 0. The roots of this equation are the x-values for which the equation holds true. These roots correspond to the **x-intercepts** or **zeros** of the associated quadratic function f(x) = ax² + bx + c.
+### What is a Quadratic Equation? 🧐
 
-The quadratic formula provides a direct way to calculate these roots. It is given by the expression:
-**x = [-b ± √(b² - 4ac)] / 2a**
+A **quadratic equation** is typically expressed in its **standard form** as `ax² + bx + c = 0`. In this equation:
+*   `a`, `b`, and `c` are coefficients.
+*   `a` must **not be equal to zero** (`a ≠ 0`). If `a` were zero, the `x²` term would vanish, reducing it to a linear equation.
+*   For a quadratic equation to be in standard form, its coefficients `a`, `b`, and `c` are typically considered to be integers.
+*   The **solutions** to a quadratic equation are called its **roots**. These are the values of `x` that make the equation true.
 
-This formula is particularly significant because it is **derived from the method of completing the square** applied to the general quadratic equation ax² + bx + c = 0. The derivation involves steps like dividing by 'a' (assuming a is not 0), moving the constant term to the other side, adding (b/2a)² to both sides to complete the square, and then taking the square root of both sides.
+### The Quadratic Formula Explained 📝
 
-Within the quadratic formula, the term **b² - 4ac** is known as the **discriminant**. Its value is crucial as it **discriminates** between the types and number of **real roots** the quadratic equation has.
-The rules for the discriminant are:
-*   If **b² - 4ac > 0**, there are **two real roots**. If the discriminant is also a **perfect square**, these two real roots are **rational**. If it is **not a perfect square**, the two real roots are **irrational**. This scenario corresponds graphically to the parabola intersecting the x-axis at two distinct points.
-*   If **b² - 4ac = 0**, there is **one real root**. This root is a **repeated rational root**. Graphically, this means the parabola touches the x-axis at exactly one point, which is its vertex.
-*   If **b² - 4ac < 0**, there are **no real roots**. This is because the square root of a negative number is not defined in the real number system, requiring the use of complex numbers which are not covered in this course. Graphically, the parabola does not intersect the x-axis at all.
+The **Quadratic Formula** is:
+**`x = (-b ± √(b² - 4ac)) / (2a)`**
 
-The quadratic formula **always works** for finding the roots of a quadratic equation. It can be used regardless of whether the coefficients a, b, and c are rational or irrational numbers. The conditions on a, b, and c being rational are specifically needed if you want to distinguish between rational and irrational roots based on the discriminant.
+This formula allows you to find the roots of any quadratic equation `ax² + bx + c = 0` directly, simply by substituting the values of `a`, `b`, and `c`.
 
-Examples provided show the application of the formula to find roots. For instance, for x² + 2x - 24 = 0, with a=1, b=2, c=-24, the discriminant is 2² - 4(1)(-24) = 4 + 96 = 100. Since 100 > 0 and is a perfect square, there are two real rational roots. The formula gives x = [-2 ± √100] / 2(1) = [-2 ± 10] / 2, resulting in x = 4 or x = -6.
+#### Derivation from Completing the Square 🔗
+The quadratic formula is a generalisation obtained by applying the "completing the square" method to the standard form `ax² + bx + c = 0`. Here's how it's done:
 
-In summary, the quadratic formula is a universal method for solving quadratic equations, directly derived from completing the square, and the discriminant within it provides key information about the nature of the roots without needing to fully solve the equation.
+1.  **Start with the standard form**: `ax² + bx + c = 0`.
+2.  **Divide by `a`**: Since `a ≠ 0`, divide the entire equation by `a` to make the `x²` coefficient 1: `x² + (b/a)x + (c/a) = 0`.
+3.  **Move the constant term**: Shift `c/a` to the right side of the equation: `x² + (b/a)x = -c/a`.
+4.  **Complete the square**: To make the left side a perfect square trinomial, take half of the coefficient of `x` (`b/a`), which is `b/(2a)`, and square it: `(b/(2a))² = b²/(4a²)`. Add this value to **both sides** of the equation to maintain balance:
+    `x² + (b/a)x + b²/(4a²) = -c/a + b²/(4a²)`
+5.  **Factor and simplify**: The left side is now a perfect square: `(x + b/(2a))²`. Combine the terms on the right side by finding a common denominator (which is `4a²`):
+    `(x + b/(2a))² = (b² - 4ac) / (4a²)`
+6.  **Take the square root**: Take the square root of both sides. Remember to include both the positive and negative roots for the right side (as `√X` gives `±Y` if `X=Y²`):
+    `x + b/(2a) = ±√(b² - 4ac) / √(4a²)`
+    `x + b/(2a) = ±√(b² - 4ac) / (2a)`
+7.  **Isolate `x`**: Subtract `b/(2a)` from both sides:
+    `x = -b/(2a) ± √(b² - 4ac) / (2a)`
+8.  **Combine terms**: Since both terms on the right have a common denominator of `2a`, they can be combined into the single **Quadratic Formula**:
+    **`x = (-b ± √(b² - 4ac)) / (2a)`**
+
+### The Discriminant: `b² - 4ac` 🔍
+
+The expression under the square root in the quadratic formula, **`b² - 4ac`**, is called the **discriminant**. It "discriminates" (tells us about) the nature and number of the roots of the quadratic equation.
+
+Here's what the value of the discriminant tells you:
+
+*   **If `b² - 4ac > 0` (Positive)**:
+    *   There are **two distinct real roots** ✌️.
+    *   If the discriminant is a **perfect square** (e.g., 25, 49), the two real roots will be **rational numbers** (can be expressed as `p/q`, where `p` and `q` are integers).
+    *   If the discriminant is **not a perfect square** (e.g., 32, 7), the two real roots will be **irrational numbers** (cannot be expressed as `p/q`, like √2).
+*   **If `b² - 4ac = 0` (Zero)**:
+    *   There is **exactly one real root** (also called a repeated root) 👆. This means the parabola just touches the x-axis at one point. If `a, b, c` are rational, this root will be rational.
+*   **If `b² - 4ac < 0` (Negative)**:
+    *   There are **no real roots** 🚫. This is because you cannot take the square root of a negative number within the real number system. The solutions would involve complex numbers, which are not typically covered in this particular course. In this case, the parabola does not intersect the x-axis at all.
+
+### Practice Questions! ✍️
+
+Let's put the Quadratic Formula into practice.
+
+**Q1: Solve the quadratic equation `x² + 5x + 6 = 0` using the Quadratic Formula. 🔢**
+
+**Q2: Find the roots of the equation `3x² - 7x + 2 = 0` using the Quadratic Formula. 🧐**
+
+---
+
+### Solutions ✅
+
+**Solution to Q1: `x² + 5x + 6 = 0`**
+1.  **Identify `a`, `b`, `c`**:
+    *   `a = 1` [a is coefficient of `x²`]
+    *   `b = 5` [b is coefficient of `x`]
+    *   `c = 6` [c is the constant term]
+2.  **Write the Quadratic Formula**:
+    `x = (-b ± √(b² - 4ac)) / (2a)`
+3.  **Substitute the values**:
+    `x = (-5 ± √(5² - 4 * 1 * 6)) / (2 * 1)`
+4.  **Simplify the discriminant**:
+    `x = (-5 ± √(25 - 24)) / 2`
+    `x = (-5 ± √1) / 2`
+    The discriminant (`1`) is positive and a perfect square, so we expect two distinct rational roots.
+5.  **Calculate the roots**:
+    *   `x1 = (-5 + 1) / 2 = -4 / 2 = -2`
+    *   `x2 = (-5 - 1) / 2 = -6 / 2 = -3`
+
+The roots of the equation `x² + 5x + 6 = 0` are **`x = -2` and `x = -3`** ✔️.
+
+**Solution to Q2: `3x² - 7x + 2 = 0`**
+1.  **Identify `a`, `b`, `c`**:
+    *   `a = 3`
+    *   `b = -7`
+    *   `c = 2`
+2.  **Write the Quadratic Formula**:
+    `x = (-b ± √(b² - 4ac)) / (2a)`
+3.  **Substitute the values**:
+    `x = (-(-7) ± √((-7)² - 4 * 3 * 2)) / (2 * 3)`
+4.  **Simplify the discriminant**:
+    `x = (7 ± √(49 - 24)) / 6`
+    `x = (7 ± √25) / 6`
+    The discriminant (`25`) is positive and a perfect square, so we expect two distinct rational roots.
+5.  **Calculate the roots**:
+    *   `x1 = (7 + 5) / 6 = 12 / 6 = 2`
+    *   `x2 = (7 - 5) / 6 = 2 / 6 = 1/3`
+
+The roots of the equation `3x² - 7x + 2 = 0` are **`x = 2` and `x = 1/3`** ✔️.

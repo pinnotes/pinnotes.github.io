@@ -8,37 +8,110 @@ excludeSearch: false
 weight: 31
 ---
 
-A **quadratic function** is a type of function described by an equation in the form **f(x) = ax² + bx + c**, where **a is not equal to 0**. The condition that 'a' must not be 0 is crucial, because if a were 0, the equation would reduce to f(x) = bx + c, which is a linear function. The name "quadratic" is related to the term "square".
+A **quadratic equation** is a powerful mathematical tool that arises when a **quadratic function** is set to be equal to a specific value, often zero. Think of it as finding the exact 'spots' on a graph where a U-shaped or inverted U-shaped curve (called a **parabola**) crosses a certain horizontal line. 🎢
 
-The graph of any quadratic function is always a **parabola**.
+### What is a Quadratic Equation?
 
-Important observations and features of quadratic functions and their graphs include:
+At its heart, a quadratic equation is defined by an equation of the form:
+$\mathbf{ax^2 + bx + c = 0}$
 
-*   **The coefficient 'a'**:
-    *   If **a is greater than 0 (a > 0)**, the function opens upwards and has a minimum value.
-    *   If **a is less than 0 (a < 0)**, the function opens downwards and has a maximum value.
-*   **Axis of Symmetry**: All parabolas have an axis of symmetry. If the graph paper containing the parabola is folded along this line, the portions on either side will match exactly. The equation of the axis of symmetry is **x = -b/(2a)**. This can be shown through the method of completing the square.
-*   **Vertex**: The point where the axis of symmetry intersects the parabola is called the vertex.
-    *   The **x-coordinate of the vertex** is **-b/(2a)**.
-    *   The **y-coordinate of the vertex** is f(-b/(2a)).
-    *   The y-coordinate of the vertex represents the minimum or maximum value attained by the function. When the slope of the function is zero, it corresponds to the vertex where the function assumes its minimum or maximum value.
-*   **Y-intercept**: The point where the graph crosses the y-axis is called the y-intercept. This value is given by **c** (when x = 0).
-*   **Graphing**: A quadratic function can be graphed by plotting ordered pairs (x, f(x)) that satisfy the function. A recommended approach is to find the axis of symmetry, the y-intercept, and then use the axis of symmetry to find another point, and join these points with a smooth curve.
-*   **Domain and Range**:
-    *   The **domain** of a quadratic function f(x) = ax² + bx + c is the **entire real line**. We can take the square of any real number as input.
-    *   The **range** of a quadratic function is a subset of the codomain (the set of possible output values). The range depends on whether the parabola opens up or down and the y-coordinate of the vertex. If a > 0, the range is from the minimum value (y-coordinate of the vertex) upwards to positive infinity. If a < 0, the range is from negative infinity up to the maximum value (y-coordinate of the vertex).
-*   **Slope**: Unlike linear functions which have a constant slope, the slope of a quadratic function is variable. For a function f(x) = ax² + bx + c, the slope at any point x is given by **2ax + b**. Setting the slope equal to 0 (2ax + b = 0) gives x = -b/(2a), which is the x-coordinate of the vertex.
+Here's a breakdown of its components:
+*   `a`, `b`, and `c` are **coefficients** (constants), and `x` is the variable.
+*   The **crucial condition** is that `a` must **not be equal to 0** (`a ≠ 0`). Why? Because if `a` were 0, the `ax²` term would disappear, and the equation would simply become `bx + c = 0`, which is a **linear equation** (representing a straight line) instead of a quadratic one. The term "quadratic" itself means "related to square," derived from a word meaning "square".
+*   When `a`, `b`, and `c` are **integers** and the equation is set equal to 0, it is said to be in **standard form**.
 
-Quadratic functions are closely related to **quadratic equations**. A quadratic equation is formed when a quadratic function is set equal to a value. The standard form of a quadratic equation is **ax² + bx + c = 0**, where a is not equal to 0, and a, b, c are integers.
+### Roots of a Quadratic Equation 🌱
 
-The **solutions** to a quadratic equation are called **roots** of the equation. These roots are also known as the **zeros** of the related quadratic function. The zeros of a quadratic function are its **x-intercepts**.
+The **solutions** to a quadratic equation are called its **roots**. These are the specific values of `x` that make the equation `ax² + bx + c = 0` true. Graphically, if you plot the associated quadratic function `f(x) = ax² + bx + c`, its roots are simply the **x-intercepts** of the parabola – where the curve crosses the x-axis.
 
-Methods for solving quadratic equations include:
+### Methods of Solving Quadratic Equations 🛠️
 
-1.  **Graphing**: Plotting the associated quadratic function and finding where it intersects the x-axis (the x-intercepts). This method is good for verifying results, but less precise if solutions are not integers.
-2.  **Factoring**: Writing the quadratic polynomial as a product of binomials and using the Zero Product Property to set each factor equal to zero and solve for x. The intercept form of a quadratic function, y = a(x-p)(x-q), directly shows the x-intercepts (p and q).
-3.  **Completing the Square**: Transforming the equation to have a perfect square on one side and a constant on the other, then taking the square root of both sides.
-4.  **Quadratic Formula**: A general formula derived from the method of completing the square. The roots of ax² + bx + c = 0 are given by **x = (-b ± √(b² - 4ac)) / (2a)**. The term **b² - 4ac** is called the **discriminant**. The discriminant indicates the number and type of real roots:
-    *   If **b² - 4ac > 0**, there are two real roots.
-    *   If **b² - 4ac = 0**, there is one real (repeated) root.
-    *   If **b² - 4ac < 0**, there are no real roots.
+There are several techniques to find the roots of a quadratic equation:
+
+#### 1. Graphing Method 📈
+This method involves **plotting the associated quadratic function** (`f(x) = ax² + bx + c`) and visually identifying where the parabola intersects the x-axis.
+*   **Key Idea**: The x-intercepts of the graph are the roots of the equation `f(x) = 0`.
+*   **Usefulness**: While not always precise for finding exact roots (especially if they are not integers), this method is excellent for **verifying** algebraically found solutions. It also helps visualise how many real roots exist:
+    *   **Two real roots**: If the parabola crosses the x-axis at two distinct points.
+    *   **One real (repeated) root**: If the parabola touches the x-axis at exactly one point (its vertex).
+    *   **No real roots**: If the parabola never intersects the x-axis (it's entirely above or below it).
+
+#### 2. Factoring Method 📝
+If the quadratic expression can be factored, this method leverages the **Zero Product Property**. This property states that if the product of two factors is zero, then at least one of those factors must be zero.
+*   **Steps**:
+    1.  **Write the equation in standard form**: `ax² + bx + c = 0`.
+    2.  **Factor the polynomial**: Express the quadratic as a product of two binomials, e.g., `(x - p)(x - q) = 0`. The process often involves finding two numbers whose product equals `ac` and whose sum equals `b`. This can be done by looking at the prime factors of `ac` and finding combinations that sum to `b`.
+    3.  **Set each factor to zero**: `x - p = 0` or `x - q = 0`.
+    4.  **Solve each linear equation**: This gives the roots `x = p` and `x = q`.
+*   **Foil Method (in reverse)**: To convert from the standard form to the intercept form (factored form), you essentially reverse the FOIL (First, Outer, Inner, Last) method used for multiplying binomials.
+
+#### 3. Completing the Square Method 🏗️
+This method involves manipulating the equation to create a **perfect square trinomial** on one side.
+*   **Steps**:
+    1.  **Rearrange the equation**: Move the constant term (`c`) to the right side of the equation and ensure the `x²` term has a coefficient of 1 (divide by `a` if necessary).
+    2.  **Complete the square**: Add `(b/2)²` to both sides of the equation. This specific value completes the square on the left side, turning it into `(x + b/2)²`.
+    3.  **Take the square root**: Take the square root of both sides, remembering to include both positive and negative roots (`±`).
+    4.  **Solve for x**: Isolate `x` to find the roots.
+*   **Limitation**: This method might not yield real solutions if, after completing the square, the right-hand side of the equation is a negative number, as the square root of a negative number is not a real number.
+
+#### 4. Quadratic Formula ➗
+The **quadratic formula** is a general formula that can solve *any* quadratic equation in standard form. It is derived directly from the method of completing the square.
+
+The formula is:
+$\mathbf{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$
+
+*   **The Discriminant (Δ)**: The term inside the square root, $\mathbf{b^2 - 4ac}$, is called the **discriminant** (often denoted as Δ). It "discriminates" or determines the nature and number of real roots.
+    *   If **Δ > 0**: There are **two distinct real roots**. If Δ is also a perfect square, the roots are rational; otherwise, they are irrational.
+    *   If **Δ = 0**: There is **one real (repeated) root**, which is always rational.
+    *   If **Δ < 0**: There are **no real roots** (the roots are complex numbers, which are not covered in detail in this course).
+
+### Practice Questions ✍️
+
+**Q1: Find the roots of the quadratic equation $x^2 + 7x + 10 = 0$ using the factoring method.**
+
+**Q2: Determine the number and type of real roots for the equation $2x^2 - 3x + 5 = 0$ using the discriminant.**
+
+### Solutions ✅
+
+**Solution to Q1:**
+
+1.  **Equation in standard form**: The equation is already in standard form: $x^2 + 7x + 10 = 0$.
+    *   Here, `a = 1`, `b = 7`, `c = 10`.
+
+2.  **Factor the polynomial**: We need two numbers that multiply to `ac = 1 * 10 = 10` and add up to `b = 7`.
+    *   The numbers are 2 and 5 (since 2 * 5 = 10 and 2 + 5 = 7).
+    *   Rewrite the middle term using these numbers: $x^2 + 2x + 5x + 10 = 0$.
+    *   Group terms and factor out common factors:
+        $(x^2 + 2x) + (5x + 10) = 0$
+        $x(x + 2) + 5(x + 2) = 0$
+    *   Factor out the common binomial: $(x + 2)(x + 5) = 0$.
+
+3.  **Set each factor to zero**:
+    *   $x + 2 = 0$
+    *   $x + 5 = 0$
+
+4.  **Solve each linear equation**:
+    *   $x = -2$
+    *   $x = -5$
+
+Therefore, the roots of the equation $x^2 + 7x + 10 = 0$ are **-2 and -5**.
+
+---
+
+**Solution to Q2:**
+
+1.  **Identify coefficients**: For the equation $2x^2 - 3x + 5 = 0$:
+    *   `a = 2`
+    *   `b = -3`
+    *   `c = 5`
+
+2.  **Calculate the discriminant (Δ)**:
+    *   $\Delta = b^2 - 4ac$
+    *   $\Delta = (-3)^2 - 4(2)(5)$
+    *   $\Delta = 9 - 40$
+    *   $\Delta = -31$
+
+3.  **Interpret the discriminant's value**:
+    *   Since $\Delta = -31$, which is **less than 0** ($\Delta < 0$).
+
+Therefore, the equation $2x^2 - 3x + 5 = 0$ has **no real roots**. This means the parabola represented by the function $f(x) = 2x^2 - 3x + 5$ does not intersect the x-axis.

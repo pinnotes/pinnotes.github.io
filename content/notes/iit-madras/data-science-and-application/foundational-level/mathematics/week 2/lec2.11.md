@@ -8,44 +8,79 @@ excludeSearch: false
 weight: 21
 ---
 
-Drawing upon the provided sources and our conversation history, we can determine the equation of a line perpendicular to a given line and passing through a specific point, often starting with the **General Form** of the given line.
+Understanding the equation of a perpendicular line passing through a specific point involves combining your knowledge of the **general equation of a line** and the **conditions for perpendicularity** between lines. Let's break it down! 🧩
 
-The **general equation of a line** is expressed as **Ax + By + C = 0**. This form is particularly useful as it can represent **any straight line**, including vertical lines, which have an undefined slope. For this to represent a line, A and B cannot be zero simultaneously.
+### The General Equation of a Line (Refresher) 📏
 
-The relationship between two perpendicular lines (that are not vertical or horizontal) is characterised by their slopes. If two non-vertical lines have slopes m₁ and m₂, they are **perpendicular if and only if the product of their slopes is -1**, i.e., **m₁ * m₂ = -1**.
+As we discussed, the **general equation of a line** is given by:
+$\mathbf{Ax + By + C = 0}$
 
-For a non-vertical line in the general form Ax + By + C = 0 (where B ≠ 0), its slope (m) is given by **m = -A/B**.
+From this form, if `B` is not equal to 0, the **slope** (`m`) of the line can be found using the formula:
+$\mathbf{m = -A/B}$. This relationship helps us understand how the constants `A` and `B` determine the line's inclination.
 
-To find the equation of a line perpendicular to a given line Ax + By + C = 0 and passing through a point (x₀, y₀), we can follow these steps, as illustrated by an example in the sources:
+### The Magic of Perpendicular Lines 📐
 
-1.  **Find the slope of the given line:** Let the given line be A₁x + B₁y + C₁ = 0. If B₁ ≠ 0, its slope is m₁ = -A₁/B₁.
-    *   *Example:* Given line is x - 2y + 3 = 0. Here, A₁=1, B₁=-2, C₁=3. The slope m₁ = -(1)/(-2) = 1/2.
-2.  **Find the slope of the perpendicular line:** The slope m₂ of the line perpendicular to the given line satisfies m₁ * m₂ = -1.
-    *   If m₁ ≠ 0, then m₂ = -1/m₁.
-    *   *Example:* Since m₁ = 1/2, m₂ = -1 / (1/2) = -2.
-3.  **Use the Point-Slope Form:** We now have the slope (m₂) of the perpendicular line and a point (x₀, y₀) it passes through. The equation of a line with slope m and passing through (x₀, y₀) is given by the **Point-Slope Form**: (y - y₀) = m(x - x₀).
-    *   *Example:* The perpendicular line has slope m₂ = -2 and passes through (-1, 2). Substituting these values: (y - 2) = -2(x - (-1)).
-    *   This simplifies to (y - 2) = -2(x + 1).
-4.  **Convert to General Form:** Rearrange the equation from the point-slope form into the general form Ax + By + C = 0.
-    *   *Example:* (y - 2) = -2(x + 1) becomes y - 2 = -2x - 2.
-    *   Adding 2x and 2 to both sides gives 2x + y = 0 [Conversation history based on example result]. This can be written in general form as **2x + y + 0 = 0**. The source also presents the equivalent form **-2x + y = 0**, which is obtained by rearranging y = -2x.
+Two non-vertical lines are **perpendicular** if they intersect at a 90-degree angle. The special relationship between their slopes is that when you multiply them together, you always get -1.
 
-**Direct Condition for Perpendicular Lines in General Form:**
+*   If `m1` is the slope of the first line, and `m2` is the slope of a line perpendicular to it, then:
+    $\mathbf{m_1 \times m_2 = -1}$
 
-The sources also provide a direct condition for two lines a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 to be perpendicular, provided b₁ and b₂ are not zero. The lines are perpendicular if:
-**a₁ × a₂ = −b₁ × b₂**
+This means that `m2` is the **negative reciprocal** of `m1`. For example, if `m1` is 2, then `m2` is -1/2. If `m1` is -3/4, then `m2` is 4/3.
 
-Let's verify this condition with the example:
-*   Line 1: x - 2y + 3 = 0 (a₁=1, b₁=-2).
-*   Perpendicular Line (derived): 2x + y + 0 = 0 (a₂=2, b₂=1) [Conversation history based on example result].
-*   Checking the condition a₁a₂ = -b₁b₂: (1) * (2) = -(-2) * (1) => 2 = -(-2) => 2 = 2. This matches the condition for perpendicular lines.
+### Finding the Equation of a Perpendicular Line Through a Point 🎯
 
-**Special Cases (Vertical and Horizontal Lines):**
+Let's say you're given a line (Line 1) in its general form, `A1x + B1y + C1 = 0`, and a specific point `(x0, y0)` that the new perpendicular line (Line 2) must pass through. Here's how you find the equation of Line 2:
 
-The method using slopes and the point-slope form works for non-vertical lines. However, the General Form Ax + By + C = 0 naturally handles vertical and horizontal lines as well.
-*   A vertical line is represented by **Ax + C = 0** (where B=0, A≠0), which simplifies to x = -C/A. Vertical lines have an undefined slope.
-*   A horizontal line is represented by **By + C = 0** (where A=0, B≠0), which simplifies to y = -C/B. Horizontal lines have a slope of 0.
-*   If the given line is vertical (e.g., x = k), a line perpendicular to it must be horizontal (y = constant). You would then find the constant using the point the perpendicular line passes through.
-*   If the given line is horizontal (e.g., y = k), a line perpendicular to it must be vertical (x = constant). You would find the constant using the given point.
+1.  **Find the Slope of Line 1 (`m1`)** 📈:
+    *   From `A1x + B1y + C1 = 0`, calculate `m1 = -A1/B1`.
 
-The general form allows for a unified algebraic representation, and while finding slopes and using the point-slope form is a common method, the direct condition on coefficients can also be applied when applicable (i.e., when the y-coefficients are non-zero).
+2.  **Calculate the Slope of Line 2 (`m2`)** 📉:
+    *   Since Line 2 is perpendicular to Line 1, use the negative reciprocal rule: `m2 = -1/m1`.
+
+3.  **Use the Point-Slope Form** 📝:
+    *   Now you have the slope (`m2`) of Line 2 and a point `(x0, y0)` that it passes through. The **point-slope form** of a linear equation is perfect for this:
+        $\mathbf{y - y_0 = m_2(x - x_0)}$
+    *   Substitute `m2`, `x0`, and `y0` into this equation.
+
+4.  **Convert to General Form (Optional)** 🔄:
+    *   If the question asks for the equation in general form (`Ax + By + C = 0`), simply rearrange the point-slope equation by moving all terms to one side.
+
+This methodical approach allows you to determine the unique equation of the perpendicular line.
+
+---
+
+### Practice Question: Perpendicular Line ✍️
+
+Find the equation of a line that is **perpendicular** to the line $\mathbf{2x + 4y - 8 = 0}$ and passes through the point $\mathbf{(3, 1)}$.
+
+**Solution:**
+
+1.  **Identify the Given Line and Point** ✅:
+    *   Given Line 1: `2x + 4y - 8 = 0`
+    *   Given Point on Line 2: `(x0, y0) = (3, 1)`
+
+2.  **Find the Slope of Line 1 (`m1`)** 📈:
+    *   Compare `2x + 4y - 8 = 0` with `Ax + By + C = 0`.
+    *   Here, `A1 = 2` and `B1 = 4`.
+    *   Using the slope formula `m1 = -A1/B1`:
+        `m1 = -2/4`
+        `m1 = -1/2`
+
+3.  **Calculate the Slope of Line 2 (`m2`)** 📉:
+    *   Line 2 is perpendicular to Line 1, so `m2 = -1/m1`.
+    *   `m2 = -1 / (-1/2)`
+    *   `m2 = 2`
+
+4.  **Use the Point-Slope Form for Line 2** 📝:
+    *   Now we have the slope of Line 2 (`m2 = 2`) and a point it passes through `(3, 1)`.
+    *   Using `y - y0 = m2(x - x0)`:
+        `y - 1 = 2(x - 3)`
+
+5.  **Convert to General Form** 🔄:
+    *   Distribute the 2 on the right side:
+        `y - 1 = 2x - 6`
+    *   Move all terms to one side to get the general form `Ax + By + C = 0`:
+        `0 = 2x - y - 6 + 1`
+        $\mathbf{2x - y - 5 = 0}$ ✅
+
+Therefore, the equation of the line perpendicular to `2x + 4y - 8 = 0` and passing through `(3, 1)` is $\mathbf{2x - y - 5 = 0}$.

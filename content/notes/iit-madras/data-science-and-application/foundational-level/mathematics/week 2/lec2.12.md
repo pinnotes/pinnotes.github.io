@@ -8,32 +8,58 @@ excludeSearch: false
 weight: 21
 ---
 
-Drawing upon the information from the sources and our conversation history, we can discuss the distance of a point from a given line, particularly when the line is expressed in its **General Form**.
+When considering the **distance of a line from a given point** in coordinate geometry, we are typically interested in the **shortest distance** between that point and the line. This shortest distance is always the **perpendicular distance** from the point to the line. Imagine dropping a perfectly straight plumb line from the point down to the line; that's the distance we're calculating! 📏
 
-The problem is to determine the **distance of a point P, with coordinates (x₁, y₁), from a line l, given by the equation Ax + By + C = 0**. This form, Ax + By + C = 0, is known as the general form of the equation of a line, and it is a versatile representation as it can describe any straight line [Conversation history].
+### The General Equation of a Line (Recap)
 
-The distance referred to in this context is the **shortest distance** from the point to the line. Geometrically, this shortest distance is the length of the **perpendicular segment** dropped from the point to the line. Let M be the point on the line such that PM is perpendicular to the line; the distance is the length of PM.
+Before diving into the distance formula, let's quickly recall the **general equation of a line**, which is:
+$\mathbf{Ax + By + C = 0}$
 
-To find this distance, the sources outline a method involving the geometric properties of the line. One approach discussed is to consider the triangle formed by the given point P(x₁, y₁) and the points where the line intersects the x and y axes (the x-intercept and y-intercept). If the line Ax + By + C = 0 (where A ≠ 0 and B ≠ 0) is written in the intercept form (x/a + y/b = 1), the x-intercept is at Q(-C/A, 0) and the y-intercept is at R(0, -C/B). The line l is the line passing through Q and R.
+Here, `A`, `B`, and `C` are constants, and `x` and `y` are the variables representing any point on the line.
 
-The distance PM (the perpendicular distance from P to the line QR) can be found using the formula for the area of a triangle: Area of triangle PQR = (1/2) * base * height. Using QR as the base and PM as the height, we get Area = (1/2) * QR * PM. Therefore, the distance PM = (2 * Area of triangle PQR) / QR.
-The length of the base QR can be calculated using the distance formula between points Q(-C/A, 0) and R(0, -C/B).
-The area of the triangle PQR can be calculated using the coordinates of its vertices P(x₁, y₁), Q(-C/A, 0), and R(0, -C/B).
+### The Distance Formula ✨
 
-Following this process, the sources provide the resulting formula for the distance (d) of a straight line **ax + by + c = 0** from a point **(x₁, y₁)**:
+To find the distance (`d`) of a straight line $\mathbf{Ax + By + C = 0}$ from a specific point $\mathbf{(x_1, y_1)}$, the formula is given by:
 
-**d = |ax₁ + by₁ + c| / √(a² + b²)**
+$\mathbf{d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}}$
 
-This formula works directly with the coefficients (a, b, c) of the general form of the line and the coordinates (x₁, y₁) of the point. The numerator is the absolute value of the expression ax₁ + by₁ + c, obtained by substituting the point's coordinates into the line's equation. The denominator is the square root of the sum of the squares of the coefficients of x and y.
+The vertical bars `|...|` denote the **absolute value**, ensuring that the distance is always a positive number, as distance cannot be negative. The square root in the denominator represents the magnitude of the normal vector to the line, which helps normalise the expression.
 
-An example calculation is provided for the distance of the point (3, -5) from the line 3x - 4y + 12 = 0.
-Using the formula:
-a = 3, b = -4, c = 12
-x₁ = 3, y₁ = -5
-d = |(3)(3) + (-4)(-5) + 12| / √(3² + (-4)²)
-d = |9 + 20 + 12| / √(9 + 16)
-d = |41| / √25
-d = 41 / 5 (Note: Source states "the numerator will be 3", which appears to be a transcription error as the calculation shows the numerator is 41).
-d = 8.2.
+### How is this Formula Derived? (Conceptual Insight) 🤔
 
-This formula is a fundamental result derived from coordinate geometry. The concept of the distance of a point from a line is also useful in calculating the distance between two parallel lines.
+The derivation of this formula involves a clever application of geometric principles within the coordinate system. Here's a simplified breakdown:
+
+1.  **Identify Intercepts**: From the general form of the line `Ax + By + C = 0`, you can find its x-intercept and y-intercept. If `A` and `B` are not zero, the x-intercept is at `(-C/A, 0)` and the y-intercept is at `(0, -C/B)`. Let's call these points `Q` and `R` respectively.
+2.  **Form a Triangle**: Imagine a triangle formed by the given point `P(x1, y1)` and the two intercepts of the line, `Q` and `R`.
+3.  **Area of the Triangle**: The area of this triangle `PQR` can be calculated using a formula that takes the coordinates of its three vertices.
+4.  **Length of the Base**: The length of the line segment `QR` (the base of the triangle `PQR`) can be found using the **distance formula** between two points, `Q` and `R`. This segment forms the hypotenuse of a right-angled triangle, and its length can be calculated using the Pythagorean theorem.
+5.  **Relate Area, Base, and Height**: We know that the area of any triangle is also given by `(1/2) * base * height`. In this case, the 'height' is precisely the perpendicular distance (`PM`) we are trying to find.
+6.  **Solve for Distance**: By equating the two expressions for the area and substituting the calculated values for the area of `PQR` and the length of `QR`, you can isolate and derive the formula for `PM`, which is the distance `d`.
+
+This method, though intricate in its full algebraic steps, demonstrates how the formula comes from fundamental geometric ideas.
+
+---
+
+### Practice Question with Solution ✍️
+
+**Q: Find the distance of the point (3, -5) from the line 3x - 4y - 26 = 0.**
+
+**Solution:**
+
+1.  **Identify the line's coefficients and the given point** ✅:
+    *   Comparing the line `3x - 4y - 26 = 0` with the general form `Ax + By + C = 0`, we have:
+        *   `A = 3`
+        *   `B = -4`
+        *   `C = -26`
+    *   The given point is `(x1, y1) = (3, -5)`.
+
+2.  **Apply the distance formula** ➕:
+    *   $\mathbf{d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}}$
+    *   Substitute the values:
+        `d = |(3)(3) + (-4)(-5) + (-26)| / √((3)^2 + (-4)^2)`
+    *   `d = |9 + 20 - 26| / √(9 + 16)`
+    *   `d = |29 - 26| / √25`
+    *   `d = |3| / 5`
+    *   `d = 3 / 5`
+
+Therefore, the distance of the point (3, -5) from the line 3x - 4y - 26 = 0 is **3/5 units** (or 0.6 units).

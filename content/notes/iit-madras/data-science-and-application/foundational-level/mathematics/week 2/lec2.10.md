@@ -8,34 +8,78 @@ excludeSearch: false
 weight: 21
 ---
 
-Based on the sources and our conversation, the **General Form** of the equation of a straight line is a powerful representation because it can represent **any straight line**. This includes vertical lines, which some other forms (like the standard slope-intercept form y = mx + c) cannot represent because their slope is undefined.
+The **General Equation of a Line** is a powerful way to represent *any* straight line in the coordinate plane. As we discussed previously, it's like the master key 🗝️ for lines!
 
-The **general equation of a line** is given by:
-**Ax + By + C = 0**
+The general form of a linear equation is:
+$\mathbf{Ax + By + C = 0}$
 
-For this equation to represent a line, the coefficients A and B **cannot be simultaneously equal to 0**.
+Here, `A`, `B`, and `C` are constant real numbers, and `x` and `y` are the variables for the coordinates of any point on the line. It's crucial that `A` and `B` are not both zero simultaneously, otherwise, it wouldn't represent a line.
 
-We can derive conditions for two lines to be parallel or perpendicular using their equations in this general form.
+To understand parallel and perpendicular lines using this general form, we first need to remember how to find the **slope** (`m`) from it.
+*   From `Ax + By + C = 0`, if `B ≠ 0`, the slope `m` can be derived as: $\mathbf{m = -A/B}$.
+    *   If `B = 0`, the line is a vertical line (`Ax + C = 0` or `x = -C/A`), and its slope is undefined.
+    *   If `A = 0`, the line is a horizontal line (`By + C = 0` or `y = -C/B`), and its slope is 0.
 
-Let's consider two straight lines represented in the general form:
-Line 1: A₁x + B₁y + C₁ = 0
-Line 2: A₂x + B₂y + C₂ = 0
+Now, let's explore the conditions for parallel and perpendicular lines using this understanding.
 
-The sources provide conditions for parallel and perpendicular lines based on the slopes of the lines. For two **non-vertical** lines with slopes m₁ and m₂:
-*   They are **parallel** if and only if their slopes are equal (m₁ = m₂).
-*   They are **perpendicular** if and only if the product of their slopes is -1 (m₁ * m₂ = -1).
+---
 
-From the general form Ax + By + C = 0, the slope of a non-vertical line (where B ≠ 0) is given by m = -A/B.
+### Parallel Lines ↔️
+Parallel lines are lines that run in the same direction and never intersect. This means they have the **same inclination**.
 
-The sources also provide conditions directly using the coefficients of the general form for the case where the y-coefficients (B₁ and B₂) are not zero:
-Given two straight lines a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0, where b₁, b₂ ̸= 0:
+*   **Condition for Slope**: For two non-vertical lines, `l1` with slope `m1` and `l2` with slope `m2`, if they are parallel, then their slopes must be equal: $\mathbf{m_1 = m_2}$.
 
-*   The lines are **parallel** to each other, if:
-    **a₁ × b₂ = a₂ × b₁**
-    This condition is equivalent to the slopes being equal for non-vertical lines: -a₁/b₁ = -a₂/b₂ implies a₁b₂ = a₂b₁.
+*   **Condition in General Form**:
+    Let `l1` be `A1x + B1y + C1 = 0` with slope `m1 = -A1/B1`.
+    Let `l2` be `A2x + B2y + C2 = 0` with slope `m2 = -A2/B2`.
 
-*   The lines are **perpendicular** to each other, if:
-    **a₁ × a₂ = −b₁ × b₂**
-    This condition is equivalent to the product of the slopes being -1 for non-vertical lines: (-a₁/b₁) * (-a₂/b₂) = -1 implies a₁a₂ / (b₁b₂) = -1, so a₁a₂ = -b₁b₂.
+    If `l1` is parallel to `l2` (and both are non-vertical), then `m1 = m2`:
+    `-A1/B1 = -A2/B2`
+    `A1/B1 = A2/B2`
+    This implies: $\mathbf{A_1B_2 = A_2B_1}$.
+    This means if you cross-multiply the coefficients of `x` and `y` from the two equations and they are equal, the lines are parallel.
 
-These conditions from source are stated for lines where the 'b' coefficients (representing B in Ax+By+C=0) are non-zero, thus applying to non-vertical lines. However, the general form Ax + By + C = 0 itself is capable of representing all lines, including horizontal lines (when A=0) and vertical lines (when B=0).
+**Practice Question 1: Parallel Lines** ✍️
+Q: Determine if the lines `4x + 6y - 10 = 0` and `2x + 3y + 5 = 0` are parallel.
+
+**Solution:**
+1.  **Identify coefficients** for `L1`: `A1 = 4`, `B1 = 6`, `C1 = -10`.
+2.  **Identify coefficients** for `L2`: `A2 = 2`, `B2 = 3`, `C2 = 5`.
+3.  **Check the condition** `A1B2 = A2B1`:
+    `4 * 3 = 12`
+    `2 * 6 = 12`
+4.  Since `12 = 12`, the condition `A1B2 = A2B1` is satisfied.
+    Therefore, the lines are **parallel** ✅.
+
+---
+
+### Perpendicular Lines 📐
+Perpendicular lines are lines that intersect each other at a **right angle (90 degrees)**.
+
+*   **Condition for Slope**: For two non-vertical lines `l1` with slope `m1` and `l2` with slope `m2`, if they are perpendicular, then the product of their slopes must be -1: $\mathbf{m_1m_2 = -1}$.
+
+*   **Condition in General Form**:
+    Let `l1` be `A1x + B1y + C1 = 0` with slope `m1 = -A1/B1`.
+    Let `l2` be `A2x + B2y + C2 = 0` with slope `m2 = -A2/B2`.
+
+    If `l1` is perpendicular to `l2` (and both are non-vertical), then `m1m2 = -1`:
+    `(-A1/B1) * (-A2/B2) = -1`
+    `(A1A2) / (B1B2) = -1`
+    This implies: $\mathbf{A_1A_2 = -B_1B_2}$.
+    This can also be written as: $\mathbf{A_1A_2 + B_1B_2 = 0}$.
+
+**Practice Question 2: Perpendicular Lines** ✍️
+Q: Are the lines `3x - 2y + 7 = 0` and `4x + 6y - 1 = 0` perpendicular?
+
+**Solution:**
+1.  **Identify coefficients** for `L1`: `A1 = 3`, `B1 = -2`, `C1 = 7`.
+2.  **Identify coefficients** for `L2`: `A2 = 4`, `B2 = 6`, `C2 = -1`.
+3.  **Check the condition** `A1A2 = -B1B2`:
+    `A1A2 = 3 * 4 = 12`
+    `-B1B2 = -(-2 * 6) = -(-12) = 12`
+4.  Since `12 = 12`, the condition `A1A2 = -B1B2` is satisfied.
+    Therefore, the lines are **perpendicular** ✅.
+
+---
+
+These conditions derived from the slope definition provide a straightforward algebraic method to determine if two lines, expressed in their general form, are parallel or perpendicular.
