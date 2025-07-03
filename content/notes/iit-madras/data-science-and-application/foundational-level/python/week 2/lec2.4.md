@@ -1,10 +1,6 @@
 ---
 title: More on Variables, Operators and Expressions
 date: 2025-05-08
-tags:
-  - Notes 
-  - IIT Madras
-excludeSearch: false
 weight: 23
 ---
 

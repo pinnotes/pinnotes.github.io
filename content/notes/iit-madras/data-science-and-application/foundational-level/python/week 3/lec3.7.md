@@ -1,10 +1,6 @@
 ---
 title: for loop for multiplication tables
 date: 2025-05-08
-tags:
-  - Notes 
-  - IIT Madras
-excludeSearch: false
 weight: 37
 ---
 

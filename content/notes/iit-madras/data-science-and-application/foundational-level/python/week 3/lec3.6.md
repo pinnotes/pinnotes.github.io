@@ -1,10 +1,6 @@
 ---
 title: for loop to add the first n numbers
 date: 2025-05-08
-tags:
-  - Notes 
-  - IIT Madras
-excludeSearch: false
 weight: 36
 ---
 

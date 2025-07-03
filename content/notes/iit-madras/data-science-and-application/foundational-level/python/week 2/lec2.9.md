@@ -1,10 +1,6 @@
 ---
 title: Tutorial on if, else and else-if (elif) conditions
 date: 2025-05-08
-tags:
-  - Notes 
-  - IIT Madras
-excludeSearch: false
 weight: 23
 ---
 

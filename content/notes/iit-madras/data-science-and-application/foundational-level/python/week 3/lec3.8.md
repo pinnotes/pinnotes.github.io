@@ -1,10 +1,6 @@
 ---
 title: More on range and for loop wihout range
 date: 2025-05-08
-tags:
-  - Notes 
-  - IIT Madras
-excludeSearch: false
 weight: 38
 ---
 
