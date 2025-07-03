@@ -1,7 +1,7 @@
 ---
-title: Degree of Polynomials
+title: Algebra of Polynomials
 date: 2025-05-08
-weight: 42
+weight: 43
 ---
 
 Hello there! Great to continue our discussion on polynomials! You're keen to understand the **Algebra of Polynomials**, specifically **Addition** and **Subtraction**, with ease and emojis. Let's get right to it! ➕➖

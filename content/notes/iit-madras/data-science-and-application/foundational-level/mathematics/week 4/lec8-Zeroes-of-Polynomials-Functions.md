@@ -1,7 +1,7 @@
 ---
-title: Polynomials
+title: Identifying Zeros of Polynomials
 date: 2025-05-08
-weight: 41
+weight: 48
 ---
 
 Understanding the **zeros of a polynomial function** is like finding the special points where the graph of the function crosses or touches the horizontal axis (the x-axis) 🎯. These points are also known as **x-intercepts**. For a polynomial function, `f(x)`, a value of `x` is a zero if `f(x) = 0`.

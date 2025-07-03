@@ -1,7 +1,7 @@
 ---
-title: Polynomials
+title: Polynomial Functions from a Graph 🕵️‍♀️
 date: 2025-05-08
-weight: 41
+weight: 47
 ---
 
 Understanding the graphs of polynomial functions involves a twofold mission: first, being able to identify whether a given graph represents a polynomial function, and second, understanding the key characteristics that shape the graph of a polynomial.

@@ -1,7 +1,7 @@
 ---
-title: Polynomials
+title: Polynomials Division
 date: 2025-05-08
-weight: 41
+weight: 45
 ---
 
 Right then! We've mastered the art of adding and subtracting polynomials, and last time, we unravelled the secrets of multiplication. Now, let's tackle the final frontier of polynomial algebra: **Division!** ➗ It's a bit like long division with numbers, but with variables thrown into the mix. Don't worry, we'll make it as easy as pie (polynomial pie, of course! 🥧).

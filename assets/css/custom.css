@@ -175,7 +175,7 @@ nav .search-wrapper {
   overflow-y: hidden;
 }
 
-.katex{
+.katex {
   overflow-x: auto;
   overflow-y: hidden;
 }
@@ -184,8 +184,6 @@ nav .search-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
 }
-
-                  
 
 mjx-container {
   overflow-x: scroll;
@@ -201,6 +199,13 @@ a {
   }
 }
 
+li {
+  code {
+    color: #b87d00;
+  }
+}
+
+html:is(.dark)
 li {
   code {
     color: #07a15e;

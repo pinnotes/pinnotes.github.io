@@ -1,7 +1,7 @@
 ---
-title: Polynomials
+title: Division Algorithm
 date: 2025-05-08
-weight: 41
+weight: 46
 ---
 
 Alright, let's dive into the exciting world of **Polynomial Division**! ➗ It's the final major arithmetic operation for polynomials, and while it might seem a bit daunting at first, it's very much like the long division you already know, just with some algebraic twists! 😉

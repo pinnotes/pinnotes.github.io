@@ -1,7 +1,7 @@
 ---
-title: Polynomials
+title: Polynomial Multiplication! 
 date: 2025-05-08
-weight: 41
+weight: 44
 ---
 
 Alright! Let's dive into the fascinating world of **Polynomial Multiplication**! ✨ We've already covered addition and subtraction, which are about combining "like terms". Multiplication introduces a new twist, but it's just as logical and easy to grasp. Get ready for some algebra fun! 🚀
