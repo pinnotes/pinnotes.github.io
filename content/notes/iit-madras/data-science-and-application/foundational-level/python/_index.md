@@ -8,7 +8,6 @@ cascade:
  series: ["Programming-in-Python"]
  image: "/images/svg/dark-code.svg"
  keywords: ["Python","Programming","Notes","IITM"]
-
 ---
 
 {{< hextra/hero-subtitle style="margin:.3rem 0 2rem 0">}}
