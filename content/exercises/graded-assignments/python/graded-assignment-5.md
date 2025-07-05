@@ -14,7 +14,7 @@ categories:
 
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
@@ -22,6 +22,134 @@ categories:
 
 {{< /border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{< /border >}}
+
+{{< border type="question" >}}
+
+{{< /border >}}
+
+{{< border type="tip" title="Solution" >}}
 
 {{< /border >}}

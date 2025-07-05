@@ -30,27 +30,39 @@
     margin: 16px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
-    .border-card-content{
+    .border-card-content {
       overflow-x: auto;
       overflow-y: hidden;
       padding: 0;
       margin: 0;
       scrollbar-width: none;
-    -ms-overflow-style: none;
+      -ms-overflow-style: none;
     }
 
-    h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0;
     }
-    p{
-    margin-top: 1rem;
+    p {
+      margin-top: 1rem;
     }
-    ol{
-    margin-top: 0;
+    ol {
+      margin-top: 0;
     }
-    .katex-display{
-    margin: 0;
-    margin-top: 0.5rem;
+    ul {
+      margin-left: 0;
+      list-style: none;
+    }
+    table {
+      margin-bottom: 1.5rem;
+    }
+    .katex-display {
+      margin: 0;
+      margin-top: 0.5rem;
     }
   }
 
@@ -85,7 +97,7 @@
   .border-card-tip {
     border: 2px dashed #8bc34a;
 
-    .border-card-header{
+    .border-card-header {
       background-color: #e8f5e9;
     }
   }
@@ -141,7 +153,7 @@
   }
 
   .dropdown-toggle::before {
-    content: '';
+    content: "";
     display: block;
     width: 8px;
     height: 8px;
@@ -154,8 +166,6 @@
   details[open] .dropdown-toggle::before {
     transform: rotate(-135deg);
   }
-
-
 
   /* Dark mode styles */
   html:is([class~="dark"]) {

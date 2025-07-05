@@ -59,7 +59,7 @@ e
 f
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
@@ -75,7 +75,7 @@ f
 `'The next line char is \\\\n'`
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
@@ -132,7 +132,7 @@ s = (
 
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
@@ -150,7 +150,7 @@ s = (
 `"0"*3+"500"`
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
@@ -158,167 +158,414 @@ s = (
 **8**) Consider the below code block.
 
 ```python {linenos=table,linenostart=1}
-
+n_apples = 5
+apple_price = 5.7
+s = ...
+print(s)
 ```
+
+If the output of the code is 5 kgs of apple cost ₹ 28.50, select the possible expression(s) that can be used for `s``.
+
+Options:
+
+- `s = f"{n_apples} kgs of apple cost ₹ {n_apples*apple_price}"`
+
+- `s = f"{n_apples} kgs of apple cost ₹ {n_apples*apple_price:0.2f}"`
+
+- `s = f"{n_apples} kgs of apple cost ₹ {n_apples*apple_price:.2f}"`
+
+- `s = n_apples+" kgs of apple cost ₹ "+n_apples*apple_price`
+
+- `s = str(n_apples)+" kgs of apple cost ₹ "+str(n_apples*apple_price)`
+
+- `s = str(n_apples)+" kgs of apple cost ₹ "+str(n_apples*apple_price)+"0"`
 
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
-**9**) 
+**9**) Consider the below code block.
 
 ```python {linenos=table,linenostart=1}
-
+n_apples = 5
+apple_price = 1.75
+s = ...
+print(s)
 ```
+
+If the output of the code is `5 kgs of apple cost ₹ 08.75`, select the possible expression(s) that can be used for `s``.
+
+- `s = f"{n_apples} kgs of apple cost ₹ {n_apples*apple_price:0.2f}"`
+
+- `s = f"{n_apples} kgs of apple cost ₹ {n_apples*apple_price}"`
+
+- `s = f"{n_apples} kgs of apple cost ₹ {n_apples*apple_price:.2f}"`
+
+- `s = n_apples+" kgs of apple cost ₹ "+n_apples*apple_price`
+
+- `s = str(n_apples)+" kgs of apple cost ₹ 0"+str(n_apples*apple_price)`
+
+- `s = str(n_apples)+" kgs of apple cost ₹ "+str(n_apples*apple_price)`
 
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
-**10**) 
+**10**) Consider the below code block.
 
 ```python {linenos=table,linenostart=1}
-
+a,b = "56"
+s = f'{a*3:7}|{b*2:^6}|{a*8:>3}'
 ```
 
-{{</ border >}}
-
-{{< border >}}
+What is the value of the variable `s`? Enter the answer as a single quoted string.
 
 {{</ border >}}
 
-{{< border type="question" >}}
-**11**) 
-{{</ border >}}
-
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
-**12**) 
+**11**) Assume `s` is a `str` variable. What is the type of the expression `str(len(s.upper().split())).isdigit()`?
+
+`int`
+
+`str`
+
+`float`
+
+`list`
+
+`bool`
+
+`NoneType`
 {{</ border >}}
 
-{{< border >}}
-
-{{</ border >}}
-
-{{< border type="question" >}}
-13) 
-{{</ border >}}
-
-{{< border >}}
-
-{{</ border >}}
-
-{{< border type="question" >}}
-
-{{</ border >}}
-
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
+**12**) Assume `s` is a `str` variable. What is the type of the expression `s[:3].upper().split()`?
 
+`int`
+
+`str`
+
+`float`
+
+`list`
+
+`bool`
+
+Raises Error
 {{</ border >}}
 
-{{< border >}}
-
-{{</ border >}}
-
-{{< border type="question" >}}
-
-{{</ border >}}
-
-{{< border >}}
-
-{{</ border >}}
-
-{{< border type="question" >}}
-
-{{</ border >}}
-
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
+13) Assume `s` is a `str` variable. What is the type of the expression `s.title()`?
 
+`int`
+
+`str`
+
+`float`
+
+`list`
+
+`bool`
+
+`NoneType`
+
+Raises Error
 {{</ border >}}
 
-{{< border >}}
-
-{{</ border >}}
-
-{{< border type="question" >}}
-
-{{</ border >}}
-
-{{< border >}}
-
-{{</ border >}}
-
-{{< border type="question" >}}
-
-{{</ border >}}
-
-{{< border >}}
-
-{{</ border >}}
-
-{{< border type="question" >}}
-
-{{</ border >}}
-
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
+14) Assume `s` is a `str` variable. What is the type of the expression `list(s)`?
 
+`int`
+
+`str`
+
+`float`
+
+`list`
+
+`bool`
+
+`NoneType`
+
+Raises Error
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
+15) Assume `s` is a `str` variable. What is the type of the expression `s.lower().alpha()`?
 
+`int`
+
+`str`
+
+`float`
+
+`list`
+
+`bool`
+
+Raises error
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
-**24**) 
+16) Assume `s` is a `str` variable. What is the type of the expression `s.lowercase().isalpha()`?
+
+`int`
+
+`str`
+
+`float`
+
+`list`
+
+`bool`
+
+Raises error
+{{</ border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{</ border >}}
+
+{{< border type="question" >}}
+17) Assume `s` is a `str` variable. What is the type of the expression `s.title().strip`?
+
+`int`
+
+`str`
+
+`float`
+
+`list`
+
+`bool`
+
+None of the above
+{{</ border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{</ border >}}
+
+{{< border type="question" >}}
+18) Assume `s` is a `str` variable. What is the type of the expression `s.join(s[0],s[1],s[3])`?
+
+`int`
+
+`str`
+
+`float`
+
+`list`
+
+`bool`
+
+Raises Error
+{{</ border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{</ border >}}
+
+{{< border type="question" >}}
+19) What is the value of the expression `bool(False)`?
+
+`True`
+
+`False`
+
+Raises Error
+{{</ border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{</ border >}}
+
+{{< border type="question" >}}
+20) What is the value of the expression `bool(1 and 2 and 0)`?
+
+`True`
+
+`False`
+
+Raises Error
+{{</ border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{</ border >}}
+
+{{< border type="question" >}}
+21) What is the value of the expression `bool(0 or "2" and 0)`?
+
+`True`
+
+`False`
+
+Raises Error
+{{</ border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{</ border >}}
+
+{{< border type="question" >}}
+22) What is the value of the expression `0.0 or "2" or 4`?
+
+`True`
+
+`False`
+
+`"2"`
+
+`0.0`
+
+`4`
+
+Raises Error
+{{</ border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{</ border >}}
+
+{{< border type="question" >}}
+23) What is the value of the expression `not None or "2" or 4`?
+
+`True`
+
+`False`
+
+`None`
+
+`"2"`
+
+`4`
+
+Raises Error
+{{</ border >}}
+
+{{< border type="tip" title="Solution" >}}
+
+{{</ border >}}
+
+{{< border type="question" >}}
+**24**) Consider the below code
 
 ```python {linenos=table,linenostart=1}
+if a:
+  print('a')
+if b:
+  print('b')
+elif c:
+  print('c')
+```
 
+Select the possible output(s) of the given code, assuming any possible values for `a`, `b` and `c`.
+
+```python {linenos=table,linenostart=1}
+a
+```
+
+```python {linenos=table,linenostart=1}
+b
+```
+
+```python {linenos=table,linenostart=1}
+a
+b
+```
+
+```python {linenos=table,linenostart=1}
+a
+c
+```
+
+```python {linenos=table,linenostart=1}
+b
+c
 ```
 
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
 
 {{< border type="question" >}}
-**25**) 
+**25**) Consider the below code
 
 ```python {linenos=table,linenostart=1}
+if a:
+  if b:
+    if c:
+      print('c')
+    print('b')
+  print('a')
+```
 
+Select the possible output(s) of the given code, assuming any possible values for `a`, `b` and `c`.
+
+```python {linenos=table,linenostart=1}
+a
+```
+
+```python {linenos=table,linenostart=1}
+b
+```
+
+```python {linenos=table,linenostart=1}
+a
+b
+```
+
+```python {linenos=table,linenostart=1}
+b
+a
+```
+
+```python {linenos=table,linenostart=1}
+c
+b
+```
+
+```python {linenos=table,linenostart=1}
+c
+b
+a
 ```
 
 {{</ border >}}
 
-{{< border >}}
+{{< border type="tip" title="Solution" >}}
 
 {{</ border >}}
