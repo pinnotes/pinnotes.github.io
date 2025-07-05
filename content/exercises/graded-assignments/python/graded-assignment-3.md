@@ -61,101 +61,16 @@ print(y)
 {{</ border >}}
 
 {{< border type="tip" title="Solution" >}}
-The query asks to identify the correct Python implementation for a program that accepts a positive integer *x* as input and prints the maximum integer *y* such that $2^y ≤ x$.
+Let's analyze each option to see which programs correctly print the **maximum value of the integer \$ y \$ such that \$ 2^y \leq x \$** for a given positive integer \$ x \$:
 
-Let's analyse each provided implementation:
+### Sample Test Cases
 
-### Implementation 1:
-```python {linenos=table,linenostart=1}
-x = int(input())
-y = 0
-while x > 1:
-    x = x // 2
-    y = y + 1
-print(y)
-```
-**Explanation:**
-This implementation uses **integer division (`//`)** to repeatedly divide `x` by 2 until `x` becomes 1. The variable `y` is incremented in each iteration, counting how many times `x` can be divided by 2.
-*   **Input x = 100:**
-    *   Initial: `x = 100`, `y = 0`
-    *   Iteration 1: `x = 50`, `y = 1`
-    *   Iteration 2: `x = 25`, `y = 2`
-    *   Iteration 3: `x = 12`, `y = 3`
-    *   Iteration 4: `x = 6`, `y = 4`
-    *   Iteration 5: `x = 3`, `y = 5`
-    *   Iteration 6: `x = 1`, `y = 6`
-    *   The loop condition `x > 1` (1 > 1) becomes `False`, and the loop terminates.
-    *   Output: **6**. This matches the sample test case [Sample Test Cases].
-*   **Input x = 256:**
-    *   Initial: `x = 256`, `y = 0`
-    *   ... (divisions continue) ...
-    *   Iteration 7: `x = 2`, `y = 7`
-    *   Iteration 8: `x = 1`, `y = 8`
-    *   The loop condition `x > 1` (1 > 1) becomes `False`, and the loop terminates.
-    *   Output: **8**. This matches the sample test case [Sample Test Cases].
+| Input | Output |
+| :-- | :-- |
+| 100 | 6 |
+| 256 | 8 |
 
-This implementation correctly calculates the maximum integer `y` such that $2^y ≤ x$.
-
-### Implementation 2:
-```python {linenos=table,linenostart=1}
-x = int(input())
-y = 0
-while x >= 1:
-    x = x // 2
-    y = y + 1
-print(y)
-```
-**Explanation:**
-This implementation also uses integer division (`//`), but its **loop condition is `x >= 1`**. This condition causes an extra iteration when `x` becomes 1.
-*   **Input x = 100:**
-    *   Initial: `x = 100`, `y = 0`
-    *   ... (same as Implementation 1) ...
-    *   Iteration 6: `x = 1`, `y = 6`
-    *   Iteration 7: The condition `x >= 1` (1 >= 1) is `True`.
-        *   `x = 1 // 2 = 0`
-        *   `y = 6 + 1 = 7`
-    *   The loop condition `x >= 1` (0 >= 1) becomes `False`, and the loop terminates.
-    *   Output: **7**. This is incorrect for the sample test case, as the expected output is 6 [Sample Test Cases].
-
-This implementation overcounts `y` by one.
-
-### Implementation 3:
-```python {linenos=table,linenostart=1}
-x = int(input())
-y = 0
-while x > 1:
-    x = x / 2
-    y = y + 1
-print(y)
-```
-**Explanation:**
-This implementation uses **true division (`/`)** instead of integer division. In Python 3, the `/` operator always produces a floating-point number, even if the result is a whole number. This changes the value of `x` to a float, affecting the loop's termination condition.
-*   **Input x = 100:**
-    *   Initial: `x = 100`, `y = 0`
-    *   Iteration 1: `x = 100 / 2 = 50.0`, `y = 1`
-    *   Iteration 2: `x = 50.0 / 2 = 25.0`, `y = 2`
-    *   Iteration 3: `x = 25.0 / 2 = 12.5`, `y = 3`
-    *   Iteration 4: `x = 12.5 / 2 = 6.25`, `y = 4`
-    *   Iteration 5: `x = 6.25 / 2 = 3.125`, `y = 5`
-    *   Iteration 6: `x = 3.125 / 2 = 1.5625`, `y = 6`
-    *   Iteration 7: The condition `x > 1` (1.5625 > 1) is `True`.
-        *   `x = 1.5625 / 2 = 0.78125`
-        *   `y = 6 + 1 = 7`
-    *   The loop condition `x > 1` (0.78125 > 1) becomes `False`, and the loop terminates.
-    *   Output: **7**. This is incorrect for the sample test case, as the expected output is 6 [Sample Test Cases].
-
-This implementation also overcounts `y` due to the use of floating-point division, which causes the loop to run an additional time compared to the correct integer division approach.
-
-### Conclusion:
-Based on the trace and the understanding of Python operators and loop conditions:
-
-*   The problem requires determining the number of times `x` can be divided by 2 (integer division) until it no longer supports another division while satisfying the $2^y ≤ x$ condition.
-*   The `int(input())` function is used to take integer input from the user.
-*   The `while` loop structure allows for repeated execution of a block of code as long as a condition remains true.
-*   The `//` (floor division) operator is crucial here as it performs integer division, discarding any fractional part. This is different from the `/` operator, which performs "true division" and returns a float in Python 3.
-*   The **first implementation** correctly uses `x // 2` to reduce `x` and `while x > 1` as the loop condition to stop just before `x` becomes 1 (or less), ensuring `y` accurately represents the maximum power.
-
-Therefore, the **correct implementation** is:
+## 1️⃣
 
 ```python
 x = int(input())
@@ -165,6 +80,122 @@ while x > 1:
     y = y + 1
 print(y)
 ```
+
+- **How it works:**
+    - Each loop divides `x` by 2 (floor division) and increments `y`.
+    - Loop stops when `x` becomes 1 or less.
+    - **For `x=100`:**
+        - 100→50→25→12→6→3→1 (6 steps, so y=6)
+    - **For `x=256`:**
+        - 256→128→64→32→16→8→4→2→1 (8 steps, so y=8)
+- **✅ This matches the sample outputs.**
+
+
+## 2️⃣
+
+```python
+x = int(input())
+y = 0
+while x >= 1:
+    x = x // 2
+    y = y + 1
+print(y)
+```
+
+- **How it works:**
+    - Loop continues **while x >= 1**, so it also runs when `x` is 1.
+    - **For `x=100`:**
+        - 100→50→25→12→6→3→1→0 (7 steps, so y=7)
+    - **For `x=256`:**
+        - 256→128→64→32→16→8→4→2→1→0 (9 steps, so y=9)
+- **❌ This gives one more than the correct answer.**
+
+
+## 3️⃣
+
+```python
+x = int(input())
+y = 0
+while x > 1:
+    x = x / 2
+    y = y + 1
+print(y)
+```
+
+- **How it works:**
+    - Uses `/` (true division), so `x` becomes a float after the first division.
+    - **For `x=100`:**
+        - 100→50.0→25.0→12.5→6.25→3.125→1.5625→0.78125 (7 steps, so y=7)
+        - But the loop runs until `x > 1`, so it counts one extra step after dropping below 1.
+    - **For `x=256`:**
+        - 256→128.0→64.0→32.0→16.0→8.0→4.0→2.0→1.0 (9 steps, so y=8)
+        - Actually, for 256, after 8 divisions, x=1.0, so the loop stops (y=8). For 100, it stops after x=0.78125 (y=7).
+    - **For `x=100`:**
+        - 100→50.0→25.0→12.5→6.25→3.125→1.5625→0.78125 (loop stops here, y=7)
+        - **This does NOT match the sample output (should be 6).**
+- **❌ Does not match sample output for all cases.**
+
+
+## 4️⃣
+
+```python
+x = input()
+y = 0
+while x > 1:
+    x = x // 2
+    y = y + 1
+print(y)
+```
+
+- **How it works:**
+    - `x` is a string (from `input()`), so `x > 1` and `x // 2` will raise a TypeError.
+- **❌ This raises an error and does not work.**
+
+
+## ✅ **Correct Implementations**
+
+| Option | Correct? | Reason |
+| :-- | :-- | :-- |
+| 1 | ✅ | Matches sample outputs exactly |
+| 2 | ❌ | Gives y one too large |
+| 3 | ❌ | Gives incorrect y for some cases (due to float division) |
+| 4 | ❌ | Raises error (wrong type for x) |
+
+## ⭐️ **Final Answer**
+
+- **Only the first implementation is correct:**
+
+```python
+x = int(input())
+y = 0
+while x > 1:
+    x = x // 2
+    y = y + 1
+print(y)
+```
+
+
+## 📝 Practice Questions
+
+1. **What does the following code print for input `x = 15`?**
+
+```python
+x = int(input())
+y = 0
+while x > 1:
+    x = x // 2
+    y = y + 1
+print(y)
+```
+
+    - **A:** 3 (since 2³=8 ≤ 15 < 16)
+2. **How would you write a one-liner to compute this using math?**
+    - **A:** `import math; print(int(math.log2(int(input()))))`
+3. **What happens if you use `/` instead of `//` in the loop?**
+    - **A:** `x` becomes a float, and the loop may run too many times for non-powers of 2.
+
+🎉 **Great job! You now know how to find the largest y such that $2^y \leq x$ in Python!**
+
 {{</ border >}}
 
 {{< border type="question" >}}
@@ -224,12 +255,20 @@ avg = total / num
 {{</ border >}}
 
 {{< border type="tip" title="Solution" >}}
-The query asks to identify the correct Python implementation to calculate the average number of coins across boxes, where the information about coins is provided in a string format like `'|1|4|1|5|9|'`. The string `boxes` contains a sequence of delimiters (`'|'`) and single-digit coin counts.
+Let's analyze each code snippet to see which correctly computes the **average number of coins per box** from a string like `'|1|4|1|5|9|'` and stores it in `avg`.
 
-Let's analyse each provided implementation:
+## 🔍 Step-by-Step Analysis
 
-### Implementation 1:
-```python {linenos=table,linenostart=1}
+### How is the data structured?
+
+- The string: `|1|4|1|5|9|`
+- Each coin count is between `|` characters.
+- Odd indices (1, 3, 5, ...) are the digits; even indices (0, 2, 4, ...) are the `|` characters.
+
+
+### 1️⃣
+
+```python
 num = 0
 total = 0
 for i in range(len(boxes)):
@@ -240,12 +279,14 @@ for i in range(len(boxes)):
     num += 1
 avg = total / num
 ```
-**Evaluation:**
-This implementation aims to iterate through the string by index and skip delimiter characters (those at even indices, using `i % 2 == 0` and `continue`). However, the line `coins = boxes[i]` assigns a character (which is a **string**) to the `coins` variable. Subsequently, `total += coins` attempts to add this string character to the `total` variable, which is initialized as an integer (`0`). In Python, attempting to add a string to an integer (or vice-versa, unless explicit type conversion is done) results in a `TypeError`. The arithmetic operator `+` performs string concatenation when used with strings. Since `total` is an integer, this operation is invalid.
-**Conclusion for Implementation 1:** **Incorrect**, as it fails to convert the character `coins` to an integer before attempting addition, leading to a `TypeError`.
 
-### Implementation 2:
-```python {linenos=table,linenostart=1}
+- **Problem:** `coins = boxes[i]` gives a string digit, but `total += coins` tries to add a string to an integer (`total`). This will cause a **TypeError**.
+- **Result:** ❌ **Incorrect**
+
+
+### 2️⃣
+
+```python
 num = 0
 total = 0
 for i in range(len(boxes)):
@@ -256,31 +297,14 @@ for i in range(len(boxes)):
     num += 1
 avg = total / num
 ```
-**Evaluation:**
-This implementation correctly initializes `num` and `total` to 0. It iterates through the `boxes` string using indices from `range(len(boxes))`.
-*   The condition `if i % 2 == 0:` correctly identifies indices corresponding to the `|` delimiters. For these indices, the `continue` statement skips the rest of the current loop iteration and moves to the next index.
-*   For odd indices (which contain the coin counts), `coins = int(boxes[i])` **correctly converts the character (string) representing the number of coins into an integer**. This is a crucial step for performing arithmetic operations.
-*   `total += coins` then correctly adds the integer `coins` value to the `total` sum.
-*   `num += 1` correctly increments the count of boxes processed.
-*   Finally, `avg = total / num` performs a floating-point division to calculate the average, which is appropriate.
 
-**Example Trace (`boxes = '|1|4|1|5|9|'`):**
-*   `i = 0` (char '|'): `continue`
-*   `i = 1` (char '1'): `coins = int('1')` (becomes `1`), `total = 1`, `num = 1`
-*   `i = 2` (char '|'): `continue`
-*   `i = 3` (char '4'): `coins = int('4')` (becomes `4`), `total = 1 + 4 = 5`, `num = 2`
-*   `i = 4` (char '|'): `continue`
-*   `i = 5` (char '1'): `coins = int('1')` (becomes `1`), `total = 5 + 1 = 6`, `num = 3`
-*   `i = 6` (char '|'): `continue`
-*   `i = 7` (char '5'): `coins = int('5')` (becomes `5`), `total = 6 + 5 = 11`, `num = 4`
-*   `i = 8` (char '|'): `continue`
-*   `i = 9` (char '9'): `coins = int('9')` (becomes `9`), `total = 11 + 9 = 20`, `num = 5`
-*   `i = 10` (char '|'): `continue`
-The loop finishes. `avg = 20 / 5 = 4.0`. This matches the expected average `(1+4+1+5+9)/5 = 20/5 = 4.0`.
-**Conclusion for Implementation 2:** **Correct**.
+- **Explanation:** Only odd indices are used (the digits). Each digit is converted to an integer before adding to `total`.
+- **Result:** ✅ **Correct**
 
-### Implementation 3:
-```python {linenos=table,linenostart=1}
+
+### 3️⃣
+
+```python
 num = 0
 total = 0
 for coins in boxes:
@@ -288,14 +312,14 @@ for coins in boxes:
     num += 1
 avg = total / num
 ```
-**Evaluation:**
-This implementation uses a direct `for...in` loop to iterate over the `boxes` string. This means `coins` will take on the value of each character in the string sequentially, including the delimiter characters like `'|'`.
-*   When `coins` is `'|'`, `total += coins` attempts to add the string `'|'` to the integer `total`. This will result in a `TypeError`, similar to Implementation 1.
-*   Even if the type error did not occur, this approach would incorrect count the delimiters as 'boxes' and attempt to sum them, which is not the intent.
-**Conclusion for Implementation 3:** **Incorrect**, as it iterates over all characters including delimiters and fails to convert string characters to integers for arithmetic operations.
 
-### Implementation 4:
-```python {linenos=table,linenostart=1}
+- **Problem:** Iterates over every character (including `|`). `total += coins` tries to add a string to an integer, causing a **TypeError**.
+- **Result:** ❌ **Incorrect**
+
+
+### 4️⃣
+
+```python
 num = 0
 total = 0
 for i in range(len(boxes)):
@@ -306,18 +330,71 @@ for i in range(len(boxes)):
     num += 1
 avg = total / num
 ```
-**Evaluation:**
-This implementation is similar to Implementation 2 in its use of indexing and type conversion, but its loop control statement is incorrect.
-*   The first character `boxes` is `'|'`.
-*   The condition `if i % 2 == 0:` (for `i=0`, `0 % 2 == 0` is `True`) will trigger the `break` statement.
-*   The `break` statement immediately terminates the loop.
-*   As a result, no coin values are processed, `num` remains 0, and `total` remains 0.
-*   `avg = total / num` (0 / 0) will then raise a `ZeroDivisionError`.
-**Conclusion for Implementation 4:** **Incorrect**, as the `break` statement causes the loop to terminate prematurely, leading to a `ZeroDivisionError`.
 
-**Final Answer:** Implementation 2 is the only correct solution.
+- **Problem:** The `break` statement will exit the loop at the very first character (i=0), so the loop never processes any coins.
+- **Result:** ❌ **Incorrect**
 
-The final answer is $\boxed{2}$
+
+## ✅ **Summary Table**
+
+| Option | Correct? | Why? |
+| :-- | :-- | :-- |
+| 1 | ❌ | Tries to add strings to integer (`total += coins`) |
+| 2 | ✅ | Properly converts to int and processes only digits |
+| 3 | ❌ | Tries to add strings to integer, includes `|` |
+| 4 | ❌ | Loop breaks before processing any coins |
+
+## ⭐️ **Final Answer**
+
+- **Only the second implementation is correct:**
+
+```python
+num = 0
+total = 0
+for i in range(len(boxes)):
+    if i % 2 == 0:
+        continue
+    coins = int(boxes[i])
+    total += coins
+    num += 1
+avg = total / num
+```
+
+
+## 🧑‍💻 **Try It Yourself!**
+
+```python
+boxes = '|1|4|1|5|9|'
+num = 0
+total = 0
+for i in range(len(boxes)):
+    if i % 2 == 0:
+        continue
+    coins = int(boxes[i])
+    total += coins
+    num += 1
+avg = total / num
+print(avg)  # Output: 4.0
+```
+
+
+## 📝 **Practice Questions**
+
+1. **How would you get the sum of coins if `boxes = '|2|3|5|'`?**
+    - **A:** Loop through odd indices, convert to int, sum.
+2. **What happens if you forget to use `int()` when adding coin values?**
+    - **A:** You get a TypeError (can't add string to int).
+3. **How can you use list comprehension for this?**
+    - **A:**
+
+```python
+coins = [int(boxes[i]) for i in range(1, len(boxes), 2)]
+avg = sum(coins) / len(coins)
+```
+
+
+🎉 **Great job! Now you know how to parse and process structured strings in Python!**
+
 {{</ border >}}
 
 {{< border type="question" >}}
@@ -364,62 +441,90 @@ APBWD
 {{</ border >}}
 
 {{< border type="tip" title="Solution" >}}
-The provided Python code snippet computes an acronym or initialism by iterating through an input string and appending the first character of each word to a new string variable named `nick`.
+Let's analyze what the code does, step by step! 🐍
 
-Let's trace the execution of the code with the given input `Albus Percival Brian Wulfric Dumbledore`:
+### Code Recap
 
-1.  **`name = input()`**: The variable `name` is assigned the input string: `'Albus Percival Brian Wulfric Dumbledore'`. In Python, `input()` reads data from the keyboard as a string.
-2.  **`nick = ''`**: The variable `nick` is initialized as an **empty string**. An empty string is represented by a pair of quotes with nothing in between.
-3.  **`space = ' '`**: The variable `space` is assigned a string containing a single space character. Strings can be enclosed using single quotes.
-4.  **`first_char = True`**: The Boolean variable `first_char` is initialized to `True`. `True` is one of the two predefined Boolean values in Python, acting like the integer 1.
-5.  **`for char in name:`**: The code then enters a `for` loop, which iterates over each character in the `name` string. The variable `char` will take on the value of each character one by one.
+```python
+name = input()
+nick = ''    # empty string
+space = ' '  # a single space
+first_char = True
+for char in name:
+    if first_char == True:
+        nick = nick + char
+        first_char = False
+    if char == space:
+        first_char = True
+print(nick)
+```
 
-**Loop Execution Trace:**
 
-*   **`char = 'A'`**:
-    *   `if first_char == True` (True, since `first_char` is initially `True`):
-        *   `nick = nick + char`: `nick` becomes `'' + 'A'`, which is `'A'`. The `+` operator concatenates strings.
-        *   `first_char = False`: `first_char` is set to `False`.
-    *   `if char == space` (False, since 'A' is not ' '): This condition is skipped.
-    *   Current `nick`: `'A'`
-*   **`char = 'l'`**:
-    *   `if first_char == True` (False, since `first_char` is `False`): This block is skipped.
-    *   `if char == space` (False): This condition is skipped.
-    *   Current `nick`: `'A'`
-*   **`char = 'b'`**: (Same as 'l') Current `nick`: `'A'`
-*   **`char = 'u'`**: (Same as 'l') Current `nick`: `'A'`
-*   **`char = 's'`**: (Same as 'l') Current `nick`: `'A'`
-*   **`char = ' '`** (space character):
-    *   `if first_char == True` (False): This block is skipped.
-    *   `if char == space` (True, since ' ' is equal to `space`):
-        *   `first_char = True`: `first_char` is set back to `True`, preparing for the next word's first character.
-    *   Current `nick`: `'A'`
-*   **`char = 'P'`**:
-    *   `if first_char == True` (True, since `first_char` is now `True`):
-        *   `nick = nick + char`: `nick` becomes `'A' + 'P'`, which is `'AP'`.
-        *   `first_char = False`.
-    *   `if char == space` (False).
-    *   Current `nick`: `'AP'`
-*   ... (The loop continues for `e`, `r`, `c`, `i`, `v`, `a`, `l` in "Percival" - `first_char` remains `False`, so `nick` does not change.)
-*   **`char = ' '`** (space character): `first_char` is set back to `True`. Current `nick`: `'AP'`
-*   **`char = 'B'`**: `nick` becomes `'APB'`. `first_char` is set to `False`. Current `nick`: `'APB'`
-*   ... (The loop continues for "Brian" - `first_char` remains `False`.)
-*   **`char = ' '`** (space character): `first_char` is set back to `True`. Current `nick`: `'APB'`
-*   **`char = 'W'`**: `nick` becomes `'APBW'`. `first_char` is set to `False`. Current `nick`: `'APBW'`
-*   ... (The loop continues for "Wulfric" - `first_char` remains `False`.)
-*   **`char = ' '`** (space character): `first_char` is set back to `True`. Current `nick`: `'APBW'`
-*   **`char = 'D'`**: `nick` becomes `'APBWD'`. `first_char` is set to `False`. Current `nick`: `'APBWD'`
-*   ... (The loop continues for the rest of "Dumbledore" - `first_char` remains `False`.)
+### What does this code do?
 
-After the loop finishes, all characters in `name` have been processed.
+- It loops through every character in the input string.
+- If `first_char` is `True`, it adds the current character to `nick` and sets `first_char` to `False`.
+- If the current character is a space, it sets `first_char` to `True` for the next character.
+- **So:** It collects the first character of the string, and the first character after every space (i.e., the initials of each word).
 
-6.  **`print(nick)`**: The final value of `nick` is printed to the console.
 
-Therefore, the output will be **APBWD**.
+### Input:
 
-The correct implementation is the one that results in `APBWD`.
+```
+Albus Percival Brian Wulfric Dumbledore
+```
 
-The final answer is $\boxed{\text{APBWD}}$
+- Words: Albus, Percival, Brian, Wulfric, Dumbledore
+
+
+### Let's trace the code:
+
+- 'A' (first letter) → nick = 'A'
+- 'l', 'b', 'u', 's' → nothing added
+- ' ' (space) → first_char = True
+- 'P' → nick = 'AP'
+- 'e', 'r', 'c', 'i', 'v', 'a', 'l' → nothing added
+- ' ' (space) → first_char = True
+- 'B' → nick = 'APB'
+- 'r', 'i', 'a', 'n' → nothing added
+- ' ' (space) → first_char = True
+- 'W' → nick = 'APBW'
+- 'u', 'l', 'f', 'r', 'i', 'c' → nothing added
+- ' ' (space) → first_char = True
+- 'D' → nick = 'APBWD'
+- ...rest of "umbledore" → nothing added
+
+
+### So the output is:
+
+```
+APBWD
+```
+
+
+## ✅ **Correct Output**
+
+- `APBWD`
+
+
+## ❌ **Incorrect Options**
+
+- `Albus` (would require only the first word)
+- `Dumbledore` (would require only the last word)
+- `AP` (would require only the first two words)
+
+
+## 📝 Practice Questions
+
+1. What would the output be for `Hermione Jean Granger`?
+    - **A:** `HJG`
+2. What would the output be for `Severus Snape`?
+    - **A:** `SS`
+3. What would the output be for `Minerva`?
+    - **A:** `M`
+
+🎉 **Great job! Now you know how to extract initials from a full name using Python!**
+
 {{</ border >}}
 
 {{< border type="question" >}}
@@ -486,12 +591,11 @@ print(F_curr)
 {{</ border >}}
 
 {{< border type="tip" title="Solution" >}}
-This query requires us to evaluate four Python code snippets that aim to compute the *n*-th term of the Fibonacci sequence. The sequence is defined with F₁ = 1, F₂ = 1, and F_k = F_{k-1} + F_{k-2} for k > 2. The program should accept a positive integer `n` as input.
+Let's analyze each implementation to see which correctly computes the **nth Fibonacci number** (with F₁ = 1, F₂ = 1, F₃ = 2, ...):
 
-Let's analyse each implementation:
+### 1️⃣
 
-**Implementation 1:**
-```python {linenos=table,linenostart=1}
+```python
 n = int(input())
 F_prev = 1
 F_curr = 1
@@ -503,23 +607,20 @@ while count < n:
     count += 1
 print(F_curr)
 ```
-*   The code first accepts an integer `n` as input.
-*   It initializes `F_prev` and `F_curr` to **1**, representing F₁ and F₂ respectively. `count` is initialized to **2**, indicating that `F_curr` currently holds F₂.
-*   The `while` loop continues as long as `count` is less than `n`.
-    *   If `n` is **1** (F₁): The condition `2 < 1` is `False`. The loop is skipped. `F_curr` (which is `1`) is printed. This is **correct** for F₁.
-    *   If `n` is **2** (F₂): The condition `2 < 2` is `False`. The loop is skipped. `F_curr` (which is `1`) is printed. This is **correct** for F₂.
-    *   If `n` is **3** (F₃): The condition `2 < 3` is `True`. The loop executes once:
-        *   `temp` becomes `1 + 1 = 2`.
-        *   `F_prev` becomes `1`.
-        *   `F_curr` becomes `2`.
-        *   `count` becomes `3`.
-        *   The loop condition `3 < 3` is `False`, so the loop terminates. `F_curr` (which is `2`) is printed. This is **correct** for F₃.
-    *   For `n > 2`, the loop effectively performs `n - 2` iterations, each time calculating the next Fibonacci number and updating `F_prev` and `F_curr`. The loop stops when `count` equals `n`, and `F_curr` holds F_n. This **correctly** calculates F_n.
 
-**Conclusion for Implementation 1: Correct.**
+- **How it works:**
+    - For n = 1 or 2, F_curr is 1.
+    - For n > 2, loop runs (n-2) times, updating F_prev and F_curr.
+    - For n = 5:
+        - count = 2, loop runs while count < 5 (i.e., for count = 2, 3, 4: 3 times).
+        - F₃ = 2, F₄ = 3, F₅ = 5.
+    - **Correct output for all n ≥ 1.**
+- **✅ Correct**
 
-**Implementation 2:**
-```python {linenos=table,linenostart=1}
+
+### 2️⃣
+
+```python
 n = int(input())
 if n <= 2:
     print(1)
@@ -534,15 +635,17 @@ else:
         count += 1
     print(F_curr)
 ```
-*   This implementation also reads an integer `n`.
-*   It uses an `if-else` statement to explicitly handle the base cases.
-    *   If `n` is **1** or **2**: `n <= 2` is `True`, and **1** is printed. This is **correct** for F₁ and F₂.
-*   For `n > 2`, the `else` block is executed. The code within the `else` block is **identical** to the code in Implementation 1, including the initialization of `F_prev`, `F_curr`, `count`, and the `while` loop. As established for Implementation 1, this part correctly computes F_n for `n > 2`.
 
-**Conclusion for Implementation 2: Correct.**
+- **How it works:**
+    - For n = 1 or 2, prints 1.
+    - For n > 2, same logic as Implementation 1.
+    - **Correct output for all n ≥ 1.**
+- **✅ Correct**
 
-**Implementation 3:**
-```python {linenos=table,linenostart=1}
+
+### 3️⃣
+
+```python
 n = int(input())
 F_prev = 1
 F_curr = 1
@@ -552,24 +655,17 @@ for i in range(n):
     F_curr = temp
 print(F_curr)
 ```
-*   This code also reads an integer `n` and initializes `F_prev` and `F_curr` to **1**.
-*   It uses a `for` loop with `range(n)`. This means the loop will execute `n` times, with `i` taking values from `0` to `n-1`.
-    *   If `n` is **1** (F₁): The loop executes once (`i=0`).
-        *   `temp` becomes `1 + 1 = 2`.
-        *   `F_prev` becomes `1`.
-        *   `F_curr` becomes `2`.
-        *   `F_curr` (which is `2`) is printed. This is **incorrect**, as F₁ is `1`.
-    *   If `n` is **2** (F₂): The loop executes twice (`i=0, 1`).
-        *   After the first iteration, `F_curr` is `2`.
-        *   After the second iteration, `temp` becomes `1 + 2 = 3`, `F_prev` becomes `2`, `F_curr` becomes `3`.
-        *   `F_curr` (which is `3`) is printed. This is **incorrect**, as F₂ is `1`.
 
-This implementation overshoots the target Fibonacci number for small `n` due to the number of loop iterations.
+- **How it works:**
+    - Loop runs n times, which is **too many**.
+    - For n = 1: F_curr = 2 (incorrect, should be 1).
+    - For n = 5: F_curr = 13 (incorrect, should be 5).
+- **❌ Incorrect**
 
-**Conclusion for Implementation 3: Incorrect.**
 
-**Implementation 4:**
-```python {linenos=table,linenostart=1}
+### 4️⃣
+
+```python
 n = int(input())
 F_prev = 1
 F_curr = 1
@@ -579,22 +675,52 @@ for i in range(n - 2):
     F_curr = temp
 print(F_curr)
 ```
-*   This code reads an integer `n` and initializes `F_prev` and `F_curr` to **1**.
-*   It uses a `for` loop with `range(n - 2)`.
-    *   If `n` is **1** (F₁): `range(1 - 2)` is `range(-1)`. An empty range causes the loop to **not run**. `F_curr` (which is `1`) is printed. This is **correct** for F₁.
-    *   If `n` is **2** (F₂): `range(2 - 2)` is `range(0)`. An empty range causes the loop to **not run**. `F_curr` (which is `1`) is printed. This is **correct** for F₂.
-    *   If `n` is **3** (F₃): `range(3 - 2)` is `range(1)`. The loop executes once (`i=0`).
-        *   `temp` becomes `1 + 1 = 2`.
-        *   `F_prev` becomes `1`.
-        *   `F_curr` becomes `2`.
-        *   `F_curr` (which is `2`) is printed. This is **correct** for F₃.
-    *   For `n > 2`, the loop will execute `n - 2` times, which is the precise number of iterations needed to calculate F_n given that F₁ and F₂ are already initialized.
 
-**Conclusion for Implementation 4: Correct.**
+- **How it works:**
+    - For n = 1 or 2, range(n-2) is range(-1) or range(0), so loop does not run, F_curr = 1.
+    - For n = 5: loop runs 3 times (i=0,1,2), F_curr = 5.
+    - **Correct output for all n ≥ 1.**
+- **✅ Correct**
 
-Therefore, implementations 1, 2, and 4 are correct.
 
-The final answer is $\boxed{\text{1, 2, 4}}$
+## ✅ **Summary Table**
+
+| Option | Correct? | Reason |
+| :-- | :-- | :-- |
+| 1 | ✅ | Correct iteration logic |
+| 2 | ✅ | Handles n<=2 and correct iteration |
+| 3 | ❌ | Too many iterations, wrong result |
+| 4 | ✅ | Correct for all n ≥ 1 |
+
+## ⭐️ **Final Answer**
+
+**The correct implementations are:**
+
+- 1️⃣
+- 2️⃣
+- 4️⃣
+
+
+## 📝 Practice Questions
+
+1. What is the output for n = 7 in the correct implementations?
+    - **A:** 13
+2. What happens if you use `for i in range(n)` instead of `range(n-2)`?
+    - **A:** You get the wrong Fibonacci number (too many steps).
+3. How would you write a recursive version for the nth Fibonacci number?
+    - **A:**
+
+```python
+def fib(n):
+    if n <= 2:
+        return 1
+    return fib(n-1) + fib(n-2)
+print(fib(int(input())))
+```
+
+
+🎉 **Great job! Now you know how to code the Fibonacci sequence in Python!**
+
 {{</ border >}}
 
 {{< border type="question" >}}
@@ -635,61 +761,66 @@ print('|')
 {{</ border >}}
 
 {{< border type="tip" title="Solution" >}}
-Let's break down the Python code snippet step by step to determine its output. 🧐
+Let's trace the code step by step! 🐍
 
-The code processes each character in the string `'a1b2c3d4e5'` using a `for` loop. Inside the loop, it checks if the current character is a letter from `'abcde'`.
+```python
+for char in 'a1b2c3d4e5':
+    if char in 'abcde':
+        print('|', end = '')
+        continue
+    print(char, end = '')
+print('|')
+```
 
-Here's how it executes for each character:
 
-*   **`char = 'a'`**:
-    *   Is `'a'` in `'abcde'`? **Yes**.
-    *   The code prints a pipe character `|`.
-    *   The `continue` statement is executed, which skips the rest of the current loop iteration and moves to the next character.
-*   **`char = '1'`**:
-    *   Is `'1'` in `'abcde'`? **No**.
-    *   The code prints the character itself: `1`.
-*   **`char = 'b'`**:
-    *   Is `'b'` in `'abcde'`? **Yes**.
-    *   The code prints `|`.
-    *   `continue` is executed.
-*   **`char = '2'`**:
-    *   Is `'2'` in `'abcde'`? **No**.
-    *   The code prints `2`.
-*   **`char = 'c'`**:
-    *   Is `'c'` in `'abcde'`? **Yes**.
-    *   The code prints `|`.
-    *   `continue` is executed.
-*   **`char = '3'`**:
-    *   Is `'3'` in `'abcde'`? **No**.
-    *   The code prints `3`.
-*   **`char = 'd'`**:
-    *   Is `'d'` in `'abcde'`? **Yes**.
-    *   The code prints `|`.
-    *   `continue` is executed.
-*   **`char = '4'`**:
-    *   Is `'4'` in `'abcde'`? **No**.
-    *   The code prints `4`.
-*   **`char = 'e'`**:
-    *   Is `'e'` in `'abcde'`? **Yes**.
-    *   The code prints `|`.
-    *   `continue` is executed.
-*   **`char = '5'`**:
-    *   Is `'5'` in `'abcde'`? **No**.
-    *   The code prints `5`.
+### Step-by-Step Execution
 
-After the loop finishes processing all characters, the final line `print('|')` is executed.
+- The string is `'a1b2c3d4e5'`.
+- For each character:
+    - If it's in `'abcde'` (i.e., a, b, c, d, e), print `'|'` (no newline), and **continue** (skip the rest).
+    - Otherwise, print the character (no newline).
 
-All the `print` statements inside the loop use `end = ''`, which means they do not add a newline character at the end of their output. This causes all the characters to be printed on the **same line**. The very last `print('|')` statement, however, does not specify `end = ''`, so it will add a newline character after printing the final pipe.
 
-Combining the output from each step:
-`|` (from 'a') + `1` (from '1') + `|` (from 'b') + `2` (from '2') + `|` (from 'c') + `3` (from '3') + `|` (from 'd') + `4` (from '4') + `|` (from 'e') + `5` (from '5') + `|` (final print)
+#### Let's walk through each character:
 
-The combined output will be: **`|1|2|3|4|5|`** ✨
+| char | in 'abcde'? | Output so far |
+| :-- | :-- | :-- |
+| a | Yes | `|` |
+| 1 | No | `|1` |
+| b | Yes | `|1|` |
+| 2 | No | `|1|2` |
+| c | Yes | `|1|2|` |
+| 3 | No | `|1|2|3` |
+| d | Yes | `|1|2|3|` |
+| 4 | No | `|1|2|3|4` |
+| e | Yes | `|1|2|3|4|` |
+| 5 | No | `|1|2|3|4|5` |
 
-Comparing this with the given options, the correct one is:
+- After the loop, `print('|')` adds one more `|`.
+
+**Final output:**
+
+```
+|1|2|3|4|5|
+```
+
+
+## ✅ Correct Option
+
 ```python
 |1|2|3|4|5|
 ```
+
+
+## 📝 Practice Questions
+
+1. What would the output be if the input string was `'x1y2z3'`?
+    - **A:** `1|2|3|` (since only 'y' and 'z' are in 'xyz', so those get replaced by '|')
+2. What if you removed the `continue` statement?
+    - **A:** It would print both `|` and the letter (e.g., `|a|b|c|d|e|12345|`)
+
+🎉 **Great job! Now you know how to trace conditional logic in a Python loop!**
+
 {{</ border >}}
 
 {{< border type="question" >}}
