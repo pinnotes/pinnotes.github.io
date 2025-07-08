@@ -1,0 +1,57 @@
+{{ $title := .Get "title" }} {{ $link := .Get "link" }} {{ $timer := .Get
+"timer" | default "false" }} {{ if eq $timer "true" }}
+<button class="timer-btn" data-link="{{ $link }}">{{ $title }}</button>
+<span class="timer-label"></span>
+<script>
+  (function () {
+    var btns = document.querySelectorAll(".timer-btn");
+    btns.forEach(function (btn) {
+      if (btn.dataset.timerAttached) return;
+      btn.dataset.timerAttached = "true";
+      btn.addEventListener("click", function () {
+        if (btn.disabled) return;
+        btn.disabled = true;
+        var label = btn.nextElementSibling;
+        var countdown = 30;
+        label.textContent = " Redirecting in " + countdown + "s...";
+        var timer = setInterval(function () {
+          countdown--;
+          label.textContent = " Redirecting in " + countdown + "s...";
+          if (countdown <= 0) {
+            clearInterval(timer);
+            window.location.href = btn.getAttribute("data-link");
+          }
+        }, 1000);
+      });
+    });
+  })();
+</script>
+{{ else }}
+<a href="{{ $link }}" class="timer-btn"> {{ $title }} </a>
+{{ end }}
+
+<style>
+  .timer-btn {
+    margin-top: 1.5rem;
+    display: block;
+    padding: 0.5em 1.2em;
+    background: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: -webkit-fill-available;
+  }
+  .timer-btn:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  .timer-label {
+    margin-left: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+</style>
