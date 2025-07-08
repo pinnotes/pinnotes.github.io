@@ -13,10 +13,10 @@
         btn.disabled = true;
         var label = btn.nextElementSibling;
         var countdown = 30;
-        label.textContent = " Redirecting in " + countdown + "s...";
+        label.textContent = " Downloading in " + countdown + "sec  ...";
         var timer = setInterval(function () {
           countdown--;
-          label.textContent = " Redirecting in " + countdown + "s...";
+          label.textContent = " Downloading in " + countdown + "sec  ...";
           if (countdown <= 0) {
             clearInterval(timer);
             window.location.href = btn.getAttribute("data-link");
@@ -50,8 +50,26 @@
     cursor: not-allowed;
   }
   .timer-label {
+    margin-top: 1.5rem;
     margin-left: 10px;
     color: #333;
     font-weight: bold;
+    display: block;
+    text-align: center;
+  }
+
+  html:is(.dark) {
+    .timer-btn {
+      background: #3399ff;
+      color: #eee;
+      border: none;
+    }
+    .timer-btn:disabled {
+      background: #555;
+      cursor: not-allowed;
+    }
+    .timer-label {
+      color: #ccc;
+    }
   }
 </style>
