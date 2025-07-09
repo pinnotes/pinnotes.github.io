@@ -3,10 +3,10 @@
 default "Read here →" }} {{ $pages := partial "utils/sort-pages" (dict "page"
 . "by" site.Params.blog.list.sortBy "weight" site.Params.blog.list.sortOrder) }}
 
-  <div class="blog-card hx-mb-10">
+<div class="blog-card hx-mb-10">
+    <a href="{{ .RelPermalink }}" class="">
     <div class="blog-card-image">
       {{ if .Params.image }}
-      <a href="{{ .RelPermalink }}" class="">
         <img
           src={{
           .Params.image
@@ -19,90 +19,81 @@ default "Read here →" }} {{ $pages := partial "utils/sort-pages" (dict "page"
           method="Resize"
           options="600x q80 webp"
         />
-      </a>
-      {{ else if .Params.svg }}
-      <a href="{{ .RelPermalink }}" class="">
-        <div class="svg-image">
-          <img src={{ .Params.icon }} alt="{{ .Title }}" class="icon">
-          {{/*  <h1 class="svg_image_title">{{ .Title }}</h1>  */}}
-          <span class="icon">{{ .Params.icon }}</span>
-        </div>
-      </a>
-      {{ else}}
-      <a href="{{ .RelPermalink }}" class="">
-        <img
+        {{ else if .Params.svg }}
+        {{/*  <a href="{{ .RelPermalink }}" class="">  */}}
+          <div class="svg-image">
+            <img src={{ .Params.icon }} alt="{{ .Title }}" class="icon">
+            {{/*  <h1 class="svg_image_title">{{ .Title }}</h1>  */}}
+            <span class="icon">{{ .Params.icon }}</span>
+          </div>
+        {{/*  </a>  */}}
+        {{ else}}
+        {{/*  <a href="{{ .RelPermalink }}" class="">  */}}
+          <img
           src="{{ $imagePath | relURL }}"
           alt={{
-          .Title
+            .Title
           }}
           class="blog-card-thumb"
           loading="lazy"
           method="Resize"
           options="600x q80 webp"
-        />
-      </a>
+          />
+        {{/*  </a>  */}}
+        
+        {{ end }}
+      </div>
 
-      {{ end }}
-    </div>
-    <div class=" hx-mt-2"></div>
-    {{- if site.Params.blog.list.displayTags -}}
-    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7 ">
-      <a
+      <div class=" hx-mt-2"></div>
+      {{- if site.Params.blog.list.displayTags -}}
+      <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7 ">
+        {{/*  <a
         class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
         href="{{.RelPermalink}}"
-        >{{ index .Params.tags 0 }}</a>
-        </p>
-    {{/*  {{with .GetTerms "tags"}}
-    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-      {{- range . }}
-      <a
-        class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
-        href="{{.RelPermalink}}"
-        >{{ .Name }}</a>
-      {{ end -}}
-    </p>
-    {{ end -}}  */}}
-     {{- end -}}
-     <a
-     style="color: inherit; text-decoration: none"
-     class="hx-block hx-font-semibold hx-text-2xl"
-     href="{{ .RelPermalink }}"
-     >
-    <h3 class="blog-card-title" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.7rem; font-size: 1.25rem;">
-      {{ .Title }}
-    </h3>
-    </a  >
-    <a href="{{ .RelPermalink }}">
-      <p class="blog-card-description hx-opacity-80 hx-mt-2 ">
+        >  */}}
+        <span  class="blog-card-tag mona-sans hx-inline-block hx-mr-2">
+          {{ index .Params.tags 0 }}
+          
+        </span>
+      {{/*  </a>  */}}
+      </p>
+      {{- end -}}
+      {{/*  <a
+      style="color: inherit; text-decoration: none"
+      class="hx-block hx-font-semibold hx-text-2xl"
+      href="{{ .RelPermalink }}"
+      >  */}}
+      <h3 class="blog-card-title mona-sans" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.7rem; font-size: 1.25rem;">
+        {{ .Title }}
+      </h3>
+
+    {{/*  </a  >  */}}
+    {{/*  <a href="{{ .RelPermalink }}">  */}}
+      <p class="blog-card-description hx-opacity-80 hx-mt-2 mona-sans " style="font-weight: 400;">
         {{- partial "utils/page-description" . -}}
       </p>
-    </a>
-    {{/* {{- if site.Params.blog.list.displayTags -}} {{ with .Params.tags }}
-    <p class="blog-card-tags hx-opacity-100 hx-text-sm hx-leading-7">
-      {{- range . }}<a class="blog-card-tag mona-sans hx-inline-block hx-mr-2"
-        >#{{ . }}</a
-      >{{ end -}}
-    </p>
-    {{ end -}} {{- end -}} */}} 
+    {{/*  </a>  */}}
 
-    <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
-      <span class="hx-text-sm hx-text-neutral-500 dark:hx-text-neutral-400">
+    
+    {{/*  <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
+      <span class="hx-text-sm hx-text-neutral-500 dark:hx-text-neutral-400 mona-sans">
         {{- $date := .Date.Format "January 2, 2006" -}}
         {{- if eq .Params.dateFormat "long" -}}
         {{- $date = .Date.Format "January 2, 2006" -}}
         {{ end -}}
         {{ $date }}
       </span>
-    </p>
-
-
+    </p>  */}}
+    
+    
     <hr
-      class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
+    class="{{$borderClass}} dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"
     />
   </div>
- 
+              </a>
 
-
+  
+  
 <style>
   .svg-image {
     width: 100%;
