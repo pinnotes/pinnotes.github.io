@@ -30,7 +30,7 @@ POWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like 
 
 ### Free 3D Model 🧊
 
-{{< timer/timer title="Free Download" link="/assets/download/" >}}
+{{< timer/timer title="Free Download" link="/assets/download/"  >}}
 
 
 

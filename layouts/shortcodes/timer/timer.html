@@ -1,18 +1,34 @@
-{{ $title := .Get "title" }} {{ $link := .Get "link" }} {{ $timer := .Get
-"timer" | default "false" }} {{ if eq $timer "true" }}
-<button class="timer-btn" data-link="{{ $link }}">{{ $title }}</button>
-<span class="timer-label"></span>
+{{ $title := .Get "title" }}
+{{ $link := .Get "link" }}
+{{ $timer := .Get "timer" | default "false" }}
+{{ $showbutton := .Get "showbutton" | default "true" }}
+
+{{ if eq $timer "true" }}
+<div class="timer-container">
+  {{/*  {{ if eq $showbutton "true" }}
+  <button class="timer-btn" data-link="{{ $link }}">{{ $title }}</button>
+  {{ end }}  */}}
+  <span class="timer-label"></span>
+  <progress class="timer-progress" value="0" max="20"></progress>
+</div>
+
+{{ else if eq $showbutton "true" }}
+  <a href="{{ $link }}" class="timer-btn">
+    {{ $title }}
+  </a>
+{{ end }}
+
 <script>
-  (function () {
+  (function link_timer() {
     var btns = document.querySelectorAll(".timer-btn");
     btns.forEach(function (btn) {
       if (btn.dataset.timerAttached) return;
       btn.dataset.timerAttached = "true";
-      btn.addEventListener("click", function () {
+      btn.addEventListener("click", function timer() {
         if (btn.disabled) return;
         btn.disabled = true;
         var label = btn.nextElementSibling;
-        var countdown = 30;
+        var countdown = 20;
         label.textContent = " Downloading in " + countdown + "sec  ...";
         var timer = setInterval(function () {
           countdown--;
@@ -25,17 +41,34 @@
       });
     });
   })();
+
+  window.addEventListener("load", function () {
+    var btn = document.querySelector(".timer-btn");
+    var label = document.querySelector(".timer-label");
+    var progress = document.querySelector(".timer-progress");
+    var link = "{{ $link }}";
+    var countdown = 20;
+    label.textContent = " Redirecting in " + countdown + "s...";
+    progress.value = 0;
+    var timer = setInterval(function () {
+      countdown--;
+      label.textContent = " Redirecting in " + countdown + "s...";
+      progress.value = 20 - countdown;
+      if (countdown <= 0) {
+        clearInterval(timer);
+        window.location.href = link;
+      }
+    }, 1000);
+  });
 </script>
-{{ else }}
-<a href="{{ $link }}" class="timer-btn"> {{ $title }} </a>
-{{ end }}
+
 
 <style>
   .timer-btn {
     margin-top: 1.5rem;
     display: block;
     padding: 0.5em 1.2em;
-    background: #007bff;
+    background: #d45039;
     color: #fff;
     border-radius: 4px;
     border: none;
@@ -58,9 +91,32 @@
     text-align: center;
   }
 
+  .timer-progress {
+    width: 100%;
+    height: 1em;
+    border-radius: 6px;
+    appearance: none;
+    background-color: #e0e0e0;
+    overflow: hidden;
+  }
+  .timer-progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 6px;
+  }
+  .timer-progress::-webkit-progress-value {
+    background-color: #d45039;
+    border-radius: 6px;
+    transition: width 0.2s;
+  }
+  .timer-progress::-moz-progress-bar {
+    background-color: #d45039;
+    border-radius: 6px;
+    transition: width 0.2s;
+  }
+
   html:is(.dark) {
     .timer-btn {
-      background: #3399ff;
+      background: #d45039;
       color: #eee;
       border: none;
     }
@@ -70,6 +126,14 @@
     }
     .timer-label {
       color: #ccc;
+    }
+    .timer-progress,
+    .timer-progress::-webkit-progress-bar {
+      background-color: #222;
+    }
+    .timer-progress::-webkit-progress-value,
+    .timer-progress::-moz-progress-bar {
+      background-color: #d45039;
     }
   }
 </style>
