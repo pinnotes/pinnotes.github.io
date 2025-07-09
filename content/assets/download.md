@@ -4,6 +4,7 @@ description: Create and animate Snake Model with free assets.
 date: 2025-05-17
 image: "/images/blender/blender_render-1280x720.jpg"
 width: full
+type: blog
 authors:
   - name: Aryan
     link: https://github.com/simplearyan
@@ -13,7 +14,7 @@ tags:
 ---
 
 
-{{< timer/timer title="Free Download" link="https://youtu.be/lmfOd0aRHds?si=2UVmkFVTLs7nwO6s" timer="true" >}}
+{{< timer/timer title="Free Download" link="https://drive.google.com/file/d/1-H0WfBZl9RfKma0orW-Rud5XDl0JNZaX/view?usp=sharings" timer="true" >}}
 
 
 
