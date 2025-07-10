@@ -10,7 +10,7 @@ authors:
     link: https://github.com/simplearyan
     image: https://github.com/simplearyan.png
 tags:
-  - Programming
+  - Assets
 ---
 
 
