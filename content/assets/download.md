@@ -2,7 +2,7 @@
 title: Snake 3D Model FBX Blender 🐍
 description: Create and animate Snake Model with free assets.
 date: 2025-05-17
-image: "/images/blender/blender_render-1280x720.jpg"
+image: "/images/blender/IMG-20250710-WA0004[1].jpg"
 width: full
 type: blog
 authors:
