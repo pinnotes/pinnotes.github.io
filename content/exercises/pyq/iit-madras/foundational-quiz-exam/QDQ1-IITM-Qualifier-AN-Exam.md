@@ -1,14 +1,13 @@
 ---
-title: IIT M QUALIFIER AN EXAM QDQ1 27 Oct  
+title: IIT M QUALIFIER AN EXAM QDQ1 27 Oct
 subtitle: 27 Oct 2024
 weight: 1
 label: PYQ
 categories:
-- PYQ
+  - PYQ
 ---
 
 ---
-
 
 ## Mathematics for Data Science
 
@@ -23,14 +22,14 @@ Consider the polynomials \$ p(x) = x^3 - 3x^2 + 100x - 1 \$ and \$ q(x) = x^3 + 
 **Solution with Steps:**
 
 1. **Find the leading terms:**
-Both \$ p(x) \$ and \$ q(x) \$ have \$ x^3 \$ as the highest degree term.
+   Both \$ p(x) \$ and \$ q(x) \$ have \$ x^3 \$ as the highest degree term.
 2. **Subtract the polynomials:**
-\$ p(x) - q(x) = (x^3 - x^3) + (-3x^2 - 0) + (100x - x) + (-1 - 5) = -3x^2 + 99x - 6 \$
+   \$ p(x) - q(x) = (x^3 - x^3) + (-3x^2 - 0) + (100x - x) + (-1 - 5) = -3x^2 + 99x - 6 \$
 3. **Analyze as \$ x \to \infty \$:**
-The highest degree term is \$ -3x^2 \$. As \$ x \to \infty \$, \$ -3x^2 \to -\infty \$.
+   The highest degree term is \$ -3x^2 \$. As \$ x \to \infty \$, \$ -3x^2 \to -\infty \$.
 4. **Conclusion:**
-So, \$ p(x) - q(x) \to -\infty \$ as \$ x \to \infty \$.
-🎯 **Final Answer:** Option 2 is correct![^1]
+   So, \$ p(x) - q(x) \to -\infty \$ as \$ x \to \infty \$.
+   🎯 **Final Answer:** Option 2 is correct![^1]
 
 ### 2️⃣ Polynomial Graph Matching
 
@@ -40,19 +39,19 @@ Given \$ p(x) = 0.3x^3(x^2 - 1)(x - 2)^2(x - 3) \$, which figure represents the 
 **Solution with Steps:**
 
 1. **Find the roots:**
-    - \$ x = 0 \$ (triple root due to \$ x^3 \$)
-    - \$ x = 1, -1 \$ (from \$ x^2 - 1 \$)
-    - \$ x = 2 \$ (double root from \$ (x - 2)^2 \$)
-    - \$ x = 3 \$ (single root)
+   - \$ x = 0 \$ (triple root due to \$ x^3 \$)
+   - \$ x = 1, -1 \$ (from \$ x^2 - 1 \$)
+   - \$ x = 2 \$ (double root from \$ (x - 2)^2 \$)
+   - \$ x = 3 \$ (single root)
 2. **Check end behavior:**
-    - Degree: \$ 3 + 2 + 1 + 2 + 1 = 9 \$ (odd degree, positive leading coefficient)
-    - As \$ x \to -\infty \$, \$ p(x) \to -\infty \$
-    - As \$ x \to \infty \$, \$ p(x) \to \infty \$
+   - Degree: \$ 3 + 2 + 1 + 2 + 1 = 9 \$ (odd degree, positive leading coefficient)
+   - As \$ x \to -\infty \$, \$ p(x) \to -\infty \$
+   - As \$ x \to \infty \$, \$ p(x) \to \infty \$
 3. **Root behavior:**
-    - At \$ x = 0 \$, the curve flattens (triple root)
-    - At \$ x = 2 \$, it just touches the axis (double root)
+   - At \$ x = 0 \$, the curve flattens (triple root)
+   - At \$ x = 2 \$, it just touches the axis (double root)
 4. **Compare with figures:**
-    - Figure 1 matches all these properties.
+   - Figure 1 matches all these properties.
 
 🎯 **Final Answer:** **Figure 1** represents the polynomial \$ p(x) \$! 🖼️[^2]
 
@@ -67,14 +66,14 @@ If \$ \alpha \$ and \$ \beta \$ are the roots of \$ x^2 + 4x + 1 = 0 \$, then th
 **Solution with Steps:**
 
 1. **Sum and product of roots:**
-    - \$ \alpha + \beta = -4 \$
-    - \$ \alpha \beta = 1 \$
+   - \$ \alpha + \beta = -4 \$
+   - \$ \alpha \beta = 1 \$
 2. **Sum of squares:**
-\$ \alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = (-4)^2 - 2 \times 1 = 16 - 2 = 14 \$
+   \$ \alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = (-4)^2 - 2 \times 1 = 16 - 2 = 14 \$
 3. **Product of squares:**
-\$ \alpha^2 \beta^2 = (\alpha \beta)^2 = 1^2 = 1 \$
+   \$ \alpha^2 \beta^2 = (\alpha \beta)^2 = 1^2 = 1 \$
 4. **Form new quadratic:**
-\$ x^2 - (sum)x + (product) = x^2 - 14x + 1 = 0 \$
+   \$ x^2 - (sum)x + (product) = x^2 - 14x + 1 = 0 \$
 
 🎯 **Final Answer:** \$ x^2 - 14x + 1 = 0 \$[^3]
 
@@ -96,15 +95,14 @@ Which statements are correct?
 **Solution with Steps:**
 
 - **Symmetry:**
-For \$ R_2 \$, if \$ (a, b) \in R_2 \$, \$ (a + b) \mod 15 = 0 \$. But \$ (b, a) \$ may not satisfy this, so not symmetric.
+  For \$ R_2 \$, if \$ (a, b) \in R_2 \$, \$ (a + b) \mod 15 = 0 \$. But \$ (b, a) \$ may not satisfy this, so not symmetric.
 - **Transitivity:**
-For \$ R_1 \$, if \$ a \$ divides \$ b \$ and \$ b \$ divides \$ c \$, then \$ a \$ divides \$ c \$. So, \$ R_1 \$ is transitive.
+  For \$ R_1 \$, if \$ a \$ divides \$ b \$ and \$ b \$ divides \$ c \$, then \$ a \$ divides \$ c \$. So, \$ R_1 \$ is transitive.
 
 🎯 **Final Answer:**
 
 - \$ R_2 \$ is not symmetric.
 - \$ R_1 \$ is transitive.[^3]
-
 
 ### 5️⃣ Set Cardinality and True Statements
 
@@ -120,11 +118,11 @@ Which of the following options is/are true?
 **Solution with Steps:**
 
 - **Cardinality:**
-\$ |T \times T| = 4 \times 4 = 16 \$
+  \$ |T \times T| = 4 \times 4 = 16 \$
 - **Quadratic roots:**
-Discriminant is a perfect square and positive, so roots are rational.
+  Discriminant is a perfect square and positive, so roots are rational.
 - **Line with undefined slope:**
-Vertical lines have undefined slope and are parallel to the Y-axis.
+  Vertical lines have undefined slope and are parallel to the Y-axis.
 
 🎯 **Final Answer:**
 All three statements above are true![^4]
@@ -176,66 +174,158 @@ Students who took none = \$ 500 - 440 = 60 \$ 🎉
 
 ### 1️⃣ **Sum of Squared Errors (SSE) for Best-Fit Line**
 
-*(From Image 1)*
+_(From Image 1)_
 
 **Question:**
 Given the table of amount paid and distance (in km), and the best-fit line \$ y = 4x + 1 \$, what is the value of SSE?
 
-
 | Amount paid (y) | Distance (x) |
-| :-- | :-- |
-| 80 | 20 |
-| 60 | 15 |
-| 60 | 16 |
-| 100 | 25 |
-| 58 | 14 |
+| :-------------- | :----------- |
+| 80              | 20           |
+| 60              | 15           |
+| 60              | 16           |
+| 100             | 25           |
+| 58              | 14           |
 
 **Solution:**
 
 1. **Calculate predicted \$ y \$ for each \$ x \$:**
-\$ y_{pred} = 4x + 1 \$
-    - For \$ x = 20 \$: \$ 4 \times 20 + 1 = 81 \$
-    - For \$ x = 15 \$: \$ 4 \times 15 + 1 = 61 \$
-    - For \$ x = 16 \$: \$ 4 \times 16 + 1 = 65 \$
-    - For \$ x = 25 \$: \$ 4 \times 25 + 1 = 101 \$
-    - For \$ x = 14 \$: \$ 4 \times 14 + 1 = 57 \$
+   \$ y\_{pred} = 4x + 1 \$ - For \$ x = 20 \$: \$ 4 \times 20 + 1 = 81 \$ - For \$ x = 15 \$: \$ 4 \times 15 + 1 = 61 \$ - For \$ x = 16 \$: \$ 4 \times 16 + 1 = 65 \$ - For \$ x = 25 \$: \$ 4 \times 25 + 1 = 101 \$ - For \$ x = 14 \$: \$ 4 \times 14 + 1 = 57 \$
 2. **Find the error for each point:**
-\$ Error = y_{actual} - y_{pred} \$
-    - \$ 80 - 81 = -1 \$
-    - \$ 60 - 61 = -1 \$
-    - \$ 60 - 65 = -5 \$
-    - \$ 100 - 101 = -1 \$
-    - \$ 58 - 57 = 1 \$
+   \$ Error = y*{actual} - y*{pred} \$ - \$ 80 - 81 = -1 \$ - \$ 60 - 61 = -1 \$ - \$ 60 - 65 = -5 \$ - \$ 100 - 101 = -1 \$ - \$ 58 - 57 = 1 \$
 3. **Square the errors:**
-    - \$ (-1)^2 = 1 \$
-    - \$ (-1)^2 = 1 \$
-    - \$ (-5)^2 = 25 \$
-    - \$ (-1)^2 = 1 \$
-    - \$ (1)^2 = 1 \$
+   - \$ (-1)^2 = 1 \$
+   - \$ (-1)^2 = 1 \$
+   - \$ (-5)^2 = 25 \$
+   - \$ (-1)^2 = 1 \$
+   - \$ (1)^2 = 1 \$
 4. **Sum the squared errors (SSE):**
-\$ 1 + 1 + 25 + 1 + 1 = \boxed{29} \$ ✅
+   \$ 1 + 1 + 25 + 1 + 1 = \boxed{29} \$ ✅
 
 ### 2️⃣ **Collision Point of Bird and Aeroplane**
 
-*(From Image 2)*
+_(From Image 2)_
 
 **Question:**
 A bird flies along \$ 2y - 6x = 6 \$. An aeroplane flies along a line with slope 2 through (4, 8). Let \$ (\alpha, \beta) \$ be their collision point. Find \$ \alpha + \beta \$.
 
 **Solution:**
 
-1. **Rewrite bird's path:**
-\$ 2y - 6x = 6 \implies y = 3x + 3 \$
-2. **Equation of aeroplane's path:**
-Slope = 2, passes through (4, 8):
-\$ y - 8 = 2(x - 4) \implies y = 2x + 0 \$
-3. **Find intersection:**
-Set \$ y \$ equal:
-\$ 3x + 3 = 2x \implies x = -3 \$
-Substitute \$ x = -3 \$ into \$ y = 2x \$:
-\$ y = 2 \times -3 = -6 \$
-4. **Sum:**
-\$ \alpha + \beta = -3 + (-6) = \boxed{-9} \$ ✅
+## Step-by-Step Solution: Collision Point of Bird and Aeroplane ✈️🐦
+
+Let's find the collision point of the bird and the aeroplane, and compute \$ \alpha + \beta \$ where \$ (\alpha, \beta) \$ is their intersection.
+
+### 1️⃣ **Rewrite the Bird's Path in Slope-Intercept Form**
+
+The bird's path is given by:
+
+$$
+2y - 6x = 6
+$$
+
+- Bring all terms involving \$ y \$ to one side:
+
+$$
+2y = 6x + 6
+$$
+
+- Divide both sides by 2:
+
+$$
+y = 3x + 3
+$$
+
+So, the bird flies along the line \$ y = 3x + 3 \$.
+
+### 2️⃣ **Find the Equation of the Aeroplane's Path**
+
+The aeroplane's path:
+
+- Slope (\$ m \$) = 2
+- Passes through point \$ (4, 8) \$
+
+Use the point-slope form:
+
+$$
+y - y_1 = m(x - x_1)
+$$
+
+$$
+y - 8 = 2(x - 4)
+$$
+
+- Expand:
+
+$$
+y - 8 = 2x - 8
+$$
+
+- Add 8 to both sides:
+
+$$
+y = 2x
+$$
+
+So, the aeroplane flies along the line \$ y = 2x \$.
+
+### 3️⃣ **Find the Intersection Point (Collision Point)**
+
+Set the two equations equal to each other:
+
+- Bird: \$ y = 3x + 3 \$
+- Aeroplane: \$ y = 2x \$
+
+So,
+
+$$
+3x + 3 = 2x
+$$
+
+$$
+3x - 2x = -3
+$$
+
+$$
+x = -3
+$$
+
+Now substitute \$ x = -3 \$ into either equation to find \$ y \$:
+
+Using \$ y = 2x \$:
+
+$$
+y = 2 \times (-3) = -6
+$$
+
+So, the collision point is \$ (\alpha, \beta) = (-3, -6) \$.
+
+### 4️⃣ **Calculate \$ \alpha + \beta \$**
+
+$$
+\alpha + \beta = -3 + (-6) = -9
+$$
+
+## 🏁 **Final Answer**
+
+> The value of \$ \alpha + \beta \$ at the collision point is:
+
+> $$
+> \boxed{-9}
+> $$
+
+$$
+
+### **Summary Table**
+
+| Object | Line Equation | Slope | Collision Point ($x, y$) |
+| :-- | :-- | :-- | :-- |
+| Bird | \$ y = 3x + 3 \$ | 3 | \$ (-3, -6) \$ |
+| Aeroplane | \$ y = 2x \$ | 2 | \$ (-3, -6) \$ |
+
+**That's how you find the collision point and sum the coordinates step by step! 🚀**
+
+
+{{< border >}}
 
 ### 3️⃣ **Cardinality of Relations**
 
@@ -251,6 +341,10 @@ Given \$ S = \{ a \mid a \in \mathbb{N}, a \leq 18 \} \$, \$ R_1 = \{ (x, y) \mi
 - So, \$ R_1 \$ has 9 pairs: (1,2), (2,4), ..., (9,18).
 - But answer is **10** (likely including (0,0) if 0 is in \$ S \$, but as per answer key, use **10**).
 
+{{</ border >}}
+
+{{< border >}}
+
 **Question (12):**
 Find the cardinality of \$ R_1 \setminus R_2 \$, where \$ R_2 = \{ (x, y) \mid y = x^2 \} \$.
 
@@ -259,6 +353,8 @@ Find the cardinality of \$ R_1 \setminus R_2 \$, where \$ R_2 = \{ (x, y) \mid y
 - Subtract pairs where \$ y = 2x \$ and \$ y = x^2 \$ both hold.
 - Only for \$ x = 2 \$, \$ y = 4 \$ and \$ x = -2 \$, but only positive \$ x \$.
 - So, \$ R_1 \setminus R_2 \$ has **8** elements.
+
+{{</ border >}}
 
 
 ### 4️⃣ **Degree of a Polynomial**
@@ -735,3 +831,4 @@ When each score is multiplied by 2, the IQR is also multiplied by 2. Adding 5 do
 So, new IQR = \$ 20 \times 2 = \$ **40**[^1].
 
 If you need solutions for any specific question or section, or if you want explanations for the underlying concepts, please specify the question number or topic.
+$$

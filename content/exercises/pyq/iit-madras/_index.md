@@ -1,7 +1,9 @@
 ---
 draft: false
 description: Indian Institute of Technology, Madras - BS in Data Science and Applications
+math: true
 cascade:
+ math: true
  title: PYQ 
  subtitle: Previous Year Questions
  subject: Statistics
