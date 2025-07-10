@@ -1,21 +1,16 @@
-{{ $title := .Get "title" }}
-{{ $link := .Get "link" }}
-{{ $timer := .Get "timer" | default "false" }}
-{{ $showbutton := .Get "showbutton" | default "true" }}
-
-{{ if eq $timer "true" }}
+{{ $title := .Get "title" }} {{ $link := .Get "link" }} {{ $timer := .Get
+"timer" | default "false" }} {{ $showbutton := .Get "showbutton" | default
+"true" }} {{ if eq $timer "true" }}
 <div class="timer-container">
-  {{/*  {{ if eq $showbutton "true" }}
+  {{/* {{ if eq $showbutton "true" }}
   <button class="timer-btn" data-link="{{ $link }}">{{ $title }}</button>
-  {{ end }}  */}}
+  {{ end }} */}}
   <span class="timer-label"></span>
   <progress class="timer-progress" value="0" max="20"></progress>
 </div>
 
 {{ else if eq $showbutton "true" }}
-  <a href="{{ $link }}" class="timer-btn">
-    {{ $title }}
-  </a>
+<a href="{{ $link }}" class="timer-btn"> {{ $title }} </a>
 {{ end }}
 
 <script>
@@ -48,11 +43,11 @@
     var progress = document.querySelector(".timer-progress");
     var link = "{{ $link }}";
     var countdown = 20;
-    label.textContent = " Redirecting in " + countdown + "s...";
+    label.textContent = " Downloading in " + countdown + "s...";
     progress.value = 0;
     var timer = setInterval(function () {
       countdown--;
-      label.textContent = " Redirecting in " + countdown + "s...";
+      label.textContent = " Downloading in " + countdown + "s...";
       progress.value = 20 - countdown;
       if (countdown <= 0) {
         clearInterval(timer);
@@ -61,7 +56,6 @@
     }, 1000);
   });
 </script>
-
 
 <style>
   .timer-btn {
@@ -77,6 +71,7 @@
     text-decoration: none;
     text-align: center;
     width: -webkit-fill-available;
+    font-size: 1.2rem;
   }
   .timer-btn:disabled {
     background: #aaa;
@@ -84,11 +79,13 @@
   }
   .timer-label {
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     margin-left: 10px;
     color: #333;
     font-weight: bold;
     display: block;
     text-align: center;
+    font-size: 1.5rem;
   }
 
   .timer-progress {
@@ -98,6 +95,7 @@
     appearance: none;
     background-color: #e0e0e0;
     overflow: hidden;
+    margin-bottom: 1.5rem;
   }
   .timer-progress::-webkit-progress-bar {
     background-color: #e0e0e0;

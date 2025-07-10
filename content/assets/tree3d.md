@@ -14,7 +14,7 @@ tags:
 ---
 
 
-{{< timer/timer title="Free Download" link="https://drive.google.com/file/d/1Yhpeiz0uGWgJhYcjNDVsBFqAinhzDHVZ/view?usp=drive_link" timer="true" >}}
+{{< timer/timer title="Free Download" link="https://drive.google.com/file/d/1Yhpeiz0uGWgJhYcjNDVsBFqAinhzDHVZ/view?usp=drive_link" timer="true" showbutton="false" >}}
 
 
 
