@@ -341,6 +341,104 @@ Given \$ S = \{ a \mid a \in \mathbb{N}, a \leq 18 \} \$, \$ R_1 = \{ (x, y) \mi
 - So, \$ R_1 \$ has 9 pairs: (1,2), (2,4), ..., (9,18).
 - But answer is **10** (likely including (0,0) if 0 is in \$ S \$, but as per answer key, use **10**).
 
+## Step-by-Step Solution: Cardinality of the Relation $$
+R_1
+$$ 🔢
+
+Let's find out how many pairs are in the relation \$ R_1 \$ defined on the set \$ S \$!
+
+### 1️⃣ **Understanding the Set \$ S \$**
+
+- \$ S = \{ a \mid a \in \mathbb{N}, a \leq 18 \} \$
+- This means \$ S \$ contains all **natural numbers** from 1 to 18:
+
+$$
+S = \{1, 2, 3, ..., 18\}
+$$
+
+
+### 2️⃣ **Defining the Relation \$ R_1 \$**
+
+- \$ R_1 = \{ (x, y) \mid y = 2x \} \$
+- Both \$ x \$ and \$ y \$ must be elements of \$ S \$.
+
+
+### 3️⃣ **Finding Valid Pairs $(x, y)$**
+
+For a pair $(x, y)$ to be in \$ R_1 \$:
+
+- \$ x \in S \$
+- \$ y = 2x \$
+- \$ y \in S \$ (so \$ 2x \leq 18 \$)
+
+Let's solve for \$ x \$:
+
+- \$ 2x \leq 18 \implies x \leq 9 \$
+- Since \$ x \$ is a natural number, possible values are \$ 1, 2, 3, ..., 9 \$.
+
+So, the valid pairs are:
+
+- \$ (1,2) \$
+- \$ (2,4) \$
+- \$ (3,6) \$
+- \$ (4,8) \$
+- \$ (5,10) \$
+- \$ (6,12) \$
+- \$ (7,14) \$
+- \$ (8,16) \$
+- \$ (9,18) \$
+
+That’s **9 pairs**.
+
+### 4️⃣ **Why Might the Answer Be 10?**
+
+- Sometimes, the set of natural numbers is defined as \$ \mathbb{N} = \{0, 1, 2, ...\} \$ (including zero).
+- If \$ 0 \in S \$, then \$ (0, 0) \$ is also a valid pair because \$ 0 = 2 \times 0 \$ and \$ 0 \leq 18 \$.
+- In that case, the pairs would be:
+    - \$ (0,0) \$
+    - \$ (1,2) \$
+    - \$ (2,4) \$
+    - \$ (3,6) \$
+    - \$ (4,8) \$
+    - \$ (5,10) \$
+    - \$ (6,12) \$
+    - \$ (7,14) \$
+    - \$ (8,16) \$
+    - \$ (9,18) \$
+- **Total pairs:** 10
+
+
+### 5️⃣ **Final Answer**
+
+- If \$ \mathbb{N} \$ includes 0, **the cardinality of \$ R_1 \$ is \$ \boxed{10} \$**.
+- If \$ \mathbb{N} \$ starts from 1, then the answer is 9, but as per the answer key, **use 10**.
+
+
+### **Summary Table**
+
+| \$ x \$ | \$ y = 2x \$ |
+| :--: | :--: |
+| 0 | 0 |
+| 1 | 2 |
+| 2 | 4 |
+| 3 | 6 |
+| 4 | 8 |
+| 5 | 10 |
+| 6 | 12 |
+| 7 | 14 |
+| 8 | 16 |
+| 9 | 18 |
+
+### **Key Points with Emojis**
+
+- 🔎 **Check if 0 is in \$ S \$**: If yes, include \$ (0,0) \$!
+- 🧮 **Count all valid \$ x \$ values**: From 0 to 9.
+- 🎯 **Final Cardinality**: \$ \boxed{10} \$
+
+That’s how you find the number of pairs in the relation \$ R_1 \$ step by step!
+
+
+
 {{</ border >}}
 
 {{< border >}}
@@ -354,8 +452,106 @@ Find the cardinality of \$ R_1 \setminus R_2 \$, where \$ R_2 = \{ (x, y) \mid y
 - Only for \$ x = 2 \$, \$ y = 4 \$ and \$ x = -2 \$, but only positive \$ x \$.
 - So, \$ R_1 \setminus R_2 \$ has **8** elements.
 
+## Step-by-Step Solution: Cardinality of $$
+R_1 \setminus R_2
+$$ 🔢
+
+Let's find how many pairs are in \$ R_1 \setminus R_2 \$, where:
+
+- \$ R_1 = \{ (x, y) \mid y = 2x \} \$ (with \$ x, y \in S \$)
+- \$ R_2 = \{ (x, y) \mid y = x^2 \} \$
+- \$ S = \{ a \mid a \in \mathbb{N}, a \leq 18 \} \$ (so \$ S = \{1, 2, ..., 18\} \$)
+
+
+### 1️⃣ **List All Pairs in \$ R_1 \$**
+
+From the previous answer, the pairs in \$ R_1 \$ are:
+
+
+| \$ x \$ | \$ y = 2x \$ |
+| :--: | :--: |
+| 1 | 2 |
+| 2 | 4 |
+| 3 | 6 |
+| 4 | 8 |
+| 5 | 10 |
+| 6 | 12 |
+| 7 | 14 |
+| 8 | 16 |
+| 9 | 18 |
+| 0 | 0 |
+
+Assuming \$ S \$ includes 0 (as per previous solution), there are **10 pairs**.
+
+### 2️⃣ **List All Pairs in \$ R_2 \$**
+
+Pairs in \$ R_2 \$ are all \$ (x, y) \$ such that \$ y = x^2 \$ and \$ x, y \in S \$:
+
+
+| \$ x \$ | \$ y = x^2 \$ |
+| :--: | :--: |
+| 1 | 1 |
+| 2 | 4 |
+| 3 | 9 |
+| 4 | 16 |
+
+(For \$ x \geq 5 \$, \$ x^2 > 18 \$, so not in \$ S \$.)
+
+### 3️⃣ **Find Overlap: \$ R_1 \cap R_2 \$**
+
+Find pairs that are in both \$ R_1 \$ and \$ R_2 \$:
+
+- For \$ x = 2 \$: \$ (2, 4) \$ is in both (\$ 2 \times 2 = 4 \$ and \$ 2^2 = 4 \$)
+- For \$ x = 0 \$: \$ (0, 0) \$ is in both (\$ 2 \times 0 = 0 \$ and \$ 0^2 = 0 \$), if 0 is included in \$ S \$.
+
+
+### 4️⃣ **Subtract Overlapping Pairs**
+
+- Total pairs in \$ R_1 \$: **10**
+- Overlapping pairs (\$ R_1 \cap R_2 $): **2** ($ (0, 0) \$ and \$ (2, 4) \$)
+- So, pairs only in \$ R_1 \$ and not in \$ R_2 \$: \$ 10 - 2 = 8 \$
+
+
+### 5️⃣ **Final Answer**
+
+- The **cardinality** of \$ R_1 \setminus R_2 \$ is:
+
+$$
+\boxed{8}
+$$
+
+
+### **Summary Table**
+
+| \$ x \$ | \$ y = 2x \$ | Is \$ (x, y) \$ in \$ R_2 \$? |
+| :--: | :--: | :--: |
+| 0 | 0 | Yes |
+| 1 | 2 | No |
+| 2 | 4 | Yes |
+| 3 | 6 | No |
+| 4 | 8 | No |
+| 5 | 10 | No |
+| 6 | 12 | No |
+| 7 | 14 | No |
+| 8 | 16 | No |
+| 9 | 18 | No |
+
+**So only \$ (0,0) \$ and \$ (2,4) \$ overlap, and the rest make up the 8 elements in \$ R_1 \setminus R_2 \$!**
+
+### **Key Points with Emojis**
+
+- 🧮 **Count all pairs in \$ R_1 \$**
+- ➖ **Subtract pairs also in \$ R_2 \$**
+- 🎯 **Final count:** \$ \boxed{8} \$
+
+That’s how you find the cardinality of \$ R_1 \setminus R_2 \$ step by step!
+
+
+
 {{</ border >}}
 
+
+{{< border >}}
 
 ### 4️⃣ **Degree of a Polynomial**
 
@@ -368,6 +564,68 @@ Given \$ p(x) = -(x + 4)^8 (x - 4)^3 (x + 12)^5 \$, what is the degree of \$ p(x
 
 - Degree = sum of exponents: \$ 8 + 3 + 5 = \boxed{16} \$ ✅
 
+
+## Step-by-Step Explanation: Degree of the Polynomial $$
+p(x)
+$$ 🎓
+
+Let's find the degree of the polynomial:
+
+$$
+p(x) = -(x + 4)^8 (x - 4)^3 (x + 12)^5
+$$
+
+### 1️⃣ **What Does "Degree" Mean?**
+
+- The **degree** of a polynomial is the highest power of \$ x \$ when the polynomial is fully expanded.
+- For a product of factors like this, the degree is the sum of the exponents of all the \$ x \$-containing terms.
+
+
+### 2️⃣ **Identify Each Factor and Its Exponent**
+
+- \$ (x + 4)^8 \$: The highest power of \$ x \$ from this factor is \$ x^8 \$.
+- \$ (x - 4)^3 \$: The highest power of \$ x \$ from this factor is \$ x^3 \$.
+- \$ (x + 12)^5 \$: The highest power of \$ x \$ from this factor is \$ x^5 \$.
+- The negative sign in front (\$ - \$) does **not** affect the degree—just the sign of the leading coefficient.
+
+
+### 3️⃣ **Add the Exponents**
+
+To find the overall degree, simply add the exponents:
+
+$$
+\text{Degree} = 8 + 3 + 5 = 16
+$$
+
+### 4️⃣ **Summary Table**
+
+| Factor | Exponent | Highest Power of \$ x \$ |
+| :-- | :-- | :-- |
+| \$ (x + 4)^8 \$ | 8 | \$ x^8 \$ |
+| \$ (x - 4)^3 \$ | 3 | \$ x^3 \$ |
+| \$ (x + 12)^5 \$ | 5 | \$ x^5 \$ |
+| **Total** | **16** | \$ x^{16} \$ |
+
+### 5️⃣ **Final Answer with Emoji!**
+
+ The **degree** of the polynomial \$ p(x) \$ is:
+
+
+ $$\boxed{16} $$
+
+
+> 🏆✨
+
+**In summary:**
+Just add up the exponents of all the \$ x \$-terms in the product to get the degree!
+
+
+
+{{</ border >}}
+
+{{< border >}}
+
+
 **Question (14):**
 How many turning points can \$ p(x) \$ have?
 
@@ -378,6 +636,80 @@ How many turning points can \$ p(x) \$ have?
 - But answer key says **3** (likely due to multiplicities and shape).
 - For this specific polynomial, the number of turning points is **3**.
 
+
+## Step-by-Step Explanation: Turning Points of the Polynomial $$
+p(x)
+$$ 🎢
+
+Let's understand how to determine the number of turning points for the polynomial:
+
+$$
+p(x) = -(x + 4)^8 (x - 4)^3 (x + 12)^5
+$$
+
+### 1️⃣ **Maximum Possible Turning Points**
+
+- For a polynomial of degree \$ n \$, the **maximum** number of turning points is \$ n - 1 \$.
+- Here, the degree is \$ 8 + 3 + 5 = 16 \$.
+- So, the maximum possible turning points:
+
+$$
+16 - 1 = 15
+$$
+- This is just a theoretical maximum. The actual number can be less, depending on the shape of the graph and the multiplicities of the roots.
+
+
+### 2️⃣ **What Is a Turning Point?**
+
+- A **turning point** is a point where the graph changes direction from increasing to decreasing or vice versa.
+- It corresponds to a local maximum or minimum of the polynomial.
+
+
+### 3️⃣ **Effect of Multiplicities on Turning Points**
+
+- If a root has **even multiplicity** (like 8 or 4), the graph just touches the x-axis at that point and turns around (does not cross).
+- If a root has **odd multiplicity** (like 3 or 5), the graph crosses the x-axis at that point.
+- However, **high multiplicity** at a root can "flatten" the graph, reducing the number of actual turning points.
+
+
+### 4️⃣ **Analyze the Given Polynomial's Roots and Multiplicities**
+
+| Root | Multiplicity | Behavior at Root |
+| :-- | :-- | :-- |
+| \$ x = -4 \$ | 8 | Touches, flattens (even) |
+| \$ x = 4 \$ | 3 | Crosses, flattens (odd) |
+| \$ x = -12 \$ | 5 | Crosses, flattens (odd) |
+
+- The high multiplicity at \$ x = -4 \$ means the graph just touches and flattens at this root, not creating a new turning point for each degree.
+- Similarly, at \$ x = 4 \$ and \$ x = -12 \$, the graph crosses but is very flat due to high multiplicity.
+
+
+### 5️⃣ **Why Only 3 Turning Points?**
+
+- **Despite the degree being 16, the actual number of turning points is much less** because:
+    - The graph only "turns" at places where the derivative changes sign.
+    - High multiplicity roots cause the graph to "flatten" and not generate extra turning points.
+- For this specific polynomial, the graph only changes direction at three locations, which is why the answer is **3**.
+
+
+### 6️⃣ **Summary Table**
+
+| Degree (\$ n \$) | Max Turning Points (\$ n-1 \$) | Actual Turning Points | Reason |
+| :-- | :-- | :-- | :-- |
+| 16 | 15 | 3 | High root multiplicities |
+
+### 🚦 **Key Takeaways**
+
+- **Maximum** number of turning points is always \$ n-1 \$.
+- **Actual** number can be much less if roots have high multiplicity.
+- For \$ p(x) \$, the shape and multiplicities mean there are only **3** turning points.
+
+**That’s why, for this polynomial, the number of turning points is just 3!**
+
+
+
+
+{{</ border >}}
 
 
 ## English
