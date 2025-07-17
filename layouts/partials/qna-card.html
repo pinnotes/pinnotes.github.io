@@ -24,9 +24,11 @@
           <span class="subject">{{ .Title | default "PinNotes" }}</span>
           <span class="time-ago">{{.Params.subtitle}}</span>
         </div>
+        {{ if .Params.is_label }}
         {{- if .Params.label }}
         <div class="points">{{.Params.label | default "Solution"}}</div>
         {{ end}}
+        {{ end }}
       </div>
       <div class="card-body katex-desc">
         <p class="katex-desc">{{- partial "utils/page-description" . -}}</p>

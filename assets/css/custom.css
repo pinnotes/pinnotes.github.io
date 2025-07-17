@@ -211,6 +211,23 @@ mjx-container {
   overflow-y: hidden;
 }
 
+.hextra-code-block pre {
+  font-size: 1em;
+  overflow-x: auto;
+  font-family: "Mona Sans", sans-serif;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: "Mona Sans", sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  letter-spacing: 0.01em;
+  line-height: normal;
+}
+
 a {
   code {
     color: var(--link-color);
