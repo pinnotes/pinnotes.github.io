@@ -27,7 +27,7 @@ jobs:
       # or if you're hitting rate limits for unauthenticated clones.
       run: |
         echo "Cloning content into content/blog..."
-        git clone https://github.com/pinnotes/notes.git content/blog
+        git clone https://github.com/pinnotes/notes.git content/posts
       # env:
         # If 'my-hugo-content' is private, create a PAT with 'repo' scope
         # and add it as a repository secret named 'CONTENT_REPO_PAT'
