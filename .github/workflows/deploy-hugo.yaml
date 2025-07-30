@@ -31,7 +31,7 @@ jobs:
       # You might need a Personal Access Token (PAT) if the content repo is private
       # or if you're hitting rate limits for unauthenticated clones.
       run: |
-        echo "Cloning content into content/blog..."
+        echo "Cloning content into content/posts..."
         git clone https://github.com/pinnotes/notes.git content/posts
       # env:
         # If 'my-hugo-content' is private, create a PAT with 'repo' scope
