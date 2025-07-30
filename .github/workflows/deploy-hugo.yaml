@@ -12,6 +12,11 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest # Or macos-latest, windows-latest
+    permissions: # <--- ADD THIS BLOCK
+      contents: write # This grants write access to the repository contents
+      pages: write    # Grants permission to deploy to GitHub Pages (if configured)
+      id-token: write # Required for OIDC, good practice
+
 
     steps:
     - name: Checkout Hugo Site Repository
@@ -33,24 +38,24 @@ jobs:
         # and add it as a repository secret named 'CONTENT_REPO_PAT'
         # GH_TOKEN: ${{ secrets.CONTENT_REPO_PAT }} # Uncomment if content repo is private
 
-    # - name: Setup Hugo
-    #   uses: peaceiris/actions-hugo@v3
-    #   with:
-    #     hugo-version: 'latest' # Or a specific version like '0.127.0'
-    #     extended: true # Essential for SASS/SCSS and some advanced features
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: 'latest' # Or a specific version like '0.127.0'
+        extended: true # Essential for SASS/SCSS and some advanced features
 
-    # - name: Build Hugo Site
-    #   # Add any custom build flags, e.g., baseURL if deploying to a subdirectory
-    #   run: hugo --minify --baseURL "/" # Adjust baseURL if needed for your hosting
+    - name: Build Hugo Site
+      # Add any custom build flags, e.g., baseURL if deploying to a subdirectory
+      run: hugo --minify --baseURL "/" # Adjust baseURL if needed for your hosting
 
-    # - name: Deploy to GitHub Pages (Example)
-    #   # This step assumes you want to deploy to GitHub Pages
-    #   # The 'public' directory will be pushed to the 'gh-pages' branch of THIS repo.
-    #   uses: peaceiris/actions-gh-pages@v4
-    #   if: github.ref == 'refs/heads/main' # Only deploy from main branch pushes
-    #   with:
-    #     github_token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
-    #     publish_dir: ./public # Directory containing your built Hugo site
+    - name: Deploy to GitHub Pages (Example)
+      # This step assumes you want to deploy to GitHub Pages
+      # The 'public' directory will be pushed to the 'gh-pages' branch of THIS repo.
+      uses: peaceiris/actions-gh-pages@v4
+      if: github.ref == 'refs/heads/main' # Only deploy from main branch pushes
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
+        publish_dir: ./public # Directory containing your built Hugo site
         # This will create/update the 'gh-pages' branch for your site.
         # If your repo is `user/user.github.io`, it deploys to main branch.
         # cname: example.com # Uncomment and set if using a custom domain
