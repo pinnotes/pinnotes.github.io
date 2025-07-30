@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Relations and Sets</title><link>/categories/relations-and-sets/</link><description>Recent content in Relations and Sets on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/relations-and-sets/index.xml" rel="self" type="application/rss+xml"/><item><title>Relations and Sets</title><link>/exercises/pyq/iit-madras/mathemaics/relations-and-sets-question-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/pyq/iit-madras/mathemaics/relations-and-sets-question-1/</guid><description>
+&lt;hr>
+&lt;h3>4️⃣ Relations and Sets&lt;span class="hx-absolute -hx-mt-20" id="4-relations-and-sets">&lt;/span>
+&lt;a href="#4-relations-and-sets" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Given sets $ A $ (odd positive integers ≤ 20) and $ B $ (positive integers ≤ 30 divisible by 5), and relations:&lt;/p>
+&lt;h2>Detailed Explanation of the Solution 📝&lt;span class="hx-absolute -hx-mt-20" id="detailed-explanation-of-the-solution-">&lt;/span>
+&lt;a href="#detailed-explanation-of-the-solution-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Let&amp;rsquo;s break down the reasoning for both statements about the relations $ R_1 $ and $ R_2 $ step by step!&lt;/p>
+&lt;h3>1. &lt;strong>Understanding the Sets&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-understanding-the-sets">&lt;/span>
+&lt;a href="#1-understanding-the-sets" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Set $ A $:&lt;/strong> Odd positive integers ≤ 20
+$ A = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19} $&lt;/li>
+&lt;li>&lt;strong>Set $ B $:&lt;/strong> Positive integers ≤ 30 divisible by 5
+$ B = {5, 10, 15, 20, 25, 30} $&lt;/li>
+&lt;/ul>
+&lt;h3>2. &lt;strong>Relation $ R_1 $: $ a $ is a factor of $ b $ ($ a \mid b $)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-relation--r_">&lt;/span>
+&lt;a href="#2-relation--r_" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>&lt;strong>Transitivity Check&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="transitivity-check">&lt;/span>
+&lt;a href="#transitivity-check" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Definition:&lt;/strong> A relation $ R $ is &lt;em>transitive&lt;/em> if whenever $ (a, b) \in R $ and $ (b, c) \in R $, then $ (a, c) \in R $.&lt;/li>
+&lt;li>&lt;strong>Here:&lt;/strong> $ (a, b) \in R_1 $ means $ a \mid b $ (i.e., $ b $ is divisible by $ a $).&lt;/li>
+&lt;li>&lt;strong>Transitive Property for Divisibility:&lt;/strong>
+&lt;ul>
+&lt;li>If $ a \mid b $ and $ b \mid c $, then $ a \mid c $.&lt;/li>
+&lt;li>&lt;em>Example:&lt;/em> If $ 5 \mid 15 $ and $ 15 \mid 30 $, then $ 5 \mid 30 $.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Conclusion:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Since divisibility is always transitive, &lt;strong>$ R_1 $ is transitive&lt;/strong>! ✅&lt;/li>
+&lt;/ul>
+&lt;h3>3. &lt;strong>Relation $ R_2 $: $ (a + b) \mod 15 = 0 $&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-relation--r_">&lt;/span>
+&lt;a href="#3-relation--r_" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>&lt;strong>Symmetry Check&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="symmetry-check">&lt;/span>
+&lt;a href="#symmetry-check" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Definition:&lt;/strong> A relation $ R $ is &lt;em>symmetric&lt;/em> if whenever $ (a, b) \in R $, then $ (b, a) \in R $.&lt;/li>
+&lt;li>&lt;strong>Here:&lt;/strong> $ (a, b) \in R_2 $ means $ (a + b) $ is a multiple of 15.&lt;/li>
+&lt;li>&lt;strong>Test for Symmetry:&lt;/strong>
+&lt;ul>
+&lt;li>$ (a, b) \in R_2 \implies (a + b) \mod 15 = 0 $.&lt;/li>
+&lt;li>$ (b, a) \in R_2 $ if $ (b + a) \mod 15 = 0 $.&lt;/li>
+&lt;li>Since addition is commutative, $ a + b = b + a $, so at first glance, it seems symmetric.&lt;/li>
+&lt;li>&lt;strong>BUT:&lt;/strong> The important detail is that $ a \in A $, $ b \in B $, and the relation is only defined for pairs where the first element is from $ A $ and the second from $ B $.&lt;/li>
+&lt;li>If $ (a, b) \in R_2 $, $ a \in A, b \in B $, but $ (b, a) $ may not be in $ R_2 $ because $ b $ may not be in $ A $ and $ a $ may not be in $ B $.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Let $ a = 5 \in A $, $ b = 10 \in B $.&lt;/li>
+&lt;li>$ (5, 10) \in R_2 $ if $ 5 + 10 = 15 $, which is divisible by 15.&lt;/li>
+&lt;li>But $ (10, 5) $ requires $ 10 \in A $ and $ 5 \in B $. But $ 10 \notin A $ (since $ A $ only has odd numbers), so $ (10, 5) $ is not even a valid pair in $ R_2 $.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Conclusion:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>$ R_2 $ is not symmetric&lt;/strong> because the relation is not defined for all possible swaps of $ a $ and $ b $ between the sets. ✅&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Statement&lt;/th>
+&lt;th style="text-align: left">True/False&lt;/th>
+&lt;th style="text-align: left">Reason&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">$ R_1 $ is transitive&lt;/td>
+&lt;td style="text-align: left">✅ True&lt;/td>
+&lt;td style="text-align: left">Divisibility is always transitive.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$ R_2 $ is not symmetric&lt;/td>
+&lt;td style="text-align: left">✅ True&lt;/td>
+&lt;td style="text-align: left">Swapping $ a $ and $ b $ may produce an invalid pair due to set membership.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3>&lt;strong>Key Takeaways&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="key-takeaways">&lt;/span>
+&lt;a href="#key-takeaways" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Transitivity:&lt;/strong> For divisibility relations, if $ a \mid b $ and $ b \mid c $, then $ a \mid c $.&lt;/li>
+&lt;li>&lt;strong>Symmetry:&lt;/strong> For relations with different sets, swapping elements may not always result in a valid pair, so symmetry can fail even if the operation itself (like addition) is symmetric.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>That&amp;rsquo;s why the given statements are correct! 🚀&lt;/strong>&lt;/p></description></item></channel></rss>

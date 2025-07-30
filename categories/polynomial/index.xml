@@ -1,0 +1,190 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Polynomial</title><link>/categories/polynomial/</link><description>Recent content in Polynomial on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/polynomial/index.xml" rel="self" type="application/rss+xml"/><item><title>Polynomial Graph Matching</title><link>/exercises/pyq/iit-madras/mathemaics/polynomial-question-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/pyq/iit-madras/mathemaics/polynomial-question-1/</guid><description>
+&lt;hr>
+&lt;h3>2️⃣ Polynomial Graph Matching&lt;span class="hx-absolute -hx-mt-20" id="2-polynomial-graph-matching">&lt;/span>
+&lt;a href="#2-polynomial-graph-matching" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Given $ p(x) = 0.3x^3(x^2 - 1)(x - 2)^2(x - 3) $, which figure represents the polynomial $ p(x) $?&lt;/p>
+&lt;h2>Step-by-Step Explanation of the Solution 🚀&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-explanation-of-the-solution-">&lt;/span>
+&lt;a href="#step-by-step-explanation-of-the-solution-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Let&amp;rsquo;s break down how to analyze the polynomial and match it to the correct figure!&lt;/p>
+&lt;h3>1. &lt;strong>Finding the Roots (Where the Graph Touches or Crosses the x-axis) 🌱&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-finding-the-roots-where-the-graph-touches-or-crosses-the-x-axis-">&lt;/span>
+&lt;a href="#1-finding-the-roots-where-the-graph-touches-or-crosses-the-x-axis-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Given:&lt;/p>
+$$
+p(x) = 0.3x^3(x^2 - 1)(x - 2)^2(x - 3)
+$$&lt;ul>
+&lt;li>&lt;strong>$x^3$:&lt;/strong> Root at $x = 0$ with multiplicity 3 (triple root)&lt;/li>
+&lt;li>&lt;strong>$(x^2 - 1)$:&lt;/strong> Roots at $x = 1$ and $x = -1$ (each single root)&lt;/li>
+&lt;li>&lt;strong>$(x - 2)^2$:&lt;/strong> Root at $x = 2$ with multiplicity 2 (double root)&lt;/li>
+&lt;li>&lt;strong>$(x - 3)$:&lt;/strong> Root at $x = 3$ (single root)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Summary Table:&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Root&lt;/th>
+&lt;th style="text-align: left">Multiplicity&lt;/th>
+&lt;th style="text-align: left">Behavior at Root&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">$0$&lt;/td>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">Flattens, crosses axis&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$1$&lt;/td>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">Crosses axis&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$-1$&lt;/td>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">Crosses axis&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$2$&lt;/td>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">Touches, bounces off&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$3$&lt;/td>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">Crosses axis&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3>2. &lt;strong>Degree and End Behavior 🎢&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-degree-and-end-behavior-">&lt;/span>
+&lt;a href="#2-degree-and-end-behavior-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Expand the degree:&lt;/strong>
+&lt;ul>
+&lt;li>$x^3$ → degree 3&lt;/li>
+&lt;li>$(x^2 - 1)$ → degree 2&lt;/li>
+&lt;li>$(x - 2)^2$ → degree 2&lt;/li>
+&lt;li>$(x - 3)$ → degree 1&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Total degree:&lt;/strong> $3 + 2 + 2 + 1 = 8$ (but let&amp;rsquo;s check carefully: $x^3$ × $x^2$ × $x^2$ × $x$ = $x^{3+2+2+1} = x^8$). However, the original solution says degree 9—let&amp;rsquo;s clarify:&lt;/li>
+&lt;/ul>
+$$
+(x^2 - 1) = x^2 - 1 \implies \text{degree 2}
+$$$$
+(x - 2)^2 = x^2 - 4x + 4 \implies \text{degree 2}
+$$&lt;p>So, multiplying:&lt;/p>
+&lt;ul>
+&lt;li>$x^3$ (degree 3)&lt;/li>
+&lt;li>$(x^2 - 1)$ (degree 2)&lt;/li>
+&lt;li>$(x - 2)^2$ (degree 2)&lt;/li>
+&lt;li>$(x - 3)$ (degree 1)&lt;/li>
+&lt;/ul>
+&lt;p>Total degree: $3 + 2 + 2 + 1 = 8$.&lt;/p>
+&lt;p>&lt;strong>End Behavior (since leading coefficient is positive, 0.3):&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Even degree ($8$): Both ends go up ($x \to \pm\infty, p(x) \to +\infty$)&lt;/li>
+&lt;li>Odd degree ($9$): Left end down, right end up.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>But since the polynomial is degree 8, both ends go up!&lt;/em>&lt;/p>
+&lt;h3>3. &lt;strong>Behavior at Each Root 🌈&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-behavior-at-each-root-">&lt;/span>
+&lt;a href="#3-behavior-at-each-root-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Triple root ($x = 0$)&lt;/strong>: The graph flattens and crosses the x-axis.&lt;/li>
+&lt;li>&lt;strong>Double root ($x = 2$)&lt;/strong>: The graph just touches the x-axis and turns around (bounces).&lt;/li>
+&lt;li>&lt;strong>Single roots ($x = 1, -1, 3$)&lt;/strong>: The graph crosses the x-axis sharply.&lt;/li>
+&lt;/ul>
+&lt;h3>4. &lt;strong>Putting It All Together: Matching the Figure 🖼️&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="4-putting-it-all-together-matching-the-figure-">&lt;/span>
+&lt;a href="#4-putting-it-all-together-matching-the-figure-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Check for all roots at correct places.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Check that at $x = 0$, the graph flattens as it passes through.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>At $x = 2$, the graph touches and bounces (does not cross).&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>At $x = 1, -1, 3$, the graph crosses the axis.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Both ends of the graph rise up (since degree is even and leading coefficient is positive).&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>If a figure shows all these features, &lt;strong>that is the correct graph for $p(x)$!&lt;/strong>&lt;/p>
+&lt;h2>🎯 &lt;strong>Final Answer&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="-final-answer">&lt;/span>
+&lt;a href="#-final-answer" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Figure 1&lt;/strong> represents the polynomial $ p(x) $!
+It has all the correct roots, the right behavior at each root, and the correct end behavior.&lt;/p>
+&lt;hr>
+&lt;h2>How Roots Are Found in the Solution 🌱&lt;span class="hx-absolute -hx-mt-20" id="how-roots-are-found-in-the-solution-">&lt;/span>
+&lt;a href="#how-roots-are-found-in-the-solution-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Let&amp;rsquo;s see how the roots (also called zeros or x-intercepts) of the polynomial are determined step by step!&lt;/p>
+&lt;h3>1. &lt;strong>Start with the Polynomial&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-start-with-the-polynomial">&lt;/span>
+&lt;a href="#1-start-with-the-polynomial" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Given:&lt;/p>
+$$
+p(x) = 0.3x^3(x^2 - 1)(x - 2)^2(x - 3)
+$$&lt;h3>2. &lt;strong>Set the Polynomial Equal to Zero&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-set-the-polynomial-equal-to-zero">&lt;/span>
+&lt;a href="#2-set-the-polynomial-equal-to-zero" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>To find the roots, set $ p(x) = 0 $:&lt;/p>
+$$
+0.3x^3(x^2 - 1)(x - 2)^2(x - 3) = 0
+$$&lt;p>A product is zero if &lt;strong>any factor is zero&lt;/strong>!&lt;/p>
+&lt;h3>3. &lt;strong>Solve Each Factor Separately&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-solve-each-factor-separately">&lt;/span>
+&lt;a href="#3-solve-each-factor-separately" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>$ x^3 = 0 $&lt;/strong>
+&lt;ul>
+&lt;li>Solution: $ x = 0 $&lt;/li>
+&lt;li>Multiplicity: 3 (because of the exponent 3)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>$ x^2 - 1 = 0 $&lt;/strong>
+&lt;ul>
+&lt;li>Factor further: $ (x - 1)(x + 1) = 0 $&lt;/li>
+&lt;li>Solutions: $ x = 1 $, $ x = -1 $&lt;/li>
+&lt;li>Each has multiplicity 1&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>$ (x - 2)^2 = 0 $&lt;/strong>
+&lt;ul>
+&lt;li>Solution: $ x = 2 $&lt;/li>
+&lt;li>Multiplicity: 2 (because of the exponent 2)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>$ x - 3 = 0 $&lt;/strong>
+&lt;ul>
+&lt;li>Solution: $ x = 3 $&lt;/li>
+&lt;li>Multiplicity: 1&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3>4. &lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="4-summary-table">&lt;/span>
+&lt;a href="#4-summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Factor&lt;/th>
+&lt;th style="text-align: left">Root&lt;/th>
+&lt;th style="text-align: left">Multiplicity&lt;/th>
+&lt;th style="text-align: left">Explanation&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">$ x^3 $&lt;/td>
+&lt;td style="text-align: left">0&lt;/td>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">$ x^3 = 0 $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$ x^2 - 1 $&lt;/td>
+&lt;td style="text-align: left">1, -1&lt;/td>
+&lt;td style="text-align: left">1 each&lt;/td>
+&lt;td style="text-align: left">$ x^2 - 1 = 0 $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$ (x - 2)^2 $&lt;/td>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">$ (x - 2)^2 = 0 $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">$ x - 3 $&lt;/td>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">$ x - 3 = 0 $&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3>5. &lt;strong>What Does Multiplicity Mean?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="5-what-does-multiplicity-mean">&lt;/span>
+&lt;a href="#5-what-does-multiplicity-mean" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Multiplicity&lt;/strong> tells how many times a root repeats.
+&lt;ul>
+&lt;li>Odd multiplicity: The graph crosses the x-axis.&lt;/li>
+&lt;li>Even multiplicity: The graph touches and bounces off the x-axis.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>In summary:&lt;/strong>
+To find the roots, set the polynomial equal to zero and solve each factor for $ x $. The exponents tell you the multiplicity (how many times each root occurs)!&lt;/p></description></item></channel></rss>

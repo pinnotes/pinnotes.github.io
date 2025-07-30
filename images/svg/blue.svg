@@ -1,0 +1,36 @@
+<svg width="1030" height="541" viewBox="0 0 1030 541" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Radial gradient for the main sphere -->
+    <radialGradient id="mainSphere" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#b7ffe6"/>
+      <stop offset="60%" stop-color="#1e5fff"/>
+      <stop offset="100%" stop-color="#0a1e3b"/>
+    </radialGradient>
+    <!-- Gradient for the inner sphere -->
+    <radialGradient id="innerSphere" cx="60%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#b7ffe6"/>
+      <stop offset="100%" stop-color="#1e5fff"/>
+    </radialGradient>
+    <!-- Gradient for the translucent slice -->
+    <linearGradient id="sliceGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1e5fff" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1030" height="541" fill="#0a0f16"/>
+  <!-- Main glowing sphere -->
+  <circle cx="515" cy="270" r="180" fill="url(#mainSphere)" opacity="0.95"/>
+  <!-- Inner sphere -->
+  <circle cx="515" cy="270" r="90" fill="url(#innerSphere)" opacity="0.85"/>
+  <!-- Intersecting lines and curves -->
+  <ellipse cx="515" cy="270" rx="180" ry="180" fill="none" stroke="#39ffb3" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="515" cy="270" rx="180" ry="90" fill="none" stroke="#39ffb3" stroke-width="1.5" opacity="0.5"/>
+  <ellipse cx="515" cy="270" rx="90" ry="180" fill="none" stroke="#39ffb3" stroke-width="1.5" opacity="0.5"/>
+  <!-- Diagonal translucent slice -->
+  <rect x="480" y="120" width="300" height="300" fill="url(#sliceGrad)" transform="rotate(30 515 270)" opacity="0.5"/>
+  <!-- Outer glow effect (simulated with blurred ellipse) -->
+  <ellipse cx="800" cy="60" rx="200" ry="80" fill="#b7ffe6" opacity="0.25"/>
+  <!-- Decorative curves (optional, for abstract lines) -->
+  <path d="M0,400 Q300,200 1030,500" stroke="#39ffb3" stroke-width="1" fill="none" opacity="0.2"/>
+</svg>

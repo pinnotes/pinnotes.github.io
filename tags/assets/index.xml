@@ -1,0 +1,269 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Assets</title><link>/tags/assets/</link><description>Recent content in Assets on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/assets/index.xml" rel="self" type="application/rss+xml"/><item><title>Snake 3D Model FBX Blender 🐍</title><link>/assets/download/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/assets/download/</guid><description>
+&lt;div class="timer-container">
+&lt;span class="timer-label">&lt;/span>
+&lt;progress class="timer-progress" value="0" max="20">&lt;/progress>
+&lt;/div>
+&lt;script>
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "https:\/\/drive.google.com\/file\/d\/1-H0WfBZl9RfKma0orW-Rud5XDl0JNZaX\/view?usp=sharings";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script>
+&lt;style>
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style>
+&lt;h1>Powerful Performance&lt;/h1>&lt;p>Powered by the MediaTek Dimensity 7300 Pro 5G processor, Nothing CMF Phone 2 Pro 6.77-Inch 5G Smartphone delivers cutting-edge speeds with its 8-core CPU clocked up to 2.5GHz. Supported by MediaTek’s 6th generation NPU offering 4.8 TOPS AI computing power, you can experience seamless multitasking and efficient AI-driven tasks.&lt;/p>
+&lt;h1>Smooth Multitasking&lt;/h1>&lt;p>Integrated with 8GB RAM, this smartphone ensures seamless app switching, efficient multitasking, and consistently responsive performance across activities.&lt;/p>
+&lt;h1>Generous Storage Capacity&lt;/h1>&lt;p>Offering 128GB internal storage, expandable up to 2 TB, this 5G smartphone allows you to save a large collection of apps, photos, videos, and important files without worrying about space limitations.&lt;/p>
+&lt;h1>Immersive Display&lt;/h1>&lt;p>Featuring a 6.77-inch FHD+ flexible AMOLED display, this smartphone offers 1.07 billion vibrant colours, 3000 nits peak brightness, and an adaptive 120 Hz refresh rate for an ultra-responsive viewing experience. Moreover, a 1000Hz touch sampling rate further enhances fluid interactions.&lt;/p>
+&lt;h1>Pro-Grade Photography&lt;/h1>&lt;p>Equipped with a versatile four-camera setup, this smartphone houses a 50MP main camera with Phase Detection Autofocus, a 50MP telephoto camera with 2x optical and 20x digital zoom, an 8MP ultra-wide camera, and a 16MP front camera. Moreover, TrueLens Engine 3 with Ultra XDR algorithms enhances light and shadow rendering for realistic captures.&lt;/p>
+&lt;h1>Enhanced Photography&lt;/h1>&lt;p>With curated modes like intuitive controls, burst shots, quick video access, and fun portrait effects, this 6.77-inch smartphone allows you to enjoy a seamless photography adventure. Moreover, all images are neatly organised through the native Nothing Gallery.&lt;/p>
+&lt;h1>Personalised Utility&lt;/h1>&lt;p>With Essential Key, this smartphone allows quick capture of screen content or voice recordings, while Essential Space automatically organises content with AI-generated summaries and actions, ensuring streamlined productivity.&lt;/p>
+&lt;h1>Advanced Software&lt;/h1>&lt;p>Operating on Nothing OS 3.2 based on Android 15, this 128GB smartphone delivers a mindful, distraction-free experience with bespoke customisation through Dot Engine animations, icons, and fonts.&lt;/p>
+&lt;h1>Reliable Battery Life&lt;/h1>&lt;p>Backed by a 5000mAh battery, this smartphone offers 22 hours of YouTube, 10 hours of BGMI gaming, and 47 hours of voice calls. Moreover, with 33W fast charging, you can get a day&amp;rsquo;s power in just 20 minutes.&lt;/p>
+&lt;h1>Robust Connectivity&lt;/h1>&lt;p>Offering dual 5G support with peak downlink speeds up to 3.0 Gbps, smart 5G of this smartphone reduces latency, and signal boost enhances transmission power under weak networks. Moreover, wntegrated with Bluetooth 5.3 and Wi-Fi 6, you can experience fast and stable connections.&lt;/p>
+&lt;h1>Immersive Sound&lt;/h1>&lt;p>Fitted with an ultra-volume speaker offering loud sound, this smartphone enhances your entertainment experience. The speaker delivers immersive, high-quality audio, making music, movies, and calls enjoyable.&lt;/p>
+&lt;h1>Enhanced Gaming&lt;/h1>&lt;p>Designed for mobile gaming, this smartphone supports 120 FPS for BGMI and 90 FPS for PUBG. Moreover, gaming network boost reduces latency ensuring smooth, lag-free gameplay for a competitive edge.&lt;/p></description></item><item><title>Tree 3D Model Doenload (FBX)</title><link>/assets/tree3d/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/assets/tree3d/</guid><description>
+&lt;div class="timer-container">
+&lt;span class="timer-label">&lt;/span>
+&lt;progress class="timer-progress" value="0" max="20">&lt;/progress>
+&lt;/div>
+&lt;script>
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "https:\/\/drive.google.com\/file\/d\/1Yhpeiz0uGWgJhYcjNDVsBFqAinhzDHVZ\/view?usp=drive_link";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script>
+&lt;style>
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style>
+&lt;h1>Powerful Performance&lt;/h1>&lt;p>Powered by the MediaTek Dimensity 7300 Pro 5G processor, Nothing CMF Phone 2 Pro 6.77-Inch 5G Smartphone delivers cutting-edge speeds with its 8-core CPU clocked up to 2.5GHz. Supported by MediaTek’s 6th generation NPU offering 4.8 TOPS AI computing power, you can experience seamless multitasking and efficient AI-driven tasks.&lt;/p>
+&lt;h1>Smooth Multitasking&lt;/h1>&lt;p>Integrated with 8GB RAM, this smartphone ensures seamless app switching, efficient multitasking, and consistently responsive performance across activities.&lt;/p>
+&lt;h1>Generous Storage Capacity&lt;/h1>&lt;p>Offering 128GB internal storage, expandable up to 2 TB, this 5G smartphone allows you to save a large collection of apps, photos, videos, and important files without worrying about space limitations.&lt;/p>
+&lt;h1>Immersive Display&lt;/h1>&lt;p>Featuring a 6.77-inch FHD+ flexible AMOLED display, this smartphone offers 1.07 billion vibrant colours, 3000 nits peak brightness, and an adaptive 120 Hz refresh rate for an ultra-responsive viewing experience. Moreover, a 1000Hz touch sampling rate further enhances fluid interactions.&lt;/p>
+&lt;h1>Pro-Grade Photography&lt;/h1>&lt;p>Equipped with a versatile four-camera setup, this smartphone houses a 50MP main camera with Phase Detection Autofocus, a 50MP telephoto camera with 2x optical and 20x digital zoom, an 8MP ultra-wide camera, and a 16MP front camera. Moreover, TrueLens Engine 3 with Ultra XDR algorithms enhances light and shadow rendering for realistic captures.&lt;/p>
+&lt;h1>Enhanced Photography&lt;/h1>&lt;p>With curated modes like intuitive controls, burst shots, quick video access, and fun portrait effects, this 6.77-inch smartphone allows you to enjoy a seamless photography adventure. Moreover, all images are neatly organised through the native Nothing Gallery.&lt;/p>
+&lt;h1>Personalised Utility&lt;/h1>&lt;p>With Essential Key, this smartphone allows quick capture of screen content or voice recordings, while Essential Space automatically organises content with AI-generated summaries and actions, ensuring streamlined productivity.&lt;/p>
+&lt;h1>Advanced Software&lt;/h1>&lt;p>Operating on Nothing OS 3.2 based on Android 15, this 128GB smartphone delivers a mindful, distraction-free experience with bespoke customisation through Dot Engine animations, icons, and fonts.&lt;/p>
+&lt;h1>Reliable Battery Life&lt;/h1>&lt;p>Backed by a 5000mAh battery, this smartphone offers 22 hours of YouTube, 10 hours of BGMI gaming, and 47 hours of voice calls. Moreover, with 33W fast charging, you can get a day&amp;rsquo;s power in just 20 minutes.&lt;/p>
+&lt;h1>Robust Connectivity&lt;/h1>&lt;p>Offering dual 5G support with peak downlink speeds up to 3.0 Gbps, smart 5G of this smartphone reduces latency, and signal boost enhances transmission power under weak networks. Moreover, wntegrated with Bluetooth 5.3 and Wi-Fi 6, you can experience fast and stable connections.&lt;/p>
+&lt;h1>Immersive Sound&lt;/h1>&lt;p>Fitted with an ultra-volume speaker offering loud sound, this smartphone enhances your entertainment experience. The speaker delivers immersive, high-quality audio, making music, movies, and calls enjoyable.&lt;/p>
+&lt;h1>Enhanced Gaming&lt;/h1>&lt;p>Designed for mobile gaming, this smartphone supports 120 FPS for BGMI and 90 FPS for PUBG. Moreover, gaming network boost reduces latency ensuring smooth, lag-free gameplay for a competitive edge.&lt;/p></description></item></channel></rss>

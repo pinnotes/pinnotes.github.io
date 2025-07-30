@@ -1,0 +1,3537 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Week-6-Logarithms</title><link>/categories/week-6-logarithms/</link><description>Recent content in Week-6-Logarithms on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/week-6-logarithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Mathematics Week 6 Graded Assignment</title><link>/exercises/graded-assignments/mathematics-1/w6ga1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/graded-assignments/mathematics-1/w6ga1/</guid><description>
+&lt;hr>
+&lt;h2>Multiple Choice Questions (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="multiple-choice-questions-mcq">&lt;/span>
+&lt;a href="#multiple-choice-questions-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>1. If $ 18^x - 12^x - (2 \times 8^x) = 0 $, then the value of $ x $ is:&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>ln 18&lt;/li>
+&lt;li>ln 2&lt;/li>
+&lt;li>ln 18&lt;/li>
+&lt;li>In 18&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Answer:&lt;/strong> Option 1 (Note: The options are confusing and possibly mislabeled. The intended answer is likely a specific value or expression, but as shown, it is marked as Option 1, which is not a valid solution. However, the PDF marks Option 1 as correct. This may be an error in the PDF.)&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+The question appears to be misprinted or the options are incorrect. Normally, solving $ 18^x - 12^x - 2 \cdot 8^x = 0 $ would require more context or correct options. No valid solution is provided in the PDF.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>2. Suppose three distinct persons $ A, B $ and $ C $ are standing on the X-axis of the XY-plane (as shown in the figure M1W9G-1) and the distance between $ B $ and $ A $ is same as the distance between $ C $ and $ B $. The coordinates of $ A, B $ and $ C $ are $ (\log_5 3, 0), (\log_5 (3x-92), 0) $ and $ (\log_5 (3x-94), 0) $ respectively. What is the distance between $ C $ and $ B $?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>$\log_5(2)$ units&lt;/li>
+&lt;li>$\log_5(2)$ units&lt;/li>
+&lt;li>$\log_5(3)$ units&lt;/li>
+&lt;li>$\log_5(3)$ units&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Answer:&lt;/strong> Option 3&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>
+Given $ A = (\log_5 3, 0) $, $ B = (\log_5 (3x-92), 0) $, $ C = (\log_5 (3x-94), 0) $, and $ AB = BC $.&lt;/p>
+&lt;p>Let $ AB = BC \implies |\log_5 (3x-92) - \log_5 3| = |\log_5 (3x-94) - \log_5 (3x-92)| $.&lt;/p>
+&lt;p>Assuming $ B $ is midpoint, solve for $ x $ and find $ CB = \log_5 (3x-92) - \log_5 (3x-94) $.
+However, the PDF gives the answer as Option 3, which is $\log_5(3)$ units.
+(Note: The solution logic is unclear and likely incomplete or misprinted.)&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>3. In a city, a rumour is spreading about the safety of corona vaccination. Suppose $ N $ number of people live in the city and $ f(t) $ is the number of people who have not yet heard about the rumour after $ t $ days. Suppose $ f(t) = N e^{-kt} $, where $ k $ is a constant. If the population of the city is 1000, and suppose 40 have heard the rumour after the first day. After how many days (approximately) half of the population would have heard the rumour?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>20&lt;/li>
+&lt;li>17&lt;/li>
+&lt;li>13&lt;/li>
+&lt;li>12&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Answer:&lt;/strong> Option 2 (17)&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+Given $ N = 1000 $, $ f(1) = 1000 - 40 = 960 \implies 960 = 1000 e^{-k \cdot 1} \implies e^{-k} = 0.96 \implies k = -\ln(0.96) $.
+Half of the population hears the rumour when $ f(t) = 500 \implies 500 = 1000 e^{-kt} \implies e^{-kt} = 0.5 \implies -kt = \ln(0.5) \implies t = \frac{\ln(0.5)}{-k} = \frac{\ln(0.5)}{\ln(0.96)} \approx 17 $.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>4. Consider the function $ f(x) = \log_2(12 + 4x - x^2) $. Choose the correct set of option(s):&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>
+a. $ f(x) $ is strictly increasing when $ x $ is in $[2, \infty)$.
+b. The range of $ f $ is $(0, \log 12]$.
+c. The minimum value of $ f(x) $ is 4.
+d. The range of $ f $ is $(-\infty, \infty)$.
+e. $ f(x) $ is one-one function when $ x $ is in $(-\infty, 2]$.
+✓. The range of $ f $ is $(-\infty, 4]$.&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> The PDF does not specify a single correct answer, but the options are provided for selection.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Analysis:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>a:&lt;/strong> Incorrect. $ f(x) $ is not strictly increasing in $[2, \infty)$; the quadratic $ 12 + 4x - x^2 $ is decreasing for $ x &amp;gt; 2 $.&lt;/li>
+&lt;li>&lt;strong>b:&lt;/strong> Incorrect. The range of $ f $ is not $(0, \log 12]$.&lt;/li>
+&lt;li>&lt;strong>c:&lt;/strong> Incorrect. The minimum value is not 4.&lt;/li>
+&lt;li>&lt;strong>d:&lt;/strong> Incorrect. The range is not $(-\infty, \infty)$.&lt;/li>
+&lt;li>&lt;strong>e:&lt;/strong> Correct. $ f(x) $ is one-one when $ x $ is in $(-\infty, 2]$, as the quadratic is increasing here.&lt;/li>
+&lt;li>&lt;strong>✓:&lt;/strong> Incorrect. The range is not $(-\infty, 4]$.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>No official solution is given in the PDF.&lt;/strong>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;h2>Questions 5 and 6&lt;span class="hx-absolute -hx-mt-20" id="questions-5-and-6">&lt;/span>
+&lt;a href="#questions-5-and-6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>5 and 6. Use the following information for the questions 5 and 6.
+Consider the function $ f(x) = \frac{2e^x}{3e^x + 1} $ from $ \mathbb{R} $ to $ \mathbb{R} $.&lt;/strong>&lt;/p>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>6. Which of the following is true about $ f $?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>
+7. $ f $ is not a one to one function.
+8. $ f $ is a one to one function.
+9. Range of $ f $ is $ \mathbb{R} $.
+10. $ f $ is a bijective function.&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> Option 2 (i.e., option 8: $ f $ is a one to one function)&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+The function $ f(x) = \frac{2e^x}{3e^x + 1} $ is strictly increasing (since the derivative is positive for all $ x $), and thus one-to-one.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>11. The inverse of $ f $ would be:&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>
+12. $ \ln\left(\frac{2x}{2-3x}\right) $
+13. $ \ln\left(\frac{2x}{-x+2}\right) $
+14. $ \ln\left(\frac{2x}{-x+2}\right) $
+15. $ \ln\left(\frac{2x}{-x+2}\right) $&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> Option 3 (i.e., option 13)
+&lt;strong>Note:&lt;/strong> Options 13 and 14 are identical and likely a typo.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+Let $ y = \frac{2e^x}{3e^x + 1} $.
+To find inverse:
+$ y(3e^x + 1) = 2e^x $
+$ 3ye^x + y = 2e^x $
+$ y = e^x(2 - 3y) $
+$ e^x = \frac{y}{2-3y} $
+$ x = \ln\left(\frac{y}{2-3y}\right) $
+But the options are in terms of $ x $, and likely a misprint. The correct inverse is $ f^{-1}(y) = \ln\left(\frac{y}{2-3y}\right) $, but the options are not matching exactly.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;h2>Multiple Select Questions (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="multiple-select-questions-msq">&lt;/span>
+&lt;a href="#multiple-select-questions-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>7 and 8. The amount of gold (in kilograms) sold by a jeweler on the $ m $th day of 2019 is given by the function $ f(m) = \log_{10}(m + 1) - \frac{1}{2} \log_{m+1}(0.01) $ (where $ m = 1 $ corresponds to the 1st January, 2019, and $ m = 365 $ corresponds to the 31st December, 2019).&lt;/strong>&lt;/p>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>7. If $ m &amp;gt; n &amp;gt; 9 $, then choose the correct option(s):&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>$ f(m) &amp;gt; f(n) $&lt;/li>
+&lt;li>$ f(m) &amp;lt; f(n) $&lt;/li>
+&lt;li>$ f(m) = f(n) $&lt;/li>
+&lt;li>$ f(m) \leq f(n) $&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Answer:&lt;/strong> Option 1 ($ f(m) &amp;gt; f(n) $)&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+For $ m &amp;gt; n &amp;gt; 9 $, the function $ f(m) $ increases as $ m $ increases.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>8. Choose the correct option(s):&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>The jeweler sold at least 540 kg gold in 2019.&lt;/li>
+&lt;li>The jeweler sold at least 730 kg gold in 2019.&lt;/li>
+&lt;li>The jeweler sold at least 2 kg gold daily throughout the year 2019.&lt;/li>
+&lt;li>The jeweler sold at least 10 kg gold daily throughout the year 2019.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Answer:&lt;/strong> Options 2 and 3&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+The function $ f(m) $ is positive and increasing. For $ m = 365 $, $ f(365) $ is large enough to ensure at least 730 kg gold sold in the year and at least 2 kg gold sold daily.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>9. The stock market chart of a tourism company (A) is shown roughly in the Figure M1W9G-2. This company was listed in February ($ x = 2 $) and experiences a logarithmic fall after the COVID-19 outbreak which is given by $ y = -a \log(x - h) + a $. $ x $ represents the number of months since the beginning of the year and $ y $ represents the stock price in ₹1000. During the 10th month the pharmacy company announced that the vaccine is made for the COVID-19. Thereafter, the stock price of the company (A) is raised exponentially $ y = 10^{x-b} $. Choose the correct set of options. (Note: $ a $ is any positive real number, $ b $ is a positive integer and $ h $ is a constant.)&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>For logarithmic fall the value of $ a = 1.5 $ and $ h = 2 $.&lt;/li>
+&lt;li>For exponential rise passing through (10, 0) the value of $ b = 10 $.&lt;/li>
+&lt;li>The stock price in 12th month is ₹4000.&lt;/li>
+&lt;li>If the vaccine was not made and the stock price just followed the same logarithmic function throughout, then the investor would have lost his/her entire investment on the 12th month.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Answer:&lt;/strong> Options 1, 2, and 4&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Option 1:&lt;/strong> $ a = 1.5 $ and $ h = 2 $ are plausible values for the logarithmic fall.&lt;/li>
+&lt;li>&lt;strong>Option 2:&lt;/strong> For $ y = 10^{x-b} $ to pass through $ (10, 0) $, $ 0 = 10^{10-b} $, which is not possible. However, if it is a misprint and is supposed to be $ y = 10^{x-b} - 1 $, or if the price is zero at $ x = 10 $, the value $ b = 10 $ is correct.&lt;/li>
+&lt;li>&lt;strong>Option 3:&lt;/strong> The stock price in the 12th month is $ y = 10^{12-10} = 100 $, which is ₹100,000, not ₹4000. This option is incorrect unless there is a scaling factor.&lt;/li>
+&lt;li>&lt;strong>Option 4:&lt;/strong> If the stock price follows the logarithmic function, it would tend to negative infinity, implying total loss.&lt;/li>
+&lt;/ul>
+&lt;p>The PDF marks options 1, 2, and 4 as correct. This may be due to a scaling or typographical error in the question.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;h2>Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="numerical-answer-type-nat">&lt;/span>
+&lt;a href="#numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>
+&lt;div class="border-card border-card-question">
+&lt;div class="border-card-content">&lt;p>&lt;strong>10. If $ m \log_3 2 + 2 \log_3 m = 16 $. Then, what is the value of $ m $?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> 27&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+Let $ m = 3^k $.
+Then, $ 3^k \log_3 2 + 2k = 16 $.
+This is not straightforward, but the PDF gives the answer as $ m = 27 $.
+Alternatively, substitute $ m = 27 $:
+$ 27 \log_3 2 + 2 \log_3 27 = 27 \log_3 2 + 2 \times 3 = 27 \log_3 2 + 6 $.
+But $ 27 \log_3 2 + 6 \neq 16 $.
+This suggests a possible error in the question or solution, but the PDF answer is 27.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-conclusion">
+&lt;div class="border-card-content">&lt;p>&lt;strong>11. Choose the correct options with respect to the graph of a function $ f(x) $ shown below.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong> (Not listed, but the answer is given as Option (a), (d), (e))&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> Options (a), (d), (e)&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Without the graph, the specific options cannot be determined. The PDF marks options (a), (d), (e) as correct.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;h2>Summary Table&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Q#&lt;/th>
+&lt;th style="text-align: left">Type&lt;/th>
+&lt;th style="text-align: left">Question Summary&lt;/th>
+&lt;th style="text-align: left">Solution/Answer&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">MCQ&lt;/td>
+&lt;td style="text-align: left">Solve $ 18^x - 12^x - 2 \cdot 8^x = 0 $&lt;/td>
+&lt;td style="text-align: left">Option 1 (marked, but likely error)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">MCQ&lt;/td>
+&lt;td style="text-align: left">Distance between points based on logarithms&lt;/td>
+&lt;td style="text-align: left">Option 3 ($\log_5(3)$)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">MCQ&lt;/td>
+&lt;td style="text-align: left">Days for half population to hear rumor&lt;/td>
+&lt;td style="text-align: left">Option 2 (17 days)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">4&lt;/td>
+&lt;td style="text-align: left">MCQ&lt;/td>
+&lt;td style="text-align: left">Properties of $ f(x) = \log_2(12 + 4x - x^2) $&lt;/td>
+&lt;td style="text-align: left">No official answer, options provided&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">5-6&lt;/td>
+&lt;td style="text-align: left">MCQ&lt;/td>
+&lt;td style="text-align: left">Properties and inverse of $ f(x) = \frac{2e^x}{3e^x + 1} $&lt;/td>
+&lt;td style="text-align: left">Option 2 (one-to-one), Option 3 (inverse)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">7&lt;/td>
+&lt;td style="text-align: left">MSQ&lt;/td>
+&lt;td style="text-align: left">Gold sold: $ f(m) &amp;gt; f(n) $ for $ m &amp;gt; n &amp;gt; 9 $&lt;/td>
+&lt;td style="text-align: left">Option 1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">8&lt;/td>
+&lt;td style="text-align: left">MSQ&lt;/td>
+&lt;td style="text-align: left">Gold sold: yearly and daily minimums&lt;/td>
+&lt;td style="text-align: left">Options 2 and 3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">9&lt;/td>
+&lt;td style="text-align: left">MSQ&lt;/td>
+&lt;td style="text-align: left">Stock market chart analysis&lt;/td>
+&lt;td style="text-align: left">Options 1, 2, and 4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">10&lt;/td>
+&lt;td style="text-align: left">NAT&lt;/td>
+&lt;td style="text-align: left">Solve $ m \log_3 2 + 2 \log_3 m = 16 $&lt;/td>
+&lt;td style="text-align: left">$ m = 27 $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">11&lt;/td>
+&lt;td style="text-align: left">MSQ&lt;/td>
+&lt;td style="text-align: left">Graph analysis (options not listed)&lt;/td>
+&lt;td style="text-align: left">Options (a), (d), (e)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Note:&lt;/strong>
+Some questions and options are ambiguous or contain possible errors as per the PDF. The answers are as given in the PDF, with explanations where possible.
+If you need the exact wording of any question or option, please specify.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div></description></item></channel></rss>

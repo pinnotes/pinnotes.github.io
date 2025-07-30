@@ -1,0 +1,125 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Mathematics</title><link>/tags/mathematics/</link><description>Recent content in Mathematics on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/tags/mathematics/index.xml" rel="self" type="application/rss+xml"/><item><title>Calculating a Derivative by Definition</title><link>/exercises/calculus/calculating-a-derivative/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/calculus/calculating-a-derivative/</guid><description>
+&lt;h2>&lt;strong>Step-by-Step: Calculating a Derivative by Definition&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-calculating-a-derivative-by-definition">&lt;/span>
+&lt;a href="#step-by-step-calculating-a-derivative-by-definition" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Let’s use the &lt;strong>four-step process&lt;/strong> for finding the derivative of a simple quadratic function, as this approach is both fundamental and widely used in calculus&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. For this example, let’s use a general quadratic function, but if you want a specific example from the PDF, we’ll use the quadratic function $ f(x) = x^2 $ (which is used in the context of quadratic functions&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>).&lt;/p>
+&lt;p>However, the PDF also discusses the slope of a quadratic function $ f(x) = ax^2 + bx + c $, mentioning that the slope at any point is $ 2ax + b $. Let’s see how this is derived using the definition.&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Step 1: Write $ f(x + h) $ and $ f(x) $&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-1-write--fx--h--and--fx-">&lt;/span>
+&lt;a href="#step-1-write--fx--h--and--fx-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Suppose $ f(x) = ax^2 + bx + c $ (you can set $ a=1, b=0, c=0 $ for $ f(x) = x^2 $, but we’ll keep it general).&lt;/p>
+$$
+f(x + h) = a(x + h)^2 + b(x + h) + c = a(x^2 + 2xh + h^2) + b(x + h) + c
+$$$$
+= ax^2 + 2axh + ah^2 + bx + bh + c
+$$$$
+f(x) = ax^2 + bx + c
+$$&lt;hr>
+&lt;h3>&lt;strong>Step 2: Compute $ f(x + h) - f(x) $&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-2-compute--fx--h---fx-">&lt;/span>
+&lt;a href="#step-2-compute--fx--h---fx-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Subtract $ f(x) $ from $ f(x + h) $:&lt;/p>
+$$
+f(x + h) - f(x) = (ax^2 + 2axh + ah^2 + bx + bh + c) - (ax^2 + bx + c)
+$$$$
+= 2axh + ah^2 + bh
+$$$$
+= h(2ax + ah + b)
+$$&lt;hr>
+&lt;h3>&lt;strong>Step 3: Divide by $ h $&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-3-divide-by--h-">&lt;/span>
+&lt;a href="#step-3-divide-by--h-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>$$
+\frac{f(x + h) - f(x)}{h} = \frac{h(2ax + ah + b)}{h} = 2ax + ah + b
+$$&lt;hr>
+&lt;h3>&lt;strong>Step 4: Take the limit as $ h \to 0 $&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-4-take-the-limit-as--h-to-0-">&lt;/span>
+&lt;a href="#step-4-take-the-limit-as--h-to-0-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>$$
+f'(x) = \lim_{h \to 0} (2ax + ah + b) = 2ax + b
+$$&lt;hr>
+&lt;h2>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Step&lt;/th>
+&lt;th style="text-align: left">Action&lt;/th>
+&lt;th style="text-align: left">Expression/Result&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">Write $ f(x + h) $, $ f(x) $&lt;/td>
+&lt;td style="text-align: left">$ f(x+h) = a(x+h)^2 + ··· $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">Subtract $ f(x) $ from $ f(x+h) $&lt;/td>
+&lt;td style="text-align: left">$ h(2ax + ah + b) $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">Divide by $ h $&lt;/td>
+&lt;td style="text-align: left">$ 2ax + ah + b $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">4&lt;/td>
+&lt;td style="text-align: left">Take the limit $ h \to 0 $&lt;/td>
+&lt;td style="text-align: left">$ 2ax + b $&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2>&lt;strong>Example from the PDF&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="example-from-the-pdf">&lt;/span>
+&lt;a href="#example-from-the-pdf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The PDF states (in Section 3.2):&lt;/p>
+&lt;blockquote>
+&lt;p>“For the quadratic function described as $ f(x) = ax^2 + bx + c $ where $ a \neq 0 $, the slope of $ f $ at any given point $ (x, f(x)) $ is $ (2ax + b) $.”&lt;/p>
+&lt;/blockquote>
+&lt;p>This matches exactly the result we derived above using the definition of the derivative&lt;sup id="fnref1:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Quick Example: $ f(x) = x^2 $&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="quick-example--fx--x2-">&lt;/span>
+&lt;a href="#quick-example--fx--x2-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Let’s do the calculation for $ f(x) = x^2 $:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Step 1:&lt;/strong>
+$ f(x + h) = (x + h)^2 = x^2 + 2xh + h^2 $
+$ f(x) = x^2 $&lt;/li>
+&lt;li>&lt;strong>Step 2:&lt;/strong>
+$ f(x + h) - f(x) = 2xh + h^2 $&lt;/li>
+&lt;li>&lt;strong>Step 3:&lt;/strong>
+$ \frac{f(x + h) - f(x)}{h} = \frac{2xh + h^2}{h} = 2x + h $&lt;/li>
+&lt;li>&lt;strong>Step 4:&lt;/strong>
+$ \lim_{h \to 0} (2x + h) = 2x $&lt;/li>
+&lt;/ol>
+&lt;p>So, the derivative of $ f(x) = x^2 $ is $ f&amp;rsquo;(x) = 2x $, which matches the general result above (with $ a=1, b=0 $)&lt;sup id="fnref2:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Related Question&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="related-question">&lt;/span>
+&lt;a href="#related-question" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Q:&lt;/strong> What is the slope of the quadratic function $ f(x) = 3x^2 + 4x + 1 $ at $ x = 2 $?&lt;/p>
+&lt;p>&lt;strong>A:&lt;/strong>
+Using the general result $ f&amp;rsquo;(x) = 2ax + b $,
+$ a = 3, b = 4 $, so
+$ f&amp;rsquo;(x) = 6x + 4 $.
+At $ x = 2 $:
+$ f&amp;rsquo;(2) = 6 \times 2 + 4 = 16 $.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Summary&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary">&lt;/span>
+&lt;a href="#summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>The derivative is the slope of the tangent to the curve at a point.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Use the four-step process:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>Write $ f(x + h) $ and $ f(x) $.&lt;/li>
+&lt;li>Compute $ f(x + h) - f(x) $.&lt;/li>
+&lt;li>Divide by $ h $.&lt;/li>
+&lt;li>Take the limit as $ h \to 0 $.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;strong>For quadratic functions, the derivative is $ 2ax + b $.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>This method works for any differentiable function, and the PDF confirms this for quadratic functions&lt;sup id="fnref3:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;sup id="fnref2:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://math.wvu.edu/~hlai2/Teaching/Tip-Pdf/Tip1-5.pdf" target="_blank" rel="noopener">https://math.wvu.edu/~hlai2/Teaching/Tip-Pdf/Tip1-5.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://faculty.ung.edu/jallagan/Courses" target="_blank" rel="noopener">https://faculty.ung.edu/jallagan/Courses&lt;/a> materials/Math 1450 Calculus 1/Syllabus and ebook/problems and solutions for calculus 1.pdf&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>M1_VOL1_SETS-FUNCTIONS.pdf&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

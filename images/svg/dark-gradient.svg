@@ -1,0 +1,48 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <radialGradient id="bgGrad" cx="60%" cy="40%" r="100%" fx="80%" fy="10%">
+      <stop offset="0%" stop-color="#23234c"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+    <linearGradient id="shapeGrad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a259ff"/>
+      <stop offset="100%" stop-color="#3f5efb"/>
+    </linearGradient>
+    <linearGradient id="shapeGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#43e6ff"/>
+      <stop offset="100%" stop-color="#7f53ac"/>
+    </linearGradient>
+    <linearGradient id="shapeGrad3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a259ff"/>
+      <stop offset="100%" stop-color="#f7b42c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bgGrad)" />
+
+  <!-- Abstract shapes (corners) -->
+  <ellipse cx="60" cy="60" rx="90" ry="60" fill="url(#shapeGrad1)" opacity="0.7"/>
+  <ellipse cx="740" cy="60" rx="80" ry="60" fill="url(#shapeGrad2)" opacity="0.7"/>
+  <ellipse cx="740" cy="370" rx="100" ry="60" fill="url(#shapeGrad3)" opacity="0.7"/>
+  <ellipse cx="60" cy="370" rx="70" ry="40" fill="url(#shapeGrad2)" opacity="0.5"/>
+
+  <!-- Part 1 pill -->
+  <rect x="340" y="70" rx="20" ry="20" width="120" height="36" fill="#111" stroke="#fff" stroke-width="2"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#fff" letter-spacing="2">PART 1</text>
+
+  <!-- Headline -->
+  <text x="400" y="160" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="bold" fill="#fff">
+    Design system
+  </text>
+  <text x="400" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="bold" fill="#fff">
+    annotations
+  </text>
+
+  <!-- Subtitle -->
+  <text x="400" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#b0b0b0">
+    How accessibility gets left
+  </text>
+  <text x="400" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#b0b0b0">
+    out of components
+  </text>
+</svg>

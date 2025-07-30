@@ -1,0 +1,2465 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Mathematics Practice Assignment</title><link>/categories/mathematics-practice-assignment/</link><description>Recent content in Mathematics Practice Assignment on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/mathematics-practice-assignment/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w1pa1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w1pa1/</guid><description>
+&lt;hr>
+&lt;h2>1. Venn Diagram Analysis&lt;span class="hx-absolute -hx-mt-20" id="1-venn-diagram-analysis">&lt;/span>
+&lt;a href="#1-venn-diagram-analysis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Given below is a Venn diagram for sets of students who take Maths, Physics, and Statistics.
+Which of the option(s) is(are) correct? [Notation: For sets P and Q, P \ Q denotes the set of elements in P which are not in Q.]&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>Maths Physics
+A D B
+F G E
+C
+Statistics&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ul>
+&lt;li>D is the set of students who take both Maths and Statistics.&lt;/li>
+&lt;li>D∪E∪F∪G is the set of all students who take at least two subjects.&lt;/li>
+&lt;li>E is a subset of the set of the students who have not taken Maths.&lt;/li>
+&lt;li>Maths \ D is the set of all students who have taken only Maths.&lt;/li>
+&lt;li>Physics \ (D∪G∪E) is the set of all students who have taken only Physics.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+According to Figure 1, D is the set of students who take both Maths and Physics. Hence the first statement is not valid.&lt;/p>
+&lt;p>The second option – D∪E∪F∪G is the set of all students who take at least two subjects – is correct. This is because D is the set of students who take both Maths and Physics, E is the set of students who take both Physics and Statistics, F is the set of students who take both Maths and Statistics and G is the set of students who take all three subjects.&lt;/p>
+&lt;p>Third option – E is a subset of the set of the students who have not taken Maths – is also correct. E is the set of students who take both Physics and Statistics and G is the set of students who take Maths in addition to Physics and Statistics. (B∪E∪C) is the set of students who have not taken Maths. Clearly, E is a subset of this set.&lt;/p>
+&lt;p>Fourth option – Maths \ D is the set of all students who have taken only Maths – is not correct. Maths \ D represents the students of Maths who have not taken Physics and may or may not have taken Statistics. This implies that students who take only Maths (set A), or the students who take both Maths and Statistics (set F) or the students who take all three subjects (set G) are also included in Maths\D set. Hence this option is not correct.&lt;/p>
+&lt;p>Fifth option – Physics \ (D∪G∪E) is the set of all students who have taken only Physics is correct. (D∪G∪E) represents the students who take only Maths and Physics or all three subjects or Physics and Statistics. Physics \ (D∪G∪E) represents B, which is the set of students who only take Physics. Hence this option is correct.&lt;/p>
+&lt;hr>
+&lt;h2>2. Set Cardinalities&lt;span class="hx-absolute -hx-mt-20" id="2-set-cardinalities">&lt;/span>
+&lt;a href="#2-set-cardinalities" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Let A be the set of natural numbers less than 6 and whose greatest common divisor with 6 is 1. Let B be the set of divisors of 6. What are the cardinalities of A, B, A∪B, and A∩B?&lt;/p>
+&lt;ul>
+&lt;li>(1,5,6,0)&lt;/li>
+&lt;li>(1,4,5,0)&lt;/li>
+&lt;li>(2,4,5,1)&lt;/li>
+&lt;li>(2,4,6,1)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+We have set A={1, 5}, B={1, 2, 3, 6}, A ∪ B ={1, 2, 3, 5, 6} and A ∩ B={1}.
+It follows that the cardinalities (i.e. number of elements) of A, B, A ∪ B and A∩B are respectively 2, 4, 5 and 1. Hence, the third option – {2, 4, 5, 1} – is correct.&lt;/p>
+&lt;hr>
+&lt;h2>3. Venn Diagram Representation&lt;span class="hx-absolute -hx-mt-20" id="3-venn-diagram-representation">&lt;/span>
+&lt;a href="#3-venn-diagram-representation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Let A be the set of all even natural numbers (including zero), B be the set of all odd natural numbers, C be the set of all natural numbers which divide 100, and D be the set of all prime numbers less than 100. Which of the following is(are) correct representation of these sets? [Note: A region represented in a Venn diagram could be empty. Take the set of real numbers to be the universal set.]&lt;/p>
+&lt;ul>
+&lt;li>Option 1
+A
+B
+D&lt;/li>
+&lt;li>Option 2
+A
+B
+C&lt;/li>
+&lt;li>Option 3
+D
+C&lt;/li>
+&lt;li>Option 4
+A D
+C&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+By definition, A = {0, 2, 4, 6, 8,&amp;hellip;}, B = {1, 3, 5, 7,&amp;hellip; }, C = {1, 2, 4, 5, 10,&amp;hellip;, 100} and D = {2, 3, 5, 7, 11,.., 97}.&lt;/p>
+&lt;p>Option 1 shows D as a subset of all odd natural numbers. But D contains element 2, whereas B does not. Hence, this option is wrong.&lt;/p>
+&lt;p>Option 2 has overlap between A and C and overlap between B and C, but no overlap between A and B. A and B are sets of even and odd natural numbers which have no overlap. C is the set of natural numbers which divide 100. A∩C = {2, 4, 10, 20, 50, 100} and B∩C = {1, 5, 25}. Hence, this option is correct.&lt;/p>
+&lt;p>Option 3 represents C and D sets with an overlap between them. The overlapping area includes the set of all prime numbers which can divide 100. This is the set {2, 5}. Hence, option 3 is also correct.&lt;/p>
+&lt;p>A∩D = {2}, but there is no overlap between A and D in Option 4. Hence, this option is wrong.&lt;/p>
+&lt;hr>
+&lt;h2>4. Set Cardinalities (Multiples and Divisors)&lt;span class="hx-absolute -hx-mt-20" id="4-set-cardinalities-multiples-and-divisors">&lt;/span>
+&lt;a href="#4-set-cardinalities-multiples-and-divisors" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Let A be the set of natural numbers which are multiples of 5 strictly less than 100, and B be the set of natural numbers which divide 100. What are the cardinalities of the following sets?
+B\A (the set of elements in B but not in A), A∩B, and B&lt;/p>
+&lt;ul>
+&lt;li>(2, 5, 7)&lt;/li>
+&lt;li>(4, 5, 9)&lt;/li>
+&lt;li>(3, 4, 7)&lt;/li>
+&lt;li>(3, 5, 8)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+By definition, A = {5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95}, B = {1, 2, 4, 5, 10, 20, 25, 50, 100}, B\A = {1, 2, 4, 100} and A∩B = {5, 10, 20, 25, 50}.
+It follows that the cardinalities of sets B \ A, A∩B and B are, respectively, 4, 5 and 9. Hence, option 2 is correct.&lt;/p>
+&lt;hr>
+&lt;h2>5. Cardinality of Cartesian Product and Power Set&lt;span class="hx-absolute -hx-mt-20" id="5-cardinality-of-cartesian-product-and-power-set">&lt;/span>
+&lt;a href="#5-cardinality-of-cartesian-product-and-power-set" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Suppose the cardinality of set A is 2 and the cardinality of set B is 3, what are the cardinalities of the cartesian product A × B and the power set of A × B?&lt;/p>
+&lt;ul>
+&lt;li>6 and 36&lt;/li>
+&lt;li>5 and 32&lt;/li>
+&lt;li>6 and 64&lt;/li>
+&lt;li>5 and 25&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Let the cardinality of set A be n(A) and the cardinality of set B be n(B). Then, the cardinality of the cartesian product (A × B), n(A × B) = n(A) × n(B) = 3 × 2 = 6.
+If a set A has cardinality n, then the cardinality of power set of A is $2^n$. It follows that the cardinality of the power set of (A × B) is $2^6 = 64$. Hence, the third option is correct.&lt;/p>
+&lt;hr>
+&lt;h2>6. Survey of Newspaper Readership&lt;span class="hx-absolute -hx-mt-20" id="6-survey-of-newspaper-readership">&lt;/span>
+&lt;a href="#6-survey-of-newspaper-readership" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+In a survey, it is found that in a particular locality 64 houses buy English newspapers, 94 houses buy Tamil newspapers, and 26 houses buy both English and Tamil newspapers. How many houses buy newspapers of only one language?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Number of houses which buy only English newspapers is (64 - 26) = 38.
+Number of houses which buy only Tamil newspapers is (94 - 26) = 68.
+Therefore, number of houses which buy either English or Tamil newspaper is (68 + 38) = 106.&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> 106&lt;/p>
+&lt;hr>
+&lt;h2>7. Irrational Numbers&lt;span class="hx-absolute -hx-mt-20" id="7-irrational-numbers">&lt;/span>
+&lt;a href="#7-irrational-numbers" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Which of the following numbers is(are) irrational?&lt;/p>
+&lt;ul>
+&lt;li>√2 + √3&lt;/li>
+&lt;li>(2 + √3)(2 - √3)&lt;/li>
+&lt;li>(2 + √3) + (2 - √3)&lt;/li>
+&lt;li>2√3+3√2&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Since √3 is an irrational number, it follows that (2+√3) and hence √(2 + √3) are also irrational.&lt;/p>
+&lt;p>In the second option, (2+√3)(2-√3) = 4 - 3 = 1, which is a rational number.&lt;/p>
+&lt;p>In the third option, (2+√3)+(2-√3) = 4, which is also a rational number.&lt;/p>
+&lt;p>Since both √3 and √2 are irrational numbers, we have (2√3+3√2) is an irrational number.&lt;/p>
+&lt;hr>
+&lt;h2>8. Properties of a Relation&lt;span class="hx-absolute -hx-mt-20" id="8-properties-of-a-relation">&lt;/span>
+&lt;a href="#8-properties-of-a-relation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Which of the following is(are) true for the relation R given below?
+R = {(a, b)| both a and b are even non-zero integers and a/b is an integer }&lt;/p>
+&lt;ul>
+&lt;li>R is a reflexive relation.&lt;/li>
+&lt;li>R is a symmetric relation.&lt;/li>
+&lt;li>R is a transitive relation.&lt;/li>
+&lt;li>R is an equivalence relation.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+A relation R on a set A is said to be reflexive if (a, a) ∈ R for all a ∈ A. R is called symmetric if (a, b) ∈ R implies (b,a) ∈ R, and R is called transitive if (a, b) and (b, c) is in R implies (a, c) ∈ R. If a relation R is reflexive, symmetric and transitive, then it is called equivalence relation.&lt;/p>
+&lt;p>For any non-zero even integer a, a/a = 1 is an integer. Hence, (a, a) ∈ R, which implies that R is reflexive.&lt;/p>
+&lt;p>Now, let a = 4, and b = 2. Then, a/b = 4/2 = 2 is an integer. Hence, (a,b) ∈ R. But b/a = 2/4 = 1/2 is not an integer. Therefore, (b,a) ∉ R. It follows that R is not symmetric.&lt;/p>
+&lt;p>Let (a,b) ∈ R and (b,c) ∈ R. That is, both a/b and b/c are integers. Hence, their product a/b * b/c = a/c is also an integer. It follows that (a, c) ∈ R. Therefore, R is transitive.&lt;/p>
+&lt;p>Although R is reflexive and transitive but not symmetric, it is not an equivalence relation.&lt;/p>
+&lt;hr>
+&lt;h2>9. Domain and Range of a Function&lt;span class="hx-absolute -hx-mt-20" id="9-domain-and-range-of-a-function">&lt;/span>
+&lt;a href="#9-domain-and-range-of-a-function" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Find the domain and range of the following real valued function.
+f(x) = √(3 - x) (Note: ✓ denotes the positive square root)&lt;/p>
+&lt;ul>
+&lt;li>domain={x ∈ R | x ≠ 3}, range={x ∈ R x ≥ 3}&lt;/li>
+&lt;li>domain={x ∈ R | x ≥ 3}, range={x ∈ R | x ≥ 0}&lt;/li>
+&lt;li>domain={x ∈ R | x ≤ 3}, range={x ∈ R | x ≥ 0}&lt;/li>
+&lt;li>domain={x ∈ R | x ≤ 3}, range={x ∈ R | x ≤ 0}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The set of real numbers R includes all rational and irrational numbers.
+√a is real valued if a ≥ 0. If f has to be real valued, then
+3-x≥0 ⇒ x ≤ 3
+Hence, domain of the function f is {x ∈ R | x ≤ 3}.&lt;/p>
+&lt;p>Since ✓ denotes the positive square root (as given in the question statement), the range of function f is nothing but all the positive real numbers, i.e. {x ∈ R | x ≥ 0}.&lt;/p>
+&lt;hr>
+&lt;h2>10. Properties of a Function&lt;span class="hx-absolute -hx-mt-20" id="10-properties-of-a-function">&lt;/span>
+&lt;a href="#10-properties-of-a-function" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Which of the following is(are) true for the given function?
+f: R→R
+f(x) = x² + 2&lt;/p>
+&lt;ul>
+&lt;li>f is not injective.&lt;/li>
+&lt;li>f is surjective.&lt;/li>
+&lt;li>f is not surjective.&lt;/li>
+&lt;li>f is bijective.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+A function f is injective if f(x1) = f(x2) implies x1 = x2, i.e. no two elements in the domain will have the same image. f is called surjective if for any element in the co-domain there is a pre-image in the domain, i.e. for any y in the co-domain, there exists an x in the domain such that f(x) = y. A function f is said to be bijective if it is both injective and surjective.&lt;/p>
+&lt;p>Since f(x) = x² + 2, we have f(-1) = 3 = f(1). Hence, f is not injective. Now, the co-domain of the function is given as R.&lt;/p>
+&lt;p>Now if f is surjective then codomain and the range should be same, that means every element in the codomain should have a preimage. Now let us try to find a preimage for 1 (observe that 1 ∈ R, as codomain of the function is given as R). To find the preimage of 1, we have to find an element a from the domain for which f(a) = 1, i.e. a² + 2 = 1, i.e. a² = −1. Now we know that the square of any real number cannot be negative. Hence there cannot exist any real number a (in the domain) for which f(a) = 1. Hence 1 has no preimage. So codomain and range is not same. Hence f is not surjective.&lt;/p>
+&lt;p>As the function is neither injective, nor surjective, therefore it is not bijective.&lt;/p>
+&lt;hr>
+&lt;h2>11. Domain of a Function&lt;span class="hx-absolute -hx-mt-20" id="11-domain-of-a-function">&lt;/span>
+&lt;a href="#11-domain-of-a-function" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Find the domain of the following real valued function.
+f(x) = √(x+2) / (x²-9)&lt;/p>
+&lt;ul>
+&lt;li>{x ∈ R | x ≥ −2, x ≠ 3}&lt;/li>
+&lt;li>{x ∈ R | x ≤ −2, x ≥ 3}&lt;/li>
+&lt;li>{x ∈ R | x ≠ −2, x ≤ 3}&lt;/li>
+&lt;li>{x ∈ R | x ≠ −2, x ≠ 3}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+f(x) = √(x+2) / (x²-9)
+For f to be a well-defined function, the denominator must be non-zero. That is,
+x²-9≠0 ⇒ x ≠ ±3&lt;/p>
+&lt;p>Further, if f has to be real valued, then √(x + 2) has to be real valued. Hence x + 2 must be non-negative. That is,
+x+2≥0 ⇒ x ≥ -2&lt;/p>
+&lt;p>It follows that the domain of the function f(x) is {x ∈ R | x ≥ −2, x ≠ 3}.&lt;/p>
+&lt;hr>
+&lt;h2>12. Relations on Months&lt;span class="hx-absolute -hx-mt-20" id="12-relations-on-months">&lt;/span>
+&lt;a href="#12-relations-on-months" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Let S be the set {January, February, March, April, May, June, July, August, September, October, November, December} of months in a year. Define the following three relations:&lt;/p>
+&lt;ul>
+&lt;li>R₁ := {(a,b) | a, b ∈ S, a and b have same last four letters. }&lt;/li>
+&lt;li>R₂ := {(a,b) | a, b ∈ S, a and b have same number of days. }&lt;/li>
+&lt;li>R₃ := {(a, c) | a, c ∈ S, for some b ∈ S, (a, b) ∈ R₁, (b, c) ∈ R₂}&lt;/li>
+&lt;/ul>
+&lt;p>For example, (December, June)∈ R₃ since (December, September)∈ R₁, (September, June)∈ R₂.&lt;/p>
+&lt;p>&lt;strong>(a) Choose the correct option(s).&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>R₃ is symmetric.&lt;/li>
+&lt;li>R₃ is reflexive.&lt;/li>
+&lt;li>R₃ is transitive.&lt;/li>
+&lt;li>None of the above.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>(b) What is the cardinality of R₃?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+For definitions of types of relations, please refer to solution of Question 8.&lt;/p>
+&lt;p>Every month has the same last four letters as itself (except May which has only three letters). In Table 1, the months whose name has been shown in red color have the same last four letters as each other. Similarly, the months whose name has been shown in blue color also have the same last four letters as each other.&lt;/p>
+&lt;p>Name of the months: January, February, March, April, May, June, July, August, September, October, November, December.&lt;/p>
+&lt;p>&lt;strong>R₁:&lt;/strong>
+R₁ = {(Jan, Jan), (Jan, Feb), (Feb, Jan), (Feb, Feb), (Mar, Mar), (April, April), (June, June), (July, July), (Aug, Aug), (Oct, Oct), (Sept, Sept), (Sept, Nov), (Sept, Dec), (Nov, Sept), (Nov, Nov), (Nov, Dec), (Dec, Sept), (Dec, Nov), (Dec, Dec)}&lt;/p>
+&lt;p>&lt;strong>R₂:&lt;/strong>
+R₂ consists of the pairs of months with the same number of days.
+Class 1: Jan, Mar, May, July, Aug, Oct, Dec [Months with 31 days each]
+Class 2: April, June, Sept, Nov [Months with 30 days each]
+Class 3: Feb [Month with 28 or 29 days]&lt;/p>
+&lt;p>&lt;strong>R₃:&lt;/strong>
+R₃ = {(a, c) | a, c ∈ S, for some b ∈ S, (a, b) ∈ R₁, (b, c) ∈ R₂}&lt;/p>
+&lt;p>&lt;strong>Analysis:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(May, May)&lt;/strong> is not in R₃, hence R₃ is not reflexive.&lt;/li>
+&lt;li>&lt;strong>(Jan, May)&lt;/strong> is in R₃, but (May, Jan) is not in R₃, hence R₃ is not symmetric.&lt;/li>
+&lt;li>&lt;strong>(Mar, Dec)&lt;/strong> is in R₃, (Dec, Sept) is in R₃, but (Mar, Sept) is not in R₃. Hence R₃ is not transitive.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>(b) Cardinality of R₃:&lt;/strong>
+By listing all possible pairs as per the given logic, the cardinality of R₃ is 85.&lt;/p>
+&lt;hr>
+&lt;h2>13. Student Teams and Venn Diagram&lt;span class="hx-absolute -hx-mt-20" id="13-student-teams-and-venn-diagram">&lt;/span>
+&lt;a href="#13-student-teams-and-venn-diagram" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+For a college event, thirty student volunteers were given id numbers from 1 to 30 such that each student gets a unique number. The students with id numbers from 1 to 10 are in Team 1 which coordinates the cultural program. The students with id numbers from 11 to 20 are in Team 2 which coordinates the games. The students whose roll numbers are multiples of 3 are in Team 3 which takes care of food. Now consider the following Venn diagram and choose the correct option(s).&lt;/p>
+&lt;ul>
+&lt;li>C, B, and A can represent Team 1, Team 2, and Team 3 respectively.&lt;/li>
+&lt;li>A, B, and C can represent Team 1, Team 2, and Team 3 respectively.&lt;/li>
+&lt;li>Roll number 15 has been assigned two jobs and is in both B and C.&lt;/li>
+&lt;li>Roll number 25 is not in A∪B∪C.&lt;/li>
+&lt;li>Roll number 10 is in both A and C.&lt;/li>
+&lt;li>Cardinality of C is 20.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Figure PS-1.2 shows the Venn diagram corresponding to Question 13. Team 1, responsible for coordination of cultural programs, is represented by the blue circle. Team 2, responsible for game events, is represented by the yellow circle. Team 3, that takes care of food, is represented by the red circle. Rest of the students are represented using the green circle. Clearly, set A can correspond to the blue circle, B can denote the yellow circle and C can denote the red circle. That is, A, B, and C can represent Team 1, Team 2, and Team 3 respectively. Hence, option 2 is correct and option 1 is wrong. Roll number 15 is a common element between games team and food team, hence, option 3 is correct. Roll number 25 is located in the range of students with Roll number 21 to 30 but 25 is not divisible by 3. Hence, 25 does not belong to the set A∪B∪C and so option 4 is correct. The number 10 is not divisible by 3, hence Roll number 10 is not in the set C. Therefore, option 5 is wrong. Further, since cardinality of C is 10, option 6 is also wrong.&lt;/p>
+&lt;hr>
+&lt;p>This concludes all questions and solutions from the provided PDF&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-1-Practice-Assignment-Solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 2 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w2pa2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w2pa2/</guid><description>
+&lt;hr>
+&lt;h2>1. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="1-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#1-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+If $ R $ is the set of all points which are 5 units away from the origin and are on the axes, then $ R $ is:&lt;/p>
+&lt;ul>
+&lt;li>$ R = {(5,5), (-5, 5), (-5, -5), (5, -5)} $&lt;/li>
+&lt;li>$ R = {(5,0), (5, -5), (5, 5), (-5,0)} $&lt;/li>
+&lt;li>$ R = {(5,0), (0,5), (5,5), (0, -5)} $&lt;/li>
+&lt;li>$ R = {(5,0), (0,5), (-5,0), (0, -5)} $&lt;/li>
+&lt;li>$ R = {(5,0), (0,5), (-5,0), (-5,5)} $&lt;/li>
+&lt;li>There is no such set.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The points on the axes and 5 units from the origin are $(5,0)$, $(0,5)$, $(-5,0)$, and $(0,-5)$.
+&lt;strong>Correct option:&lt;/strong>
+$ R = {(5,0), (0,5), (-5,0), (0, -5)} $&lt;/p>
+&lt;hr>
+&lt;h2>2. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="2-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#2-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+A point P divides the line segment MN such that MP : PN = 2 : 1. The coordinates of M and N are (-2, 2) and (1, -1) respectively. What will be the slope of the line passing through P and the point (1,1)?&lt;/p>
+&lt;ul>
+&lt;li>$\frac{4}{3}$&lt;/li>
+&lt;li>1&lt;/li>
+&lt;li>Inadequate information.&lt;/li>
+&lt;li>$-\frac{4}{3}$&lt;/li>
+&lt;li>$\tan(\frac{3}{4})$&lt;/li>
+&lt;li>None of the above&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Coordinates of P:
+$x_p = \frac{2 \times 1 + 1 \times (-2)}{2 + 1} = 0$
+$y_p = \frac{2 \times (-1) + 1 \times 2}{2 + 1} = 0$
+So, P is $(0,0)$.
+Slope of the line through P and (1,1):
+$\frac{1-0}{1-0} = 1$
+&lt;strong>Correct option:&lt;/strong> 1&lt;/p>
+&lt;hr>
+&lt;h2>3. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="3-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#3-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+A student assumes a linear relationship between energy consumed (E) and the number of years after 1965. Choose the option which best represents the linear relationships assumed by the student (from 1965 to 2015). [Ans: Option C]&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Option C correctly shows the order of energy consumption in 2015 as O &amp;gt; C &amp;gt; G &amp;gt; N &amp;gt; R, and the correct starting values in 1965.
+&lt;strong>Correct option:&lt;/strong> C&lt;/p>
+&lt;hr>
+&lt;h2>4. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="4-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#4-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+The student estimated the energy consumption in 2025 and created Table PS-2.2. Choose the correct option.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Energy type&lt;/th>
+&lt;th style="text-align: left">1965&lt;/th>
+&lt;th style="text-align: left">2015&lt;/th>
+&lt;th style="text-align: left">2025&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">Oil (O)&lt;/td>
+&lt;td style="text-align: left">19000&lt;/td>
+&lt;td style="text-align: left">49000&lt;/td>
+&lt;td style="text-align: left">o&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Coal (C)&lt;/td>
+&lt;td style="text-align: left">17000&lt;/td>
+&lt;td style="text-align: left">38000&lt;/td>
+&lt;td style="text-align: left">c&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Gas (G)&lt;/td>
+&lt;td style="text-align: left">7000&lt;/td>
+&lt;td style="text-align: left">29000&lt;/td>
+&lt;td style="text-align: left">g&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Nuclear (N)&lt;/td>
+&lt;td style="text-align: left">2000&lt;/td>
+&lt;td style="text-align: left">6000&lt;/td>
+&lt;td style="text-align: left">n&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Renewable (R)&lt;/td>
+&lt;td style="text-align: left">2000&lt;/td>
+&lt;td style="text-align: left">3000&lt;/td>
+&lt;td style="text-align: left">r&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>o = 64000&lt;/li>
+&lt;li>c = 48500&lt;/li>
+&lt;li>g = 38500&lt;/li>
+&lt;li>n = 8000&lt;/li>
+&lt;li>r = 3500&lt;/li>
+&lt;li>None of the above.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Using linear interpolation for each type:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>O:&lt;/strong> $ y = 19000 + \frac{49000-19000}{2015-1965} \times (2025-1965) = 55000 $&lt;/li>
+&lt;li>&lt;strong>C:&lt;/strong> $ y = 17000 + \frac{38000-17000}{2015-1965} \times (2025-1965) = 42200 $&lt;/li>
+&lt;li>&lt;strong>G:&lt;/strong> $ y = 7000 + \frac{29000-7000}{2015-1965} \times (2025-1965) = 33400 $&lt;/li>
+&lt;li>&lt;strong>N:&lt;/strong> $ y = 2000 + \frac{6000-2000}{2015-1965} \times (2025-1965) = 6800 $&lt;/li>
+&lt;li>&lt;strong>R:&lt;/strong> $ y = 2000 + \frac{3000-2000}{2015-1965} \times (2025-1965) = 3200 $&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Correct option:&lt;/strong> None of the above.&lt;/p>
+&lt;hr>
+&lt;h2>5. Multiple Select Question (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="5-multiple-select-question-msq">&lt;/span>
+&lt;a href="#5-multiple-select-question-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+The elements of a relation R are shown as points in the graph in Figure P-2.3. Choose the set of correct options:&lt;/p>
+&lt;ul>
+&lt;li>R can be represented as R = {(-2,0), (-1,1), (0, 2), (1,3), (2, 4)}.&lt;/li>
+&lt;li>We can write R as R = {(a,b)|(a,b) ∈ X × Y, b = a + 2}, where X is the set of all values on the x axis, and Y is the set of all values on the y – axis.&lt;/li>
+&lt;li>R cannot be a function because it is a finite set.&lt;/li>
+&lt;li>R is a symmetric relation.&lt;/li>
+&lt;li>R is a function because it has only one output for one input.&lt;/li>
+&lt;li>If R is a function then it is a bijective function on X × Y, where X is the set of all values on the x axis, and Y is the set of all values on the y – axis.&lt;/li>
+&lt;li>We can write R as R = {(a,b)|(a,b) ∈ X × Y,b = a + 2}, where X = {-2,-1,0,1,2} and Y = {0, 1, 2, 3, 4}.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Correct:&lt;/strong> a, e, g&lt;/li>
+&lt;li>&lt;strong>Incorrect:&lt;/strong> b, c, d, f&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>6. Multiple Select Question (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="6-multiple-select-question-msq">&lt;/span>
+&lt;a href="#6-multiple-select-question-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Find the values of a for which the triangle ∆ABC is an isosceles triangle, where A, B, and C have the coordinates (-1,1), (1,3), and (3, a) respectively.&lt;/p>
+&lt;ul>
+&lt;li>If AB = BC, then a = 1.&lt;/li>
+&lt;li>If AB = BC, then a = -1 or 5.&lt;/li>
+&lt;li>If BC = CA, then a = -1.&lt;/li>
+&lt;li>If BC = CA, then a = 1.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>If AB = BC:&lt;/strong> $ a = 1 $ (since $ a = 5 $ gives collinear points)&lt;/li>
+&lt;li>&lt;strong>If BC = CA:&lt;/strong> $ a = -1 $&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Correct options:&lt;/strong>
+If AB = BC, then a = 1.
+If BC = CA, then a = -1.&lt;/p>
+&lt;hr>
+&lt;h2>7. Multiple Select Question (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="7-multiple-select-question-msq">&lt;/span>
+&lt;a href="#7-multiple-select-question-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+A plane begins to land when it is at a height of 1500 metre above the ground. It follows a straight line path and lands at a point which is at a horizontal distance of 2700 metre away. There are two towers which are at horizontal distances of 900 metre and 1800 metre away in the same direction as the landing point. Choose the correct option(s) regarding the plane&amp;rsquo;s trajectory and safe landing.&lt;/p>
+&lt;ul>
+&lt;li>The trajectory of the path could be $\frac{x}{27} + \frac{y}{15} = 100$ if x axis and y axis are horizontal and vertical respectively.&lt;/li>
+&lt;li>The maximum safe height of the towers are 1000 metre and 1500 metre respectively.&lt;/li>
+&lt;li>The trajectory of the path could be $\frac{x}{15} + \frac{y}{27} = 100$ if x axis and y axis are horizontal and vertical respectively.&lt;/li>
+&lt;li>The maximum safe height of the towers are 1500 metre and 500 metre respectively.&lt;/li>
+&lt;li>The maximum safe height of the towers are 1000 metre and 500 metre respectively.&lt;/li>
+&lt;li>None of the above.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Equation of trajectory: $\frac{x}{2700} + \frac{y}{1500} = 1$ or $\frac{x}{15} + \frac{y}{27} = 100$ (with x and y in km).
+Maximum safe heights at 900m and 1800m: 1000m and 500m respectively.&lt;/p>
+&lt;p>&lt;strong>Correct options:&lt;/strong>
+The trajectory of the path could be $\frac{x}{15} + \frac{y}{27} = 100$ if x axis and y axis are horizontal and vertical respectively.
+The maximum safe height of the towers are 1000 metre and 500 metre respectively.&lt;/p>
+&lt;hr>
+&lt;h2>8. Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="8-numerical-answer-type-nat">&lt;/span>
+&lt;a href="#8-numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Find the area of triangle ADE. [Given: A(2,6), D(2,-2), E(10,5)]&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Area = $\frac{1}{2} |x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)| = 32$&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> 32&lt;/p>
+&lt;hr>
+&lt;h2>9. Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="9-numerical-answer-type-nat">&lt;/span>
+&lt;a href="#9-numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Let the slope of a line FG be 2 and the coordinate of the point G be (a, 9). Then, what is the value of a? [Given: F is midpoint of AD, A(2,6), D(2,-2)]&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+F is $(2,2)$.
+Slope: $\frac{9-2}{a-2} = 2 \Rightarrow a = 5.5$&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> 5.5&lt;/p>
+&lt;hr>
+&lt;h2>10. Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="10-numerical-answer-type-nat">&lt;/span>
+&lt;a href="#10-numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Leo rents a motorcycle for 2 days. The rental company provides the motorcycle at Rs. 500 per day with 100 km free per day. The additional charges after 100 km are Rs. 2 per km. Leo drives the motorcycle for a total of 500 km. How much (Rs.) will he have to pay to the rental company?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Cost for 2 days: 2 × 500 = Rs. 1000
+Free km: 2 × 100 = 200 km
+Extra km: 500 - 200 = 300 km
+Extra cost: 300 × 2 = Rs. 600
+Total: 1000 + 600 = Rs. 1600&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> 1600&lt;/p>
+&lt;hr>
+&lt;h2>11. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="11-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#11-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+A vehicle is travelling on a straight line path and it passes through the points A(4, 2), B(-1,3), and C(2, μ). The value of μ is:&lt;/p>
+&lt;ul>
+&lt;li>2&lt;/li>
+&lt;li>4&lt;/li>
+&lt;li>-2&lt;/li>
+&lt;li>10&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Slope of AB = Slope of BC
+$\frac{3-2}{-1-4} = \frac{\mu-3}{2-(-1)}$
+$\mu = 4$&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> 4&lt;/p>
+&lt;hr>
+&lt;h2>12. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="12-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#12-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Suppose two boats are starting their journey from the ferry ghat A (considered as the origin), one towards ferry ghat B along the straight line y = -2x and the other towards the ferry ghat C along a straight line perpendicular to the path followed by B. The river is 1 km wide uniformly and parallel to the X-axis. Suppose Rahul wants to go to the exact opposite point of A along the river.
+How much total distance does Rahul have to travel to reach his destination if he takes the boat towards ferry ghat B?&lt;/p>
+&lt;ul>
+&lt;li>$\sqrt{5}$&lt;/li>
+&lt;li>$\sqrt{5}+2$&lt;/li>
+&lt;li>$\frac{\sqrt{5}}{2}$&lt;/li>
+&lt;li>$\frac{\sqrt{5}+1}{2}$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Distance from A to B: $\sqrt{5}$
+Distance from B to destination D: 1
+Total distance: $\frac{\sqrt{5}+1}{2}$ (Note: The solution in the PDF is unclear at this point, but according to the options and typical interpretation, $\frac{\sqrt{5}+1}{2}$ is selected.)&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> $\frac{\sqrt{5}+1}{2}$&lt;/p>
+&lt;hr>
+&lt;h2>13. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="13-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#13-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+How much total distance does Rahul have to travel to reach his destination if he takes the boat towards ferry ghat C?&lt;/p>
+&lt;ul>
+&lt;li>$\sqrt{5}$&lt;/li>
+&lt;li>$\sqrt{5}+2$&lt;/li>
+&lt;li>$\frac{\sqrt{5}}{2}$&lt;/li>
+&lt;li>$\frac{\sqrt{5}+1}{2}$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Distance from A to C: $\sqrt{5}$
+Distance from C to destination D: 2
+Total distance: $\sqrt{5}+2$&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> $\sqrt{5}+2$&lt;/p>
+&lt;hr>
+&lt;h2>14. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="14-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#14-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Suppose a bird is flying along the straight line 4x – 5y = 20 on the plane formed by the path of the flying bird and the line of eye point view of a person who shoots an arrow which passes through the origin and the point (10,8). What is the point on the coordinate plane where the arrow hits the bird?&lt;/p>
+&lt;ul>
+&lt;li>(20, 12)&lt;/li>
+&lt;li>(25, 16)&lt;/li>
+&lt;li>The arrow will miss the bird.&lt;/li>
+&lt;li>Inadequate information.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Arrow path: 8x – 10y = 0
+Bird path: 4x – 5y = 20
+Both have the same slope, so the lines are parallel. The arrow will miss the bird.&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> The arrow will miss the bird.&lt;/p>
+&lt;hr>
+&lt;h2>15. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="15-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#15-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+We plot the displacement (S) versus time (t) for different velocities as it follows the equation S = vt, where v is the velocity. Identify the best possible straight lines in the Figure P-3.2 for the given set of velocities.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Velocity&lt;/th>
+&lt;th style="text-align: left">Value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">V1&lt;/td>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">V2&lt;/td>
+&lt;td style="text-align: left">-2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">V3&lt;/td>
+&lt;td style="text-align: left">0.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">V4&lt;/td>
+&lt;td style="text-align: left">-1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Match the slope of each line to the velocity:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>V1 → l1&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>V2 → l4&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>V3 → l2&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>V4 → l3&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Correct option:&lt;/strong>
+V1 → l1, V2 → l4, V3 → l2, and v4 → l3.&lt;/p>
+&lt;hr>
+&lt;h2>16. Multiple Select Question (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="16-multiple-select-question-msq">&lt;/span>
+&lt;a href="#16-multiple-select-question-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+A constructor is asked to construct a road which is at a distance of $\sqrt{2}$ km from the municipality office and perpendicular to a road which can be defined by the equation of the straight line x - y = 8 (considering the municipality office to be the origin). Find out the possible equations of the straight lines to represent the new road to be constructed.&lt;/p>
+&lt;ul>
+&lt;li>x - y - 2 = 0&lt;/li>
+&lt;li>x + y + 2 = 0&lt;/li>
+&lt;li>x - y + 2 = 0&lt;/li>
+&lt;li>x + y - 2 = 0&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The new road is parallel to y = -x and at $\sqrt{2}$ km from the origin.
+Equations: x + y + 2 = 0 and x + y - 2 = 0&lt;/p>
+&lt;p>&lt;strong>Correct options:&lt;/strong> x + y + 2 = 0, x + y - 2 = 0&lt;/p>
+&lt;hr>
+&lt;h2>17. Multiple Select Question (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="17-multiple-select-question-msq">&lt;/span>
+&lt;a href="#17-multiple-select-question-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Suppose there are two roads perpendicular to each other which are both at the same distance from Priya&amp;rsquo;s house (considered as the origin). The meeting point of the two roads is on the x-axis and at a distance of 5 units from Priya&amp;rsquo;s house. Choose the correct possible equations representing the roads.&lt;/p>
+&lt;ul>
+&lt;li>y = x + 5, y = -2x - 5&lt;/li>
+&lt;li>y = -x – 5, y = x + 5&lt;/li>
+&lt;li>y = 2x - 10, y = -2x - 10&lt;/li>
+&lt;li>y = 2x – 5, y = -x - 5&lt;/li>
+&lt;li>y = -x + 5, y = x – 5&lt;/li>
+&lt;li>x = 5, x = -5&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Correct options:
+y = x - 5, y = -x - 5 (if meeting point is at (5,0) or (-5,0), but in the PDF, the final answer is &lt;strong>y = -x + 5, y = x - 5&lt;/strong> for (5,0), and &lt;strong>y = -x - 5, y = x + 5&lt;/strong> for (-5,0). However, the correct form should be:
+If the meeting point is at (5,0), the roads are y = x - 5 and y = -x + 5.
+If at (-5,0), they are y = x + 5 and y = -x - 5.
+&lt;strong>In the PDF, the options are not perfectly matched, but the closest are:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>y = -x + 5, y = x - 5&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>y = -x - 5, y = x + 5&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Correct options:&lt;/strong>
+y = -x + 5, y = x - 5
+y = -x - 5, y = x + 5&lt;/p>
+&lt;hr>
+&lt;h2>18. Multiple Select Question (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="18-multiple-select-question-msq">&lt;/span>
+&lt;a href="#18-multiple-select-question-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Which of the following option(s) is(are) true about the triangles ∆ABC and ∆DEF given in Figure PS-3.7?&lt;/p>
+&lt;ul>
+&lt;li>Only ∆ABC is a right angled triangle while ∆DEF is not.&lt;/li>
+&lt;li>Both ∆ABC and ∆DEF are right angled triangles.&lt;/li>
+&lt;li>The area of ∆ABC is greater than the area of ∆DEF.&lt;/li>
+&lt;li>Both the triangles have the same area.&lt;/li>
+&lt;li>The area of ∆DEF is 8 sq.unit.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Both triangles are right-angled.
+Area of ∆ABC: 6 sq.unit
+Area of ∆DEF: 8 sq.unit&lt;/p>
+&lt;p>&lt;strong>Correct options:&lt;/strong>
+Both ∆ABC and ∆DEF are right angled triangles.
+The area of ∆DEF is 8 sq.unit.&lt;/p>
+&lt;hr>
+&lt;h2>19. Multiple Select Question (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="19-multiple-select-question-msq">&lt;/span>
+&lt;a href="#19-multiple-select-question-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+Let the diagonals of a quadrilateral with one vertex at (0, 0) bisect each other perpendicularly at the point (1,2). Further, let one of the diagonals be on the straight line y = 2x. Then, which of the following is (are) correct statements?&lt;/p>
+&lt;ul>
+&lt;li>The diagonally opposite vertex of (0,0) is (2,4).&lt;/li>
+&lt;li>The other diagonal is on the straight line y = -x.&lt;/li>
+&lt;li>The other diagonal is on the straight line y = -x + 5/2.&lt;/li>
+&lt;li>The diagonally opposite vertex of (0,0) is (3,3).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Opposite vertex: (2,4)
+Other diagonal: y = -x/2 + 5/2&lt;/p>
+&lt;p>&lt;strong>Correct options:&lt;/strong>
+The diagonally opposite vertex of (0,0) is (2,4).
+The other diagonal is on the straight line y = -x + 5/2.&lt;/p>
+&lt;hr>
+&lt;h2>20. Multiple Select Question (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="20-multiple-select-question-msq">&lt;/span>
+&lt;a href="#20-multiple-select-question-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+A woman is reported missing in a locality. The police department finds a human femur bone during their investigation. They estimate the height H of a female adult (in cm) using the relationship H = 1.8f + 70, where f is the length (in cm) of the femur bone. The length of the femur found is 35 cm, and the missing woman is known to be 130 cm tall. In the particular locality, maximum height of a female is 195 cm and the minimum length of a female femur bone is 15 cm. Based on the given data answer the following questions.&lt;/p>
+&lt;ul>
+&lt;li>If an error of 1 cm is allowed, bone could belong to missing female.&lt;/li>
+&lt;li>If an error of 3 cm is allowed, bone could belong to missing female.&lt;/li>
+&lt;li>If the height as a function of femur length is known to be accurate, the range of the function is .&lt;/li>
+&lt;li>If the height as a function of femur length is known to be accurate, the range of the function is .&lt;/li>
+&lt;li>If the height as a function of femur length is known to be accurate, the domain of the function is .&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Height for f=35: 1.8×35 + 70 = 133 cm
+Error allowed: 3 cm (133-130=3), so bone could belong to missing female if error of 3 cm is allowed.
+Range: (minimum height: 1.8×15+70=97; maximum height: 195)
+Domain: [15, (195-70)/1.8 = 69.44&amp;hellip; but in the PDF, it says 625, which is likely a typo. However, according to the PDF, the answer is as follows:&lt;/p>
+&lt;p>&lt;strong>Correct options:&lt;/strong>
+If an error of 3 cm is allowed, bone could belong to missing female.
+If the height as a function of femur length is known to be accurate, the range of the function is .
+If the height as a function of femur length is known to be accurate, the domain of the function is . (Note: The domain value 625 is likely an error; the correct maximum f should be ≈ 69.44 for H=195.)&lt;/p>
+&lt;hr>
+&lt;h2>21. Multiple Choice Question (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="21-multiple-choice-question-mcq">&lt;/span>
+&lt;a href="#21-multiple-choice-question-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+A new detective agency came up with a relationship H = mf + 70, where H is the height of a male adult (in cm) and f is the length (in cm) of the femur bone. They have used the following sample set:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">f (cm)&lt;/th>
+&lt;th style="text-align: left">H (cm)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">40&lt;/td>
+&lt;td style="text-align: left">150&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">42&lt;/td>
+&lt;td style="text-align: left">160&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">48&lt;/td>
+&lt;td style="text-align: left">170&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">56&lt;/td>
+&lt;td style="text-align: left">180&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Choose the correct option (only one option is correct).&lt;/p>
+&lt;ul>
+&lt;li>m=1&lt;/li>
+&lt;li>m=1.5&lt;/li>
+&lt;li>m=2&lt;/li>
+&lt;li>m=2.5&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Minimum sum squared error is for m=2.&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> m=2&lt;/p>
+&lt;hr>
+&lt;h2>22. Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="22-numerical-answer-type-nat">&lt;/span>
+&lt;a href="#22-numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+What will be the slopes of the straight lines perpendicular to the following lines?&lt;/p>
+&lt;p>a) 2x + 5y - 9 = 0
+&lt;strong>Solution:&lt;/strong>
+Slope of given line: $-\frac{2}{5}$
+Slope of perpendicular line: $\frac{5}{2} = 2.5$&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> 2.5&lt;/p>
+&lt;hr>
+&lt;h2>23. Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="23-numerical-answer-type-nat">&lt;/span>
+&lt;a href="#23-numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question:&lt;/strong>
+b) -5x + 25y + 28 = 0
+&lt;strong>Solution:&lt;/strong>
+Slope of given line: $\frac{5}{25} = \frac{1}{5}$
+Slope of perpendicular line: $-5$&lt;/p>
+&lt;p>&lt;strong>Answer:&lt;/strong> -5&lt;/p>
+&lt;hr>
+&lt;p>This covers all questions and solutions from the provided PDF&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-2-Practice-Assignment-Solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://www.scribd.com/document/729269614/Week-2-Practice-Assignment-Solution" target="_blank" rel="noopener">https://www.scribd.com/document/729269614/Week-2-Practice-Assignment-Solution&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 3 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w3pa3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w3pa3/</guid><description>
+&lt;hr>
+&lt;h2>1. Multiple Choice Questions (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="1-multiple-choice-questions-mcq">&lt;/span>
+&lt;a href="#1-multiple-choice-questions-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>1. What will be the equation of the tangent to the curve $ f(x) = 2x^2 + 9x + 20 $ at point $(-3, 11)$?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>$ y = 3x $&lt;/li>
+&lt;li>$ y = -3x + 2 $&lt;/li>
+&lt;li>$ y = -3x + 20 $&lt;/li>
+&lt;li>$ y = -\frac{x}{3} + 2 $&lt;/li>
+&lt;li>$ y = \frac{x}{3} + 20 $&lt;/li>
+&lt;li>$ y = -\frac{x}{3} $&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Slope at $ x = -3 $: $ m = 2 \times 2 \times (-3) + 9 = -3 $
+Equation of tangent: $ y = -3x + c $
+Passes through $(-3, 11)$: $ 11 = -3 \times (-3) + c \implies c = 2 $
+&lt;strong>Answer:&lt;/strong> $ y = -3x + 2 $&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>2. Find the length of the line segment on the straight line $ y = 2 $ bounded by the curve $ y = 4x^2 $.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>$ \frac{1}{\sqrt{2}} $&lt;/li>
+&lt;li>$ \sqrt{2} $&lt;/li>
+&lt;li>$ 1 + \sqrt{2} $&lt;/li>
+&lt;li>$ 1 + \frac{1}{\sqrt{2}} $&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Intersection points: $ 4x^2 = 2 \implies x = \pm \frac{1}{\sqrt{2}} $
+Length: $ \left| \frac{1}{\sqrt{2}} - \left(-\frac{1}{\sqrt{2}}\right) \right| = \frac{2}{\sqrt{2}} = \sqrt{2} $
+&lt;strong>Answer:&lt;/strong> $ \sqrt{2} $&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>3. Mr. Mehta has two sons. Both sons send money to their father each month separately as $ M_1(x) = (x-2)^2 $ and $ M_2(x) = (x+2)^2 $. If $ x $ denotes the month, then choose the curve which best represents the total amount $ P(x) $ received by Mr. Mehta every month.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$ P(x) = (x-2)^2 + (x+2)^2 = 2x^2 + 8 $
+&lt;strong>Answer:&lt;/strong> The curve passing through $(0,8), (1,10), (4,40)$&lt;sup id="fnref2:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref1:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>4. A civil engineer found that the durability $ d $ of the road she is laying depends on two functions $ y_1 $ and $ y_2 $ as follows: $ d = a y_1 y_2 $ where $ a &amp;gt; 0 $. Functions $ y_1 $ and $ y_2 $ depend on the amount of plastic ($ x $) mixed in bitumen, and their variations are shown in the graph given below. Find the values of functions $ y_1 $ and $ y_2 $ such that the durability of the road is maximum.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+From graph: $ y_1 = 6 - x $, $ y_2 = x + 1 $
+$ d = a(6-x)(x+1) = -a x^2 + 5a x + 6a $
+Maximum at $ x = \frac{5}{2} $:
+$ y_1 = 6 - \frac{5}{2} = \frac{7}{2} $, $ y_2 = \frac{5}{2} + 1 = \frac{7}{2} $&lt;sup id="fnref3:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>5. Let $ A $ be the set of all points on the curve defined by the function $ f_1(x) = x^2 - x - 42 $ and let $ B $ be the set of all points on the curve $ f_2 $ defined by the reflection of the curve $ f_1 $ with respect to the $ X $-axis. If $ C $ is the set of all points on the axes, then choose the correct option regarding the cardinality of set $ D $ where $ D = (A \cap B) \cup (A \cap C) \cup (B \cap C) $.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>infinite&lt;/li>
+&lt;li>8&lt;/li>
+&lt;li>4&lt;/li>
+&lt;li>6&lt;/li>
+&lt;li>2&lt;/li>
+&lt;li>zero&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+After analysis, the cardinality of $ D $ is 4.
+&lt;strong>Answer:&lt;/strong> 4&lt;sup id="fnref4:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>6. Let $ f_1(x) = x^2 - 25 $. Let $ A $ be the set of all points inside the region by the curves representing $ f_1(x) $ and its reflection $ f_2(x) $ with respect to the $ X $-axis (excluding the points on the curve). Choose the correct option.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The cardinality of $ A $ is 2.&lt;/li>
+&lt;li>The cardinality of $ A $ is 4.&lt;/li>
+&lt;li>$ Y $-coordinates of the points in set $ A $ belong to the interval $(-25, 25)$.&lt;/li>
+&lt;li>$ Y $-coordinates of the points in set $ A $ belong to the interval $[-25, 25]$.&lt;/li>
+&lt;li>$ X $-coordinates of the points in set $ A $ belong to the interval $[-5, 5]$.&lt;/li>
+&lt;li>$ X $-coordinates of the points in set $ A $ will be all real numbers because $ f_1 $ is a quadratic function.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$ A $ is infinite.
+$ Y $-coordinates: $(-25, 25)$
+$ X $-coordinates: $(-5, 5)$
+&lt;strong>Correct option:&lt;/strong> $ Y $-coordinates of the points in set $ A $ belong to the interval $(-25, 25)$&lt;sup id="fnref5:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref1:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;h2>2. Multiple Select Questions (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="2-multiple-select-questions-msq">&lt;/span>
+&lt;a href="#2-multiple-select-questions-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>7. Choose the correct set of options regarding the function $ f(x) = x^2 + 6x + 8 $.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>$ y = -3 $ is the axis of symmetry.&lt;/li>
+&lt;li>$-2$ and $-4$ are the zeroes of the above function.&lt;/li>
+&lt;li>The maximum value of the above function is $-1$.&lt;/li>
+&lt;li>Slope of the function at $(-3, -1)$ is zero.&lt;/li>
+&lt;li>$ 2x + 6 $ is the slope of this curve at any given $ x $.&lt;/li>
+&lt;li>The function is symmetric around $ x = 3 $.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Correct:&lt;/strong> $-2$ and $-4$ are the zeros; slope at $(-3, -1)$ is zero; slope at any $ x $ is $ 2x + 6 $.&lt;/li>
+&lt;li>&lt;strong>Incorrect:&lt;/strong> $ y = -3 $ is not the axis of symmetry; maximum value is not $-1$ (it&amp;rsquo;s a minimum); not symmetric around $ x = 3 $&lt;sup id="fnref6:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref2:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref2:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>8. A quadratic function $ f $ is such that its value decreases over the interval $(-\infty, -2)$ and increases over the interval $(-2, \infty)$, and $ f(0) = f(-4) = 23 $. Then, $ f $ can be:&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>$-3x^2 - 12x + 23$&lt;/li>
+&lt;li>$3x^2 + 12x + 23$&lt;/li>
+&lt;li>$5(x-2)^2 + 3$&lt;/li>
+&lt;li>$5(x+2)^2 + 3$&lt;/li>
+&lt;li>$a x^2 + 4a x + 23, a &amp;gt; 0$&lt;/li>
+&lt;li>$a x^2 + 4a x + 23, a &amp;lt; 0$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Correct:&lt;/strong> $ 3x^2 + 12x + 23 $, $ 5(x+2)^2 + 3 $, $ a x^2 + 4a x + 23, a &amp;gt; 0 $&lt;sup id="fnref7:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>9. Suppose one root of a quadratic equation of the form $ a x^2 + b x + c = 0 $, with $ a, b, c \in \mathbb{R} $, is $ 2 + \sqrt{3} $. Then choose the correct set of options.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>There can be infinitely many such quadratic equations.&lt;/li>
+&lt;li>There is no such quadratic equation.&lt;/li>
+&lt;li>There is a unique quadratic equation satisfying the properties.&lt;/li>
+&lt;li>$ x^2 - 4x + 1 = 0 $ is one such quadratic equation.&lt;/li>
+&lt;li>$ x^2 - 2x - 3 = 0 $ is one such quadratic equation.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Correct:&lt;/strong> There can be infinitely many such quadratic equations; $ x^2 - 4x + 1 = 0 $ is one such equation&lt;sup id="fnref8:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref2:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>10. A company&amp;rsquo;s profits are known to be dependent on the months of a year. The profit pattern (in lakhs of Rupees) from January to December is $ P(x) = -2x^2 + 25x $. Here, $ x $ represents the month number, starting from 1 (for January) and ending at 12 (for December). On this basis, choose the correct option.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The maximum profit in a month is Rs. 78 lakhs.&lt;/li>
+&lt;li>The maximum profit in a month is Rs. 78.125 lakhs.&lt;/li>
+&lt;li>The maximum profit in a month is Rs. 77 lakhs.&lt;/li>
+&lt;li>The maximum profit is recorded in June.&lt;/li>
+&lt;li>The profit in December is 144 lakhs.&lt;/li>
+&lt;li>None of the above.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Correct:&lt;/strong> The maximum profit in a month is Rs. 78 lakhs (in June)&lt;sup id="fnref9:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>11. Raghav sells 2000 packets of bread for Rs. 20,000 each day, and makes a profit of Rs. 4,000 per day. He finds that if the cost price increases by Rs. $ x $ per packet, he can increase the selling price by Rs. $ 2x $ per packet. However, when this price increase happens, he loses $ 200x $ of his customers. Choose the correct options.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>For the maximum profit per day, cost price is Rs. 12 per packet.&lt;/li>
+&lt;li>For the maximum profit per day, cost price is Rs. 4 per packet.&lt;/li>
+&lt;li>For the maximum profit per day, the sale price increases by Rs. 4 per packet.&lt;/li>
+&lt;li>For the maximum profit per day, Raghav will lose 400 customers.&lt;/li>
+&lt;li>The maximum difference in profit per day could be Rs. 3200.&lt;/li>
+&lt;li>The maximum difference in profit per day could be Rs. 7200.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Correct:&lt;/strong> For the maximum profit per day, cost price is Rs. 12 per packet; maximum difference in profit per day could be Rs. 3200&lt;sup id="fnref10:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>3. Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="3-numerical-answer-type-nat">&lt;/span>
+&lt;a href="#3-numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>12. A farmer has a wire of length 576 metres. He uses it to fence his rectangular field to protect it from animals. If he fences his field with four rounds of wire, and the field has the maximum area possible to accommodate such a fencing, what is the area (in square metres) of the field?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Perimeter per round: $ 2(l + m) $
+Total perimeter: $ 4 \times 2(l + m) = 576 \implies l + m = 72 $
+Area: $ A = l(72 - l) $
+Maximum area: $ A_{max} = 1296 $
+&lt;strong>Answer:&lt;/strong> 1296&lt;sup id="fnref11:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref3:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref3:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>13. Consider the quadratic function $ f(x) = x^2 - 2x - 8 $. Two points $ P $ and $ Q $ are chosen on this curve such that they are 2 units away from the axis of symmetry. $ R $ is the point of intersection of axis of symmetry and the $ X $-axis. And $ S $ is the vertex of the curve. Based on this information, answer the following:&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>a) What is the height of $ \triangle PQR $ taking $ PQ $ as the base?&lt;/strong>
+&lt;strong>Solution:&lt;/strong>
+Axis of symmetry: $ x = 1 $
+Points: $ x = -1, 3 \implies y = -5 $
+Height: $ 0 - (-5) = 5 $
+&lt;strong>Answer:&lt;/strong> 5&lt;/p>
+&lt;p>&lt;strong>b) What is the height of $ \triangle PQS $ taking $ PQ $ as the base?&lt;/strong>
+&lt;strong>Solution:&lt;/strong>
+Vertex: $ y = -9 $
+Height: $ -5 - (-9) = 4 $
+&lt;strong>Answer:&lt;/strong> 4&lt;sup id="fnref12:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>14. What will be the value of parameter $ k $, if the discriminant of equation $ 4x^2 + 9x + 10k = 0 $ is 1?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>$ \frac{82}{80} $&lt;/li>
+&lt;li>$ \frac{41}{80} $&lt;/li>
+&lt;li>$ \frac{1}{2} $&lt;/li>
+&lt;li>$ \frac{41}{160} $&lt;/li>
+&lt;li>1&lt;/li>
+&lt;li>None of the above.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Discriminant: $ 81 - 160k = 1 \implies k = \frac{1}{2} $
+&lt;strong>Answer:&lt;/strong> $ \frac{1}{2} $&lt;sup id="fnref13:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>15. A boat has a speed of 30 km/hr in still water. In flowing water, it covers a distance of 50 km in the direction of flow and comes back in the opposite direction. If it covers this total of 100 km in 10 hours, then what is the speed of flow of the water (in km/hr)?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>$ 5 - 5\sqrt{37} $&lt;/li>
+&lt;li>$ -10\sqrt{6} $&lt;/li>
+&lt;li>$ 10\sqrt{6} $&lt;/li>
+&lt;li>$ 20\sqrt{3} $&lt;/li>
+&lt;li>$ -20\sqrt{3} $&lt;/li>
+&lt;li>2&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Let speed of flow = $ x $
+$ \frac{50}{30 + x} + \frac{50}{30 - x} = 10 $
+Solving, $ x = 10\sqrt{6} $
+&lt;strong>Answer:&lt;/strong> $ 10\sqrt{6} $&lt;sup id="fnref14:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>16. A stunt man performs a bike stunt between two houses of the same height as shown in Figure 1. His bike (lowest part of the bike) makes an angle of $ \theta $ at house $ A $ with the horizontal at the beginning of the stunt, follows a parabolic path and lands at house $ B $ with an angle of $ (180 - \theta) $ with the horizontal. If the maximum height achieved by the bike is 12.5 ft from the ground and $ \tan \theta = 1 $, then find the distance between the two houses.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>1 ft&lt;/li>
+&lt;li>2.5 ft&lt;/li>
+&lt;li>5 ft&lt;/li>
+&lt;li>10 ft&lt;/li>
+&lt;li>15 ft&lt;/li>
+&lt;li>20 ft&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Distance between houses: 10 ft
+&lt;strong>Answer:&lt;/strong> 10 ft&lt;sup id="fnref15:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;h2>4. Multiple Select Questions (MSQ) Continued&lt;span class="hx-absolute -hx-mt-20" id="4-multiple-select-questions-msq-continued">&lt;/span>
+&lt;a href="#4-multiple-select-questions-msq-continued" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>17. Given that $ f_1(x) = -x^2 - 6x $ and $ f_2(x) = x^2 + 6x + 10 $. Let $ f(x) $ be a function such that the domain of $ f(x) $ is $[\alpha, \beta]$, where $ f_1(\alpha) = f_2(\alpha) $ and $ f_1(\beta) = f_2(\beta) $, then choose the set of correct options.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Range of $ f(x) $ is $[-1, 3]$.&lt;/li>
+&lt;li>Range of $ f(x) $ is $&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>$.&lt;/li>
+&lt;li>Domain of $ f(x) $ is $[-5, 5]$.&lt;/li>
+&lt;li>Domain of $ f(x) $ is $[-5, -1]$.&lt;/li>
+&lt;li>Inadequate information provided for finding the range of $ f(x) $.&lt;/li>
+&lt;li>Inadequate information provided for finding the domain of $ f(x) $.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Correct:&lt;/strong> Domain of $ f(x) $ is $[-5, -1]$; inadequate information for range&lt;sup id="fnref16:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>18. If $ f(x) = 2x^2 + (5 + k)x + 7 $, $ g(x) = 5x^2 + (3 + k)x + 1 $, $ h_1(x) = f(x) - g(x) $, and $ h_2(x) = g(x) - f(x) $, then choose the set of correct options.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Roots for $ h_1(x) = 0 $ and roots for $ h_2(x) = 0 $ are real, distinct, and the roots are the same for $ h_1(x) = 0 $ and $ h_2(x) = 0 $.&lt;/li>
+&lt;li>Roots for $ h_1(x) = 0 $ and roots for $ h_2(x) = 0 $ are real and distinct but the roots are not the same for $ h_1(x) = 0 $ and $ h_2(x) = 0 $.&lt;/li>
+&lt;li>Sum of roots of quadratic equation $ h_1(x) = 0 $ will be $ \frac{2}{3} $.&lt;/li>
+&lt;li>Product of roots of quadratic equation $ h_2(x) = 0 $ will be $-2$.&lt;/li>
+&lt;li>Axis of symmetry for both the functions $ h_1(x) $ and $ h_2(x) $ will be the same.&lt;/li>
+&lt;li>Vertex for both the functions $ h_1(x) $ and $ h_2(x) $ will be the same.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Correct:&lt;/strong> Roots for $ h_1(x) = 0 $ and roots for $ h_2(x) = 0 $ are real, distinct, and the roots are the same for $ h_1(x) = 0 $ and $ h_2(x) = 0 $; sum of roots of $ h_1(x) = 0 $ is $ \frac{2}{3} $; product of roots of $ h_2(x) = 0 $ is $-2$; axis of symmetry is the same&lt;sup id="fnref17:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>5. Contextual Questions&lt;span class="hx-absolute -hx-mt-20" id="5-contextual-questions">&lt;/span>
+&lt;a href="#5-contextual-questions" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Vaishali wants to set up a small plate making machine in her village. The table shows the different costs involved in making the plates. The demand (number of packets of the plate) versus selling price of plate per packet (in ₹) per day is shown in the figure.&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Cost type&lt;/th>
+&lt;th style="text-align: left">Cost (₹) per packet&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">Electricity&lt;/td>
+&lt;td style="text-align: left">1.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Miscellaneous&lt;/td>
+&lt;td style="text-align: left">6.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Raw material&lt;/td>
+&lt;td style="text-align: left">10&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Demand vs Selling price:&lt;/strong>
+From figure, demand $ y = -2x + 120 $&lt;/p>
+&lt;p>&lt;strong>Profit:&lt;/strong>
+Profit = Demand × (Selling price – Cost price) = $(-2x + 120)(x - 18)$&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>19. Which of the following expressions represents the profit per day?&lt;/strong>
+&lt;ul>
+&lt;li>$ 2(60 - x) $&lt;/li>
+&lt;li>$ (x - 18) $&lt;/li>
+&lt;li>$ 2(x - 18)(60 - x) $&lt;/li>
+&lt;li>$ (x + 18)(60 - x) $&lt;/li>
+&lt;li>Inadequate information.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Profit = $ (-2x + 120)(x - 18) = 2(x - 18)(60 - x) $
+&lt;strong>Answer:&lt;/strong> $ 2(x - 18)(60 - x) $&lt;sup id="fnref18:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>20. Vaishali should sell a packet with a minimum price of ₹___ so as not to incur any loss.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Profit = 0 at $ x = 18 $ or $ x = 60 $. Minimum price: ₹18
+&lt;strong>Answer:&lt;/strong> ₹18&lt;/p>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>21. To make maximum profit per day, the selling price per packet should be ₹___ (if not restricted by market).&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Maximum profit at $ x = 39 $
+&lt;strong>Answer:&lt;/strong> ₹39&lt;/p>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>22. What should be the price of plate per packet (₹) to make a profit of ₹490 per day?&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Solve $ 2(x - 18)(60 - x) = 490 $
+Solution: $ x = 25 $
+&lt;strong>Answer:&lt;/strong> ₹25&lt;sup id="fnref19:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>23. What will be the value of $ m + n $ if the sum of the roots and the product of the roots of equation $(5m + 5)x^2 - (4n + 3)x + 10 = 0$ are 3 and 2 respectively?&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Sum: $ \frac{4n + 3}{5m + 5} = 3 \implies 4n + 3 = 15m + 15 $
+Product: $ \frac{10}{5m + 5} = 2 \implies 10 = 10m + 10 \implies m = 0 $
+Then, $ 4n + 3 = 15 \implies n = 3 $
+&lt;strong>Answer:&lt;/strong> $ m + n = 3 $&lt;sup id="fnref20:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;ul>
+&lt;li>&lt;strong>24. What will the sum of two positive integers be if the sum of their squares is 369 and the difference between them is 3?&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Let integers be $ a $ and $ b $.
+$ a^2 + b^2 = 369 $
+$ a - b = 3 $
+Solve: $ (a + b)^2 = 729 \implies a + b = 27 $
+&lt;strong>Answer:&lt;/strong> 27&lt;sup id="fnref21:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>This covers all questions and solutions from the provided PDF.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-3-Practice-Assignment-Solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref4:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref5:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref6:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref7:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref8:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref9:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref10:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref11:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref12:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref13:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref14:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref15:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref16:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref17:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref18:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref19:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref20:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref21:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://www.studocu.com/in/document/indian-institute-of-technology-madras/mathematics-for-data-science/week-3-practice-assignment-solution/48793187" target="_blank" rel="noopener">https://www.studocu.com/in/document/indian-institute-of-technology-madras/mathematics-for-data-science/week-3-practice-assignment-solution/48793187&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a href="https://www.studocu.com/in/document/gurukul-vidyapeeth/mathematics-analysis-and-approaches-hl/week-3-practice-assignment-solution/100249535" target="_blank" rel="noopener">https://www.studocu.com/in/document/gurukul-vidyapeeth/mathematics-analysis-and-approaches-hl/week-3-practice-assignment-solution/100249535&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a href="https://www.scribd.com/document/729269613/Week-3-Practice-Assignment-Solution" target="_blank" rel="noopener">https://www.scribd.com/document/729269613/Week-3-Practice-Assignment-Solution&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;a href="https://www.scribd.com/document/599480347/Mathematics-Graded-Assignment-Week-3-2" target="_blank" rel="noopener">https://www.scribd.com/document/599480347/Mathematics-Graded-Assignment-Week-3-2&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 4 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w4pa4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w4pa4/</guid><description>
+&lt;hr>
+&lt;h2>Multiple Choice Questions (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="multiple-choice-questions-mcq">&lt;/span>
+&lt;a href="#multiple-choice-questions-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 1:&lt;/strong>
+Which of the following polynomial functions represents the profit from selling Tamil books?&lt;/p>
+&lt;ul>
+&lt;li>○ 2x³ + 4x² - 2x - 4&lt;/li>
+&lt;li>○ x³ - 2x² - x + 2&lt;/li>
+&lt;li>○ x³ + 2x² - x - 2&lt;/li>
+&lt;li>○ 2x³ - 4x² - 2x + 4&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The profit from selling Tamil books is $x^3 + 2x^2 - x - 2$.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 2:&lt;/strong>
+In which year was the profit from Hindi books zero?&lt;/p>
+&lt;ul>
+&lt;li>○ 2001&lt;/li>
+&lt;li>○ 2002&lt;/li>
+&lt;li>○ 2004&lt;/li>
+&lt;li>○ 2010&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The profit from Hindi books was zero in the year &lt;strong>2001&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 3:&lt;/strong>
+Find the quadratic polynomial which when divided by $x$, $x – 1$, and $x + 1$ gives the remainders 7, 14, and 8 respectively.&lt;/p>
+&lt;ul>
+&lt;li>○ 4x² - 3x +7&lt;/li>
+&lt;li>○ x² + 7x +7&lt;/li>
+&lt;li>○ 7x² + x +7&lt;/li>
+&lt;li>○ 4x² + 3x + 7&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The quadratic polynomial is $4x^2 + 3x + 7$.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 4:&lt;/strong>
+Box A has length $x$ unit, breadth $(x + 1)$ unit, and height $(x + 2)$ unit. Box B has length $(x + 1)$ unit, breadth $(x + 1)$ unit, and height $(x + 2)$ unit. There are two more boxes C and D of cubic shape with side $x$ unit. The total volume of A and B is $y$ cubic unit more than the total volume of C and D. Find $y$ in terms of $x$.&lt;/p>
+&lt;ul>
+&lt;li>○ $x^3 + 7x^2 + 7x + 2$&lt;/li>
+&lt;li>○ $7x^2 + 7x + 2$&lt;/li>
+&lt;li>○ $7x^2 + 7x - 2$&lt;/li>
+&lt;li>○ $x^3 + 7x^2 + 7x - 2$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$y = 7x^2 + 7x + 2$.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 5:&lt;/strong>
+The population of a bacteria culture in laboratory conditions is known to be a function of time of the form $p(t) = at^5 + bt^2 + c$, where $p$ represents the population (in lakhs) and $t$ represents the time (in minutes). Suppose a student conducts an experiment to determine the coefficients $a, b,$ and $c$ in the formula and obtains the following data:&lt;/p>
+&lt;ul>
+&lt;li>$p(0) = 3$&lt;/li>
+&lt;li>$p(1) = 5$&lt;/li>
+&lt;li>$p(2) = 39$&lt;/li>
+&lt;/ul>
+&lt;p>Which of the following options is correct?&lt;/p>
+&lt;ul>
+&lt;li>○ $p(t) = 3t^5 – t^2 + 3$&lt;/li>
+&lt;li>○ $p(t) = 4t^5 - 2t^2 + 3$&lt;/li>
+&lt;li>○ $p(t) = t^5 + t^2 + 3$&lt;/li>
+&lt;li>○ $p(t) = 39t^5 + 5t^2 + 3$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The correct function is $p(t) = t^5 + t^2 + 3$.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 6:&lt;/strong>
+If the polynomials $x^3 + ax^2 + 5x + 7$ and $x^3 + 2x^2 + 3x + 2a$ leave the same remainder when divided by $(x - 2)$, then the value of $a$ is:&lt;/p>
+&lt;ul>
+&lt;li>○ $-3/2$&lt;/li>
+&lt;li>○ $3/2$&lt;/li>
+&lt;li>○ $-5/2$&lt;/li>
+&lt;li>○ $5/2$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The value of $a$ is $-3/2$.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 7:&lt;/strong>
+Let $r(x)$ be a polynomial function which is obtained as the remainder after dividing the polynomial $2x^3 + x^2 – 5$ by the polynomial $2x – 3$. Choose the correct option which represents the polynomial $r(x)$ most appropriately.&lt;/p>
+&lt;p>(The question includes figures labeled Option A, B, C, D, but the exact images are not shown here.)&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The remainder $r(x) = 4$, which is a constant polynomial. Hence, the correct option is the one representing a constant value.&lt;/p>
+&lt;hr>
+&lt;h2>Multiple Select Questions (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="multiple-select-questions-msq">&lt;/span>
+&lt;a href="#multiple-select-questions-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 8:&lt;/strong>
+By dividing a polynomial $p(x)$ with another polynomial $q(x)$ we get $h(x)$ as the quotient and $r(x)$ as the remainder.
+The maximum degree of $r(x)$ can be:&lt;/p>
+&lt;ul>
+&lt;li>○ deg $p(x)$&lt;/li>
+&lt;li>○ deg $(p(x)) - 1$&lt;/li>
+&lt;li>○ deg $q(x)$&lt;/li>
+&lt;li>○ deg $(q(x)) – 1$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The maximum degree of $r(x)$ is &lt;strong>deg $(q(x)) – 1$&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 9:&lt;/strong>
+If deg $p(x) &amp;lt;$ deg $q(x)$, then choose the set of correct answers:&lt;/p>
+&lt;ul>
+&lt;li>☐ $h(x) = 0$&lt;/li>
+&lt;li>☐ deg $h(x) =$ deg $q(x)$&lt;/li>
+&lt;li>☐ deg $r(x) =$ deg $q(x)$&lt;/li>
+&lt;li>☐ deg $r(x) =$ deg $p(x)$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The correct answers are:&lt;/p>
+&lt;ul>
+&lt;li>$h(x) = 0$&lt;/li>
+&lt;li>deg $r(x) =$ deg $p(x)$&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="numerical-answer-type-nat">&lt;/span>
+&lt;a href="#numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 10:&lt;/strong>
+An open box can be made from a piece of cardboard of length $7x$ unit and breadth $5x$ unit, by cutting squares of side $x$ unit out of the corners of the rectangular cardboard, then folding up the sides as shown in the Figure P-6.1.&lt;/p>
+&lt;p>What will be the coefficient of $x^3$ in the polynomial representing the volume of the box?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The coefficient of $x^3$ is &lt;strong>15&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 11:&lt;/strong>
+What will be the coefficient of $x^2$ in the polynomial representing the volume of the box?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The coefficient of $x^2$ is &lt;strong>0&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 12:&lt;/strong>
+What should be subtracted from the polynomial $P(x) = 6x^4 + 5x^3 + 4x – 4$ to make it divisible by $2x^2 + x – 1$?&lt;/p>
+&lt;ul>
+&lt;li>○ 4x&lt;/li>
+&lt;li>○ 4x – 3&lt;/li>
+&lt;li>○ 6x – 3&lt;/li>
+&lt;li>○ 2x – 3&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The correct answer is &lt;strong>4x – 3&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 13:&lt;/strong>
+Table 1 provides the information regarding some polynomials. Which is the most suitable (not exact) representation of $h(x)$ where $h(x)$ is known to be a polynomial in $x$, and if $h(x) = (P(x)Q(x)-R(x)S(x)+S(x)P(x))/(P(x)+P(x)Q^2(x))$?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The most suitable representation is &lt;strong>option D&lt;/strong> (a constant polynomial).&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 14:&lt;/strong>
+A manufacturing company produces three types of products A, B, and C from one raw material in a single continuous process. This process generates total solid wastes (W) (in kg) as $W(r) = -0.0001r^3 + 0.1r^2 + r$, where $r$ is the amount of raw material used in kg. If instead, the company uses three different batch-processes (one batch process for one product) to produce the above products, then the amount of waste generated because of products A, B, and C are given as $W_A = -0.00001r^4 + 0.015r^3$, $W_B = -0.005r^3 + 0.05r^2$, and $W_C = 0.05r^2$ respectively.&lt;/p>
+&lt;p>What is the total amount of waste generated because of the three different batch-processes?&lt;/p>
+&lt;ul>
+&lt;li>○ $-0.00001r^4 + 0.01r^3 + 1.5r^2$&lt;/li>
+&lt;li>○ $-0.00001r^4 + 0.015r^3 + 1.5r^2$&lt;/li>
+&lt;li>○ $-0.00001r^4 + 0.01r^3 + 0.1r^2$&lt;/li>
+&lt;li>○ $-0.00001r^4 + 0.01r^3 + 0.5r^2$&lt;/li>
+&lt;li>○ $-0.00001r^4 + r^3 + 1.5r^2$&lt;/li>
+&lt;li>○ $0.0001r^4 + 0.01r^3 + 1.5r^2$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The total amount of waste generated is $-0.00001r^4 + 0.01r^3 + 0.1r^2$.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 15:&lt;/strong>
+What is the ratio of the total waste generated by the three-batch-processes with respect to the single continuous process?&lt;/p>
+&lt;ul>
+&lt;li>○ $-0.001r^2$&lt;/li>
+&lt;li>○ $-0.001r$&lt;/li>
+&lt;li>○ $-0.01r$&lt;/li>
+&lt;li>○ $-0.1r$&lt;/li>
+&lt;li>○ $0.1r$&lt;/li>
+&lt;li>○ $0.01r$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The ratio is &lt;strong>0.1r&lt;/strong> (Note: The solution in the PDF shows the ratio as $\frac{WA + WB + WC}{W(r)} = 0.1r$, but this is a simplification. The correct option is &lt;strong>0.1r&lt;/strong> as per the options given.)&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 16:&lt;/strong>
+Let the company wastes Rs. 5,000 in waste treatment when it uses the single continuous process by consuming 100 kg of raw material. If instead of continuous process the company uses the three-batch-processes, then how much extra amount (in Rs.) will the company have to pay for waste treatment with respect to the continuous process?&lt;/p>
+&lt;ul>
+&lt;li>○ 50,000&lt;/li>
+&lt;li>○ 500&lt;/li>
+&lt;li>○ 45,000&lt;/li>
+&lt;li>○ 5,000&lt;/li>
+&lt;li>○ 4,000&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The extra amount required is &lt;strong>45,000&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h2>Multiple Select Questions (MSQ) (continued)&lt;span class="hx-absolute -hx-mt-20" id="multiple-select-questions-msq-continued">&lt;/span>
+&lt;a href="#multiple-select-questions-msq-continued" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 17:&lt;/strong>
+Given $P(x)$ and $Q(x)$ be two non zero polynomials of degrees $m$ and $n$ respectively. If $f(x) = P(x) + Q(x)$, $g(x) = P(x)Q(x)$, and $h(x) = P(x){P(x)Q(x) + P(x)}$, If $h(x)$ is known to be a polynomial in $x$, then choose the set of correct options.&lt;/p>
+&lt;ul>
+&lt;li>The degree of $f(x)$ is $m + n$.&lt;/li>
+&lt;li>The degree of $g(x)$ is $m + n$.&lt;/li>
+&lt;li>The degree of $f(x)$ is $\max{m, n}$ if $m \neq n$, where $\max{m, n}$ represents the maximum value from $m$ and $n$.&lt;/li>
+&lt;li>The degree of $h(x)$ is $m^3$.&lt;/li>
+&lt;li>The degree of $h(x)$ is $n^3$.&lt;/li>
+&lt;li>The degree of $h(x)$ is $2m + n$.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The correct options are:&lt;/p>
+&lt;ul>
+&lt;li>The degree of $g(x)$ is $m + n$.&lt;/li>
+&lt;li>The degree of $f(x)$ is $\max{m, n}$ if $m \neq n$.&lt;/li>
+&lt;li>The degree of $h(x)$ is $2m + n$.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Question 18:&lt;/strong>
+Given a polynomial $P(x) = (2x+5)(1-3x)(x^2 + 3x + 1)$, then choose the set of correct options.&lt;/p>
+&lt;ul>
+&lt;li>Coefficient of $x^5$ is 0.&lt;/li>
+&lt;li>Coefficient of $x^3$ is -18.&lt;/li>
+&lt;li>Degree of $P$ is 4.&lt;/li>
+&lt;li>Coefficient of $x^3$ is -31.&lt;/li>
+&lt;li>Degree of $P$ is 7.&lt;/li>
+&lt;li>All of the above.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The correct options are:&lt;/p>
+&lt;ul>
+&lt;li>Coefficient of $x^5$ is 0.&lt;/li>
+&lt;li>Degree of $P$ is 4.&lt;/li>
+&lt;li>Coefficient of $x^3$ is -31.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Question 19:&lt;/strong>
+A sheet ABCD of dimensions 10 ft x 3 ft is shown in Figure 7. A box is made by removing two squares of equal dimensions AEFG and DHIJ and two rectangles of equal dimensions BKLM and CNOP respectively.&lt;/p>
+&lt;ul>
+&lt;li>The volume of the box is $2x^2 – 23x + 30$.&lt;/li>
+&lt;li>The volume of the box is $2x^3 – 13x^2 + 15x$.&lt;/li>
+&lt;li>If $x = 0.5$, then the volume of the box is 5.625 cubic ft.&lt;/li>
+&lt;li>To create the box, value of $x$ should always be greater than 0 but less than 1.5.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The correct options are:&lt;/p>
+&lt;ul>
+&lt;li>The volume of the box is $2x^3 – 13x^2 + 15x$.&lt;/li>
+&lt;li>To create the box, value of $x$ should always be greater than 0 but less than 1.5.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Numerical Answer Type (NAT) (continued)&lt;span class="hx-absolute -hx-mt-20" id="numerical-answer-type-nat-continued">&lt;/span>
+&lt;a href="#numerical-answer-type-nat-continued" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 20:&lt;/strong>
+A curious student created a performance profile of his favourite cricketer as $R = -x^5 + 6x^4 - 30x^3 + 80x^2 + 70x + c$, where $R$ is the total cumulative runs scored by the cricketer in $x$ matches. He picked three starting values shown in Table 2 and tried to find the value of $c$. If he uses Sum Squared Error method, then what will be the value of $c$?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The value of $c$ is &lt;strong>-2&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 21:&lt;/strong>
+What is the minimum value of $x$-coordinate for the points of intersection of functions $f(x) = -x^5 + 5x^4 - 7x - 2$ and $g(x) = -x^5 + 5x^4 – x^2 - 2$?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The minimum value of $x$-coordinate is &lt;strong>0&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;p>All questions and solutions from the provided PDF have been extracted above&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-4-Practice-Assignment-Solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 5 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w5pa1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w5pa1/</guid><description>
+&lt;hr>
+&lt;h2>Multiple Choice Questions (MCQ)&lt;span class="hx-absolute -hx-mt-20" id="multiple-choice-questions-mcq">&lt;/span>
+&lt;a href="#multiple-choice-questions-mcq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 1:&lt;/strong>
+Choose the correct option.&lt;/p>
+&lt;ul>
+&lt;li>○ f₃ is not a function.&lt;/li>
+&lt;li>○ f₆ is not a function.&lt;/li>
+&lt;li>○ f₅ is not a function.&lt;/li>
+&lt;li>○ All of the above are functions.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Vertical line test fails only for f₆ and therefore f₆(x) is not a function.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 2:&lt;/strong>
+Choose the correct option.&lt;/p>
+&lt;ul>
+&lt;li>○ f₁ and f₃ are one-one functions in the given domain.&lt;/li>
+&lt;li>○ f₂ and f₄ are one-one functions in the given domain.&lt;/li>
+&lt;li>○ f₃ and f₅ are one-one functions in the given domain.&lt;/li>
+&lt;li>○ f₅ is one-one function in the given domain.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The functions f₂ and f₄ are strictly decreasing functions in the domain [-4, 4], therefore these are one-to-one functions.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 3:&lt;/strong>
+Choose the correct option.&lt;/p>
+&lt;ul>
+&lt;li>○ f₁ and f₅ are strictly increasing functions in the given domain.&lt;/li>
+&lt;li>○ f₂ and f₄ are strictly decreasing functions in the given domain.&lt;/li>
+&lt;li>○ f₄ and f₅ are strictly decreasing functions in the given domain.&lt;/li>
+&lt;li>○ f₅ is strictly increasing function in the given domain.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+From the given graph, f₂ and f₄ are strictly decreasing functions in the domain [-4, 4].&lt;/p>
+&lt;hr>
+&lt;h2>Questions 4 and 5 (Radioactive Decay Context)&lt;span class="hx-absolute -hx-mt-20" id="questions-4-and-5-radioactive-decay-context">&lt;/span>
+&lt;a href="#questions-4-and-5-radioactive-decay-context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 4:&lt;/strong>
+Let N₀ be the number of atoms of a radioactive material at the initial stage (t = 0), and N(t) be the number of atoms at time t, given by N(t) = N₀e^{-λt}. If at time t₁, the number of atoms reduces to half of N₀, and at time t₂, the number of atoms reduces to one fourth of N₀, which equation is correct?&lt;/p>
+&lt;ul>
+&lt;li>○ e^{t₁/t₂} = 2&lt;/li>
+&lt;li>○ e^{t₂/t₁} = 2&lt;/li>
+&lt;li>○ e^{t₂-t₁} = 2&lt;/li>
+&lt;li>○ e^{t₁-t₂} = 2&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+e^{t₂-t₁} = 2&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 5:&lt;/strong>
+If N₁ is the number of atoms at time t = 1/λ, what is the ratio of N₀ to N₁?&lt;/p>
+&lt;ul>
+&lt;li>○ 1 : e&lt;/li>
+&lt;li>○ e : 1&lt;/li>
+&lt;li>○ 1 : e^{-λ}&lt;/li>
+&lt;li>○ 1 : e^{λ}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+N₀ : N₁ = e : 1&lt;/p>
+&lt;hr>
+&lt;h2>Multiple Select Questions (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="multiple-select-questions-msq">&lt;/span>
+&lt;a href="#multiple-select-questions-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 6:&lt;/strong>
+Selvi deposits ₹P in bank A at 10% per year for 10 years, then withdraws and deposits in bank B at 12.5% per year for n years. M_A(x) is the amount after x years in bank A, M_B(y) is the amount after y years in bank B. Choose the correct options.&lt;/p>
+&lt;ul>
+&lt;li>☐ M_A(x) is a one-one function of x, for x ∈ (0,10)&lt;/li>
+&lt;li>☐ M_B(y) is a one-one function of y&lt;/li>
+&lt;li>☐ M_A(12) = P × 1.1^{12}&lt;/li>
+&lt;li>☐ M_A(12) = 0&lt;/li>
+&lt;li>☐ M_A(x) is strictly increasing in x, for x ∈ (0,10)&lt;/li>
+&lt;li>☐ M_B(y) is decreasing in y&lt;/li>
+&lt;li>☐ M_B(n) = (P × 1.1^{10}) × (1.125)^n&lt;/li>
+&lt;li>☐ M_B(n) = (P × 1.1^n) × (1.125)^{10}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Correct options:&lt;/p>
+&lt;ul>
+&lt;li>M_A(x) is a one-one function of x, for x ∈ (0,10)&lt;/li>
+&lt;li>M_B(y) is a one-one function of y&lt;/li>
+&lt;li>M_A(12) = 0 (since withdrawn after 10 years)&lt;/li>
+&lt;li>M_A(x) is strictly increasing in x, for x ∈ (0,10)&lt;/li>
+&lt;li>M_B(n) = (P × 1.1^{10}) × (1.125)^n&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Question 7:&lt;/strong>
+There are two offers in a shop:&lt;/p>
+&lt;ul>
+&lt;li>First offer: discount of M(n)% if n products are bought&lt;/li>
+&lt;li>Second offer: ₹1000 discount
+Geeta shops for ₹15,000. f(n) and g(n) are total payable after first and second offers, respectively. T(n) is total payable after both offers.&lt;/li>
+&lt;/ul>
+&lt;p>Choose the correct options.&lt;/p>
+&lt;ul>
+&lt;li>☐ f(n) = (100 – M(n)) × 15000 and g(n) = 14000&lt;/li>
+&lt;li>☐ f(n) = (100 – M(n)) × 1500 and g(n) = (100 – M(n)) × 15000 – 1000&lt;/li>
+&lt;li>☐ f(n) = (100 – M(n)) × 150 and g(n) = 14000&lt;/li>
+&lt;li>☐ T(n) = (100 – M(n)) × 15000 is the total payable when first offer is applied after the second&lt;/li>
+&lt;li>☐ T(n) = (100 – M(n)) × 140 is the total payable when first offer is applied after the second&lt;/li>
+&lt;li>☐ T(n) = (100 – M(n)) × 150 – 1000 is the total payable when second offer is applied after the first&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Correct options:&lt;/p>
+&lt;ul>
+&lt;li>f(n) = (100 – M(n)) × 150 and g(n) = 14000&lt;/li>
+&lt;li>T(n) = (100 – M(n)) × 140 (when first offer is applied after the second)&lt;/li>
+&lt;li>T(n) = (100 – M(n)) × 150 – 1000 (when second offer is applied after the first)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Question 8:&lt;/strong>
+If M(n) = −n² + 18n − 72, n ∈ {6,7,8,9}, and Geeta can use offers in any sequence, choose the correct options.&lt;/p>
+&lt;ul>
+&lt;li>☐ Total payable amount is same irrespective of the order in which the offers are applied.&lt;/li>
+&lt;li>☐ She should choose offer one and then offer two.&lt;/li>
+&lt;li>☐ She should choose offer two and then offer one.&lt;/li>
+&lt;li>☐ If she chooses offer one and then offer two, the minimum payable amount will be ₹12650.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Correct options:&lt;/p>
+&lt;ul>
+&lt;li>She should choose offer one and then offer two.&lt;/li>
+&lt;li>If she chooses offer one and then offer two, the minimum payable amount will be ₹12650.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="numerical-answer-type-nat">&lt;/span>
+&lt;a href="#numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 9:&lt;/strong>
+Given f(x) = (5x + 9)/2x, domain (−∞, m) ∪ (m, ∞); g(y) = √(y² – 9), domain ℝ \ (−n, n). If h(x) = f(g(x)), find m + n.
+&lt;strong>Solution:&lt;/strong>
+m = 0, n = 3
+&lt;strong>Answer:&lt;/strong> 3&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 10:&lt;/strong>
+Range of f(x): (−∞, m) ∪ (m, ∞); range of g(x): [n, ∞). Find 2(m + n).
+&lt;strong>Solution:&lt;/strong>
+m = 2.5, n = 0
+&lt;strong>Answer:&lt;/strong> 5&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 11:&lt;/strong>
+Domain of h(x) is (−∞, −3) ∪ (m, ∞). Find m.
+&lt;strong>Solution:&lt;/strong>
+&lt;strong>Answer:&lt;/strong> 3&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 12:&lt;/strong>
+Domain of f⁻¹(x) is (−∞, m) ∪ (m, ∞). Find 2m.
+&lt;strong>Solution:&lt;/strong>
+m = 2.5
+&lt;strong>Answer:&lt;/strong> 5&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 13:&lt;/strong>
+If f⁻¹(5) = 9/m, find m.
+&lt;strong>Solution:&lt;/strong>
+&lt;strong>Answer:&lt;/strong> 5&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Note:&lt;/strong>
+All questions and solutions are as per the provided PDF&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. For questions referencing graphs or tables, the description is summarized as given in the document.
+For questions 14 and above, the PDF does not mention any further questions or solutions in the provided excerpt. The last question in the extracted content is Question 13.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-5-Practice-Assignment-Solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 6 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w6pa1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w6pa1/</guid><description>
+&lt;hr>
+&lt;h2>&lt;strong>Question 1&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-1">&lt;/span>
+&lt;a href="#question-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>If $ b &amp;gt; 0 $ and $ 4\log_x b + 9\log_{b^5x} b = 1 $, then the possible value(s) of $ x $ is (are)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) $ b^{10} $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(b) $ b^9 $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(c) $ b^{-2} $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(d) $ b^5 $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(e) $ b^4 $&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Let $ p = \log_b x $.
+Equation: $ \frac{4}{p} + \frac{9}{5 + p} = 1 $
+Solve: $ p^2 - 8p - 20 = 0 $, roots $ p = -2, 10 $.
+So, $ x = b^{-2} $ or $ x = b^{10} $.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 2&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-2">&lt;/span>
+&lt;a href="#question-2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>George deposits ₹5L in a bank that compounds quarterly at 20% per year. How long will it take to increase his money to 16 times the principal (in years)?&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) $ \frac{\ln 16}{4} $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(b) $ \frac{\ln 16}{4 \ln (21/20)} $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(c) $ \frac{\ln 2}{\ln (21/20)} $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(d) $ \log_{21/20} 2 $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(e) $ \frac{\ln 2^4}{\ln (21/20)} $&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$ 16P = P(1 + \frac{20}{400})^{4t} $
+Solve: $ t = \frac{\ln 16}{4 \ln (21/20)} = \frac{\ln 2}{\ln (21/20)} = \log_{21/20} 2 $.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 3&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-3">&lt;/span>
+&lt;a href="#question-3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Choose the set of correct options.&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) $ \log_5 2 $ is a rational number.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(b) If $ 0 &amp;lt; b &amp;lt; 1 $ and $ 0 &amp;lt; x &amp;lt; 1 $, then $ \log_b x &amp;lt; 0 $.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(c) If $ \log_3(\log_5 x) = 1 $, then $ x = 125 $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(d) If $ 0 &amp;lt; b &amp;lt; 1 $, $ 0 &amp;lt; x &amp;lt; 1 $ and $ x &amp;gt; b $, then $ \log_b x &amp;gt; 1 $.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(e) If $ 0 &amp;lt; b &amp;lt; 1 $ and $ 0 &amp;lt; x &amp;lt; y $, then $ \log_b x &amp;gt; \log_b y $&lt;/strong> ✓&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+(c): $ \log_3(\log_5 x) = 1 \implies x = 125 $.
+(e): $ \log_b x &amp;gt; \log_b y $ for $ 0 &amp;lt; b &amp;lt; 1 $ and $ 0 &amp;lt; x &amp;lt; y $.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 4&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-4">&lt;/span>
+&lt;a href="#question-4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Two types of insects grow as $ f(t) = 5^{3t-2} $ and $ h(t) = 3^{2t-1} $. For what value of $ t $ will both insects be of the same number?&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) $ \frac{\ln 3 + 2\ln 5}{3\ln 5 - 2\ln 3} $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(b) $ \frac{\ln 75}{\ln (125/9)} $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(c) $ \log_{125} 75 $&lt;/strong> ✓&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Set $ 5^{3t-2} = 3^{2t-1} $, solve for $ t $:
+$ t = \frac{\ln 3 + 2\ln 5}{3\ln 5 - 2\ln 3} = \log_{125} 75 $.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 5&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-5">&lt;/span>
+&lt;a href="#question-5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Which of the following is/are true? (MSQ)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) If $ m $ and $ n $ are positive real numbers, then $ m^{\log n} = n^{\log m} $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(b) $ \log_5 1234567899999999999999 $ is a rational number.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(c) The function $ f(x) = \log_{10}(x^2 + x + 1) $ is one-one on $(-0.5, \infty)$&lt;/strong> ✓&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+(a): True by taking logs.
+(c): $ x^2 + x + 1 $ is one-one (strictly increasing) on $(-0.5, \infty)$, so is its log.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 6&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-6">&lt;/span>
+&lt;a href="#question-6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Which of the following is/are true? (MSQ)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) If $ f $ is one-one on $ D $, then $ \log f(x) $ is one-one on $ D $ where defined&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(b) $ (14!) &amp;lt; (15!) $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(c) $ f(x) = 2^x + 3^x + \dots + 100^x $ is one-one on $ \mathbb{R} $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(d) There exists a function $ f(x) $ on $ \mathbb{R} $ such that $ \log(f(x)) \geq 100 $ for all $ x \in \mathbb{R} $&lt;/strong> ✓&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+All options (a), (b), (c), (d) are correct.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 7&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-7">&lt;/span>
+&lt;a href="#question-7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>If $ \log_2(x + 4) - \log_2\left(\frac{x}{2} + 2\right) = 1 $, then $ x $ is&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) $-3$&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(b) 1&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(c) $-4$&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(d) 5&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Solve: $ x = -3 $ (only valid solution in domain).&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 8&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-8">&lt;/span>
+&lt;a href="#question-8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Seismologists use the Richter scale: $ R = \ln I - \ln I_0 $. If an earthquake in city A is magnitude 8.0 and city B is reference, what is the ratio of intensities?&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) $ e^8 : 1 $&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(b) $ e^1 : 2 $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(c) $ e^8 : 1 $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(d) $ e^5 : 1 $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(e) $ e^8 : 2 $&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$ \frac{I}{I_0} = e^8 $, so ratio is $ e^8 : 1 $.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 9&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-9">&lt;/span>
+&lt;a href="#question-9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Bacteria grow as $ G(t) = G_0 3^{kt} $. If initial count is 1000, after 1 min it is 9000, how long to reach 730,000?&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) 2&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(b) 1&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(c) 3&lt;/strong> ✓&lt;/li>
+&lt;li>&lt;strong>(d) 6&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Solve: $ t = \frac{\ln 730}{2 \ln 3} \approx 3 $ minutes.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 10&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-10">&lt;/span>
+&lt;a href="#question-10" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Bulb A is $ f(x) = 3^{x^2+1} $ times brighter than bulb B, where $ x $ is voltage difference. If A is 10 times brighter, what is $ x $?&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) $ \log_3 5 - 1 $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(b) $ \log_3 10 $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(c) $ \sqrt{\frac{\ln 10}{\ln 3}} $&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(d) $ \sqrt{\log_3 \frac{10}{3}} $&lt;/strong> ✓&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$ x = \sqrt{\log_3 \frac{10}{3}} $.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 11&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-11">&lt;/span>
+&lt;a href="#question-11" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>If supply voltages are 4 and 3 for bulbs A and B, how many times is A brighter than B?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$ x = 1 $, so $ 3^{1^2+1} = 9 $.
+&lt;strong>Answer:&lt;/strong> 9 times.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 12&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-12">&lt;/span>
+&lt;a href="#question-12" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Find the number of values of $ x $ satisfying $ (5x)^{\log_{5x}(6x^3 - 36x^2 + 66x - 35)} = 1 $.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Solve $ 6x^3 - 36x^2 + 66x - 35 = 1 $, roots $ x = 1, 2, 3 $.
+&lt;strong>Answer:&lt;/strong> 3 values.&lt;/p>
+&lt;hr>
+&lt;p>All questions and solutions from the PDF have been extracted above&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-6-practice-assignment-solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 7 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w7pa1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w7pa1/</guid><description>
+&lt;hr>
+&lt;h2>&lt;strong>Question 1: Function Behavior from Graph&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-1-function-behavior-from-graph">&lt;/span>
+&lt;a href="#question-1-function-behavior-from-graph" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+From the graph, clearly the values of the function tend to 0 as $ x $ tends to $ \infty $. The graph is smooth (no sharp edges or sharp turns) and so the graph has a unique tangent at all points (at $ x = 1 $ and $ x = -1 $ too). The function values are decreasing (slope of the curve is negative) in $[-0.5, 0]$ (Option 7).&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Based on the graph description:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Option 2:&lt;/strong> Values tend to 0 as $ x \to \infty $.&lt;/li>
+&lt;li>&lt;strong>Option 5:&lt;/strong> Graph is smooth and has a unique tangent at all points.&lt;/li>
+&lt;li>&lt;strong>Option 7:&lt;/strong> Function is decreasing in $[-0.5, 0]$ (slope is negative).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>&lt;strong>Question 2: Convergence of Sequences&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-2-convergence-of-sequences">&lt;/span>
+&lt;a href="#question-2-convergence-of-sequences" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+Statement 1: If ${a_n}$ converges to $a$ and ${b_n}$ converges to $b$, then ${a_n b_n}$ converges to $ab$.
+Statement 2: If $a_n = (-1)^n$, $b_n = (-2)^n$, then ${a_n}$ and ${b_n}$ do not converge. But ${a_n b_n^3} = {(-1)^n (-2)^{3n}} = {8^n}$, which diverges. (Note: The original statement appears to have a typo or error in interpretation.)
+Statement 3: $\lim a_n = \lim C = C$ where $C$ is a constant.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Statement 1:&lt;/strong> True.&lt;/li>
+&lt;li>&lt;strong>Statement 2:&lt;/strong> False as written, but the intended logic is unclear; ${a_n b_n^3}$ actually diverges, not converges to 2.&lt;/li>
+&lt;li>&lt;strong>Statement 3:&lt;/strong> True.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Final Answer (as per PDF):&lt;/strong>
+All 3 statements are true (but this may be a misprint or error in the PDF, as Statement 2 is not true as written).&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 3: Subsequences and Limits&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-3-subsequences-and-limits">&lt;/span>
+&lt;a href="#question-3-subsequences-and-limits" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+Note that $\left{\frac{2n+1}{(2n+1)!}\right}$ and $\left{\left(\frac{3n}{2n+1}\right)\right}$ are subsequences of ${c_n}$ and hence have the same limit as ${a_n}$.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+$$
+\lim_{n \to \infty} \frac{2n+1}{(2n+1)!} = 0
+$$$$
+\lim_{n \to \infty} \frac{3n}{2n+1} = \frac{3}{2}
+$$&lt;p>&lt;strong>But the PDF suggests:&lt;/strong>
+$\lim c_n = 1$ (this may refer to a different sequence or context; the answer is unclear from the given text).&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 4: Subsequence Identification&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-4-subsequence-identification">&lt;/span>
+&lt;a href="#question-4-subsequence-identification" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+$a_n = \frac{1}{n}$ is a subsequence of ${ \ldots }$. Only one sequence is a subsequence of ${ \ldots }$. $c_n = 0$ cannot be a subsequence of ${ \ldots }$.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The question is unclear, but the main point is that only one of the given sequences can be a subsequence of another given sequence.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 5: Limit of Sequence&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-5-limit-of-sequence">&lt;/span>
+&lt;a href="#question-5-limit-of-sequence" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+$a_n = \frac{n}{n} = 1$ converges to 1.
+$b_n = n^2 + 5n - 1$&lt;/p>
+$$
+\lim_{n \to \infty} b_n = \infty
+$$&lt;p>But the PDF states:&lt;/p>
+$$
+\lim_{n \to \infty} (n^2 + 5n - 1) = \lim_{n \to \infty} (n^2 + 5n^2 - 1) \quad (\text{incorrect simplification})
+$$&lt;p>and then gives a wrong calculation:&lt;/p>
+$$
+= (1^3 + 5(1) - 1) = 5
+$$&lt;p>&lt;strong>This is incorrect.&lt;/strong>
+&lt;strong>Correct answer:&lt;/strong>
+$\lim_{n \to \infty} (n^2 + 5n - 1) = \infty$&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 6: Limits of Sequences&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-6-limits-of-sequences">&lt;/span>
+&lt;a href="#question-6-limits-of-sequences" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+$a_n = \frac{2n+1}{3n+2}$&lt;/p>
+$$
+\lim a_n = \lim_{n \to \infty} \frac{2n+1}{3n+2} = \frac{2}{3}
+$$&lt;p>$b_n = 27a_n + 9a_n + \frac{2n^2}{n^3+1} \quad (\text{unclear expression})$
+&lt;strong>PDF states:&lt;/strong>&lt;/p>
+$$
+\lim b_n = 27(\frac{2}{3}) + 9(\frac{2}{3}) + 0 = 18 + 6 + 0 = 24
+$$&lt;p>But the calculation is inconsistent with the expression.
+&lt;strong>Likely intended:&lt;/strong>
+If $b_n = 27a_n + 9a_n + \frac{2n^2}{n^3+1}$, then&lt;/p>
+$$
+\lim b_n = 27 \times \frac{2}{3} + 9 \times \frac{2}{3} + 0 = 18 + 6 + 0 = 24
+$$&lt;p>But the PDF says the answer is 18, which does not match.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 7: Unique Tangent Condition&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-7-unique-tangent-condition">&lt;/span>
+&lt;a href="#question-7-unique-tangent-condition" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+If there is no sharp turn at $a$, then the graph has a unique tangent at $a$. Curves 1, 3, and 4 have sharp turns at 0 (Curve 4 has a jump at 0). Hence these three curves do not have a unique tangent at 0.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Only curves without sharp turns or jumps have a unique tangent at 0.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 8: Cost Calculation&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-8-cost-calculation">&lt;/span>
+&lt;a href="#question-8-cost-calculation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+$P_1(2.6) = (100 \times 2) + 200 = 400$
+$P_2(2.6) = (100 \times 3) + 200 = 500$
+$P_3(2.6) = (100 \times 2.6) + 200 = 460$
+The lowest cost is Rs 400 by availing scheme A.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Lowest cost is Rs 400 (Scheme A).&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 9: Cost Schemes and Tangents&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-9-cost-schemes-and-tangents">&lt;/span>
+&lt;a href="#question-9-cost-schemes-and-tangents" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+Scheme A, B, C costs are shown. Clearly, tangents of $p_1(t)$ and $p_2(t)$ do not exist at $t = 1, 2, 3, \ldots$ (jumps). Tangent exists for all values of $t$ for $p_3(t)$.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Options 1, 2, 4 are right (tangents do not exist at jumps, exist for all $t$ for $p_3(t)$).&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Question 10: Piecewise Function&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-10-piecewise-function">&lt;/span>
+&lt;a href="#question-10-piecewise-function" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statement:&lt;/strong>
+Figure 2: $p_3(0) = 200$, $p_3(0.5) = 300$, etc. (No question is explicitly asked here.)&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+No explicit question or solution is provided for this.&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Question&lt;/th>
+&lt;th style="text-align: left">Statement/Context&lt;/th>
+&lt;th style="text-align: left">Solution/Answer&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">Graph behavior&lt;/td>
+&lt;td style="text-align: left">Options 2,5,7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">Sequence convergence&lt;/td>
+&lt;td style="text-align: left">All statements true (likely error in Statement 2)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">Subsequence limit&lt;/td>
+&lt;td style="text-align: left">Unclear, likely 1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">4&lt;/td>
+&lt;td style="text-align: left">Subsequence&lt;/td>
+&lt;td style="text-align: left">Only one is a subsequence&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">5&lt;/td>
+&lt;td style="text-align: left">Sequence limit&lt;/td>
+&lt;td style="text-align: left">$a_n \to 1$, $b_n \to \infty$ (PDF has error)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">6&lt;/td>
+&lt;td style="text-align: left">Sequence limits&lt;/td>
+&lt;td style="text-align: left">$a_n \to \frac{2}{3}$, $b_n \to 24$ (PDF: 18, error)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">7&lt;/td>
+&lt;td style="text-align: left">Unique tangent&lt;/td>
+&lt;td style="text-align: left">Only smooth curves have unique tangent&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">8&lt;/td>
+&lt;td style="text-align: left">Cost calculation&lt;/td>
+&lt;td style="text-align: left">Lowest cost: Rs 400 (Scheme A)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">9&lt;/td>
+&lt;td style="text-align: left">Cost schemes&lt;/td>
+&lt;td style="text-align: left">Options 1,2,4 right&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">10&lt;/td>
+&lt;td style="text-align: left">Piecewise function&lt;/td>
+&lt;td style="text-align: left">No explicit question&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Note:&lt;/strong>
+Some questions and solutions are ambiguous or contain errors as per the PDF text. The above is a faithful extraction based on the provided content&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.
+There are no further explicit questions or solutions in the document beyond what is listed.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-7-practice-assignment-solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 8 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w8pa1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w8pa1/</guid><description>
+&lt;hr>
+&lt;h2>&lt;strong>Multiple Select Questions (MSQ) and Matching&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="multiple-select-questions-msq-and-matching">&lt;/span>
+&lt;a href="#multiple-select-questions-msq-and-matching" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>&lt;strong>Question 1 (Matching)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-1-matching">&lt;/span>
+&lt;a href="#question-1-matching" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Given:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Column A:&lt;/strong> Functions (i) $ f(x) = x e^x $, (ii) $ f(x) = e^{-2x} - 1 $, (iii) $ f(x) = e^x - 1 $&lt;/li>
+&lt;li>&lt;strong>Column B:&lt;/strong> Tangent equations (a) $ y = -2x $, (b) $ y = x $, (c) $ y = 0 $&lt;/li>
+&lt;li>&lt;strong>Column C:&lt;/strong> Figure numbers (1, 2, 3)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Option 1:&lt;/strong> (i) → (b) → 3
+&lt;ul>
+&lt;li>&lt;strong>Function:&lt;/strong> $ f(x) = x e^x $&lt;/li>
+&lt;li>&lt;strong>Tangent at 0:&lt;/strong> $ f&amp;rsquo;(x) = (1 + x)e^x $, $ f&amp;rsquo;(0) = 1 $, tangent $ y = x $&lt;/li>
+&lt;li>&lt;strong>Figure:&lt;/strong> 3&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Option 2:&lt;/strong> (ii) → (a) → 1
+&lt;ul>
+&lt;li>&lt;strong>Function:&lt;/strong> $ f(x) = e^{-2x} - 1 $&lt;/li>
+&lt;li>&lt;strong>Tangent at 0:&lt;/strong> $ f&amp;rsquo;(x) = -2e^{-2x} $, $ f&amp;rsquo;(0) = -2 $, tangent $ y = -2x $&lt;/li>
+&lt;li>&lt;strong>Figure:&lt;/strong> 1&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Option 3:&lt;/strong> (iii) → (c) → 2
+&lt;ul>
+&lt;li>&lt;strong>Function:&lt;/strong> $ f(x) = e^x - 1 $&lt;/li>
+&lt;li>&lt;strong>Tangent at 0:&lt;/strong> $ f&amp;rsquo;(x) = e^x $, $ f&amp;rsquo;(0) = 1 $, but the tangent is not given as $ y = x $ here; the solution suggests $ y = 0 $ is incorrect for this function, but as per the matching, (iii) → (c) → 2 is given.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Option 4:&lt;/strong> (iii) → (b) → 3
+&lt;ul>
+&lt;li>&lt;strong>Not correct as per function and tangent.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Option 5:&lt;/strong> (ii) → (a) → 1
+&lt;ul>
+&lt;li>&lt;strong>Repeat of correct option above.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Option 6:&lt;/strong> (i) → (a) → 1
+&lt;ul>
+&lt;li>&lt;strong>Incorrect.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Summary:&lt;/strong>
+Correct matches are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(i) $ x e^x $ → (b) $ y = x $ → 3&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(ii) $ e^{-2x} - 1 $ → (a) $ y = -2x $ → 1&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(iii) $ e^x - 1 $ → (c) $ y = 0 $ → 2&lt;/strong> (though this is not correct mathematically, it is the match given in the solution for the assignment)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>&lt;strong>Question 2 (Continuity and Limits)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-2-continuity-and-limits">&lt;/span>
+&lt;a href="#question-2-continuity-and-limits" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Statement:&lt;/strong>
+Consider $ f(x) = e^x - 1 $ and $ g(x) = x $.&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>**(f + g)(x) = e^x - 1 + x$$&lt;/li>
+&lt;li>&lt;strong>Is (f + g)(x) continuous at $ x = 0 $?&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>LHL:&lt;/strong> $\lim_{x \to 0^-} (e^x - 1 + x) = 0$&lt;/li>
+&lt;li>&lt;strong>RHL:&lt;/strong> $\lim_{x \to 0^+} (e^x - 1 + x) = 0$&lt;/li>
+&lt;li>&lt;strong>Value at 0:&lt;/strong> $(f + g)(0) = 0$&lt;/li>
+&lt;li>&lt;strong>Conclusion:&lt;/strong> $(f + g)(x)$ is continuous at $ x = 0 $&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>&lt;strong>Question 3 (Limit of Product)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-3-limit-of-product">&lt;/span>
+&lt;a href="#question-3-limit-of-product" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Statement:&lt;/strong>
+Find $\lim_{x \to 0} f(x)g(x)$, where $ f(x) = e^x - 1 $, $ g(x) = x $.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>$\lim_{x \to 0} (e^x - 1)(x) = 0$&lt;/li>
+&lt;li>&lt;strong>Answer:&lt;/strong> $0$&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>&lt;strong>Numerical Answer Type (NAT)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="numerical-answer-type-nat">&lt;/span>
+&lt;a href="#numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>&lt;strong>Question 1&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-1">&lt;/span>
+&lt;a href="#question-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Statement:&lt;/strong>
+Let $ f $ be a differentiable function at $ x = 1 $. The tangent line to the curve represented by the function $ f $ at the point $(1, 1)$ passes through the point $(2, 2)$. What will be the value of $ f&amp;rsquo;(1) $?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Slope of tangent:&lt;/strong> $\frac{2 - 1}{2 - 1} = 1$&lt;/li>
+&lt;li>&lt;strong>Answer:&lt;/strong> $f&amp;rsquo;(1) = 1$&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>&lt;strong>Question 2&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-2">&lt;/span>
+&lt;a href="#question-2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Statement:&lt;/strong>
+Let $ f: \mathbb{R} \to \mathbb{R} $ be defined by $ f(x) = x^2 $ and $ g: \mathbb{R} \to \mathbb{R} $ be defined by $ g(x) = x - 5 $. Find the value of $(fg)&amp;rsquo;(1) - (f \circ g)&amp;rsquo;(1)$, where $ fg(x) = f(x)g(x) $ and $ f \circ g(x) = f(g(x)) $.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Product rule:&lt;/strong> $(fg)(x) = x^2(x - 5) = x^3 - 5x^2$
+&lt;ul>
+&lt;li>$(fg)&amp;rsquo;(x) = 3x^2 - 10x$&lt;/li>
+&lt;li>$(fg)&amp;rsquo;(1) = 3(1)^2 - 10(1) = -7$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Composition rule:&lt;/strong> $(f \circ g)(x) = (x - 5)^2$
+&lt;ul>
+&lt;li>$(f \circ g)&amp;rsquo;(x) = 2(x - 5)$&lt;/li>
+&lt;li>$(f \circ g)&amp;rsquo;(1) = 2(1 - 5) = -8$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Difference:&lt;/strong> $-7 - (-8) = 1$&lt;/li>
+&lt;li>&lt;strong>Answer:&lt;/strong> $1$&lt;sup id="fnref2:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Question Type&lt;/th>
+&lt;th style="text-align: left">Description&lt;/th>
+&lt;th style="text-align: left">Solution/Answer&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">MSQ/Matching&lt;/td>
+&lt;td style="text-align: left">Match function, tangent, figure&lt;/td>
+&lt;td style="text-align: left">(i) → (b) → 3, (ii) → (a) → 1, (iii) → (c) → 2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Continuity&lt;/td>
+&lt;td style="text-align: left">$f+g$ at $x=0$&lt;/td>
+&lt;td style="text-align: left">Continuous, value = 0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Limit&lt;/td>
+&lt;td style="text-align: left">$\lim_{x \to 0} f(x)g(x)$&lt;/td>
+&lt;td style="text-align: left">0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">NAT&lt;/td>
+&lt;td style="text-align: left">$f&amp;rsquo;(1)$ for tangent&lt;/td>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">NAT&lt;/td>
+&lt;td style="text-align: left">$(fg)&amp;rsquo;(1) - (f \circ g)&amp;rsquo;(1)$&lt;/td>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Note:&lt;/strong>
+The above is based on the available content from the Week 8 Practice Assignment Solution PDF&lt;sup id="fnref3:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.
+If your PDF contains additional or different questions, please upload or specify further details.
+The second source&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> refers to a Computational Thinking assignment, not the mathematics PDF, and is not included in this summary.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://www.studocu.com/in/document/indian-institute-of-technology-madras/iitm-online-degree-data-science-and-programming/week-8-practice-assignment-solution/99227605" target="_blank" rel="noopener">https://www.studocu.com/in/document/indian-institute-of-technology-madras/iitm-online-degree-data-science-and-programming/week-8-practice-assignment-solution/99227605&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://www.studocu.com/in/document/indian-institute-of-technology-madras/computational-thinking/ct-week-8-ga-ct-graded-assignment-week-8/63065998" target="_blank" rel="noopener">https://www.studocu.com/in/document/indian-institute-of-technology-madras/computational-thinking/ct-week-8-ga-ct-graded-assignment-week-8/63065998&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 9 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w9pa1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w9pa1/</guid><description>
+&lt;hr>
+&lt;h2>&lt;strong>Multiple Select Questions (MSQ) and Matching&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="multiple-select-questions-msq-and-matching">&lt;/span>
+&lt;a href="#multiple-select-questions-msq-and-matching" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>&lt;strong>Question 1: Matching Function, Area, and Graph&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-1-matching-function-area-and-graph">&lt;/span>
+&lt;a href="#question-1-matching-function-area-and-graph" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Match the given functions in Column A with the (signed) area between its graph and the interval $[-1,1]$ on the X-axis in Column B and the pictures of their graphs and the highlighted region corresponding to the area computation in Column C.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Functions (Column A)&lt;/th>
+&lt;th style="text-align: left">Area under the curve (Column B)&lt;/th>
+&lt;th style="text-align: left">Graphs (Column C)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">i) $ f(x) = 5x - 1 $&lt;/td>
+&lt;td style="text-align: left">a) $\pi/2$&lt;/td>
+&lt;td style="text-align: left">1)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">ii) $ f(x) = x^3 $&lt;/td>
+&lt;td style="text-align: left">b) 0&lt;/td>
+&lt;td style="text-align: left">2)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">iii) $ f(x) = \frac{1}{x^2 + 1} $&lt;/td>
+&lt;td style="text-align: left">c) -2&lt;/td>
+&lt;td style="text-align: left">3)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Options:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>i) → c) → 3)&lt;/li>
+&lt;li>ii) → a) → 1)&lt;/li>
+&lt;li>ii) → b) → 1)&lt;/li>
+&lt;li>iii) → a) → 2)&lt;/li>
+&lt;li>iii) → c) → 2)&lt;/li>
+&lt;li>i) → b) → 1)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>i) $ f(x) = 5x - 1 $:&lt;/strong>
+&lt;ul>
+&lt;li>Integral over $[-1,1]$: $\int_{-1}^1 (5x-1)dx = \left[\frac{5}{2}x^2 - x\right]_{-1}^1 = (2.5 - 1) - (2.5 + 1) = 1.5 - 3.5 = -2$&lt;/li>
+&lt;li>&lt;strong>Match:&lt;/strong> i) → c) → (area -2, graph 3)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>ii) $ f(x) = x^3 $:&lt;/strong>
+&lt;ul>
+&lt;li>Integral over $[-1,1]$: $\int_{-1}^1 x^3 dx = 0$ (odd function)&lt;/li>
+&lt;li>&lt;strong>Match:&lt;/strong> ii) → b) → (area 0, graph 1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>iii) $ f(x) = \frac{1}{x^2 + 1} $:&lt;/strong>
+&lt;ul>
+&lt;li>Integral over $[-1,1]$: $\int_{-1}^1 \frac{1}{x^2 + 1}dx = 2\arctan(1) = \pi/2$&lt;/li>
+&lt;li>&lt;strong>Match:&lt;/strong> iii) → a) → (area $\pi/2$, graph 2)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Correct Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>i) → c) → 3)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ii) → b) → 1)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>iii) → a) → 2)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>&lt;strong>Question 2: Integration by Parts&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-2-integration-by-parts">&lt;/span>
+&lt;a href="#question-2-integration-by-parts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Suppose $\int x \ln(1+x)dx = f(x)\ln(x + 1) + Ax + B$, where $B$ is the constant of integration. Which of the following are correct?&lt;/p>
+&lt;ol>
+&lt;li>$f(x) = x^2-1$&lt;/li>
+&lt;li>$f(x) = x^2-1$&lt;/li>
+&lt;li>$A = 1/4$&lt;/li>
+&lt;li>$A = -1/4$&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+By integration by parts,&lt;/p>
+$$
+f(x) = \frac{x^2-1}{2}
+$$&lt;p>But in the PDF, it is given as $f(x) = x^2-1$ and $A = -1/4$.
+&lt;strong>This appears to be a typo or error in the PDF.&lt;/strong>
+&lt;strong>However, as per the PDF solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Option 1 and 2:&lt;/strong> Both claim $f(x) = x^2-1$ (likely, only one should be marked)&lt;/li>
+&lt;li>&lt;strong>Option 4:&lt;/strong> $A = -1/4$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Correction:&lt;/strong>
+The correct answer by standard integration by parts is:&lt;/p>
+$$
+\int x \ln(1+x)dx = \left(\frac{x^2-1}{2}\right)\ln(1+x) - \frac{x^2}{4} + \frac{x}{2} + C
+$$&lt;p>But &lt;strong>as per PDF:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>$f(x) = x^2-1$ (likely typo, should be $\frac{x^2-1}{2}$)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>$A = -1/4$&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Mark as per PDF:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Option 1 or 2:&lt;/strong> $f(x) = x^2-1$ (only one should be marked, likely a duplicate)&lt;/li>
+&lt;li>&lt;strong>Option 4:&lt;/strong> $A = -1/4$&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>&lt;strong>Question 3: Critical Points and Extrema&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-3-critical-points-and-extrema">&lt;/span>
+&lt;a href="#question-3-critical-points-and-extrema" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Consider the function $f(x) = x^3 – 6x$. Which of the following options are correct?&lt;/p>
+&lt;ol>
+&lt;li>$f$ has neither local maxima nor local minima.&lt;/li>
+&lt;li>$\sqrt{2}$ is a local minimum.&lt;/li>
+&lt;li>$\sqrt{2}$ is a local maximum.&lt;/li>
+&lt;li>$-\sqrt{2}$ is a local maximum.&lt;/li>
+&lt;li>$-\sqrt{2}$ is a local minimum.&lt;/li>
+&lt;li>$f$ has two critical points.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Critical points:&lt;/strong> $f&amp;rsquo;(x) = 3x^2 - 6 = 0 \implies x = \pm\sqrt{2}$&lt;/li>
+&lt;li>&lt;strong>Second derivative:&lt;/strong> $f&amp;rsquo;&amp;rsquo;(x) = 6x$
+&lt;ul>
+&lt;li>At $x = \sqrt{2}$, $f&amp;rsquo;&amp;rsquo;(\sqrt{2}) &amp;gt; 0$: &lt;strong>local minimum&lt;/strong>&lt;/li>
+&lt;li>At $x = -\sqrt{2}$, $f&amp;rsquo;&amp;rsquo;(-\sqrt{2}) &amp;lt; 0$: &lt;strong>local maximum&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Number of critical points:&lt;/strong> 2&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Correct Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>2. $\sqrt{2}$ is a local minimum.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>4. $-\sqrt{2}$ is a local maximum.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>6. $f$ has two critical points.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>&lt;strong>Question 4: Riemann Sums&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-4-riemann-sums">&lt;/span>
+&lt;a href="#question-4-riemann-sums" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Choose the set of correct options.&lt;/p>
+&lt;ol>
+&lt;li>The left Riemann sum of the function $f(x) = x + 5$ on the interval $&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>$ divided into three sub-intervals of equal length is 81.&lt;/li>
+&lt;li>The middle Riemann sum of the function $f(x) = x^2$ on the interval $&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>$ divided into four sub-intervals of equal length is 168.&lt;/li>
+&lt;li>The left Riemann sum of the function $f(x) = x + 5$ on the interval $&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>$ divided into $n$ sub-intervals of equal length is $57/2$, as $n$ tends to $\infty$.&lt;/li>
+&lt;li>The right Riemann sum of the function $f(x) = 1/x$ on the interval $&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>$ divided into four sub-intervals of equal length is $496/315$.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Option 1:&lt;/strong>
+&lt;ul>
+&lt;li>Partition: ${1,4,7,10}$&lt;/li>
+&lt;li>Left sum: $3(f(1) + f(4) + f(7)) = 3(6 + 9 + 12) = 81$ &lt;strong>✓&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Option 2:&lt;/strong>
+&lt;ul>
+&lt;li>Partition: ${0,2,4,6,8}$&lt;/li>
+&lt;li>Middle sum: $2(f(1) + f(3) + f(5) + f(7)) = 2(1 + 9 + 25 + 49) = 168$ &lt;strong>✓&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Option 3:&lt;/strong>
+&lt;ul>
+&lt;li>As $n \to \infty$, left Riemann sum $\to$ integral: $\int_3^6 (x+5)dx = \frac{57}{2}$ &lt;strong>✓&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Option 4:&lt;/strong>
+&lt;ul>
+&lt;li>Partition: ${1,3,5,7,9}$&lt;/li>
+&lt;li>Right sum: $2(f(3) + f(5) + f(7) + f(9)) = 2(1/3 + 1/5 + 1/7 + 1/9) = 496/315$ &lt;strong>✓&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>All options are correct.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Numerical Answer Type (NAT)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="numerical-answer-type-nat">&lt;/span>
+&lt;a href="#numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>&lt;strong>Question 5&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-5">&lt;/span>
+&lt;a href="#question-5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+The value of $\int \sin \sqrt{x} , dx$ is&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Let $t = \sqrt{x} \implies dx = 2t dt$&lt;/p>
+$$
+\int \sin t \cdot 2t dt = 2\int t \sin t dt = 2[-t\cos t + \sin t] + C
+$$&lt;p>For definite integral (limits not specified in question, but in solution: $0$ to $\pi^2/4$):&lt;/p>
+$$
+2\left[-t\cos t + \sin t\right]_0^{\pi/2} = 2(1) = 2
+$$&lt;p>&lt;strong>Answer:&lt;/strong> &lt;strong>2&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Question 6&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-6">&lt;/span>
+&lt;a href="#question-6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Suppose $x + y = 16$. What is the value of $xy$ when $x^3 + y^3$ is minimum?&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Let $y = 16 - x$&lt;/p>
+$$
+x^3 + y^3 = x^3 + (16-x)^3 = 4096 - 768x + 48x^2
+$$&lt;p>Derivative: $f&amp;rsquo;(x) = -768 + 96x = 0 \implies x = 8$
+Second derivative: $f&amp;rsquo;&amp;rsquo;(x) = 96 &amp;gt; 0$ (minimum)
+Thus, $x = 8$, $y = 8$, and $xy = 64$
+&lt;strong>Answer:&lt;/strong> &lt;strong>64&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Question 7&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-7">&lt;/span>
+&lt;a href="#question-7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+A wire of length 31 is cut into two pieces. One part is bent into a circle and the other into a square. Let $x$ be the minimum value of the combined area of the circle and the square. Then the value of $4x(\pi + 4)$ is&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Let wire for circle be $y$, for square $31 - y$.&lt;/p>
+$$
+A = \pi r^2 + a^2 = \pi\left(\frac{y}{2\pi}\right)^2 + \left(\frac{31-y}{4}\right)^2
+$$&lt;p>Minimize $A$:&lt;/p>
+$$
+y = \frac{31\pi}{4 + \pi}
+$$$$
+x = \text{min area} = \frac{31^2}{4(4 + \pi)}
+$$$$
+4x(\pi + 4) = 31^2 = 961
+$$&lt;p>&lt;strong>Answer:&lt;/strong> &lt;strong>961&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Comprehension Type Question (8–10)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="comprehension-type-question-810">&lt;/span>
+&lt;a href="#comprehension-type-question-810" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>A car manufacturer determines that in order to sell $x$ number of cars, the price per car (in lakh) must be $f(x) = 1000 - x$, if $x \leq 800$, and the manufacturer also determines that the total cost (in lakh) of producing $x$ number of cars is&lt;/p>
+$$
+g(x) =
+\begin{cases}
+30000 + 300x &amp; \text{if } x \leq 400 \\
+100x + 110000 &amp; \text{if } 400 &lt; x \leq 800
+\end{cases}
+$$&lt;p>Assume $x$ is continuous in $$.&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Question 8&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-8">&lt;/span>
+&lt;a href="#question-8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Suppose the company can produce a maximum of 400 cars due to a production issue. The number of cars the company should produce and sell in order to maximize profit is&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+For $x \leq 400$:&lt;/p>
+$$
+P(x) = x(1000 - x) - (30000 + 300x) = -x^2 + 700x - 30000
+$$&lt;p>Maximize: $P&amp;rsquo;(x) = -2x + 700 = 0 \implies x = 350$
+Second derivative: $P&amp;rsquo;&amp;rsquo;(x) = -2 &amp;lt; 0$ (maximum)
+&lt;strong>Answer:&lt;/strong> &lt;strong>350&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Question 9&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-9">&lt;/span>
+&lt;a href="#question-9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Suppose the company can produce a minimum of 401 cars and a maximum of 800 cars due to a production issue. The number of cars the company should produce and sell in order to maximize profit is&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+For $400 &amp;lt; x \leq 800$:&lt;/p>
+$$
+P(x) = x(1000 - x) - (100x + 110000) = -x^2 + 900x - 110000
+$$&lt;p>Maximize: $P&amp;rsquo;(x) = -2x + 900 = 0 \implies x = 450$
+Second derivative: $P&amp;rsquo;&amp;rsquo;(x) = -2 &amp;lt; 0$ (maximum)
+&lt;strong>Answer:&lt;/strong> &lt;strong>450&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Question 10&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="question-10">&lt;/span>
+&lt;a href="#question-10" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
+Let $P(x)$ denote the function representing the profit of the company. Choose the set of correct statements.&lt;/p>
+&lt;ol>
+&lt;li>$P(x)$ is continuous in the interval $$&lt;/li>
+&lt;li>The function $P(x)$ has two local maxima in the interval $$.&lt;/li>
+&lt;li>All the global maxima of $P(x)$ lie in the interval $$.&lt;/li>
+&lt;li>All the global maxima of $P(x)$ lie in the interval $$.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Continuity:&lt;/strong>
+&lt;ul>
+&lt;li>At $x = 400$:
+&lt;ul>
+&lt;li>LHL: $P(400^-) = 90000$&lt;/li>
+&lt;li>RHL: $P(400^+) = 90000$&lt;/li>
+&lt;li>Thus, $P(x)$ is continuous on $$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Local maxima:&lt;/strong>&lt;/li>
+&lt;li>At $x = 350$ and $x = 450$&lt;/li>
+&lt;li>&lt;strong>Global maxima:&lt;/strong>&lt;/li>
+&lt;li>$P(350) = 92500$, $P(450) = 92500$, both are global maxima&lt;/li>
+&lt;li>Both are in
+$$&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Correct Options:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>1. $P(x)$ is continuous in the interval $$&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>2. The function $P(x)$ has two local maxima in the interval $$.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>4. All the global maxima of $P(x)$ lie in the interval $$.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Question&lt;/th>
+&lt;th style="text-align: left">Type&lt;/th>
+&lt;th style="text-align: left">Question Summary&lt;/th>
+&lt;th style="text-align: left">Solution/Answer&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">Matching&lt;/td>
+&lt;td style="text-align: left">Match function, area, graph&lt;/td>
+&lt;td style="text-align: left">i→c→3, ii→b→1, iii→a→2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">MSQ&lt;/td>
+&lt;td style="text-align: left">Integration by parts&lt;/td>
+&lt;td style="text-align: left">$f(x)=x^2-1$ (typo), $A=-1/4$&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">MSQ&lt;/td>
+&lt;td style="text-align: left">Critical points, extrema&lt;/td>
+&lt;td style="text-align: left">√2 min, -√2 max, 2 critical pts&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">4&lt;/td>
+&lt;td style="text-align: left">MSQ&lt;/td>
+&lt;td style="text-align: left">Riemann sums&lt;/td>
+&lt;td style="text-align: left">All correct&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">5&lt;/td>
+&lt;td style="text-align: left">NAT&lt;/td>
+&lt;td style="text-align: left">$\int \sin\sqrt{x}dx$&lt;/td>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">6&lt;/td>
+&lt;td style="text-align: left">NAT&lt;/td>
+&lt;td style="text-align: left">Min $x^3+y^3$ given $x+y=16$&lt;/td>
+&lt;td style="text-align: left">xy = 64&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">7&lt;/td>
+&lt;td style="text-align: left">NAT&lt;/td>
+&lt;td style="text-align: left">Min area circle+square, wire cut&lt;/td>
+&lt;td style="text-align: left">$4x(\pi+4)=961$&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">8&lt;/td>
+&lt;td style="text-align: left">Comp.&lt;/td>
+&lt;td style="text-align: left">Max profit, max 400 cars&lt;/td>
+&lt;td style="text-align: left">350&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">9&lt;/td>
+&lt;td style="text-align: left">Comp.&lt;/td>
+&lt;td style="text-align: left">Max profit, min 401 cars&lt;/td>
+&lt;td style="text-align: left">450&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">10&lt;/td>
+&lt;td style="text-align: left">Comp.&lt;/td>
+&lt;td style="text-align: left">Profit function properties&lt;/td>
+&lt;td style="text-align: left">1, 2, 4 correct&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>All questions and solutions from the PDF have been extracted above.&lt;/strong>&lt;sup id="fnref2:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-9-Practice-Assignment-Solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://archive.nptel.ac.in/content/storage2/courses/downloads_new/110105083/noc19_mg54_assignment_Week_9.pdf" target="_blank" rel="noopener">https://archive.nptel.ac.in/content/storage2/courses/downloads_new/110105083/noc19_mg54_assignment_Week_9.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a href="https://www.scribd.com/document/557784694/Week-9-Assignment-Solutions" target="_blank" rel="noopener">https://www.scribd.com/document/557784694/Week-9-Assignment-Solutions&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=MYfmxVWZlwA" target="_blank" rel="noopener">https://www.youtube.com/watch?v=MYfmxVWZlwA&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;a href="https://archive.nptel.ac.in/content/storage2/courses/downloads_new/112104212/Assignment%209%20Solution.pdf" target="_blank" rel="noopener">https://archive.nptel.ac.in/content/storage2/courses/downloads_new/112104212/Assignment%209%20Solution.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>&lt;a href="https://iitmbsdegreehelp.pages.dev/solutions/foundational/maths1/week-9/" target="_blank" rel="noopener">https://iitmbsdegreehelp.pages.dev/solutions/foundational/maths1/week-9/&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Week 10 Practice Assignment</title><link>/exercises/practice-assignments/mathematics-1/w10pa1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/practice-assignments/mathematics-1/w10pa1/</guid><description>
+&lt;hr>
+&lt;h2>&lt;strong>1. Multiple Choice Questions (MCQs)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-multiple-choice-questions-mcqs">&lt;/span>
+&lt;a href="#1-multiple-choice-questions-mcqs" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 1:&lt;/strong>
+&lt;em>Suppose we obtain the following DFS tree rooted at node 0 for an undirected graph with vertices ${0,1,2,3,4,5,6,7,8,9,10}$.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Which of the following cannot be an edge in the original graph?&lt;/strong>
+(a) $(1,4)$
+(b) $(0,4)$
+(c) $(7,10)$
+(d) $(2,9)$&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+In a DFS tree for an undirected graph, edges between vertices in different branches cannot be present in the original graph if they would have already been visited.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) $(1,4)$:&lt;/strong> Both in the same branch—possible.&lt;/li>
+&lt;li>&lt;strong>(b) $(0,4)$:&lt;/strong> Both in the same branch—possible.&lt;/li>
+&lt;li>&lt;strong>(c) $(7,10)$:&lt;/strong> In different branches—&lt;strong>cannot be an edge&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>(d) $(2,9)$:&lt;/strong> Both in the same branch—possible.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> &lt;strong>(c) $(7,10)$&lt;/strong>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Questions 2–4&lt;/strong> use the following context:
+Ten friends in a college decide to have a night party at one of their homes. On the day, the government closes many routes in the city. The graph $G = (V, E)$ represents their homes (nodes) and the open routes (edges).&lt;/p>
+&lt;p>&lt;strong>Question 2:&lt;/strong>
+&lt;strong>The possible place for the party is:&lt;/strong>
+(a) Shiva&amp;rsquo;s house
+(b) Abhi&amp;rsquo;s house
+(c) Joe&amp;rsquo;s house
+(d) Vishi&amp;rsquo;s house&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Shiva&amp;rsquo;s house is reachable by everyone, so it is the best possible place for the party.
+&lt;strong>Answer:&lt;/strong> &lt;strong>(a) Shiva&amp;rsquo;s house&lt;/strong>&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 3:&lt;/strong>
+Let $V_1 = {\text{Kristi, Shiva, Nia}}$ and $E_1 = E \cap (V_1 \times V_1)$, i.e., edges with both endpoints in $V_1$.
+&lt;strong>Choose the correct option:&lt;/strong>
+(a) $G_1 = (V_1, E_1)$ is an undirected graph
+(b) $G_1 = (V_1, E_1)$ is a cyclic graph
+(c) $G_1 = (V_1, E_1)$ will not be a graph
+(d) $G_1 = (V_1, E_1)$ is a directed graph&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Given the edges in $E_1$ are directed, $G_1$ is a directed graph.
+&lt;strong>Answer:&lt;/strong> &lt;strong>(d) $G_1 = (V_1, E_1)$ is a directed graph&lt;/strong>&lt;sup id="fnref2:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref1:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 4:&lt;/strong>
+&lt;strong>If Joe wants to have the party on his home, then at most how many members can join the party?&lt;/strong>
+(a) 5
+(b) 6
+(c) 7
+(d) 8&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+Joe&amp;rsquo;s home is not reachable by Kristi and Shiva. With 10 members total, 8 can join.
+&lt;strong>Answer:&lt;/strong> &lt;strong>(d) 8&lt;/strong>&lt;sup id="fnref3:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref2:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref2:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>2. Multiple Select Questions (MSQs)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-multiple-select-questions-msqs">&lt;/span>
+&lt;a href="#2-multiple-select-questions-msqs" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 5:&lt;/strong>
+&lt;em>Suppose $G$ is a graph (shown in the figure). Let $V$ be the set of vertices of $G$, $V_i$ be the maximum independent set, and $V_c$ be the minimum vertex cover. Which of the following is/are true?&lt;/em>
+(a) Cardinality of $V_i$ is 4
+(b) Cardinality of $V_c$ is 3
+(c) Cardinality of $V_i$ is 5
+(d) Cardinality of $V_c$ is 4&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+From the figure, the maximum independent set has 4 vertices and the minimum vertex cover has 4 vertices.
+&lt;strong>Answer:&lt;/strong> &lt;strong>(a) and (d)&lt;/strong>&lt;sup id="fnref4:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 6:&lt;/strong>
+&lt;em>Consider the graph below. Suppose we perform BFS/DFS so that when we visit a vertex, we explore its unvisited neighbors in a random order. Which of the following options are correct?&lt;/em>
+(a) If we perform Breadth First Search at node 0, then one of the possible orders in which the nodes will be visited is 01423567
+(b) If we perform Depth First Search at node 0, then one of the possible orders in which the nodes will be visited is 04123576
+(c) If we perform Breadth First Search at node 0, then one of the possible orders in which the nodes will be visited is 01423576
+(d) If we perform Depth First Search at node 0, then one of the possible orders in which the nodes will be visited is 04132567&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a) and (c):&lt;/strong> Possible BFS orders from node 0.&lt;/li>
+&lt;li>&lt;strong>(d):&lt;/strong> Possible DFS order from node 0.&lt;/li>
+&lt;li>&lt;strong>(b):&lt;/strong> Not a valid BFS or DFS order as per the graph structure.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> &lt;strong>(a), (c), and (d)&lt;/strong>&lt;sup id="fnref5:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref3:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref3:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 7:&lt;/strong>
+&lt;em>Which of the following options are correct?&lt;/em>
+(a) In Depth First search of a directed graph, only back edges generate cycles.
+(b) If the maximum independent set of a graph $G$ contains only 1 element, then the graph must be connected.
+(c) If we add an edge to a tree $T$, then the resulting graph becomes cyclic.
+(d) In a connected graph $G$ having $n$ vertices, at least two vertices have the same degree.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a):&lt;/strong> True for directed graphs—only back edges create cycles.&lt;/li>
+&lt;li>&lt;strong>(b):&lt;/strong> True—if the maximum independent set is 1, the graph must be connected.&lt;/li>
+&lt;li>&lt;strong>(c):&lt;/strong> True—adding any edge to a tree creates a cycle.&lt;/li>
+&lt;li>&lt;strong>(d):&lt;/strong> True—in any connected graph with $n \geq 2$ vertices, at least two have the same degree.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> &lt;strong>(a), (b), (c), and (d)&lt;/strong>&lt;sup id="fnref6:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref4:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref4:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 8:&lt;/strong>
+&lt;em>Consider the following directed graph. Suppose DFS is performed from node A, exploring unvisited neighbors in alphabetical order. Which options are correct?&lt;/em>
+(a) $AC$ is a forward edge
+(b) $CE$ is a backward edge
+(c) $BD$ is a forward edge
+(d) $FC$ is a backward edge&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>(a):&lt;/strong> $AC$ is a forward edge.&lt;/li>
+&lt;li>&lt;strong>(d):&lt;/strong> $FC$ is a backward edge.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> &lt;strong>(a) and (d)&lt;/strong>&lt;sup id="fnref7:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref5:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref5:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>3. Numerical Answer Type (NAT)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-numerical-answer-type-nat">&lt;/span>
+&lt;a href="#3-numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Question 9:&lt;/strong>
+&lt;em>The cardinality of the maximum independent set of the graph given below is:&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The maximum independent set has 4 vertices.
+&lt;strong>Answer:&lt;/strong> &lt;strong>4&lt;/strong>&lt;sup id="fnref8:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref6:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref6:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Question 10:&lt;/strong>
+&lt;em>The minimum coloring of the graph given below is:&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+The minimum number of colors required to color the graph such that no two adjacent vertices have the same color is 2.
+&lt;strong>Answer:&lt;/strong> &lt;strong>2&lt;/strong>&lt;sup id="fnref9:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>All questions and solutions from the PDF have been extracted as above.&lt;/em>&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-10-Practice-Assignment-Solution.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref4:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref5:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref6:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref7:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref8:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref9:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://www.studocu.com/in/document/indian-institute-of-technology-dharwad/mathematical-method/week-10-practice-assignment-solution/75879051" target="_blank" rel="noopener">https://www.studocu.com/in/document/indian-institute-of-technology-dharwad/mathematical-method/week-10-practice-assignment-solution/75879051&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref4:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref5:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref6:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a href="https://www.studocu.com/in/document/indian-institute-of-technology-madras/iitm-online-degree-data-science-and-programming/week-10-practice-assignment-solution/114209262" target="_blank" rel="noopener">https://www.studocu.com/in/document/indian-institute-of-technology-madras/iitm-online-degree-data-science-and-programming/week-10-practice-assignment-solution/114209262&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref4:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref5:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref6:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

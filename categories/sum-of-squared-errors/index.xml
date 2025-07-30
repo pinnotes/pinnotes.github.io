@@ -1,0 +1,135 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Sum of Squared Errors</title><link>/categories/sum-of-squared-errors/</link><description>Recent content in Sum of Squared Errors on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/sum-of-squared-errors/index.xml" rel="self" type="application/rss+xml"/><item><title>Sum of Squared Errors (SSE) for Best-Fit Line</title><link>/exercises/pyq/iit-madras/mathemaics/sum-of-squared-errors-question-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/pyq/iit-madras/mathemaics/sum-of-squared-errors-question-1/</guid><description>
+&lt;hr>
+&lt;h3>1️⃣ &lt;strong>Sum of Squared Errors (SSE) for Best-Fit Line&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-sum-of-squared-errors-sse-for-best-fit-line">&lt;/span>
+&lt;a href="#1-sum-of-squared-errors-sse-for-best-fit-line" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;em>(From Image 1)&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Question:&lt;/strong>
+Given the table of amount paid and distance (in km), and the best-fit line $ y = 4x + 1 $, what is the value of SSE?&lt;/p>
+&lt;h2>Step-by-Step Explanation: Calculating SSE for the Best-Fit Line 📊&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-explanation-calculating-sse-for-the-best-fit-line-">&lt;/span>
+&lt;a href="#step-by-step-explanation-calculating-sse-for-the-best-fit-line-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Let&amp;rsquo;s break down how to find the &lt;strong>Sum of Squared Errors (SSE)&lt;/strong> for the given data and the best-fit line $ y = 4x + 1 $, step by step!&lt;/p>
+&lt;h3>1️⃣ &lt;strong>List the Data Points&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-list-the-data-points">&lt;/span>
+&lt;a href="#1-list-the-data-points" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">Amount Paid ($ y $)&lt;/th>
+&lt;th style="text-align: center">Distance ($ x $)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">80&lt;/td>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">60&lt;/td>
+&lt;td style="text-align: center">15&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">60&lt;/td>
+&lt;td style="text-align: center">16&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">100&lt;/td>
+&lt;td style="text-align: center">25&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">58&lt;/td>
+&lt;td style="text-align: center">14&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3>2️⃣ &lt;strong>Calculate Predicted Values ($ y_{pred} $)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-calculate-predicted-values--y_">&lt;/span>
+&lt;a href="#2-calculate-predicted-values--y_" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Use the best-fit line equation $ y = 4x + 1 $:&lt;/p>
+&lt;ul>
+&lt;li>For $ x = 20 $: $ y_{pred} = 4 \times 20 + 1 = 81 $&lt;/li>
+&lt;li>For $ x = 15 $: $ y_{pred} = 4 \times 15 + 1 = 61 $&lt;/li>
+&lt;li>For $ x = 16 $: $ y_{pred} = 4 \times 16 + 1 = 65 $&lt;/li>
+&lt;li>For $ x = 25 $: $ y_{pred} = 4 \times 25 + 1 = 101 $&lt;/li>
+&lt;li>For $ x = 14 $: $ y_{pred} = 4 \times 14 + 1 = 57 $&lt;/li>
+&lt;/ul>
+&lt;h3>3️⃣ &lt;strong>Find the Error for Each Point&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-find-the-error-for-each-point">&lt;/span>
+&lt;a href="#3-find-the-error-for-each-point" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Error is the difference between the actual and predicted value:&lt;/p>
+$$
+\text{Error} = y_{\text{actual}} - y_{\text{pred}}
+$$&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">$ y_{actual} $&lt;/th>
+&lt;th style="text-align: center">$ y_{pred} $&lt;/th>
+&lt;th style="text-align: center">Error&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">80&lt;/td>
+&lt;td style="text-align: center">81&lt;/td>
+&lt;td style="text-align: center">$ -1 $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">60&lt;/td>
+&lt;td style="text-align: center">61&lt;/td>
+&lt;td style="text-align: center">$ -1 $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">60&lt;/td>
+&lt;td style="text-align: center">65&lt;/td>
+&lt;td style="text-align: center">$ -5 $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">100&lt;/td>
+&lt;td style="text-align: center">101&lt;/td>
+&lt;td style="text-align: center">$ -1 $&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">58&lt;/td>
+&lt;td style="text-align: center">57&lt;/td>
+&lt;td style="text-align: center">$ +1 $&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3>4️⃣ &lt;strong>Square Each Error&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="4-square-each-error">&lt;/span>
+&lt;a href="#4-square-each-error" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>$$
+\text{Squared Error} = (\text{Error})^2
+$$&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">Error&lt;/th>
+&lt;th style="text-align: center">Squared Error&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">-1&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">-1&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">-5&lt;/td>
+&lt;td style="text-align: center">25&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">-1&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">+1&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3>5️⃣ &lt;strong>Sum All Squared Errors (SSE)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="5-sum-all-squared-errors-sse">&lt;/span>
+&lt;a href="#5-sum-all-squared-errors-sse" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>$$
+\text{SSE} = 1 + 1 + 25 + 1 + 1 = \boxed{29}
+$$&lt;h2>🏁 &lt;strong>Final Answer&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="-final-answer">&lt;/span>
+&lt;a href="#-final-answer" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The &lt;strong>Sum of Squared Errors (SSE)&lt;/strong> for the given data and the best-fit line $ y = 4x + 1 $ is:&lt;/p>
+$$
+\boxed{29}
+$$&lt;h3>&lt;strong>What Does SSE Mean?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="what-does-sse-mean">&lt;/span>
+&lt;a href="#what-does-sse-mean" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>SSE measures how well the line fits the data.&lt;/li>
+&lt;li>A smaller SSE means the line fits the data points more closely.&lt;/li>
+&lt;li>Here, each squared error shows how far the actual value is from the predicted value, and their sum gives the total error for all points.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>That’s how you find SSE, step by step, with formulas and calculations! 🚀&lt;/strong>&lt;/p></description></item></channel></rss>

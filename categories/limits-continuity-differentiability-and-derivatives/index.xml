@@ -1,0 +1,4822 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Limits, Continuity, Differentiability, and Derivatives</title><link>/categories/limits-continuity-differentiability-and-derivatives/</link><description>Recent content in Limits, Continuity, Differentiability, and Derivatives on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/limits-continuity-differentiability-and-derivatives/index.xml" rel="self" type="application/rss+xml"/><item><title>Mathematics Week 8 Graded Assignment</title><link>/exercises/graded-assignments/mathematics-1/w8ga1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/graded-assignments/mathematics-1/w8ga1/</guid><description>
+&lt;hr>
+&lt;h2>1. Multiple Select Questions (MSQ)&lt;span class="hx-absolute -hx-mt-20" id="1-multiple-select-questions-msq">&lt;/span>
+&lt;a href="#1-multiple-select-questions-msq" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 1:&lt;/strong>
+Match the given functions in Column A with the equations of their tangents at the origin $(0,0)$ in column B and the plotted graphs and the tangents in Column C, given in Table M2W2G1.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">&lt;/th>
+&lt;th style="text-align: left">Function (Column A)&lt;/th>
+&lt;th style="text-align: left">Tangent at $(0,0)$ (Column B)&lt;/th>
+&lt;th style="text-align: left">Graph (Column C)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">i)&lt;/td>
+&lt;td style="text-align: left">$f(x)=x2^{x}$&lt;/td>
+&lt;td style="text-align: left">a) $y=-4x$&lt;/td>
+&lt;td style="text-align: left">1)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">ii)&lt;/td>
+&lt;td style="text-align: left">$f(x)=x(x-2)(x+2)$&lt;/td>
+&lt;td style="text-align: left">b) $y=x$&lt;/td>
+&lt;td style="text-align: left">2)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">iii)&lt;/td>
+&lt;td style="text-align: left">$f(x)=-x(x-2)(x+2)$&lt;/td>
+&lt;td style="text-align: left">c) $y=4x$&lt;/td>
+&lt;td style="text-align: left">3)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Options:&lt;/strong>
+Option 1: ii) $\rightarrow$ a) $\rightarrow 1$
+Option 2: i) $\rightarrow$ b) $\rightarrow 3$
+Option 3: iii) $\rightarrow$ b) $\rightarrow 1$
+Option 4: iii) $\rightarrow$ c) $\rightarrow 2$
+Option 5: i) $\rightarrow$ a) $\rightarrow 1$&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>i):&lt;/strong> $f(x)=x2^{x}$, $f&amp;rsquo;(0)=1$ → tangent: $y=x$ → matches with b) and graph 3 &lt;strong>i) $\rightarrow$ b $$\rightarrow 3&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ii):&lt;/strong> $f(x)=x(x-2)(x+2)$, $f&amp;rsquo;(0)=-4$ → tangent: $y=-4x$ → matches with a) and graph 1 &lt;strong>ii) $\rightarrow$ a) $$\rightarrow 1&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>iii):&lt;/strong> $f(x)=-x(x-2)(x+2)$, $f&amp;rsquo;(0)=4$ → tangent: $y=4x$ → matches with c) and graph 2&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>iii) $\rightarrow$ c) $$\rightarrow 2&lt;/strong>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 2:&lt;/strong>
+Consider the following two functions $f(x)$ and $g(x)$:&lt;/p>
+$$
+f(x)= \begin{cases}
+\frac{x^{3}-9x}{x(x-3)} &amp; \text{if } x \neq 0,3 \\
+3 &amp; \text{if } x=0 \\
+0 &amp; \text{if } x=3
+\end{cases}
+$$$$
+g(x)= \begin{cases}
+|x| &amp; \text{if } x \leq 2 \\
+\lfloor x \rfloor &amp; \text{if } x>2
+\end{cases}
+$$&lt;p>&lt;strong>Options:&lt;/strong>
+Option 1: $f(x)$ is discontinuous at both $x=0$ and $x=3$
+Option 2: $f(x)$ is discontinuous only at $x=0$
+Option 3: $f(x)$ is discontinuous only at $x=3$
+Option 4: $g(x)$ is discontinuous at $x=2$
+Option 5: $g(x)$ is discontinuous at $x=3$&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>f(x):&lt;/strong> Continuous at $x=0$, discontinuous at $x=3$ → &lt;strong>Option 3&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>g(x):&lt;/strong> Continuous at $x=2$, discontinuous at $x=3$ → &lt;strong>Option 5&lt;/strong>&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 3:&lt;/strong>
+Consider the graphs given below (Curve 1, Curve 2, Curve 3, Curve 4).&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>
+Option 1: Curve 1 is both continuous and differentiable at the origin.
+Option 2: Curve 2 is continuous but not differentiable at the origin.
+Option 3: Curve 2 has derivative 0 at $x=0$.
+Option 4: Curve 3 is continuous but not differentiable at the origin.
+Option 5: Curve 4 is not differentiable anywhere.
+Option 6: Curve 4 has derivative 0 at $x=0$.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Curve 1:&lt;/strong> Continuous and differentiable at origin → &lt;strong>Option 1&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Curve 2:&lt;/strong> Continuous and differentiable at origin, derivative 0 → &lt;strong>Option 2, 3&lt;/strong> (but note: Option 2 is false as per solution, but solution says Curve 2 is differentiable at origin with derivative 0. Likely only Option 3 is correct, but solution text is ambiguous. Most likely: &lt;strong>Option 3&lt;/strong>.)&lt;/li>
+&lt;li>&lt;strong>Curve 3:&lt;/strong> Continuous but not differentiable at origin → &lt;strong>Option 4&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Curve 4:&lt;/strong> Differentiable at $x=1$, not everywhere, but not differentiable at all points is false; option 5 is false. Option 6 is also false.
+&lt;em>Clarification: Based on solution, only Option 1 and Option 4 are correct, but solution text is unclear about Curve 2; likely Option 3 is also correct, but solution says Curve 2 is differentiable. User should verify with figure.&lt;/em>
+&lt;em>However, as per solution: Curve 2 is differentiable at origin with derivative 0, so Option 3 is correct. Option 2 is incorrect (since Curve 2 is differentiable at origin). Option 4 is correct.&lt;/em>&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 4:&lt;/strong>
+Consider the function:&lt;/p>
+$$
+f(x)= \begin{cases}
+\frac{\sin x}{x} &amp; \text{if } x \neq 0 \\
+1 &amp; \text{if } x=0
+\end{cases}
+$$&lt;p>&lt;strong>Options:&lt;/strong>
+Option 1: $f(x)$ is not continuous at $x=0$
+Option 2: $f(x)$ is continuous at $x=0$
+Option 3: $f(x)$ is not differentiable at $x=0$
+Option 4: $f(x)$ is differentiable at $x=0$
+Option 5: The derivative of $f(x)$ at $x=0$ (if exists) is 0
+Option 6: The derivative of $f(x)$ at $x=0$ (if exists) is 1&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>f(x):&lt;/strong> Continuous at $x=0$ → &lt;strong>Option 2&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Differentiable at $x=0$, derivative is 0&lt;/strong> → &lt;strong>Option 4, 5&lt;/strong>&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 5:&lt;/strong>
+Let $f$ be a polynomial of degree 5:&lt;/p>
+$$
+f(x)=a_{5}x^{5}+a_{4}x^{4}+a_{3}x^{3}+a_{2}x^{2}+a_{1}x+a_{0}
+$$&lt;p>Let $f&amp;rsquo;(b)$ denote the derivative of $f$ at $x=b$.&lt;/p>
+&lt;p>&lt;strong>Options:&lt;/strong>
+Option 1: $a_{1}=f&amp;rsquo;(0)$
+Option 2: $5a_{5}+3a_{3}=\frac{1}{2}\left(f&amp;rsquo;(1)+f&amp;rsquo;(-1)-2f&amp;rsquo;(0)\right)$
+Option 3: $4a_{4}+2a_{2}=\frac{1}{2}\left(f&amp;rsquo;(1)-f&amp;rsquo;(-1)\right)$
+Option 4: None of the above&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Option 1:&lt;/strong> $a_{1}=f&amp;rsquo;(0)$ → &lt;strong>True&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Option 2:&lt;/strong> $5a_{5}+3a_{3}=\frac{1}{2}\left(f&amp;rsquo;(1)+f&amp;rsquo;(-1)-2f&amp;rsquo;(0)\right)$ → &lt;strong>True&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Option 3:&lt;/strong> $4a_{4}+2a_{2}=\frac{1}{2}\left(f&amp;rsquo;(1)-f&amp;rsquo;(-1)\right)$ → &lt;strong>True&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Option 4:&lt;/strong> &lt;strong>False&lt;/strong>&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;h2>2. Numerical Answer Type (NAT)&lt;span class="hx-absolute -hx-mt-20" id="2-numerical-answer-type-nat">&lt;/span>
+&lt;a href="#2-numerical-answer-type-nat" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Question 6:&lt;/strong>
+Let $f$ be a differentiable function at $x=3$. The tangent line to the graph of the function $f$ at the point $(3,0)$, passes through the point $(5,4)$. What will be the value of $f&amp;rsquo;(3)$?&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+Slope of tangent = $\frac{4-0}{5-3}=2$.
+&lt;strong>Answer:&lt;/strong> $f&amp;rsquo;(3)=2$&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Question 7:&lt;/strong>
+Let $f$ and $g$ be two functions which are differentiable at each $x \in \mathbb{R}$. Suppose that, $f(x)=g(x^{2}+5x)$, and $f&amp;rsquo;(0)=10$. Find the value of $g&amp;rsquo;(0)$.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+$f&amp;rsquo;(x)=g&amp;rsquo;(x^{2}+5x)(2x+5)$
+At $x=0$, $f&amp;rsquo;(0)=g&amp;rsquo;(0)\times5=10$
+&lt;strong>Answer:&lt;/strong> $g&amp;rsquo;(0)=2$&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;h2>3. Comprehension Type Questions&lt;span class="hx-absolute -hx-mt-20" id="3-comprehension-type-questions">&lt;/span>
+&lt;a href="#3-comprehension-type-questions" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 8:&lt;/strong>
+Consider the following statements:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Statement P:&lt;/strong> Both the functions $p(t)$ and $q(t)$ are continuous.&lt;/li>
+&lt;li>&lt;strong>Statement Q:&lt;/strong> $p(t)$ is continuous, but $q(t)$ is not.&lt;/li>
+&lt;li>&lt;strong>Statement R:&lt;/strong> $q(t)$ is continuous, but $p(t)$ is not.&lt;/li>
+&lt;li>&lt;strong>Statement S:&lt;/strong> Neither $p(t)$ nor $q(t)$ is continuous.&lt;/li>
+&lt;/ul>
+&lt;p>Given the functions:&lt;/p>
+$$
+p(t)= \begin{cases}
+\frac{t^{3}-27}{t-3} &amp; \text{if } 0 \leq t &lt; 3 \\
+27 &amp; t=3 \\
+\frac{1}{e^{81}(t-3)}\left(e^{27t}-e^{81}\right) &amp; \text{if } t>3
+\end{cases}
+$$$$
+q(t)= \begin{cases}
+(5t-9)^{\frac{1}{t-2}} &amp; \text{if } 0 \leq t &lt; 2 \\
+e^{4} &amp; t=2 \\
+\frac{e^{t+2}-e^{4}}{t-2} &amp; \text{if } t>2
+\end{cases}
+$$&lt;p>Find the number of the correct statements.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>p(t):&lt;/strong> Continuous at $t=3$&lt;/li>
+&lt;li>&lt;strong>q(t):&lt;/strong> Not continuous at $t=2$ (left limit $e^5$, right limit $e^4$)
+&lt;strong>Only Statement Q is correct.&lt;/strong>
+&lt;strong>Answer:&lt;/strong> 1&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 9:&lt;/strong>
+If $L_p(t)=At+B$ denotes the best linear approximation of the function $p(t)$ at the point $t=1$, then find the value of $2A+B$.&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$p(t)=\frac{t^{3}-27}{t-3}$ for $0 \leq t &amp;lt; 3$
+$p(1)=13$, $p&amp;rsquo;(1)=5$
+Linear approximation: $L_p(t)=5t+8$
+So, $A=5$, $B=8$
+&lt;strong>Answer:&lt;/strong> $2A+B=18$&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Question 10:&lt;/strong>
+If $L_q(t)=e^{4}(At+B)+Ce^{5}$ denotes the best linear approximation of the function $q(t)$ at the point $t=3$, then find the value of $A+B+C$.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+$q(3)=e^{5}-e^{4}$, $q&amp;rsquo;(3)=e^{4}$
+Linear approximation: $L_q(t)=e^{4}(t-4)+e^{5}$
+So, $A=1$, $B=-4$, $C=1$
+&lt;strong>Answer:&lt;/strong> $A+B+C=-2$&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 11:&lt;/strong>
+Consider a function $f: \mathbb{R} \rightarrow \mathbb{R}$ defined as:&lt;/p>
+$$
+f(x)= \begin{cases}
+\frac{\sin 14x + A \sin x}{19x^{3}} &amp; \text{if } x \neq 0 \\
+B &amp; \text{if } x=0
+\end{cases}
+$$&lt;p>If $f(x)$ is continuous at $x=0$, then find the value of $114B-A$.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+For continuity, $A=-14$
+$B=\frac{-2730}{114}$
+&lt;strong>Answer:&lt;/strong> $114B-A=-2716$&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 12:&lt;/strong>
+The distance (in meters) traveled by a car after $t$ minutes is given by the function $d(t)=g(4t^{3}+2t^{2}+5t+2)$, where $g$ is a differentiable function with domain $\mathbb{R}$. Find the instantaneous speed of the car after 5 min, where $g&amp;rsquo;(577)=2$.&lt;/p>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;p>&lt;strong>Solution:&lt;/strong>
+$d&amp;rsquo;(t)=g&amp;rsquo;(4t^{3}+2t^{2}+5t+2)(12t^{2}+4t+5)$
+At $t=5$, $d&amp;rsquo;(5)=g&amp;rsquo;(577)\times325=2\times325=650$
+&lt;strong>Answer:&lt;/strong> 650&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 13:&lt;/strong>
+Consider the functions:&lt;/p>
+$$
+p(t)= \begin{cases}
+\frac{2e^{(t-2)}-2}{t-2} &amp; \text{if } 0 \leq t &lt; 2 \\
+2 &amp; t=2 \\
+2(t^{2}-4)^{\frac{1}{\ln(t-2)}} &amp; \text{if } t>2
+\end{cases}
+$$$$
+q(t)=|t(t-7)(t-8)|
+$$&lt;p>&lt;strong>Statements:&lt;/strong>
+P: Both $p(t)$ and $q(t)$ are continuous
+Q: Both are not differentiable
+R: $p(t)$ is continuous, $q(t)$ is differentiable
+S: $q(t)$ is continuous, $p(t)$ is not differentiable
+T: Neither is continuous&lt;/p>
+&lt;p>Find the number of correct statements.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>p(t):&lt;/strong> Not continuous at $t=2$&lt;/li>
+&lt;li>&lt;strong>q(t):&lt;/strong> Continuous, but not differentiable at $x=0,7,8$
+&lt;strong>Only S is correct.&lt;/strong>
+&lt;strong>Answer:&lt;/strong> 1&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Question 14:&lt;/strong>
+If linear function $L_p(t)=At+B$ denotes the best linear approximation of the function $p(t)$ at the point $t=1$, find the value of $\frac{-2}{e^{-1}-1}(A+B)$.&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+$A+B=p(1)$
+$p(1)=\frac{2e^{-1}-2}{-1}=2(1-e^{-1})$
+$\frac{-2}{e^{-1}-1}(A+B)=4$
+&lt;strong>Answer:&lt;/strong> 4&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;p>&lt;strong>Question 15:&lt;/strong>
+Consider the function:&lt;/p>
+$$
+q(t)=|t(t-7)(t-8)|
+$$&lt;p>If $m$ is slope of the tangent of the function $q(t)$ at point $t=\frac{3}{2}$, find the value $m-\frac{27}{4}$.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;div class="border-card border-card-basic">
+&lt;div class="border-card-content">&lt;strong>Solution:&lt;/strong>
+For $0 \leq t &amp;lt; 7$, $q(t)=t(t-7)(t-8)$
+$q&amp;rsquo;(t)=3t^{2}-30t+56$
+$q&amp;rsquo;\left(\frac{3}{2}\right)=\frac{27}{4}-45+56=\frac{27}{4}+11$
+But solution says $m-\frac{27}{4}=11$
+&lt;strong>Answer:&lt;/strong> 11&lt;/div>
+&lt;/div>
+&lt;style>
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style>
+&lt;p>This covers all questions and solutions from the provided PDF&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Week-8.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

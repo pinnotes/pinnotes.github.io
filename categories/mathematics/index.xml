@@ -1,0 +1,221 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Mathematics</title><link>/categories/mathematics/</link><description>Recent content in Mathematics on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/mathematics/index.xml" rel="self" type="application/rss+xml"/><item><title>Practice Questions with Answers from the Mensuration</title><link>/exercises/chsl/math-quantitative-aptitude/mensuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/chsl/math-quantitative-aptitude/mensuration/</guid><description>
+&lt;img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+&lt;h2>Extracted Practice Questions with Answers from the Mensuration PDF&lt;span class="hx-absolute -hx-mt-20" id="extracted-practice-questions-with-answers-from-the-mensuration-pdf">&lt;/span>
+&lt;a href="#extracted-practice-questions-with-answers-from-the-mensuration-pdf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Below are all the practice questions from your Mensuration PDF, each with a clear solution and explanation for easy understanding.&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q1. Three cubes of metal whose edges are in the ratio 3:4:5 are melted and one new cube is formed. If the diagonal of the cube is $18\sqrt{3}$ cm, then find the edge of the largest among three cubes.&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q1-three-cubes-of-metal-whose-edges-are-in-the-ratio-345-are-melted-and-one-new-cube-is-formed-if-the-diagonal-of-the-cube-is-18sqrt3-cm-then-find-the-edge-of-the-largest-among-three-cubes">&lt;/span>
+&lt;a href="#q1-three-cubes-of-metal-whose-edges-are-in-the-ratio-345-are-melted-and-one-new-cube-is-formed-if-the-diagonal-of-the-cube-is-18sqrt3-cm-then-find-the-edge-of-the-largest-among-three-cubes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) 18 cm
+(B) 24 cm
+(C) 15 cm
+(D) 12 cm&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Let the edges be $3x, 4x, 5x$.&lt;/li>
+&lt;li>Total volume = $(3x)^3 + (4x)^3 + (5x)^3 = 27x^3 + 64x^3 + 125x^3 = 216x^3$.&lt;/li>
+&lt;li>New cube&amp;rsquo;s side = $\sqrt&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>{216x^3} = 6x$.&lt;/li>
+&lt;li>Diagonal of new cube = $6x \sqrt{3} = 18\sqrt{3}$ ⇒ $x = 3$.&lt;/li>
+&lt;li>Largest original cube = $5x = 15$ cm.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (C) 15 cm&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q2. What is the area of the largest triangle that can be fitted into a rectangle of length &amp;lsquo;a&amp;rsquo; units and width &amp;lsquo;b&amp;rsquo; units?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q2-what-is-the-area-of-the-largest-triangle-that-can-be-fitted-into-a-rectangle-of-length">&lt;/span>
+&lt;a href="#q2-what-is-the-area-of-the-largest-triangle-that-can-be-fitted-into-a-rectangle-of-length" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) $ab$ unit²
+(B) $\frac{1}{2}ab$ unit²
+(C) $\frac{1}{4}ab$ unit²
+(D) $a^2 + b^2$ unit²&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>The largest triangle is half the area of the rectangle.&lt;/li>
+&lt;li>Area = $\frac{1}{2}ab$.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (B) $\frac{1}{2}ab$ unit²&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q3. Find the perimeter and area of an isosceles triangle whose equal sides are 5 cm and the height is 4 cm.&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q3-find-the-perimeter-and-area-of-an-isosceles-triangle-whose-equal-sides-are-5-cm-and-the-height-is-4-cm">&lt;/span>
+&lt;a href="#q3-find-the-perimeter-and-area-of-an-isosceles-triangle-whose-equal-sides-are-5-cm-and-the-height-is-4-cm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) 24 cm², 13 cm
+(B) 18 cm², 16 cm
+(C) 12 cm², 13 cm
+(D) 12 cm², 16 cm&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Let base = $b$. Height from apex to base divides base into two equal parts.&lt;/li>
+&lt;li>By Pythagoras: $5^2 = 4^2 + (b/2)^2$ ⇒ $25 = 16 + (b^2/4)$ ⇒ $b^2 = 36$ ⇒ $b = 6$ cm.&lt;/li>
+&lt;li>Perimeter = $5 + 5 + 6 = 16$ cm.&lt;/li>
+&lt;li>Area = $\frac{1}{2} \times 6 \times 4 = 12$ cm².&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (D) 12 cm², 16 cm&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q4. A parallelogram has area $A$ sq. mts. A second parallelogram is formed by joining the mid-points of its sides. A third parallelogram is formed by joining the mid-points of the sides of the second parallelogram. This process is continued up to infinity. What is the sum of the areas (in sq. mts) of all the parallelograms so formed?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q4-a-parallelogram-has-area-a-sq-mts-a-second-parallelogram-is-formed-by-joining-the-mid-points-of-its-sides-a-third-parallelogram-is-formed-by-joining-the-mid-points-of-the-sides-of-the-second-parallelogram-this-process-is-continued-up-to-infinity-what-is-the-sum-of-the-areas-in-sq-mts-of-all-the-parallelograms-so-formed">&lt;/span>
+&lt;a href="#q4-a-parallelogram-has-area-a-sq-mts-a-second-parallelogram-is-formed-by-joining-the-mid-points-of-its-sides-a-third-parallelogram-is-formed-by-joining-the-mid-points-of-the-sides-of-the-second-parallelogram-this-process-is-continued-up-to-infinity-what-is-the-sum-of-the-areas-in-sq-mts-of-all-the-parallelograms-so-formed" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) $A$
+(B) $\frac{3A}{2}$
+(C) $2A$
+(D) $\frac{A}{2}$&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>This forms a geometric progression with first term $A$ and common ratio $\frac{1}{2}$.&lt;/li>
+&lt;li>Sum = $A/(1 - 1/2) = 2A$.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (C) $2A$&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q5. The radius of a cylindrical milk container is half its height and surface area of the inner part is 616 sq.cm. The amount of milk that the container can hold, approximately, is [Use: $\sqrt{5}= 2.23$ and $\pi = 22/7$]&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q5-the-radius-of-a-cylindrical-milk-container-is-half-its-height-and-surface-area-of-the-inner-part-is-616-sqcm-the-amount-of-milk-that-the-container-can-hold-approximately-is-">&lt;/span>
+&lt;a href="#q5-the-radius-of-a-cylindrical-milk-container-is-half-its-height-and-surface-area-of-the-inner-part-is-616-sqcm-the-amount-of-milk-that-the-container-can-hold-approximately-is-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) 1.42 litres
+(B) 1.53 litres
+(C) 1.71 litres
+(D) 1.82 litres&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Let radius = $x$, height = $2x$.&lt;/li>
+&lt;li>Surface area: $2\pi x (2x) + \pi x^2 = 616$ ⇒ $5\pi x^2 = 616$ ⇒ $x^2 = 616/(5\pi)$.&lt;/li>
+&lt;li>Volume = $\pi x^2 \times 2x = 2\pi x^3$.&lt;/li>
+&lt;li>Calculate $x$, then volume (in cm³), convert to litres ($1$ litre = $1000$ cm³).&lt;/li>
+&lt;li>Approximate answer: &lt;strong>1.53 litres&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (B) 1.53 litres&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q6. From the four corners of a rectangular sheet of dimensions 25 cm x 20 cm, squares of side 2 cm are cut off and a box is made. The volume of the box is-&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q6-from-the-four-corners-of-a-rectangular-sheet-of-dimensions-25-cm-x-20-cm-squares-of-side-2-cm-are-cut-off-and-a-box-is-made-the-volume-of-the-box-is-">&lt;/span>
+&lt;a href="#q6-from-the-four-corners-of-a-rectangular-sheet-of-dimensions-25-cm-x-20-cm-squares-of-side-2-cm-are-cut-off-and-a-box-is-made-the-volume-of-the-box-is-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) 828 cm³
+(B) 672 cm³
+(C) 500 cm³
+(D) 1000 cm³&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>New length = $25 - 2 \times 2 = 21$ cm, new width = $20 - 2 \times 2 = 16$ cm, height = $2$ cm.&lt;/li>
+&lt;li>Volume = $21 \times 16 \times 2 = 672$ cm³.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (B) 672 cm³&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q7. A rectangular paper sheet of dimensions 22 cm × 12 cm is folded in the form of a cylinder along its length. What will be the volume of this cylinder?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q7-a-rectangular-paper-sheet-of-dimensions-22-cm--12-cm-is-folded-in-the-form-of-a-cylinder-along-its-length-what-will-be-the-volume-of-this-cylinder">&lt;/span>
+&lt;a href="#q7-a-rectangular-paper-sheet-of-dimensions-22-cm--12-cm-is-folded-in-the-form-of-a-cylinder-along-its-length-what-will-be-the-volume-of-this-cylinder" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) 460 cm³
+(B) 462 cm³
+(C) 624 cm³
+(D) 400 cm³&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Circumference = 22 cm ⇒ radius $r = 22/(2\pi) = 7/2$ cm.&lt;/li>
+&lt;li>Height = 12 cm.&lt;/li>
+&lt;li>Volume = $\pi r^2 h = \frac{22}{7} \times (\frac{7}{2})^2 \times 12 = 462$ cm³.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (B) 462 cm³&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q8. A copper rod of 1 cm diameter and 8 cm length is drawn into a wire of uniform diameter and 18 m length. The radius (in cm) of the wire is:&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q8-a-copper-rod-of-1-cm-diameter-and-8-cm-length-is-drawn-into-a-wire-of-uniform-diameter-and-18-m-length-the-radius-in-cm-of-the-wire-is">&lt;/span>
+&lt;a href="#q8-a-copper-rod-of-1-cm-diameter-and-8-cm-length-is-drawn-into-a-wire-of-uniform-diameter-and-18-m-length-the-radius-in-cm-of-the-wire-is" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) $1/2$
+(B) $1/3$
+(C) $1/30$
+(D) $1/15$&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Volume before = $\pi r^2 h = \pi \times (0.5)^2 \times 8$.&lt;/li>
+&lt;li>Volume after = $\pi r^2 \times 1800$ (since 18 m = 1800 cm).&lt;/li>
+&lt;li>Equate and solve: $0.25 \times 8 = r^2 \times 1800$ ⇒ $r^2 = 2/1800 = 1/900$ ⇒ $r = 1/30$ cm.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (C) $1/30$ cm&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q9. A hollow iron pipe is 21 cm long and its exterior diameter is 8 cm. If the thickness of the pipe is 1 cm and iron weighs 8 gm/cm³, then the weight of the pipe is:&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q9-a-hollow-iron-pipe-is-21-cm-long-and-its-exterior-diameter-is-8-cm-if-the-thickness-of-the-pipe-is-1-cm-and-iron-weighs-8-gmcm-then-the-weight-of-the-pipe-is">&lt;/span>
+&lt;a href="#q9-a-hollow-iron-pipe-is-21-cm-long-and-its-exterior-diameter-is-8-cm-if-the-thickness-of-the-pipe-is-1-cm-and-iron-weighs-8-gmcm-then-the-weight-of-the-pipe-is" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) 3.696 kg
+(B) 3.6 kg
+(C) 36 kg
+(D) 36.9 kg&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Outer radius = 4 cm, inner radius = 3 cm.&lt;/li>
+&lt;li>Volume = $\pi (4^2 - 3^2) \times 21 = \pi \times 7 \times 21 = 462$ cm³.&lt;/li>
+&lt;li>Weight = $462 \times 8 = 3696$ g = 3.696 kg.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (A) 3.696 kg&lt;/p>
+&lt;hr>
+&lt;h3>&lt;strong>Q10. Water flows at the rate of 10 meters per minute from a cylindrical pipe 5 mm in diameter. How long will it take to fill up a conical vessel whose diameter at the base is 30 cm and depth 24 cm?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="q10-water-flows-at-the-rate-of-10-meters-per-minute-from-a-cylindrical-pipe-5-mm-in-diameter-how-long-will-it-take-to-fill-up-a-conical-vessel-whose-diameter-at-the-base-is-30-cm-and-depth-24-cm">&lt;/span>
+&lt;a href="#q10-water-flows-at-the-rate-of-10-meters-per-minute-from-a-cylindrical-pipe-5-mm-in-diameter-how-long-will-it-take-to-fill-up-a-conical-vessel-whose-diameter-at-the-base-is-30-cm-and-depth-24-cm" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Options:&lt;/strong>
+(A) 28 minutes 48 seconds
+(B) 51 minutes 12 seconds
+(C) 51 minutes 24 seconds
+(D) 28 minutes 36 seconds&lt;/p>
+&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Volume of cone = $\frac{1}{3} \pi r^2 h = \frac{1}{3} \times \frac{22}{7} \times 15^2 \times 24$.&lt;/li>
+&lt;li>Volume of water per minute = $\pi \times (0.25)^2 \times 1000$ cm³.&lt;/li>
+&lt;li>Time = Total volume / volume per minute.&lt;/li>
+&lt;li>Calculated time: &lt;strong>28 minutes 48 seconds&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Answer:&lt;/strong> (A) 28 minutes 48 seconds&lt;/p>
+&lt;hr>
+&lt;h2>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">Q.No.&lt;/th>
+&lt;th style="text-align: left">Topic/Concept&lt;/th>
+&lt;th style="text-align: left">Answer&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">1&lt;/td>
+&lt;td style="text-align: left">Volume &amp;amp; Diagonal of Cube&lt;/td>
+&lt;td style="text-align: left">15 cm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">2&lt;/td>
+&lt;td style="text-align: left">Area of Largest Triangle in Rectangle&lt;/td>
+&lt;td style="text-align: left">$\frac{1}{2}ab$ unit²&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">3&lt;/td>
+&lt;td style="text-align: left">Isosceles Triangle Area/Perimeter&lt;/td>
+&lt;td style="text-align: left">12 cm², 16 cm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">4&lt;/td>
+&lt;td style="text-align: left">Infinite Parallelograms (GP)&lt;/td>
+&lt;td style="text-align: left">$2A$&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">5&lt;/td>
+&lt;td style="text-align: left">Cylinder Volume (Surface Area Given)&lt;/td>
+&lt;td style="text-align: left">1.53 litres&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">6&lt;/td>
+&lt;td style="text-align: left">Box from Rectangular Sheet&lt;/td>
+&lt;td style="text-align: left">672 cm³&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">7&lt;/td>
+&lt;td style="text-align: left">Cylinder from Paper Sheet&lt;/td>
+&lt;td style="text-align: left">462 cm³&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">8&lt;/td>
+&lt;td style="text-align: left">Wire from Copper Rod&lt;/td>
+&lt;td style="text-align: left">$1/30$ cm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">9&lt;/td>
+&lt;td style="text-align: left">Weight of Hollow Pipe&lt;/td>
+&lt;td style="text-align: left">3.696 kg&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">10&lt;/td>
+&lt;td style="text-align: left">Water Filling Conical Vessel&lt;/td>
+&lt;td style="text-align: left">28 min 48 sec&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>These questions cover a wide range of mensuration topics and are suitable for SSC, banking, and other competitive exams. Each answer is explained step-by-step for clarity and learning.&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://byjus.com/maths/mensuration-questions/" target="_blank" rel="noopener">https://byjus.com/maths/mensuration-questions/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

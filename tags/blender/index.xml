@@ -1,0 +1,309 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Blender</title><link>/tags/blender/</link><description>Recent content in Blender on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Snake 3D Model FBX Blender 🐍</title><link>/blog/blender/snake-3d-model-tutorial-blender-asset/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/snake-3d-model-tutorial-blender-asset/</guid><description>
+&lt;h2>Download 3D Model! 👋&lt;span class="hx-absolute -hx-mt-20" id="download-3d-model-">&lt;/span>
+&lt;a href="#download-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>DYNAMIC ISLAND COMES TO IPHONE 15 — Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else. You can see who’s calling, track your next ride, check your flight status, and so much more.
+INNOVATIVE DESIGN — iPhone 15 features a durable color-infused glass and aluminum design. It’s splash, water, and dust resistant. The Ceramic Shield front is tougher than any smartphone glass. And the 6.1&amp;quot; Super Retina XDR display is up to 2x brighter in the sun compared to iPhone 14.
+48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.
+NEXT-GENERATION PORTRAITS — Capture portraits with dramatically more detail and color. Just tap to shift the focus between subjects — even after you take the shot.
+POWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life.&lt;/p>
+&lt;h3>Free 3D Model 🧊&lt;span class="hx-absolute -hx-mt-20" id="free-3d-model-">&lt;/span>
+&lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div style="text-align:center">
+&lt;h4>Click and wait for 20 seconds 👇
+&lt;/div>
+&lt;a href="/assets/download/" class="timer-btn"> Free Download &lt;/a>
+&lt;script>
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "\/assets\/download\/";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script>
+&lt;style>
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style>
+&lt;ul>
+&lt;li>Camera: Rear Camera: 50 MP Zeiss main camera: OIS; f/1.88; FOV 84°; 6P lens 50 MP Zeiss Wide-Angle lens: AF; f/2.0; FOV 119.4°; 5P lens | Selfie Camera: 50 MP Super Wide-Angle focus lens: AF; f/2.0; FOV 92°; 5P lens | 4K/1080P/720P Video Recording Resolution
+Screen &amp;amp; display: 17.19 cm (6.77&amp;quot; inch) Quad Curved AMOLED capacitive multi-touch Display | P3 wide colour gamut supported | 387 ppi high pixel density| 4500 nits local peak brightness
+Memory &amp;amp; SIM: 8GB RAM | 128GB Internal Memory | LPDDR4X | UFS 2.2 | Bluetooth 5.4
+Battery: 6000 mAh battery | Li-ion battery
+Fast Charging: 90W Flash Charge | USB 2.0
+SIM: 2 Nano SIMs | 5G + 5G Dual SIM Dual Standby
+Security: In-display optical fingerprint sensor for optimum security for your data&lt;/li>
+&lt;/ul>
+&lt;p>Smooth Performance&lt;/p>
+&lt;p>Powered by the Snapdragon 7s Gen 3 5G processor, the Nothing Phone 3A 6.77-Inch 5G Smartphone delivers fast and efficient performance for seamless multitasking, gaming, and content creation. Plus, with an 8-core CPU clocked at up to 2.5 GHz and a Qualcomm AI Engine, this smartphone ensures smooth operation and intelligent processing for an optimised user experience.&lt;/p>
+&lt;p>8GB RAM&lt;/p>
+&lt;p>With 8GB RAM, this 5G smartphone ensures seamless multitasking and smooth app launches, Additionally, with up to 20GB RAM booster, you get enhanced memory management, keeping apps responsive and lag-free.&lt;/p>
+&lt;p>Ample Storage&lt;/p>
+&lt;p>Featuring 128GB of internal storage, this smartphone provides ample space for all your apps, photos, and videos, ensuring you have everything you need at your fingertips without worrying about running out of storage.&lt;/p>
+&lt;p>Vibrant AMOLED Display&lt;/p>
+&lt;p>Featuring a 6.77-inch flexible AMOLED display, this smartphone offers 1080 x 2392 resolution and 387 PPI for sharp clarity. So, you can enjoy smooth scrolling with a 120Hz adaptive refresh rate and ultra-responsive 1000Hz touch sampling. Moreover, with a 10-bit colour depth, 1,000,000:1 contrast ratio, and 3000 nits peak brightness, it delivers vivid colours and enhanced visibility in any lighting condition.&lt;/p>
+&lt;p>Versatile Camera System&lt;/p>
+&lt;p>Equipped with a 0.6x to 30x zoom range, the 50MP main camera captures detailed, true-to-life images from any distance. Plus, the 32MP front camera ensures sharp and high-resolution selfies, while AI-powered stabilisation enhances 4K video recording, allowing you to shoot smooth, clear videos even in low-light environments.&lt;/p>
+&lt;p>AI-Powered Features&lt;/p>
+&lt;p>The Essential Key of this 6.77-inch smartphone provides quick access to content capture, letting you take screenshots, record voice notes, and save inspirations effortlessly. Additionally, Essential Space utilises AI to organise, categorise, and generate personalised suggestions, keeping your content well-managed and easy to retrieve.&lt;/p>
+&lt;p>Long-Lasting Battery&lt;/p>
+&lt;p>Equipped with a 5000mAh battery, this 128GB smartphone provides extended usage on a single charge, letting you stay connected for longer. Plus, its fast-charging support ensures you can power up quickly and get back to your tasks without long wait times.&lt;/p>
+&lt;p>Distinctive Design&lt;/p>
+&lt;p>Combining minimalism with advanced engineering, this Nothing smartphone features a unique transparent design, giving it a futuristic yet nostalgic aesthetic. Built with high-quality materials, it strikes the ideal balance between simplicity and sophistication, making it a standout device in both form and function.&lt;/p></description></item><item><title>Tree 3D Model FBX Blender 🌲</title><link>/blog/blender/tree3d-blender-3d-model/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/tree3d-blender-3d-model/</guid><description>
+&lt;h2>Download 3D Model! 👋&lt;span class="hx-absolute -hx-mt-20" id="download-3d-model-">&lt;/span>
+&lt;a href="#download-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>DYNAMIC ISLAND COMES TO IPHONE 15 — Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else. You can see who’s calling, track your next ride, check your flight status, and so much more.
+INNOVATIVE DESIGN — iPhone 15 features a durable color-infused glass and aluminum design. It’s splash, water, and dust resistant. The Ceramic Shield front is tougher than any smartphone glass. And the 6.1&amp;quot; Super Retina XDR display is up to 2x brighter in the sun compared to iPhone 14.
+48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.
+NEXT-GENERATION PORTRAITS — Capture portraits with dramatically more detail and color. Just tap to shift the focus between subjects — even after you take the shot.
+POWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life.&lt;/p>
+&lt;h3>Free 3D Model 🧊&lt;span class="hx-absolute -hx-mt-20" id="free-3d-model-">&lt;/span>
+&lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div style="text-align:center">
+&lt;h4>Click and wait for 20 seconds 👇
+&lt;/div>
+&lt;a href="/assets/tree3d/" class="timer-btn"> Free Download &lt;/a>
+&lt;script>
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "\/assets\/tree3d\/";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script>
+&lt;style>
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style>
+&lt;ul>
+&lt;li>Camera: Rear Camera: 50 MP Zeiss main camera: OIS; f/1.88; FOV 84°; 6P lens 50 MP Zeiss Wide-Angle lens: AF; f/2.0; FOV 119.4°; 5P lens | Selfie Camera: 50 MP Super Wide-Angle focus lens: AF; f/2.0; FOV 92°; 5P lens | 4K/1080P/720P Video Recording Resolution
+Screen &amp;amp; display: 17.19 cm (6.77&amp;quot; inch) Quad Curved AMOLED capacitive multi-touch Display | P3 wide colour gamut supported | 387 ppi high pixel density| 4500 nits local peak brightness
+Memory &amp;amp; SIM: 8GB RAM | 128GB Internal Memory | LPDDR4X | UFS 2.2 | Bluetooth 5.4
+Battery: 6000 mAh battery | Li-ion battery
+Fast Charging: 90W Flash Charge | USB 2.0
+SIM: 2 Nano SIMs | 5G + 5G Dual SIM Dual Standby
+Security: In-display optical fingerprint sensor for optimum security for your data&lt;/li>
+&lt;/ul>
+&lt;p>Smooth Performance&lt;/p>
+&lt;p>Powered by the Snapdragon 7s Gen 3 5G processor, the Nothing Phone 3A 6.77-Inch 5G Smartphone delivers fast and efficient performance for seamless multitasking, gaming, and content creation. Plus, with an 8-core CPU clocked at up to 2.5 GHz and a Qualcomm AI Engine, this smartphone ensures smooth operation and intelligent processing for an optimised user experience.&lt;/p>
+&lt;p>8GB RAM&lt;/p>
+&lt;p>With 8GB RAM, this 5G smartphone ensures seamless multitasking and smooth app launches, Additionally, with up to 20GB RAM booster, you get enhanced memory management, keeping apps responsive and lag-free.&lt;/p>
+&lt;p>Ample Storage&lt;/p>
+&lt;p>Featuring 128GB of internal storage, this smartphone provides ample space for all your apps, photos, and videos, ensuring you have everything you need at your fingertips without worrying about running out of storage.&lt;/p>
+&lt;p>Vibrant AMOLED Display&lt;/p>
+&lt;p>Featuring a 6.77-inch flexible AMOLED display, this smartphone offers 1080 x 2392 resolution and 387 PPI for sharp clarity. So, you can enjoy smooth scrolling with a 120Hz adaptive refresh rate and ultra-responsive 1000Hz touch sampling. Moreover, with a 10-bit colour depth, 1,000,000:1 contrast ratio, and 3000 nits peak brightness, it delivers vivid colours and enhanced visibility in any lighting condition.&lt;/p>
+&lt;p>Versatile Camera System&lt;/p>
+&lt;p>Equipped with a 0.6x to 30x zoom range, the 50MP main camera captures detailed, true-to-life images from any distance. Plus, the 32MP front camera ensures sharp and high-resolution selfies, while AI-powered stabilisation enhances 4K video recording, allowing you to shoot smooth, clear videos even in low-light environments.&lt;/p>
+&lt;p>AI-Powered Features&lt;/p>
+&lt;p>The Essential Key of this 6.77-inch smartphone provides quick access to content capture, letting you take screenshots, record voice notes, and save inspirations effortlessly. Additionally, Essential Space utilises AI to organise, categorise, and generate personalised suggestions, keeping your content well-managed and easy to retrieve.&lt;/p>
+&lt;p>Long-Lasting Battery&lt;/p>
+&lt;p>Equipped with a 5000mAh battery, this 128GB smartphone provides extended usage on a single charge, letting you stay connected for longer. Plus, its fast-charging support ensures you can power up quickly and get back to your tasks without long wait times.&lt;/p>
+&lt;p>Distinctive Design&lt;/p>
+&lt;p>Combining minimalism with advanced engineering, this Nothing smartphone features a unique transparent design, giving it a futuristic yet nostalgic aesthetic. Built with high-quality materials, it strikes the ideal balance between simplicity and sophistication, making it a standout device in both form and function.&lt;/p></description></item></channel></rss>
