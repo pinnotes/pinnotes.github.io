@@ -369,7 +369,132 @@ GeoGebra enables you to create interactive, visually rich math examples by combi
 &lt;hr>
 &lt;h2>&lt;strong>Conclusion&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
 &lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&amp;ldquo;Essential Grammar in Use&amp;rdquo; is a highly structured, user-friendly grammar reference and practice book for elementary English learners. Its modular design, clear explanations, abundant exercises, and comprehensive reference sections make it suitable for both independent study and classroom support. The book systematically covers all foundational grammar points needed at the elementary level, ensuring learners can both understand and practice each concept thoroughly.&lt;/p>
-&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>Frequently Asked Questions</title><link>/blog/iit/iitm-bg-degree-faq/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/iit/iitm-bg-degree-faq/</guid><description>
+&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>Free HDRi Assets Download🌲</title><link>/blog/blender/hdri/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/hdri/</guid><description>
+&lt;h2>Download HDRI for Blender Tutorial&lt;span class="hx-absolute -hx-mt-20" id="download-hdri-for-blender-tutorial">&lt;/span>
+&lt;a href="#download-hdri-for-blender-tutorial" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://cdn.polyhaven.com/asset_img/primary/hansaplatz.png?height=760&amp;amp;quality=95" target="_blank" rel="noopener">Night HDRI&lt;/a>&lt;/p>
+&lt;div style="text-align:center">
+&lt;h4>Click and wait for 20 seconds 👇
+&lt;/div>
+&lt;a href="/assets/tree3d/" class="timer-btn"> Free Download &lt;/a>
+&lt;script>
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "\/assets\/tree3d\/";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script>
+&lt;style>
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style>
+&lt;hr></description></item><item><title>Frequently Asked Questions</title><link>/blog/iit/iitm-bg-degree-faq/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/iit/iitm-bg-degree-faq/</guid><description>
 &lt;h2>IIT Madras BS Degree in Data Science and Applications: Frequently Asked Questions&lt;span class="hx-absolute -hx-mt-20" id="iit-madras-bs-degree-in-data-science-and-applications-frequently-asked-questions">&lt;/span>
 &lt;a href="#iit-madras-bs-degree-in-data-science-and-applications-frequently-asked-questions" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>What is the IIT Madras BS Degree in Data Science and Applications programme?&lt;span class="hx-absolute -hx-mt-20" id="what-is-the-iit-madras-bs-degree-in-data-science-and-applications-programme">&lt;/span>
 &lt;a href="#what-is-the-iit-madras-bs-degree-in-data-science-and-applications-programme" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This is an online programme offering various exit points, allowing learners to earn a Foundation level certificate, Diploma in Programming, Diploma in Data Science, a BSc degree in Programming and Data Science, or a BS degree in Data Science and Applications from IIT Madras. The course content is delivered online, but monthly quizzes and final semester exams require in-person attendance at designated centres. The programme is open to individuals of any background and age, with no geographical limitations on learning besides exam centre travel.&lt;/p>

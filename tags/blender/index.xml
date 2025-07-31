@@ -1,4 +1,129 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Blender</title><link>/tags/blender/</link><description>Recent content in Blender on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Snake 3D Model FBX Blender 🐍</title><link>/blog/blender/snake-3d-model-tutorial-blender-asset/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/snake-3d-model-tutorial-blender-asset/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Blender</title><link>/tags/blender/</link><description>Recent content in Blender on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Free HDRi Assets Download🌲</title><link>/blog/blender/hdri/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/hdri/</guid><description>
+&lt;h2>Download HDRI for Blender Tutorial&lt;span class="hx-absolute -hx-mt-20" id="download-hdri-for-blender-tutorial">&lt;/span>
+&lt;a href="#download-hdri-for-blender-tutorial" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://cdn.polyhaven.com/asset_img/primary/hansaplatz.png?height=760&amp;amp;quality=95" target="_blank" rel="noopener">Night HDRI&lt;/a>&lt;/p>
+&lt;div style="text-align:center">
+&lt;h4>Click and wait for 20 seconds 👇
+&lt;/div>
+&lt;a href="/assets/tree3d/" class="timer-btn"> Free Download &lt;/a>
+&lt;script>
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "\/assets\/tree3d\/";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script>
+&lt;style>
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style>
+&lt;hr></description></item><item><title>Snake 3D Model FBX Blender 🐍</title><link>/blog/blender/snake-3d-model-tutorial-blender-asset/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/snake-3d-model-tutorial-blender-asset/</guid><description>
 &lt;h2>Download 3D Model! 👋&lt;span class="hx-absolute -hx-mt-20" id="download-3d-model-">&lt;/span>
 &lt;a href="#download-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>DYNAMIC ISLAND COMES TO IPHONE 15 — Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else. You can see who’s calling, track your next ride, check your flight status, and so much more.
 INNOVATIVE DESIGN — iPhone 15 features a durable color-infused glass and aluminum design. It’s splash, water, and dust resistant. The Ceramic Shield front is tougher than any smartphone glass. And the 6.1&amp;quot; Super Retina XDR display is up to 2x brighter in the sun compared to iPhone 14.
