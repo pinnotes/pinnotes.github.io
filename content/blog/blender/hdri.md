@@ -21,6 +21,6 @@ tags:
 <h4>Click and wait for 20 seconds 👇
 </div>
 
-{{< timer/timer title="Free Download" link="/assets/tree3d/" >}}
+{{< timer/timer title="Free Download" link="https://polyhaven.com/a/hansaplatz" >}}
 
 ---
