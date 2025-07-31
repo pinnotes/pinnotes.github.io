@@ -4,7 +4,7 @@
 &lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
 &lt;/div>
-&lt;a href="/assets/tree3d/" class="timer-btn"> Free Download &lt;/a>
+&lt;a href="https://polyhaven.com/a/hansaplatz" class="timer-btn"> Free Download &lt;/a>
 &lt;script>
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
@@ -32,7 +32,7 @@ window.addEventListener("load", function () {
 var btn = document.querySelector(".timer-btn");
 var label = document.querySelector(".timer-label");
 var progress = document.querySelector(".timer-progress");
-var link = "\/assets\/tree3d\/";
+var link = "https:\/\/polyhaven.com\/a\/hansaplatz";
 var countdown = 20;
 label.textContent = " Downloading in " + countdown + "s...";
 progress.value = 0;
