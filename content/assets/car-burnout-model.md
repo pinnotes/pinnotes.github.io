@@ -21,7 +21,7 @@ Perfect for anyone starting with Blender’s physics and VFX tools.
 <h4>Click and wait for 20 seconds 👇
 </div>
 
-{{< timer/timer title="Car Model Download" link="/assets/car-burnout-model/" >}}
+{{< timer/timer title="Car Model Download" timer="true" link="https://drive.google.com/file/d/1zm9AWVjQKIchCio3PDsLnehR-wuR_yoM/view?pli=1" >}}
 
 ✨ Rev Up Your Renders: Blender Burnout Smoke Tutorial! 💨
 
