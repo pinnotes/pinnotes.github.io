@@ -1,5 +1,5 @@
 ---
-title: Make This Realistic Car Burnout in 10 Minutes – Blender
+title: Download Assets | Car Burnout in 10 Minutes – Blender
 description: Learn how to create a realistic car burnout smoke simulation in Blender! 🚗💨
 date: 2025-05-17
 image: "/images/blender/car-burnout.jpg"
@@ -9,7 +9,7 @@ authors:
     link: https://github.com/simplearyan
     image: https://github.com/simplearyan.png
 tags:
-  - Blender
+  - Assets
 ---
 
 In this beginner-friendly tutorial, I’ll guide you through animation, smoke simulation settings, and render setup to make your car scenes look cinematic.
