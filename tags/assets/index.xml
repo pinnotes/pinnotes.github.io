@@ -1,4 +1,313 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Assets</title><link>/tags/assets/</link><description>Recent content in Assets on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/assets/index.xml" rel="self" type="application/rss+xml"/><item><title>Snake 3D Model FBX Blender 🐍</title><link>/assets/download/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/assets/download/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Assets</title><link>/tags/assets/</link><description>Recent content in Assets on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/assets/index.xml" rel="self" type="application/rss+xml"/><item><title>Download Assets | Car Burnout in 10 Minutes – Blender</title><link>/assets/car-burnout-model/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/assets/car-burnout-model/</guid><description>
+&lt;p>In this beginner-friendly tutorial, I’ll guide you through animation, smoke simulation settings, and render setup to make your car scenes look cinematic.
+Perfect for anyone starting with Blender’s physics and VFX tools.&lt;/p>
+&lt;h2>📂 Car Model Download&lt;span class="hx-absolute -hx-mt-20" id="-car-model-download">&lt;/span>
+&lt;a href="#-car-model-download" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div style="text-align:center">
+&lt;h4>Click and wait for 20 seconds 👇
+&lt;/div>
+&lt;div class="timer-container">
+&lt;span class="timer-label">&lt;/span>
+&lt;progress class="timer-progress" value="0" max="20">&lt;/progress>
+&lt;/div>
+&lt;script>
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "https:\/\/drive.google.com\/file\/d\/1zm9AWVjQKIchCio3PDsLnehR-wuR_yoM\/view?pli=1";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script>
+&lt;style>
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style>
+&lt;p>✨ Rev Up Your Renders: Blender Burnout Smoke Tutorial! 💨&lt;/p>
+&lt;p>Ever wanted to add that extra &lt;em>oomph&lt;/em> to your car animations? Learn how to create realistic burnout smoke in Blender with this super easy, beginner-friendly tutorial! We&amp;rsquo;ll break down the animation, smoke simulation, and render settings step-by-step so you can make your scenes truly epic. Buckle up! 🚗💨&lt;/p>
+&lt;h2>🛠️ Getting Started &amp;amp; Animation Basics&lt;span class="hx-absolute -hx-mt-20" id="-getting-started--animation-basics">&lt;/span>
+&lt;a href="#-getting-started--animation-basics" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>1. Setting the Scene 🎬&lt;span class="hx-absolute -hx-mt-20" id="1-setting-the-scene-">&lt;/span>
+&lt;a href="#1-setting-the-scene-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Delete the default cube. 👋&lt;/li>
+&lt;li>&lt;strong>Append your rigged car model:&lt;/strong> Download it from the link in the description of the original video. (Make sure you have it!)&lt;/li>
+&lt;li>&lt;strong>Append the car:&lt;/strong> F4 &amp;gt; Append &amp;gt; Your Car Blend File &amp;gt; Collection &amp;gt; final &amp;gt; Append. Boom! 🏎️&lt;/li>
+&lt;/ul>
+&lt;h3>2. Animating the Ride 💨&lt;span class="hx-absolute -hx-mt-20" id="2-animating-the-ride-">&lt;/span>
+&lt;a href="#2-animating-the-ride-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Timeline Magic:&lt;/strong> Drag the timeline up for better visibility.&lt;/li>
+&lt;li>&lt;strong>Select the Rig:&lt;/strong> Go to Pose Mode and select the main control bone.&lt;/li>
+&lt;li>&lt;strong>Keyframe the Movement:&lt;/strong>
+&lt;ul>
+&lt;li>Frame 1: Add a keyframe for the bone&amp;rsquo;s location. 📍&lt;/li>
+&lt;li>Move a few frames forward: Push the car forward and add another keyframe.➡️&lt;/li>
+&lt;li>Go back 4-5 frames: Add another keyframe.⏪&lt;/li>
+&lt;li>Move the last keyframe forward a bit.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>The Jump Start:&lt;/strong> Play it back – you should see a little jump in motion. 😉&lt;/li>
+&lt;/ul>
+&lt;h3>3. Spinning Those Tires! 🔄&lt;span class="hx-absolute -hx-mt-20" id="3-spinning-those-tires-">&lt;/span>
+&lt;a href="#3-spinning-those-tires-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Frame 24:&lt;/strong> Select a tire bone and add a rotation keyframe (X-axis).&lt;/li>
+&lt;li>&lt;strong>Frame 180:&lt;/strong> Set the X rotation to 1000 and add another keyframe.&lt;/li>
+&lt;li>&lt;strong>Repeat:&lt;/strong> Do the same for the other tire.&lt;/li>
+&lt;li>&lt;strong>Speed Adjustment:&lt;/strong> Select both rotation keyframes &amp;gt; Right-click &amp;gt; Interpolation Mode &amp;gt; Linear.&lt;/li>
+&lt;li>&lt;strong>Go Turbo!&lt;/strong> Increase the final rotation value to 10,000 (or more!). If they spin the wrong way, use a negative value. 😵‍💫&lt;/li>
+&lt;/ul>
+&lt;h3>4. Adding Some Drift 💨&lt;span class="hx-absolute -hx-mt-20" id="4-adding-some-drift-">&lt;/span>
+&lt;a href="#4-adding-some-drift-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Steering Control:&lt;/strong> On the frame where the drift starts, select the steering bone and add a Z rotation keyframe.&lt;/li>
+&lt;li>&lt;strong>Turn It Up:&lt;/strong> Go forward a few frames, rotate the steering wheel, and add another keyframe. 🔄&lt;/li>
+&lt;li>&lt;strong>Smooth Drifting:&lt;/strong> Add more keyframes to create a nice, smooth drifting motion.&lt;/li>
+&lt;/ul>
+&lt;h3>5. Fine-Tuning the Burnout 🔥&lt;span class="hx-absolute -hx-mt-20" id="5-fine-tuning-the-burnout-">&lt;/span>
+&lt;a href="#5-fine-tuning-the-burnout-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Early Spin:&lt;/strong> Grab the first tire&amp;rsquo;s keyframe and slide it earlier in the timeline so the spinning starts sooner.&lt;/li>
+&lt;li>&lt;strong>Match It:&lt;/strong> Do the same for the other tire.&lt;/li>
+&lt;li>&lt;strong>Suspension Bounce:&lt;/strong> Select the top suspension bones and add a few keyframes, moving them up and down to react to the drift. ⬆️⬇️&lt;/li>
+&lt;/ul>
+&lt;p>🎉 &lt;strong>Animation Complete!&lt;/strong> Your car should now be moving, tires spinning wildly, drifting smoothly, and the suspension bouncing realistically.&lt;/p>
+&lt;h2>💨 Smoke Simulation Setup&lt;span class="hx-absolute -hx-mt-20" id="-smoke-simulation-setup">&lt;/span>
+&lt;a href="#-smoke-simulation-setup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>1. Creating Emitters ✨&lt;span class="hx-absolute -hx-mt-20" id="1-creating-emitters-">&lt;/span>
+&lt;a href="#1-creating-emitters-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Add Cylinders:&lt;/strong> Shift+A &amp;gt; Mesh &amp;gt; Cylinder.&lt;/li>
+&lt;li>&lt;strong>Edit Mode:&lt;/strong> Delete the top and bottom faces.&lt;/li>
+&lt;li>&lt;strong>Scale and Position:&lt;/strong> Scale the cylinder down and place it right at one of the tires.&lt;/li>
+&lt;li>&lt;strong>Duplicate:&lt;/strong> Shift+D to duplicate the cylinder and position it at the other tire.&lt;/li>
+&lt;/ul>
+&lt;h3>2. Parenting to the Rig 🦴&lt;span class="hx-absolute -hx-mt-20" id="2-parenting-to-the-rig-">&lt;/span>
+&lt;a href="#2-parenting-to-the-rig-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Pose Mode:&lt;/strong> Select the car rig and go into Pose Mode.&lt;/li>
+&lt;li>&lt;strong>Select Tire Bones:&lt;/strong> Pick the bones that correspond to the tire positions.&lt;/li>
+&lt;li>&lt;strong>Object Mode:&lt;/strong> Select a cylinder, then Shift-select the car rig.&lt;/li>
+&lt;li>&lt;strong>Parent to Bone:&lt;/strong> Ctrl+P &amp;gt; Bone. Repeat for the other cylinder. Now the emitters will follow the tires!&lt;/li>
+&lt;/ul>
+&lt;h3>3. Collision Object 💥&lt;span class="hx-absolute -hx-mt-20" id="3-collision-object-">&lt;/span>
+&lt;a href="#3-collision-object-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Duplicate Car Body:&lt;/strong> Select the car body, Shift+D to duplicate, and move it aside.&lt;/li>
+&lt;li>&lt;strong>Clear Parent:&lt;/strong> Alt+P &amp;gt; Clear Parent.&lt;/li>
+&lt;li>&lt;strong>Join Objects:&lt;/strong> Ctrl+J to join the duplicated parts.&lt;/li>
+&lt;li>&lt;strong>Remesh Modifier:&lt;/strong> Add a Remesh modifier &amp;gt; Mode: Blocks &amp;gt; Depth: 6 &amp;gt; Apply.&lt;/li>
+&lt;li>&lt;strong>Reposition:&lt;/strong> Move this remeshed object back over the car.&lt;/li>
+&lt;li>&lt;strong>Parent to Rig:&lt;/strong> Select the collision object, then Shift-select the car rig &amp;gt; Ctrl+P &amp;gt; Bone.&lt;/li>
+&lt;/ul>
+&lt;h3>4. Quick Smoke! 💨&lt;span class="hx-absolute -hx-mt-20" id="4-quick-smoke-">&lt;/span>
+&lt;a href="#4-quick-smoke-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Select Cylinder:&lt;/strong> Go to Object Mode and select one of the tire cylinders.&lt;/li>
+&lt;li>&lt;strong>Quick Effects:&lt;/strong> Object &amp;gt; Quick Effects &amp;gt; Quick Smoke.&lt;/li>
+&lt;li>&lt;strong>Scale Domain:&lt;/strong> Scale the new smoke domain to cover the area around the tires.&lt;/li>
+&lt;li>&lt;strong>Repeat:&lt;/strong> Do the same &amp;ldquo;Quick Smoke&amp;rdquo; for the other cylinder.&lt;/li>
+&lt;/ul>
+&lt;h3>5. Collision Settings 🧱&lt;span class="hx-absolute -hx-mt-20" id="5-collision-settings-">&lt;/span>
+&lt;a href="#5-collision-settings-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Select Collision Object:&lt;/strong> Go to Physics Properties and add a Fluid modifier.&lt;/li>
+&lt;li>&lt;strong>Type:&lt;/strong> Set the type to Effector.&lt;/li>
+&lt;li>&lt;strong>Hide:&lt;/strong> Hide the collision object in the Viewport and Render so it&amp;rsquo;s not visible. 🙈&lt;/li>
+&lt;/ul>
+&lt;h3>6. Domain Settings ⚙️&lt;span class="hx-absolute -hx-mt-20" id="6-domain-settings-">&lt;/span>
+&lt;a href="#6-domain-settings-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Select Smoke Domain:&lt;/strong> Go to Physics Properties (Fluid).&lt;/li>
+&lt;li>&lt;strong>Resolution Divisions:&lt;/strong> Set this to 64 (or higher for more detail, like 128 or 256, but it will take longer to bake).&lt;/li>
+&lt;li>&lt;strong>Adaptive Domain:&lt;/strong> Turn it on and set the Threshold to 0.005.&lt;/li>
+&lt;li>&lt;strong>Dissolve:&lt;/strong> Enable it and set the Time to 20 frames.&lt;/li>
+&lt;li>&lt;strong>Noise:&lt;/strong> Turn on for extra detail.&lt;/li>
+&lt;li>&lt;strong>Cache:&lt;/strong>
+&lt;ul>
+&lt;li>End Frame: 180 (or the end of your animation).&lt;/li>
+&lt;li>Cache Type: All.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3>7. Fluid World &amp;amp; Gas Settings 🌎&lt;span class="hx-absolute -hx-mt-20" id="7-fluid-world--gas-settings-">&lt;/span>
+&lt;a href="#7-fluid-world--gas-settings-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Fluid World:&lt;/strong> Change Gravity to 0.5 for floatier smoke.&lt;/li>
+&lt;li>&lt;strong>Gas:&lt;/strong>
+&lt;ul>
+&lt;li>Buoyancy Density: -5&lt;/li>
+&lt;li>Heat: 0&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Adjust Buoyancy:&lt;/strong> If the smoke sinks, try Buoyancy: -2 or -3 and Heat: 1. 🔥&lt;/li>
+&lt;/ul>
+&lt;h3>8. Adding Movement Forces 🌪️&lt;span class="hx-absolute -hx-mt-20" id="8-adding-movement-forces-">&lt;/span>
+&lt;a href="#8-adding-movement-forces-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Turbulence:&lt;/strong> Shift+A &amp;gt; Force Field &amp;gt; Turbulence.
+&lt;ul>
+&lt;li>Move it near the smoke.&lt;/li>
+&lt;li>Strength: 3.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Wind:&lt;/strong> Shift+A &amp;gt; Force Field &amp;gt; Wind.
+&lt;ul>
+&lt;li>Rotate it to blow across the smoke.&lt;/li>
+&lt;li>Position it appropriately.&lt;/li>
+&lt;li>&lt;strong>Animate Wind Strength:&lt;/strong> Add keyframes at different frames (e.g., 0, 1, 2) to make the smoke dynamic.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3>9. Baking the Simulation 💾&lt;span class="hx-absolute -hx-mt-20" id="9-baking-the-simulation-">&lt;/span>
+&lt;a href="#9-baking-the-simulation-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Select Domain:&lt;/strong> Go to Physics Properties (Fluid).&lt;/li>
+&lt;li>&lt;strong>Resolution:&lt;/strong> Double-check your resolution divisions.&lt;/li>
+&lt;li>&lt;strong>Cache:&lt;/strong> Set Cache Type to All and click &lt;strong>Bake&lt;/strong>. ⏳ This might take a while!&lt;/li>
+&lt;/ul>
+&lt;h2>✨ Shading and Rendering&lt;span class="hx-absolute -hx-mt-20" id="-shading-and-rendering">&lt;/span>
+&lt;a href="#-shading-and-rendering" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>1. Render Properties ⚙️&lt;span class="hx-absolute -hx-mt-20" id="1-render-properties-">&lt;/span>
+&lt;a href="#1-render-properties-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Render Engine:&lt;/strong> Switch from Eevee to Cycles for realistic rendering.&lt;/li>
+&lt;li>&lt;strong>Device:&lt;/strong> Change Device to GPU Compute for faster rendering (if you have a GPU). 🚀&lt;/li>
+&lt;li>&lt;strong>Render Samples:&lt;/strong> Set to 20 (you can go higher for better quality).&lt;/li>
+&lt;li>&lt;strong>Denoising:&lt;/strong> Make sure it&amp;rsquo;s turned on.&lt;/li>
+&lt;/ul>
+&lt;h3>2. Scene Setup 🏞️&lt;span class="hx-absolute -hx-mt-20" id="2-scene-setup-">&lt;/span>
+&lt;a href="#2-scene-setup-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Render View:&lt;/strong> Switch to Rendered Viewport Shading. The smoke might look weird now, but it&amp;rsquo;ll be fine in the final render! 😉&lt;/li>
+&lt;li>&lt;strong>Hide Domain:&lt;/strong> Temporarily hide the smoke domain (H key) to work on the scene.&lt;/li>
+&lt;li>&lt;strong>Ground Plane:&lt;/strong> Add a Plane (Shift+A &amp;gt; Mesh &amp;gt; Plane) and scale it up.&lt;/li>
+&lt;li>&lt;strong>Area Light:&lt;/strong> Add an Area Light (Shift+A &amp;gt; Light &amp;gt; Area) and set the Strength to around 500. Position it to light your scene.&lt;/li>
+&lt;li>&lt;strong>Extra Lights:&lt;/strong> Add more lights for highlights if needed.&lt;/li>
+&lt;/ul>
+&lt;h3>3. Car Material 🎨&lt;span class="hx-absolute -hx-mt-20" id="3-car-material-">&lt;/span>
+&lt;a href="#3-car-material-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Shader Editor:&lt;/strong> Open the Shader Editor.&lt;/li>
+&lt;li>&lt;strong>Color Choice:&lt;/strong> The car model likely has color nodes. Choose your desired color (black is used in the tutorial).&lt;/li>
+&lt;/ul>
+&lt;h3>4. Ground Material ⛰️&lt;span class="hx-absolute -hx-mt-20" id="4-ground-material-">&lt;/span>
+&lt;a href="#4-ground-material-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Select Ground Plane:&lt;/strong> Add a New Material.&lt;/li>
+&lt;li>&lt;strong>Roughness:&lt;/strong> Turn the Roughness down for some reflection.&lt;/li>
+&lt;li>&lt;strong>Base Color:&lt;/strong> Set the Base Color to a light gray.&lt;/li>
+&lt;/ul>
+&lt;h3>5. Smoke Shader 💨&lt;span class="hx-absolute -hx-mt-20" id="5-smoke-shader-">&lt;/span>
+&lt;a href="#5-smoke-shader-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Unhide Domain:&lt;/strong> Unhide the smoke domain (Alt+H).&lt;/li>
+&lt;li>&lt;strong>Frame Nodes:&lt;/strong> In the Shader Editor, select all (A) and press the period key (.) on the numpad to frame the nodes.&lt;/li>
+&lt;li>&lt;strong>Volume Info Node:&lt;/strong> Add a Volume Info node (Shift+A &amp;gt; Input &amp;gt; Volume Info).&lt;/li>
+&lt;li>&lt;strong>Connect Density:&lt;/strong> Connect the Density output of the Volume Info node to the Density input of the Material Output node (likely a Principled Volume shader if Quick Smoke was used).&lt;/li>
+&lt;li>&lt;strong>Math Node:&lt;/strong> Add a Math node (Shift+A &amp;gt; Utilities &amp;gt; Math) between the Density output and the Density input.&lt;/li>
+&lt;li>&lt;strong>Operation:&lt;/strong> Change the operation to Multiply.&lt;/li>
+&lt;li>&lt;strong>Adjust Density:&lt;/strong> Adjust the Value of the Math node until the smoke density looks right.&lt;/li>
+&lt;/ul>
+&lt;h3>6. Animating Smoke Density (Cool Trick!) ✨&lt;span class="hx-absolute -hx-mt-20" id="6-animating-smoke-density-cool-trick-">&lt;/span>
+&lt;a href="#6-animating-smoke-density-cool-trick-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Keyframe Math Value:&lt;/strong> Hover your cursor over the Value input of the Math node and press I to add a keyframe.&lt;/li>
+&lt;li>&lt;strong>Frame 20:&lt;/strong> Set the Value to 0 and add another keyframe (I).&lt;/li>
+&lt;li>&lt;strong>Frame 40:&lt;/strong> Set the Value to around 2.3 (or adjust to your liking) and add another keyframe (I). This will make the smoke fade in during the burnout!&lt;/li>
+&lt;/ul>
+&lt;h3>7. Final Touches 📸&lt;span class="hx-absolute -hx-mt-20" id="7-final-touches-">&lt;/span>
+&lt;a href="#7-final-touches-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Add Camera:&lt;/strong> Shift+A &amp;gt; Camera.&lt;/li>
+&lt;li>&lt;strong>Frame Your Shot:&lt;/strong> Position and rotate the camera to get the perfect view.&lt;/li>
+&lt;li>&lt;strong>Render!&lt;/strong> 🥳 Go to Render &amp;gt; Render Image (or Animation).&lt;/li>
+&lt;/ul>
+&lt;h2>🎉 You Did It! 🎉&lt;span class="hx-absolute -hx-mt-20" id="-you-did-it-">&lt;/span>
+&lt;a href="#-you-did-it-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>You&amp;rsquo;ve now created an awesome car burnout animation with realistic smoke in Blender! You&amp;rsquo;ve covered animation basics, smoke simulation, and rendering techniques.&lt;/p>
+&lt;p>If you found this tutorial helpful, don&amp;rsquo;t forget to like the original video and subscribe for more Blender goodness! Let us know in the comments what Blender effects you&amp;rsquo;d like to see next! 👇&lt;/p>
+&lt;p>Happy Blending! 😊&lt;/p></description></item><item><title>Snake 3D Model FBX Blender 🐍</title><link>/assets/download/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/assets/download/</guid><description>
 &lt;div class="timer-container">
 &lt;span class="timer-label">&lt;/span>
 &lt;progress class="timer-progress" value="0" max="20">&lt;/progress>
