@@ -4,7 +4,7 @@
 &lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
 &lt;/div>
-&lt;a href="https://www.cgtrader.com/free-3d-models/car/sport-car/corvette-c7-5961776e-1de5-47ed-9e97-8d9f753e62fe" class="timer-btn"> Free Download &lt;/a>
+&lt;a href="https://www.cgtrader.com/free-3d-models/car/sport-car/corvette-c7-5961776e-1de5-47ed-9e97-8d9f753e62fe" target="_blank" rel="noopener noreferrer" class="timer-btn"> Free Download &lt;/a>
 &lt;script>
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
@@ -129,7 +129,7 @@ background-color: #d45039;
 &lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
 &lt;/div>
-&lt;a href="https://polyhaven.com/a/hansaplatz" class="timer-btn"> Free Download &lt;/a>
+&lt;a href="https://polyhaven.com/a/hansaplatz" target="_blank" rel="noopener noreferrer" class="timer-btn"> Free Download &lt;/a>
 &lt;script>
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
@@ -255,7 +255,7 @@ Perfect for anyone starting with Blender’s physics and VFX tools.&lt;/p>
 &lt;a href="#-car-model-download" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
 &lt;/div>
-&lt;a href="https://drive.google.com/file/d/1zm9AWVjQKIchCio3PDsLnehR-wuR_yoM/view?pli=1" class="timer-btn"> Car Model Download &lt;/a>
+&lt;a href="https://drive.google.com/file/d/1zm9AWVjQKIchCio3PDsLnehR-wuR_yoM/view?pli=1" target="_blank" rel="noopener noreferrer" class="timer-btn"> Car Model Download &lt;/a>
 &lt;script>
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
@@ -565,7 +565,7 @@ POWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like 
 &lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
 &lt;/div>
-&lt;a href="/assets/download/" class="timer-btn"> Free Download &lt;/a>
+&lt;a href="/assets/download/" target="_blank" rel="noopener noreferrer" class="timer-btn"> Free Download &lt;/a>
 &lt;script>
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
@@ -719,7 +719,7 @@ POWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like 
 &lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
 &lt;/div>
-&lt;a href="/assets/tree3d/" class="timer-btn"> Free Download &lt;/a>
+&lt;a href="/assets/tree3d/" target="_blank" rel="noopener noreferrer" class="timer-btn"> Free Download &lt;/a>
 &lt;script>
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
