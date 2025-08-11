@@ -1,4 +1,6 @@
-{{ $title := .Get "title" }} {{ $link := .Get "link" }} {{ $timer := .Get
+{{ $title := .Get "title" }} {{ $link := .Get "link" }}
+{{ $click := .Get "click" | default "false"  }}
+{{ $timer := .Get
 "timer" | default "false" }} {{ $showbutton := .Get "showbutton" | default
 "true" }} {{ if eq $timer "true" }}
 <div class="timer-container">
