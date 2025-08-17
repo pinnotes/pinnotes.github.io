@@ -1,8 +1,10 @@
 {{ $title := .Get "title" }} {{ $link := .Get "link" }}
 {{ $click := .Get "click" | default "false"  }}
-{{ $timer := .Get
-"timer" | default "false" }} {{ $showbutton := .Get "showbutton" | default
-"true" }} {{ if eq $timer "true" }}
+{{ $timer := .Get "timer" | default "false" }} 
+{{ $showbutton := .Get "showbutton" | default "true" }}
+
+
+ {{ if eq $timer "true" }}
 <div class="timer-container">
   {{/* {{ if eq $showbutton "true" }}
   <button class="timer-btn" data-link="{{ $link }}">{{ $title }}</button>
@@ -14,6 +16,11 @@
 {{ else if eq $showbutton "true" }}
 <a href="{{ $link }}" class="timer-btn"> {{ $title }} </a>
 {{ end }}
+
+<div class="display-ad">
+  {{ partial "google/displayAD.html" . }}
+</div>
+
 
 <script>
   (function link_timer() {

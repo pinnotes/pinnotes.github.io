@@ -13,10 +13,10 @@ tags:
   - Assets
 ---
 
+{{< displayAD >}}
+
 
 {{< timer/timer title="Free Download" link="https://drive.google.com/file/d/1-H0WfBZl9RfKma0orW-Rud5XDl0JNZaX/view?usp=sharings" timer="true" showbutton="false"  >}}
-
-
 
 
 
@@ -25,6 +25,8 @@ tags:
 # Powerful Performance
 
 Powered by the MediaTek Dimensity 7300 Pro 5G processor, Nothing CMF Phone 2 Pro 6.77-Inch 5G Smartphone delivers cutting-edge speeds with its 8-core CPU clocked up to 2.5GHz. Supported by MediaTek’s 6th generation NPU offering 4.8 TOPS AI computing power, you can experience seamless multitasking and efficient AI-driven tasks.
+
+{{< displayAD >}}
 
 
 # Smooth Multitasking

@@ -15,6 +15,8 @@ tags:
 In this beginner-friendly tutorial, I’ll guide you through animation, smoke simulation settings, and render setup to make your car scenes look cinematic.
 Perfect for anyone starting with Blender’s physics and VFX tools.
 
+{{< displayAD >}}
+
 ## 📂 Car Model Download
 
 <div style="text-align:center">
