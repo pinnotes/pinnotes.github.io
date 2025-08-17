@@ -1,6 +1,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Assets</title><link>/assets/</link><description>Recent content in Assets on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/assets/index.xml" rel="self" type="application/rss+xml"/><item><title>Download Assets | Car Burnout in 10 Minutes – Blender</title><link>/assets/car-burnout-model/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/assets/car-burnout-model/</guid><description>
 &lt;p>In this beginner-friendly tutorial, I’ll guide you through animation, smoke simulation settings, and render setup to make your car scenes look cinematic.
 Perfect for anyone starting with Blender’s physics and VFX tools.&lt;/p>
+&lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
+crossorigin="anonymous">&lt;/script>
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="3255877740"
+data-ad-format="auto"
+data-full-width-responsive="true">&lt;/ins>
+&lt;script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script>
 &lt;h2>📂 Car Model Download&lt;span class="hx-absolute -hx-mt-20" id="-car-model-download">&lt;/span>
 &lt;a href="#-car-model-download" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
@@ -8,6 +19,19 @@ Perfect for anyone starting with Blender’s physics and VFX tools.&lt;/p>
 &lt;div class="timer-container">
 &lt;span class="timer-label">&lt;/span>
 &lt;progress class="timer-progress" value="0" max="20">&lt;/progress>
+&lt;/div>
+&lt;div class="display-ad">
+&lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
+crossorigin="anonymous">&lt;/script>
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="3255877740"
+data-ad-format="auto"
+data-full-width-responsive="true">&lt;/ins>
+&lt;script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script>
 &lt;/div>
 &lt;script>
 (function link_timer() {
