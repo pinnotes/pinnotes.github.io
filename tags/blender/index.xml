@@ -61,6 +61,12 @@ window.location.href = link;
 });
 &lt;/script>
 &lt;style>
+.display-ad {
+margin-top: 1.5rem;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+}
 .timer-btn {
 margin-top: 1.5rem;
 display: block;
@@ -199,6 +205,12 @@ window.location.href = link;
 });
 &lt;/script>
 &lt;style>
+.display-ad {
+margin-top: 1.5rem;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+}
 .timer-btn {
 margin-top: 1.5rem;
 display: block;
@@ -338,6 +350,12 @@ window.location.href = link;
 });
 &lt;/script>
 &lt;style>
+.display-ad {
+margin-top: 1.5rem;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+}
 .timer-btn {
 margin-top: 1.5rem;
 display: block;
@@ -661,6 +679,12 @@ window.location.href = link;
 });
 &lt;/script>
 &lt;style>
+.display-ad {
+margin-top: 1.5rem;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+}
 .timer-btn {
 margin-top: 1.5rem;
 display: block;
@@ -828,6 +852,12 @@ window.location.href = link;
 });
 &lt;/script>
 &lt;style>
+.display-ad {
+margin-top: 1.5rem;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+}
 .timer-btn {
 margin-top: 1.5rem;
 display: block;
