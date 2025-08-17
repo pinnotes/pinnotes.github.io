@@ -63,6 +63,7 @@ window.location.href = link;
 &lt;style>
 .display-ad {
 margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
 border: 1px solid #ddd;
 border-radius: 10px;
 overflow: hidden;
@@ -142,7 +143,91 @@ background-color: #d45039;
 }
 }
 &lt;/style>
-&lt;hr></description></item><item><title>Create Interactive Math Examples with GeoGebra</title><link>/blog/math/create-interactive-math-example-with-geogebra/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/math/create-interactive-math-example-with-geogebra/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe
+src="https://www.youtube.com/embed/4Xj5iQKZ2VQ"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+&lt;/iframe>
+&lt;/div>
+&lt;h2>Create a Glowing Dome Lighting Setup in Blender 🏮✨&lt;span class="hx-absolute -hx-mt-20" id="create-a-glowing-dome-lighting-setup-in-blender-">&lt;/span>
+&lt;a href="#create-a-glowing-dome-lighting-setup-in-blender-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Ever wanted to make your product renders or car scenes shine with ultra-realistic lighting in Blender? 🎬 This beginner-friendly guide walks you through setting up a glowing HDRI dome that actually casts beautiful shadows—all using Blender&amp;rsquo;s Cycles render engine. Ready? Let’s light things up! 💡&lt;/p>
+&lt;hr>
+&lt;h3>🥚 Step 1: Build the Dome&lt;span class="hx-absolute -hx-mt-20" id="-step-1-build-the-dome">&lt;/span>
+&lt;a href="#-step-1-build-the-dome" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Open Blender and &lt;strong>delete the default cube&lt;/strong> (Select the cube, press &lt;code>A&lt;/code>, then hit &lt;code>Delete&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>Add a UV Sphere&lt;/strong>: Press &lt;code>Shift + A&lt;/code> → Mesh → UV Sphere.&lt;/li>
+&lt;li>Enter &lt;strong>Edit Mode&lt;/strong> with &lt;code>Tab&lt;/code>, then &lt;strong>switch to wireframe view&lt;/strong> (&lt;code>Z&lt;/code> or click the wireframe icon).&lt;/li>
+&lt;li>&lt;strong>Select the top half&lt;/strong> of the sphere.&lt;/li>
+&lt;li>Flatten it: Press &lt;code>S&lt;/code>, then &lt;code>Z&lt;/code>, then type &lt;code>0&lt;/code> (to squash vertically).&lt;/li>
+&lt;li>With the top still selected, &lt;strong>set the Z location to 0&lt;/strong> in the side panel (open with &lt;code>N&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>Select all (&lt;code>A&lt;/code>) and flip normals&lt;/strong>: Press &lt;code>Alt + N&lt;/code> → Flip Normals (so the inside is visible).&lt;/li>
+&lt;li>&lt;strong>Back in Object Mode&lt;/strong>, scale up your dome (&lt;code>S&lt;/code>) to make it big.&lt;/li>
+&lt;li>&lt;strong>Apply scale&lt;/strong>: Press &lt;code>Ctrl + A&lt;/code> → Scale.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🎨 Step 2: Set Up the Shader &amp;amp; Lighting&lt;span class="hx-absolute -hx-mt-20" id="-step-2-set-up-the-shader--lighting">&lt;/span>
+&lt;a href="#-step-2-set-up-the-shader--lighting" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Split your workspace&lt;/strong> to open the Shader Editor. (Drag corner of your window, choose Shader Editor).&lt;/li>
+&lt;li>&lt;strong>Delete the default Principled BSDF node&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Add the following nodes:&lt;/strong>
+&lt;ul>
+&lt;li>Environment Texture 🌄&lt;/li>
+&lt;li>Mix Shader 🔀&lt;/li>
+&lt;li>Diffuse Shader 🎨&lt;/li>
+&lt;li>Emission Shader 💡&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Connect nodes:&lt;/strong>
+&lt;ul>
+&lt;li>Plug Diffuse and Emission into the Mix Shader, then to Material Output.&lt;/li>
+&lt;li>Link the Environment Texture to Diffuse and Emission Shader inputs.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Switch render engine&lt;/strong> to Cycles (Render Properties → Select &amp;lsquo;Cycles&amp;rsquo;).&lt;/li>
+&lt;li>If you have a &lt;strong>GPU&lt;/strong>, set device to GPU for speed!&lt;/li>
+&lt;li>&lt;strong>Open your HDRI image&lt;/strong>. (Try &lt;a href="https://pinnotes.github.io/blog/blender/hdri/" target="_blank" rel="noopener">this free one&lt;/a> 🖼️)&lt;/li>
+&lt;li>Press &lt;code>Ctrl + T&lt;/code> (Node Wrangler add-on must be enabled!) to add Mapping nodes.&lt;/li>
+&lt;li>&lt;strong>Connect Object Output to Vector Input.&lt;/strong> Adjust Z rotation to tweak lighting direction.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🕶️ Step 3: Fix the &amp;ldquo;No Shadow&amp;rdquo; Problem&lt;span class="hx-absolute -hx-mt-20" id="-step-3-fix-the-no-shadow-problem">&lt;/span>
+&lt;a href="#-step-3-fix-the-no-shadow-problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Test the setup&lt;/strong>: Add a cube and check the shadows. If there are none—not to worry!&lt;/li>
+&lt;li>Go into &lt;strong>Edit Mode on the dome&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Select only the bottom faces&lt;/strong> of the dome.&lt;/li>
+&lt;li>&lt;strong>Open Material Properties&lt;/strong>. Click the &amp;ldquo;+&amp;rdquo; to add a new material slot. Assign the same material to those faces.&lt;/li>
+&lt;li>Go back to &lt;strong>Object Mode&lt;/strong>, click the material slot and make it a separate material.&lt;/li>
+&lt;li>In the second material:
+&lt;ul>
+&lt;li>&lt;strong>Delete Emission and Mix Shader&lt;/strong>—keep only Diffuse. (Now, the bottom won’t glow and your scene will cast proper shadows!)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>💡 Step 4: Add an Area Light &amp;amp; Final Touches&lt;span class="hx-absolute -hx-mt-20" id="-step-4-add-an-area-light--final-touches">&lt;/span>
+&lt;a href="#-step-4-add-an-area-light--final-touches" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Add an Area Light&lt;/strong> for more realistic illumination.&lt;/li>
+&lt;li>&lt;strong>Increase its power &amp;amp; scale&lt;/strong> so it matches your dome.&lt;/li>
+&lt;li>Place your subject (e.g., a cool car! 🚗).
+&lt;ul>
+&lt;li>Try this &lt;a href="https://pinnotes.github.io/blog/blender/chevrolet-corvette-c7-free-3d-model/" target="_blank" rel="noopener">free car model&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Adjust camera angle&lt;/strong> and lighting for best look.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🎉 You’re All Set!&lt;span class="hx-absolute -hx-mt-20" id="-youre-all-set">&lt;/span>
+&lt;a href="#-youre-all-set" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Now you’ve got an eye-catching, glowing dome setup in Blender that’s perfect for showcasing cars, products, or moody scenes—complete with realistic shadows! Snap your renders, share online, and level up your Blender skills. 😎🚀&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;strong>Tip:&lt;/strong> Always apply scale after resizing objects for best material results!&lt;/p>
+&lt;p>Don’t forget to enable the Node Wrangler add-on for easier node setup.&lt;/p>
+&lt;/blockquote>
+&lt;p>Happy Blending! 🙌&lt;/p>
+&lt;p>If you liked this tutorial, give a thumbs up and subscribe for more easy Blender tips. 🥳&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>Create Interactive Math Examples with GeoGebra</title><link>/blog/math/create-interactive-math-example-with-geogebra/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/math/create-interactive-math-example-with-geogebra/</guid><description>
 &lt;img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 &lt;h2>How to Use GeoGebra to Create Interactive Math Examples&lt;span class="hx-absolute -hx-mt-20" id="how-to-use-geogebra-to-create-interactive-math-examples">&lt;/span>
 &lt;a href="#how-to-use-geogebra-to-create-interactive-math-examples" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>GeoGebra is a powerful, free online tool for creating dynamic, interactive math examples and lessons. It supports visualizations in geometry, algebra, calculus, and statistics, making abstract concepts more concrete and engaging for students&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Below is a step-by-step guide to help you get started, including best practices for layout, interactivity, and classroom use.&lt;/p>
@@ -519,7 +604,7 @@ GeoGebra enables you to create interactive, visually rich math examples by combi
 &lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
 &lt;/div>
-&lt;a href="https://polyhaven.com/a/hansaplatz" class="timer-btn"> Free Download &lt;/a>
+&lt;a href="https://polyhaven.com/a/hansaplatz" class="timer-btn"> Download Tutorial Assets &lt;/a>
 &lt;div class="display-ad">
 &lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
 crossorigin="anonymous">&lt;/script>
@@ -578,6 +663,7 @@ window.location.href = link;
 &lt;style>
 .display-ad {
 margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
 border: 1px solid #ddd;
 border-radius: 10px;
 overflow: hidden;
@@ -657,7 +743,129 @@ background-color: #d45039;
 }
 }
 &lt;/style>
-&lt;hr></description></item><item><title>Frequently Asked Questions</title><link>/blog/iit/iitm-bg-degree-faq/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/iit/iitm-bg-degree-faq/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe
+src="https://www.youtube.com/embed/4Xj5iQKZ2VQ"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+&lt;/iframe>
+&lt;/div>
+&lt;h2>How to Set Up HDRI Lighting in Blender (Beginner Friendly) 🌄✨&lt;span class="hx-absolute -hx-mt-20" id="how-to-set-up-hdri-lighting-in-blender-beginner-friendly-">&lt;/span>
+&lt;a href="#how-to-set-up-hdri-lighting-in-blender-beginner-friendly-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Want to give your Blender renders a professional, realistic vibe using HDRI lighting? Let’s walk through the easy process featured in &lt;a href="https://youtu.be/4Xj5iQKZ2VQ?si=0VX87-b7VKpJ0MhU" target="_blank" rel="noopener">this tutorial&lt;/a> so your scenes truly shine—perfect for cars, products, or moody environments! 🚗🔆&lt;/p>
+&lt;hr>
+&lt;h3>🛠️ Step 1: Prepare Your Scene&lt;span class="hx-absolute -hx-mt-20" id="-step-1-prepare-your-scene">&lt;/span>
+&lt;a href="#-step-1-prepare-your-scene" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>&lt;strong>Open Blender.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Delete the default cube&lt;/strong>
+&lt;ul>
+&lt;li>Press &lt;code>A&lt;/code> to select all, then &lt;code>Delete&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Add a UV Sphere for the Dome:&lt;/strong>
+&lt;ul>
+&lt;li>Press &lt;code>Shift + A&lt;/code> → Mesh → UV Sphere.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3>🏗️ Step 2: Make the Dome&lt;span class="hx-absolute -hx-mt-20" id="-step-2-make-the-dome">&lt;/span>
+&lt;a href="#-step-2-make-the-dome" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Enter &lt;strong>Edit Mode&lt;/strong> (&lt;code>Tab&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>Switch to wireframe view&lt;/strong> (&lt;code>Z&lt;/code> or via the viewport icon).&lt;/li>
+&lt;li>&lt;strong>Select the top half of the sphere&lt;/strong> (box select or manually).&lt;/li>
+&lt;li>&lt;strong>Flatten the top:&lt;/strong>
+&lt;ul>
+&lt;li>Press &lt;code>S&lt;/code>, then &lt;code>Z&lt;/code>, then type &lt;code>0&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Set Z location to 0&lt;/strong> in side panel (press &lt;code>N&lt;/code> to open).&lt;/li>
+&lt;li>&lt;strong>Select all faces (&lt;code>A&lt;/code>) and flip normals:&lt;/strong>
+&lt;ul>
+&lt;li>Press &lt;code>Alt + N&lt;/code> → Flip Normals.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Go back to Object Mode&lt;/strong>, scale up the dome (&lt;code>S&lt;/code>), and &lt;strong>apply scale&lt;/strong> (&lt;code>Ctrl + A&lt;/code> → Scale).&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3>🌄 Step 3: Add &amp;amp; Set Up HDRI Texture&lt;span class="hx-absolute -hx-mt-20" id="-step-3-add--set-up-hdri-texture">&lt;/span>
+&lt;a href="#-step-3-add--set-up-hdri-texture" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>&lt;strong>Open the Shader Editor&lt;/strong>
+&lt;ul>
+&lt;li>Split your window, select Shader Editor.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Delete the default Principled BSDF node&lt;/strong> (select it, hit &lt;code>Delete&lt;/code>).&lt;/li>
+&lt;li>&lt;strong>Add the following nodes:&lt;/strong>
+&lt;ul>
+&lt;li>Environment Texture&lt;/li>
+&lt;li>Mix Shader&lt;/li>
+&lt;li>Diffuse Shader&lt;/li>
+&lt;li>Emission Shader&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Connect nodes:&lt;/strong>
+&lt;ul>
+&lt;li>Plug Diffuse and Emission into Mix Shader, and Mix Shader to Material Output.&lt;/li>
+&lt;li>Connect Environment Texture to both Diffuse and Emission Shader inputs.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3>🖼️ Step 4: Load Your HDRI&lt;span class="hx-absolute -hx-mt-20" id="-step-4-load-your-hdri">&lt;/span>
+&lt;a href="#-step-4-load-your-hdri" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>&lt;strong>Switch render engine to Cycles:&lt;/strong>
+&lt;ul>
+&lt;li>Go to Render Properties → Set to Cycles.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Open your HDRI texture file:&lt;/strong>
+&lt;ul>
+&lt;li>In the Environment Texture node, click “Open,” and browse to your HDRI image.&lt;/li>
+&lt;li>Need one? Try &lt;a href="https://pinnotes.github.io/blog/blender/hdri/" target="_blank" rel="noopener">this free HDRI&lt;/a> 🌅&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Press Ctrl + T&lt;/strong> to add Mapping nodes (Enable Node Wrangler add-on if needed!).&lt;/li>
+&lt;li>&lt;strong>Connect the Object output to the Vector input.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Adjust Z rotation&lt;/strong> to tweak the light direction for your scene.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3>🔍 Step 5: Test Shadows &amp;amp; Finalise&lt;span class="hx-absolute -hx-mt-20" id="-step-5-test-shadows--finalise">&lt;/span>
+&lt;a href="#-step-5-test-shadows--finalise" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>&lt;strong>Add a Cube&lt;/strong> and check if your scene has proper shadows.&lt;/li>
+&lt;li>If not, &lt;strong>edit the dome’s bottom faces&lt;/strong>:
+&lt;ul>
+&lt;li>Go into Edit Mode, select just the bottom faces.&lt;/li>
+&lt;li>Add a new material slot (+ icon in Material Properties).&lt;/li>
+&lt;li>Assign the same material, then separate it so you can edit.&lt;/li>
+&lt;li>In the new material, &lt;strong>remove Emission and Mix Shader&lt;/strong>—leave just the Diffuse node.&lt;/li>
+&lt;li>This lets shadows work properly without the “glowing floor” effect.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3>💡 Pro Tips&lt;span class="hx-absolute -hx-mt-20" id="-pro-tips">&lt;/span>
+&lt;a href="#-pro-tips" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Apply scale&lt;/strong> when resizing objects for correct material effects.&lt;/li>
+&lt;li>&lt;strong>Enable Node Wrangler&lt;/strong> add-on: makes mapping/skipping nodes much quicker!&lt;/li>
+&lt;li>HDRI lighting adds &lt;em>ultra-realism&lt;/em>, but a subtle area light can boost your results.
+Experiment with locations, power, and color.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🚗 Render &amp;amp; Share!&lt;span class="hx-absolute -hx-mt-20" id="-render--share">&lt;/span>
+&lt;a href="#-render--share" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Add your hero object (try a cool car model!).&lt;/li>
+&lt;li>Adjust camera and lighting until it’s perfect.&lt;/li>
+&lt;li>Render and let the realistic HDRI lighting make your scene pop! 🎉&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;em>Happy Blending and bright scenes!&lt;/em> 🌟
+If this helped, hit like or share with friends new to Blender!&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>Make your next project glow with beautiful, natural lighting in Blender! 🖥️🌈&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>Frequently Asked Questions</title><link>/blog/iit/iitm-bg-degree-faq/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/iit/iitm-bg-degree-faq/</guid><description>
 &lt;h2>IIT Madras BS Degree in Data Science and Applications: Frequently Asked Questions&lt;span class="hx-absolute -hx-mt-20" id="iit-madras-bs-degree-in-data-science-and-applications-frequently-asked-questions">&lt;/span>
 &lt;a href="#iit-madras-bs-degree-in-data-science-and-applications-frequently-asked-questions" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>What is the IIT Madras BS Degree in Data Science and Applications programme?&lt;span class="hx-absolute -hx-mt-20" id="what-is-the-iit-madras-bs-degree-in-data-science-and-applications-programme">&lt;/span>
 &lt;a href="#what-is-the-iit-madras-bs-degree-in-data-science-and-applications-programme" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This is an online programme offering various exit points, allowing learners to earn a Foundation level certificate, Diploma in Programming, Diploma in Data Science, a BSc degree in Programming and Data Science, or a BS degree in Data Science and Applications from IIT Madras. The course content is delivered online, but monthly quizzes and final semester exams require in-person attendance at designated centres. The programme is open to individuals of any background and age, with no geographical limitations on learning besides exam centre travel.&lt;/p>
@@ -1516,6 +1724,7 @@ window.location.href = link;
 &lt;style>
 .display-ad {
 margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
 border: 1px solid #ddd;
 border-radius: 10px;
 overflow: hidden;
@@ -1595,6 +1804,14 @@ background-color: #d45039;
 }
 }
 &lt;/style>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe
+src="https://www.youtube.com/embed/zoVkef5dQ2Q"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+&lt;/iframe>
+&lt;/div>
 &lt;p>✨ Rev Up Your Renders: Blender Burnout Smoke Tutorial! 💨&lt;/p>
 &lt;p>Ever wanted to add that extra &lt;em>oomph&lt;/em> to your car animations? Learn how to create realistic burnout smoke in Blender with this super easy, beginner-friendly tutorial! We&amp;rsquo;ll break down the animation, smoke simulation, and render settings step-by-step so you can make your scenes truly epic. Buckle up! 🚗💨&lt;/p>
 &lt;h2>🛠️ Getting Started &amp;amp; Animation Basics&lt;span class="hx-absolute -hx-mt-20" id="-getting-started--animation-basics">&lt;/span>
@@ -2045,6 +2262,7 @@ window.location.href = link;
 &lt;style>
 .display-ad {
 margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
 border: 1px solid #ddd;
 border-radius: 10px;
 overflow: hidden;
@@ -2147,17 +2365,11 @@ data-full-width-responsive="true">&lt;/ins>
 &lt;h1>Robust Connectivity&lt;/h1>&lt;p>Offering dual 5G support with peak downlink speeds up to 3.0 Gbps, smart 5G of this smartphone reduces latency, and signal boost enhances transmission power under weak networks. Moreover, wntegrated with Bluetooth 5.3 and Wi-Fi 6, you can experience fast and stable connections.&lt;/p>
 &lt;h1>Immersive Sound&lt;/h1>&lt;p>Fitted with an ultra-volume speaker offering loud sound, this smartphone enhances your entertainment experience. The speaker delivers immersive, high-quality audio, making music, movies, and calls enjoyable.&lt;/p>
 &lt;h1>Enhanced Gaming&lt;/h1>&lt;p>Designed for mobile gaming, this smartphone supports 120 FPS for BGMI and 90 FPS for PUBG. Moreover, gaming network boost reduces latency ensuring smooth, lag-free gameplay for a competitive edge.&lt;/p></description></item><item><title>Snake 3D Model FBX Blender 🐍</title><link>/blog/blender/snake-3d-model-tutorial-blender-asset/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/snake-3d-model-tutorial-blender-asset/</guid><description>
-&lt;h2>Download 3D Model! 👋&lt;span class="hx-absolute -hx-mt-20" id="download-3d-model-">&lt;/span>
-&lt;a href="#download-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>DYNAMIC ISLAND COMES TO IPHONE 15 — Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else. You can see who’s calling, track your next ride, check your flight status, and so much more.
-INNOVATIVE DESIGN — iPhone 15 features a durable color-infused glass and aluminum design. It’s splash, water, and dust resistant. The Ceramic Shield front is tougher than any smartphone glass. And the 6.1&amp;quot; Super Retina XDR display is up to 2x brighter in the sun compared to iPhone 14.
-48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.
-NEXT-GENERATION PORTRAITS — Capture portraits with dramatically more detail and color. Just tap to shift the focus between subjects — even after you take the shot.
-POWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life.&lt;/p>
 &lt;h3>Free 3D Model 🧊&lt;span class="hx-absolute -hx-mt-20" id="free-3d-model-">&lt;/span>
 &lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div style="text-align:center">
 &lt;h4>Click and wait for 20 seconds 👇
 &lt;/div>
-&lt;a href="/assets/download/" class="timer-btn"> Free Download &lt;/a>
+&lt;a href="/assets/download/" class="timer-btn"> Free Download Tutorial Assets &lt;/a>
 &lt;div class="display-ad">
 &lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
 crossorigin="anonymous">&lt;/script>
@@ -2216,6 +2428,7 @@ window.location.href = link;
 &lt;style>
 .display-ad {
 margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
 border: 1px solid #ddd;
 border-radius: 10px;
 overflow: hidden;
@@ -2295,31 +2508,116 @@ background-color: #d45039;
 }
 }
 &lt;/style>
-&lt;ul>
-&lt;li>Camera: Rear Camera: 50 MP Zeiss main camera: OIS; f/1.88; FOV 84°; 6P lens 50 MP Zeiss Wide-Angle lens: AF; f/2.0; FOV 119.4°; 5P lens | Selfie Camera: 50 MP Super Wide-Angle focus lens: AF; f/2.0; FOV 92°; 5P lens | 4K/1080P/720P Video Recording Resolution
-Screen &amp;amp; display: 17.19 cm (6.77&amp;quot; inch) Quad Curved AMOLED capacitive multi-touch Display | P3 wide colour gamut supported | 387 ppi high pixel density| 4500 nits local peak brightness
-Memory &amp;amp; SIM: 8GB RAM | 128GB Internal Memory | LPDDR4X | UFS 2.2 | Bluetooth 5.4
-Battery: 6000 mAh battery | Li-ion battery
-Fast Charging: 90W Flash Charge | USB 2.0
-SIM: 2 Nano SIMs | 5G + 5G Dual SIM Dual Standby
-Security: In-display optical fingerprint sensor for optimum security for your data&lt;/li>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe
+src="https://www.youtube.com/embed/UROAPLMzMGg"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+&lt;/iframe>
+&lt;/div>
+&lt;h2>How to Animate a Snake Along a Path in Blender 🐍✨&lt;span class="hx-absolute -hx-mt-20" id="how-to-animate-a-snake-along-a-path-in-blender-">&lt;/span>
+&lt;a href="#how-to-animate-a-snake-along-a-path-in-blender-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Ever wanted to make a snake &lt;em>slither&lt;/em> smoothly in Blender? Whether you’re a beginner or just need a fast workflow, this guide (based on &lt;a href="https://youtu.be/UROAPLMzMGg?si=cT9twAjtpeLCOvX0" target="_blank" rel="noopener">this excellent tutorial&lt;/a>) makes creating captivating path animations a breeze! Let’s get started and bring your snake to life! 🌟&lt;/p>
+&lt;hr>
+&lt;h3>🗑️ Step 1: Clean Up the Scene&lt;span class="hx-absolute -hx-mt-20" id="-step-1-clean-up-the-scene">&lt;/span>
+&lt;a href="#-step-1-clean-up-the-scene" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Start Blender with your default scene.&lt;/li>
+&lt;li>&lt;strong>Delete the default cube&lt;/strong> (&lt;code>A&lt;/code> to select all, &lt;code>Delete&lt;/code>).
+&lt;em>It’s Blender Law!&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Smooth Performance&lt;/p>
-&lt;p>Powered by the Snapdragon 7s Gen 3 5G processor, the Nothing Phone 3A 6.77-Inch 5G Smartphone delivers fast and efficient performance for seamless multitasking, gaming, and content creation. Plus, with an 8-core CPU clocked at up to 2.5 GHz and a Qualcomm AI Engine, this smartphone ensures smooth operation and intelligent processing for an optimised user experience.&lt;/p>
-&lt;p>8GB RAM&lt;/p>
-&lt;p>With 8GB RAM, this 5G smartphone ensures seamless multitasking and smooth app launches, Additionally, with up to 20GB RAM booster, you get enhanced memory management, keeping apps responsive and lag-free.&lt;/p>
-&lt;p>Ample Storage&lt;/p>
-&lt;p>Featuring 128GB of internal storage, this smartphone provides ample space for all your apps, photos, and videos, ensuring you have everything you need at your fingertips without worrying about running out of storage.&lt;/p>
-&lt;p>Vibrant AMOLED Display&lt;/p>
-&lt;p>Featuring a 6.77-inch flexible AMOLED display, this smartphone offers 1080 x 2392 resolution and 387 PPI for sharp clarity. So, you can enjoy smooth scrolling with a 120Hz adaptive refresh rate and ultra-responsive 1000Hz touch sampling. Moreover, with a 10-bit colour depth, 1,000,000:1 contrast ratio, and 3000 nits peak brightness, it delivers vivid colours and enhanced visibility in any lighting condition.&lt;/p>
-&lt;p>Versatile Camera System&lt;/p>
-&lt;p>Equipped with a 0.6x to 30x zoom range, the 50MP main camera captures detailed, true-to-life images from any distance. Plus, the 32MP front camera ensures sharp and high-resolution selfies, while AI-powered stabilisation enhances 4K video recording, allowing you to shoot smooth, clear videos even in low-light environments.&lt;/p>
-&lt;p>AI-Powered Features&lt;/p>
-&lt;p>The Essential Key of this 6.77-inch smartphone provides quick access to content capture, letting you take screenshots, record voice notes, and save inspirations effortlessly. Additionally, Essential Space utilises AI to organise, categorise, and generate personalised suggestions, keeping your content well-managed and easy to retrieve.&lt;/p>
-&lt;p>Long-Lasting Battery&lt;/p>
-&lt;p>Equipped with a 5000mAh battery, this 128GB smartphone provides extended usage on a single charge, letting you stay connected for longer. Plus, its fast-charging support ensures you can power up quickly and get back to your tasks without long wait times.&lt;/p>
-&lt;p>Distinctive Design&lt;/p>
-&lt;p>Combining minimalism with advanced engineering, this Nothing smartphone features a unique transparent design, giving it a futuristic yet nostalgic aesthetic. Built with high-quality materials, it strikes the ideal balance between simplicity and sophistication, making it a standout device in both form and function.&lt;/p></description></item><item><title>Steps to Integrate GeoGebra with Microsoft OneNote</title><link>/blog/math/integrate-geogebra-with-one-note/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/math/integrate-geogebra-with-one-note/</guid><description>
+&lt;hr>
+&lt;h3>🟫 Step 2: Add a Ground Plane&lt;span class="hx-absolute -hx-mt-20" id="-step-2-add-a-ground-plane">&lt;/span>
+&lt;a href="#-step-2-add-a-ground-plane" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Press &lt;code>Shift + A&lt;/code> → Mesh → Plane.&lt;/li>
+&lt;li>&lt;strong>Scale up&lt;/strong> the plane (&lt;code>S&lt;/code>, drag or enter a number) for your ground.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🐍 Step 3: Import Your Snake Model&lt;span class="hx-absolute -hx-mt-20" id="-step-3-import-your-snake-model">&lt;/span>
+&lt;a href="#-step-3-import-your-snake-model" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Press &lt;code>F4&lt;/code> (or File → Import) to bring in your 3D snake model.&lt;/li>
+&lt;li>&lt;strong>Not got a snake?&lt;/strong>
+Grab a free one via the tutorial’s &lt;a href="https://pinnotes.github.io/blog/blender/snake-3d-model-tutorial-blender-asset/" target="_blank" rel="noopener">asset link&lt;/a>!&lt;/li>
+&lt;li>&lt;strong>Scale down&lt;/strong> your snake model to fit the scene (&lt;code>S&lt;/code>, drag).&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>📝 Step 4: Create the Path with a Curve&lt;span class="hx-absolute -hx-mt-20" id="-step-4-create-the-path-with-a-curve">&lt;/span>
+&lt;a href="#-step-4-create-the-path-with-a-curve" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>&lt;strong>Add a Curve:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>Shift + A&lt;/code> → Curve → (Pick your favorite, like Bezier or Path)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Hide the plane &amp;amp; snake for clarity.&lt;/li>
+&lt;li>&lt;strong>Edit the curve:&lt;/strong>
+&lt;ul>
+&lt;li>Select the curve, press &lt;code>Tab&lt;/code> (Edit Mode).&lt;/li>
+&lt;li>Delete default points (select, &lt;code>Delete&lt;/code>).&lt;/li>
+&lt;li>Use the pencil tool 🖊️ to &lt;em>draw your own slithering path&lt;/em> in top view (&lt;code>numpad 7&lt;/code>).&lt;/li>
+&lt;li>Add twists and turns for that “snake vibe”!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3>🧩 Step 5: Attach the Snake to the Path&lt;span class="hx-absolute -hx-mt-20" id="-step-5-attach-the-snake-to-the-path">&lt;/span>
+&lt;a href="#-step-5-attach-the-snake-to-the-path" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Unhide your snake.&lt;/li>
+&lt;li>&lt;strong>Select snake model&lt;/strong>, go to the modifiers tab.&lt;/li>
+&lt;li>Add a &lt;strong>Curve Modifier&lt;/strong>.&lt;/li>
+&lt;li>Set the “Curve Object” to your drawn curve.&lt;/li>
+&lt;li>&lt;em>&lt;strong>Troubleshooting:&lt;/strong>&lt;/em>
+If the snake looks weird or doesn’t follow the curve:
+&lt;ul>
+&lt;li>Adjust the “Deform Axis” (try X, Y, Z) until it aligns.&lt;/li>
+&lt;li>Move the snake down slightly if floating above the grid.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🎛️ Step 6: Smooth Out Movements&lt;span class="hx-absolute -hx-mt-20" id="-step-6-smooth-out-movements">&lt;/span>
+&lt;a href="#-step-6-smooth-out-movements" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Curve too jagged?&lt;/strong>
+&lt;ul>
+&lt;li>Select the curve, go to Curve Data Properties.&lt;/li>
+&lt;li>Increase “Resolution” for smoother turns.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>In Edit Mode, select sharp vertices and drag the handles (&lt;code>G&lt;/code>) to smooth bends.&lt;/li>
+&lt;li>&lt;strong>Extra smoothness:&lt;/strong>
+&lt;ul>
+&lt;li>Right-click the curve, choose “Subdivide” for more control points.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🎞️ Step 7: Animate the Snake&lt;span class="hx-absolute -hx-mt-20" id="-step-7-animate-the-snake">&lt;/span>
+&lt;a href="#-step-7-animate-the-snake" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Select the snake, go to Object Properties.&lt;/li>
+&lt;li>&lt;strong>Insert a keyframe&lt;/strong> for Location (X-axis).&lt;/li>
+&lt;li>Move a few frames forward in timeline, move snake along X-axis, and insert another keyframe.&lt;/li>
+&lt;li>&lt;strong>Adjust animation speed:&lt;/strong>
+&lt;ul>
+&lt;li>If too fast, drag the second keyframe farther on timeline.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🖼️ Step 8: Final Touches&lt;span class="hx-absolute -hx-mt-20" id="-step-8-final-touches">&lt;/span>
+&lt;a href="#-step-8-final-touches" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Scale your ground plane for the best composition.&lt;/li>
+&lt;li>Lock &lt;strong>Y&lt;/strong> and &lt;strong>Z axis&lt;/strong> for the snake (avoid weird sliding).&lt;/li>
+&lt;li>Scrub through the timeline: your snake should now &lt;em>slither&lt;/em> smoothly along the path!&lt;/li>
+&lt;li>Fix any last sharp corners in the curve for buttery motion.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>🪄 That’s a Wrap! (Part 1)&lt;span class="hx-absolute -hx-mt-20" id="-thats-a-wrap-part-1">&lt;/span>
+&lt;a href="#-thats-a-wrap-part-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Your snake is now animated along a custom path—no rigging nightmares, just smooth, easy motion! In &lt;strong>Part 2&lt;/strong> (watch on YouTube), you’ll texture, light, and render your masterpiece.&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>💡 &lt;strong>Tip:&lt;/strong> You can use this workflow for &lt;em>any&lt;/em> object to follow curves—great for trains, cars, creatures, and more!&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>If you found this helpful, don’t forget to like and subscribe to the creator for more awesome Blender tutorials! Happy animating! 🥳🎬&lt;/p>
+&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>Steps to Integrate GeoGebra with Microsoft OneNote</title><link>/blog/math/integrate-geogebra-with-one-note/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/math/integrate-geogebra-with-one-note/</guid><description>
 &lt;img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 &lt;h2>Steps to Integrate GeoGebra with Microsoft OneNote&lt;span class="hx-absolute -hx-mt-20" id="steps-to-integrate-geogebra-with-microsoft-onenote">&lt;/span>
 &lt;a href="#steps-to-integrate-geogebra-with-microsoft-onenote" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Integrating GeoGebra with Microsoft OneNote is straightforward and allows you (and your students) to embed interactive math applets directly into your notebooks. This enables dynamic exploration of mathematical concepts without leaving OneNote. Here’s how to do it:&lt;/p>
@@ -2476,6 +2774,7 @@ window.location.href = link;
 &lt;style>
 .display-ad {
 margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
 border: 1px solid #ddd;
 border-radius: 10px;
 overflow: hidden;
@@ -2636,6 +2935,7 @@ window.location.href = link;
 &lt;style>
 .display-ad {
 margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
 border: 1px solid #ddd;
 border-radius: 10px;
 overflow: hidden;

@@ -862,7 +862,12 @@ title="Copy code"
 &lt;/div>
 &lt;p>Result:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;iframe
+src="https://www.youtube.com/embed/"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+&lt;/iframe>
 &lt;/div>
 &lt;p>For more information, see &lt;a href="https://gohugo.io/content-management/shortcodes/#youtube" target="_blank" rel="noopener">Hugo&amp;rsquo;s YouTube Shortcode&lt;/a>.&lt;/p>
 &lt;h2>PDF&lt;span class="hx-absolute -hx-mt-20" id="pdf">&lt;/span>
