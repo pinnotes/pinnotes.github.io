@@ -23,6 +23,9 @@ Perfect for anyone starting with Blender’s physics and VFX tools.
 
 {{< timer/timer title="Car Model Download" link="/assets/car-burnout-model/" >}}
 
+{{< youtube zoVkef5dQ2Q >}}
+
+
 ✨ Rev Up Your Renders: Blender Burnout Smoke Tutorial! 💨
 
 Ever wanted to add that extra *oomph* to your car animations? Learn how to create realistic burnout smoke in Blender with this super easy, beginner-friendly tutorial! We'll break down the animation, smoke simulation, and render settings step-by-step so you can make your scenes truly epic. Buckle up! 🚗💨
