@@ -236,5 +236,9 @@ params:
       # hover | always
       display: hover
             
+  keywords:
+    - keyword1
+    - keyword2
+    - keyword3
 
 
