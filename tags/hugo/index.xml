@@ -164,7 +164,58 @@ data: [
 &lt;/table>
 &lt;h2>&lt;strong>Conclusion&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
 &lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>With just a few steps, you can turn your Hugo site into a data-visualization powerhouse! Whether you’re explaining math concepts, showing survey results, or just making your blog more fun, Chart.js shortcodes make it easy. Give it a try and make your study notes come alive! 🚀📚&lt;/p>
-&lt;p>If you want more advanced examples or run into any trouble, just ask! Happy charting! 😊&lt;/p></description></item><item><title>Add Diagram in HUGO 🖼️ with Plotly.js</title><link>/blog/webdev/hugo-dev/plotly-js-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/plotly-js-in-hugo/</guid><description/></item><item><title>Monetize Your Hugo Site with Google AdSense 💰</title><link>/blog/webdev/hugo-dev/add-google-adsence-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/add-google-adsence-in-hugo/</guid><description>
+&lt;p>If you want more advanced examples or run into any trouble, just ask! Happy charting! 😊&lt;/p></description></item><item><title>Add Diagram in HUGO 🖼️ with Plotly.js</title><link>/blog/webdev/hugo-dev/plotly-js-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/plotly-js-in-hugo/</guid><description>
+&lt;h2>create a Shortcode in HUGO to add Diagrams with Plotly.js&lt;span class="hx-absolute -hx-mt-20" id="create-a-shortcode-in-hugo-to-add-diagrams-with-plotlyjs">&lt;/span>
+&lt;a href="#create-a-shortcode-in-hugo-to-add-diagrams-with-plotlyjs" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>To create a Hugo shortcode to embed Plotly.js diagrams, you can define a shortcode that includes the Plotly.js library and renders a Plotly chart based on JSON data or JavaScript code provided within the shortcode.&lt;/p>
+&lt;p>Here’s a simple example to create a shortcode named &lt;code>plotly.html&lt;/code>:&lt;/p>
+&lt;ol>
+&lt;li>Create a file named &lt;code>plotly.html&lt;/code> inside the &lt;code>layouts/shortcodes/&lt;/code> directory of your Hugo site.&lt;/li>
+&lt;li>Add the following code to &lt;code>plotly.html&lt;/code>:&lt;/li>
+&lt;/ol>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $id := printf &amp;#34;plotly-%d&amp;#34; (add (now.Unix) (len .Inner)) }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Plotly chart container --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $id }}&amp;#34;&lt;/span> &lt;span class="na">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;width: {{ .Get &amp;#34;&lt;/span>&lt;span class="na">width&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">default&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">100&lt;/span>&lt;span class="err">%&amp;#34;&lt;/span> &lt;span class="err">}};&lt;/span> &lt;span class="na">height:&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Get&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">height&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">default&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">600px&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}};&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Load Plotly.js from CDN --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://cdn.plot.ly/plotly-latest.min.js&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">(&lt;/span>&lt;span class="kd">function&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{{&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nx">Inner&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">safeJS&lt;/span> &lt;span class="p">}};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">layout&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{{&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nx">Get&lt;/span> &lt;span class="s2">&amp;#34;layout&amp;#34;&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="s2">&amp;#34;{}&amp;#34;&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">safeJS&lt;/span> &lt;span class="p">}};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Plotly&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">newPlot&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;{{ $id }}&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">data&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">layout&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">})();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Usage in your Markdown:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>Explanation:&lt;span class="hx-absolute -hx-mt-20" id="explanation">&lt;/span>
+&lt;a href="#explanation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;code>width&lt;/code> and &lt;code>height&lt;/code> attributes control the size of the plot container.&lt;/li>
+&lt;li>The &lt;code>layout&lt;/code> parameter allows passing a JSON object for Plotly layout settings.&lt;/li>
+&lt;li>The actual plot data is passed inside the shortcode as JSON and is safely embedded in the script.&lt;/li>
+&lt;/ul>
+&lt;p>This lets you embed interactive Plotly charts easily within your Hugo content. Let me know if you want further customization or examples.&lt;/p></description></item><item><title>Monetize Your Hugo Site with Google AdSense 💰</title><link>/blog/webdev/hugo-dev/add-google-adsence-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/add-google-adsence-in-hugo/</guid><description>
 &lt;h2>integrate google adsence in hugo with ads customization&lt;span class="hx-absolute -hx-mt-20" id="integrate-google-adsence-in-hugo-with-ads-customization">&lt;/span>
 &lt;a href="#integrate-google-adsence-in-hugo-with-ads-customization" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>To integrate Google AdSense into your Hugo website with ad customization, follow these clear steps. This process works for most Hugo themes (including PaperMod, Blowfish, Academic, and others) and allows you to control where and how ads appear.&lt;/p>
 &lt;hr>
@@ -522,4 +573,35 @@ title="Copy code"
 &lt;p>&lt;a href="https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a" target="_blank" rel="noopener">https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Build Formula Calculator in HUGO 🧮</title><link>/blog/webdev/hugo-dev/build-formula-calculator-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/build-formula-calculator-in-hugo/</guid><description/></item><item><title>Build Modular Composable Calculator in HUGO 🧮</title><link>/blog/webdev/hugo-dev/build-modular-composable-calculator-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/build-modular-composable-calculator-in-hugo/</guid><description/></item><item><title>Embed PDF in HUGO 📄</title><link>/blog/webdev/hugo-dev/pdf-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/pdf-in-hugo/</guid><description/></item></channel></rss>
+&lt;/div></description></item><item><title>Build Formula Calculator in HUGO 🧮</title><link>/blog/webdev/hugo-dev/build-formula-calculator-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/build-formula-calculator-in-hugo/</guid><description/></item><item><title>Build Modular Composable Calculator in HUGO 🧮</title><link>/blog/webdev/hugo-dev/build-modular-composable-calculator-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/build-modular-composable-calculator-in-hugo/</guid><description/></item><item><title>Embed PDF in HUGO 📄</title><link>/blog/webdev/hugo-dev/pdf-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/pdf-in-hugo/</guid><description>
+&lt;h3>create a Shortcode in HUGO to embed PDF&lt;span class="hx-absolute -hx-mt-20" id="create-a-shortcode-in-hugo-to-embed-pdf">&lt;/span>
+&lt;a href="#create-a-shortcode-in-hugo-to-embed-pdf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>To create a shortcode in Hugo to embed a PDF, you can define a custom shortcode that uses HTML&amp;rsquo;s &lt;code>&amp;lt;embed&amp;gt;&lt;/code> or &lt;code>&amp;lt;iframe&amp;gt;&lt;/code> tag to render the PDF within your Hugo site.&lt;/p>
+&lt;p>Here&amp;rsquo;s how to create a simple shortcode named &lt;code>pdfembed.html&lt;/code>:&lt;/p>
+&lt;ol>
+&lt;li>Create a file named &lt;code>pdfembed.html&lt;/code> inside the &lt;code>layouts/shortcodes/&lt;/code> directory of your Hugo site.&lt;/li>
+&lt;li>Add the following code to &lt;code>pdfembed.html&lt;/code>:&lt;/li>
+&lt;/ol>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $url := .Get &amp;#34;src&amp;#34; }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ if not $url }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Error:&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> PDF URL is required. Usage: &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ else }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">embed&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $url }}&amp;#34;&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;application/pdf&amp;#34;&lt;/span> &lt;span class="na">width&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Get &amp;#34;&lt;/span>&lt;span class="na">width&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">default&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">100&lt;/span>&lt;span class="err">%&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span> &lt;span class="na">height&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Get &amp;#34;&lt;/span>&lt;span class="na">height&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">default&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">600px&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ end }}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>This shortcode takes three parameters:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>src&lt;/code> (required): the URL/path to the PDF file.&lt;/li>
+&lt;li>&lt;code>width&lt;/code> (optional): width of the embed element (default is 100%).&lt;/li>
+&lt;li>&lt;code>height&lt;/code> (optional): height of the embed element (default is 600px).&lt;/li>
+&lt;/ul>
+&lt;p>This will render an embedded PDF within your Hugo page using the browser&amp;rsquo;s PDF viewer.&lt;/p>
+&lt;p>If you want to use &lt;code>&amp;lt;iframe&amp;gt;&lt;/code> instead, you can modify the shortcode accordingly. Let me know if you&amp;rsquo;d like that version.&lt;/p></description></item></channel></rss>
