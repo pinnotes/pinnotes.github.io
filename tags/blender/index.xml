@@ -1,24 +1,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Blender</title><link>/tags/blender/</link><description>Recent content in Blender on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Chevrolet Corvette C7 free 3D model Assets Download🌲</title><link>/blog/blender/chevrolet-corvette-c7-free-3d-model/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/chevrolet-corvette-c7-free-3d-model/</guid><description>
-&lt;h2>Download Chevrolet Corvette C7 free 3D model for Blender Tutorial&lt;span class="hx-absolute -hx-mt-20" id="download-chevrolet-corvette-c7-free-3d-model-for-blender-tutorial">&lt;/span>
-&lt;a href="#download-chevrolet-corvette-c7-free-3d-model-for-blender-tutorial" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://cdn.polyhaven.com/asset_img/primary/hansaplatz.png?height=760&amp;amp;quality=95" target="_blank" rel="noopener">Night HDRI&lt;/a>&lt;/p>
-&lt;div style="text-align:center">
-&lt;h4>Click and wait for 20 seconds 👇
-&lt;/div>
-&lt;a href="https://www.cgtrader.com/free-3d-models/car/sport-car/corvette-c7-5961776e-1de5-47ed-9e97-8d9f753e62fe" class="timer-btn"> Free Download &lt;/a>
-&lt;div class="display-ad">
+&lt;h2&gt;Download Chevrolet Corvette C7 free 3D model for Blender Tutorial&lt;span class="hx-absolute -hx-mt-20" id="download-chevrolet-corvette-c7-free-3d-model-for-blender-tutorial"&gt;&lt;/span&gt;
+&lt;a href="#download-chevrolet-corvette-c7-free-3d-model-for-blender-tutorial" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://cdn.polyhaven.com/asset_img/primary/hansaplatz.png?height=760&amp;amp;quality=95" target="_blank" rel="noopener"&gt;Night HDRI&lt;/a&gt;&lt;/p&gt;
+&lt;div style="text-align:center"&gt;
+&lt;h4&gt;Click and wait for 20 seconds 👇
+&lt;/div&gt;
+&lt;a href="https://www.cgtrader.com/free-3d-models/car/sport-car/corvette-c7-5961776e-1de5-47ed-9e97-8d9f753e62fe" class="timer-btn"&gt; Free Download &lt;/a&gt;
+&lt;div class="display-ad"&gt;
 &lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
-crossorigin="anonymous">&lt;/script>
+crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;ins class="adsbygoogle"
 style="display:block"
 data-ad-client="ca-pub-7993314093599705"
 data-ad-slot="3255877740"
 data-ad-format="auto"
-data-full-width-responsive="true">&lt;/ins>
-&lt;script>
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
 (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script>
-&lt;/div>
-&lt;script>
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
 btns.forEach(function (btn) {
@@ -59,8 +59,8 @@ window.location.href = link;
 }
 }, 1000);
 });
-&lt;/script>
-&lt;style>
+&lt;/script&gt;
+&lt;style&gt;
 .display-ad {
 margin-top: 1.5rem;
 margin-bottom: 1.5rem;;
@@ -142,112 +142,112 @@ background-color: #222;
 background-color: #d45039;
 }
 }
-&lt;/style>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;/style&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
 &lt;iframe
 src="https://www.youtube.com/embed/4Xj5iQKZ2VQ"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-&lt;/iframe>
-&lt;/div>
-&lt;h2>Create a Glowing Dome Lighting Setup in Blender 🏮✨&lt;span class="hx-absolute -hx-mt-20" id="create-a-glowing-dome-lighting-setup-in-blender-">&lt;/span>
-&lt;a href="#create-a-glowing-dome-lighting-setup-in-blender-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Ever wanted to make your product renders or car scenes shine with ultra-realistic lighting in Blender? 🎬 This beginner-friendly guide walks you through setting up a glowing HDRI dome that actually casts beautiful shadows—all using Blender&amp;rsquo;s Cycles render engine. Ready? Let’s light things up! 💡&lt;/p>
-&lt;hr>
-&lt;h3>🥚 Step 1: Build the Dome&lt;span class="hx-absolute -hx-mt-20" id="-step-1-build-the-dome">&lt;/span>
-&lt;a href="#-step-1-build-the-dome" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Open Blender and &lt;strong>delete the default cube&lt;/strong> (Select the cube, press &lt;code>A&lt;/code>, then hit &lt;code>Delete&lt;/code>).&lt;/li>
-&lt;li>&lt;strong>Add a UV Sphere&lt;/strong>: Press &lt;code>Shift + A&lt;/code> → Mesh → UV Sphere.&lt;/li>
-&lt;li>Enter &lt;strong>Edit Mode&lt;/strong> with &lt;code>Tab&lt;/code>, then &lt;strong>switch to wireframe view&lt;/strong> (&lt;code>Z&lt;/code> or click the wireframe icon).&lt;/li>
-&lt;li>&lt;strong>Select the top half&lt;/strong> of the sphere.&lt;/li>
-&lt;li>Flatten it: Press &lt;code>S&lt;/code>, then &lt;code>Z&lt;/code>, then type &lt;code>0&lt;/code> (to squash vertically).&lt;/li>
-&lt;li>With the top still selected, &lt;strong>set the Z location to 0&lt;/strong> in the side panel (open with &lt;code>N&lt;/code>).&lt;/li>
-&lt;li>&lt;strong>Select all (&lt;code>A&lt;/code>) and flip normals&lt;/strong>: Press &lt;code>Alt + N&lt;/code> → Flip Normals (so the inside is visible).&lt;/li>
-&lt;li>&lt;strong>Back in Object Mode&lt;/strong>, scale up your dome (&lt;code>S&lt;/code>) to make it big.&lt;/li>
-&lt;li>&lt;strong>Apply scale&lt;/strong>: Press &lt;code>Ctrl + A&lt;/code> → Scale.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🎨 Step 2: Set Up the Shader &amp;amp; Lighting&lt;span class="hx-absolute -hx-mt-20" id="-step-2-set-up-the-shader--lighting">&lt;/span>
-&lt;a href="#-step-2-set-up-the-shader--lighting" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Split your workspace&lt;/strong> to open the Shader Editor. (Drag corner of your window, choose Shader Editor).&lt;/li>
-&lt;li>&lt;strong>Delete the default Principled BSDF node&lt;/strong>.&lt;/li>
-&lt;li>&lt;strong>Add the following nodes:&lt;/strong>
-&lt;ul>
-&lt;li>Environment Texture 🌄&lt;/li>
-&lt;li>Mix Shader 🔀&lt;/li>
-&lt;li>Diffuse Shader 🎨&lt;/li>
-&lt;li>Emission Shader 💡&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Connect nodes:&lt;/strong>
-&lt;ul>
-&lt;li>Plug Diffuse and Emission into the Mix Shader, then to Material Output.&lt;/li>
-&lt;li>Link the Environment Texture to Diffuse and Emission Shader inputs.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Switch render engine&lt;/strong> to Cycles (Render Properties → Select &amp;lsquo;Cycles&amp;rsquo;).&lt;/li>
-&lt;li>If you have a &lt;strong>GPU&lt;/strong>, set device to GPU for speed!&lt;/li>
-&lt;li>&lt;strong>Open your HDRI image&lt;/strong>. (Try &lt;a href="https://pinnotes.github.io/blog/blender/hdri/" target="_blank" rel="noopener">this free one&lt;/a> 🖼️)&lt;/li>
-&lt;li>Press &lt;code>Ctrl + T&lt;/code> (Node Wrangler add-on must be enabled!) to add Mapping nodes.&lt;/li>
-&lt;li>&lt;strong>Connect Object Output to Vector Input.&lt;/strong> Adjust Z rotation to tweak lighting direction.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🕶️ Step 3: Fix the &amp;ldquo;No Shadow&amp;rdquo; Problem&lt;span class="hx-absolute -hx-mt-20" id="-step-3-fix-the-no-shadow-problem">&lt;/span>
-&lt;a href="#-step-3-fix-the-no-shadow-problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Test the setup&lt;/strong>: Add a cube and check the shadows. If there are none—not to worry!&lt;/li>
-&lt;li>Go into &lt;strong>Edit Mode on the dome&lt;/strong>.&lt;/li>
-&lt;li>&lt;strong>Select only the bottom faces&lt;/strong> of the dome.&lt;/li>
-&lt;li>&lt;strong>Open Material Properties&lt;/strong>. Click the &amp;ldquo;+&amp;rdquo; to add a new material slot. Assign the same material to those faces.&lt;/li>
-&lt;li>Go back to &lt;strong>Object Mode&lt;/strong>, click the material slot and make it a separate material.&lt;/li>
-&lt;li>In the second material:
-&lt;ul>
-&lt;li>&lt;strong>Delete Emission and Mix Shader&lt;/strong>—keep only Diffuse. (Now, the bottom won’t glow and your scene will cast proper shadows!)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>💡 Step 4: Add an Area Light &amp;amp; Final Touches&lt;span class="hx-absolute -hx-mt-20" id="-step-4-add-an-area-light--final-touches">&lt;/span>
-&lt;a href="#-step-4-add-an-area-light--final-touches" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Add an Area Light&lt;/strong> for more realistic illumination.&lt;/li>
-&lt;li>&lt;strong>Increase its power &amp;amp; scale&lt;/strong> so it matches your dome.&lt;/li>
-&lt;li>Place your subject (e.g., a cool car! 🚗).
-&lt;ul>
-&lt;li>Try this &lt;a href="https://pinnotes.github.io/blog/blender/chevrolet-corvette-c7-free-3d-model/" target="_blank" rel="noopener">free car model&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Adjust camera angle&lt;/strong> and lighting for best look.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🎉 You’re All Set!&lt;span class="hx-absolute -hx-mt-20" id="-youre-all-set">&lt;/span>
-&lt;a href="#-youre-all-set" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Now you’ve got an eye-catching, glowing dome setup in Blender that’s perfect for showcasing cars, products, or moody scenes—complete with realistic shadows! Snap your renders, share online, and level up your Blender skills. 😎🚀&lt;/p>
-&lt;hr>
-&lt;blockquote>
-&lt;p>&lt;strong>Tip:&lt;/strong> Always apply scale after resizing objects for best material results!&lt;/p>
-&lt;p>Don’t forget to enable the Node Wrangler add-on for easier node setup.&lt;/p>
-&lt;/blockquote>
-&lt;p>Happy Blending! 🙌&lt;/p>
-&lt;p>If you liked this tutorial, give a thumbs up and subscribe for more easy Blender tips. 🥳&lt;/p>
-&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>Free HDRi Assets Download🌲</title><link>/blog/blender/hdri/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/hdri/</guid><description>
-&lt;h2>Download HDRI for Blender Tutorial&lt;span class="hx-absolute -hx-mt-20" id="download-hdri-for-blender-tutorial">&lt;/span>
-&lt;a href="#download-hdri-for-blender-tutorial" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://cdn.polyhaven.com/asset_img/primary/hansaplatz.png?height=760&amp;amp;quality=95" target="_blank" rel="noopener">Night HDRI&lt;/a>&lt;/p>
-&lt;div style="text-align:center">
-&lt;h4>Click and wait for 20 seconds 👇
-&lt;/div>
-&lt;a href="https://polyhaven.com/a/hansaplatz" class="timer-btn"> Download Tutorial Assets &lt;/a>
-&lt;div class="display-ad">
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2&gt;Create a Glowing Dome Lighting Setup in Blender 🏮✨&lt;span class="hx-absolute -hx-mt-20" id="create-a-glowing-dome-lighting-setup-in-blender-"&gt;&lt;/span&gt;
+&lt;a href="#create-a-glowing-dome-lighting-setup-in-blender-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ever wanted to make your product renders or car scenes shine with ultra-realistic lighting in Blender? 🎬 This beginner-friendly guide walks you through setting up a glowing HDRI dome that actually casts beautiful shadows—all using Blender&amp;rsquo;s Cycles render engine. Ready? Let’s light things up! 💡&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;🥚 Step 1: Build the Dome&lt;span class="hx-absolute -hx-mt-20" id="-step-1-build-the-dome"&gt;&lt;/span&gt;
+&lt;a href="#-step-1-build-the-dome" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Open Blender and &lt;strong&gt;delete the default cube&lt;/strong&gt; (Select the cube, press &lt;code&gt;A&lt;/code&gt;, then hit &lt;code&gt;Delete&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add a UV Sphere&lt;/strong&gt;: Press &lt;code&gt;Shift + A&lt;/code&gt; → Mesh → UV Sphere.&lt;/li&gt;
+&lt;li&gt;Enter &lt;strong&gt;Edit Mode&lt;/strong&gt; with &lt;code&gt;Tab&lt;/code&gt;, then &lt;strong&gt;switch to wireframe view&lt;/strong&gt; (&lt;code&gt;Z&lt;/code&gt; or click the wireframe icon).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select the top half&lt;/strong&gt; of the sphere.&lt;/li&gt;
+&lt;li&gt;Flatten it: Press &lt;code&gt;S&lt;/code&gt;, then &lt;code&gt;Z&lt;/code&gt;, then type &lt;code&gt;0&lt;/code&gt; (to squash vertically).&lt;/li&gt;
+&lt;li&gt;With the top still selected, &lt;strong&gt;set the Z location to 0&lt;/strong&gt; in the side panel (open with &lt;code&gt;N&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select all (&lt;code&gt;A&lt;/code&gt;) and flip normals&lt;/strong&gt;: Press &lt;code&gt;Alt + N&lt;/code&gt; → Flip Normals (so the inside is visible).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Back in Object Mode&lt;/strong&gt;, scale up your dome (&lt;code&gt;S&lt;/code&gt;) to make it big.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apply scale&lt;/strong&gt;: Press &lt;code&gt;Ctrl + A&lt;/code&gt; → Scale.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🎨 Step 2: Set Up the Shader &amp;amp; Lighting&lt;span class="hx-absolute -hx-mt-20" id="-step-2-set-up-the-shader--lighting"&gt;&lt;/span&gt;
+&lt;a href="#-step-2-set-up-the-shader--lighting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Split your workspace&lt;/strong&gt; to open the Shader Editor. (Drag corner of your window, choose Shader Editor).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delete the default Principled BSDF node&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add the following nodes:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Environment Texture 🌄&lt;/li&gt;
+&lt;li&gt;Mix Shader 🔀&lt;/li&gt;
+&lt;li&gt;Diffuse Shader 🎨&lt;/li&gt;
+&lt;li&gt;Emission Shader 💡&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connect nodes:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Plug Diffuse and Emission into the Mix Shader, then to Material Output.&lt;/li&gt;
+&lt;li&gt;Link the Environment Texture to Diffuse and Emission Shader inputs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Switch render engine&lt;/strong&gt; to Cycles (Render Properties → Select &amp;lsquo;Cycles&amp;rsquo;).&lt;/li&gt;
+&lt;li&gt;If you have a &lt;strong&gt;GPU&lt;/strong&gt;, set device to GPU for speed!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open your HDRI image&lt;/strong&gt;. (Try &lt;a href="https://pinnotes.github.io/blog/blender/hdri/" target="_blank" rel="noopener"&gt;this free one&lt;/a&gt; 🖼️)&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;Ctrl + T&lt;/code&gt; (Node Wrangler add-on must be enabled!) to add Mapping nodes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connect Object Output to Vector Input.&lt;/strong&gt; Adjust Z rotation to tweak lighting direction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🕶️ Step 3: Fix the &amp;ldquo;No Shadow&amp;rdquo; Problem&lt;span class="hx-absolute -hx-mt-20" id="-step-3-fix-the-no-shadow-problem"&gt;&lt;/span&gt;
+&lt;a href="#-step-3-fix-the-no-shadow-problem" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Test the setup&lt;/strong&gt;: Add a cube and check the shadows. If there are none—not to worry!&lt;/li&gt;
+&lt;li&gt;Go into &lt;strong&gt;Edit Mode on the dome&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select only the bottom faces&lt;/strong&gt; of the dome.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open Material Properties&lt;/strong&gt;. Click the &amp;ldquo;+&amp;rdquo; to add a new material slot. Assign the same material to those faces.&lt;/li&gt;
+&lt;li&gt;Go back to &lt;strong&gt;Object Mode&lt;/strong&gt;, click the material slot and make it a separate material.&lt;/li&gt;
+&lt;li&gt;In the second material:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Delete Emission and Mix Shader&lt;/strong&gt;—keep only Diffuse. (Now, the bottom won’t glow and your scene will cast proper shadows!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;💡 Step 4: Add an Area Light &amp;amp; Final Touches&lt;span class="hx-absolute -hx-mt-20" id="-step-4-add-an-area-light--final-touches"&gt;&lt;/span&gt;
+&lt;a href="#-step-4-add-an-area-light--final-touches" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Add an Area Light&lt;/strong&gt; for more realistic illumination.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Increase its power &amp;amp; scale&lt;/strong&gt; so it matches your dome.&lt;/li&gt;
+&lt;li&gt;Place your subject (e.g., a cool car! 🚗).
+&lt;ul&gt;
+&lt;li&gt;Try this &lt;a href="https://pinnotes.github.io/blog/blender/chevrolet-corvette-c7-free-3d-model/" target="_blank" rel="noopener"&gt;free car model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjust camera angle&lt;/strong&gt; and lighting for best look.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🎉 You’re All Set!&lt;span class="hx-absolute -hx-mt-20" id="-youre-all-set"&gt;&lt;/span&gt;
+&lt;a href="#-youre-all-set" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Now you’ve got an eye-catching, glowing dome setup in Blender that’s perfect for showcasing cars, products, or moody scenes—complete with realistic shadows! Snap your renders, share online, and level up your Blender skills. 😎🚀&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; Always apply scale after resizing objects for best material results!&lt;/p&gt;
+&lt;p&gt;Don’t forget to enable the Node Wrangler add-on for easier node setup.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Happy Blending! 🙌&lt;/p&gt;
+&lt;p&gt;If you liked this tutorial, give a thumbs up and subscribe for more easy Blender tips. 🥳&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;</description></item><item><title>Free HDRi Assets Download🌲</title><link>/blog/blender/hdri/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/hdri/</guid><description>
+&lt;h2&gt;Download HDRI for Blender Tutorial&lt;span class="hx-absolute -hx-mt-20" id="download-hdri-for-blender-tutorial"&gt;&lt;/span&gt;
+&lt;a href="#download-hdri-for-blender-tutorial" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://cdn.polyhaven.com/asset_img/primary/hansaplatz.png?height=760&amp;amp;quality=95" target="_blank" rel="noopener"&gt;Night HDRI&lt;/a&gt;&lt;/p&gt;
+&lt;div style="text-align:center"&gt;
+&lt;h4&gt;Click and wait for 20 seconds 👇
+&lt;/div&gt;
+&lt;a href="https://polyhaven.com/a/hansaplatz" class="timer-btn"&gt; Download Tutorial Assets &lt;/a&gt;
+&lt;div class="display-ad"&gt;
 &lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
-crossorigin="anonymous">&lt;/script>
+crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;ins class="adsbygoogle"
 style="display:block"
 data-ad-client="ca-pub-7993314093599705"
 data-ad-slot="3255877740"
 data-ad-format="auto"
-data-full-width-responsive="true">&lt;/ins>
-&lt;script>
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
 (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script>
-&lt;/div>
-&lt;script>
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
 btns.forEach(function (btn) {
@@ -288,8 +288,8 @@ window.location.href = link;
 }
 }, 1000);
 });
-&lt;/script>
-&lt;style>
+&lt;/script&gt;
+&lt;style&gt;
 .display-ad {
 margin-top: 1.5rem;
 margin-bottom: 1.5rem;;
@@ -371,151 +371,151 @@ background-color: #222;
 background-color: #d45039;
 }
 }
-&lt;/style>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;/style&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
 &lt;iframe
 src="https://www.youtube.com/embed/4Xj5iQKZ2VQ"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-&lt;/iframe>
-&lt;/div>
-&lt;h2>How to Set Up HDRI Lighting in Blender (Beginner Friendly) 🌄✨&lt;span class="hx-absolute -hx-mt-20" id="how-to-set-up-hdri-lighting-in-blender-beginner-friendly-">&lt;/span>
-&lt;a href="#how-to-set-up-hdri-lighting-in-blender-beginner-friendly-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Want to give your Blender renders a professional, realistic vibe using HDRI lighting? Let’s walk through the easy process featured in &lt;a href="https://youtu.be/4Xj5iQKZ2VQ?si=0VX87-b7VKpJ0MhU" target="_blank" rel="noopener">this tutorial&lt;/a> so your scenes truly shine—perfect for cars, products, or moody environments! 🚗🔆&lt;/p>
-&lt;hr>
-&lt;h3>🛠️ Step 1: Prepare Your Scene&lt;span class="hx-absolute -hx-mt-20" id="-step-1-prepare-your-scene">&lt;/span>
-&lt;a href="#-step-1-prepare-your-scene" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>Open Blender.&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Delete the default cube&lt;/strong>
-&lt;ul>
-&lt;li>Press &lt;code>A&lt;/code> to select all, then &lt;code>Delete&lt;/code>.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Add a UV Sphere for the Dome:&lt;/strong>
-&lt;ul>
-&lt;li>Press &lt;code>Shift + A&lt;/code> → Mesh → UV Sphere.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h3>🏗️ Step 2: Make the Dome&lt;span class="hx-absolute -hx-mt-20" id="-step-2-make-the-dome">&lt;/span>
-&lt;a href="#-step-2-make-the-dome" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>Enter &lt;strong>Edit Mode&lt;/strong> (&lt;code>Tab&lt;/code>).&lt;/li>
-&lt;li>&lt;strong>Switch to wireframe view&lt;/strong> (&lt;code>Z&lt;/code> or via the viewport icon).&lt;/li>
-&lt;li>&lt;strong>Select the top half of the sphere&lt;/strong> (box select or manually).&lt;/li>
-&lt;li>&lt;strong>Flatten the top:&lt;/strong>
-&lt;ul>
-&lt;li>Press &lt;code>S&lt;/code>, then &lt;code>Z&lt;/code>, then type &lt;code>0&lt;/code>.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Set Z location to 0&lt;/strong> in side panel (press &lt;code>N&lt;/code> to open).&lt;/li>
-&lt;li>&lt;strong>Select all faces (&lt;code>A&lt;/code>) and flip normals:&lt;/strong>
-&lt;ul>
-&lt;li>Press &lt;code>Alt + N&lt;/code> → Flip Normals.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Go back to Object Mode&lt;/strong>, scale up the dome (&lt;code>S&lt;/code>), and &lt;strong>apply scale&lt;/strong> (&lt;code>Ctrl + A&lt;/code> → Scale).&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h3>🌄 Step 3: Add &amp;amp; Set Up HDRI Texture&lt;span class="hx-absolute -hx-mt-20" id="-step-3-add--set-up-hdri-texture">&lt;/span>
-&lt;a href="#-step-3-add--set-up-hdri-texture" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>Open the Shader Editor&lt;/strong>
-&lt;ul>
-&lt;li>Split your window, select Shader Editor.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Delete the default Principled BSDF node&lt;/strong> (select it, hit &lt;code>Delete&lt;/code>).&lt;/li>
-&lt;li>&lt;strong>Add the following nodes:&lt;/strong>
-&lt;ul>
-&lt;li>Environment Texture&lt;/li>
-&lt;li>Mix Shader&lt;/li>
-&lt;li>Diffuse Shader&lt;/li>
-&lt;li>Emission Shader&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Connect nodes:&lt;/strong>
-&lt;ul>
-&lt;li>Plug Diffuse and Emission into Mix Shader, and Mix Shader to Material Output.&lt;/li>
-&lt;li>Connect Environment Texture to both Diffuse and Emission Shader inputs.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h3>🖼️ Step 4: Load Your HDRI&lt;span class="hx-absolute -hx-mt-20" id="-step-4-load-your-hdri">&lt;/span>
-&lt;a href="#-step-4-load-your-hdri" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>Switch render engine to Cycles:&lt;/strong>
-&lt;ul>
-&lt;li>Go to Render Properties → Set to Cycles.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Open your HDRI texture file:&lt;/strong>
-&lt;ul>
-&lt;li>In the Environment Texture node, click “Open,” and browse to your HDRI image.&lt;/li>
-&lt;li>Need one? Try &lt;a href="https://pinnotes.github.io/blog/blender/hdri/" target="_blank" rel="noopener">this free HDRI&lt;/a> 🌅&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Press Ctrl + T&lt;/strong> to add Mapping nodes (Enable Node Wrangler add-on if needed!).&lt;/li>
-&lt;li>&lt;strong>Connect the Object output to the Vector input.&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Adjust Z rotation&lt;/strong> to tweak the light direction for your scene.&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h3>🔍 Step 5: Test Shadows &amp;amp; Finalise&lt;span class="hx-absolute -hx-mt-20" id="-step-5-test-shadows--finalise">&lt;/span>
-&lt;a href="#-step-5-test-shadows--finalise" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>Add a Cube&lt;/strong> and check if your scene has proper shadows.&lt;/li>
-&lt;li>If not, &lt;strong>edit the dome’s bottom faces&lt;/strong>:
-&lt;ul>
-&lt;li>Go into Edit Mode, select just the bottom faces.&lt;/li>
-&lt;li>Add a new material slot (+ icon in Material Properties).&lt;/li>
-&lt;li>Assign the same material, then separate it so you can edit.&lt;/li>
-&lt;li>In the new material, &lt;strong>remove Emission and Mix Shader&lt;/strong>—leave just the Diffuse node.&lt;/li>
-&lt;li>This lets shadows work properly without the “glowing floor” effect.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h3>💡 Pro Tips&lt;span class="hx-absolute -hx-mt-20" id="-pro-tips">&lt;/span>
-&lt;a href="#-pro-tips" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Apply scale&lt;/strong> when resizing objects for correct material effects.&lt;/li>
-&lt;li>&lt;strong>Enable Node Wrangler&lt;/strong> add-on: makes mapping/skipping nodes much quicker!&lt;/li>
-&lt;li>HDRI lighting adds &lt;em>ultra-realism&lt;/em>, but a subtle area light can boost your results.
-Experiment with locations, power, and color.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🚗 Render &amp;amp; Share!&lt;span class="hx-absolute -hx-mt-20" id="-render--share">&lt;/span>
-&lt;a href="#-render--share" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>Add your hero object (try a cool car model!).&lt;/li>
-&lt;li>Adjust camera and lighting until it’s perfect.&lt;/li>
-&lt;li>Render and let the realistic HDRI lighting make your scene pop! 🎉&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;blockquote>
-&lt;p>&lt;em>Happy Blending and bright scenes!&lt;/em> 🌟
-If this helped, hit like or share with friends new to Blender!&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;p>Make your next project glow with beautiful, natural lighting in Blender! 🖥️🌈&lt;/p>
-&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>Make This Realistic Car Burnout in 10 Minutes – Blender</title><link>/blog/blender/make-the-realistic-car-burnout-in-10-minutes-blender/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/make-the-realistic-car-burnout-in-10-minutes-blender/</guid><description>
-&lt;p>In this beginner-friendly tutorial, I’ll guide you through animation, smoke simulation settings, and render setup to make your car scenes look cinematic.
-Perfect for anyone starting with Blender’s physics and VFX tools.&lt;/p>
-&lt;h2>📂 Car Model Download&lt;span class="hx-absolute -hx-mt-20" id="-car-model-download">&lt;/span>
-&lt;a href="#-car-model-download" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div style="text-align:center">
-&lt;h4>Click and wait for 20 seconds 👇
-&lt;/div>
-&lt;a href="/assets/car-burnout-model/" class="timer-btn"> Car Model Download &lt;/a>
-&lt;div class="display-ad">
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2&gt;How to Set Up HDRI Lighting in Blender (Beginner Friendly) 🌄✨&lt;span class="hx-absolute -hx-mt-20" id="how-to-set-up-hdri-lighting-in-blender-beginner-friendly-"&gt;&lt;/span&gt;
+&lt;a href="#how-to-set-up-hdri-lighting-in-blender-beginner-friendly-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Want to give your Blender renders a professional, realistic vibe using HDRI lighting? Let’s walk through the easy process featured in &lt;a href="https://youtu.be/4Xj5iQKZ2VQ?si=0VX87-b7VKpJ0MhU" target="_blank" rel="noopener"&gt;this tutorial&lt;/a&gt; so your scenes truly shine—perfect for cars, products, or moody environments! 🚗🔆&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;🛠️ Step 1: Prepare Your Scene&lt;span class="hx-absolute -hx-mt-20" id="-step-1-prepare-your-scene"&gt;&lt;/span&gt;
+&lt;a href="#-step-1-prepare-your-scene" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Open Blender.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delete the default cube&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;A&lt;/code&gt; to select all, then &lt;code&gt;Delete&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add a UV Sphere for the Dome:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;Shift + A&lt;/code&gt; → Mesh → UV Sphere.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;🏗️ Step 2: Make the Dome&lt;span class="hx-absolute -hx-mt-20" id="-step-2-make-the-dome"&gt;&lt;/span&gt;
+&lt;a href="#-step-2-make-the-dome" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Enter &lt;strong&gt;Edit Mode&lt;/strong&gt; (&lt;code&gt;Tab&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Switch to wireframe view&lt;/strong&gt; (&lt;code&gt;Z&lt;/code&gt; or via the viewport icon).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select the top half of the sphere&lt;/strong&gt; (box select or manually).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flatten the top:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt;, then &lt;code&gt;Z&lt;/code&gt;, then type &lt;code&gt;0&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set Z location to 0&lt;/strong&gt; in side panel (press &lt;code&gt;N&lt;/code&gt; to open).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select all faces (&lt;code&gt;A&lt;/code&gt;) and flip normals:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;Alt + N&lt;/code&gt; → Flip Normals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Go back to Object Mode&lt;/strong&gt;, scale up the dome (&lt;code&gt;S&lt;/code&gt;), and &lt;strong&gt;apply scale&lt;/strong&gt; (&lt;code&gt;Ctrl + A&lt;/code&gt; → Scale).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;🌄 Step 3: Add &amp;amp; Set Up HDRI Texture&lt;span class="hx-absolute -hx-mt-20" id="-step-3-add--set-up-hdri-texture"&gt;&lt;/span&gt;
+&lt;a href="#-step-3-add--set-up-hdri-texture" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Open the Shader Editor&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Split your window, select Shader Editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delete the default Principled BSDF node&lt;/strong&gt; (select it, hit &lt;code&gt;Delete&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add the following nodes:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Environment Texture&lt;/li&gt;
+&lt;li&gt;Mix Shader&lt;/li&gt;
+&lt;li&gt;Diffuse Shader&lt;/li&gt;
+&lt;li&gt;Emission Shader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connect nodes:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Plug Diffuse and Emission into Mix Shader, and Mix Shader to Material Output.&lt;/li&gt;
+&lt;li&gt;Connect Environment Texture to both Diffuse and Emission Shader inputs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;🖼️ Step 4: Load Your HDRI&lt;span class="hx-absolute -hx-mt-20" id="-step-4-load-your-hdri"&gt;&lt;/span&gt;
+&lt;a href="#-step-4-load-your-hdri" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Switch render engine to Cycles:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to Render Properties → Set to Cycles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open your HDRI texture file:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;In the Environment Texture node, click “Open,” and browse to your HDRI image.&lt;/li&gt;
+&lt;li&gt;Need one? Try &lt;a href="https://pinnotes.github.io/blog/blender/hdri/" target="_blank" rel="noopener"&gt;this free HDRI&lt;/a&gt; 🌅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Press Ctrl + T&lt;/strong&gt; to add Mapping nodes (Enable Node Wrangler add-on if needed!).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connect the Object output to the Vector input.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjust Z rotation&lt;/strong&gt; to tweak the light direction for your scene.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;🔍 Step 5: Test Shadows &amp;amp; Finalise&lt;span class="hx-absolute -hx-mt-20" id="-step-5-test-shadows--finalise"&gt;&lt;/span&gt;
+&lt;a href="#-step-5-test-shadows--finalise" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Add a Cube&lt;/strong&gt; and check if your scene has proper shadows.&lt;/li&gt;
+&lt;li&gt;If not, &lt;strong&gt;edit the dome’s bottom faces&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Go into Edit Mode, select just the bottom faces.&lt;/li&gt;
+&lt;li&gt;Add a new material slot (+ icon in Material Properties).&lt;/li&gt;
+&lt;li&gt;Assign the same material, then separate it so you can edit.&lt;/li&gt;
+&lt;li&gt;In the new material, &lt;strong&gt;remove Emission and Mix Shader&lt;/strong&gt;—leave just the Diffuse node.&lt;/li&gt;
+&lt;li&gt;This lets shadows work properly without the “glowing floor” effect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;💡 Pro Tips&lt;span class="hx-absolute -hx-mt-20" id="-pro-tips"&gt;&lt;/span&gt;
+&lt;a href="#-pro-tips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Apply scale&lt;/strong&gt; when resizing objects for correct material effects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enable Node Wrangler&lt;/strong&gt; add-on: makes mapping/skipping nodes much quicker!&lt;/li&gt;
+&lt;li&gt;HDRI lighting adds &lt;em&gt;ultra-realism&lt;/em&gt;, but a subtle area light can boost your results.
+Experiment with locations, power, and color.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🚗 Render &amp;amp; Share!&lt;span class="hx-absolute -hx-mt-20" id="-render--share"&gt;&lt;/span&gt;
+&lt;a href="#-render--share" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Add your hero object (try a cool car model!).&lt;/li&gt;
+&lt;li&gt;Adjust camera and lighting until it’s perfect.&lt;/li&gt;
+&lt;li&gt;Render and let the realistic HDRI lighting make your scene pop! 🎉&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Happy Blending and bright scenes!&lt;/em&gt; 🌟
+If this helped, hit like or share with friends new to Blender!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;Make your next project glow with beautiful, natural lighting in Blender! 🖥️🌈&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;</description></item><item><title>Make This Realistic Car Burnout in 10 Minutes – Blender</title><link>/blog/blender/make-the-realistic-car-burnout-in-10-minutes-blender/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/make-the-realistic-car-burnout-in-10-minutes-blender/</guid><description>
+&lt;p&gt;In this beginner-friendly tutorial, I’ll guide you through animation, smoke simulation settings, and render setup to make your car scenes look cinematic.
+Perfect for anyone starting with Blender’s physics and VFX tools.&lt;/p&gt;
+&lt;h2&gt;📂 Car Model Download&lt;span class="hx-absolute -hx-mt-20" id="-car-model-download"&gt;&lt;/span&gt;
+&lt;a href="#-car-model-download" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="text-align:center"&gt;
+&lt;h4&gt;Click and wait for 20 seconds 👇
+&lt;/div&gt;
+&lt;a href="/assets/car-burnout-model/" class="timer-btn"&gt; Car Model Download &lt;/a&gt;
+&lt;div class="display-ad"&gt;
 &lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
-crossorigin="anonymous">&lt;/script>
+crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;ins class="adsbygoogle"
 style="display:block"
 data-ad-client="ca-pub-7993314093599705"
 data-ad-slot="3255877740"
 data-ad-format="auto"
-data-full-width-responsive="true">&lt;/ins>
-&lt;script>
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
 (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script>
-&lt;/div>
-&lt;script>
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
 btns.forEach(function (btn) {
@@ -556,8 +556,8 @@ window.location.href = link;
 }
 }, 1000);
 });
-&lt;/script>
-&lt;style>
+&lt;/script&gt;
+&lt;style&gt;
 .display-ad {
 margin-top: 1.5rem;
 margin-bottom: 1.5rem;;
@@ -639,215 +639,215 @@ background-color: #222;
 background-color: #d45039;
 }
 }
-&lt;/style>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;/style&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
 &lt;iframe
 src="https://www.youtube.com/embed/zoVkef5dQ2Q"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-&lt;/iframe>
-&lt;/div>
-&lt;p>✨ Rev Up Your Renders: Blender Burnout Smoke Tutorial! 💨&lt;/p>
-&lt;p>Ever wanted to add that extra &lt;em>oomph&lt;/em> to your car animations? Learn how to create realistic burnout smoke in Blender with this super easy, beginner-friendly tutorial! We&amp;rsquo;ll break down the animation, smoke simulation, and render settings step-by-step so you can make your scenes truly epic. Buckle up! 🚗💨&lt;/p>
-&lt;h2>🛠️ Getting Started &amp;amp; Animation Basics&lt;span class="hx-absolute -hx-mt-20" id="-getting-started--animation-basics">&lt;/span>
-&lt;a href="#-getting-started--animation-basics" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>1. Setting the Scene 🎬&lt;span class="hx-absolute -hx-mt-20" id="1-setting-the-scene-">&lt;/span>
-&lt;a href="#1-setting-the-scene-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Delete the default cube. 👋&lt;/li>
-&lt;li>&lt;strong>Append your rigged car model:&lt;/strong> Download it from the link in the description of the original video. (Make sure you have it!)&lt;/li>
-&lt;li>&lt;strong>Append the car:&lt;/strong> F4 &amp;gt; Append &amp;gt; Your Car Blend File &amp;gt; Collection &amp;gt; final &amp;gt; Append. Boom! 🏎️&lt;/li>
-&lt;/ul>
-&lt;h3>2. Animating the Ride 💨&lt;span class="hx-absolute -hx-mt-20" id="2-animating-the-ride-">&lt;/span>
-&lt;a href="#2-animating-the-ride-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Timeline Magic:&lt;/strong> Drag the timeline up for better visibility.&lt;/li>
-&lt;li>&lt;strong>Select the Rig:&lt;/strong> Go to Pose Mode and select the main control bone.&lt;/li>
-&lt;li>&lt;strong>Keyframe the Movement:&lt;/strong>
-&lt;ul>
-&lt;li>Frame 1: Add a keyframe for the bone&amp;rsquo;s location. 📍&lt;/li>
-&lt;li>Move a few frames forward: Push the car forward and add another keyframe.➡️&lt;/li>
-&lt;li>Go back 4-5 frames: Add another keyframe.⏪&lt;/li>
-&lt;li>Move the last keyframe forward a bit.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>The Jump Start:&lt;/strong> Play it back – you should see a little jump in motion. 😉&lt;/li>
-&lt;/ul>
-&lt;h3>3. Spinning Those Tires! 🔄&lt;span class="hx-absolute -hx-mt-20" id="3-spinning-those-tires-">&lt;/span>
-&lt;a href="#3-spinning-those-tires-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Frame 24:&lt;/strong> Select a tire bone and add a rotation keyframe (X-axis).&lt;/li>
-&lt;li>&lt;strong>Frame 180:&lt;/strong> Set the X rotation to 1000 and add another keyframe.&lt;/li>
-&lt;li>&lt;strong>Repeat:&lt;/strong> Do the same for the other tire.&lt;/li>
-&lt;li>&lt;strong>Speed Adjustment:&lt;/strong> Select both rotation keyframes &amp;gt; Right-click &amp;gt; Interpolation Mode &amp;gt; Linear.&lt;/li>
-&lt;li>&lt;strong>Go Turbo!&lt;/strong> Increase the final rotation value to 10,000 (or more!). If they spin the wrong way, use a negative value. 😵‍💫&lt;/li>
-&lt;/ul>
-&lt;h3>4. Adding Some Drift 💨&lt;span class="hx-absolute -hx-mt-20" id="4-adding-some-drift-">&lt;/span>
-&lt;a href="#4-adding-some-drift-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Steering Control:&lt;/strong> On the frame where the drift starts, select the steering bone and add a Z rotation keyframe.&lt;/li>
-&lt;li>&lt;strong>Turn It Up:&lt;/strong> Go forward a few frames, rotate the steering wheel, and add another keyframe. 🔄&lt;/li>
-&lt;li>&lt;strong>Smooth Drifting:&lt;/strong> Add more keyframes to create a nice, smooth drifting motion.&lt;/li>
-&lt;/ul>
-&lt;h3>5. Fine-Tuning the Burnout 🔥&lt;span class="hx-absolute -hx-mt-20" id="5-fine-tuning-the-burnout-">&lt;/span>
-&lt;a href="#5-fine-tuning-the-burnout-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Early Spin:&lt;/strong> Grab the first tire&amp;rsquo;s keyframe and slide it earlier in the timeline so the spinning starts sooner.&lt;/li>
-&lt;li>&lt;strong>Match It:&lt;/strong> Do the same for the other tire.&lt;/li>
-&lt;li>&lt;strong>Suspension Bounce:&lt;/strong> Select the top suspension bones and add a few keyframes, moving them up and down to react to the drift. ⬆️⬇️&lt;/li>
-&lt;/ul>
-&lt;p>🎉 &lt;strong>Animation Complete!&lt;/strong> Your car should now be moving, tires spinning wildly, drifting smoothly, and the suspension bouncing realistically.&lt;/p>
-&lt;h2>💨 Smoke Simulation Setup&lt;span class="hx-absolute -hx-mt-20" id="-smoke-simulation-setup">&lt;/span>
-&lt;a href="#-smoke-simulation-setup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>1. Creating Emitters ✨&lt;span class="hx-absolute -hx-mt-20" id="1-creating-emitters-">&lt;/span>
-&lt;a href="#1-creating-emitters-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Add Cylinders:&lt;/strong> Shift+A &amp;gt; Mesh &amp;gt; Cylinder.&lt;/li>
-&lt;li>&lt;strong>Edit Mode:&lt;/strong> Delete the top and bottom faces.&lt;/li>
-&lt;li>&lt;strong>Scale and Position:&lt;/strong> Scale the cylinder down and place it right at one of the tires.&lt;/li>
-&lt;li>&lt;strong>Duplicate:&lt;/strong> Shift+D to duplicate the cylinder and position it at the other tire.&lt;/li>
-&lt;/ul>
-&lt;h3>2. Parenting to the Rig 🦴&lt;span class="hx-absolute -hx-mt-20" id="2-parenting-to-the-rig-">&lt;/span>
-&lt;a href="#2-parenting-to-the-rig-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Pose Mode:&lt;/strong> Select the car rig and go into Pose Mode.&lt;/li>
-&lt;li>&lt;strong>Select Tire Bones:&lt;/strong> Pick the bones that correspond to the tire positions.&lt;/li>
-&lt;li>&lt;strong>Object Mode:&lt;/strong> Select a cylinder, then Shift-select the car rig.&lt;/li>
-&lt;li>&lt;strong>Parent to Bone:&lt;/strong> Ctrl+P &amp;gt; Bone. Repeat for the other cylinder. Now the emitters will follow the tires!&lt;/li>
-&lt;/ul>
-&lt;h3>3. Collision Object 💥&lt;span class="hx-absolute -hx-mt-20" id="3-collision-object-">&lt;/span>
-&lt;a href="#3-collision-object-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Duplicate Car Body:&lt;/strong> Select the car body, Shift+D to duplicate, and move it aside.&lt;/li>
-&lt;li>&lt;strong>Clear Parent:&lt;/strong> Alt+P &amp;gt; Clear Parent.&lt;/li>
-&lt;li>&lt;strong>Join Objects:&lt;/strong> Ctrl+J to join the duplicated parts.&lt;/li>
-&lt;li>&lt;strong>Remesh Modifier:&lt;/strong> Add a Remesh modifier &amp;gt; Mode: Blocks &amp;gt; Depth: 6 &amp;gt; Apply.&lt;/li>
-&lt;li>&lt;strong>Reposition:&lt;/strong> Move this remeshed object back over the car.&lt;/li>
-&lt;li>&lt;strong>Parent to Rig:&lt;/strong> Select the collision object, then Shift-select the car rig &amp;gt; Ctrl+P &amp;gt; Bone.&lt;/li>
-&lt;/ul>
-&lt;h3>4. Quick Smoke! 💨&lt;span class="hx-absolute -hx-mt-20" id="4-quick-smoke-">&lt;/span>
-&lt;a href="#4-quick-smoke-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Select Cylinder:&lt;/strong> Go to Object Mode and select one of the tire cylinders.&lt;/li>
-&lt;li>&lt;strong>Quick Effects:&lt;/strong> Object &amp;gt; Quick Effects &amp;gt; Quick Smoke.&lt;/li>
-&lt;li>&lt;strong>Scale Domain:&lt;/strong> Scale the new smoke domain to cover the area around the tires.&lt;/li>
-&lt;li>&lt;strong>Repeat:&lt;/strong> Do the same &amp;ldquo;Quick Smoke&amp;rdquo; for the other cylinder.&lt;/li>
-&lt;/ul>
-&lt;h3>5. Collision Settings 🧱&lt;span class="hx-absolute -hx-mt-20" id="5-collision-settings-">&lt;/span>
-&lt;a href="#5-collision-settings-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Select Collision Object:&lt;/strong> Go to Physics Properties and add a Fluid modifier.&lt;/li>
-&lt;li>&lt;strong>Type:&lt;/strong> Set the type to Effector.&lt;/li>
-&lt;li>&lt;strong>Hide:&lt;/strong> Hide the collision object in the Viewport and Render so it&amp;rsquo;s not visible. 🙈&lt;/li>
-&lt;/ul>
-&lt;h3>6. Domain Settings ⚙️&lt;span class="hx-absolute -hx-mt-20" id="6-domain-settings-">&lt;/span>
-&lt;a href="#6-domain-settings-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Select Smoke Domain:&lt;/strong> Go to Physics Properties (Fluid).&lt;/li>
-&lt;li>&lt;strong>Resolution Divisions:&lt;/strong> Set this to 64 (or higher for more detail, like 128 or 256, but it will take longer to bake).&lt;/li>
-&lt;li>&lt;strong>Adaptive Domain:&lt;/strong> Turn it on and set the Threshold to 0.005.&lt;/li>
-&lt;li>&lt;strong>Dissolve:&lt;/strong> Enable it and set the Time to 20 frames.&lt;/li>
-&lt;li>&lt;strong>Noise:&lt;/strong> Turn on for extra detail.&lt;/li>
-&lt;li>&lt;strong>Cache:&lt;/strong>
-&lt;ul>
-&lt;li>End Frame: 180 (or the end of your animation).&lt;/li>
-&lt;li>Cache Type: All.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3>7. Fluid World &amp;amp; Gas Settings 🌎&lt;span class="hx-absolute -hx-mt-20" id="7-fluid-world--gas-settings-">&lt;/span>
-&lt;a href="#7-fluid-world--gas-settings-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Fluid World:&lt;/strong> Change Gravity to 0.5 for floatier smoke.&lt;/li>
-&lt;li>&lt;strong>Gas:&lt;/strong>
-&lt;ul>
-&lt;li>Buoyancy Density: -5&lt;/li>
-&lt;li>Heat: 0&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Adjust Buoyancy:&lt;/strong> If the smoke sinks, try Buoyancy: -2 or -3 and Heat: 1. 🔥&lt;/li>
-&lt;/ul>
-&lt;h3>8. Adding Movement Forces 🌪️&lt;span class="hx-absolute -hx-mt-20" id="8-adding-movement-forces-">&lt;/span>
-&lt;a href="#8-adding-movement-forces-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Turbulence:&lt;/strong> Shift+A &amp;gt; Force Field &amp;gt; Turbulence.
-&lt;ul>
-&lt;li>Move it near the smoke.&lt;/li>
-&lt;li>Strength: 3.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Wind:&lt;/strong> Shift+A &amp;gt; Force Field &amp;gt; Wind.
-&lt;ul>
-&lt;li>Rotate it to blow across the smoke.&lt;/li>
-&lt;li>Position it appropriately.&lt;/li>
-&lt;li>&lt;strong>Animate Wind Strength:&lt;/strong> Add keyframes at different frames (e.g., 0, 1, 2) to make the smoke dynamic.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3>9. Baking the Simulation 💾&lt;span class="hx-absolute -hx-mt-20" id="9-baking-the-simulation-">&lt;/span>
-&lt;a href="#9-baking-the-simulation-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Select Domain:&lt;/strong> Go to Physics Properties (Fluid).&lt;/li>
-&lt;li>&lt;strong>Resolution:&lt;/strong> Double-check your resolution divisions.&lt;/li>
-&lt;li>&lt;strong>Cache:&lt;/strong> Set Cache Type to All and click &lt;strong>Bake&lt;/strong>. ⏳ This might take a while!&lt;/li>
-&lt;/ul>
-&lt;h2>✨ Shading and Rendering&lt;span class="hx-absolute -hx-mt-20" id="-shading-and-rendering">&lt;/span>
-&lt;a href="#-shading-and-rendering" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>1. Render Properties ⚙️&lt;span class="hx-absolute -hx-mt-20" id="1-render-properties-">&lt;/span>
-&lt;a href="#1-render-properties-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Render Engine:&lt;/strong> Switch from Eevee to Cycles for realistic rendering.&lt;/li>
-&lt;li>&lt;strong>Device:&lt;/strong> Change Device to GPU Compute for faster rendering (if you have a GPU). 🚀&lt;/li>
-&lt;li>&lt;strong>Render Samples:&lt;/strong> Set to 20 (you can go higher for better quality).&lt;/li>
-&lt;li>&lt;strong>Denoising:&lt;/strong> Make sure it&amp;rsquo;s turned on.&lt;/li>
-&lt;/ul>
-&lt;h3>2. Scene Setup 🏞️&lt;span class="hx-absolute -hx-mt-20" id="2-scene-setup-">&lt;/span>
-&lt;a href="#2-scene-setup-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Render View:&lt;/strong> Switch to Rendered Viewport Shading. The smoke might look weird now, but it&amp;rsquo;ll be fine in the final render! 😉&lt;/li>
-&lt;li>&lt;strong>Hide Domain:&lt;/strong> Temporarily hide the smoke domain (H key) to work on the scene.&lt;/li>
-&lt;li>&lt;strong>Ground Plane:&lt;/strong> Add a Plane (Shift+A &amp;gt; Mesh &amp;gt; Plane) and scale it up.&lt;/li>
-&lt;li>&lt;strong>Area Light:&lt;/strong> Add an Area Light (Shift+A &amp;gt; Light &amp;gt; Area) and set the Strength to around 500. Position it to light your scene.&lt;/li>
-&lt;li>&lt;strong>Extra Lights:&lt;/strong> Add more lights for highlights if needed.&lt;/li>
-&lt;/ul>
-&lt;h3>3. Car Material 🎨&lt;span class="hx-absolute -hx-mt-20" id="3-car-material-">&lt;/span>
-&lt;a href="#3-car-material-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Shader Editor:&lt;/strong> Open the Shader Editor.&lt;/li>
-&lt;li>&lt;strong>Color Choice:&lt;/strong> The car model likely has color nodes. Choose your desired color (black is used in the tutorial).&lt;/li>
-&lt;/ul>
-&lt;h3>4. Ground Material ⛰️&lt;span class="hx-absolute -hx-mt-20" id="4-ground-material-">&lt;/span>
-&lt;a href="#4-ground-material-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Select Ground Plane:&lt;/strong> Add a New Material.&lt;/li>
-&lt;li>&lt;strong>Roughness:&lt;/strong> Turn the Roughness down for some reflection.&lt;/li>
-&lt;li>&lt;strong>Base Color:&lt;/strong> Set the Base Color to a light gray.&lt;/li>
-&lt;/ul>
-&lt;h3>5. Smoke Shader 💨&lt;span class="hx-absolute -hx-mt-20" id="5-smoke-shader-">&lt;/span>
-&lt;a href="#5-smoke-shader-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Unhide Domain:&lt;/strong> Unhide the smoke domain (Alt+H).&lt;/li>
-&lt;li>&lt;strong>Frame Nodes:&lt;/strong> In the Shader Editor, select all (A) and press the period key (.) on the numpad to frame the nodes.&lt;/li>
-&lt;li>&lt;strong>Volume Info Node:&lt;/strong> Add a Volume Info node (Shift+A &amp;gt; Input &amp;gt; Volume Info).&lt;/li>
-&lt;li>&lt;strong>Connect Density:&lt;/strong> Connect the Density output of the Volume Info node to the Density input of the Material Output node (likely a Principled Volume shader if Quick Smoke was used).&lt;/li>
-&lt;li>&lt;strong>Math Node:&lt;/strong> Add a Math node (Shift+A &amp;gt; Utilities &amp;gt; Math) between the Density output and the Density input.&lt;/li>
-&lt;li>&lt;strong>Operation:&lt;/strong> Change the operation to Multiply.&lt;/li>
-&lt;li>&lt;strong>Adjust Density:&lt;/strong> Adjust the Value of the Math node until the smoke density looks right.&lt;/li>
-&lt;/ul>
-&lt;h3>6. Animating Smoke Density (Cool Trick!) ✨&lt;span class="hx-absolute -hx-mt-20" id="6-animating-smoke-density-cool-trick-">&lt;/span>
-&lt;a href="#6-animating-smoke-density-cool-trick-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Keyframe Math Value:&lt;/strong> Hover your cursor over the Value input of the Math node and press I to add a keyframe.&lt;/li>
-&lt;li>&lt;strong>Frame 20:&lt;/strong> Set the Value to 0 and add another keyframe (I).&lt;/li>
-&lt;li>&lt;strong>Frame 40:&lt;/strong> Set the Value to around 2.3 (or adjust to your liking) and add another keyframe (I). This will make the smoke fade in during the burnout!&lt;/li>
-&lt;/ul>
-&lt;h3>7. Final Touches 📸&lt;span class="hx-absolute -hx-mt-20" id="7-final-touches-">&lt;/span>
-&lt;a href="#7-final-touches-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Add Camera:&lt;/strong> Shift+A &amp;gt; Camera.&lt;/li>
-&lt;li>&lt;strong>Frame Your Shot:&lt;/strong> Position and rotate the camera to get the perfect view.&lt;/li>
-&lt;li>&lt;strong>Render!&lt;/strong> 🥳 Go to Render &amp;gt; Render Image (or Animation).&lt;/li>
-&lt;/ul>
-&lt;h2>🎉 You Did It! 🎉&lt;span class="hx-absolute -hx-mt-20" id="-you-did-it-">&lt;/span>
-&lt;a href="#-you-did-it-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>You&amp;rsquo;ve now created an awesome car burnout animation with realistic smoke in Blender! You&amp;rsquo;ve covered animation basics, smoke simulation, and rendering techniques.&lt;/p>
-&lt;p>If you found this tutorial helpful, don&amp;rsquo;t forget to like the original video and subscribe for more Blender goodness! Let us know in the comments what Blender effects you&amp;rsquo;d like to see next! 👇&lt;/p>
-&lt;p>Happy Blending! 😊&lt;/p></description></item><item><title>Snake 3D Model FBX Blender 🐍</title><link>/blog/blender/snake-3d-model-tutorial-blender-asset/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/snake-3d-model-tutorial-blender-asset/</guid><description>
-&lt;h3>Free 3D Model 🧊&lt;span class="hx-absolute -hx-mt-20" id="free-3d-model-">&lt;/span>
-&lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div style="text-align:center">
-&lt;h4>Click and wait for 20 seconds 👇
-&lt;/div>
-&lt;a href="/assets/download/" class="timer-btn"> Free Download Tutorial Assets &lt;/a>
-&lt;div class="display-ad">
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;✨ Rev Up Your Renders: Blender Burnout Smoke Tutorial! 💨&lt;/p&gt;
+&lt;p&gt;Ever wanted to add that extra &lt;em&gt;oomph&lt;/em&gt; to your car animations? Learn how to create realistic burnout smoke in Blender with this super easy, beginner-friendly tutorial! We&amp;rsquo;ll break down the animation, smoke simulation, and render settings step-by-step so you can make your scenes truly epic. Buckle up! 🚗💨&lt;/p&gt;
+&lt;h2&gt;🛠️ Getting Started &amp;amp; Animation Basics&lt;span class="hx-absolute -hx-mt-20" id="-getting-started--animation-basics"&gt;&lt;/span&gt;
+&lt;a href="#-getting-started--animation-basics" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Setting the Scene 🎬&lt;span class="hx-absolute -hx-mt-20" id="1-setting-the-scene-"&gt;&lt;/span&gt;
+&lt;a href="#1-setting-the-scene-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Delete the default cube. 👋&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Append your rigged car model:&lt;/strong&gt; Download it from the link in the description of the original video. (Make sure you have it!)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Append the car:&lt;/strong&gt; F4 &amp;gt; Append &amp;gt; Your Car Blend File &amp;gt; Collection &amp;gt; final &amp;gt; Append. Boom! 🏎️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Animating the Ride 💨&lt;span class="hx-absolute -hx-mt-20" id="2-animating-the-ride-"&gt;&lt;/span&gt;
+&lt;a href="#2-animating-the-ride-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Timeline Magic:&lt;/strong&gt; Drag the timeline up for better visibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select the Rig:&lt;/strong&gt; Go to Pose Mode and select the main control bone.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keyframe the Movement:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Frame 1: Add a keyframe for the bone&amp;rsquo;s location. 📍&lt;/li&gt;
+&lt;li&gt;Move a few frames forward: Push the car forward and add another keyframe.➡️&lt;/li&gt;
+&lt;li&gt;Go back 4-5 frames: Add another keyframe.⏪&lt;/li&gt;
+&lt;li&gt;Move the last keyframe forward a bit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Jump Start:&lt;/strong&gt; Play it back – you should see a little jump in motion. 😉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. Spinning Those Tires! 🔄&lt;span class="hx-absolute -hx-mt-20" id="3-spinning-those-tires-"&gt;&lt;/span&gt;
+&lt;a href="#3-spinning-those-tires-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frame 24:&lt;/strong&gt; Select a tire bone and add a rotation keyframe (X-axis).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frame 180:&lt;/strong&gt; Set the X rotation to 1000 and add another keyframe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repeat:&lt;/strong&gt; Do the same for the other tire.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed Adjustment:&lt;/strong&gt; Select both rotation keyframes &amp;gt; Right-click &amp;gt; Interpolation Mode &amp;gt; Linear.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Go Turbo!&lt;/strong&gt; Increase the final rotation value to 10,000 (or more!). If they spin the wrong way, use a negative value. 😵‍💫&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Adding Some Drift 💨&lt;span class="hx-absolute -hx-mt-20" id="4-adding-some-drift-"&gt;&lt;/span&gt;
+&lt;a href="#4-adding-some-drift-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Steering Control:&lt;/strong&gt; On the frame where the drift starts, select the steering bone and add a Z rotation keyframe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Turn It Up:&lt;/strong&gt; Go forward a few frames, rotate the steering wheel, and add another keyframe. 🔄&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smooth Drifting:&lt;/strong&gt; Add more keyframes to create a nice, smooth drifting motion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. Fine-Tuning the Burnout 🔥&lt;span class="hx-absolute -hx-mt-20" id="5-fine-tuning-the-burnout-"&gt;&lt;/span&gt;
+&lt;a href="#5-fine-tuning-the-burnout-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Early Spin:&lt;/strong&gt; Grab the first tire&amp;rsquo;s keyframe and slide it earlier in the timeline so the spinning starts sooner.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Match It:&lt;/strong&gt; Do the same for the other tire.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Suspension Bounce:&lt;/strong&gt; Select the top suspension bones and add a few keyframes, moving them up and down to react to the drift. ⬆️⬇️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🎉 &lt;strong&gt;Animation Complete!&lt;/strong&gt; Your car should now be moving, tires spinning wildly, drifting smoothly, and the suspension bouncing realistically.&lt;/p&gt;
+&lt;h2&gt;💨 Smoke Simulation Setup&lt;span class="hx-absolute -hx-mt-20" id="-smoke-simulation-setup"&gt;&lt;/span&gt;
+&lt;a href="#-smoke-simulation-setup" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Creating Emitters ✨&lt;span class="hx-absolute -hx-mt-20" id="1-creating-emitters-"&gt;&lt;/span&gt;
+&lt;a href="#1-creating-emitters-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Add Cylinders:&lt;/strong&gt; Shift+A &amp;gt; Mesh &amp;gt; Cylinder.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit Mode:&lt;/strong&gt; Delete the top and bottom faces.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale and Position:&lt;/strong&gt; Scale the cylinder down and place it right at one of the tires.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duplicate:&lt;/strong&gt; Shift+D to duplicate the cylinder and position it at the other tire.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Parenting to the Rig 🦴&lt;span class="hx-absolute -hx-mt-20" id="2-parenting-to-the-rig-"&gt;&lt;/span&gt;
+&lt;a href="#2-parenting-to-the-rig-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pose Mode:&lt;/strong&gt; Select the car rig and go into Pose Mode.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select Tire Bones:&lt;/strong&gt; Pick the bones that correspond to the tire positions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Object Mode:&lt;/strong&gt; Select a cylinder, then Shift-select the car rig.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parent to Bone:&lt;/strong&gt; Ctrl+P &amp;gt; Bone. Repeat for the other cylinder. Now the emitters will follow the tires!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. Collision Object 💥&lt;span class="hx-absolute -hx-mt-20" id="3-collision-object-"&gt;&lt;/span&gt;
+&lt;a href="#3-collision-object-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Duplicate Car Body:&lt;/strong&gt; Select the car body, Shift+D to duplicate, and move it aside.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clear Parent:&lt;/strong&gt; Alt+P &amp;gt; Clear Parent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Join Objects:&lt;/strong&gt; Ctrl+J to join the duplicated parts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Remesh Modifier:&lt;/strong&gt; Add a Remesh modifier &amp;gt; Mode: Blocks &amp;gt; Depth: 6 &amp;gt; Apply.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reposition:&lt;/strong&gt; Move this remeshed object back over the car.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parent to Rig:&lt;/strong&gt; Select the collision object, then Shift-select the car rig &amp;gt; Ctrl+P &amp;gt; Bone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Quick Smoke! 💨&lt;span class="hx-absolute -hx-mt-20" id="4-quick-smoke-"&gt;&lt;/span&gt;
+&lt;a href="#4-quick-smoke-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Select Cylinder:&lt;/strong&gt; Go to Object Mode and select one of the tire cylinders.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quick Effects:&lt;/strong&gt; Object &amp;gt; Quick Effects &amp;gt; Quick Smoke.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale Domain:&lt;/strong&gt; Scale the new smoke domain to cover the area around the tires.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repeat:&lt;/strong&gt; Do the same &amp;ldquo;Quick Smoke&amp;rdquo; for the other cylinder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. Collision Settings 🧱&lt;span class="hx-absolute -hx-mt-20" id="5-collision-settings-"&gt;&lt;/span&gt;
+&lt;a href="#5-collision-settings-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Select Collision Object:&lt;/strong&gt; Go to Physics Properties and add a Fluid modifier.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Set the type to Effector.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hide:&lt;/strong&gt; Hide the collision object in the Viewport and Render so it&amp;rsquo;s not visible. 🙈&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;6. Domain Settings ⚙️&lt;span class="hx-absolute -hx-mt-20" id="6-domain-settings-"&gt;&lt;/span&gt;
+&lt;a href="#6-domain-settings-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Select Smoke Domain:&lt;/strong&gt; Go to Physics Properties (Fluid).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resolution Divisions:&lt;/strong&gt; Set this to 64 (or higher for more detail, like 128 or 256, but it will take longer to bake).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adaptive Domain:&lt;/strong&gt; Turn it on and set the Threshold to 0.005.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dissolve:&lt;/strong&gt; Enable it and set the Time to 20 frames.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Noise:&lt;/strong&gt; Turn on for extra detail.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cache:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;End Frame: 180 (or the end of your animation).&lt;/li&gt;
+&lt;li&gt;Cache Type: All.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7. Fluid World &amp;amp; Gas Settings 🌎&lt;span class="hx-absolute -hx-mt-20" id="7-fluid-world--gas-settings-"&gt;&lt;/span&gt;
+&lt;a href="#7-fluid-world--gas-settings-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fluid World:&lt;/strong&gt; Change Gravity to 0.5 for floatier smoke.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gas:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Buoyancy Density: -5&lt;/li&gt;
+&lt;li&gt;Heat: 0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjust Buoyancy:&lt;/strong&gt; If the smoke sinks, try Buoyancy: -2 or -3 and Heat: 1. 🔥&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8. Adding Movement Forces 🌪️&lt;span class="hx-absolute -hx-mt-20" id="8-adding-movement-forces-"&gt;&lt;/span&gt;
+&lt;a href="#8-adding-movement-forces-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Turbulence:&lt;/strong&gt; Shift+A &amp;gt; Force Field &amp;gt; Turbulence.
+&lt;ul&gt;
+&lt;li&gt;Move it near the smoke.&lt;/li&gt;
+&lt;li&gt;Strength: 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wind:&lt;/strong&gt; Shift+A &amp;gt; Force Field &amp;gt; Wind.
+&lt;ul&gt;
+&lt;li&gt;Rotate it to blow across the smoke.&lt;/li&gt;
+&lt;li&gt;Position it appropriately.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Animate Wind Strength:&lt;/strong&gt; Add keyframes at different frames (e.g., 0, 1, 2) to make the smoke dynamic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;9. Baking the Simulation 💾&lt;span class="hx-absolute -hx-mt-20" id="9-baking-the-simulation-"&gt;&lt;/span&gt;
+&lt;a href="#9-baking-the-simulation-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Select Domain:&lt;/strong&gt; Go to Physics Properties (Fluid).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resolution:&lt;/strong&gt; Double-check your resolution divisions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cache:&lt;/strong&gt; Set Cache Type to All and click &lt;strong&gt;Bake&lt;/strong&gt;. ⏳ This might take a while!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;✨ Shading and Rendering&lt;span class="hx-absolute -hx-mt-20" id="-shading-and-rendering"&gt;&lt;/span&gt;
+&lt;a href="#-shading-and-rendering" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Render Properties ⚙️&lt;span class="hx-absolute -hx-mt-20" id="1-render-properties-"&gt;&lt;/span&gt;
+&lt;a href="#1-render-properties-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Render Engine:&lt;/strong&gt; Switch from Eevee to Cycles for realistic rendering.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Device:&lt;/strong&gt; Change Device to GPU Compute for faster rendering (if you have a GPU). 🚀&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Render Samples:&lt;/strong&gt; Set to 20 (you can go higher for better quality).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Denoising:&lt;/strong&gt; Make sure it&amp;rsquo;s turned on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Scene Setup 🏞️&lt;span class="hx-absolute -hx-mt-20" id="2-scene-setup-"&gt;&lt;/span&gt;
+&lt;a href="#2-scene-setup-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Render View:&lt;/strong&gt; Switch to Rendered Viewport Shading. The smoke might look weird now, but it&amp;rsquo;ll be fine in the final render! 😉&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hide Domain:&lt;/strong&gt; Temporarily hide the smoke domain (H key) to work on the scene.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ground Plane:&lt;/strong&gt; Add a Plane (Shift+A &amp;gt; Mesh &amp;gt; Plane) and scale it up.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Area Light:&lt;/strong&gt; Add an Area Light (Shift+A &amp;gt; Light &amp;gt; Area) and set the Strength to around 500. Position it to light your scene.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extra Lights:&lt;/strong&gt; Add more lights for highlights if needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. Car Material 🎨&lt;span class="hx-absolute -hx-mt-20" id="3-car-material-"&gt;&lt;/span&gt;
+&lt;a href="#3-car-material-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Shader Editor:&lt;/strong&gt; Open the Shader Editor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Color Choice:&lt;/strong&gt; The car model likely has color nodes. Choose your desired color (black is used in the tutorial).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Ground Material ⛰️&lt;span class="hx-absolute -hx-mt-20" id="4-ground-material-"&gt;&lt;/span&gt;
+&lt;a href="#4-ground-material-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Select Ground Plane:&lt;/strong&gt; Add a New Material.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Roughness:&lt;/strong&gt; Turn the Roughness down for some reflection.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Base Color:&lt;/strong&gt; Set the Base Color to a light gray.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. Smoke Shader 💨&lt;span class="hx-absolute -hx-mt-20" id="5-smoke-shader-"&gt;&lt;/span&gt;
+&lt;a href="#5-smoke-shader-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unhide Domain:&lt;/strong&gt; Unhide the smoke domain (Alt+H).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frame Nodes:&lt;/strong&gt; In the Shader Editor, select all (A) and press the period key (.) on the numpad to frame the nodes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volume Info Node:&lt;/strong&gt; Add a Volume Info node (Shift+A &amp;gt; Input &amp;gt; Volume Info).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connect Density:&lt;/strong&gt; Connect the Density output of the Volume Info node to the Density input of the Material Output node (likely a Principled Volume shader if Quick Smoke was used).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Math Node:&lt;/strong&gt; Add a Math node (Shift+A &amp;gt; Utilities &amp;gt; Math) between the Density output and the Density input.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operation:&lt;/strong&gt; Change the operation to Multiply.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjust Density:&lt;/strong&gt; Adjust the Value of the Math node until the smoke density looks right.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;6. Animating Smoke Density (Cool Trick!) ✨&lt;span class="hx-absolute -hx-mt-20" id="6-animating-smoke-density-cool-trick-"&gt;&lt;/span&gt;
+&lt;a href="#6-animating-smoke-density-cool-trick-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keyframe Math Value:&lt;/strong&gt; Hover your cursor over the Value input of the Math node and press I to add a keyframe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frame 20:&lt;/strong&gt; Set the Value to 0 and add another keyframe (I).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frame 40:&lt;/strong&gt; Set the Value to around 2.3 (or adjust to your liking) and add another keyframe (I). This will make the smoke fade in during the burnout!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7. Final Touches 📸&lt;span class="hx-absolute -hx-mt-20" id="7-final-touches-"&gt;&lt;/span&gt;
+&lt;a href="#7-final-touches-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Add Camera:&lt;/strong&gt; Shift+A &amp;gt; Camera.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frame Your Shot:&lt;/strong&gt; Position and rotate the camera to get the perfect view.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Render!&lt;/strong&gt; 🥳 Go to Render &amp;gt; Render Image (or Animation).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🎉 You Did It! 🎉&lt;span class="hx-absolute -hx-mt-20" id="-you-did-it-"&gt;&lt;/span&gt;
+&lt;a href="#-you-did-it-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You&amp;rsquo;ve now created an awesome car burnout animation with realistic smoke in Blender! You&amp;rsquo;ve covered animation basics, smoke simulation, and rendering techniques.&lt;/p&gt;
+&lt;p&gt;If you found this tutorial helpful, don&amp;rsquo;t forget to like the original video and subscribe for more Blender goodness! Let us know in the comments what Blender effects you&amp;rsquo;d like to see next! 👇&lt;/p&gt;
+&lt;p&gt;Happy Blending! 😊&lt;/p&gt;</description></item><item><title>Snake 3D Model FBX Blender 🐍</title><link>/blog/blender/snake-3d-model-tutorial-blender-asset/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/snake-3d-model-tutorial-blender-asset/</guid><description>
+&lt;h3&gt;Free 3D Model 🧊&lt;span class="hx-absolute -hx-mt-20" id="free-3d-model-"&gt;&lt;/span&gt;
+&lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div style="text-align:center"&gt;
+&lt;h4&gt;Click and wait for 20 seconds 👇
+&lt;/div&gt;
+&lt;a href="/assets/download/" class="timer-btn"&gt; Free Download Tutorial Assets &lt;/a&gt;
+&lt;div class="display-ad"&gt;
 &lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
-crossorigin="anonymous">&lt;/script>
+crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;ins class="adsbygoogle"
 style="display:block"
 data-ad-client="ca-pub-7993314093599705"
 data-ad-slot="3255877740"
 data-ad-format="auto"
-data-full-width-responsive="true">&lt;/ins>
-&lt;script>
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
 (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script>
-&lt;/div>
-&lt;script>
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
 btns.forEach(function (btn) {
@@ -888,8 +888,8 @@ window.location.href = link;
 }
 }, 1000);
 });
-&lt;/script>
-&lt;style>
+&lt;/script&gt;
+&lt;style&gt;
 .display-ad {
 margin-top: 1.5rem;
 margin-bottom: 1.5rem;;
@@ -971,142 +971,142 @@ background-color: #222;
 background-color: #d45039;
 }
 }
-&lt;/style>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;/style&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
 &lt;iframe
 src="https://www.youtube.com/embed/UROAPLMzMGg"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-&lt;/iframe>
-&lt;/div>
-&lt;h2>How to Animate a Snake Along a Path in Blender 🐍✨&lt;span class="hx-absolute -hx-mt-20" id="how-to-animate-a-snake-along-a-path-in-blender-">&lt;/span>
-&lt;a href="#how-to-animate-a-snake-along-a-path-in-blender-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Ever wanted to make a snake &lt;em>slither&lt;/em> smoothly in Blender? Whether you’re a beginner or just need a fast workflow, this guide (based on &lt;a href="https://youtu.be/UROAPLMzMGg?si=cT9twAjtpeLCOvX0" target="_blank" rel="noopener">this excellent tutorial&lt;/a>) makes creating captivating path animations a breeze! Let’s get started and bring your snake to life! 🌟&lt;/p>
-&lt;hr>
-&lt;h3>🗑️ Step 1: Clean Up the Scene&lt;span class="hx-absolute -hx-mt-20" id="-step-1-clean-up-the-scene">&lt;/span>
-&lt;a href="#-step-1-clean-up-the-scene" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Start Blender with your default scene.&lt;/li>
-&lt;li>&lt;strong>Delete the default cube&lt;/strong> (&lt;code>A&lt;/code> to select all, &lt;code>Delete&lt;/code>).
-&lt;em>It’s Blender Law!&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🟫 Step 2: Add a Ground Plane&lt;span class="hx-absolute -hx-mt-20" id="-step-2-add-a-ground-plane">&lt;/span>
-&lt;a href="#-step-2-add-a-ground-plane" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Press &lt;code>Shift + A&lt;/code> → Mesh → Plane.&lt;/li>
-&lt;li>&lt;strong>Scale up&lt;/strong> the plane (&lt;code>S&lt;/code>, drag or enter a number) for your ground.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🐍 Step 3: Import Your Snake Model&lt;span class="hx-absolute -hx-mt-20" id="-step-3-import-your-snake-model">&lt;/span>
-&lt;a href="#-step-3-import-your-snake-model" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Press &lt;code>F4&lt;/code> (or File → Import) to bring in your 3D snake model.&lt;/li>
-&lt;li>&lt;strong>Not got a snake?&lt;/strong>
-Grab a free one via the tutorial’s &lt;a href="https://pinnotes.github.io/blog/blender/snake-3d-model-tutorial-blender-asset/" target="_blank" rel="noopener">asset link&lt;/a>!&lt;/li>
-&lt;li>&lt;strong>Scale down&lt;/strong> your snake model to fit the scene (&lt;code>S&lt;/code>, drag).&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>📝 Step 4: Create the Path with a Curve&lt;span class="hx-absolute -hx-mt-20" id="-step-4-create-the-path-with-a-curve">&lt;/span>
-&lt;a href="#-step-4-create-the-path-with-a-curve" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>Add a Curve:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;code>Shift + A&lt;/code> → Curve → (Pick your favorite, like Bezier or Path)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Hide the plane &amp;amp; snake for clarity.&lt;/li>
-&lt;li>&lt;strong>Edit the curve:&lt;/strong>
-&lt;ul>
-&lt;li>Select the curve, press &lt;code>Tab&lt;/code> (Edit Mode).&lt;/li>
-&lt;li>Delete default points (select, &lt;code>Delete&lt;/code>).&lt;/li>
-&lt;li>Use the pencil tool 🖊️ to &lt;em>draw your own slithering path&lt;/em> in top view (&lt;code>numpad 7&lt;/code>).&lt;/li>
-&lt;li>Add twists and turns for that “snake vibe”!&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h3>🧩 Step 5: Attach the Snake to the Path&lt;span class="hx-absolute -hx-mt-20" id="-step-5-attach-the-snake-to-the-path">&lt;/span>
-&lt;a href="#-step-5-attach-the-snake-to-the-path" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Unhide your snake.&lt;/li>
-&lt;li>&lt;strong>Select snake model&lt;/strong>, go to the modifiers tab.&lt;/li>
-&lt;li>Add a &lt;strong>Curve Modifier&lt;/strong>.&lt;/li>
-&lt;li>Set the “Curve Object” to your drawn curve.&lt;/li>
-&lt;li>&lt;em>&lt;strong>Troubleshooting:&lt;/strong>&lt;/em>
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2&gt;How to Animate a Snake Along a Path in Blender 🐍✨&lt;span class="hx-absolute -hx-mt-20" id="how-to-animate-a-snake-along-a-path-in-blender-"&gt;&lt;/span&gt;
+&lt;a href="#how-to-animate-a-snake-along-a-path-in-blender-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ever wanted to make a snake &lt;em&gt;slither&lt;/em&gt; smoothly in Blender? Whether you’re a beginner or just need a fast workflow, this guide (based on &lt;a href="https://youtu.be/UROAPLMzMGg?si=cT9twAjtpeLCOvX0" target="_blank" rel="noopener"&gt;this excellent tutorial&lt;/a&gt;) makes creating captivating path animations a breeze! Let’s get started and bring your snake to life! 🌟&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;🗑️ Step 1: Clean Up the Scene&lt;span class="hx-absolute -hx-mt-20" id="-step-1-clean-up-the-scene"&gt;&lt;/span&gt;
+&lt;a href="#-step-1-clean-up-the-scene" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Start Blender with your default scene.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delete the default cube&lt;/strong&gt; (&lt;code&gt;A&lt;/code&gt; to select all, &lt;code&gt;Delete&lt;/code&gt;).
+&lt;em&gt;It’s Blender Law!&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🟫 Step 2: Add a Ground Plane&lt;span class="hx-absolute -hx-mt-20" id="-step-2-add-a-ground-plane"&gt;&lt;/span&gt;
+&lt;a href="#-step-2-add-a-ground-plane" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;Shift + A&lt;/code&gt; → Mesh → Plane.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale up&lt;/strong&gt; the plane (&lt;code&gt;S&lt;/code&gt;, drag or enter a number) for your ground.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🐍 Step 3: Import Your Snake Model&lt;span class="hx-absolute -hx-mt-20" id="-step-3-import-your-snake-model"&gt;&lt;/span&gt;
+&lt;a href="#-step-3-import-your-snake-model" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;F4&lt;/code&gt; (or File → Import) to bring in your 3D snake model.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Not got a snake?&lt;/strong&gt;
+Grab a free one via the tutorial’s &lt;a href="https://pinnotes.github.io/blog/blender/snake-3d-model-tutorial-blender-asset/" target="_blank" rel="noopener"&gt;asset link&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale down&lt;/strong&gt; your snake model to fit the scene (&lt;code&gt;S&lt;/code&gt;, drag).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;📝 Step 4: Create the Path with a Curve&lt;span class="hx-absolute -hx-mt-20" id="-step-4-create-the-path-with-a-curve"&gt;&lt;/span&gt;
+&lt;a href="#-step-4-create-the-path-with-a-curve" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Add a Curve:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Shift + A&lt;/code&gt; → Curve → (Pick your favorite, like Bezier or Path)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hide the plane &amp;amp; snake for clarity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit the curve:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the curve, press &lt;code&gt;Tab&lt;/code&gt; (Edit Mode).&lt;/li&gt;
+&lt;li&gt;Delete default points (select, &lt;code&gt;Delete&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Use the pencil tool 🖊️ to &lt;em&gt;draw your own slithering path&lt;/em&gt; in top view (&lt;code&gt;numpad 7&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Add twists and turns for that “snake vibe”!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;🧩 Step 5: Attach the Snake to the Path&lt;span class="hx-absolute -hx-mt-20" id="-step-5-attach-the-snake-to-the-path"&gt;&lt;/span&gt;
+&lt;a href="#-step-5-attach-the-snake-to-the-path" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Unhide your snake.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select snake model&lt;/strong&gt;, go to the modifiers tab.&lt;/li&gt;
+&lt;li&gt;Add a &lt;strong&gt;Curve Modifier&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Set the “Curve Object” to your drawn curve.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Troubleshooting:&lt;/strong&gt;&lt;/em&gt;
 If the snake looks weird or doesn’t follow the curve:
-&lt;ul>
-&lt;li>Adjust the “Deform Axis” (try X, Y, Z) until it aligns.&lt;/li>
-&lt;li>Move the snake down slightly if floating above the grid.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🎛️ Step 6: Smooth Out Movements&lt;span class="hx-absolute -hx-mt-20" id="-step-6-smooth-out-movements">&lt;/span>
-&lt;a href="#-step-6-smooth-out-movements" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Curve too jagged?&lt;/strong>
-&lt;ul>
-&lt;li>Select the curve, go to Curve Data Properties.&lt;/li>
-&lt;li>Increase “Resolution” for smoother turns.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>In Edit Mode, select sharp vertices and drag the handles (&lt;code>G&lt;/code>) to smooth bends.&lt;/li>
-&lt;li>&lt;strong>Extra smoothness:&lt;/strong>
-&lt;ul>
-&lt;li>Right-click the curve, choose “Subdivide” for more control points.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🎞️ Step 7: Animate the Snake&lt;span class="hx-absolute -hx-mt-20" id="-step-7-animate-the-snake">&lt;/span>
-&lt;a href="#-step-7-animate-the-snake" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Select the snake, go to Object Properties.&lt;/li>
-&lt;li>&lt;strong>Insert a keyframe&lt;/strong> for Location (X-axis).&lt;/li>
-&lt;li>Move a few frames forward in timeline, move snake along X-axis, and insert another keyframe.&lt;/li>
-&lt;li>&lt;strong>Adjust animation speed:&lt;/strong>
-&lt;ul>
-&lt;li>If too fast, drag the second keyframe farther on timeline.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🖼️ Step 8: Final Touches&lt;span class="hx-absolute -hx-mt-20" id="-step-8-final-touches">&lt;/span>
-&lt;a href="#-step-8-final-touches" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>Scale your ground plane for the best composition.&lt;/li>
-&lt;li>Lock &lt;strong>Y&lt;/strong> and &lt;strong>Z axis&lt;/strong> for the snake (avoid weird sliding).&lt;/li>
-&lt;li>Scrub through the timeline: your snake should now &lt;em>slither&lt;/em> smoothly along the path!&lt;/li>
-&lt;li>Fix any last sharp corners in the curve for buttery motion.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>🪄 That’s a Wrap! (Part 1)&lt;span class="hx-absolute -hx-mt-20" id="-thats-a-wrap-part-1">&lt;/span>
-&lt;a href="#-thats-a-wrap-part-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Your snake is now animated along a custom path—no rigging nightmares, just smooth, easy motion! In &lt;strong>Part 2&lt;/strong> (watch on YouTube), you’ll texture, light, and render your masterpiece.&lt;/p>
-&lt;hr>
-&lt;blockquote>
-&lt;p>💡 &lt;strong>Tip:&lt;/strong> You can use this workflow for &lt;em>any&lt;/em> object to follow curves—great for trains, cars, creatures, and more!&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;p>If you found this helpful, don’t forget to like and subscribe to the creator for more awesome Blender tutorials! Happy animating! 🥳🎬&lt;/p>
-&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>Tree 3D Model FBX Blender 🌲</title><link>/blog/blender/tree3d-blender-3d-model/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/tree3d-blender-3d-model/</guid><description>
-&lt;h2>Download 3D Model! 👋&lt;span class="hx-absolute -hx-mt-20" id="download-3d-model-">&lt;/span>
-&lt;a href="#download-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>DYNAMIC ISLAND COMES TO IPHONE 15 — Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else. You can see who’s calling, track your next ride, check your flight status, and so much more.
+&lt;ul&gt;
+&lt;li&gt;Adjust the “Deform Axis” (try X, Y, Z) until it aligns.&lt;/li&gt;
+&lt;li&gt;Move the snake down slightly if floating above the grid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🎛️ Step 6: Smooth Out Movements&lt;span class="hx-absolute -hx-mt-20" id="-step-6-smooth-out-movements"&gt;&lt;/span&gt;
+&lt;a href="#-step-6-smooth-out-movements" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Curve too jagged?&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the curve, go to Curve Data Properties.&lt;/li&gt;
+&lt;li&gt;Increase “Resolution” for smoother turns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;In Edit Mode, select sharp vertices and drag the handles (&lt;code&gt;G&lt;/code&gt;) to smooth bends.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extra smoothness:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Right-click the curve, choose “Subdivide” for more control points.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🎞️ Step 7: Animate the Snake&lt;span class="hx-absolute -hx-mt-20" id="-step-7-animate-the-snake"&gt;&lt;/span&gt;
+&lt;a href="#-step-7-animate-the-snake" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Select the snake, go to Object Properties.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Insert a keyframe&lt;/strong&gt; for Location (X-axis).&lt;/li&gt;
+&lt;li&gt;Move a few frames forward in timeline, move snake along X-axis, and insert another keyframe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjust animation speed:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;If too fast, drag the second keyframe farther on timeline.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🖼️ Step 8: Final Touches&lt;span class="hx-absolute -hx-mt-20" id="-step-8-final-touches"&gt;&lt;/span&gt;
+&lt;a href="#-step-8-final-touches" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Scale your ground plane for the best composition.&lt;/li&gt;
+&lt;li&gt;Lock &lt;strong&gt;Y&lt;/strong&gt; and &lt;strong&gt;Z axis&lt;/strong&gt; for the snake (avoid weird sliding).&lt;/li&gt;
+&lt;li&gt;Scrub through the timeline: your snake should now &lt;em&gt;slither&lt;/em&gt; smoothly along the path!&lt;/li&gt;
+&lt;li&gt;Fix any last sharp corners in the curve for buttery motion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;🪄 That’s a Wrap! (Part 1)&lt;span class="hx-absolute -hx-mt-20" id="-thats-a-wrap-part-1"&gt;&lt;/span&gt;
+&lt;a href="#-thats-a-wrap-part-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Your snake is now animated along a custom path—no rigging nightmares, just smooth, easy motion! In &lt;strong&gt;Part 2&lt;/strong&gt; (watch on YouTube), you’ll texture, light, and render your masterpiece.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Tip:&lt;/strong&gt; You can use this workflow for &lt;em&gt;any&lt;/em&gt; object to follow curves—great for trains, cars, creatures, and more!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;If you found this helpful, don’t forget to like and subscribe to the creator for more awesome Blender tutorials! Happy animating! 🥳🎬&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;</description></item><item><title>Tree 3D Model FBX Blender 🌲</title><link>/blog/blender/tree3d-blender-3d-model/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/blender/tree3d-blender-3d-model/</guid><description>
+&lt;h2&gt;Download 3D Model! 👋&lt;span class="hx-absolute -hx-mt-20" id="download-3d-model-"&gt;&lt;/span&gt;
+&lt;a href="#download-3d-model-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DYNAMIC ISLAND COMES TO IPHONE 15 — Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else. You can see who’s calling, track your next ride, check your flight status, and so much more.
 INNOVATIVE DESIGN — iPhone 15 features a durable color-infused glass and aluminum design. It’s splash, water, and dust resistant. The Ceramic Shield front is tougher than any smartphone glass. And the 6.1&amp;quot; Super Retina XDR display is up to 2x brighter in the sun compared to iPhone 14.
 48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.
 NEXT-GENERATION PORTRAITS — Capture portraits with dramatically more detail and color. Just tap to shift the focus between subjects — even after you take the shot.
-POWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life.&lt;/p>
-&lt;h3>Free 3D Model 🧊&lt;span class="hx-absolute -hx-mt-20" id="free-3d-model-">&lt;/span>
-&lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div style="text-align:center">
-&lt;h4>Click and wait for 20 seconds 👇
-&lt;/div>
-&lt;a href="/assets/tree3d/" class="timer-btn"> Free Download &lt;/a>
-&lt;div class="display-ad">
+POWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life.&lt;/p&gt;
+&lt;h3&gt;Free 3D Model 🧊&lt;span class="hx-absolute -hx-mt-20" id="free-3d-model-"&gt;&lt;/span&gt;
+&lt;a href="#free-3d-model-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div style="text-align:center"&gt;
+&lt;h4&gt;Click and wait for 20 seconds 👇
+&lt;/div&gt;
+&lt;a href="/assets/tree3d/" class="timer-btn"&gt; Free Download &lt;/a&gt;
+&lt;div class="display-ad"&gt;
 &lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
-crossorigin="anonymous">&lt;/script>
+crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;ins class="adsbygoogle"
 style="display:block"
 data-ad-client="ca-pub-7993314093599705"
 data-ad-slot="3255877740"
 data-ad-format="auto"
-data-full-width-responsive="true">&lt;/ins>
-&lt;script>
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
 (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script>
-&lt;/div>
-&lt;script>
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
 (function link_timer() {
 var btns = document.querySelectorAll(".timer-btn");
 btns.forEach(function (btn) {
@@ -1147,8 +1147,8 @@ window.location.href = link;
 }
 }, 1000);
 });
-&lt;/script>
-&lt;style>
+&lt;/script&gt;
+&lt;style&gt;
 .display-ad {
 margin-top: 1.5rem;
 margin-bottom: 1.5rem;;
@@ -1230,29 +1230,29 @@ background-color: #222;
 background-color: #d45039;
 }
 }
-&lt;/style>
-&lt;ul>
-&lt;li>Camera: Rear Camera: 50 MP Zeiss main camera: OIS; f/1.88; FOV 84°; 6P lens 50 MP Zeiss Wide-Angle lens: AF; f/2.0; FOV 119.4°; 5P lens | Selfie Camera: 50 MP Super Wide-Angle focus lens: AF; f/2.0; FOV 92°; 5P lens | 4K/1080P/720P Video Recording Resolution
+&lt;/style&gt;
+&lt;ul&gt;
+&lt;li&gt;Camera: Rear Camera: 50 MP Zeiss main camera: OIS; f/1.88; FOV 84°; 6P lens 50 MP Zeiss Wide-Angle lens: AF; f/2.0; FOV 119.4°; 5P lens | Selfie Camera: 50 MP Super Wide-Angle focus lens: AF; f/2.0; FOV 92°; 5P lens | 4K/1080P/720P Video Recording Resolution
 Screen &amp;amp; display: 17.19 cm (6.77&amp;quot; inch) Quad Curved AMOLED capacitive multi-touch Display | P3 wide colour gamut supported | 387 ppi high pixel density| 4500 nits local peak brightness
 Memory &amp;amp; SIM: 8GB RAM | 128GB Internal Memory | LPDDR4X | UFS 2.2 | Bluetooth 5.4
 Battery: 6000 mAh battery | Li-ion battery
 Fast Charging: 90W Flash Charge | USB 2.0
 SIM: 2 Nano SIMs | 5G + 5G Dual SIM Dual Standby
-Security: In-display optical fingerprint sensor for optimum security for your data&lt;/li>
-&lt;/ul>
-&lt;p>Smooth Performance&lt;/p>
-&lt;p>Powered by the Snapdragon 7s Gen 3 5G processor, the Nothing Phone 3A 6.77-Inch 5G Smartphone delivers fast and efficient performance for seamless multitasking, gaming, and content creation. Plus, with an 8-core CPU clocked at up to 2.5 GHz and a Qualcomm AI Engine, this smartphone ensures smooth operation and intelligent processing for an optimised user experience.&lt;/p>
-&lt;p>8GB RAM&lt;/p>
-&lt;p>With 8GB RAM, this 5G smartphone ensures seamless multitasking and smooth app launches, Additionally, with up to 20GB RAM booster, you get enhanced memory management, keeping apps responsive and lag-free.&lt;/p>
-&lt;p>Ample Storage&lt;/p>
-&lt;p>Featuring 128GB of internal storage, this smartphone provides ample space for all your apps, photos, and videos, ensuring you have everything you need at your fingertips without worrying about running out of storage.&lt;/p>
-&lt;p>Vibrant AMOLED Display&lt;/p>
-&lt;p>Featuring a 6.77-inch flexible AMOLED display, this smartphone offers 1080 x 2392 resolution and 387 PPI for sharp clarity. So, you can enjoy smooth scrolling with a 120Hz adaptive refresh rate and ultra-responsive 1000Hz touch sampling. Moreover, with a 10-bit colour depth, 1,000,000:1 contrast ratio, and 3000 nits peak brightness, it delivers vivid colours and enhanced visibility in any lighting condition.&lt;/p>
-&lt;p>Versatile Camera System&lt;/p>
-&lt;p>Equipped with a 0.6x to 30x zoom range, the 50MP main camera captures detailed, true-to-life images from any distance. Plus, the 32MP front camera ensures sharp and high-resolution selfies, while AI-powered stabilisation enhances 4K video recording, allowing you to shoot smooth, clear videos even in low-light environments.&lt;/p>
-&lt;p>AI-Powered Features&lt;/p>
-&lt;p>The Essential Key of this 6.77-inch smartphone provides quick access to content capture, letting you take screenshots, record voice notes, and save inspirations effortlessly. Additionally, Essential Space utilises AI to organise, categorise, and generate personalised suggestions, keeping your content well-managed and easy to retrieve.&lt;/p>
-&lt;p>Long-Lasting Battery&lt;/p>
-&lt;p>Equipped with a 5000mAh battery, this 128GB smartphone provides extended usage on a single charge, letting you stay connected for longer. Plus, its fast-charging support ensures you can power up quickly and get back to your tasks without long wait times.&lt;/p>
-&lt;p>Distinctive Design&lt;/p>
-&lt;p>Combining minimalism with advanced engineering, this Nothing smartphone features a unique transparent design, giving it a futuristic yet nostalgic aesthetic. Built with high-quality materials, it strikes the ideal balance between simplicity and sophistication, making it a standout device in both form and function.&lt;/p></description></item></channel></rss>
+Security: In-display optical fingerprint sensor for optimum security for your data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Smooth Performance&lt;/p&gt;
+&lt;p&gt;Powered by the Snapdragon 7s Gen 3 5G processor, the Nothing Phone 3A 6.77-Inch 5G Smartphone delivers fast and efficient performance for seamless multitasking, gaming, and content creation. Plus, with an 8-core CPU clocked at up to 2.5 GHz and a Qualcomm AI Engine, this smartphone ensures smooth operation and intelligent processing for an optimised user experience.&lt;/p&gt;
+&lt;p&gt;8GB RAM&lt;/p&gt;
+&lt;p&gt;With 8GB RAM, this 5G smartphone ensures seamless multitasking and smooth app launches, Additionally, with up to 20GB RAM booster, you get enhanced memory management, keeping apps responsive and lag-free.&lt;/p&gt;
+&lt;p&gt;Ample Storage&lt;/p&gt;
+&lt;p&gt;Featuring 128GB of internal storage, this smartphone provides ample space for all your apps, photos, and videos, ensuring you have everything you need at your fingertips without worrying about running out of storage.&lt;/p&gt;
+&lt;p&gt;Vibrant AMOLED Display&lt;/p&gt;
+&lt;p&gt;Featuring a 6.77-inch flexible AMOLED display, this smartphone offers 1080 x 2392 resolution and 387 PPI for sharp clarity. So, you can enjoy smooth scrolling with a 120Hz adaptive refresh rate and ultra-responsive 1000Hz touch sampling. Moreover, with a 10-bit colour depth, 1,000,000:1 contrast ratio, and 3000 nits peak brightness, it delivers vivid colours and enhanced visibility in any lighting condition.&lt;/p&gt;
+&lt;p&gt;Versatile Camera System&lt;/p&gt;
+&lt;p&gt;Equipped with a 0.6x to 30x zoom range, the 50MP main camera captures detailed, true-to-life images from any distance. Plus, the 32MP front camera ensures sharp and high-resolution selfies, while AI-powered stabilisation enhances 4K video recording, allowing you to shoot smooth, clear videos even in low-light environments.&lt;/p&gt;
+&lt;p&gt;AI-Powered Features&lt;/p&gt;
+&lt;p&gt;The Essential Key of this 6.77-inch smartphone provides quick access to content capture, letting you take screenshots, record voice notes, and save inspirations effortlessly. Additionally, Essential Space utilises AI to organise, categorise, and generate personalised suggestions, keeping your content well-managed and easy to retrieve.&lt;/p&gt;
+&lt;p&gt;Long-Lasting Battery&lt;/p&gt;
+&lt;p&gt;Equipped with a 5000mAh battery, this 128GB smartphone provides extended usage on a single charge, letting you stay connected for longer. Plus, its fast-charging support ensures you can power up quickly and get back to your tasks without long wait times.&lt;/p&gt;
+&lt;p&gt;Distinctive Design&lt;/p&gt;
+&lt;p&gt;Combining minimalism with advanced engineering, this Nothing smartphone features a unique transparent design, giving it a futuristic yet nostalgic aesthetic. Built with high-quality materials, it strikes the ideal balance between simplicity and sophistication, making it a standout device in both form and function.&lt;/p&gt;</description></item></channel></rss>

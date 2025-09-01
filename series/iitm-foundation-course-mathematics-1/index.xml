@@ -1,0 +1,1690 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – IITM-Foundation-Course-Mathematics-1</title><link>/series/iitm-foundation-course-mathematics-1/</link><description>Recent content in IITM-Foundation-Course-Mathematics-1 on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/series/iitm-foundation-course-mathematics-1/index.xml" rel="self" type="application/rss+xml"/><item><title>Mathematics for Data Science 1</title><link>/iit-madras/mathematics-1/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/</guid><description/></item><item><title>Natural Numbers and their operations</title><link>/iit-madras/mathematics-1/week-1/natural-numbers-and-their-operations/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/natural-numbers-and-their-operations/</guid><description>
+&lt;p&gt;Of course! Let&amp;rsquo;s dive deep into the world of Natural Numbers and their operations. We&amp;rsquo;ll start from the very basics and build up to the properties that govern them.&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/WEC6jPWvoj8"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2&gt;Identifying Natural Numbers and Integers&lt;span class="hx-absolute -hx-mt-20" id="identifying-natural-numbers-and-integers"&gt;&lt;/span&gt;
+&lt;a href="#identifying-natural-numbers-and-integers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Natural numbers&lt;/strong&gt; are positive whole numbers, used for counting: 1, 2, 3, 4, 5, &amp;hellip;.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;
+&lt;strong&gt;Integers&lt;/strong&gt; include all positive and negative whole numbers and zero: &amp;hellip;, -3, -2, -1, 0, 1, 2, 3, &amp;hellip;.&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn1.byjus.com/wp-content/uploads/2020/10/Natural-Numbers-2.png" alt="A diagram showing the relationship between Natural Numbers, Whole Numbers, and Integers" loading="lazy" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example images: Diagrams often show natural numbers on a number line starting at 1, with integers extending in both directions to negative numbers.&lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref1:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;sup id="fnref1:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Natural numbers set: $\mathbb{N} = {1, 2, 3, 4, 5, \dots}$.&lt;sup id="fnref1:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref2:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Integers set: $\mathbb{Z} = {\dots, -2, -1, 0, 1, 2, \dots}$.&lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref1:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Distinguishing Between Notations: ($\mathbb{N}$), ($\mathbb{Z}$), ($\mathbb{Z}_n$)&lt;span class="hx-absolute -hx-mt-20" id="distinguishing-between-notations-mathbbn-mathbbz-mathbbz_n"&gt;&lt;/span&gt;
+&lt;a href="#distinguishing-between-notations-mathbbn-mathbbz-mathbbz_n" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N&lt;/strong&gt; ($\mathbb{N}$): Natural numbers set ($1, 2, 3, &amp;hellip;$).[^6]&lt;sup id="fnref3:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Z&lt;/strong&gt; ($\mathbb{Z}$): Integers set ($&amp;hellip;, -2, -1, 0, 1, 2, &amp;hellip;$).[^6]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ZN&lt;/strong&gt; ($\mathbb{Z}_n$): Modular integers—the set of possible remainders when dividing by $n$ ($0,1,\ldots, n-1$).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://sciencenotes.org/wp-content/uploads/2023/05/Natural-Numbers-Definition-and-Examples-1024x683.png" alt="A graphic explaining what natural numbers are, with examples" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Example: Venn diagram notation can show relationships; N could fit inside Z on a diagram.[^7][^6]
+&lt;sup id="fnref2:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;Multiplication and Division as Addition/Subtraction&lt;span class="hx-absolute -hx-mt-20" id="multiplication-and-division-as-additionsubtraction"&gt;&lt;/span&gt;
+&lt;a href="#multiplication-and-division-as-additionsubtraction" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multiplication&lt;/strong&gt; is repeated addition:&lt;/li&gt;
+&lt;/ul&gt;
+$$
+3 \times 4 = 3 + 3 + 3 + 3 = 12
+$$&lt;p&gt;Imagine four groups, each with three objects—adding up all objects gives the same as multiplication.[^8]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Division&lt;/strong&gt; is repeated subtraction:&lt;/li&gt;
+&lt;/ul&gt;
+$$
+15 \div 5: 15 - 5 = 10, 10 - 5 = 5, 5 - 5 = 0
+$$&lt;p&gt;The number of times 5 is subtracted until reaching zero is the quotient (here, 3).[^9][^8]&lt;/p&gt;
+&lt;p&gt;Visual: Diagrams often show sets of objects grouped or repeatedly removed, or jumps on a number line illustrating subtraction.
+&lt;sup id="fnref3:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;Quotient, Remainder, and Modulus&lt;span class="hx-absolute -hx-mt-20" id="quotient-remainder-and-modulus"&gt;&lt;/span&gt;
+&lt;a href="#quotient-remainder-and-modulus" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Quotient&lt;/strong&gt;: The result of division (number of times divisor &amp;ldquo;fits&amp;rdquo; in dividend).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Remainder&lt;/strong&gt;: What’s left after dividing as far as possible.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modulus (mod)&lt;/strong&gt;: The remainder after division.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Example: $14 \div 5 = 2$ remainder $4$, so $14$ mod $5 = 4$.&lt;/p&gt;
+&lt;p&gt;Visual: Number lines or division diagrams often show repeated subtraction steps, grouping leftover items as remainder.[^9]&lt;/p&gt;
+&lt;h2&gt;Factors and Prime Factorization&lt;span class="hx-absolute -hx-mt-20" id="factors-and-prime-factorization"&gt;&lt;/span&gt;
+&lt;a href="#factors-and-prime-factorization" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Factors&lt;/strong&gt;: Numbers that divide another exactly. Example: 12’s factors are 1, 2, 3, 4, 6, 12.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prime Factorization&lt;/strong&gt;: Breaking a number into prime numbers multiplied together.
+Example: 12 = 2 × 2 × 3 = $2^2 \times 3$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Visual: Factor trees are diagrams showing branches, each end-point is a prime number.&lt;sup id="fnref4:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;sup id="fnref4:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Table: Sets and Concepts&lt;span class="hx-absolute -hx-mt-20" id="table-sets-and-concepts"&gt;&lt;/span&gt;
+&lt;a href="#table-sets-and-concepts" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Concept&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Notation&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Example&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Image Reference&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Natural numbers&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$\mathbb{N}$&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1,2,3,&amp;hellip;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;sup id="fnref5:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Integers&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$\mathbb{Z}$&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&amp;hellip;, -1,0,1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;sup id="fnref1:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Modular integers&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$\mathbb{Z}_n$&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0,1,&amp;hellip;,n-1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;sup id="fnref6:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Factors of 12&lt;/td&gt;
+&lt;td style="text-align: left"&gt;n/a&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1,2,3,4,6,12&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;sup id="fnref7:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Prime factorization&lt;/td&gt;
+&lt;td style="text-align: left"&gt;n/a&lt;/td&gt;
+&lt;td style="text-align: left"&gt;12 = $2^2\times3$&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;sup id="fnref8:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;1) How many natural numbers are there in the given list?&lt;span class="hx-absolute -hx-mt-20" id="1-how-many-natural-numbers-are-there-in-the-given-list"&gt;&lt;/span&gt;
+&lt;a href="#1-how-many-natural-numbers-are-there-in-the-given-list" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;List:&lt;/strong&gt; 22, -17, 47, -2000, 0, 1, 43, 1729, 6174, -63, 100, 32, -9.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
+Natural numbers ($\mathbb{N}$) are positive whole numbers: ${1, 2, 3, &amp;hellip;}$, and do not include 0 or negatives.[^1][^2]
+Filtering the list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;22&lt;/strong&gt; — Yes&lt;/li&gt;
+&lt;li&gt;-17 — No&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;47&lt;/strong&gt; — Yes&lt;/li&gt;
+&lt;li&gt;-2000 — No&lt;/li&gt;
+&lt;li&gt;0 — No&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; — Yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;43&lt;/strong&gt; — Yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1729&lt;/strong&gt; — Yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;6174&lt;/strong&gt; — Yes&lt;/li&gt;
+&lt;li&gt;-63 — No&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;100&lt;/strong&gt; — Yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;32&lt;/strong&gt; — Yes&lt;/li&gt;
+&lt;li&gt;-9 — No&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are &lt;strong&gt;8 natural numbers&lt;/strong&gt;: 22, 47, 1, 43, 1729, 6174, 100, 32.[^2]
+[^3]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;2) If we distribute 3 pens to each student and 4 pens remain, what is the value of M?&lt;span class="hx-absolute -hx-mt-20" id="2-if-we-distribute-3-pens-to-each-student-and-4-pens-remain-what-is-the-value-of-m"&gt;&lt;/span&gt;
+&lt;a href="#2-if-we-distribute-3-pens-to-each-student-and-4-pens-remain-what-is-the-value-of-m" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
+Given: Total pens = 70, pens per student = 3, pens left over = 4, number of students = $M$.&lt;/p&gt;
+&lt;p&gt;Use Division Algorithm:&lt;/p&gt;
+$$
+\text{Total} = (\text{Pens per student} \times M) + \text{Remainder}
+$$&lt;p&gt;So:&lt;/p&gt;
+$$
+70 = (3 \times M) + 4 \implies 66 = 3M \implies M = \frac{66}{3} = 22
+$$&lt;p&gt;Thus, &lt;strong&gt;M = 22&lt;/strong&gt;.[^4]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;3) Which of the following will be the sixteenth prime number?&lt;span class="hx-absolute -hx-mt-20" id="3-which-of-the-following-will-be-the-sixteenth-prime-number"&gt;&lt;/span&gt;
+&lt;a href="#3-which-of-the-following-will-be-the-sixteenth-prime-number" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
+List out the first sixteen primes:[^5]
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, &lt;strong&gt;53&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Therefore, the &lt;strong&gt;sixteenth prime number is 53&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;4) If z mod 31 and z mod 74. Which of the following is (are) possible values for z?&lt;span class="hx-absolute -hx-mt-20" id="4-if-z-mod-31-and-z-mod-74-which-of-the-following-is-are-possible-values-for-z"&gt;&lt;/span&gt;
+&lt;a href="#4-if-z-mod-31-and-z-mod-74-which-of-the-following-is-are-possible-values-for-z" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
+Possible remainders from modulus operations must be between 0 and one less than the divisor:[^4]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For $z \mod 31$: remainder must be in $$&lt;/li&gt;
+&lt;li&gt;For $z \mod 74$: remainder must be in $$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Test options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$z = 25$: Valid for both&lt;/li&gt;
+&lt;li&gt;$z = 34$: Invalid for mod 31&lt;/li&gt;
+&lt;li&gt;$z = 58$: Invalid for mod 31&lt;/li&gt;
+&lt;li&gt;$z = 67$: Invalid for mod 31&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thus, &lt;strong&gt;25&lt;/strong&gt; is the only possible value.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;5) If Sheetal&amp;rsquo;s birthday is on the Pth of October and Karthik&amp;rsquo;s is on the Qth of November&amp;hellip; find the value of P + 20.&lt;span class="hx-absolute -hx-mt-20" id="5-if-sheetals-birthday-is-on-the-pth-of-october-and-karthiks-is-on-the-qth-of-november-find-the-value-of-p--20"&gt;&lt;/span&gt;
+&lt;a href="#5-if-sheetals-birthday-is-on-the-pth-of-october-and-karthiks-is-on-the-qth-of-november-find-the-value-of-p--20" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
+P and Q are perfect squares, October/November birthdays, and Sheetal is 10 days before Karthik:&lt;/p&gt;
+&lt;p&gt;Perfect squares up to 31: 1, 4, 9, 16, 25
+Let $P = 25$ (25th October).&lt;/p&gt;
+&lt;p&gt;If Karthik is born 10 days later:
+Days left in October after 25th = 31-25 = 6; Karthik&amp;rsquo;s birthday is 4th November, which is also a perfect square.&lt;/p&gt;
+&lt;p&gt;Thus:
+P = 25, Q = 4
+$P + 20 = 25 + 20 = 45$&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://byjus.com/maths/natural-numbers/" target="_blank" rel="noopener"&gt;https://byjus.com/maths/natural-numbers/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref3:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref4:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="https://www.cuemath.com/numbers/natural-numbers/" target="_blank" rel="noopener"&gt;https://www.cuemath.com/numbers/natural-numbers/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;&lt;a href="https://www.pinterest.com/pin/633387438370444/" target="_blank" rel="noopener"&gt;https://www.pinterest.com/pin/633387438370444/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;&lt;a href="https://www.vedantu.com/maths/division-is-a-process-of-repeated-subtraction" target="_blank" rel="noopener"&gt;https://www.vedantu.com/maths/division-is-a-process-of-repeated-subtraction&lt;/a&gt;&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref3:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref4:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref5:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref6:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref7:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref8:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;&lt;a href="https://study.com/academy/lesson/classification-of-numbers.html" target="_blank" rel="noopener"&gt;https://study.com/academy/lesson/classification-of-numbers.html&lt;/a&gt;&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:5" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>Rational Numbers</title><link>/iit-madras/mathematics-1/week-1/rational-numbers/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/rational-numbers/</guid><description>
+&lt;p&gt;Here is a detailed, emoji-enhanced guide to rational numbers, ordering, GCD, and density, with diagrams and markdown image code for added visuals.&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/jHBIJ50DhJQ"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2&gt;🧮 Define Rational Numbers&lt;span class="hx-absolute -hx-mt-20" id="-define-rational-numbers"&gt;&lt;/span&gt;
+&lt;a href="#-define-rational-numbers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A &lt;strong&gt;rational number&lt;/strong&gt; is any number that can be written as a fraction $\frac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Examples: $\frac{1}{2}, -\frac{3}{4}, 2, 0.3$ (which is $\frac{3}{10}$), and $-5$ (which is $\frac{-5}{1}$).&lt;sup id="fnref1:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;All integers and whole numbers are rational since they can be written as fractions too.&lt;sup id="fnref1:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Denoted by the set $\mathbb{Q}$.&lt;sup id="fnref1:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://cdn-academy.pressidium.com/academy/wp-content/uploads/2021/02/classification-of-numbers-diagram.png" alt="A diagram showing the classification of numbers, including Natural, Whole, Integers, Rational, Irrational, and Real numbers" loading="lazy" /&gt;
+&lt;sup id="fnref2:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;📊 Order and Compare Rational Numbers&lt;span class="hx-absolute -hx-mt-20" id="-order-and-compare-rational-numbers"&gt;&lt;/span&gt;
+&lt;a href="#-order-and-compare-rational-numbers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To &lt;strong&gt;compare rational numbers&lt;/strong&gt;, write them as decimals or with a common denominator.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example: Compare $\frac{2}{3}$ and $\frac{3}{5}$:
+&lt;ul&gt;
+&lt;li&gt;$\frac{2}{3} = 0.666&amp;hellip;$&lt;/li&gt;
+&lt;li&gt;$\frac{3}{5} = 0.6$&lt;/li&gt;
+&lt;li&gt;$0.666&amp;hellip; &amp;gt; 0.6$ so $\frac{2}{3} &amp;gt; \frac{3}{5}$.&lt;sup id="fnref:6"&gt;&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:7"&gt;&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref"&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;When ordering a list, convert all to decimals or use common denominators.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;sup id="fnref1:6"&gt;&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;🏆 Find the Greatest Common Divisor (GCD)&lt;span class="hx-absolute -hx-mt-20" id="-find-the-greatest-common-divisor-gcd"&gt;&lt;/span&gt;
+&lt;a href="#-find-the-greatest-common-divisor-gcd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;strong&gt;GCD&lt;/strong&gt; (greatest common divisor) of two numbers is the largest number that divides both exactly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example: GCD of 12 and 26:
+&lt;ul&gt;
+&lt;li&gt;Factors of 12: $1, 2, 3, 4, 6, 12$&lt;/li&gt;
+&lt;li&gt;Factors of 26: $1, 2, 13, 26$&lt;/li&gt;
+&lt;li&gt;Common factors: $1, 2$&lt;/li&gt;
+&lt;li&gt;Greatest: &lt;strong&gt;2&lt;/strong&gt;&lt;sup id="fnref:8"&gt;&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref"&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:9"&gt;&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref"&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:10"&gt;&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref"&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://media.geeksforgeeks.org/wp-content/uploads/20241104151749094739/GCD-by-Prime-factorization--1.webp" alt="A diagram explaining how to find the GCD (Greatest Common Divisor) of two numbers using prime factorization" loading="lazy" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual method: List factors or use the Euclidean algorithm (keep dividing and taking remainders).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;sup id="fnref1:8"&gt;&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref"&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;🌈 Rational Numbers Are Dense on the Number Line&lt;span class="hx-absolute -hx-mt-20" id="-rational-numbers-are-dense-on-the-number-line"&gt;&lt;/span&gt;
+&lt;a href="#-rational-numbers-are-dense-on-the-number-line" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Density&lt;/strong&gt; means between any two rational numbers, there’s always another rational number!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example: Between $\frac{1}{2}$ and $\frac{3}{4}$, the average $\frac{1}{2} + \frac{3}{4}/2 = \frac{5}{8}$ is in between.&lt;/li&gt;
+&lt;li&gt;No matter how close two rational numbers are, you can ALWAYS find another rational number between them.&lt;sup id="fnref:11"&gt;&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref"&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:12"&gt;&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref"&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:13"&gt;&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref"&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;On the number line, rational numbers fill it densely and continuously.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://www.basic-mathematics.com/images/density-property.png" alt="A diagram illustrating the density property of rational numbers" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup id="fnref1:11"&gt;&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref"&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2&gt;📝 Summary Table&lt;span class="hx-absolute -hx-mt-20" id="-summary-table"&gt;&lt;/span&gt;
+&lt;a href="#-summary-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Concept&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Definition/Method&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Diagram/Emoji&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Rational Numbers&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Fractions $\frac{p}{q}$, integers, recurring decimals&lt;/td&gt;
+&lt;td style="text-align: left"&gt;🧮, &lt;sup id="fnref3:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Compare &amp;amp; Order&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Convert to decimals, common denominators&lt;/td&gt;
+&lt;td style="text-align: left"&gt;📊, &lt;sup id="fnref2:6"&gt;&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;GCD&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Largest shared factor, Euclidean algorithm&lt;/td&gt;
+&lt;td style="text-align: left"&gt;🏆, &lt;sup id="fnref2:8"&gt;&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref"&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Rational Density&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Always a rational between any two rationals&lt;/td&gt;
+&lt;td style="text-align: left"&gt;🌈, &lt;sup id="fnref2:11"&gt;&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref"&gt;11&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Let these visual tools and emojis help reinforce your understanding of rational numbers and their properties!
+&lt;span style="display:none"&gt;&lt;sup id="fnref:14"&gt;&lt;a href="#fn:14" class="footnote-ref" role="doc-noteref"&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:15"&gt;&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref"&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h2&gt;1. Which of the following option(s) is (are) true?&lt;span class="hx-absolute -hx-mt-20" id="1-which-of-the-following-options-is-are-true"&gt;&lt;/span&gt;
+&lt;a href="#1-which-of-the-following-options-is-are-true" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A) $ \frac{4}{7} &amp;gt; \frac{5}{8} $&lt;/p&gt;
+&lt;p&gt;B) $ \frac{17}{22} &amp;gt; \frac{13}{18} $&lt;/p&gt;
+&lt;p&gt;C) $ \frac{11}{7} &amp;gt; \frac{13}{8} $&lt;/p&gt;
+&lt;p&gt;D) $ \frac{7}{15} &amp;lt; \frac{5}{20} $&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="detailed-solution"&gt;&lt;/span&gt;
+&lt;a href="#detailed-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;A) $ \frac{4}{7} &amp;gt; \frac{5}{8} $&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Find a common denominator:&lt;/p&gt;
+&lt;p&gt;$4/7 = 32/56$, $5/8 = 35/56$&lt;/p&gt;
+&lt;p&gt;$32/56 &amp;lt; 35/56$&lt;/p&gt;
+&lt;p&gt;So, $4/7 &amp;lt; 5/8$. &lt;strong&gt;Not true.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;B) $ \frac{17}{22} &amp;gt; \frac{13}{18} $&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find a common denominator:&lt;/p&gt;
+&lt;p&gt;$17/22 = (17 \times 18) / (22 \times 18) = 306/396$&lt;/p&gt;
+&lt;p&gt;$13/18 = (13 \times 22) / (18 \times 22) = 286/396$&lt;/p&gt;
+&lt;p&gt;$306/396 &amp;gt; 286/396$&lt;/p&gt;
+&lt;p&gt;So, $17/22 &amp;gt; 13/18$. &lt;strong&gt;True.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C) $ \frac{11}{7} &amp;gt; \frac{13}{8} $&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Convert to improper fractions with common denominators:&lt;/p&gt;
+&lt;p&gt;$11/7 = (11 \times 8)/(7 \times 8) = 88/56$&lt;/p&gt;
+&lt;p&gt;$13/8 = (13 \times 7)/(8 \times 7) = 91/56$&lt;/p&gt;
+&lt;p&gt;$88/56 &amp;lt; 91/56$&lt;/p&gt;
+&lt;p&gt;So, $11/7 &amp;lt; 13/8$. &lt;strong&gt;Not true.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;D) $ \frac{7}{15} &amp;lt; \frac{5}{20} $&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$7/15 \approx 0.4667$, $5/20 = 0.25$&lt;/p&gt;
+&lt;p&gt;$0.4667 &amp;gt; 0.25$&lt;/p&gt;
+&lt;p&gt;So, $7/15 &amp;gt; 5/20$. &lt;strong&gt;Not true.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Correct Answer:&lt;/strong&gt; Only option &lt;strong&gt;B&lt;/strong&gt; is true.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h2&gt;2. Which of the following option(s) is (are) in reduced form?&lt;span class="hx-absolute -hx-mt-20" id="2-which-of-the-following-options-is-are-in-reduced-form"&gt;&lt;/span&gt;
+&lt;a href="#2-which-of-the-following-options-is-are-in-reduced-form" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A) $ \frac{5}{60} $
+B) $ \frac{12}{27} $
+C) $ \frac{11}{18} $
+D) $ \frac{13}{91} $&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="detailed-solution"&gt;&lt;/span&gt;
+&lt;a href="#detailed-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A) $ \frac{5}{60} $:&lt;/strong&gt; Both numerator and denominator divisible by 5. $5/60 = 1/12$. &lt;strong&gt;Not reduced.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;B) $ \frac{12}{27} $:&lt;/strong&gt; Both divisible by 3. $12/27 = 4/9$. &lt;strong&gt;Not reduced.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C) $ \frac{11}{18} $:&lt;/strong&gt; 11 and 18 have no common factors other than 1. &lt;strong&gt;This is reduced form.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;D) $ \frac{13}{91} $:&lt;/strong&gt; 91 = 7 × 13. Both divisible by 13. $13/91 = 1/7$. &lt;strong&gt;Not reduced.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Correct Answer:&lt;/strong&gt; Only &lt;strong&gt;C&lt;/strong&gt; is in reduced form.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h2&gt;3. Let gcd(a,4) = 2 and gcd(a, b) = 1. If 4 &amp;gt; a &amp;gt; b and a, b are natural numbers, then the values of a and b are respectively&lt;span class="hx-absolute -hx-mt-20" id="3-let-gcda4--2-and-gcda-b--1-if-4--a--b-and-a-b-are-natural-numbers-then-the-values-of-a-and-b-are-respectively"&gt;&lt;/span&gt;
+&lt;a href="#3-let-gcda4--2-and-gcda-b--1-if-4--a--b-and-a-b-are-natural-numbers-then-the-values-of-a-and-b-are-respectively" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A) 2, 1
+B) 1, 2
+C) 2, 4
+D) 4, 2&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="detailed-solution"&gt;&lt;/span&gt;
+&lt;a href="#detailed-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;$gcd(a,4) = 2$: $a$ must be even but not divisible by 4. Since $a &amp;lt; 4$, possible $a$ is 2.&lt;/li&gt;
+&lt;li&gt;$gcd(a,b) = 1$: $a$ and $b$ are coprime.&lt;/li&gt;
+&lt;li&gt;Since $a = 2$ and $a &amp;gt; b$, try $b=1$:
+$gcd(2,1) = 1$ ✓&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hence, values are $a=2$, $b=1$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Correct Answer:&lt;/strong&gt; A) 2, 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;h3&gt;&lt;strong&gt;Summary Table&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="summary-table"&gt;&lt;/span&gt;
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Qn&lt;/th&gt;
+&lt;th style="text-align: center"&gt;Correct Option&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;1&lt;/td&gt;
+&lt;td style="text-align: center"&gt;B&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$17/22 &amp;gt; 13/18$ is true; others are false.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;2&lt;/td&gt;
+&lt;td style="text-align: center"&gt;C&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$11/18$ is the only fraction in reduced form.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;3&lt;/td&gt;
+&lt;td style="text-align: center"&gt;A&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Only $a = 2, b = 1$ fit all GCD and ordering conditions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span style="display:none"&gt;&lt;sup id="fnref4:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://byjus.com/maths/rational-numbers/" target="_blank" rel="noopener"&gt;https://byjus.com/maths/rational-numbers/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref3:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref4:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="https://www.cuemath.com/numbers/rational-numbers/" target="_blank" rel="noopener"&gt;https://www.cuemath.com/numbers/rational-numbers/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;&lt;a href="https://www.begalileo.com/math/numbers/rational-numbers" target="_blank" rel="noopener"&gt;https://www.begalileo.com/math/numbers/rational-numbers&lt;/a&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Rational_number" target="_blank" rel="noopener"&gt;https://en.wikipedia.org/wiki/Rational_number&lt;/a&gt;&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:5"&gt;
+&lt;p&gt;&lt;a href="https://www.adda247.com/school/rational-numbers/" target="_blank" rel="noopener"&gt;https://www.adda247.com/school/rational-numbers/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:6"&gt;
+&lt;p&gt;&lt;a href="https://www.slideshare.net/slideshow/7-lesson-42-compare-and-order-rational-numbers/122114001" target="_blank" rel="noopener"&gt;https://www.slideshare.net/slideshow/7-lesson-42-compare-and-order-rational-numbers/122114001&lt;/a&gt;&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:6" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:6" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:7"&gt;
+&lt;p&gt;&lt;a href="https://study.com/academy/lesson/comparing-ordering-rational-numbers.html" target="_blank" rel="noopener"&gt;https://study.com/academy/lesson/comparing-ordering-rational-numbers.html&lt;/a&gt;&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:8"&gt;
+&lt;p&gt;&lt;a href="https://www.splashlearn.com/math-vocabulary/greatest-common-divisor-gcd" target="_blank" rel="noopener"&gt;https://www.splashlearn.com/math-vocabulary/greatest-common-divisor-gcd&lt;/a&gt;&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:8" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:8" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:9"&gt;
+&lt;p&gt;&lt;a href="https://www.cuemath.com/numbers/greatest-common-divisor-gcd/" target="_blank" rel="noopener"&gt;https://www.cuemath.com/numbers/greatest-common-divisor-gcd/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:10"&gt;
+&lt;p&gt;&lt;a href="https://byjus.com/maths/greatest-common-divisor/" target="_blank" rel="noopener"&gt;https://byjus.com/maths/greatest-common-divisor/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:11"&gt;
+&lt;p&gt;&lt;a href="https://www.slideshare.net/slideshow/densityof-numberline/29878041" target="_blank" rel="noopener"&gt;https://www.slideshare.net/slideshow/densityof-numberline/29878041&lt;/a&gt;&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:11" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:11" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:12"&gt;
+&lt;p&gt;&lt;a href="https://www.geeksforgeeks.org/maths/what-is-the-density-property-of-rational-numbers/" target="_blank" rel="noopener"&gt;https://www.geeksforgeeks.org/maths/what-is-the-density-property-of-rational-numbers/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:13"&gt;
+&lt;p&gt;&lt;a href="https://www.slideshare.net/slideshow/densityof-numberline-30862263/30862263" target="_blank" rel="noopener"&gt;https://www.slideshare.net/slideshow/densityof-numberline-30862263/30862263&lt;/a&gt;&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:14"&gt;
+&lt;p&gt;&lt;a href="https://studynlearn.com/what-is-rational-number" target="_blank" rel="noopener"&gt;https://studynlearn.com/what-is-rational-number&lt;/a&gt;&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:15"&gt;
+&lt;p&gt;&lt;a href="https://www.nagwa.com/en/explainers/570164325210/" target="_blank" rel="noopener"&gt;https://www.nagwa.com/en/explainers/570164325210/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>Sets and Relations</title><link>/iit-madras/mathematics-1/sets-and-relations/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/sets-and-relations/</guid><description/></item></channel></rss>

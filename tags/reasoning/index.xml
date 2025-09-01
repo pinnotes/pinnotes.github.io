@@ -1,122 +1,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Reasoning</title><link>/tags/reasoning/</link><description>Recent content in Reasoning on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/reasoning/index.xml" rel="self" type="application/rss+xml"/><item><title>Key Calendar Concepts for Exams 📅</title><link>/blog/reasoning/key-calendar-concepts-for-exams/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/blog/reasoning/key-calendar-concepts-for-exams/</guid><description>
-&lt;h2>Key Calendar Concepts for Exams 📅&lt;span class="hx-absolute -hx-mt-20" id="key-calendar-concepts-for-exams-">&lt;/span>
-&lt;a href="#key-calendar-concepts-for-exams-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>To excel in calendar reasoning questions for exams like SSC CHSL, focus on these essential concepts:&lt;/p>
-&lt;hr>
-&lt;h3>&lt;strong>1. Days of the Week&lt;/strong> 🗓️&lt;span class="hx-absolute -hx-mt-20" id="1-days-of-the-week-">&lt;/span>
-&lt;a href="#1-days-of-the-week-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>There are 7 days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday.&lt;/li>
-&lt;li>Days repeat every 7 days, forming a cycle&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>&lt;strong>2. Months of the Year&lt;/strong> 📆&lt;span class="hx-absolute -hx-mt-20" id="2-months-of-the-year-">&lt;/span>
-&lt;a href="#2-months-of-the-year-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>12 months: January to December.&lt;/li>
-&lt;li>Each month has a fixed number of days (28, 29, 30, or 31)&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>&lt;strong>3. Ordinary Year vs. Leap Year&lt;/strong> 🔄&lt;span class="hx-absolute -hx-mt-20" id="3-ordinary-year-vs-leap-year-">&lt;/span>
-&lt;a href="#3-ordinary-year-vs-leap-year-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Ordinary Year:&lt;/strong> 365 days (52 weeks + 1 day). That 1 extra day is called an &lt;strong>odd day&lt;/strong>.&lt;/li>
-&lt;li>&lt;strong>Leap Year:&lt;/strong> 366 days (52 weeks + 2 days). That 2 extra days are called &lt;strong>odd days&lt;/strong>.&lt;/li>
-&lt;li>Leap year rule: Divisible by 4, but century years must also be divisible by 400 (e.g., 2000 is leap, 1900 is not)&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>&lt;strong>4. Odd Days Concept&lt;/strong> 🤔&lt;span class="hx-absolute -hx-mt-20" id="4-odd-days-concept-">&lt;/span>
-&lt;a href="#4-odd-days-concept-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Odd days&lt;/strong> are the extra days left after counting complete weeks in a period.&lt;/li>
-&lt;li>Used to calculate the day of the week for any given date&lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref1:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/li>
-&lt;li>Example: 365 days ÷ 7 = 52 weeks + 1 odd day.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>&lt;strong>5. Day Coding for Fast Calculation&lt;/strong> 🔢&lt;span class="hx-absolute -hx-mt-20" id="5-day-coding-for-fast-calculation-">&lt;/span>
-&lt;a href="#5-day-coding-for-fast-calculation-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">Day&lt;/th>
-&lt;th style="text-align: left">Code&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">Sunday&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Monday&lt;/td>
-&lt;td style="text-align: left">1&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Tuesday&lt;/td>
-&lt;td style="text-align: left">2&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Wednesday&lt;/td>
-&lt;td style="text-align: left">3&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Thursday&lt;/td>
-&lt;td style="text-align: left">4&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Friday&lt;/td>
-&lt;td style="text-align: left">5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Saturday&lt;/td>
-&lt;td style="text-align: left">6&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;ul>
-&lt;li>Use these codes to quickly find the day after a certain number of days&lt;sup id="fnref2:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>&lt;strong>6. Century Odd Days &amp;amp; Repetition&lt;/strong> 🔁&lt;span class="hx-absolute -hx-mt-20" id="6-century-odd-days--repetition-">&lt;/span>
-&lt;a href="#6-century-odd-days--repetition-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>100 years: 5 odd days&lt;/li>
-&lt;li>200 years: 3 odd days&lt;/li>
-&lt;li>300 years: 1 odd day&lt;/li>
-&lt;li>400 years: 0 odd days (calendar repeats every 400 years)&lt;sup id="fnref3:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref2:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>&lt;strong>7. Types of Calendar Questions&lt;/strong> ❓&lt;span class="hx-absolute -hx-mt-20" id="7-types-of-calendar-questions-">&lt;/span>
-&lt;a href="#7-types-of-calendar-questions-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Finding the Day on a Given Date:&lt;/strong> With or without a reference date&lt;sup id="fnref3:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;sup id="fnref4:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/li>
-&lt;li>&lt;strong>Matching Calendars:&lt;/strong> Which year/month will have the same calendar as another&lt;sup id="fnref5:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/li>
-&lt;li>&lt;strong>Counting Odd Days:&lt;/strong> To determine the weekday for a date&lt;sup id="fnref4:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/li>
-&lt;li>&lt;strong>Leap Year Calculations:&lt;/strong> Identifying leap years and their effect on the calendar&lt;sup id="fnref6:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3>&lt;strong>8. Tricks &amp;amp; Shortcuts&lt;/strong> 🪄&lt;span class="hx-absolute -hx-mt-20" id="8-tricks--shortcuts-">&lt;/span>
-&lt;a href="#8-tricks--shortcuts-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>The same calendar repeats after 6 or 11 years for ordinary years and after 28 years for leap years&lt;sup id="fnref5:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/li>
-&lt;li>The first day of a century is always Monday, Wednesday, Friday, or Saturday&lt;sup id="fnref6:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/li>
-&lt;li>Use odd days to quickly find the weekday for any date.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>📝 Quick Practice Question&lt;span class="hx-absolute -hx-mt-20" id="-quick-practice-question">&lt;/span>
-&lt;a href="#-quick-practice-question" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Q:&lt;/strong> Today is Monday. What day will it be after 61 days?
-&lt;strong>Solution:&lt;/strong> 61 ÷ 7 = 8 weeks + 5 odd days. Monday + 5 = &lt;strong>Saturday&lt;/strong>&lt;sup id="fnref7:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> 🛍️&lt;/p>
-&lt;hr>
-&lt;p>&lt;strong>Remember:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Mastering these concepts with practice will help you solve calendar questions quickly and accurately in exams! 🚀&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/li>
-&lt;/ul>
-&lt;div style="text-align: center">⁂&lt;/div>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>&lt;a href="http://www.placementpreparation.io/logical-reasoning/calendar/concepts/" target="_blank" rel="noopener">http://www.placementpreparation.io/logical-reasoning/calendar/concepts/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>&lt;a href="https://byjus.com/govt-exams/calendars-logical-reasoning/" target="_blank" rel="noopener">https://byjus.com/govt-exams/calendars-logical-reasoning/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref4:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref5:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref6:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref7:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3">
-&lt;p>&lt;a href="https://testbook.com/reasoning/calendar-reasoning" target="_blank" rel="noopener">https://testbook.com/reasoning/calendar-reasoning&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref3:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref4:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref5:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref6:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4">
-&lt;p>education.study_materials&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item></channel></rss>
+&lt;h2&gt;Key Calendar Concepts for Exams 📅&lt;span class="hx-absolute -hx-mt-20" id="key-calendar-concepts-for-exams-"&gt;&lt;/span&gt;
+&lt;a href="#key-calendar-concepts-for-exams-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To excel in calendar reasoning questions for exams like SSC CHSL, focus on these essential concepts:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;1. Days of the Week&lt;/strong&gt; 🗓️&lt;span class="hx-absolute -hx-mt-20" id="1-days-of-the-week-"&gt;&lt;/span&gt;
+&lt;a href="#1-days-of-the-week-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;There are 7 days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday.&lt;/li&gt;
+&lt;li&gt;Days repeat every 7 days, forming a cycle&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;2. Months of the Year&lt;/strong&gt; 📆&lt;span class="hx-absolute -hx-mt-20" id="2-months-of-the-year-"&gt;&lt;/span&gt;
+&lt;a href="#2-months-of-the-year-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;12 months: January to December.&lt;/li&gt;
+&lt;li&gt;Each month has a fixed number of days (28, 29, 30, or 31)&lt;sup id="fnref1:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;3. Ordinary Year vs. Leap Year&lt;/strong&gt; 🔄&lt;span class="hx-absolute -hx-mt-20" id="3-ordinary-year-vs-leap-year-"&gt;&lt;/span&gt;
+&lt;a href="#3-ordinary-year-vs-leap-year-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ordinary Year:&lt;/strong&gt; 365 days (52 weeks + 1 day). That 1 extra day is called an &lt;strong&gt;odd day&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leap Year:&lt;/strong&gt; 366 days (52 weeks + 2 days). That 2 extra days are called &lt;strong&gt;odd days&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Leap year rule: Divisible by 4, but century years must also be divisible by 400 (e.g., 2000 is leap, 1900 is not)&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;4. Odd Days Concept&lt;/strong&gt; 🤔&lt;span class="hx-absolute -hx-mt-20" id="4-odd-days-concept-"&gt;&lt;/span&gt;
+&lt;a href="#4-odd-days-concept-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Odd days&lt;/strong&gt; are the extra days left after counting complete weeks in a period.&lt;/li&gt;
+&lt;li&gt;Used to calculate the day of the week for any given date&lt;sup id="fnref1:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref1:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Example: 365 days ÷ 7 = 52 weeks + 1 odd day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;5. Day Coding for Fast Calculation&lt;/strong&gt; 🔢&lt;span class="hx-absolute -hx-mt-20" id="5-day-coding-for-fast-calculation-"&gt;&lt;/span&gt;
+&lt;a href="#5-day-coding-for-fast-calculation-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Day&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Code&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Sunday&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Monday&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Tuesday&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Wednesday&lt;/td&gt;
+&lt;td style="text-align: left"&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Thursday&lt;/td&gt;
+&lt;td style="text-align: left"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Friday&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Saturday&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Use these codes to quickly find the day after a certain number of days&lt;sup id="fnref2:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;6. Century Odd Days &amp;amp; Repetition&lt;/strong&gt; 🔁&lt;span class="hx-absolute -hx-mt-20" id="6-century-odd-days--repetition-"&gt;&lt;/span&gt;
+&lt;a href="#6-century-odd-days--repetition-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;100 years: 5 odd days&lt;/li&gt;
+&lt;li&gt;200 years: 3 odd days&lt;/li&gt;
+&lt;li&gt;300 years: 1 odd day&lt;/li&gt;
+&lt;li&gt;400 years: 0 odd days (calendar repeats every 400 years)&lt;sup id="fnref3:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref2:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;7. Types of Calendar Questions&lt;/strong&gt; ❓&lt;span class="hx-absolute -hx-mt-20" id="7-types-of-calendar-questions-"&gt;&lt;/span&gt;
+&lt;a href="#7-types-of-calendar-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Finding the Day on a Given Date:&lt;/strong&gt; With or without a reference date&lt;sup id="fnref3:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref4:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Matching Calendars:&lt;/strong&gt; Which year/month will have the same calendar as another&lt;sup id="fnref5:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Counting Odd Days:&lt;/strong&gt; To determine the weekday for a date&lt;sup id="fnref4:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leap Year Calculations:&lt;/strong&gt; Identifying leap years and their effect on the calendar&lt;sup id="fnref6:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;8. Tricks &amp;amp; Shortcuts&lt;/strong&gt; 🪄&lt;span class="hx-absolute -hx-mt-20" id="8-tricks--shortcuts-"&gt;&lt;/span&gt;
+&lt;a href="#8-tricks--shortcuts-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;The same calendar repeats after 6 or 11 years for ordinary years and after 28 years for leap years&lt;sup id="fnref5:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;The first day of a century is always Monday, Wednesday, Friday, or Saturday&lt;sup id="fnref6:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Use odd days to quickly find the weekday for any date.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;📝 Quick Practice Question&lt;span class="hx-absolute -hx-mt-20" id="-quick-practice-question"&gt;&lt;/span&gt;
+&lt;a href="#-quick-practice-question" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Today is Monday. What day will it be after 61 days?
+&lt;strong&gt;Solution:&lt;/strong&gt; 61 ÷ 7 = 8 weeks + 5 odd days. Monday + 5 = &lt;strong&gt;Saturday&lt;/strong&gt;&lt;sup id="fnref7:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt; 🛍️&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Remember:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mastering these concepts with practice will help you solve calendar questions quickly and accurately in exams! 🚀&lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="http://www.placementpreparation.io/logical-reasoning/calendar/concepts/" target="_blank" rel="noopener"&gt;http://www.placementpreparation.io/logical-reasoning/calendar/concepts/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="https://byjus.com/govt-exams/calendars-logical-reasoning/" target="_blank" rel="noopener"&gt;https://byjus.com/govt-exams/calendars-logical-reasoning/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref3:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref4:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref5:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref6:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref7:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;&lt;a href="https://testbook.com/reasoning/calendar-reasoning" target="_blank" rel="noopener"&gt;https://testbook.com/reasoning/calendar-reasoning&lt;/a&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref3:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref4:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref5:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref6:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;education.study_materials&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item></channel></rss>

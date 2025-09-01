@@ -1,68 +1,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – HUGO</title><link>/series/hugo/</link><description>Recent content in HUGO on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/series/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Add Chart.js in HUGO 📈</title><link>/blog/webdev/hugo-dev/add-chart-js-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/add-chart-js-in-hugo/</guid><description>
-&lt;h2>How to Add Chart.js as a Shortcode in Hugo 🎨📊&lt;span class="hx-absolute -hx-mt-20" id="how-to-add-chartjs-as-a-shortcode-in-hugo-">&lt;/span>
-&lt;a href="#how-to-add-chartjs-as-a-shortcode-in-hugo-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Want to make your Hugo blog or study notes pop with beautiful charts? With Chart.js and a simple Hugo shortcode, you can add interactive graphs to any page—no coding headaches! Let’s walk through the process step by step, with easy examples and emojis to help you remember. 🚀&lt;/p>
-&lt;h2>&lt;strong>What is Chart.js?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="what-is-chartjs">&lt;/span>
-&lt;a href="#what-is-chartjs" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Chart.js is a popular JavaScript library that lets you create stunning charts (like bar, line, pie, and even Venn diagrams!) using just a little bit of code. It works perfectly with Hugo, a fast static site generator.&lt;/p>
-&lt;h2>&lt;strong>Step 1: Add Chart.js and Plugins to Your Site&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-1-add-chartjs-and-plugins-to-your-site">&lt;/span>
-&lt;a href="#step-1-add-chartjs-and-plugins-to-your-site" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>First, include Chart.js and any plugins you want in your site’s HTML. You can do this by adding these lines to your &lt;code>layouts/partials/head.html&lt;/code> or directly in your page:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div class="filename not-prose" dir="auto">layouts/partials/head.html&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Chart.js core --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://cdn.jsdelivr.net/npm/chart.js&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Data labels plugin --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Annotation plugin --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Venn diagram plugin --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://cdn.jsdelivr.net/npm/chartjs-chart-venn&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;h2&gt;How to Add Chart.js as a Shortcode in Hugo 🎨📊&lt;span class="hx-absolute -hx-mt-20" id="how-to-add-chartjs-as-a-shortcode-in-hugo-"&gt;&lt;/span&gt;
+&lt;a href="#how-to-add-chartjs-as-a-shortcode-in-hugo-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Want to make your Hugo blog or study notes pop with beautiful charts? With Chart.js and a simple Hugo shortcode, you can add interactive graphs to any page—no coding headaches! Let’s walk through the process step by step, with easy examples and emojis to help you remember. 🚀&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;What is Chart.js?&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="what-is-chartjs"&gt;&lt;/span&gt;
+&lt;a href="#what-is-chartjs" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Chart.js is a popular JavaScript library that lets you create stunning charts (like bar, line, pie, and even Venn diagrams!) using just a little bit of code. It works perfectly with Hugo, a fast static site generator.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Step 1: Add Chart.js and Plugins to Your Site&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-1-add-chartjs-and-plugins-to-your-site"&gt;&lt;/span&gt;
+&lt;a href="#step-1-add-chartjs-and-plugins-to-your-site" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;First, include Chart.js and any plugins you want in your site’s HTML. You can do this by adding these lines to your &lt;code&gt;layouts/partials/head.html&lt;/code&gt; or directly in your page:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div class="filename not-prose" dir="auto"&gt;layouts/partials/head.html&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;&amp;lt;!-- Chart.js core --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://cdn.jsdelivr.net/npm/chart.js&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;&amp;lt;!-- Data labels plugin --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;&amp;lt;!-- Annotation plugin --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;&amp;lt;!-- Venn diagram plugin --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://cdn.jsdelivr.net/npm/chartjs-chart-venn&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>These scripts let you use all the cool features Chart.js offers, including datalabels, annotations, and Venn diagrams! ✨&lt;/p>
-&lt;h2>&lt;strong>Step 2: Create a Hugo Shortcode for Charts&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-2-create-a-hugo-shortcode-for-charts">&lt;/span>
-&lt;a href="#step-2-create-a-hugo-shortcode-for-charts" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Let’s make a shortcode called &lt;code>chart.html&lt;/code> in your &lt;code>layouts/shortcodes/&lt;/code> folder. This shortcode will handle rendering any Chart.js chart you want!&lt;/p>
-&lt;p>Here’s a simple version:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $id := delimit (slice &amp;#34;chart&amp;#34; (now.UnixNano)) &amp;#34;-&amp;#34; }}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;chart&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">canvas&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $id }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">canvas&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;text/javascript&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">addEventListener&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;DOMContentLoaded&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kd">function&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">ctx&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getElementById&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;{{ $id }}&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">new&lt;/span> &lt;span class="nx">Chart&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">ctx&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{{&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nx">Inner&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">safeJS&lt;/span> &lt;span class="p">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;These scripts let you use all the cool features Chart.js offers, including datalabels, annotations, and Venn diagrams! ✨&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Step 2: Create a Hugo Shortcode for Charts&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-2-create-a-hugo-shortcode-for-charts"&gt;&lt;/span&gt;
+&lt;a href="#step-2-create-a-hugo-shortcode-for-charts" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let’s make a shortcode called &lt;code&gt;chart.html&lt;/code&gt; in your &lt;code&gt;layouts/shortcodes/&lt;/code&gt; folder. This shortcode will handle rendering any Chart.js chart you want!&lt;/p&gt;
+&lt;p&gt;Here’s a simple version:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{ $id := delimit (slice &amp;#34;chart&amp;#34; (now.UnixNano)) &amp;#34;-&amp;#34; }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;chart&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;canvas&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;{{ $id }}&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;canvas&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;addEventListener&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;DOMContentLoaded&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;ctx&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getElementById&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;{{ $id }}&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nx"&gt;Chart&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;ctx&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;{{&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Inner&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nx"&gt;safeJS&lt;/span&gt; &lt;span class="p"&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>What does this do?&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Generates a unique ID for each chart so you can have many on one page.&lt;/li>
-&lt;li>Sets up the HTML &lt;code>&amp;lt;canvas&amp;gt;&lt;/code> where the chart will appear.&lt;/li>
-&lt;li>Runs JavaScript to create the chart using the config you provide inside the shortcode.&lt;/li>
-&lt;/ul>
-&lt;h2>&lt;strong>Step 3: Use the Shortcode in Your Content&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-3-use-the-shortcode-in-your-content">&lt;/span>
-&lt;a href="#step-3-use-the-shortcode-in-your-content" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Now, you can easily add charts in your Markdown files like this:&lt;/p>
-&lt;h2>📈 Line Chart Example&lt;span class="hx-absolute -hx-mt-20" id="-line-chart-example">&lt;/span>
-&lt;a href="#-line-chart-example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>
-&lt;div class="chart">
-&lt;canvas id="chart-651591ee61db371d35a788c4fb6132fa">&lt;/canvas>
-&lt;script type="text/javascript">
-window.addEventListener("DOMContentLoaded", (event) => {
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;What does this do?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Generates a unique ID for each chart so you can have many on one page.&lt;/li&gt;
+&lt;li&gt;Sets up the HTML &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; where the chart will appear.&lt;/li&gt;
+&lt;li&gt;Runs JavaScript to create the chart using the config you provide inside the shortcode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Step 3: Use the Shortcode in Your Content&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-3-use-the-shortcode-in-your-content"&gt;&lt;/span&gt;
+&lt;a href="#step-3-use-the-shortcode-in-your-content" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now, you can easily add charts in your Markdown files like this:&lt;/p&gt;
+&lt;h2&gt;📈 Line Chart Example&lt;span class="hx-absolute -hx-mt-20" id="-line-chart-example"&gt;&lt;/span&gt;
+&lt;a href="#-line-chart-example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="chart"&gt;
+&lt;canvas id="chart-651591ee61db371d35a788c4fb6132fa"&gt;&lt;/canvas&gt;
+&lt;script type="text/javascript"&gt;
+window.addEventListener("DOMContentLoaded", (event) =&gt; {
 const ctx = document.getElementById("chart-651591ee61db371d35a788c4fb6132fa");
 const chart = new Chart(ctx, {
 type: 'line',
@@ -78,15 +78,15 @@ tension: 0.1
 }
 });
 });
-&lt;/script>
-&lt;/div>
-&lt;hr>
-&lt;h2>📊 Bar Chart Example&lt;span class="hx-absolute -hx-mt-20" id="-bar-chart-example">&lt;/span>
-&lt;a href="#-bar-chart-example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>
-&lt;div class="chart">
-&lt;canvas id="chart-1bf99bfc07ca2743894fe06a24d0a264">&lt;/canvas>
-&lt;script type="text/javascript">
-window.addEventListener("DOMContentLoaded", (event) => {
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;📊 Bar Chart Example&lt;span class="hx-absolute -hx-mt-20" id="-bar-chart-example"&gt;&lt;/span&gt;
+&lt;a href="#-bar-chart-example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="chart"&gt;
+&lt;canvas id="chart-1bf99bfc07ca2743894fe06a24d0a264"&gt;&lt;/canvas&gt;
+&lt;script type="text/javascript"&gt;
+window.addEventListener("DOMContentLoaded", (event) =&gt; {
 const ctx = document.getElementById("chart-1bf99bfc07ca2743894fe06a24d0a264");
 const chart = new Chart(ctx, {
 type: 'bar',
@@ -99,17 +99,17 @@ data: [12, 19, 3, 5, 3]
 }
 });
 });
-&lt;/script>
-&lt;/div>
-&lt;p>That’s it! Hugo will render these as interactive charts. 🧑‍💻&lt;/p>
-&lt;h2>&lt;strong>Step 4: Add More Chart Types (Even Venn Diagrams!)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="step-4-add-more-chart-types-even-venn-diagrams">&lt;/span>
-&lt;a href="#step-4-add-more-chart-types-even-venn-diagrams" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Want to show set intersections? Just use the Venn plugin:&lt;/p>
-&lt;h2>🟢 Venn Diagram Example&lt;span class="hx-absolute -hx-mt-20" id="-venn-diagram-example">&lt;/span>
-&lt;a href="#-venn-diagram-example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>
-&lt;div class="chart">
-&lt;canvas id="chart-80c423b9d64c0e2191c0b19541d1a88e">&lt;/canvas>
-&lt;script type="text/javascript">
-window.addEventListener("DOMContentLoaded", (event) => {
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;That’s it! Hugo will render these as interactive charts. 🧑‍💻&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Step 4: Add More Chart Types (Even Venn Diagrams!)&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-4-add-more-chart-types-even-venn-diagrams"&gt;&lt;/span&gt;
+&lt;a href="#step-4-add-more-chart-types-even-venn-diagrams" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Want to show set intersections? Just use the Venn plugin:&lt;/p&gt;
+&lt;h2&gt;🟢 Venn Diagram Example&lt;span class="hx-absolute -hx-mt-20" id="-venn-diagram-example"&gt;&lt;/span&gt;
+&lt;a href="#-venn-diagram-example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="chart"&gt;
+&lt;canvas id="chart-80c423b9d64c0e2191c0b19541d1a88e"&gt;&lt;/canvas&gt;
+&lt;script type="text/javascript"&gt;
+window.addEventListener("DOMContentLoaded", (event) =&gt; {
 const ctx = document.getElementById("chart-80c423b9d64c0e2191c0b19541d1a88e");
 const chart = new Chart(ctx, {
 type: 'venn',
@@ -125,483 +125,483 @@ data: [
 }
 });
 });
-&lt;/script>
-&lt;/div>
-&lt;h2>&lt;strong>Tips &amp;amp; Tricks for Students 📝&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="tips--tricks-for-students-">&lt;/span>
-&lt;a href="#tips--tricks-for-students-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>Line charts&lt;/strong>: Great for trends (like marks over months).&lt;/li>
-&lt;li>&lt;strong>Bar charts&lt;/strong>: Perfect for comparing categories (like favorite fruits).&lt;/li>
-&lt;li>&lt;strong>Venn diagrams&lt;/strong>: Awesome for set theory in math!&lt;/li>
-&lt;li>&lt;strong>Annotations&lt;/strong>: Highlight important points in your data.&lt;/li>
-&lt;li>&lt;strong>Datalabels&lt;/strong>: Show exact values on your charts for clarity.&lt;/li>
-&lt;/ul>
-&lt;h2>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
-&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">Chart Type&lt;/th>
-&lt;th style="text-align: left">Use Case Example&lt;/th>
-&lt;th style="text-align: left">How to Add with Shortcode&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">Line&lt;/td>
-&lt;td style="text-align: left">Trends over time&lt;/td>
-&lt;td style="text-align: left">&lt;code>type: 'line', ...&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Bar&lt;/td>
-&lt;td style="text-align: left">Category comparison&lt;/td>
-&lt;td style="text-align: left">&lt;code>type: 'bar', ...&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Venn&lt;/td>
-&lt;td style="text-align: left">Set relationships&lt;/td>
-&lt;td style="text-align: left">&lt;code>type: 'venn', ...&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2>&lt;strong>Conclusion&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="conclusion">&lt;/span>
-&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>With just a few steps, you can turn your Hugo site into a data-visualization powerhouse! Whether you’re explaining math concepts, showing survey results, or just making your blog more fun, Chart.js shortcodes make it easy. Give it a try and make your study notes come alive! 🚀📚&lt;/p>
-&lt;p>If you want more advanced examples or run into any trouble, just ask! Happy charting! 😊&lt;/p></description></item><item><title>Add Diagram in HUGO 🖼️ with Plotly.js</title><link>/blog/webdev/hugo-dev/plotly-js-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/plotly-js-in-hugo/</guid><description>
-&lt;h2>create a Shortcode in HUGO to add Diagrams with Plotly.js&lt;span class="hx-absolute -hx-mt-20" id="create-a-shortcode-in-hugo-to-add-diagrams-with-plotlyjs">&lt;/span>
-&lt;a href="#create-a-shortcode-in-hugo-to-add-diagrams-with-plotlyjs" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>To create a Hugo shortcode to embed Plotly.js diagrams, you can define a shortcode that includes the Plotly.js library and renders a Plotly chart based on JSON data or JavaScript code provided within the shortcode.&lt;/p>
-&lt;p>Here’s a simple example to create a shortcode named &lt;code>plotly.html&lt;/code>:&lt;/p>
-&lt;ol>
-&lt;li>Create a file named &lt;code>plotly.html&lt;/code> inside the &lt;code>layouts/shortcodes/&lt;/code> directory of your Hugo site.&lt;/li>
-&lt;li>Add the following code to &lt;code>plotly.html&lt;/code>:&lt;/li>
-&lt;/ol>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $id := printf &amp;#34;plotly-%d&amp;#34; (add (now.Unix) (len .Inner)) }}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Plotly chart container --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $id }}&amp;#34;&lt;/span> &lt;span class="na">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;width: {{ .Get &amp;#34;&lt;/span>&lt;span class="na">width&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">default&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">100&lt;/span>&lt;span class="err">%&amp;#34;&lt;/span> &lt;span class="err">}};&lt;/span> &lt;span class="na">height:&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Get&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">height&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">default&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">600px&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}};&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Load Plotly.js from CDN --&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://cdn.plot.ly/plotly-latest.min.js&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">(&lt;/span>&lt;span class="kd">function&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{{&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nx">Inner&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">safeJS&lt;/span> &lt;span class="p">}};&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">layout&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{{&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nx">Get&lt;/span> &lt;span class="s2">&amp;#34;layout&amp;#34;&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="s2">&amp;#34;{}&amp;#34;&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="nx">safeJS&lt;/span> &lt;span class="p">}};&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Plotly&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">newPlot&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;{{ $id }}&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">data&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">layout&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">})();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Tips &amp;amp; Tricks for Students 📝&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="tips--tricks-for-students-"&gt;&lt;/span&gt;
+&lt;a href="#tips--tricks-for-students-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Line charts&lt;/strong&gt;: Great for trends (like marks over months).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bar charts&lt;/strong&gt;: Perfect for comparing categories (like favorite fruits).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Venn diagrams&lt;/strong&gt;: Awesome for set theory in math!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Annotations&lt;/strong&gt;: Highlight important points in your data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datalabels&lt;/strong&gt;: Show exact values on your charts for clarity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Summary Table&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="summary-table"&gt;&lt;/span&gt;
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Chart Type&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Use Case Example&lt;/th&gt;
+&lt;th style="text-align: left"&gt;How to Add with Shortcode&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Line&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Trends over time&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;type: 'line', ...&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Bar&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Category comparison&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;type: 'bar', ...&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Venn&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Set relationships&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;type: 'venn', ...&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="conclusion"&gt;&lt;/span&gt;
+&lt;a href="#conclusion" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;With just a few steps, you can turn your Hugo site into a data-visualization powerhouse! Whether you’re explaining math concepts, showing survey results, or just making your blog more fun, Chart.js shortcodes make it easy. Give it a try and make your study notes come alive! 🚀📚&lt;/p&gt;
+&lt;p&gt;If you want more advanced examples or run into any trouble, just ask! Happy charting! 😊&lt;/p&gt;</description></item><item><title>Add Diagram in HUGO 🖼️ with Plotly.js</title><link>/blog/webdev/hugo-dev/plotly-js-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/plotly-js-in-hugo/</guid><description>
+&lt;h2&gt;create a Shortcode in HUGO to add Diagrams with Plotly.js&lt;span class="hx-absolute -hx-mt-20" id="create-a-shortcode-in-hugo-to-add-diagrams-with-plotlyjs"&gt;&lt;/span&gt;
+&lt;a href="#create-a-shortcode-in-hugo-to-add-diagrams-with-plotlyjs" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To create a Hugo shortcode to embed Plotly.js diagrams, you can define a shortcode that includes the Plotly.js library and renders a Plotly chart based on JSON data or JavaScript code provided within the shortcode.&lt;/p&gt;
+&lt;p&gt;Here’s a simple example to create a shortcode named &lt;code&gt;plotly.html&lt;/code&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a file named &lt;code&gt;plotly.html&lt;/code&gt; inside the &lt;code&gt;layouts/shortcodes/&lt;/code&gt; directory of your Hugo site.&lt;/li&gt;
+&lt;li&gt;Add the following code to &lt;code&gt;plotly.html&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{ $id := printf &amp;#34;plotly-%d&amp;#34; (add (now.Unix) (len .Inner)) }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;&amp;lt;!-- Plotly chart container --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;{{ $id }}&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;style&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;width: {{ .Get &amp;#34;&lt;/span&gt;&lt;span class="na"&gt;width&lt;/span&gt;&lt;span class="err"&gt;&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;|&lt;/span&gt; &lt;span class="na"&gt;default&lt;/span&gt; &lt;span class="err"&gt;&amp;#34;&lt;/span&gt;&lt;span class="na"&gt;100&lt;/span&gt;&lt;span class="err"&gt;%&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;}};&lt;/span&gt; &lt;span class="na"&gt;height:&lt;/span&gt; &lt;span class="err"&gt;{{&lt;/span&gt; &lt;span class="err"&gt;.&lt;/span&gt;&lt;span class="na"&gt;Get&lt;/span&gt; &lt;span class="err"&gt;&amp;#34;&lt;/span&gt;&lt;span class="na"&gt;height&lt;/span&gt;&lt;span class="err"&gt;&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;|&lt;/span&gt; &lt;span class="na"&gt;default&lt;/span&gt; &lt;span class="err"&gt;&amp;#34;&lt;/span&gt;&lt;span class="na"&gt;600px&lt;/span&gt;&lt;span class="err"&gt;&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;}};&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;&amp;lt;!-- Load Plotly.js from CDN --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://cdn.plot.ly/plotly-latest.min.js&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{{&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Inner&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nx"&gt;safeJS&lt;/span&gt; &lt;span class="p"&gt;}};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;layout&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{{&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Get&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;layout&amp;#34;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;{}&amp;#34;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nx"&gt;safeJS&lt;/span&gt; &lt;span class="p"&gt;}};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;Plotly&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;newPlot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;{{ $id }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;layout&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;})();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>Usage in your Markdown:&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Usage in your Markdown:&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;h3>Explanation:&lt;span class="hx-absolute -hx-mt-20" id="explanation">&lt;/span>
-&lt;a href="#explanation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;code>width&lt;/code> and &lt;code>height&lt;/code> attributes control the size of the plot container.&lt;/li>
-&lt;li>The &lt;code>layout&lt;/code> parameter allows passing a JSON object for Plotly layout settings.&lt;/li>
-&lt;li>The actual plot data is passed inside the shortcode as JSON and is safely embedded in the script.&lt;/li>
-&lt;/ul>
-&lt;p>This lets you embed interactive Plotly charts easily within your Hugo content. Let me know if you want further customization or examples.&lt;/p></description></item><item><title>Monetize Your Hugo Site with Google AdSense 💰</title><link>/blog/webdev/hugo-dev/add-google-adsence-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/add-google-adsence-in-hugo/</guid><description>
-&lt;h2>integrate google adsence in hugo with ads customization&lt;span class="hx-absolute -hx-mt-20" id="integrate-google-adsence-in-hugo-with-ads-customization">&lt;/span>
-&lt;a href="#integrate-google-adsence-in-hugo-with-ads-customization" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>To integrate Google AdSense into your Hugo website with ad customization, follow these clear steps. This process works for most Hugo themes (including PaperMod, Blowfish, Academic, and others) and allows you to control where and how ads appear.&lt;/p>
-&lt;hr>
-&lt;h2>1. &lt;strong>Prerequisites&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-prerequisites">&lt;/span>
-&lt;a href="#1-prerequisites" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>Google AdSense account&lt;/strong> (sign up at &lt;a href="https://adsense.google.com/" target="_blank" rel="noopener">Google AdSense&lt;/a>)&lt;/li>
-&lt;li>&lt;strong>Hugo-based website&lt;/strong> (already set up and deployed)&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>2. &lt;strong>Add Your Website to Google AdSense&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-add-your-website-to-google-adsense">&lt;/span>
-&lt;a href="#2-add-your-website-to-google-adsense" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>Sign in to Google AdSense.&lt;/li>
-&lt;li>Go to &lt;strong>Sites&lt;/strong> &amp;gt; &lt;strong>Add Site&lt;/strong>.&lt;/li>
-&lt;li>Enter your website URL and save.&lt;/li>
-&lt;li>Copy the AdSense code snippet provided (it looks like a &lt;code>&amp;lt;script&amp;gt;&lt;/code> tag).&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h2>3. &lt;strong>Insert AdSense Code into Hugo&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-insert-adsense-code-into-hugo">&lt;/span>
-&lt;a href="#3-insert-adsense-code-into-hugo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>&lt;strong>A. For Site-Wide (Auto Ads) Integration&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="a-for-site-wide-auto-ads-integration">&lt;/span>
-&lt;a href="#a-for-site-wide-auto-ads-integration" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>Create a Partial for AdSense Script:&lt;/strong>
-&lt;ul>
-&lt;li>Create a file named &lt;code>adsense.html&lt;/code> in &lt;code>layouts/partials/google/&lt;/code> (create folders if they don’t exist).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Paste the AdSense Script:&lt;/strong>
-&lt;ul>
-&lt;li>Add the code snippet provided by AdSense:&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">async&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=YOUR-ADSENSE-CLIENT-ID&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Explanation:&lt;span class="hx-absolute -hx-mt-20" id="explanation"&gt;&lt;/span&gt;
+&lt;a href="#explanation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;width&lt;/code&gt; and &lt;code&gt;height&lt;/code&gt; attributes control the size of the plot container.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;layout&lt;/code&gt; parameter allows passing a JSON object for Plotly layout settings.&lt;/li&gt;
+&lt;li&gt;The actual plot data is passed inside the shortcode as JSON and is safely embedded in the script.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This lets you embed interactive Plotly charts easily within your Hugo content. Let me know if you want further customization or examples.&lt;/p&gt;</description></item><item><title>Monetize Your Hugo Site with Google AdSense 💰</title><link>/blog/webdev/hugo-dev/add-google-adsence-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/add-google-adsence-in-hugo/</guid><description>
+&lt;h2&gt;integrate google adsence in hugo with ads customization&lt;span class="hx-absolute -hx-mt-20" id="integrate-google-adsence-in-hugo-with-ads-customization"&gt;&lt;/span&gt;
+&lt;a href="#integrate-google-adsence-in-hugo-with-ads-customization" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To integrate Google AdSense into your Hugo website with ad customization, follow these clear steps. This process works for most Hugo themes (including PaperMod, Blowfish, Academic, and others) and allows you to control where and how ads appear.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;1. &lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="1-prerequisites"&gt;&lt;/span&gt;
+&lt;a href="#1-prerequisites" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google AdSense account&lt;/strong&gt; (sign up at &lt;a href="https://adsense.google.com/" target="_blank" rel="noopener"&gt;Google AdSense&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hugo-based website&lt;/strong&gt; (already set up and deployed)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2. &lt;strong&gt;Add Your Website to Google AdSense&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="2-add-your-website-to-google-adsense"&gt;&lt;/span&gt;
+&lt;a href="#2-add-your-website-to-google-adsense" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Sign in to Google AdSense.&lt;/li&gt;
+&lt;li&gt;Go to &lt;strong&gt;Sites&lt;/strong&gt; &amp;gt; &lt;strong&gt;Add Site&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Enter your website URL and save.&lt;/li&gt;
+&lt;li&gt;Copy the AdSense code snippet provided (it looks like a &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;3. &lt;strong&gt;Insert AdSense Code into Hugo&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="3-insert-adsense-code-into-hugo"&gt;&lt;/span&gt;
+&lt;a href="#3-insert-adsense-code-into-hugo" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;strong&gt;A. For Site-Wide (Auto Ads) Integration&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="a-for-site-wide-auto-ads-integration"&gt;&lt;/span&gt;
+&lt;a href="#a-for-site-wide-auto-ads-integration" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Create a Partial for AdSense Script:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a file named &lt;code&gt;adsense.html&lt;/code&gt; in &lt;code&gt;layouts/partials/google/&lt;/code&gt; (create folders if they don’t exist).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paste the AdSense Script:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Add the code snippet provided by AdSense:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;async&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=YOUR-ADSENSE-CLIENT-ID&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="na"&gt;crossorigin&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;anonymous&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;pre>&lt;code>- Replace `YOUR-ADSENSE-CLIENT-ID` with your actual AdSense client ID.
-&lt;/code>&lt;/pre>
-&lt;ol start="3">
-&lt;li>&lt;strong>Include the Partial in Your Site’s &lt;code>&amp;lt;head&amp;gt;&lt;/code>:&lt;/strong>
-&lt;ul>
-&lt;li>For many themes (like PaperMod, Blowfish, Academic), create or edit &lt;code>layouts/partials/extend_head.html&lt;/code> or your theme’s equivalent head partial.&lt;/li>
-&lt;li>Add:&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nx">partial&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;google/adsense.html&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;- Replace `YOUR-ADSENSE-CLIENT-ID` with your actual AdSense client ID.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;&lt;strong&gt;Include the Partial in Your Site’s &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;For many themes (like PaperMod, Blowfish, Academic), create or edit &lt;code&gt;layouts/partials/extend_head.html&lt;/code&gt; or your theme’s equivalent head partial.&lt;/li&gt;
+&lt;li&gt;Add:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go-html-template" data-lang="go-html-template"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;partial&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;#34;google/adsense.html&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;pre>&lt;code>- This ensures the AdSense script loads on every page.
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;h3>&lt;strong>B. For Custom Ad Placement (Manual Ads)&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="b-for-custom-ad-placement-manual-ads">&lt;/span>
-&lt;a href="#b-for-custom-ad-placement-manual-ads" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>Create Ad Units in AdSense:&lt;/strong>
-&lt;ul>
-&lt;li>In AdSense, go to &lt;strong>Ads&lt;/strong> &amp;gt; &lt;strong>By ad unit&lt;/strong>.&lt;/li>
-&lt;li>Create and configure a new ad unit (e.g., Display ad, In-article ad).&lt;/li>
-&lt;li>Copy the HTML code provided for the ad unit.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Insert Ad Code Where You Want Ads to Appear:&lt;/strong>
-&lt;ul>
-&lt;li>For example, to show an ad in your post content, create a partial such as &lt;code>layouts/partials/ads-in-article.html&lt;/code> and paste the ad unit code there.&lt;/li>
-&lt;li>In your content template (e.g., &lt;code>layouts/_default/single.html&lt;/code>), add:&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nx">partial&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;ads-in-article.html&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;- This ensures the AdSense script loads on every page.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;B. For Custom Ad Placement (Manual Ads)&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="b-for-custom-ad-placement-manual-ads"&gt;&lt;/span&gt;
+&lt;a href="#b-for-custom-ad-placement-manual-ads" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Create Ad Units in AdSense:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;In AdSense, go to &lt;strong&gt;Ads&lt;/strong&gt; &amp;gt; &lt;strong&gt;By ad unit&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Create and configure a new ad unit (e.g., Display ad, In-article ad).&lt;/li&gt;
+&lt;li&gt;Copy the HTML code provided for the ad unit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Insert Ad Code Where You Want Ads to Appear:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;For example, to show an ad in your post content, create a partial such as &lt;code&gt;layouts/partials/ads-in-article.html&lt;/code&gt; and paste the ad unit code there.&lt;/li&gt;
+&lt;li&gt;In your content template (e.g., &lt;code&gt;layouts/_default/single.html&lt;/code&gt;), add:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go-html-template" data-lang="go-html-template"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;partial&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;#34;ads-in-article.html&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;pre>&lt;code>- Place this line where you want the ad to appear (top, middle, bottom, etc.).
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;h2>4. &lt;strong>Upload &lt;code>ads.txt&lt;/code> for AdSense Verification&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="4-upload">&lt;/span>
-&lt;a href="#4-upload" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Download the &lt;code>ads.txt&lt;/code> file from AdSense (after approval).&lt;/li>
-&lt;li>Place it in your Hugo site’s &lt;code>/static&lt;/code> directory.&lt;/li>
-&lt;li>When deployed, it will be available at &lt;code>https://yourdomain.com/ads.txt&lt;/code>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>5. &lt;strong>Customize Ad Display and Types&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="5-customize-ad-display-and-types">&lt;/span>
-&lt;a href="#5-customize-ad-display-and-types" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>In your AdSense dashboard, use the &lt;strong>Ads&lt;/strong> tab to:
-&lt;ul>
-&lt;li>Enable/disable Auto ads.&lt;/li>
-&lt;li>Control ad formats (e.g., in-page, anchor, vignette).&lt;/li>
-&lt;li>Preview and adjust ad placements with the visual editor.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>For &lt;strong>manual ads&lt;/strong>, you can add different ad units to different partials or templates for fine-grained control.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>6. &lt;strong>Deploy and Request Review&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="6-deploy-and-request-review">&lt;/span>
-&lt;a href="#6-deploy-and-request-review" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Deploy your Hugo site as usual.&lt;/li>
-&lt;li>In AdSense, request a review if prompted.&lt;/li>
-&lt;li>Once approved, ads will begin to appear.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>7. &lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="7-summary-table">&lt;/span>
-&lt;a href="#7-summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">Step&lt;/th>
-&lt;th style="text-align: left">Action&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">1. AdSense Account&lt;/td>
-&lt;td style="text-align: left">Sign up and add your site&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">2. Get Script&lt;/td>
-&lt;td style="text-align: left">Copy AdSense script or ad unit code&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">3. Hugo Integration&lt;/td>
-&lt;td style="text-align: left">Place script in partial (&lt;code>adsense.html&lt;/code>), include in head or content templates&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">4. ads.txt&lt;/td>
-&lt;td style="text-align: left">Place in &lt;code>/static&lt;/code> directory&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">5. Customize Ads&lt;/td>
-&lt;td style="text-align: left">Use AdSense dashboard for settings, or place manual units as desired&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">6. Deploy &amp;amp; Review&lt;/td>
-&lt;td style="text-align: left">Deploy site, request review, and monitor ad performance&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h2>8. &lt;strong>Tips for Best Results&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="8-tips-for-best-results">&lt;/span>
-&lt;a href="#8-tips-for-best-results" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>Test locally and in production&lt;/strong> to ensure ads display correctly.&lt;/li>
-&lt;li>&lt;strong>Use partials&lt;/strong> for modular, reusable ad placement.&lt;/li>
-&lt;li>&lt;strong>Avoid too many ads&lt;/strong> to maintain a good user experience.&lt;/li>
-&lt;li>&lt;strong>Comply with AdSense policies&lt;/strong> to avoid account issues.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;p>&lt;strong>References:&lt;/strong>&lt;/p>
-&lt;hr>
-&lt;p>With this approach, you can flexibly integrate and customize Google AdSense ads anywhere on your Hugo site.&lt;/p>
-&lt;div style="text-align: center">⁂&lt;/div>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>How to add Ads to Hugo&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>How To Add Google AdSense To Hugo + PaperMod Website&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3">
-&lt;p>How To Add Ads To Hugo Website Using Blowfish Theme&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item><item><title>Add Google Analytics in HUGO 🌟</title><link>/blog/webdev/hugo-dev/add-google-analytics-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/add-google-analytics-in-hugo/</guid><description>
-&lt;h2>how to add google analytics in hugo&lt;span class="hx-absolute -hx-mt-20" id="how-to-add-google-analytics-in-hugo">&lt;/span>
-&lt;a href="#how-to-add-google-analytics-in-hugo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>To add Google Analytics to your Hugo site, follow these clear steps:&lt;/p>
-&lt;hr>
-&lt;h2>1. &lt;strong>Create a Google Analytics Account and Get Your Measurement ID&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-create-a-google-analytics-account-and-get-your-measurement-id">&lt;/span>
-&lt;a href="#1-create-a-google-analytics-account-and-get-your-measurement-id" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Go to &lt;a href="https://analytics.google.com/" target="_blank" rel="noopener">Google Analytics&lt;/a> and sign in or create an account.&lt;/li>
-&lt;li>Set up a new property for your website and note your &lt;strong>Measurement ID&lt;/strong> (e.g., &lt;code>G-XXXXXXXXXX&lt;/code> for GA4 or &lt;code>UA-XXXXXXXX-X&lt;/code> for Universal Analytics)&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>2. &lt;strong>Configure Your Hugo Site&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-configure-your-hugo-site">&lt;/span>
-&lt;a href="#2-configure-your-hugo-site" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>&lt;strong>A. Add Your Measurement ID to config.toml&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="a-add-your-measurement-id-to-configtoml">&lt;/span>
-&lt;a href="#a-add-your-measurement-id-to-configtoml" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Open your site&amp;rsquo;s &lt;code>config.toml&lt;/code> file and add this line at the top level (replace with your actual ID):&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">googleAnalytics&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;G-XXXXXXXXXX&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;- Place this line where you want the ad to appear (top, middle, bottom, etc.).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2&gt;4. &lt;strong&gt;Upload &lt;code&gt;ads.txt&lt;/code&gt; for AdSense Verification&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="4-upload"&gt;&lt;/span&gt;
+&lt;a href="#4-upload" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Download the &lt;code&gt;ads.txt&lt;/code&gt; file from AdSense (after approval).&lt;/li&gt;
+&lt;li&gt;Place it in your Hugo site’s &lt;code&gt;/static&lt;/code&gt; directory.&lt;/li&gt;
+&lt;li&gt;When deployed, it will be available at &lt;code&gt;https://yourdomain.com/ads.txt&lt;/code&gt;&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;5. &lt;strong&gt;Customize Ad Display and Types&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="5-customize-ad-display-and-types"&gt;&lt;/span&gt;
+&lt;a href="#5-customize-ad-display-and-types" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;In your AdSense dashboard, use the &lt;strong&gt;Ads&lt;/strong&gt; tab to:
+&lt;ul&gt;
+&lt;li&gt;Enable/disable Auto ads.&lt;/li&gt;
+&lt;li&gt;Control ad formats (e.g., in-page, anchor, vignette).&lt;/li&gt;
+&lt;li&gt;Preview and adjust ad placements with the visual editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;For &lt;strong&gt;manual ads&lt;/strong&gt;, you can add different ad units to different partials or templates for fine-grained control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;6. &lt;strong&gt;Deploy and Request Review&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="6-deploy-and-request-review"&gt;&lt;/span&gt;
+&lt;a href="#6-deploy-and-request-review" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Deploy your Hugo site as usual.&lt;/li&gt;
+&lt;li&gt;In AdSense, request a review if prompted.&lt;/li&gt;
+&lt;li&gt;Once approved, ads will begin to appear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;7. &lt;strong&gt;Summary Table&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="7-summary-table"&gt;&lt;/span&gt;
+&lt;a href="#7-summary-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Step&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;1. AdSense Account&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Sign up and add your site&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;2. Get Script&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Copy AdSense script or ad unit code&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;3. Hugo Integration&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Place script in partial (&lt;code&gt;adsense.html&lt;/code&gt;), include in head or content templates&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;4. ads.txt&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Place in &lt;code&gt;/static&lt;/code&gt; directory&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;5. Customize Ads&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Use AdSense dashboard for settings, or place manual units as desired&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;6. Deploy &amp;amp; Review&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Deploy site, request review, and monitor ad performance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;8. &lt;strong&gt;Tips for Best Results&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="8-tips-for-best-results"&gt;&lt;/span&gt;
+&lt;a href="#8-tips-for-best-results" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Test locally and in production&lt;/strong&gt; to ensure ads display correctly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use partials&lt;/strong&gt; for modular, reusable ad placement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Avoid too many ads&lt;/strong&gt; to maintain a good user experience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comply with AdSense policies&lt;/strong&gt; to avoid account issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;With this approach, you can flexibly integrate and customize Google AdSense ads anywhere on your Hugo site.&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;How to add Ads to Hugo&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;How To Add Google AdSense To Hugo + PaperMod Website&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;How To Add Ads To Hugo Website Using Blowfish Theme&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>Add Google Analytics in HUGO 🌟</title><link>/blog/webdev/hugo-dev/add-google-analytics-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/add-google-analytics-in-hugo/</guid><description>
+&lt;h2&gt;how to add google analytics in hugo&lt;span class="hx-absolute -hx-mt-20" id="how-to-add-google-analytics-in-hugo"&gt;&lt;/span&gt;
+&lt;a href="#how-to-add-google-analytics-in-hugo" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To add Google Analytics to your Hugo site, follow these clear steps:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;1. &lt;strong&gt;Create a Google Analytics Account and Get Your Measurement ID&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="1-create-a-google-analytics-account-and-get-your-measurement-id"&gt;&lt;/span&gt;
+&lt;a href="#1-create-a-google-analytics-account-and-get-your-measurement-id" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Go to &lt;a href="https://analytics.google.com/" target="_blank" rel="noopener"&gt;Google Analytics&lt;/a&gt; and sign in or create an account.&lt;/li&gt;
+&lt;li&gt;Set up a new property for your website and note your &lt;strong&gt;Measurement ID&lt;/strong&gt; (e.g., &lt;code&gt;G-XXXXXXXXXX&lt;/code&gt; for GA4 or &lt;code&gt;UA-XXXXXXXX-X&lt;/code&gt; for Universal Analytics)&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2. &lt;strong&gt;Configure Your Hugo Site&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="2-configure-your-hugo-site"&gt;&lt;/span&gt;
+&lt;a href="#2-configure-your-hugo-site" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;strong&gt;A. Add Your Measurement ID to config.toml&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="a-add-your-measurement-id-to-configtoml"&gt;&lt;/span&gt;
+&lt;a href="#a-add-your-measurement-id-to-configtoml" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Open your site&amp;rsquo;s &lt;code&gt;config.toml&lt;/code&gt; file and add this line at the top level (replace with your actual ID):&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;googleAnalytics&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;G-XXXXXXXXXX&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;hr>
-&lt;h3>&lt;strong>B. Ensure the Analytics Template is Included in Your Theme&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="b-ensure-the-analytics-template-is-included-in-your-theme">&lt;/span>
-&lt;a href="#b-ensure-the-analytics-template-is-included-in-your-theme" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Hugo has a built-in template for Google Analytics. You need to include it in your site&amp;rsquo;s &lt;code>&amp;lt;head&amp;gt;&lt;/code> section.&lt;/p>
-&lt;h4>&lt;strong>If Your Theme Already Supports Analytics:&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="if-your-theme-already-supports-analytics">&lt;/span>
-&lt;a href="#if-your-theme-already-supports-analytics" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>Most modern Hugo themes automatically include the Google Analytics template if the &lt;code>googleAnalytics&lt;/code> value is set in &lt;code>config.toml&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>No further action needed.&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h4>&lt;strong>If Your Theme Does NOT Include It:&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="if-your-theme-does-not-include-it">&lt;/span>
-&lt;a href="#if-your-theme-does-not-include-it" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
-&lt;li>Copy your theme’s &lt;code>header.html&lt;/code> (often at &lt;code>themes/yourtheme/layouts/partials/header.html&lt;/code>) to your site’s own &lt;code>layouts/partials/header.html&lt;/code> to avoid editing theme files directly&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/li>
-&lt;li>Add the following line inside the &lt;code>&amp;lt;head&amp;gt;&lt;/code> section:&lt;/li>
-&lt;/ol>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">template&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;_internal/google_analytics.html&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;B. Ensure the Analytics Template is Included in Your Theme&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="b-ensure-the-analytics-template-is-included-in-your-theme"&gt;&lt;/span&gt;
+&lt;a href="#b-ensure-the-analytics-template-is-included-in-your-theme" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hugo has a built-in template for Google Analytics. You need to include it in your site&amp;rsquo;s &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;If Your Theme Already Supports Analytics:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="if-your-theme-already-supports-analytics"&gt;&lt;/span&gt;
+&lt;a href="#if-your-theme-already-supports-analytics" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Most modern Hugo themes automatically include the Google Analytics template if the &lt;code&gt;googleAnalytics&lt;/code&gt; value is set in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No further action needed.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;If Your Theme Does NOT Include It:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="if-your-theme-does-not-include-it"&gt;&lt;/span&gt;
+&lt;a href="#if-your-theme-does-not-include-it" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Copy your theme’s &lt;code&gt;header.html&lt;/code&gt; (often at &lt;code&gt;themes/yourtheme/layouts/partials/header.html&lt;/code&gt;) to your site’s own &lt;code&gt;layouts/partials/header.html&lt;/code&gt; to avoid editing theme files directly&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref1:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Add the following line inside the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go-html-template" data-lang="go-html-template"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;template&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;#34;_internal/google_analytics.html&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;ul>
-&lt;li>For GA4, you may also add:&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">template&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;_internal/google_analytics_async.html&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;For GA4, you may also add:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go-html-template" data-lang="go-html-template"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;template&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;#34;_internal/google_analytics_async.html&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;hr>
-&lt;h2>3. &lt;strong>Build and Deploy Your Site&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-build-and-deploy-your-site">&lt;/span>
-&lt;a href="#3-build-and-deploy-your-site" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Run &lt;code>hugo&lt;/code> to build your site.&lt;/li>
-&lt;li>Deploy as usual.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>4. &lt;strong>Verify Tracking&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="4-verify-tracking">&lt;/span>
-&lt;a href="#4-verify-tracking" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Visit your site and check the Real-Time section in Google Analytics to confirm data is being received.&lt;/li>
-&lt;li>If you use browser privacy plugins, try in an incognito window to ensure scripts aren’t blocked&lt;sup id="fnref1:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>&lt;strong>Optional: Custom GA4 Integration&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="optional-custom-ga4-integration">&lt;/span>
-&lt;a href="#optional-custom-ga4-integration" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>If you want more control or your theme doesn’t support Hugo’s built-in templates, you can create a custom partial (e.g., &lt;code>analytics-gtag.html&lt;/code>) and include the GA4 script manually&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>:&lt;/p>
-&lt;p>&lt;strong>In &lt;code>config.toml&lt;/code>:&lt;/strong>&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">params&lt;/span>&lt;span class="p">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">googleAnalyticsID&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;G-XXXXXXXXXX&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;3. &lt;strong&gt;Build and Deploy Your Site&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="3-build-and-deploy-your-site"&gt;&lt;/span&gt;
+&lt;a href="#3-build-and-deploy-your-site" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Run &lt;code&gt;hugo&lt;/code&gt; to build your site.&lt;/li&gt;
+&lt;li&gt;Deploy as usual.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;4. &lt;strong&gt;Verify Tracking&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="4-verify-tracking"&gt;&lt;/span&gt;
+&lt;a href="#4-verify-tracking" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Visit your site and check the Real-Time section in Google Analytics to confirm data is being received.&lt;/li&gt;
+&lt;li&gt;If you use browser privacy plugins, try in an incognito window to ensure scripts aren’t blocked&lt;sup id="fnref1:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;strong&gt;Optional: Custom GA4 Integration&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="optional-custom-ga4-integration"&gt;&lt;/span&gt;
+&lt;a href="#optional-custom-ga4-integration" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If you want more control or your theme doesn’t support Hugo’s built-in templates, you can create a custom partial (e.g., &lt;code&gt;analytics-gtag.html&lt;/code&gt;) and include the GA4 script manually&lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In &lt;code&gt;config.toml&lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;googleAnalyticsID&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;G-XXXXXXXXXX&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>In &lt;code>/layouts/partials/analytics-gtag.html&lt;/code>:&lt;/strong>&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">async&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalyticsID }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">dataLayer&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">dataLayer&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="p">[];&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">function&lt;/span> &lt;span class="nx">gtag&lt;/span>&lt;span class="p">(){&lt;/span>&lt;span class="nx">dataLayer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">push&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">arguments&lt;/span>&lt;span class="p">);}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">gtag&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;js&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Date&lt;/span>&lt;span class="p">());&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">gtag&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;config&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;{{ .Site.Params.googleAnalyticsID }}&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;In &lt;code&gt;/layouts/partials/analytics-gtag.html&lt;/code&gt;:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;async&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalyticsID }}&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;dataLayer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;dataLayer&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="p"&gt;[];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;gtag&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;&lt;span class="nx"&gt;dataLayer&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;push&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;arguments&lt;/span&gt;&lt;span class="p"&gt;);}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;gtag&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;js&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nb"&gt;Date&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;gtag&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;config&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;{{ .Site.Params.googleAnalyticsID }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Then call this partial in your base template (&lt;code>baseof.html&lt;/code>):&lt;/strong>&lt;/p>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">if&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Site.Params.googleAnalyticsID&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nx">partial&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;analytics-gtag.html&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">end&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Then call this partial in your base template (&lt;code&gt;baseof.html&lt;/code&gt;):&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go-html-template" data-lang="go-html-template"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;.Site.Params.googleAnalyticsID&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;partial&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;#34;analytics-gtag.html&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;end&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;hr>
-&lt;h2>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
-&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">Step&lt;/th>
-&lt;th style="text-align: left">Action&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">1. Get Measurement ID&lt;/td>
-&lt;td style="text-align: left">From Google Analytics account&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">2. Edit config.toml&lt;/td>
-&lt;td style="text-align: left">Add &lt;code>googleAnalytics = &amp;quot;G-XXXXXXXXXX&amp;quot;&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">3. Check theme header&lt;/td>
-&lt;td style="text-align: left">Ensure &lt;code>{{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }}&lt;/code> is included&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">4. Build &amp;amp; Deploy&lt;/td>
-&lt;td style="text-align: left">Run &lt;code>hugo&lt;/code> and deploy your site&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">5. Verify&lt;/td>
-&lt;td style="text-align: left">Check Google Analytics dashboard&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;p>&lt;strong>That’s it!&lt;/strong> Your Hugo site will now track visitors using Google Analytics&lt;sup id="fnref1:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref2:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;sup id="fnref2:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref1:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
-&lt;div style="text-align: center">⁂&lt;/div>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>&lt;a href="https://digitaldrummerj.me/hugo-google-analytics/" target="_blank" rel="noopener">https://digitaldrummerj.me/hugo-google-analytics/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>&lt;a href="https://staticmania.com/blog/google-analytics-on-hugo" target="_blank" rel="noopener">https://staticmania.com/blog/google-analytics-on-hugo&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3">
-&lt;p>&lt;a href="https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/" target="_blank" rel="noopener">https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4">
-&lt;p>&lt;a href="https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a" target="_blank" rel="noopener">https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item><item><title>Build Formula Calculator in HUGO 🧮</title><link>/blog/webdev/hugo-dev/build-formula-calculator-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/build-formula-calculator-in-hugo/</guid><description/></item><item><title>Build Modular Composable Calculator in HUGO 🧮</title><link>/blog/webdev/hugo-dev/build-modular-composable-calculator-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/build-modular-composable-calculator-in-hugo/</guid><description/></item><item><title>Embed PDF in HUGO 📄</title><link>/blog/webdev/hugo-dev/pdf-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/pdf-in-hugo/</guid><description>
-&lt;h3>create a Shortcode in HUGO to embed PDF&lt;span class="hx-absolute -hx-mt-20" id="create-a-shortcode-in-hugo-to-embed-pdf">&lt;/span>
-&lt;a href="#create-a-shortcode-in-hugo-to-embed-pdf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>To create a shortcode in Hugo to embed a PDF, you can define a custom shortcode that uses HTML&amp;rsquo;s &lt;code>&amp;lt;embed&amp;gt;&lt;/code> or &lt;code>&amp;lt;iframe&amp;gt;&lt;/code> tag to render the PDF within your Hugo site.&lt;/p>
-&lt;p>Here&amp;rsquo;s how to create a simple shortcode named &lt;code>pdfembed.html&lt;/code>:&lt;/p>
-&lt;ol>
-&lt;li>Create a file named &lt;code>pdfembed.html&lt;/code> inside the &lt;code>layouts/shortcodes/&lt;/code> directory of your Hugo site.&lt;/li>
-&lt;li>Add the following code to &lt;code>pdfembed.html&lt;/code>:&lt;/li>
-&lt;/ol>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $url := .Get &amp;#34;src&amp;#34; }}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ if not $url }}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Error:&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> PDF URL is required. Usage: &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ else }}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">embed&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $url }}&amp;#34;&lt;/span> &lt;span class="na">type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;application/pdf&amp;#34;&lt;/span> &lt;span class="na">width&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Get &amp;#34;&lt;/span>&lt;span class="na">width&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">default&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">100&lt;/span>&lt;span class="err">%&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span> &lt;span class="na">height&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Get &amp;#34;&lt;/span>&lt;span class="na">height&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">default&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">600px&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ end }}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;&lt;strong&gt;Summary Table&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="summary-table"&gt;&lt;/span&gt;
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Step&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;1. Get Measurement ID&lt;/td&gt;
+&lt;td style="text-align: left"&gt;From Google Analytics account&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;2. Edit config.toml&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Add &lt;code&gt;googleAnalytics = &amp;quot;G-XXXXXXXXXX&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;3. Check theme header&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Ensure &lt;code&gt;{{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }}&lt;/code&gt; is included&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;4. Build &amp;amp; Deploy&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Run &lt;code&gt;hugo&lt;/code&gt; and deploy your site&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;5. Verify&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Check Google Analytics dashboard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;That’s it!&lt;/strong&gt; Your Hugo site will now track visitors using Google Analytics&lt;sup id="fnref1:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref2:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref2:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref1:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://digitaldrummerj.me/hugo-google-analytics/" target="_blank" rel="noopener"&gt;https://digitaldrummerj.me/hugo-google-analytics/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="https://staticmania.com/blog/google-analytics-on-hugo" target="_blank" rel="noopener"&gt;https://staticmania.com/blog/google-analytics-on-hugo&lt;/a&gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;&lt;a href="https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/" target="_blank" rel="noopener"&gt;https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;&lt;a href="https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a" target="_blank" rel="noopener"&gt;https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a&lt;/a&gt;&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>Build Formula Calculator in HUGO 🧮</title><link>/blog/webdev/hugo-dev/build-formula-calculator-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/build-formula-calculator-in-hugo/</guid><description/></item><item><title>Build Modular Composable Calculator in HUGO 🧮</title><link>/blog/webdev/hugo-dev/build-modular-composable-calculator-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/build-modular-composable-calculator-in-hugo/</guid><description/></item><item><title>Embed PDF in HUGO 📄</title><link>/blog/webdev/hugo-dev/pdf-in-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/hugo-dev/pdf-in-hugo/</guid><description>
+&lt;h3&gt;create a Shortcode in HUGO to embed PDF&lt;span class="hx-absolute -hx-mt-20" id="create-a-shortcode-in-hugo-to-embed-pdf"&gt;&lt;/span&gt;
+&lt;a href="#create-a-shortcode-in-hugo-to-embed-pdf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To create a shortcode in Hugo to embed a PDF, you can define a custom shortcode that uses HTML&amp;rsquo;s &lt;code&gt;&amp;lt;embed&amp;gt;&lt;/code&gt; or &lt;code&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; tag to render the PDF within your Hugo site.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to create a simple shortcode named &lt;code&gt;pdfembed.html&lt;/code&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a file named &lt;code&gt;pdfembed.html&lt;/code&gt; inside the &lt;code&gt;layouts/shortcodes/&lt;/code&gt; directory of your Hugo site.&lt;/li&gt;
+&lt;li&gt;Add the following code to &lt;code&gt;pdfembed.html&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{ $url := .Get &amp;#34;src&amp;#34; }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{ if not $url }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;strong&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Error:&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;strong&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; PDF URL is required. Usage: &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{ else }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;embed&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;{{ $url }}&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;application/pdf&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;width&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;{{ .Get &amp;#34;&lt;/span&gt;&lt;span class="na"&gt;width&lt;/span&gt;&lt;span class="err"&gt;&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;|&lt;/span&gt; &lt;span class="na"&gt;default&lt;/span&gt; &lt;span class="err"&gt;&amp;#34;&lt;/span&gt;&lt;span class="na"&gt;100&lt;/span&gt;&lt;span class="err"&gt;%&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;}}&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;height&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;{{ .Get &amp;#34;&lt;/span&gt;&lt;span class="na"&gt;height&lt;/span&gt;&lt;span class="err"&gt;&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;|&lt;/span&gt; &lt;span class="na"&gt;default&lt;/span&gt; &lt;span class="err"&gt;&amp;#34;&lt;/span&gt;&lt;span class="na"&gt;600px&lt;/span&gt;&lt;span class="err"&gt;&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;}}&amp;#34;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{ end }}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>This shortcode takes three parameters:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>src&lt;/code> (required): the URL/path to the PDF file.&lt;/li>
-&lt;li>&lt;code>width&lt;/code> (optional): width of the embed element (default is 100%).&lt;/li>
-&lt;li>&lt;code>height&lt;/code> (optional): height of the embed element (default is 600px).&lt;/li>
-&lt;/ul>
-&lt;p>This will render an embedded PDF within your Hugo page using the browser&amp;rsquo;s PDF viewer.&lt;/p>
-&lt;p>If you want to use &lt;code>&amp;lt;iframe&amp;gt;&lt;/code> instead, you can modify the shortcode accordingly. Let me know if you&amp;rsquo;d like that version.&lt;/p></description></item></channel></rss>
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This shortcode takes three parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;src&lt;/code&gt; (required): the URL/path to the PDF file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;width&lt;/code&gt; (optional): width of the embed element (default is 100%).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;height&lt;/code&gt; (optional): height of the embed element (default is 600px).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This will render an embedded PDF within your Hugo page using the browser&amp;rsquo;s PDF viewer.&lt;/p&gt;
+&lt;p&gt;If you want to use &lt;code&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; instead, you can modify the shortcode accordingly. Let me know if you&amp;rsquo;d like that version.&lt;/p&gt;</description></item></channel></rss>

@@ -1,189 +1,189 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Github</title><link>/tags/github/</link><description>Recent content in Github on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>How to contribute in open source projects github</title><link>/blog/webdev/how-to-contribute-in-open-source-projects-github/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/webdev/how-to-contribute-in-open-source-projects-github/</guid><description>
-&lt;h2>1️⃣ Understand the Basics of Git &amp;amp; GitHub&lt;span class="hx-absolute -hx-mt-20" id="1-understand-the-basics-of-git--github">&lt;/span>
-&lt;a href="#1-understand-the-basics-of-git--github" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>Git&lt;/strong>: A tool to track changes in your code.
-&lt;ul>
-&lt;li>Install Git on your computer.&lt;/li>
-&lt;li>Learn key commands:
-&lt;ul>
-&lt;li>&lt;code>git clone&lt;/code> 🧲: Copy a project&lt;/li>
-&lt;li>&lt;code>git add&lt;/code> ➕: Stage changes&lt;/li>
-&lt;li>&lt;code>git commit&lt;/code> 💾: Save a snapshot&lt;/li>
-&lt;li>&lt;code>git push&lt;/code> 🚀: Upload changes&lt;/li>
-&lt;li>&lt;code>git pull&lt;/code> ⬇️: Get latest updates&lt;/li>
-&lt;li>&lt;code>git branch&lt;/code> 🌿: Manage branches&lt;/li>
-&lt;li>&lt;code>git checkout&lt;/code> 🔄: Switch branches&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>GitHub&lt;/strong>: A website to host code and collaborate.
-&lt;ul>
-&lt;li>Explore repositories, issues, pull requests, and forks.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2>2️⃣ Set Up Your GitHub Account&lt;span class="hx-absolute -hx-mt-20" id="2-set-up-your-github-account">&lt;/span>
-&lt;a href="#2-set-up-your-github-account" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Sign up for a free account.&lt;/li>
-&lt;li>Personalize your profile (name, location, bio, photo) 🖼️.&lt;/li>
-&lt;li>Enable two-factor authentication for security 🔒.&lt;/li>
-&lt;/ul>
-&lt;h2>3️⃣ Find a Project to Contribute To&lt;span class="hx-absolute -hx-mt-20" id="3-find-a-project-to-contribute-to">&lt;/span>
-&lt;a href="#3-find-a-project-to-contribute-to" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Start with tools you use.&lt;/li>
-&lt;li>Look for &amp;ldquo;good first issue&amp;rdquo; or &amp;ldquo;beginner-friendly&amp;rdquo; labels:
-&lt;ul>
-&lt;li>Try sites like goodfirstissue.dev, firstcontributions.github.io, firsttimersonly.com.&lt;/li>
-&lt;li>Use GitHub’s own filters.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Read the &lt;code>CONTRIBUTING.md&lt;/code> file for each project.&lt;/li>
-&lt;li>Browse topics like &amp;ldquo;open-source-project&amp;rdquo;.&lt;/li>
-&lt;li>Non-code help counts too!
-&lt;ul>
-&lt;li>Improve docs 📝, report bugs 🐞, test features 🧪, review code 🧐, or answer questions 💬.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2>4️⃣ The Fork &amp;amp; Pull Request Workflow&lt;span class="hx-absolute -hx-mt-20" id="4-the-fork--pull-request-workflow">&lt;/span>
-&lt;a href="#4-the-fork--pull-request-workflow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>A. Fork the Repository&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Click &amp;ldquo;Fork&amp;rdquo; on the project page to copy it to your account.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>B. Clone Your Fork&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Copy the URL from your fork.&lt;/li>
-&lt;li>Run:&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone &amp;lt;copied-url&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;h2&gt;1️⃣ Understand the Basics of Git &amp;amp; GitHub&lt;span class="hx-absolute -hx-mt-20" id="1-understand-the-basics-of-git--github"&gt;&lt;/span&gt;
+&lt;a href="#1-understand-the-basics-of-git--github" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt;: A tool to track changes in your code.
+&lt;ul&gt;
+&lt;li&gt;Install Git on your computer.&lt;/li&gt;
+&lt;li&gt;Learn key commands:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone&lt;/code&gt; 🧲: Copy a project&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add&lt;/code&gt; ➕: Stage changes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit&lt;/code&gt; 💾: Save a snapshot&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push&lt;/code&gt; 🚀: Upload changes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt; ⬇️: Get latest updates&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch&lt;/code&gt; 🌿: Manage branches&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout&lt;/code&gt; 🔄: Switch branches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: A website to host code and collaborate.
+&lt;ul&gt;
+&lt;li&gt;Explore repositories, issues, pull requests, and forks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2️⃣ Set Up Your GitHub Account&lt;span class="hx-absolute -hx-mt-20" id="2-set-up-your-github-account"&gt;&lt;/span&gt;
+&lt;a href="#2-set-up-your-github-account" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Sign up for a free account.&lt;/li&gt;
+&lt;li&gt;Personalize your profile (name, location, bio, photo) 🖼️.&lt;/li&gt;
+&lt;li&gt;Enable two-factor authentication for security 🔒.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3️⃣ Find a Project to Contribute To&lt;span class="hx-absolute -hx-mt-20" id="3-find-a-project-to-contribute-to"&gt;&lt;/span&gt;
+&lt;a href="#3-find-a-project-to-contribute-to" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Start with tools you use.&lt;/li&gt;
+&lt;li&gt;Look for &amp;ldquo;good first issue&amp;rdquo; or &amp;ldquo;beginner-friendly&amp;rdquo; labels:
+&lt;ul&gt;
+&lt;li&gt;Try sites like goodfirstissue.dev, firstcontributions.github.io, firsttimersonly.com.&lt;/li&gt;
+&lt;li&gt;Use GitHub’s own filters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Read the &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; file for each project.&lt;/li&gt;
+&lt;li&gt;Browse topics like &amp;ldquo;open-source-project&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Non-code help counts too!
+&lt;ul&gt;
+&lt;li&gt;Improve docs 📝, report bugs 🐞, test features 🧪, review code 🧐, or answer questions 💬.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4️⃣ The Fork &amp;amp; Pull Request Workflow&lt;span class="hx-absolute -hx-mt-20" id="4-the-fork--pull-request-workflow"&gt;&lt;/span&gt;
+&lt;a href="#4-the-fork--pull-request-workflow" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;A. Fork the Repository&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click &amp;ldquo;Fork&amp;rdquo; on the project page to copy it to your account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;B. Clone Your Fork&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy the URL from your fork.&lt;/li&gt;
+&lt;li&gt;Run:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone &amp;lt;copied-url&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;ul>
-&lt;li>Move into the folder:&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> &amp;lt;repository-name&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Move into the folder:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; &amp;lt;repository-name&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>C. Create a New Branch&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Make a new branch for your changes:&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git checkout -b my-feature&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;C. Create a New Branch&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make a new branch for your changes:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git checkout -b my-feature&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>D. Make Your Changes&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Open the code in your editor and make improvements.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>E. Test Your Changes&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Run tests if available, or check your fixes work.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>F. Commit Your Changes&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Stage files:&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git add .&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;D. Make Your Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open the code in your editor and make improvements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;E. Test Your Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Run tests if available, or check your fixes work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;F. Commit Your Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stage files:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git add .&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;ul>
-&lt;li>Commit with a clear message:&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git commit -m &lt;span class="s2">&amp;#34;Fix: typo in README&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Commit with a clear message:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git commit -m &lt;span class="s2"&gt;&amp;#34;Fix: typo in README&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>G. Push to Your Fork&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Push your branch:&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git push origin my-feature&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;G. Push to Your Fork&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Push your branch:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git push origin my-feature&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>H. Create a Pull Request&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Go to your fork on GitHub.&lt;/li>
-&lt;li>Click &amp;ldquo;Compare &amp;amp; pull request&amp;rdquo;.&lt;/li>
-&lt;li>Fill in the title and description. Reference issues if needed.&lt;/li>
-&lt;li>Add screenshots if it’s a UI change.&lt;/li>
-&lt;li>Click &amp;ldquo;Create pull request&amp;rdquo;!&lt;/li>
-&lt;/ul>
-&lt;h2>5️⃣ Respond to Feedback &amp;amp; Iterate&lt;span class="hx-absolute -hx-mt-20" id="5-respond-to-feedback--iterate">&lt;/span>
-&lt;a href="#5-respond-to-feedback--iterate" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Maintainers may request changes or ask questions.&lt;/li>
-&lt;li>Make edits locally, commit, and push again—the pull request updates automatically.&lt;/li>
-&lt;li>Once approved, your changes get merged! 🎉&lt;/li>
-&lt;/ul>
-&lt;h2>🌟 Tips for Success&lt;span class="hx-absolute -hx-mt-20" id="-tips-for-success">&lt;/span>
-&lt;a href="#-tips-for-success" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Start small (fix typos, update docs, minor bugs).&lt;/li>
-&lt;li>Always read the &lt;code>CONTRIBUTING.md&lt;/code> file.&lt;/li>
-&lt;li>Be patient—maintainers are often volunteers.&lt;/li>
-&lt;li>Communicate politely and professionally.&lt;/li>
-&lt;li>Learn from every contribution.&lt;/li>
-&lt;li>Stay updated:&lt;/li>
-&lt;/ul>
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git remote add upstream &amp;lt;original-repo-url&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git checkout main
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git pull upstream main
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git checkout my-feature
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git rebase main&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;H. Create a Pull Request&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to your fork on GitHub.&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Compare &amp;amp; pull request&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Fill in the title and description. Reference issues if needed.&lt;/li&gt;
+&lt;li&gt;Add screenshots if it’s a UI change.&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Create pull request&amp;rdquo;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;5️⃣ Respond to Feedback &amp;amp; Iterate&lt;span class="hx-absolute -hx-mt-20" id="5-respond-to-feedback--iterate"&gt;&lt;/span&gt;
+&lt;a href="#5-respond-to-feedback--iterate" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Maintainers may request changes or ask questions.&lt;/li&gt;
+&lt;li&gt;Make edits locally, commit, and push again—the pull request updates automatically.&lt;/li&gt;
+&lt;li&gt;Once approved, your changes get merged! 🎉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🌟 Tips for Success&lt;span class="hx-absolute -hx-mt-20" id="-tips-for-success"&gt;&lt;/span&gt;
+&lt;a href="#-tips-for-success" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Start small (fix typos, update docs, minor bugs).&lt;/li&gt;
+&lt;li&gt;Always read the &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; file.&lt;/li&gt;
+&lt;li&gt;Be patient—maintainers are often volunteers.&lt;/li&gt;
+&lt;li&gt;Communicate politely and professionally.&lt;/li&gt;
+&lt;li&gt;Learn from every contribution.&lt;/li&gt;
+&lt;li&gt;Stay updated:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git remote add upstream &amp;lt;original-repo-url&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git checkout main
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git pull upstream main
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git checkout my-feature
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git rebase main&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
 title="Copy code"
->
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Good luck and happy contributing! 🚀&lt;/strong>&lt;/p></description></item></channel></rss>
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Good luck and happy contributing! 🚀&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

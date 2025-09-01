@@ -1,15 +1,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – QUIZ 2</title><link>/categories/quiz-2/</link><description>Recent content in QUIZ 2 on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/quiz-2/index.xml" rel="self" type="application/rss+xml"/><item><title>QUIZ 2 Foundational</title><link>/exercises/pyq/iit-madras/foundational-quiz-exam/quiz-2-august-4-2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/pyq/iit-madras/foundational-quiz-exam/quiz-2-august-4-2024/</guid><description>
-&lt;hr>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 1:&lt;/strong>
+&lt;hr&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 1:&lt;/strong&gt;
 Which of the following statements is/are true about the function $ f(x) = |x^2 - 4x + 3| + 17 $?
 Options:
 A. $ f $ is defined only for all $ x \in \mathbb{N} $.
 B. $ f $ is a bijective function.
 C. The range of $ f $ is $[0, \infty)$.
-D. The minimum value of $ f $ is 17.&lt;/div>
-&lt;/div>
-&lt;style>
+D. The minimum value of $ f $ is 17.&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -163,23 +163,23 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>
-Let&amp;rsquo;s analyze $ f(x) = |x^2 - 4x + 3| + 17 $.&lt;/p>
-&lt;p>1️⃣ The quadratic $ x^2 - 4x + 3 = (x-1)(x-3) $ can take any real value and is defined for all real $ x $.
-So, option A is FALSE.&lt;/p>
-&lt;p>2️⃣ The function involves an absolute value, which is not one-to-one (e.g., $ x = a $ and $ x = b $ can give the same value due to the absolute value), hence not bijective.
-Option B is FALSE.&lt;/p>
-&lt;p>3️⃣ The minimum of $ |x^2 - 4x + 3| $ is 0 (attained when $ x^2 - 4x + 3 = 0,\ x=1,3 $), so minimum value of $ f(x) $ is 17, and the function takes all values $ f(x) \geq 17 $.
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;
+Let&amp;rsquo;s analyze $ f(x) = |x^2 - 4x + 3| + 17 $.&lt;/p&gt;
+&lt;p&gt;1️⃣ The quadratic $ x^2 - 4x + 3 = (x-1)(x-3) $ can take any real value and is defined for all real $ x $.
+So, option A is FALSE.&lt;/p&gt;
+&lt;p&gt;2️⃣ The function involves an absolute value, which is not one-to-one (e.g., $ x = a $ and $ x = b $ can give the same value due to the absolute value), hence not bijective.
+Option B is FALSE.&lt;/p&gt;
+&lt;p&gt;3️⃣ The minimum of $ |x^2 - 4x + 3| $ is 0 (attained when $ x^2 - 4x + 3 = 0,\ x=1,3 $), so minimum value of $ f(x) $ is 17, and the function takes all values $ f(x) \geq 17 $.
 So, the range is $[17, \infty)$, not $[0, \infty)$.
-Option C is FALSE.&lt;/p>
-&lt;p>4️⃣ As derived above, the minimum value is 17, attained at $ x = 1, 3 $.
-Option D is TRUE.&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> The minimum value of $ f $ is 17.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+Option C is FALSE.&lt;/p&gt;
+&lt;p&gt;4️⃣ As derived above, the minimum value is 17, attained at $ x = 1, 3 $.
+Option D is TRUE.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The minimum value of $ f $ is 17.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -333,17 +333,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 2:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 2:&lt;/strong&gt;
 Find the domain of the inverse function of $ y = x^3 - 1 $.
 Options:
 A. $ \mathbb{R} $
 B. $ \mathbb{R} \setminus {1} $
 C. $ [1, \infty) $
-D. $ \mathbb{R}\setminus [1, \infty) $&lt;/div>
-&lt;/div>
-&lt;style>
+D. $ \mathbb{R}\setminus [1, \infty) $&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -497,15 +497,15 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>
-$ y = x^3 - 1 $ is a cubic function, which is bijective and continuous over $ \mathbb{R} $; it has an inverse $ x = \sqrt[^1]{y+1} $, which is also defined for all $ y \in \mathbb{R} $.&lt;/p>
-&lt;p>So, the domain of the inverse function is all real numbers $ \mathbb{R} $.&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> $\mathbb{R}$&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;
+$ y = x^3 - 1 $ is a cubic function, which is bijective and continuous over $ \mathbb{R} $; it has an inverse $ x = \sqrt[^1]{y+1} $, which is also defined for all $ y \in \mathbb{R} $.&lt;/p&gt;
+&lt;p&gt;So, the domain of the inverse function is all real numbers $ \mathbb{R} $.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; $\mathbb{R}$&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -659,17 +659,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 3:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 3:&lt;/strong&gt;
 Choose the set of correct options regarding logarithms:
 Options:
 A. If $ 0 &amp;lt; b &amp;lt; 1 $ and $ 0 &amp;lt; x &amp;lt; 1 $ then $ \log_b x &amp;lt; 0 $
 B. If $ 0 &amp;lt; b &amp;lt; 1, 0 &amp;lt; x &amp;lt; 1 $, and $ x &amp;gt; b $ then $ \log_b x &amp;gt; 1 $
 C. If $ 0 &amp;lt; b &amp;lt; 1 $ and $ 0 &amp;lt; x &amp;lt; y $ then $ \log_b x &amp;gt; \log_b y $
-D. $ \log_{10}100 $ is a rational number.&lt;/div>
-&lt;/div>
-&lt;style>
+D. $ \log_{10}100 $ is a rational number.&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -823,18 +823,18 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>
-Let&amp;rsquo;s analyze each option:&lt;/p>
-&lt;p>A. For $ 0 &amp;lt; b &amp;lt; 1 $, the logarithm function is decreasing. For $ 0 &amp;lt; x &amp;lt; 1 $, $ \log_b x &amp;gt; 0 $, so A is FALSE.&lt;/p>
-&lt;p>B. For $ 0 &amp;lt; b &amp;lt; 1, 0 &amp;lt; x &amp;lt; 1 $, and $ x &amp;gt; b $, $ \log_b x $ will not necessarily be greater than 1. FALSE.&lt;/p>
-&lt;p>C. For $ 0 &amp;lt; b &amp;lt; 1 $ and $ x &amp;lt; y $, $ \log_b x &amp;gt; \log_b y $ because the function is decreasing when base is between 0 and 1. TRUE.&lt;/p>
-&lt;p>D. $ \log_{10} 100 = 2 $, which is rational. TRUE.&lt;/p>
-&lt;p>&lt;strong>Answers:&lt;/strong> C and D are correct.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;
+Let&amp;rsquo;s analyze each option:&lt;/p&gt;
+&lt;p&gt;A. For $ 0 &amp;lt; b &amp;lt; 1 $, the logarithm function is decreasing. For $ 0 &amp;lt; x &amp;lt; 1 $, $ \log_b x &amp;gt; 0 $, so A is FALSE.&lt;/p&gt;
+&lt;p&gt;B. For $ 0 &amp;lt; b &amp;lt; 1, 0 &amp;lt; x &amp;lt; 1 $, and $ x &amp;gt; b $, $ \log_b x $ will not necessarily be greater than 1. FALSE.&lt;/p&gt;
+&lt;p&gt;C. For $ 0 &amp;lt; b &amp;lt; 1 $ and $ x &amp;lt; y $, $ \log_b x &amp;gt; \log_b y $ because the function is decreasing when base is between 0 and 1. TRUE.&lt;/p&gt;
+&lt;p&gt;D. $ \log_{10} 100 = 2 $, which is rational. TRUE.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answers:&lt;/strong&gt; C and D are correct.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -988,16 +988,16 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 4:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 4:&lt;/strong&gt;
 Given four curves, select the correct options:
 A. There are at least two points between -4 and 4, where the derivatives of the function corresponding to Curve 1 are equal.
 B. At the origin the derivative of the function corresponding to Curve 2 does not exist.
 C. The derivative of the function corresponding to Curve 3, at the origin and point (-2,0), are equal.
-D. The derivative of the function corresponding to Curve 4 does not exist at any point.&lt;/div>
-&lt;/div>
-&lt;style>
+D. The derivative of the function corresponding to Curve 4 does not exist at any point.&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -1151,17 +1151,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>
-Curve 1 is continuous and differentiable, so Rolle&amp;rsquo;s theorem applies. There must be points where the derivatives are equal between -4 and 4. TRUE.&lt;/p>
-&lt;p>Curve 2 has a cusp (sharp corner) at the origin, so the derivative does not exist there. TRUE.&lt;/p>
-&lt;p>Curve 3: The derivative at the origin and (-2,0) are not necessarily equal. FALSE.&lt;/p>
-&lt;p>Curve 4 is a constant function (horizontal line), so the derivative exists everywhere (and is zero). FALSE.&lt;/p>
-&lt;p>&lt;strong>Answers:&lt;/strong> A and B are correct.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;
+Curve 1 is continuous and differentiable, so Rolle&amp;rsquo;s theorem applies. There must be points where the derivatives are equal between -4 and 4. TRUE.&lt;/p&gt;
+&lt;p&gt;Curve 2 has a cusp (sharp corner) at the origin, so the derivative does not exist there. TRUE.&lt;/p&gt;
+&lt;p&gt;Curve 3: The derivative at the origin and (-2,0) are not necessarily equal. FALSE.&lt;/p&gt;
+&lt;p&gt;Curve 4 is a constant function (horizontal line), so the derivative exists everywhere (and is zero). FALSE.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answers:&lt;/strong&gt; A and B are correct.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -1315,12 +1315,12 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 5:&lt;/strong>
-If $ m^{\log_3 2} + 2^{\log_3 m} = 8 $, find the value of $ m $.&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 5:&lt;/strong&gt;
+If $ m^{\log_3 2} + 2^{\log_3 m} = 8 $, find the value of $ m $.&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -1474,18 +1474,18 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>
-Let $ x = \log_3 m $, so $ m = 3^x $.&lt;/p>
-&lt;p>Then, $ m^{\log_3 2} = (3^x)^{\log_3 2} = 2^x $
-And, $ 2^{\log_3 m} = 2^{x} $&lt;/p>
-&lt;p>So, $ m^{\log_3 2} + 2^{\log_3 m} = 2^x + 2^x = 2 \cdot 2^x = 8 \implies 2^{x+1} = 8 \implies 2^{x+1} = 2^3 \implies x+1=3 \implies x=2 $.&lt;/p>
-&lt;p>Therefore, $ m = 3^{2} = 9 $.&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> $ m = 9 $&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;
+Let $ x = \log_3 m $, so $ m = 3^x $.&lt;/p&gt;
+&lt;p&gt;Then, $ m^{\log_3 2} = (3^x)^{\log_3 2} = 2^x $
+And, $ 2^{\log_3 m} = 2^{x} $&lt;/p&gt;
+&lt;p&gt;So, $ m^{\log_3 2} + 2^{\log_3 m} = 2^x + 2^x = 2 \cdot 2^x = 8 \implies 2^{x+1} = 8 \implies 2^{x+1} = 2^3 \implies x+1=3 \implies x=2 $.&lt;/p&gt;
+&lt;p&gt;Therefore, $ m = 3^{2} = 9 $.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; $ m = 9 $&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -1639,12 +1639,12 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 6:&lt;/strong>
-If $ f(x) = \sqrt{9 - x^2} $, then find the value of $ \sqrt{5} \times \lim_{x \to 2} \frac{f(x) - f(2)}{x - 2} $.&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 6:&lt;/strong&gt;
+If $ f(x) = \sqrt{9 - x^2} $, then find the value of $ \sqrt{5} \times \lim_{x \to 2} \frac{f(x) - f(2)}{x - 2} $.&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -1798,32 +1798,32 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>
-First, $ f(x) = \sqrt{9 - x^2} $.&lt;/p>
-&lt;p>Calculate $ f(2) = \sqrt{9 - 4} = \sqrt{5} $.&lt;/p>
-&lt;p>We need $ \lim_{x \to 2} \frac{\sqrt{9-x^2} - \sqrt{5}}{x-2} $.&lt;/p>
-&lt;p>Let $ L = \lim_{x \to 2} \frac{\sqrt{9-x^2} - \sqrt{5}}{x-2} $.&lt;/p>
-&lt;p>Multiply numerator and denominator by the conjugate:&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;
+First, $ f(x) = \sqrt{9 - x^2} $.&lt;/p&gt;
+&lt;p&gt;Calculate $ f(2) = \sqrt{9 - 4} = \sqrt{5} $.&lt;/p&gt;
+&lt;p&gt;We need $ \lim_{x \to 2} \frac{\sqrt{9-x^2} - \sqrt{5}}{x-2} $.&lt;/p&gt;
+&lt;p&gt;Let $ L = \lim_{x \to 2} \frac{\sqrt{9-x^2} - \sqrt{5}}{x-2} $.&lt;/p&gt;
+&lt;p&gt;Multiply numerator and denominator by the conjugate:&lt;/p&gt;
 $$
 L = \lim_{x \to 2} \frac{(\sqrt{9-x^2} - \sqrt{5})(\sqrt{9-x^2} + \sqrt{5})}{(x-2)(\sqrt{9-x^2} + \sqrt{5})}
 = \lim_{x \to 2} \frac{9-x^2 - 5}{(x-2)(\sqrt{9-x^2} + \sqrt{5})}
 = \lim_{x \to 2} \frac{4 - x^2}{(x-2)(\sqrt{9-x^2} + \sqrt{5})}
-$$&lt;p>But $ 4 - x^2 = (2 - x)(2 + x) $.&lt;/p>
-&lt;p>So numerator: $ (2-x)(2+x) = -(x-2)(2+x) $.&lt;/p>
-&lt;p>Thus,&lt;/p>
+$$&lt;p&gt;But $ 4 - x^2 = (2 - x)(2 + x) $.&lt;/p&gt;
+&lt;p&gt;So numerator: $ (2-x)(2+x) = -(x-2)(2+x) $.&lt;/p&gt;
+&lt;p&gt;Thus,&lt;/p&gt;
 $$
 L = \lim_{x \to 2} \frac{-(x-2)(2+x)}{(x-2)(\sqrt{9-x^2} + \sqrt{5})}
 = \lim_{x \to 2} \frac{-(2+x)}{\sqrt{9-x^2} + \sqrt{5}}
-$$&lt;p>As $ x \to 2 $, this becomes:&lt;/p>
+$$&lt;p&gt;As $ x \to 2 $, this becomes:&lt;/p&gt;
 $$
 L = \frac{-(2+2)}{\sqrt{9-4} + \sqrt{5}} = \frac{-4}{\sqrt{5} + \sqrt{5}} = \frac{-4}{2\sqrt{5}} = \frac{-2}{\sqrt{5}}
-$$&lt;p>Value required: $ \sqrt{5} \times L = \sqrt{5} \times \left(-\frac{2}{\sqrt{5}}\right) = -2 $.&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> $-2$&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;Value required: $ \sqrt{5} \times L = \sqrt{5} \times \left(-\frac{2}{\sqrt{5}}\right) = -2 $.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; $-2$&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -1977,17 +1977,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 1:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 1:&lt;/strong&gt;
 The left-hand limit (LHL) and right-hand limit (RHL) of the given function $ f(x) $ exist at $ x = 0 $ and are equal to each other.
-Options:&lt;/p>
-&lt;ul>
-&lt;li>TRUE&lt;/li>
-&lt;li>FALSE&lt;/li>
-&lt;/ul>&lt;/div>
-&lt;/div>
-&lt;style>
+Options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TRUE&lt;/li&gt;
+&lt;li&gt;FALSE&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -2141,25 +2141,25 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>Let&amp;rsquo;s analyze the piecewise function:&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s analyze the piecewise function:&lt;/p&gt;
 $$
 f(x) = \begin{cases}
 [x+1] &amp; -3 \le x &lt; 0 \\
 0 &amp; x = 0 \\
 \{x+1\} &amp; 0 &lt; x \le 3
 \end{cases}
-$$&lt;ul>
-&lt;li>The left-hand limit as $ x \to 0^- $ is $ [0+1] = [^1] = 1 $.&lt;/li>
-&lt;li>The right-hand limit as $ x \to 0^+ $ is $ {0+1} = {1} = 0 $.&lt;/li>
-&lt;/ul>
-&lt;p>So LHL ≠ RHL, both exist but are not equal.&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> FALSE&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;ul&gt;
+&lt;li&gt;The left-hand limit as $ x \to 0^- $ is $ [0+1] = [^1] = 1 $.&lt;/li&gt;
+&lt;li&gt;The right-hand limit as $ x \to 0^+ $ is $ {0+1} = {1} = 0 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So LHL ≠ RHL, both exist but are not equal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; FALSE&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -2313,17 +2313,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 2:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 2:&lt;/strong&gt;
 The function $ f(x) $ is continuous at $ x = 0 $.
-Options:&lt;/p>
-&lt;ul>
-&lt;li>TRUE&lt;/li>
-&lt;li>FALSE&lt;/li>
-&lt;/ul>&lt;/div>
-&lt;/div>
-&lt;style>
+Options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TRUE&lt;/li&gt;
+&lt;li&gt;FALSE&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -2477,20 +2477,20 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>From above:&lt;/p>
-&lt;ul>
-&lt;li>LHL at $ x=0 $ is 1.&lt;/li>
-&lt;li>RHL at $ x=0 $ is 0.&lt;/li>
-&lt;li>$ f(0) = 0 $.&lt;/li>
-&lt;/ul>
-&lt;p>Since LHL ≠ RHL, and even RHL $ = f(0) $, but for continuity both limits must be equal and equal to $ f(0) $.&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> FALSE&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;From above:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LHL at $ x=0 $ is 1.&lt;/li&gt;
+&lt;li&gt;RHL at $ x=0 $ is 0.&lt;/li&gt;
+&lt;li&gt;$ f(0) = 0 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since LHL ≠ RHL, and even RHL $ = f(0) $, but for continuity both limits must be equal and equal to $ f(0) $.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; FALSE&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -2644,12 +2644,12 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 3:&lt;/strong>
-Find the total number of points in $ [-3, 3] $ at which $ f(x) $ is not continuous.&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 3:&lt;/strong&gt;
+Find the total number of points in $ [-3, 3] $ at which $ f(x) $ is not continuous.&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -2803,20 +2803,20 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>Discontinuity can occur at endpoints and where the floor or fractional part “jumps”, i.e., at integers for the floor function and fractional part.&lt;/p>
-&lt;ul>
-&lt;li>In (-3, 0): Discontinuity at $ x = -2, -1, 0 $ (from greatest integer function).&lt;/li>
-&lt;li>In (0, 3): Discontinuity at $ x = 0, 1, 2, 3 $ (from fractional part function).&lt;/li>
-&lt;li>So, discontinuities occur at $ x = -2, -1, 0, 1, 2 $.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Total:&lt;/strong> 5 points&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> 5&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Discontinuity can occur at endpoints and where the floor or fractional part “jumps”, i.e., at integers for the floor function and fractional part.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In (-3, 0): Discontinuity at $ x = -2, -1, 0 $ (from greatest integer function).&lt;/li&gt;
+&lt;li&gt;In (0, 3): Discontinuity at $ x = 0, 1, 2, 3 $ (from fractional part function).&lt;/li&gt;
+&lt;li&gt;So, discontinuities occur at $ x = -2, -1, 0, 1, 2 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Total:&lt;/strong&gt; 5 points&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 5&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -2970,17 +2970,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 4:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 4:&lt;/strong&gt;
 Left-hand derivative (LHD) and right-hand derivative (RHD) of the function $ f(x) = 4x^5 + x^2|x+1| + x + 5 $ exist and are equal at $ x = -1 $.
-Options:&lt;/p>
-&lt;ul>
-&lt;li>TRUE&lt;/li>
-&lt;li>FALSE&lt;/li>
-&lt;/ul>&lt;/div>
-&lt;/div>
-&lt;style>
+Options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TRUE&lt;/li&gt;
+&lt;li&gt;FALSE&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -3134,19 +3134,19 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>At $ x = -1 $, the derivative of $ |x+1| $ changes abruptly:&lt;/p>
-&lt;ul>
-&lt;li>For $ x &amp;lt; -1 $: $ |x+1| = -(x+1) $&lt;/li>
-&lt;li>For $ x &amp;gt; -1 $: $ |x+1| = (x+1) $&lt;/li>
-&lt;/ul>
-&lt;p>Their derivatives at $ x = -1 $ are different, hence LHD ≠ RHD.&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> FALSE&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At $ x = -1 $, the derivative of $ |x+1| $ changes abruptly:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For $ x &amp;lt; -1 $: $ |x+1| = -(x+1) $&lt;/li&gt;
+&lt;li&gt;For $ x &amp;gt; -1 $: $ |x+1| = (x+1) $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Their derivatives at $ x = -1 $ are different, hence LHD ≠ RHD.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; FALSE&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -3300,17 +3300,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 5:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 5:&lt;/strong&gt;
 The function $ |x+1| f(x) $ is continuous at $ x = -1 $.
-Options:&lt;/p>
-&lt;ul>
-&lt;li>TRUE&lt;/li>
-&lt;li>FALSE&lt;/li>
-&lt;/ul>&lt;/div>
-&lt;/div>
-&lt;style>
+Options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TRUE&lt;/li&gt;
+&lt;li&gt;FALSE&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -3464,15 +3464,15 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>At $ x = -1 $: $ |x+1| = 0 $, so $ |x+1| f(x) = 0 $ for any $ f(x) $.
-Both side-limits as $ x \to -1 $ approach 0.&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> TRUE&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At $ x = -1 $: $ |x+1| = 0 $, so $ |x+1| f(x) = 0 $ for any $ f(x) $.
+Both side-limits as $ x \to -1 $ approach 0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; TRUE&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -3626,17 +3626,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 6:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 6:&lt;/strong&gt;
 The derivative of the function $ f $ at $ x=0 $ is 1.
-Options:&lt;/p>
-&lt;ul>
-&lt;li>TRUE&lt;/li>
-&lt;li>FALSE&lt;/li>
-&lt;/ul>&lt;/div>
-&lt;/div>
-&lt;style>
+Options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TRUE&lt;/li&gt;
+&lt;li&gt;FALSE&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -3790,19 +3790,19 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>From earlier:&lt;/p>
-&lt;ul>
-&lt;li>LHL ($ x = 0^- $): Slope from left = derivative of [x+1] = 0 almost everywhere (except at discontinuities), but as left from $[-3,0)$, $[x+1]$ is constant near 0 so derivative = 0.&lt;/li>
-&lt;li>RHL ($ x=0^+ $): Derivative of $ {x+1} $ with respect to $ x $ is 1 for non-integer $ x $, since $ {x+1} = x+1 - [x+1] $ and derivative of $ x+1 $ is 1.&lt;/li>
-&lt;li>But at $ x=0 $, function is not continuous or differentiable; so derivative does not exist.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Answer:&lt;/strong> FALSE&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;From earlier:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LHL ($ x = 0^- $): Slope from left = derivative of [x+1] = 0 almost everywhere (except at discontinuities), but as left from $[-3,0)$, $[x+1]$ is constant near 0 so derivative = 0.&lt;/li&gt;
+&lt;li&gt;RHL ($ x=0^+ $): Derivative of $ {x+1} $ with respect to $ x $ is 1 for non-integer $ x $, since $ {x+1} = x+1 - [x+1] $ and derivative of $ x+1 $ is 1.&lt;/li&gt;
+&lt;li&gt;But at $ x=0 $, function is not continuous or differentiable; so derivative does not exist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; FALSE&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -3956,19 +3956,19 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 7:&lt;/strong>
-Calculate the limit of the function:&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 7:&lt;/strong&gt;
+Calculate the limit of the function:&lt;/p&gt;
 $$
 f(x) = \begin{cases}
 x^2 - 2x + 4 &amp; x \ge 0 \\
 e^{x^2} + 3 &amp; x &lt; 0
 \end{cases}
-$$&lt;p>At $ x = 0 $.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;At $ x = 0 $.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -4122,16 +4122,16 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>Left-hand limit: As $ x \to 0^- $, $ e^{(0)^2} + 3 = 1 + 3 = 4 $.&lt;/p>
-&lt;p>Right-hand limit: As $ x \to 0^+ $, $ (0)^2 - 2 \times 0 + 4 = 4 $.&lt;/p>
-&lt;p>Both limits = 4&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> 4&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Left-hand limit: As $ x \to 0^- $, $ e^{(0)^2} + 3 = 1 + 3 = 4 $.&lt;/p&gt;
+&lt;p&gt;Right-hand limit: As $ x \to 0^+ $, $ (0)^2 - 2 \times 0 + 4 = 4 $.&lt;/p&gt;
+&lt;p&gt;Both limits = 4&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 4&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -4285,15 +4285,15 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 8:&lt;/strong>
-Calculate the limit of the following function at $ x=1 $:&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 8:&lt;/strong&gt;
+Calculate the limit of the following function at $ x=1 $:&lt;/p&gt;
 $$
 f(x) = \frac{x^4 - 3x^3 + 2}{x^4 - 5x^3 + 3x^2 + 1}
-$$&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -4447,21 +4447,21 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>Substitute $ x=1 $:
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Substitute $ x=1 $:
 Numerator: $ 1^4 - 3 \cdot 1^3 + 2 = 1 - 3 + 2 = 0 $
-Denominator: $ 1^4 - 5 \cdot 1^3 + 3 \cdot 1^2 + 1 = 1 - 5 + 3 + 1=0 $&lt;/p>
-&lt;p>We get $ 0/0 $, so use L&amp;rsquo;Hospital&amp;rsquo;s Rule:
-Differentiate numerator and denominator:&lt;/p>
-&lt;p>Numerator derivative: $ 4x^3 - 9x^2 $, at $ x=1 $: $ 4-9 = -5 $
+Denominator: $ 1^4 - 5 \cdot 1^3 + 3 \cdot 1^2 + 1 = 1 - 5 + 3 + 1=0 $&lt;/p&gt;
+&lt;p&gt;We get $ 0/0 $, so use L&amp;rsquo;Hospital&amp;rsquo;s Rule:
+Differentiate numerator and denominator:&lt;/p&gt;
+&lt;p&gt;Numerator derivative: $ 4x^3 - 9x^2 $, at $ x=1 $: $ 4-9 = -5 $
 Denominator derivative: $ 4x^3 - 15x^2 + 6x $, at $ x=1 $: $ 4-15+6= -5 $
-So, limit = $ \frac{-5}{-5} = 1 $&lt;/p>
-&lt;p>&lt;strong>Answer:&lt;/strong> 1&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+So, limit = $ \frac{-5}{-5} = 1 $&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -4615,16 +4615,16 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div style="text-align: center">⁂&lt;/div>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 1:&lt;/strong>
-Find the limit of the following sequence:&lt;/p>
+&lt;/style&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 1:&lt;/strong&gt;
+Find the limit of the following sequence:&lt;/p&gt;
 $$
 \{a_n\}\ \text{such that}\ a_n = \frac{6 + 6 \cdot 2^2 + 6 \cdot 3^2 + \dots + 6 \cdot n^2}{\sqrt{4n^6 + 5}}
-$$&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -4778,29 +4778,29 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 🧮:&lt;/strong>&lt;/p>
-&lt;p>1️⃣ &lt;strong>Numerator simplification&lt;/strong>:
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 🧮:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1️⃣ &lt;strong&gt;Numerator simplification&lt;/strong&gt;:
 $6 + 6 \cdot 2^2 + 6 \cdot 3^2 + \dots + 6 \cdot n^2 = 6 \sum_{k=1}^{n} k^2$
-Recall: $\sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$&lt;/p>
-&lt;p>So, numerator = $6 \cdot \frac{n(n+1)(2n+1)}{6} = n(n+1)(2n+1)$&lt;/p>
-&lt;p>2️⃣ &lt;strong>Denominator&lt;/strong>:
-$\sqrt{4n^6 + 5}$&lt;/p>
-&lt;p>3️⃣ &lt;strong>Limit&lt;/strong>:&lt;/p>
+Recall: $\sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$&lt;/p&gt;
+&lt;p&gt;So, numerator = $6 \cdot \frac{n(n+1)(2n+1)}{6} = n(n+1)(2n+1)$&lt;/p&gt;
+&lt;p&gt;2️⃣ &lt;strong&gt;Denominator&lt;/strong&gt;:
+$\sqrt{4n^6 + 5}$&lt;/p&gt;
+&lt;p&gt;3️⃣ &lt;strong&gt;Limit&lt;/strong&gt;:&lt;/p&gt;
 $$
 \lim_{n \to \infty} \frac{n(n+1)(2n+1)}{\sqrt{4n^6 + 5}}
-$$&lt;p>The numerator is a cubic polynomial:
-$n(n+1)(2n+1) \approx 2n^3$ for large $n$&lt;/p>
-&lt;p>Denominator:
-$\sqrt{4n^6 + 5} \approx 2n^3$&lt;/p>
-&lt;p>So the limit is:&lt;/p>
+$$&lt;p&gt;The numerator is a cubic polynomial:
+$n(n+1)(2n+1) \approx 2n^3$ for large $n$&lt;/p&gt;
+&lt;p&gt;Denominator:
+$\sqrt{4n^6 + 5} \approx 2n^3$&lt;/p&gt;
+&lt;p&gt;So the limit is:&lt;/p&gt;
 $$
 \lim_{n \to \infty} \frac{2n^3}{2n^3} = 1
-$$&lt;p>&lt;strong>Final Answer:&lt;/strong> 1&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -4954,15 +4954,15 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 2:&lt;/strong>
-Find the limit of the following sequence:&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 2:&lt;/strong&gt;
+Find the limit of the following sequence:&lt;/p&gt;
 $$
 \{a_n\} \text{ such that } a_n = \frac{100n^2 - 11}{100n^3 + 7}
-$$&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -5116,21 +5116,21 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 🧮:&lt;/strong>&lt;/p>
-&lt;p>1️⃣ For large $ n $, the highest power dominates.&lt;/p>
-&lt;ul>
-&lt;li>Numerator: $100n^2 - 11 \approx 100n^2$&lt;/li>
-&lt;li>Denominator: $100n^3 + 7 \approx 100n^3$&lt;/li>
-&lt;/ul>
-&lt;p>2️⃣ So,&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 🧮:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1️⃣ For large $ n $, the highest power dominates.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Numerator: $100n^2 - 11 \approx 100n^2$&lt;/li&gt;
+&lt;li&gt;Denominator: $100n^3 + 7 \approx 100n^3$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2️⃣ So,&lt;/p&gt;
 $$
 \lim_{n \to \infty} \frac{100n^2}{100n^3} = \lim_{n \to \infty} \frac{1}{n} = 0
-$$&lt;p>&lt;strong>Final Answer:&lt;/strong> 0&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; 0&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -5284,19 +5284,19 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 3:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 3:&lt;/strong&gt;
 Is the statement True or False?
 Let $L(x)$ be the linear approximation to $f(x) = xe^x - 1$ at the point $a$ such that $f(a) = L(a)$ and the slope of the graph of $L$ is $f&amp;rsquo;(a)$. Then
 $L(x) = e^a(a+1)x - a^2 e^a - 1$.
-Options:&lt;/p>
-&lt;ul>
-&lt;li>TRUE&lt;/li>
-&lt;li>FALSE&lt;/li>
-&lt;/ul>&lt;/div>
-&lt;/div>
-&lt;style>
+Options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TRUE&lt;/li&gt;
+&lt;li&gt;FALSE&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -5450,31 +5450,31 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 🧑🏫:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Linear approximation at $a$:
-$L(x) = f(a) + f&amp;rsquo;(a)(x - a)$&lt;/li>
-&lt;/ul>
-&lt;p>Given $f(x) = x e^x - 1$&lt;/p>
-&lt;ul>
-&lt;li>$f(a) = a e^a - 1$&lt;/li>
-&lt;li>$f&amp;rsquo;(x) = e^x + x e^x$, so $f&amp;rsquo;(a) = e^a + a e^a = e^a(a+1)$&lt;/li>
-&lt;/ul>
-&lt;p>Thus,&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 🧑🏫:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear approximation at $a$:
+$L(x) = f(a) + f&amp;rsquo;(a)(x - a)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Given $f(x) = x e^x - 1$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$f(a) = a e^a - 1$&lt;/li&gt;
+&lt;li&gt;$f&amp;rsquo;(x) = e^x + x e^x$, so $f&amp;rsquo;(a) = e^a + a e^a = e^a(a+1)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thus,&lt;/p&gt;
 $$
 L(x) = a e^a - 1 + e^a(a+1)(x - a)
-$$&lt;p>Expand:&lt;/p>
+$$&lt;p&gt;Expand:&lt;/p&gt;
 $$
 = a e^a - 1 + e^a(a+1)x - e^a(a+1)a
 = e^a(a+1)x - e^a a(a+1) + a e^a - 1
 = e^a(a+1)x - e^a a^2 - 1
-$$&lt;p>Which matches the given formula.&lt;/p>
-&lt;p>&lt;strong>Final Answer:&lt;/strong> TRUE&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;Which matches the given formula.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; TRUE&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -5628,14 +5628,14 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 4:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 4:&lt;/strong&gt;
 Let $ f $ be a differentiable function at $ x=3 $.
 The tangent line to the graph of the function $ f $ at the point $ (3,0) $, passes through the point $ (5,4) $.
-What will be the value of $ f&amp;rsquo;(3) $?&lt;/div>
-&lt;/div>
-&lt;style>
+What will be the value of $ f&amp;rsquo;(3) $?&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -5789,18 +5789,18 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 🚦:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>The tangent at $ (3,0) $ passes through $ (5,4) $.&lt;/li>
-&lt;li>Slope of tangent = $ m = \frac{4-0}{5-3} = 2 $&lt;/li>
-&lt;/ul>
-&lt;p>By definition, the slope of the tangent to the graph at $ x=3 $ is $ f&amp;rsquo;(3) $.&lt;/p>
-&lt;p>&lt;strong>Final Answer:&lt;/strong> 2&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 🚦:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The tangent at $ (3,0) $ passes through $ (5,4) $.&lt;/li&gt;
+&lt;li&gt;Slope of tangent = $ m = \frac{4-0}{5-3} = 2 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By definition, the slope of the tangent to the graph at $ x=3 $ is $ f&amp;rsquo;(3) $.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; 2&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -5954,37 +5954,37 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 5:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 5:&lt;/strong&gt;
 Given:
-Let $ f(x) = \sqrt{x} $ and $ g(x) = \sqrt{3-x} $. With the compositions and their corresponding functions and domains in table form, answer the following:&lt;/p>
-&lt;p>Match the following:&lt;/p>
-&lt;p>i) $ f \circ g $
+Let $ f(x) = \sqrt{x} $ and $ g(x) = \sqrt{3-x} $. With the compositions and their corresponding functions and domains in table form, answer the following:&lt;/p&gt;
+&lt;p&gt;Match the following:&lt;/p&gt;
+&lt;p&gt;i) $ f \circ g $
 ii) $ g \circ f $
 iii) $ f \circ f $
-iv) $ g \circ g $&lt;/p>
-&lt;p>with&lt;/p>
-&lt;p>a) $ \sqrt{3 - \sqrt{x}} $
+iv) $ g \circ g $&lt;/p&gt;
+&lt;p&gt;with&lt;/p&gt;
+&lt;p&gt;a) $ \sqrt{3 - \sqrt{x}} $
 b) $ \sqrt[^1]{x} $
 c) $ \sqrt{3 - \sqrt{3-x}} $
-d) $ \sqrt{3 - x} $&lt;/p>
-&lt;p>And domains:&lt;/p>
-&lt;ol>
-&lt;li>$ [0, \infty) $&lt;/li>
-&lt;li>$ [ -6, 3 ] $&lt;/li>
-&lt;li>$ ( -\infty, 3 ] $&lt;/li>
-&lt;li>$ $&lt;/li>
-&lt;/ol>
-&lt;p>Choose the correct option:&lt;/p>
-&lt;ol>
-&lt;li>i) – d) – 3)&lt;/li>
-&lt;li>ii) – a) – 4)&lt;/li>
-&lt;li>iii) – b) – 1)&lt;/li>
-&lt;/ol>
-&lt;/div>
-&lt;/div>
-&lt;style>
+d) $ \sqrt{3 - x} $&lt;/p&gt;
+&lt;p&gt;And domains:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ [0, \infty) $&lt;/li&gt;
+&lt;li&gt;$ [ -6, 3 ] $&lt;/li&gt;
+&lt;li&gt;$ ( -\infty, 3 ] $&lt;/li&gt;
+&lt;li&gt;$ $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Choose the correct option:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;i) – d) – 3)&lt;/li&gt;
+&lt;li&gt;ii) – a) – 4)&lt;/li&gt;
+&lt;li&gt;iii) – b) – 1)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -6138,28 +6138,28 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>Let&amp;rsquo;s match:&lt;/p>
-&lt;ul>
-&lt;li>$ f \circ g (x) = f(g(x)) = \sqrt{\sqrt{3-x}} $ → $ \sqrt{3-x} = d $, domain for $ 3-x \geq 0 \implies x \leq 3 $, so domain is $ ( -\infty, 3 ] $.&lt;/li>
-&lt;li>$ g \circ f (x) = g(f(x)) = \sqrt{3-\sqrt{x}} $, which is $ a $, and the inside must be $ \geq 0 $: $ 3-\sqrt{x} \geq 0 \implies x \leq 9 $, so domain is $ $.&lt;/li>
-&lt;li>$ f \circ f (x) = f(f(x)) = \sqrt{\sqrt{x}} = \sqrt[^1]{x} $, which is $ b $, and $ x \geq 0 $, so domain is $ [0, \infty) $.&lt;/li>
-&lt;/ul>
-&lt;p>So, the matching is:&lt;/p>
-&lt;ul>
-&lt;li>i) – d) – 3)&lt;/li>
-&lt;li>ii) – a) – 4)&lt;/li>
-&lt;li>iii) – b) – 1)&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Answers:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s match:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ f \circ g (x) = f(g(x)) = \sqrt{\sqrt{3-x}} $ → $ \sqrt{3-x} = d $, domain for $ 3-x \geq 0 \implies x \leq 3 $, so domain is $ ( -\infty, 3 ] $.&lt;/li&gt;
+&lt;li&gt;$ g \circ f (x) = g(f(x)) = \sqrt{3-\sqrt{x}} $, which is $ a $, and the inside must be $ \geq 0 $: $ 3-\sqrt{x} \geq 0 \implies x \leq 9 $, so domain is $ $.&lt;/li&gt;
+&lt;li&gt;$ f \circ f (x) = f(f(x)) = \sqrt{\sqrt{x}} = \sqrt[^1]{x} $, which is $ b $, and $ x \geq 0 $, so domain is $ [0, \infty) $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, the matching is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;i) – d) – 3)&lt;/li&gt;
+&lt;li&gt;ii) – a) – 4)&lt;/li&gt;
+&lt;li&gt;iii) – b) – 1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answers:&lt;/strong&gt;
 i) – d) – 3)
 ii) – a) – 4)
-iii) – b) – 1)&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+iii) – b) – 1)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -6313,22 +6313,22 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div style="text-align: center">⁂&lt;/div></description></item><item><title>QUIZ 2 FOUNDATIONAL</title><link>/exercises/pyq/iit-madras/foundational-quiz-exam/quiz-2-dec-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/pyq/iit-madras/foundational-quiz-exam/quiz-2-dec-01/</guid><description>
-&lt;hr>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 1:&lt;/strong>
-Choose the correct option from the following:&lt;/p>
-&lt;p>Options:&lt;/p>
-&lt;ol>
-&lt;li>$ iv) - c) - 3) $&lt;/li>
-&lt;li>$ iv) - a) - 1) $&lt;/li>
-&lt;li>$ iv) - c) - 2) $&lt;/li>
-&lt;li>$ iv) - b) - 2) $&lt;/li>
-&lt;/ol>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;</description></item><item><title>QUIZ 2 FOUNDATIONAL</title><link>/exercises/pyq/iit-madras/foundational-quiz-exam/quiz-2-dec-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/pyq/iit-madras/foundational-quiz-exam/quiz-2-dec-01/</guid><description>
+&lt;hr&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 1:&lt;/strong&gt;
+Choose the correct option from the following:&lt;/p&gt;
+&lt;p&gt;Options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ iv) - c) - 3) $&lt;/li&gt;
+&lt;li&gt;$ iv) - a) - 1) $&lt;/li&gt;
+&lt;li&gt;$ iv) - c) - 2) $&lt;/li&gt;
+&lt;li&gt;$ iv) - b) - 2) $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -6482,20 +6482,20 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>Let&amp;rsquo;s analyze the matching options:&lt;/p>
-&lt;ul>
-&lt;li>$ iv) $ refers to one of the composite functions.&lt;/li>
-&lt;li>The match &amp;ldquo;c&amp;rdquo; and &amp;ldquo;2&amp;rdquo; goes together.&lt;/li>
-&lt;/ul>
-&lt;p>Given the answer key, the correct match is:
-&lt;strong>Option 3: $ iv) - c) - 2) $&lt;/strong>&lt;/p>
-&lt;p>So the correct answer is Option 3.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s analyze the matching options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ iv) $ refers to one of the composite functions.&lt;/li&gt;
+&lt;li&gt;The match &amp;ldquo;c&amp;rdquo; and &amp;ldquo;2&amp;rdquo; goes together.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Given the answer key, the correct match is:
+&lt;strong&gt;Option 3: $ iv) - c) - 2) $&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So the correct answer is Option 3.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -6649,20 +6649,20 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 2:&lt;/strong>
-Consider the function $ f(x) = |\log(x+1)| $. Which of the following options are true?&lt;/p>
-&lt;p>Options:&lt;/p>
-&lt;ol>
-&lt;li>The domain of $ f $ is $ (-1, \infty) $.&lt;/li>
-&lt;li>The domain of $ f $ is $ (-\infty, 1) $.&lt;/li>
-&lt;li>$ f(x) $ is not a one-one function when $ x \in (-1,1) $.&lt;/li>
-&lt;li>$ f(x) $ is a one-one function when $ x \in (-1,1) $.&lt;/li>
-&lt;/ol>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 2:&lt;/strong&gt;
+Consider the function $ f(x) = |\log(x+1)| $. Which of the following options are true?&lt;/p&gt;
+&lt;p&gt;Options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The domain of $ f $ is $ (-1, \infty) $.&lt;/li&gt;
+&lt;li&gt;The domain of $ f $ is $ (-\infty, 1) $.&lt;/li&gt;
+&lt;li&gt;$ f(x) $ is not a one-one function when $ x \in (-1,1) $.&lt;/li&gt;
+&lt;li&gt;$ f(x) $ is a one-one function when $ x \in (-1,1) $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -6816,17 +6816,17 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>1️⃣ The domain requires $ x+1 &amp;gt; 0 \implies x &amp;gt; -1 $, so domain is $ (-1, \infty) $.&lt;/p>
-&lt;p>2️⃣ $ (-\infty, 1) $ is not correct.&lt;/p>
-&lt;p>3️⃣ For $ x \in (-1,1) $, $ \log(x+1) $ is not one-one because the modulus will make it symmetric.&lt;/p>
-&lt;p>4️⃣ Thus, it is &lt;strong>not&lt;/strong> one-one.&lt;/p>
-&lt;p>So, Options 1 and 3 are correct.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1️⃣ The domain requires $ x+1 &amp;gt; 0 \implies x &amp;gt; -1 $, so domain is $ (-1, \infty) $.&lt;/p&gt;
+&lt;p&gt;2️⃣ $ (-\infty, 1) $ is not correct.&lt;/p&gt;
+&lt;p&gt;3️⃣ For $ x \in (-1,1) $, $ \log(x+1) $ is not one-one because the modulus will make it symmetric.&lt;/p&gt;
+&lt;p&gt;4️⃣ Thus, it is &lt;strong&gt;not&lt;/strong&gt; one-one.&lt;/p&gt;
+&lt;p&gt;So, Options 1 and 3 are correct.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -6980,27 +6980,27 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 3:&lt;/strong>
-Consider the function:&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 3:&lt;/strong&gt;
+Consider the function:&lt;/p&gt;
 $$
 f(x) =
 \begin{cases}
 \frac{\sin(x)}{x}, &amp; x \neq 0 \\
 1, &amp; x = 0
 \end{cases}
-$$&lt;p>Which option(s) is/are true about $ f(x) $?&lt;/p>
-&lt;p>Options:&lt;/p>
-&lt;ol>
-&lt;li>$ f $ is differentiable for all $ x \in \mathbb{R} $.&lt;/li>
-&lt;li>$ f $ is not differentiable at $ x = 0 $.&lt;/li>
-&lt;li>$ f $ is differentiable at $ x = 0 $ and $ f&amp;rsquo;(0) = 0 $.&lt;/li>
-&lt;li>$ f $ is differentiable at $ x = 0 $ and $ f&amp;rsquo;(0) = 1 $.&lt;/li>
-&lt;/ol>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;Which option(s) is/are true about $ f(x) $?&lt;/p&gt;
+&lt;p&gt;Options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ f $ is differentiable for all $ x \in \mathbb{R} $.&lt;/li&gt;
+&lt;li&gt;$ f $ is not differentiable at $ x = 0 $.&lt;/li&gt;
+&lt;li&gt;$ f $ is differentiable at $ x = 0 $ and $ f&amp;rsquo;(0) = 0 $.&lt;/li&gt;
+&lt;li&gt;$ f $ is differentiable at $ x = 0 $ and $ f&amp;rsquo;(0) = 1 $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -7154,27 +7154,27 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>For $ x = 0 $:&lt;/p>
-&lt;ul>
-&lt;li>$ f(0) = 1 $&lt;/li>
-&lt;li>The limit $ \lim_{x \to 0} \frac{\sin x}{x} = 1 $ (So, function is continuous)&lt;/li>
-&lt;li>The derivative at 0 is:&lt;/li>
-&lt;/ul>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For $ x = 0 $:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ f(0) = 1 $&lt;/li&gt;
+&lt;li&gt;The limit $ \lim_{x \to 0} \frac{\sin x}{x} = 1 $ (So, function is continuous)&lt;/li&gt;
+&lt;li&gt;The derivative at 0 is:&lt;/li&gt;
+&lt;/ul&gt;
 $$
 f'(0) = \lim_{h \to 0} \frac{f(h) - f(0)}{h} = \lim_{h \to 0} \frac{\frac{\sin h}{h} - 1}{h}
-$$&lt;p>Use Taylor expansion: $ \sin h = h - \frac{h^3}{6} + O(h^5) $, so $ \frac{\sin h}{h} - 1 \approx -\frac{h^2}{6} $, thus $ \frac{-h^2/6}{h} = -h/6 \to 0 $.
-So $ f&amp;rsquo;(0) = 0 $&lt;/p>
-&lt;p>So, true statements:&lt;/p>
-&lt;ul>
-&lt;li>$ f $ is differentiable everywhere, including at $ x = 0 $, and $ f&amp;rsquo;(0) = 0 $.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Correct options:&lt;/strong> 1 and 3.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;Use Taylor expansion: $ \sin h = h - \frac{h^3}{6} + O(h^5) $, so $ \frac{\sin h}{h} - 1 \approx -\frac{h^2}{6} $, thus $ \frac{-h^2/6}{h} = -h/6 \to 0 $.
+So $ f&amp;rsquo;(0) = 0 $&lt;/p&gt;
+&lt;p&gt;So, true statements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ f $ is differentiable everywhere, including at $ x = 0 $, and $ f&amp;rsquo;(0) = 0 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Correct options:&lt;/strong&gt; 1 and 3.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -7328,23 +7328,23 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 4:&lt;/strong>
-Let $ f $ be a polynomial of degree 5, given by&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 4:&lt;/strong&gt;
+Let $ f $ be a polynomial of degree 5, given by&lt;/p&gt;
 $$
 f(x) = a_5x^5 + a_4x^4 + a_3x^3 + a_2x^2 + a_1x + a_0
-$$&lt;p>Let $ f&amp;rsquo;(b) $ denote the derivative of $ f $ at $ x = b $.&lt;/p>
-&lt;p>Choose the set of correct options:&lt;/p>
-&lt;ol>
-&lt;li>$ a_1 = f&amp;rsquo;(0) $&lt;/li>
-&lt;li>$ 5a_5 + 3a_3 = \frac{1}{2}(f&amp;rsquo;(1) + f&amp;rsquo;(-1) - 2f&amp;rsquo;(0)) $&lt;/li>
-&lt;li>$ 4a_4 + 2a_2 = \frac{1}{2}(f&amp;rsquo;(1) - f&amp;rsquo;(-1)) $&lt;/li>
-&lt;li>$ a_1 = f&amp;rsquo;(1) $&lt;/li>
-&lt;/ol>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;Let $ f&amp;rsquo;(b) $ denote the derivative of $ f $ at $ x = b $.&lt;/p&gt;
+&lt;p&gt;Choose the set of correct options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ a_1 = f&amp;rsquo;(0) $&lt;/li&gt;
+&lt;li&gt;$ 5a_5 + 3a_3 = \frac{1}{2}(f&amp;rsquo;(1) + f&amp;rsquo;(-1) - 2f&amp;rsquo;(0)) $&lt;/li&gt;
+&lt;li&gt;$ 4a_4 + 2a_2 = \frac{1}{2}(f&amp;rsquo;(1) - f&amp;rsquo;(-1)) $&lt;/li&gt;
+&lt;li&gt;$ a_1 = f&amp;rsquo;(1) $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -7498,19 +7498,19 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>Let&amp;rsquo;s analyze:&lt;/p>
-&lt;ul>
-&lt;li>$ f&amp;rsquo;(x) = 5a_5x^4 + 4a_4x^3 + 3a_3x^2 + 2a_2x + a_1 $&lt;/li>
-&lt;li>At $ x=0 $, $ f&amp;rsquo;(0) = a_1 $ — correct.&lt;/li>
-&lt;li>Substitute $ x=1 $ and $ x=-1 $, combine and solve: Given answer key suggests that options 1, 2, 3 are correct.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Correct options:&lt;/strong> 1, 2, 3.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s analyze:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ f&amp;rsquo;(x) = 5a_5x^4 + 4a_4x^3 + 3a_3x^2 + 2a_2x + a_1 $&lt;/li&gt;
+&lt;li&gt;At $ x=0 $, $ f&amp;rsquo;(0) = a_1 $ — correct.&lt;/li&gt;
+&lt;li&gt;Substitute $ x=1 $ and $ x=-1 $, combine and solve: Given answer key suggests that options 1, 2, 3 are correct.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Correct options:&lt;/strong&gt; 1, 2, 3.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -7664,12 +7664,12 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 5:&lt;/strong>
-If $ m^{\log_3 2} + 2^{\log_3 m} = 8 $, what is the value of $ m $?&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 5:&lt;/strong&gt;
+If $ m^{\log_3 2} + 2^{\log_3 m} = 8 $, what is the value of $ m $?&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -7823,19 +7823,19 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>Let $ x = \log_3 m $.&lt;/p>
-&lt;ul>
-&lt;li>$ m^{\log_3 2} = (3^x)^{\log_3 2} = 2^x $&lt;/li>
-&lt;li>$ 2^{\log_3 m} = 2^x $&lt;/li>
-&lt;li>$ 2^x + 2^x = 8 \implies 2^{x+1} = 8 \implies x+1 = 3 \implies x = 2 \implies m = 3^2 = 9 $.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Final Answer:&lt;/strong> $ m = 9 $&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let $ x = \log_3 m $.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ m^{\log_3 2} = (3^x)^{\log_3 2} = 2^x $&lt;/li&gt;
+&lt;li&gt;$ 2^{\log_3 m} = 2^x $&lt;/li&gt;
+&lt;li&gt;$ 2^x + 2^x = 8 \implies 2^{x+1} = 8 \implies x+1 = 3 \implies x = 2 \implies m = 3^2 = 9 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; $ m = 9 $&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -7989,21 +7989,21 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 6:&lt;/strong>
-If the function&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 6:&lt;/strong&gt;
+If the function&lt;/p&gt;
 $$
 f(x) =
 \begin{cases}
 Ax - B &amp; x \leq -1 \\
 2x^2 + 3Ax + B &amp; -1 &lt; x \leq 1 \\
-4 &amp; x > 1
+4 &amp; x &gt; 1
 \end{cases}
-$$&lt;p>is continuous for all $ x \in \mathbb{R} $, find the value of $ 6(A+B) $.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;is continuous for all $ x \in \mathbb{R} $, find the value of $ 6(A+B) $.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -8157,31 +8157,31 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>For continuity at $ x = -1 $:&lt;/p>
-&lt;ul>
-&lt;li>$ Ax - B $ at $ x=-1 $: $ -A - B $&lt;/li>
-&lt;li>$ 2(-1)^2 + 3A(-1) + B $: $ 2 - 3A + B $&lt;/li>
-&lt;li>Setting equal: $ -A - B = 2 - 3A + B \implies 2A - 2B = 2 \implies A - B = 1 $ &amp;hellip;(1)&lt;/li>
-&lt;/ul>
-&lt;p>For continuity at $ x = 1 $:&lt;/p>
-&lt;ul>
-&lt;li>$ 2(1)^2 + 3A(1) + B = 2 + 3A + B $&lt;/li>
-&lt;li>$ 4 $
-So, $ 2 + 3A + B = 4 \implies 3A + B = 2 $ &amp;hellip;(2)&lt;/li>
-&lt;/ul>
-&lt;p>Now solve (1) and (2):&lt;/p>
-&lt;p>(1): $ A - B = 1 $
-(2): $ 3A + B = 2 $&lt;/p>
-&lt;p>Add: $ (A - B) + (3A + B) = 1 + 2 \implies 4A = 3 \implies A = 3/4 $
-Plug into (1): $ 3/4 - B = 1 \implies B = 3/4 - 1 = -1/4 $&lt;/p>
-&lt;p>$ 6(A+B) = 6(3/4 + (-1/4)) = 6(2/4) = 6 \cdot 1/2 = 3 $&lt;/p>
-&lt;p>&lt;strong>Final Answer:&lt;/strong> 3&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For continuity at $ x = -1 $:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ Ax - B $ at $ x=-1 $: $ -A - B $&lt;/li&gt;
+&lt;li&gt;$ 2(-1)^2 + 3A(-1) + B $: $ 2 - 3A + B $&lt;/li&gt;
+&lt;li&gt;Setting equal: $ -A - B = 2 - 3A + B \implies 2A - 2B = 2 \implies A - B = 1 $ &amp;hellip;(1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For continuity at $ x = 1 $:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ 2(1)^2 + 3A(1) + B = 2 + 3A + B $&lt;/li&gt;
+&lt;li&gt;$ 4 $
+So, $ 2 + 3A + B = 4 \implies 3A + B = 2 $ &amp;hellip;(2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now solve (1) and (2):&lt;/p&gt;
+&lt;p&gt;(1): $ A - B = 1 $
+(2): $ 3A + B = 2 $&lt;/p&gt;
+&lt;p&gt;Add: $ (A - B) + (3A + B) = 1 + 2 \implies 4A = 3 \implies A = 3/4 $
+Plug into (1): $ 3/4 - B = 1 \implies B = 3/4 - 1 = -1/4 $&lt;/p&gt;
+&lt;p&gt;$ 6(A+B) = 6(3/4 + (-1/4)) = 6(2/4) = 6 \cdot 1/2 = 3 $&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; 3&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -8335,13 +8335,13 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 7:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 7:&lt;/strong&gt;
 Let $ f $ be a differentiable function such that $ f&amp;rsquo;(9) = 4 $ and $ f(9) = -14 $.
-If $ y = ax + b $ denotes the tangent of $ f $ at $ x = 9 $, find the value of $ a - b $.&lt;/div>
-&lt;/div>
-&lt;style>
+If $ y = ax + b $ denotes the tangent of $ f $ at $ x = 9 $, find the value of $ a - b $.&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -8495,19 +8495,19 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Solution 📝:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Slope of the tangent at $ x=9 $: $ a = f&amp;rsquo;(9) = 4 $&lt;/li>
-&lt;li>Equation of tangent: $ y = 4x + b $ passes through $ (9, -14) $:
-$ -14 = 4 \cdot 9 + b \implies b = -14 - 36 = -50 $&lt;/li>
-&lt;li>$ a - b = 4 - (-50) = 54 $&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Final Answer:&lt;/strong> 54&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slope of the tangent at $ x=9 $: $ a = f&amp;rsquo;(9) = 4 $&lt;/li&gt;
+&lt;li&gt;Equation of tangent: $ y = 4x + b $ passes through $ (9, -14) $:
+$ -14 = 4 \cdot 9 + b \implies b = -14 - 36 = -50 $&lt;/li&gt;
+&lt;li&gt;$ a - b = 4 - (-50) = 54 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; 54&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -8661,14 +8661,14 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div style="text-align: center">⁂&lt;/div>
-&lt;img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-&lt;h1>extract all questions and give solutions and wrap questions with
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/&gt;
+&lt;h1&gt;extract all questions and give solutions and wrap questions with
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -8822,12 +8822,12 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
+&lt;/style&gt;
 and answers with
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -8981,20 +8981,20 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;/h1>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 1:&lt;/strong>
-If $ f(x) = x^2 $ and $ h(x) = x - 1 $, then which of the following options is(are) correct?&lt;/p>
-&lt;p>Options:&lt;/p>
-&lt;ol>
-&lt;li>$ f \circ h $ is a one-one function.&lt;/li>
-&lt;li>$ f(f(h(x))) \times h(x) = (x-1)^5 $&lt;/li>
-&lt;li>(Option hidden in image, not enough data)&lt;/li>
-&lt;/ol>
-&lt;/div>
-&lt;/div>
-&lt;style>
+&lt;/style&gt;
+&lt;/h1&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 1:&lt;/strong&gt;
+If $ f(x) = x^2 $ and $ h(x) = x - 1 $, then which of the following options is(are) correct?&lt;/p&gt;
+&lt;p&gt;Options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ f \circ h $ is a one-one function.&lt;/li&gt;
+&lt;li&gt;$ f(f(h(x))) \times h(x) = (x-1)^5 $&lt;/li&gt;
+&lt;li&gt;(Option hidden in image, not enough data)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -9148,27 +9148,27 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 📝:&lt;/strong>&lt;/p>
-&lt;p>1️⃣ For option 1:
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 📝:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1️⃣ For option 1:
 $ f \circ h = f(h(x)) = f(x-1) = (x-1)^2 $.
-This is not a one-one function because a square function is not one-one.&lt;/p>
-&lt;p>2️⃣ For option 2:
-Calculate $ f(f(h(x))) $:&lt;/p>
-&lt;ul>
-&lt;li>$ h(x) = x-1 $&lt;/li>
-&lt;li>$ f(h(x)) = (x-1)^2 $&lt;/li>
-&lt;li>$ f(f(h(x))) = ((x-1)^2)^2 = (x-1)^4 $&lt;/li>
-&lt;/ul>
-&lt;p>So $ f(f(h(x))) \times h(x) = (x-1)^4 \times (x-1) = (x-1)^5 $.
-This matches the statement.&lt;/p>
-&lt;p>So only the second option is correct.&lt;/p>
-&lt;p>&lt;strong>Final Answer:&lt;/strong>
-Correct option: $ f(f(h(x))) \times h(x) = (x-1)^5 $&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+This is not a one-one function because a square function is not one-one.&lt;/p&gt;
+&lt;p&gt;2️⃣ For option 2:
+Calculate $ f(f(h(x))) $:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ h(x) = x-1 $&lt;/li&gt;
+&lt;li&gt;$ f(h(x)) = (x-1)^2 $&lt;/li&gt;
+&lt;li&gt;$ f(f(h(x))) = ((x-1)^2)^2 = (x-1)^4 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So $ f(f(h(x))) \times h(x) = (x-1)^4 \times (x-1) = (x-1)^5 $.
+This matches the statement.&lt;/p&gt;
+&lt;p&gt;So only the second option is correct.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt;
+Correct option: $ f(f(h(x))) \times h(x) = (x-1)^5 $&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -9322,13 +9322,13 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;strong>Question 2:&lt;/strong>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;strong&gt;Question 2:&lt;/strong&gt;
 There are three distinct solutions for $ h(h(f(x))) = 0 $.
-Is this statement true or false?&lt;/div>
-&lt;/div>
-&lt;style>
+Is this statement true or false?&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -9482,20 +9482,20 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 🌀:&lt;/strong>&lt;/p>
-&lt;p>Let&amp;rsquo;s compute:
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 🌀:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s compute:
 $ f(x) = x^2 $, $ h(x) = x-1 $
 $ h(f(x)) = x^2 - 1 $
-$ h(h(f(x))) = (x^2 - 1) - 1 = x^2 - 2 $&lt;/p>
-&lt;p>Set $ x^2 - 2 = 0 \implies x^2 = 2 \implies x = \pm \sqrt{2} $
-There are only 2 distinct solutions, not 3.&lt;/p>
-&lt;p>&lt;strong>Final Answer:&lt;/strong>
-False. There are only 2 distinct real solutions: $ x = \sqrt{2}, -\sqrt{2} $&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$ h(h(f(x))) = (x^2 - 1) - 1 = x^2 - 2 $&lt;/p&gt;
+&lt;p&gt;Set $ x^2 - 2 = 0 \implies x^2 = 2 \implies x = \pm \sqrt{2} $
+There are only 2 distinct solutions, not 3.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt;
+False. There are only 2 distinct real solutions: $ x = \sqrt{2}, -\sqrt{2} $&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -9649,15 +9649,15 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 3:&lt;/strong>
-Find $\lim_{n \to \infty} a_n $ for the sequence:&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 3:&lt;/strong&gt;
+Find $\lim_{n \to \infty} a_n $ for the sequence:&lt;/p&gt;
 $$
 a_n = \frac{n^5 - 3n^3 + \sin(n)}{2n^5 + \ln(n) + n^2}
-$$&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -9811,20 +9811,20 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 📈:&lt;/strong>&lt;/p>
-&lt;p>Focus on the highest degree terms as $n \to \infty$:&lt;/p>
-&lt;p>Numerator dominant term: $ n^5 $
-Denominator dominant term: $ 2n^5 $&lt;/p>
-&lt;p>So,&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 📈:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Focus on the highest degree terms as $n \to \infty$:&lt;/p&gt;
+&lt;p&gt;Numerator dominant term: $ n^5 $
+Denominator dominant term: $ 2n^5 $&lt;/p&gt;
+&lt;p&gt;So,&lt;/p&gt;
 $$
 \lim_{n \to \infty} \frac{n^5}{2n^5} = \frac{1}{2}
-$$&lt;p>All lower-degree and oscillatory terms become negligible.&lt;/p>
-&lt;p>&lt;strong>Final Answer:&lt;/strong> $ \boxed{0.5} $&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;All lower-degree and oscillatory terms become negligible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; $ \boxed{0.5} $&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -9978,15 +9978,15 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-question">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Question 4:&lt;/strong>
-Find $\lim_{n \to \infty} a_n $ for the sequence:&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-question"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Question 4:&lt;/strong&gt;
+Find $\lim_{n \to \infty} a_n $ for the sequence:&lt;/p&gt;
 $$
 a_n = \frac{e^{2n} + n^4}{e^{3n} + n^5}
-$$&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -10140,22 +10140,22 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div class="border-card border-card-basic">
-&lt;div class="border-card-content">&lt;p>&lt;strong>Step-by-step Solution 🚀:&lt;/strong>&lt;/p>
-&lt;p>For very large $ n $:&lt;/p>
-&lt;ul>
-&lt;li>Numerator: $ e^{2n} $ dominates over $ n^4 $&lt;/li>
-&lt;li>Denominator: $ e^{3n} $ dominates over $ n^5 $&lt;/li>
-&lt;/ul>
-&lt;p>So,&lt;/p>
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;p&gt;&lt;strong&gt;Step-by-step Solution 🚀:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For very large $ n $:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Numerator: $ e^{2n} $ dominates over $ n^4 $&lt;/li&gt;
+&lt;li&gt;Denominator: $ e^{3n} $ dominates over $ n^5 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So,&lt;/p&gt;
 $$
 a_n \approx \frac{e^{2n}}{e^{3n}} = e^{-n}
-$$&lt;p>As $ n \to \infty $, $ e^{-n} \to 0 $&lt;/p>
-&lt;p>&lt;strong>Final Answer:&lt;/strong> $ \boxed{0} $&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;style>
+$$&lt;p&gt;As $ n \to \infty $, $ e^{-n} \to 0 $&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; $ \boxed{0} $&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .border-card {
 border-radius: 8px;
 padding: 16px;
@@ -10309,5 +10309,5 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style>
-&lt;div style="text-align: center">⁂&lt;/div></description></item></channel></rss>
+&lt;/style&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;</description></item></channel></rss>

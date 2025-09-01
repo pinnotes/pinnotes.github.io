@@ -1,157 +1,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Quadratic Equation</title><link>/categories/quadratic-equation/</link><description>Recent content in Quadratic Equation on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/quadratic-equation/index.xml" rel="self" type="application/rss+xml"/><item><title>Roots of a Quadratic Equation</title><link>/exercises/pyq/iit-madras/mathemaics/quadratic-equation-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/pyq/iit-madras/mathemaics/quadratic-equation-1/</guid><description>
-&lt;hr>
-&lt;h3>3️⃣ Roots of a Quadratic Equation&lt;span class="hx-absolute -hx-mt-20" id="3-roots-of-a-quadratic-equation">&lt;/span>
-&lt;a href="#3-roots-of-a-quadratic-equation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>Question:&lt;/strong>
-If $ \alpha $ and $ \beta $ are the roots of $ x^2 + 4x + 1 = 0 $, then the equation whose roots are $ \alpha^2 $ and $ \beta^2 $ is:&lt;/p>
-&lt;h2>Step-by-Step Solution with Formulas ✨&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution-with-formulas-">&lt;/span>
-&lt;a href="#step-by-step-solution-with-formulas-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Let&amp;rsquo;s find the quadratic equation whose roots are $ \alpha^2 $ and $ \beta^2 $, given that $ \alpha $ and $ \beta $ are the roots of $ x^2 + 4x + 1 = 0 $.&lt;/p>
-&lt;h3>1. &lt;strong>Identify the Sums and Products of the Original Roots&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-identify-the-sums-and-products-of-the-original-roots">&lt;/span>
-&lt;a href="#1-identify-the-sums-and-products-of-the-original-roots" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>For a quadratic equation $ x^2 + px + q = 0 $:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Sum of roots:&lt;/strong> $ \alpha + \beta = -p $&lt;/li>
-&lt;li>&lt;strong>Product of roots:&lt;/strong> $ \alpha \beta = q $&lt;/li>
-&lt;/ul>
-&lt;p>So, for $ x^2 + 4x + 1 = 0 $:&lt;/p>
-&lt;ul>
-&lt;li>$ \alpha + \beta = -4 $&lt;/li>
-&lt;li>$ \alpha \beta = 1 $&lt;/li>
-&lt;/ul>
-&lt;h3>2. &lt;strong>Find the Sum of the Squares of the Roots&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-find-the-sum-of-the-squares-of-the-roots">&lt;/span>
-&lt;a href="#2-find-the-sum-of-the-squares-of-the-roots" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Use the formula:&lt;/p>
+&lt;hr&gt;
+&lt;h3&gt;3️⃣ Roots of a Quadratic Equation&lt;span class="hx-absolute -hx-mt-20" id="3-roots-of-a-quadratic-equation"&gt;&lt;/span&gt;
+&lt;a href="#3-roots-of-a-quadratic-equation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt;
+If $ \alpha $ and $ \beta $ are the roots of $ x^2 + 4x + 1 = 0 $, then the equation whose roots are $ \alpha^2 $ and $ \beta^2 $ is:&lt;/p&gt;
+&lt;h2&gt;Step-by-Step Solution with Formulas ✨&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution-with-formulas-"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution-with-formulas-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s find the quadratic equation whose roots are $ \alpha^2 $ and $ \beta^2 $, given that $ \alpha $ and $ \beta $ are the roots of $ x^2 + 4x + 1 = 0 $.&lt;/p&gt;
+&lt;h3&gt;1. &lt;strong&gt;Identify the Sums and Products of the Original Roots&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="1-identify-the-sums-and-products-of-the-original-roots"&gt;&lt;/span&gt;
+&lt;a href="#1-identify-the-sums-and-products-of-the-original-roots" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For a quadratic equation $ x^2 + px + q = 0 $:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sum of roots:&lt;/strong&gt; $ \alpha + \beta = -p $&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product of roots:&lt;/strong&gt; $ \alpha \beta = q $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, for $ x^2 + 4x + 1 = 0 $:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ \alpha + \beta = -4 $&lt;/li&gt;
+&lt;li&gt;$ \alpha \beta = 1 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. &lt;strong&gt;Find the Sum of the Squares of the Roots&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="2-find-the-sum-of-the-squares-of-the-roots"&gt;&lt;/span&gt;
+&lt;a href="#2-find-the-sum-of-the-squares-of-the-roots" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Use the formula:&lt;/p&gt;
 $$
 \alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta
-$$&lt;p>Plug in the values:&lt;/p>
+$$&lt;p&gt;Plug in the values:&lt;/p&gt;
 $$
 \alpha^2 + \beta^2 = (-4)^2 - 2 \times 1 = 16 - 2 = 14
-$$&lt;h3>3. &lt;strong>Find the Product of the Squares of the Roots&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-find-the-product-of-the-squares-of-the-roots">&lt;/span>
-&lt;a href="#3-find-the-product-of-the-squares-of-the-roots" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Use the formula:&lt;/p>
+$$&lt;h3&gt;3. &lt;strong&gt;Find the Product of the Squares of the Roots&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="3-find-the-product-of-the-squares-of-the-roots"&gt;&lt;/span&gt;
+&lt;a href="#3-find-the-product-of-the-squares-of-the-roots" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Use the formula:&lt;/p&gt;
 $$
 \alpha^2 \beta^2 = (\alpha \beta)^2
-$$&lt;p>Plug in the value:&lt;/p>
+$$&lt;p&gt;Plug in the value:&lt;/p&gt;
 $$
 \alpha^2 \beta^2 = (1)^2 = 1
-$$&lt;h3>4. &lt;strong>Form the New Quadratic Equation&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="4-form-the-new-quadratic-equation">&lt;/span>
-&lt;a href="#4-form-the-new-quadratic-equation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A quadratic equation with roots $ r_1 $ and $ r_2 $ is:&lt;/p>
+$$&lt;h3&gt;4. &lt;strong&gt;Form the New Quadratic Equation&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="4-form-the-new-quadratic-equation"&gt;&lt;/span&gt;
+&lt;a href="#4-form-the-new-quadratic-equation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A quadratic equation with roots $ r_1 $ and $ r_2 $ is:&lt;/p&gt;
 $$
 x^2 - (r_1 + r_2)x + (r_1 r_2) = 0
-$$&lt;p>So, for roots $ \alpha^2 $ and $ \beta^2 $:&lt;/p>
+$$&lt;p&gt;So, for roots $ \alpha^2 $ and $ \beta^2 $:&lt;/p&gt;
 $$
 x^2 - (\alpha^2 + \beta^2)x + (\alpha^2 \beta^2) = 0
-$$&lt;p>Substitute the calculated values:&lt;/p>
+$$&lt;p&gt;Substitute the calculated values:&lt;/p&gt;
 $$
 x^2 - 14x + 1 = 0
-$$&lt;h3>5. &lt;strong>Final Answer&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="5-final-answer">&lt;/span>
-&lt;a href="#5-final-answer" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;blockquote>
-&lt;p>The required quadratic equation whose roots are $ \alpha^2 $ and $ \beta^2 $ is:&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>$$
-\boxed{x^2 - 14x + 1 = 0}&lt;/p>
-&lt;/blockquote>
-&lt;p>$$&lt;/p>
-&lt;h3>&lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="summary-table">&lt;/span>
-&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">Step&lt;/th>
-&lt;th style="text-align: left">Formula Used&lt;/th>
-&lt;th style="text-align: left">Value&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">Sum of roots&lt;/td>
-&lt;td style="text-align: left">$ \alpha + \beta = -p $&lt;/td>
-&lt;td style="text-align: left">$ -4 $&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Product of roots&lt;/td>
-&lt;td style="text-align: left">$ \alpha \beta = q $&lt;/td>
-&lt;td style="text-align: left">$ 1 $&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Sum of squares&lt;/td>
-&lt;td style="text-align: left">$ (\alpha + \beta)^2 - 2\alpha\beta $&lt;/td>
-&lt;td style="text-align: left">$ 14 $&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Product of squares&lt;/td>
-&lt;td style="text-align: left">$ (\alpha\beta)^2 $&lt;/td>
-&lt;td style="text-align: left">$ 1 $&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">New equation&lt;/td>
-&lt;td style="text-align: left">$ x^2 - (sum)x + (product) = 0 $&lt;/td>
-&lt;td style="text-align: left">$ x^2 - 14x + 1 = 0 $&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;strong>That’s how you find the new quadratic equation step by step, using formulas at every stage! 🚀&lt;/strong>&lt;/p>
-&lt;hr>
-&lt;h3>How to Find the Sum and Product of Roots in a Quadratic Equation 🧮&lt;span class="hx-absolute -hx-mt-20" id="how-to-find-the-sum-and-product-of-roots-in-a-quadratic-equation-">&lt;/span>
-&lt;a href="#how-to-find-the-sum-and-product-of-roots-in-a-quadratic-equation-" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Let&amp;rsquo;s break down how the sum and product of roots are found for a quadratic equation like
-$ x^2 + 4x + 1 = 0 $.&lt;/p>
-&lt;h3>1. &lt;strong>General Formula for a Quadratic Equation&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="1-general-formula-for-a-quadratic-equation">&lt;/span>
-&lt;a href="#1-general-formula-for-a-quadratic-equation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A quadratic equation is usually written as:&lt;/p>
+$$&lt;h3&gt;5. &lt;strong&gt;Final Answer&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="5-final-answer"&gt;&lt;/span&gt;
+&lt;a href="#5-final-answer" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;The required quadratic equation whose roots are $ \alpha^2 $ and $ \beta^2 $ is:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$$
+\boxed{x^2 - 14x + 1 = 0}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Summary Table&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="summary-table"&gt;&lt;/span&gt;
+&lt;a href="#summary-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Step&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Formula Used&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Sum of roots&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ \alpha + \beta = -p $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ -4 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Product of roots&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ \alpha \beta = q $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ 1 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Sum of squares&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ (\alpha + \beta)^2 - 2\alpha\beta $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ 14 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Product of squares&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ (\alpha\beta)^2 $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ 1 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;New equation&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ x^2 - (sum)x + (product) = 0 $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ x^2 - 14x + 1 = 0 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;That’s how you find the new quadratic equation step by step, using formulas at every stage! 🚀&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;How to Find the Sum and Product of Roots in a Quadratic Equation 🧮&lt;span class="hx-absolute -hx-mt-20" id="how-to-find-the-sum-and-product-of-roots-in-a-quadratic-equation-"&gt;&lt;/span&gt;
+&lt;a href="#how-to-find-the-sum-and-product-of-roots-in-a-quadratic-equation-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Let&amp;rsquo;s break down how the sum and product of roots are found for a quadratic equation like
+$ x^2 + 4x + 1 = 0 $.&lt;/p&gt;
+&lt;h3&gt;1. &lt;strong&gt;General Formula for a Quadratic Equation&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="1-general-formula-for-a-quadratic-equation"&gt;&lt;/span&gt;
+&lt;a href="#1-general-formula-for-a-quadratic-equation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A quadratic equation is usually written as:&lt;/p&gt;
 $$
 ax^2 + bx + c = 0
-$$&lt;ul>
-&lt;li>The roots (solutions) are usually called $ \alpha $ and $ \beta $.&lt;/li>
-&lt;/ul>
-&lt;h3>2. &lt;strong>Formulas for Sum and Product of Roots&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="2-formulas-for-sum-and-product-of-roots">&lt;/span>
-&lt;a href="#2-formulas-for-sum-and-product-of-roots" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>For the equation $ ax^2 + bx + c = 0 $:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Sum of roots:&lt;/strong>&lt;/li>
-&lt;/ul>
+$$&lt;ul&gt;
+&lt;li&gt;The roots (solutions) are usually called $ \alpha $ and $ \beta $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. &lt;strong&gt;Formulas for Sum and Product of Roots&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="2-formulas-for-sum-and-product-of-roots"&gt;&lt;/span&gt;
+&lt;a href="#2-formulas-for-sum-and-product-of-roots" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For the equation $ ax^2 + bx + c = 0 $:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sum of roots:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 $$
 \alpha + \beta = -\frac{b}{a}
-$$&lt;ul>
-&lt;li>&lt;strong>Product of roots:&lt;/strong>&lt;/li>
-&lt;/ul>
+$$&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Product of roots:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 $$
 \alpha \beta = \frac{c}{a}
-$$&lt;h3>3. &lt;strong>Apply to the Given Equation&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="3-apply-to-the-given-equation">&lt;/span>
-&lt;a href="#3-apply-to-the-given-equation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Given:
-$ x^2 + 4x + 1 = 0 $&lt;/p>
-&lt;ul>
-&lt;li>Here, $ a = 1 $, $ b = 4 $, $ c = 1 $&lt;/li>
-&lt;/ul>
-&lt;p>So:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Sum of roots:&lt;/strong>&lt;/li>
-&lt;/ul>
+$$&lt;h3&gt;3. &lt;strong&gt;Apply to the Given Equation&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="3-apply-to-the-given-equation"&gt;&lt;/span&gt;
+&lt;a href="#3-apply-to-the-given-equation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Given:
+$ x^2 + 4x + 1 = 0 $&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Here, $ a = 1 $, $ b = 4 $, $ c = 1 $&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sum of roots:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 $$
 \alpha + \beta = -\frac{4}{1} = -4
-$$&lt;ul>
-&lt;li>&lt;strong>Product of roots:&lt;/strong>&lt;/li>
-&lt;/ul>
+$$&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Product of roots:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 $$
 \alpha \beta = \frac{1}{1} = 1
-$$&lt;h3>4. &lt;strong>Summary Table&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="4-summary-table">&lt;/span>
-&lt;a href="#4-summary-table" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">Formula&lt;/th>
-&lt;th style="text-align: left">Calculation&lt;/th>
-&lt;th style="text-align: left">Result&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">$ \alpha + \beta = -\frac{b}{a} $&lt;/td>
-&lt;td style="text-align: left">$ -\frac{4}{1} $&lt;/td>
-&lt;td style="text-align: left">$ -4 $&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">$ \alpha \beta = \frac{c}{a} $&lt;/td>
-&lt;td style="text-align: left">$ \frac{1}{1} $&lt;/td>
-&lt;td style="text-align: left">$ 1 $&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>5. &lt;strong>Emoji Recap!&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="5-emoji-recap">&lt;/span>
-&lt;a href="#5-emoji-recap" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>✍️ &lt;strong>Sum of roots:&lt;/strong> Just take the negative of the coefficient of $ x $ and divide by the coefficient of $ x^2 $!&lt;/li>
-&lt;li>✍️ &lt;strong>Product of roots:&lt;/strong> Just divide the constant term by the coefficient of $ x^2 $!&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>That&amp;rsquo;s how the sum and product of roots are found for any quadratic equation!&lt;/strong> 🚀&lt;/p></description></item></channel></rss>
+$$&lt;h3&gt;4. &lt;strong&gt;Summary Table&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="4-summary-table"&gt;&lt;/span&gt;
+&lt;a href="#4-summary-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Formula&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Calculation&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Result&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;$ \alpha + \beta = -\frac{b}{a} $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ -\frac{4}{1} $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ -4 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;$ \alpha \beta = \frac{c}{a} $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ \frac{1}{1} $&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$ 1 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;5. &lt;strong&gt;Emoji Recap!&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="5-emoji-recap"&gt;&lt;/span&gt;
+&lt;a href="#5-emoji-recap" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;✍️ &lt;strong&gt;Sum of roots:&lt;/strong&gt; Just take the negative of the coefficient of $ x $ and divide by the coefficient of $ x^2 $!&lt;/li&gt;
+&lt;li&gt;✍️ &lt;strong&gt;Product of roots:&lt;/strong&gt; Just divide the constant term by the coefficient of $ x^2 $!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s how the sum and product of roots are found for any quadratic equation!&lt;/strong&gt; 🚀&lt;/p&gt;</description></item></channel></rss>

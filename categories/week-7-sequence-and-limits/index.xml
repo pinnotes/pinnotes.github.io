@@ -1,159 +1,159 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Week-7-Sequence-and-Limits</title><link>/categories/week-7-sequence-and-limits/</link><description>Recent content in Week-7-Sequence-and-Limits on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/categories/week-7-sequence-and-limits/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 7 - Sequence and Limits</title><link>/exercises/graded-assignments/mathematics-1/w7ga1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/exercises/graded-assignments/mathematics-1/w7ga1/</guid><description>
-&lt;h2>1. Multiple Choice/Statement Analysis&lt;span class="hx-absolute -hx-mt-20" id="1-multiple-choicestatement-analysis">&lt;/span>
-&lt;a href="#1-multiple-choicestatement-analysis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Statements about sequences:&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>Statement:&lt;/strong> If ${a_n}$ and ${b_n}$ are two sequences of real numbers, then ${a_n + b_n}$ is a convergent sequence.
-&lt;ul>
-&lt;li>&lt;strong>Counterexample:&lt;/strong> Let $a_n = 1$ for all $n$, $b_n = -1$ for all $n$. Both converge, but $a_n + b_n = 0$ for all $n$, which is convergent. However, the PDF says &amp;ldquo;option 1 is not correct,&amp;rdquo; which may refer to a different statement or a misinterpretation. The given explanation is not clear, but the PDF concludes: &amp;ldquo;Hence option 1 is not correct.&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Statement:&lt;/strong> If ${a_n}$ is an increasing sequence, then ${(-1)^n a_n}$ is a decreasing sequence.
-&lt;ul>
-&lt;li>&lt;strong>Counterexample:&lt;/strong> $a_n = n$ for all $n$. Then ${(-1)^n a_n}$ is not decreasing.&lt;/li>
-&lt;li>&lt;strong>Solution:&lt;/strong> Hence option 2 is not correct.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Statement:&lt;/strong> If ${a_n} \to a$, ${b_n} \to b$, and both $a, b$ are non-zero, then ${a_n b_n} \to ab$ must be non-zero.
-&lt;ul>
-&lt;li>&lt;strong>Solution:&lt;/strong> This is correct.&lt;/li>
-&lt;li>&lt;strong>Conclusion:&lt;/strong> Option 3 is correct.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Statement:&lt;/strong> If ${a_n} \to a$ and ${b_n} \to a$, then ${a_n - b_n} \to 0$.
-&lt;ul>
-&lt;li>&lt;strong>Solution:&lt;/strong> This is correct.&lt;/li>
-&lt;li>&lt;strong>Conclusion:&lt;/strong> Option 4 is correct.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Statement:&lt;/strong> If a sequence is divergent, then any subsequence is also divergent.
-&lt;ul>
-&lt;li>&lt;strong>Counterexample:&lt;/strong> Let $a_n = n$ if $n$ is odd, $a_n = 1$ if $n$ is even. ${a_n}$ is divergent, but ${a_{2n}}$ is constant and hence convergent.&lt;/li>
-&lt;li>&lt;strong>Conclusion:&lt;/strong> Option 5 is not correct.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;h2>2. Function Type Matching&lt;span class="hx-absolute -hx-mt-20" id="2-function-type-matching">&lt;/span>
-&lt;a href="#2-function-type-matching" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Match the following functions to their types:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>i)&lt;/strong> $f(x) = 3 \ln x - 2$
-&lt;ul>
-&lt;li>&lt;strong>Type:&lt;/strong> Logarithmic function (d)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>ii)&lt;/strong> $f(x) = 10 - 4x$
-&lt;ul>
-&lt;li>&lt;strong>Type:&lt;/strong> Linear function (c)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>iii)&lt;/strong> $f(x) = 2^x + 7$
-&lt;ul>
-&lt;li>&lt;strong>Type:&lt;/strong> Exponential function (a)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>iv)&lt;/strong> $f(x) = x^2 - 4x + 4$
-&lt;ul>
-&lt;li>&lt;strong>Type:&lt;/strong> Quadratic function (b)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>3. Limit and Function Behavior&lt;span class="hx-absolute -hx-mt-20" id="3-limit-and-function-behavior">&lt;/span>
-&lt;a href="#3-limit-and-function-behavior" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Given a graph and options:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Option 2:&lt;/strong> $\lim_{x \to 0^+} f(x) = 0 = \lim_{x \to 0^-} f(x)$. Hence option 2 is correct.&lt;/li>
-&lt;li>&lt;strong>Option 5:&lt;/strong> At $x = \pi$ and $x = -\pi$ there are no sharp corners at the given curve. So, option 5 is correct.&lt;/li>
-&lt;li>&lt;strong>Interval $[-0.5\pi, 0.5\pi]$:&lt;/strong> The function is oscillatory (neither monotonically increasing nor monotonically decreasing).&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>4. Limit Calculations&lt;span class="hx-absolute -hx-mt-20" id="4-limit-calculations">&lt;/span>
-&lt;a href="#4-limit-calculations" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>a)&lt;/strong> $\lim_{x \to 0} \frac{\log(1+x)}{\sin x} = 1$&lt;/li>
-&lt;li>&lt;strong>b)&lt;/strong> $\lim_{x \to 0} \frac{\sin 5x}{x} = 5$&lt;/li>
-&lt;li>&lt;strong>c)&lt;/strong> $\lim_{x \to 0} \frac{e^{x/2} - 1}{\sin 2x} = \frac{1}{4}$&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>5. Function Comparison&lt;span class="hx-absolute -hx-mt-20" id="5-function-comparison">&lt;/span>
-&lt;a href="#5-function-comparison" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Given $f(x) &amp;gt; g(x)$ for all $x \ge x_0$ and $f(x) \le g(x)$ for $x \le x_0$:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Option 2:&lt;/strong> $f(x)$ and $g(x)$ will never intersect for $x &amp;gt; x_0$ is incorrect, since $f(x_0) = g(x_0)$.
-&lt;strong>Solution:&lt;/strong> Option 2 is incorrect.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>6. Sequence Limit&lt;span class="hx-absolute -hx-mt-20" id="6-sequence-limit">&lt;/span>
-&lt;a href="#6-sequence-limit" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Given:&lt;/strong>&lt;/p>
+&lt;h2&gt;1. Multiple Choice/Statement Analysis&lt;span class="hx-absolute -hx-mt-20" id="1-multiple-choicestatement-analysis"&gt;&lt;/span&gt;
+&lt;a href="#1-multiple-choicestatement-analysis" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Statements about sequences:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Statement:&lt;/strong&gt; If ${a_n}$ and ${b_n}$ are two sequences of real numbers, then ${a_n + b_n}$ is a convergent sequence.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Counterexample:&lt;/strong&gt; Let $a_n = 1$ for all $n$, $b_n = -1$ for all $n$. Both converge, but $a_n + b_n = 0$ for all $n$, which is convergent. However, the PDF says &amp;ldquo;option 1 is not correct,&amp;rdquo; which may refer to a different statement or a misinterpretation. The given explanation is not clear, but the PDF concludes: &amp;ldquo;Hence option 1 is not correct.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statement:&lt;/strong&gt; If ${a_n}$ is an increasing sequence, then ${(-1)^n a_n}$ is a decreasing sequence.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Counterexample:&lt;/strong&gt; $a_n = n$ for all $n$. Then ${(-1)^n a_n}$ is not decreasing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Hence option 2 is not correct.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statement:&lt;/strong&gt; If ${a_n} \to a$, ${b_n} \to b$, and both $a, b$ are non-zero, then ${a_n b_n} \to ab$ must be non-zero.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Solution:&lt;/strong&gt; This is correct.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; Option 3 is correct.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statement:&lt;/strong&gt; If ${a_n} \to a$ and ${b_n} \to a$, then ${a_n - b_n} \to 0$.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Solution:&lt;/strong&gt; This is correct.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; Option 4 is correct.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statement:&lt;/strong&gt; If a sequence is divergent, then any subsequence is also divergent.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Counterexample:&lt;/strong&gt; Let $a_n = n$ if $n$ is odd, $a_n = 1$ if $n$ is even. ${a_n}$ is divergent, but ${a_{2n}}$ is constant and hence convergent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; Option 5 is not correct.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;2. Function Type Matching&lt;span class="hx-absolute -hx-mt-20" id="2-function-type-matching"&gt;&lt;/span&gt;
+&lt;a href="#2-function-type-matching" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Match the following functions to their types:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;i)&lt;/strong&gt; $f(x) = 3 \ln x - 2$
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Logarithmic function (d)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ii)&lt;/strong&gt; $f(x) = 10 - 4x$
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Linear function (c)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;iii)&lt;/strong&gt; $f(x) = 2^x + 7$
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Exponential function (a)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;iv)&lt;/strong&gt; $f(x) = x^2 - 4x + 4$
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Quadratic function (b)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;3. Limit and Function Behavior&lt;span class="hx-absolute -hx-mt-20" id="3-limit-and-function-behavior"&gt;&lt;/span&gt;
+&lt;a href="#3-limit-and-function-behavior" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Given a graph and options:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Option 2:&lt;/strong&gt; $\lim_{x \to 0^+} f(x) = 0 = \lim_{x \to 0^-} f(x)$. Hence option 2 is correct.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Option 5:&lt;/strong&gt; At $x = \pi$ and $x = -\pi$ there are no sharp corners at the given curve. So, option 5 is correct.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interval $[-0.5\pi, 0.5\pi]$:&lt;/strong&gt; The function is oscillatory (neither monotonically increasing nor monotonically decreasing).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;4. Limit Calculations&lt;span class="hx-absolute -hx-mt-20" id="4-limit-calculations"&gt;&lt;/span&gt;
+&lt;a href="#4-limit-calculations" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;a)&lt;/strong&gt; $\lim_{x \to 0} \frac{\log(1+x)}{\sin x} = 1$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;b)&lt;/strong&gt; $\lim_{x \to 0} \frac{\sin 5x}{x} = 5$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;c)&lt;/strong&gt; $\lim_{x \to 0} \frac{e^{x/2} - 1}{\sin 2x} = \frac{1}{4}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;5. Function Comparison&lt;span class="hx-absolute -hx-mt-20" id="5-function-comparison"&gt;&lt;/span&gt;
+&lt;a href="#5-function-comparison" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Given $f(x) &amp;gt; g(x)$ for all $x \ge x_0$ and $f(x) \le g(x)$ for $x \le x_0$:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Option 2:&lt;/strong&gt; $f(x)$ and $g(x)$ will never intersect for $x &amp;gt; x_0$ is incorrect, since $f(x_0) = g(x_0)$.
+&lt;strong&gt;Solution:&lt;/strong&gt; Option 2 is incorrect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;6. Sequence Limit&lt;span class="hx-absolute -hx-mt-20" id="6-sequence-limit"&gt;&lt;/span&gt;
+&lt;a href="#6-sequence-limit" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
 $$
 a_n = \frac{12n^2}{3n+5} - \frac{4n^2 + 7}{n+3}
-$$&lt;p>&lt;strong>Simplify and find the limit as $n \to \infty$:&lt;/strong>&lt;/p>
+$$&lt;p&gt;&lt;strong&gt;Simplify and find the limit as $n \to \infty$:&lt;/strong&gt;&lt;/p&gt;
 $$
 a_n = \frac{16n^2 - 21n - 35}{3n^2 + 14n + 15} \implies \lim_{n \to \infty} a_n = \frac{16}{3}
-$$&lt;hr>
-&lt;h2>7. Function Limit and Monotonicity&lt;span class="hx-absolute -hx-mt-20" id="7-function-limit-and-monotonicity">&lt;/span>
-&lt;a href="#7-function-limit-and-monotonicity" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Given:&lt;/strong>&lt;/p>
+$$&lt;hr&gt;
+&lt;h2&gt;7. Function Limit and Monotonicity&lt;span class="hx-absolute -hx-mt-20" id="7-function-limit-and-monotonicity"&gt;&lt;/span&gt;
+&lt;a href="#7-function-limit-and-monotonicity" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
 $$
 R(w) = \frac{50e^w}{10 + e^w}
-$$&lt;ul>
-&lt;li>&lt;strong>Monotonicity:&lt;/strong> $R(w)$ is increasing.&lt;/li>
-&lt;li>&lt;strong>Limit as $w \to \infty$:&lt;/strong> $R(w) \to 50$&lt;/li>
-&lt;li>&lt;strong>Minimum $r \in \mathbb{Z}$ such that $R(w) &amp;lt; r$ for all $w$:&lt;/strong> $r = 50$&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>8. Advanced Limit Calculation&lt;span class="hx-absolute -hx-mt-20" id="8-advanced-limit-calculation">&lt;/span>
-&lt;a href="#8-advanced-limit-calculation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Given:&lt;/strong>&lt;/p>
+$$&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Monotonicity:&lt;/strong&gt; $R(w)$ is increasing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Limit as $w \to \infty$:&lt;/strong&gt; $R(w) \to 50$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minimum $r \in \mathbb{Z}$ such that $R(w) &amp;lt; r$ for all $w$:&lt;/strong&gt; $r = 50$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;8. Advanced Limit Calculation&lt;span class="hx-absolute -hx-mt-20" id="8-advanced-limit-calculation"&gt;&lt;/span&gt;
+&lt;a href="#8-advanced-limit-calculation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
 $$
 \lim_{n \to \infty} e \sqrt[n]{n!} \left[ \log(1 + \frac{6}{n}) - \frac{e^{1/n} - 1}{\sqrt[n]{(2\pi n)}} \right] = 5
-$$&lt;hr>
-&lt;h2>9. Curve Analysis&lt;span class="hx-absolute -hx-mt-20" id="9-curve-analysis">&lt;/span>
-&lt;a href="#9-curve-analysis" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Both curve 1 and curve 2 have sharp corners at the origin (0,0). Hence, at the origin these two curves do not have tangents at the origin.&lt;/strong>&lt;/p>
-&lt;hr>
-&lt;h2>10. Sequence Sum and Limit&lt;span class="hx-absolute -hx-mt-20" id="10-sequence-sum-and-limit">&lt;/span>
-&lt;a href="#10-sequence-sum-and-limit" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Given:&lt;/strong>&lt;/p>
+$$&lt;hr&gt;
+&lt;h2&gt;9. Curve Analysis&lt;span class="hx-absolute -hx-mt-20" id="9-curve-analysis"&gt;&lt;/span&gt;
+&lt;a href="#9-curve-analysis" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Both curve 1 and curve 2 have sharp corners at the origin (0,0). Hence, at the origin these two curves do not have tangents at the origin.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;10. Sequence Sum and Limit&lt;span class="hx-absolute -hx-mt-20" id="10-sequence-sum-and-limit"&gt;&lt;/span&gt;
+&lt;a href="#10-sequence-sum-and-limit" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
 $$
 a_n = \frac{9 + 15 + 21 + \dots + 3(2n-1)}{n^2}
-$$&lt;p>&lt;strong>Simplify and find the limit as $n \to \infty$:&lt;/strong>&lt;/p>
+$$&lt;p&gt;&lt;strong&gt;Simplify and find the limit as $n \to \infty$:&lt;/strong&gt;&lt;/p&gt;
 $$
 a_n = \frac{3(n^2 - 1)}{n^2} = 3\left(1 - \frac{1}{n^2}\right) \implies \lim_{n \to \infty} a_n = 3
-$$&lt;hr>
-&lt;h2>11. Limit Involving Floor Function&lt;span class="hx-absolute -hx-mt-20" id="11-limit-involving-floor-function">&lt;/span>
-&lt;a href="#11-limit-involving-floor-function" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>Given:&lt;/strong>&lt;/p>
+$$&lt;hr&gt;
+&lt;h2&gt;11. Limit Involving Floor Function&lt;span class="hx-absolute -hx-mt-20" id="11-limit-involving-floor-function"&gt;&lt;/span&gt;
+&lt;a href="#11-limit-involving-floor-function" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;&lt;/p&gt;
 $$
 5 \lim_{x \to 3^+} [x] - 3 \lim_{x \to 1^-} [x]
-$$&lt;p>&lt;strong>Solution:&lt;/strong>&lt;/p>
+$$&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
 $$
 = 5 \times 3 - 3 \times 0 = 15
-$$&lt;hr>
-&lt;h2>12–14. Algorithm Error Estimation&lt;span class="hx-absolute -hx-mt-20" id="1214-algorithm-error-estimation">&lt;/span>
-&lt;a href="#1214-algorithm-error-estimation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>12. Error in estimation by Algorithm 1:&lt;/strong>&lt;/p>
+$$&lt;hr&gt;
+&lt;h2&gt;12–14. Algorithm Error Estimation&lt;span class="hx-absolute -hx-mt-20" id="1214-algorithm-error-estimation"&gt;&lt;/span&gt;
+&lt;a href="#1214-algorithm-error-estimation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;12. Error in estimation by Algorithm 1:&lt;/strong&gt;&lt;/p&gt;
 $$
 a_n = \frac{n^2 + 5n}{6n^2 + 1}, \quad \lim_{n \to \infty} a_n = \frac{1}{6} \approx 0.166
-$$&lt;p>&lt;strong>Error in estimation by Algorithm 2:&lt;/strong>&lt;/p>
+$$&lt;p&gt;&lt;strong&gt;Error in estimation by Algorithm 2:&lt;/strong&gt;&lt;/p&gt;
 $$
 b_n = \frac{1}{8} + \frac{(-1)^n}{n}, \quad \lim_{n \to \infty} b_n = \frac{1}{8} = 0.125
-$$&lt;p>&lt;strong>Error in estimation by Algorithm 3:&lt;/strong>&lt;/p>
+$$&lt;p&gt;&lt;strong&gt;Error in estimation by Algorithm 3:&lt;/strong&gt;&lt;/p&gt;
 $$
 c_n = \frac{e^n + 4}{7e^n}, \quad \lim_{n \to \infty} c_n = \frac{1}{7} \approx 0.143
-$$&lt;p>&lt;strong>Conclusion:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Maximum error:&lt;/strong> Algorithm 1&lt;/li>
-&lt;li>&lt;strong>Minimum error:&lt;/strong> Algorithm 2&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>13. Error in estimation by new algorithm:&lt;/strong>&lt;/p>
+$$&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Maximum error:&lt;/strong&gt; Algorithm 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minimum error:&lt;/strong&gt; Algorithm 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;13. Error in estimation by new algorithm:&lt;/strong&gt;&lt;/p&gt;
 $$
 \lim (a_n - b_n) = \frac{1}{6} - \frac{1}{8} = \frac{1}{24}
-$$&lt;p>&lt;strong>The error in estimation using the new algorithm is less than the error in estimation using any of the Algorithm 1, Algorithm 2 and Algorithm 3.&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>14. Limit calculation:&lt;/strong>&lt;/p>
+$$&lt;p&gt;&lt;strong&gt;The error in estimation using the new algorithm is less than the error in estimation using any of the Algorithm 1, Algorithm 2 and Algorithm 3.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;14. Limit calculation:&lt;/strong&gt;&lt;/p&gt;
 $$
 c_n' = n e^{\frac{1}{8n}} - n
 $$$$
 \lim_{n \to \infty} c_n' = \frac{1}{8} = 0.125
-$$&lt;hr>
-&lt;p>This covers all questions and solutions from the PDF&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;div style="text-align: center">⁂&lt;/div>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>Week-7-Sequence-and-Limits.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item></channel></rss>
+$$&lt;hr&gt;
+&lt;p&gt;This covers all questions and solutions from the PDF&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Week-7-Sequence-and-Limits.pdf&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item></channel></rss>
