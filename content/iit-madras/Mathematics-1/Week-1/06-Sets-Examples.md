@@ -1,12 +1,12 @@
 ---
 title: Set Examples
 date: 2025-08-09
-weight: 6
+weight: 1.6
 image: https://media.geeksforgeeks.org/wp-content/uploads/20240729182300/Types-of-Sets-in-Set-Theory.png
 emoji: 🧮
 slug: "Set Examples"
 linkTitle: Set Examples
-series_order: 6
+series_order: 1.6
 ---
 
 A well-defined collection of distinct objects called elements or members.

@@ -1,12 +1,12 @@
 ---
 title: Examples of Set Operations and Counting Problems
 date: 2025-08-09
-weight: 7
+weight: 1.7
 image: https://media.geeksforgeeks.org/wp-content/uploads/20201023012050/setcardinalityformula-300x207.png
 emoji: 🧮
 slug: "Examples of Set Operations and Counting Problems"
 linkTitle: Examples of Set Operations and Counting Problems
-series_order: 7
+series_order: 1.7
 ---
 
 A well-defined collection of distinct objects called elements or members.

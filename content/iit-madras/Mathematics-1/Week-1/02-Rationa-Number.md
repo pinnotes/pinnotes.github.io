@@ -1,12 +1,12 @@
 ---
 title: Rational Numbers
 date: 2025-08-09
-weight: 2
+weight: 1.2
 image: https://cdn-academy.pressidium.com/academy/wp-content/uploads/2021/02/classification-of-numbers-diagram.png
 emoji: 🧮
 slug: "Rational Numbers"
 linkTitle: Rational Numbers🔥
-series_order: 2
+series_order: 1.2
 ---
 
 Here is a detailed, emoji-enhanced guide to rational numbers, ordering, GCD, and density, with diagrams and markdown image code for added visuals.

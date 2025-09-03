@@ -1,12 +1,12 @@
 ---
 title: Set Theory
 date: 2025-08-09
-weight: 4
+weight: 1.4
 image: https://media.geeksforgeeks.org/wp-content/uploads/20230509003527/Mathematics-Banners-4.webp
 emoji: 🧮
 slug: "Set Theory"
 linkTitle: Set Theory
-series_order: 4
+series_order: 1.4
 ---
 
 A well-defined collection of distinct objects called elements or members.

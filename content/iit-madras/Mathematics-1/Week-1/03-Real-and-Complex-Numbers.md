@@ -1,12 +1,12 @@
 ---
 title: Real and Complex Numbers
 date: 2025-08-09
-weight: 3
+weight: 1.3
 image: https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A1d89f018a4b787818d4f67e1eae30ed96165ecc670dad21aab9ff52f%2BIMAGE_TINY%2BIMAGE_TINY.1
 emoji: 🧮
 slug: "Real and Complex Numbers"
 linkTitle: Real and Complex Numbers
-series_order: 3
+series_order: 1.3
 ---
 
 Real Numbers (R) include all rational numbers plus all irrational numbers (numbers that cannot be expressed as fractions). This makes the real numbers a complete set covering every possible point on the number line.

@@ -1,12 +1,12 @@
 ---
 title: Natural Numbers and their operations
 date: 2025-08-09
-weight: 1
+weight: 1.1
 image: https://sciencenotes.org/wp-content/uploads/2023/05/Natural-Numbers-Definition-and-Examples-1024x683.png
 emoji: 📃
 slug: "Natural Numbers and their operations"
 linkTitle: Natural Numbers and their operations🔥
-series_order: 1
+series_order: 1.1
 ---
 
 Of course! Let's dive deep into the world of Natural Numbers and their operations. We'll start from the very basics and build up to the properties that govern them.

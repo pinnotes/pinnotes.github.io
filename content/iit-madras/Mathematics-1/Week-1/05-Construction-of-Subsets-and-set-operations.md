@@ -1,12 +1,12 @@
 ---
 title: Construction of Subsets and set operations
 date: 2025-08-09
-weight: 5
+weight: 1.5
 image: https://media.geeksforgeeks.org/wp-content/uploads/20240619161350/Set-Operations.webp
 emoji: 🧮
 slug: "Construction of Subsets and set operations"
 linkTitle: Construction of Subsets and set operations
-series_order: 5
+series_order: 1.5
 ---
 
 A well-defined collection of distinct objects called elements or members.

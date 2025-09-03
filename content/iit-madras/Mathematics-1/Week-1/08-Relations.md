@@ -1,12 +1,12 @@
 ---
 title: Relations
 date: 2025-08-09
-weight: 8
+weight: 1.8
 image: https://www.chilimath.com/wp-content/uploads/2023/08/relations-versus-functions-and-examples.png
 emoji: 🧮
 slug: "Relationss"
 linkTitle: Relations
-series_order: 8
+series_order: 1.8
 ---
 
 A well-defined collection of distinct objects called elements or members.
