@@ -9,6 +9,4 @@ linkTitle: Graded Assignment 2
 series_order: 32
 ---
 
-A well-defined collection of distinct objects called elements or members.
-
-{{< youtube _bNfC5yW6bk >}}
+[Graded Assignment - 2 solution](https://drive.google.com/file/d/1VQs09wCwGwDD4N2pJxdP2LAY1ruD5x6n/view)
