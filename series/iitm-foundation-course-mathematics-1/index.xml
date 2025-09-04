@@ -27956,6 +27956,1165 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
+&lt;/style&gt;</description></item><item><title>Examples of Quadratic = 🧐</title><link>/iit-madras/mathematics-1/week-3/examples-of-quadratic/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/examples-of-quadratic/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/dvJKbgIPG8Q"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/dvJKbgIPG8Q" target="_blank" rel="noopener"&gt;https://youtu.be/dvJKbgIPG8Q&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Determine the minimum and maximum value of a quadratic function.&lt;/li&gt;
+&lt;li&gt;Explain the concept of range and domain of a quadratic function.&lt;/li&gt;
+&lt;li&gt;Demonstrate the ability to apply these concepts in real life scenarios.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image-3.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-4.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="https://github.com/pinnotes/pinnotes.github.io/blob/main/content/iit-madras/Mathematics-1/Week-3/image-4.png?raw=true" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-5.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-6.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Wednesday evening here in India, I&amp;rsquo;d be glad to help you with this set of problems. They are excellent examples of how quadratic functions are used to model real-world situations, from the path of an ant to maximizing business profits.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Core Concepts: The Parabola ($y = ax^2 + bx + c$)&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="core-concepts-the-parabola-y--ax2--bx--c"&gt;&lt;/span&gt;
+&lt;a href="#core-concepts-the-parabola-y--ax2--bx--c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;All these problems revolve around the properties of parabolas. Let&amp;rsquo;s quickly review the key formula.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Vertex:&lt;/strong&gt; The vertex is the highest or lowest point of the parabola. Its coordinates $(x_v, y_v)$ are found using:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x-coordinate:&lt;/strong&gt; $x_v = -\frac{b}{2a}$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;y-coordinate:&lt;/strong&gt; Plug $x_v$ back into the function to find $y_v$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maximum vs. Minimum:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;If &amp;lsquo;$a$&amp;rsquo; is positive, the parabola opens upwards ($\cup$), and the vertex is a &lt;strong&gt;minimum&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;If &amp;lsquo;$a$&amp;rsquo; is negative, the parabola opens downwards ($\cap$), and the vertex is a &lt;strong&gt;maximum&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Axis of Symmetry:&lt;/strong&gt; This is the vertical line that cuts the parabola in half. Its equation is simply $x = x_v$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Ant on a Banana&lt;/strong&gt; (from file &lt;code&gt;image_0079c2.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-ant-on-a-banana-from-file-image_0079c2png"&gt;&lt;/span&gt;
+&lt;a href="#question-1-ant-on-a-banana-from-file-image_0079c2png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+The curve on the surface of the banana as shown in Figure 2 can be described using the equation $y = x^2 + 2x + 4$. An ant (shown in blue color in Figure 2) is walking from one end of the banana to the other end. What will be the x-coordinate of the ant&amp;rsquo;s location once it reaches the vertex of its path?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; The question asks for the &lt;strong&gt;x-coordinate of the vertex&lt;/strong&gt; of the parabola.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Identify the coefficients&lt;/strong&gt; from the equation $y = x^2 + 2x + 4$:
+&lt;ul&gt;
+&lt;li&gt;$a = 1$&lt;/li&gt;
+&lt;li&gt;$b = 2$&lt;/li&gt;
+&lt;li&gt;$c = 4$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apply the formula for the x-coordinate of the vertex:&lt;/strong&gt;
+$$x_v = -\frac{b}{2a}$$ $$x_v = -\frac{2}{2(1)} = -1$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The x-coordinate of the ant at the vertex is &lt;strong&gt;-1&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 2: Deb and Ananya&amp;rsquo;s Toys&lt;/strong&gt; (from file &lt;code&gt;image_0076dc.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-2-deb-and-ananya-from-file-image_0076dcpng"&gt;&lt;/span&gt;
+&lt;a href="#question-2-deb-and-ananya-from-file-image_0076dcpng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Deb and Ananya bought 20 toys together. From these 20 toys, Deb lost 3 toys and Ananya lost 4 toys. Product of the current number of their toys is 42. Can you form an equation for Deb to know how many toys did he have initially? [Let us assume Deb initially had x number of toys.]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; Translating a word problem into a mathematical equation by defining expressions for each quantity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Define initial quantities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number of toys Deb had initially = $x$.&lt;/li&gt;
+&lt;li&gt;Total toys = 20.&lt;/li&gt;
+&lt;li&gt;Number of toys Ananya had initially = $20 - x$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Define current quantities (after losing some):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number of toys Deb has now = $x - 3$.&lt;/li&gt;
+&lt;li&gt;Number of toys Ananya has now = $(20 - x) - 4 = 16 - x$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Form the equation based on the product:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The product of their current number of toys is 42.&lt;/li&gt;
+&lt;li&gt;(Deb&amp;rsquo;s current toys) $\times$ (Ananya&amp;rsquo;s current toys) = 42&lt;/li&gt;
+&lt;li&gt;$(x - 3)(16 - x) = 42$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Expand the equation to match the options:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the FOIL method: $x(16) + x(-x) - 3(16) - 3(-x) = 42$&lt;/li&gt;
+&lt;li&gt;$16x - x^2 - 48 + 3x = 42$&lt;/li&gt;
+&lt;li&gt;Combine like terms: $-x^2 + 19x - 48 = 42$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct equation is &lt;strong&gt;$-x^2 + 19x - 48 = 42$&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 3: Vaccine Manufacturing Cost&lt;/strong&gt; (from file &lt;code&gt;image_0076dc.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-3-vaccine-manufacturing-cost-from-file-image_0076dcpng"&gt;&lt;/span&gt;
+&lt;a href="#question-3-vaccine-manufacturing-cost-from-file-image_0076dcpng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Represent the following problem in the form of an equation: a medicine manufacturer produces y number of vaccines every day. The manufacturing cost of each vaccine is ₹100 plus the number of vaccines manufactured on that day. On a particular day, the total manufacturing cost was ₹10,000. How many vaccines were manufactured on that day?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; Total Cost = (Number of Units) $\times$ (Cost per Unit).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Define the quantities from the problem:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number of vaccines produced = $y$.&lt;/li&gt;
+&lt;li&gt;Cost per vaccine = &amp;ldquo;₹100 plus the number of vaccines&amp;rdquo;, which translates to $100 + y$.&lt;/li&gt;
+&lt;li&gt;Total manufacturing cost = ₹10,000.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Set up the equation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Total Cost = (Number of Units) $\times$ (Cost per Unit)&lt;/li&gt;
+&lt;li&gt;$10000 = y \times (100 + y)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Expand and rearrange the equation to match the options:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$10000 = 100y + y^2$&lt;/li&gt;
+&lt;li&gt;This is commonly written with the highest power first: $y^2 + 100y = 10000$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct equation is &lt;strong&gt;$y^2 + 100y = 10000$&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 4: Vertex and Axis of Symmetry&lt;/strong&gt; (from file &lt;code&gt;image_007662.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-4-vertex-and-axis-of-symmetry-from-file-image_007662png"&gt;&lt;/span&gt;
+&lt;a href="#question-4-vertex-and-axis-of-symmetry-from-file-image_007662png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Find the vertex and axis of symmetry of the graph of the quadratic function: $f(x) = x^2 + 4x + 5$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; The vertex is the point $(x_v, y_v)$ and the axis of symmetry is the vertical line $x = x_v$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identify the coefficients&lt;/strong&gt; from $f(x) = x^2 + 4x + 5$:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$a = 1$&lt;/li&gt;
+&lt;li&gt;$b = 4$&lt;/li&gt;
+&lt;li&gt;$c = 5$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the x-coordinate of the vertex:&lt;/strong&gt;
+&lt;/p&gt;
+$$x_v = -\frac{b}{2a} = -\frac{4}{2(1)} = -2$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Determine the axis of symmetry:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The axis of symmetry is the line $x = x_v$, so it is &lt;strong&gt;$x = -2$&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the y-coordinate of the vertex:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Substitute $x = -2$ back into the function:&lt;/li&gt;
+&lt;li&gt;$y_v = f(-2) = (-2)^2 + 4(-2) + 5$&lt;/li&gt;
+&lt;li&gt;$y_v = 4 - 8 + 5 = 1$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;State the vertex:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The vertex is the point $(x_v, y_v)$, which is &lt;strong&gt;$(-2, 1)$&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct option is &lt;strong&gt;vertex= (-2,1), axis of symmetry x=-2&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 5: Maximizing Profit (Finding the Input)&lt;/strong&gt; (from file &lt;code&gt;image_007662.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-5-maximizing-profit-finding-the-input-from-file-image_007662png"&gt;&lt;/span&gt;
+&lt;a href="#question-5-maximizing-profit-finding-the-input-from-file-image_007662png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Ananya runs a shop selling books. The profit she makes from her shop is given by the function $P(u) = 100 + 40u - 2u^2$, where u is the amount that she spends on bookbinding. Find the value of u in order to maximize the profit $P(u)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; A downward-opening parabola (negative &amp;lsquo;a&amp;rsquo; value) has a maximum value at its vertex. This question asks for the input value ($u$) that gives this maximum profit, which is the u-coordinate of the vertex.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Rearrange the function and identify coefficients:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P(u) = -2u^2 + 40u + 100$&lt;/li&gt;
+&lt;li&gt;$a = -2$&lt;/li&gt;
+&lt;li&gt;$b = 40$&lt;/li&gt;
+&lt;li&gt;$c = 100$&lt;/li&gt;
+&lt;li&gt;Since &amp;lsquo;a&amp;rsquo; is negative, this parabola opens downwards and has a maximum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the u-coordinate of the vertex:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$u_{vertex} = -\frac{b}{2a} = -\frac{40}{2(-2)} = -\frac{40}{-4} = 10$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The value of u that maximizes the profit is &lt;strong&gt;10&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 6: Finding the Maximum Profit&lt;/strong&gt; (from file &lt;code&gt;image_007622.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-6-finding-the-maximum-profit-from-file-image_007622png"&gt;&lt;/span&gt;
+&lt;a href="#question-6-finding-the-maximum-profit-from-file-image_007622png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Find the maximum profit obtained by Ananya&amp;rsquo;s shop.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; This is the follow-up to the previous question. The maximum profit is the actual maximum value of the function, which is the y-coordinate (or in this case, the P-coordinate) of the vertex.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;From the previous question, we know that profit is maximized when $u = 10$.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the profit $P(u)$ for $u = 10$:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P(10) = 100 + 40(10) - 2(10)^2$&lt;/li&gt;
+&lt;li&gt;$P(10) = 100 + 400 - 2(100)$&lt;/li&gt;
+&lt;li&gt;$P(10) = 500 - 200$&lt;/li&gt;
+&lt;li&gt;$P(10) = 300$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The maximum profit is &lt;strong&gt;300&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
 &lt;/style&gt;</description></item><item><title>Examples of Quadratic functions</title><link>/iit-madras/mathematics-1/week-3/examples-of-quadratic-functions/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/examples-of-quadratic-functions/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
@@ -32686,15 +33845,6 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Define the degree of a polynomial.
 Understand the degree of zero polynomial.
 Classify polynomials based on degrees of polynomials.&lt;/p&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
-&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
-&lt;iframe
-src="https://www.youtube.com/embed/s9zDRWmgsb4"
-frameborder="0"
-allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
 &lt;iframe
