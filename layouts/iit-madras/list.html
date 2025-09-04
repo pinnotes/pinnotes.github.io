@@ -42,8 +42,8 @@ $readMore := (T "readMore") | default "Read here →" -}}
             {{ end }}
           </li>
 
-          {{ range first 3 (where .Site.RegularPages "Params.tags" "intersect"
-          (slice "Notes")) }}
+          {{ range first 3 (where .Site.RegularPages "Params.series" "intersect"
+          (slice "IITM-Foundation-Course-Mathematics-1")) }}
           <li class="grid-item">
             <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
               <div class="grid-layout__item">
@@ -218,8 +218,8 @@ $readMore := (T "readMore") | default "Read here →" -}}
 
       <div class="grid-layout-section">
         <ul class="grid-container">
-          {{ range first 6 (where .Site.RegularPages "Params.tags" "intersect"
-          (slice "Notes")) }}
+          {{ range  last 6 (where .Site.RegularPages "Params.series" "intersect"
+          (slice "IITM-Foundation-Course-Mathematics-1")) }}
           <li class="grid-item">
             <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
               <div class="grid-layout__item">
