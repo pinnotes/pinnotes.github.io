@@ -1024,14 +1024,35 @@ background-color: #d45039;
 }
 }
 &lt;/style&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/4Xj5iQKZ2VQ"
+src="https://www.youtube.com/embed/4Xj5iQKZ2VQ?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;Create a Glowing Dome Lighting Setup in Blender 🏮✨&lt;span class="hx-absolute -hx-mt-20" id="create-a-glowing-dome-lighting-setup-in-blender-"&gt;&lt;/span&gt;
 &lt;a href="#create-a-glowing-dome-lighting-setup-in-blender-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ever wanted to make your product renders or car scenes shine with ultra-realistic lighting in Blender? 🎬 This beginner-friendly guide walks you through setting up a glowing HDRI dome that actually casts beautiful shadows—all using Blender&amp;rsquo;s Cycles render engine. Ready? Let’s light things up! 💡&lt;/p&gt;
 &lt;hr&gt;
@@ -1624,14 +1645,35 @@ background-color: #d45039;
 }
 }
 &lt;/style&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/4Xj5iQKZ2VQ"
+src="https://www.youtube.com/embed/4Xj5iQKZ2VQ?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;How to Set Up HDRI Lighting in Blender (Beginner Friendly) 🌄✨&lt;span class="hx-absolute -hx-mt-20" id="how-to-set-up-hdri-lighting-in-blender-beginner-friendly-"&gt;&lt;/span&gt;
 &lt;a href="#how-to-set-up-hdri-lighting-in-blender-beginner-friendly-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Want to give your Blender renders a professional, realistic vibe using HDRI lighting? Let’s walk through the easy process featured in &lt;a href="https://youtu.be/4Xj5iQKZ2VQ?si=0VX87-b7VKpJ0MhU" target="_blank" rel="noopener"&gt;this tutorial&lt;/a&gt; so your scenes truly shine—perfect for cars, products, or moody environments! 🚗🔆&lt;/p&gt;
 &lt;hr&gt;
@@ -2685,14 +2727,35 @@ background-color: #d45039;
 }
 }
 &lt;/style&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/zoVkef5dQ2Q"
+src="https://www.youtube.com/embed/zoVkef5dQ2Q?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;✨ Rev Up Your Renders: Blender Burnout Smoke Tutorial! 💨&lt;/p&gt;
 &lt;p&gt;Ever wanted to add that extra &lt;em&gt;oomph&lt;/em&gt; to your car animations? Learn how to create realistic burnout smoke in Blender with this super easy, beginner-friendly tutorial! We&amp;rsquo;ll break down the animation, smoke simulation, and render settings step-by-step so you can make your scenes truly epic. Buckle up! 🚗💨&lt;/p&gt;
 &lt;h2&gt;🛠️ Getting Started &amp;amp; Animation Basics&lt;span class="hx-absolute -hx-mt-20" id="-getting-started--animation-basics"&gt;&lt;/span&gt;
@@ -3389,14 +3452,35 @@ background-color: #d45039;
 }
 }
 &lt;/style&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/UROAPLMzMGg"
+src="https://www.youtube.com/embed/UROAPLMzMGg?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;How to Animate a Snake Along a Path in Blender 🐍✨&lt;span class="hx-absolute -hx-mt-20" id="how-to-animate-a-snake-along-a-path-in-blender-"&gt;&lt;/span&gt;
 &lt;a href="#how-to-animate-a-snake-along-a-path-in-blender-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ever wanted to make a snake &lt;em&gt;slither&lt;/em&gt; smoothly in Blender? Whether you’re a beginner or just need a fast workflow, this guide (based on &lt;a href="https://youtu.be/UROAPLMzMGg?si=cT9twAjtpeLCOvX0" target="_blank" rel="noopener"&gt;this excellent tutorial&lt;/a&gt;) makes creating captivating path animations a breeze! Let’s get started and bring your snake to life! 🌟&lt;/p&gt;
 &lt;hr&gt;

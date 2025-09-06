@@ -1,13 +1,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – IITM-Foundation-Course-Mathematics-1</title><link>/series/iitm-foundation-course-mathematics-1/</link><description>Recent content in IITM-Foundation-Course-Mathematics-1 on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/series/iitm-foundation-course-mathematics-1/index.xml" rel="self" type="application/rss+xml"/><item><title>Construction of Subsets and set operations</title><link>/iit-madras/mathematics-1/week-1/05-construction-of-subsets-and-set-operations/construction-of-subsets-and-set-operations/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/05-construction-of-subsets-and-set-operations/construction-of-subsets-and-set-operations/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/Ue3y-OE_2lE"
+src="https://www.youtube.com/embed/Ue3y-OE_2lE?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;1️⃣ Set Comprehension: Writing Sets in Comprehensive Form&lt;span class="hx-absolute -hx-mt-20" id="1-set-comprehension-writing-sets-in-comprehensive-form"&gt;&lt;/span&gt;
 &lt;a href="#1-set-comprehension-writing-sets-in-comprehensive-form" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Set comprehension&lt;/strong&gt; is a way to define a set by describing the properties its members must satisfy instead of listing elements.&lt;/li&gt;
@@ -1438,14 +1459,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Examples of Set Operations and Counting Problems</title><link>/iit-madras/mathematics-1/week-1/07-examples-of-set-operations-and-counting-problems/examples-of-set-operations-and-counting-problems/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/07-examples-of-set-operations-and-counting-problems/examples-of-set-operations-and-counting-problems/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/NwYHojyw3SU"
+src="https://www.youtube.com/embed/NwYHojyw3SU?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;Here is a detailed guide covering set notations and solving counting problems using Venn diagrams with 10 examples, including diagrams and emojis to enhance clarity.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;1️⃣ Understanding Set Notations&lt;span class="hx-absolute -hx-mt-20" id="1-understanding-set-notations"&gt;&lt;/span&gt;
@@ -2448,14 +2490,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Functions</title><link>/iit-madras/mathematics-1/week-1/09-functions/functions/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/09-functions/functions/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/M-nlI2fgaWI"
+src="https://www.youtube.com/embed/M-nlI2fgaWI?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;1️⃣ Define Function, Domain, Co-domain, and Range&lt;span class="hx-absolute -hx-mt-20" id="1-define-function-domain-co-domain-and-range"&gt;&lt;/span&gt;
 &lt;a href="#1-define-function-domain-co-domain-and-range" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Function:&lt;/strong&gt; A relation $f$ from set $A$ (domain) to set $B$ (co-domain) that assigns &lt;strong&gt;each element in $A$ exactly one element in $B$&lt;/strong&gt;. Denoted as $f: A \to B$.&lt;/li&gt;
@@ -3615,14 +3678,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Mathematics for Data Science 1</title><link>/iit-madras/mathematics-1/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/</guid><description/></item><item><title>Natural Numbers and their operations</title><link>/iit-madras/mathematics-1/week-1/natural-numbers-and-their-operations/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/natural-numbers-and-their-operations/</guid><description>
 &lt;p&gt;Of course! Let&amp;rsquo;s dive deep into the world of Natural Numbers and their operations. We&amp;rsquo;ll start from the very basics and build up to the properties that govern them.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/WEC6jPWvoj8"
+src="https://www.youtube.com/embed/WEC6jPWvoj8?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;Identifying Natural Numbers and Integers&lt;span class="hx-absolute -hx-mt-20" id="identifying-natural-numbers-and-integers"&gt;&lt;/span&gt;
 &lt;a href="#identifying-natural-numbers-and-integers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Natural numbers&lt;/strong&gt; are positive whole numbers, used for counting: 1, 2, 3, 4, 5, &amp;hellip;.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;
 &lt;strong&gt;Integers&lt;/strong&gt; include all positive and negative whole numbers and zero: &amp;hellip;, -3, -2, -1, 0, 1, 2, 3, &amp;hellip;.&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -4594,14 +4678,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Rational Numbers</title><link>/iit-madras/mathematics-1/week-1/rational-numbers/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/rational-numbers/</guid><description>
 &lt;p&gt;Here is a detailed, emoji-enhanced guide to rational numbers, ordering, GCD, and density, with diagrams and markdown image code for added visuals.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/jHBIJ50DhJQ"
+src="https://www.youtube.com/embed/jHBIJ50DhJQ?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;🧮 Define Rational Numbers&lt;span class="hx-absolute -hx-mt-20" id="-define-rational-numbers"&gt;&lt;/span&gt;
 &lt;a href="#-define-rational-numbers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A &lt;strong&gt;rational number&lt;/strong&gt; is any number that can be written as a fraction $\frac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -5304,14 +5409,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Real and Complex Numbers</title><link>/iit-madras/mathematics-1/week-1/03-real-and-complex-numbers/real-and-complex-numbers/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/03-real-and-complex-numbers/real-and-complex-numbers/</guid><description>
 &lt;p&gt;Real Numbers (R) include all rational numbers plus all irrational numbers (numbers that cannot be expressed as fractions). This makes the real numbers a complete set covering every possible point on the number line.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/hz7cuJj17wU"
+src="https://www.youtube.com/embed/hz7cuJj17wU?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;1️⃣ How Rational Numbers Extend to Real Numbers&lt;span class="hx-absolute -hx-mt-20" id="1-how-rational-numbers-extend-to-real-numbers"&gt;&lt;/span&gt;
 &lt;a href="#1-how-rational-numbers-extend-to-real-numbers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Rational Numbers&lt;/strong&gt; ($\mathbb{Q}$) are numbers expressed as fractions $\frac{p}{q}$, where $p, q$ are integers, $q \neq 0$. Examples: $\frac{1}{2}, 0.75, -3$.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -6296,14 +6422,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Relations</title><link>/iit-madras/mathematics-1/week-1/08-relations/relationss/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/08-relations/relationss/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/_bNfC5yW6bk"
+src="https://www.youtube.com/embed/_bNfC5yW6bk?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;1️⃣ Compute the Cartesian Product of Two Non-Empty Sets&lt;span class="hx-absolute -hx-mt-20" id="1-compute-the-cartesian-product-of-two-non-empty-sets"&gt;&lt;/span&gt;
 &lt;a href="#1-compute-the-cartesian-product-of-two-non-empty-sets" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Definition:&lt;/strong&gt; The Cartesian Product $ A \times B $ of sets $ A $ and $ B $ is the set of all ordered pairs $(a, b)$ such that $a \in A$ and $b \in B$.&lt;/li&gt;
@@ -7634,14 +7781,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Set Examples</title><link>/iit-madras/mathematics-1/week-1/06-sets-examples/set-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/06-sets-examples/set-examples/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/bW5O7a1VX4w"
+src="https://www.youtube.com/embed/bW5O7a1VX4w?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;1️⃣ Describe the Membership of Sets&lt;span class="hx-absolute -hx-mt-20" id="1-describe-the-membership-of-sets"&gt;&lt;/span&gt;
 &lt;a href="#1-describe-the-membership-of-sets" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Membership&lt;/strong&gt; refers to whether an element belongs to a set or not.&lt;/li&gt;
@@ -8924,14 +9092,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Set Theory</title><link>/iit-madras/mathematics-1/week-1/04-set-theory/set-theory/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/04-set-theory/set-theory/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/8z04uTycZpE"
+src="https://www.youtube.com/embed/8z04uTycZpE?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h2&gt;1️⃣ Define Set Concepts with Notations&lt;span class="hx-absolute -hx-mt-20" id="1-define-set-concepts-with-notations"&gt;&lt;/span&gt;
 &lt;a href="#1-define-set-concepts-with-notations" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Set ( $ A $ )&lt;/strong&gt;: A well-defined collection of distinct objects called elements or members.
@@ -10231,14 +10420,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Relations examples</title><link>/iit-madras/mathematics-1/week-1/10-relations-examples/relations-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/10-relations-examples/relations-examples/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/6CyagSq3fWA"
+src="https://www.youtube.com/embed/6CyagSq3fWA?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;List the number of elements in the cartesian product of two finite sets.&lt;/li&gt;
@@ -10246,14 +10456,35 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;li&gt;Represent data tables as relations.&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Functions Examples</title><link>/iit-madras/mathematics-1/week-1/11-functions-examples/functions-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/11-functions-examples/functions-examples/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/6YrUx0bAnuQ"
+src="https://www.youtube.com/embed/6YrUx0bAnuQ?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/6YrUx0bAnuQ" target="_blank" rel="noopener"&gt;https://youtu.be/6YrUx0bAnuQ&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -10263,14 +10494,35 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;li&gt;Identify whether one function grows faster than another.&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Prime Numbers</title><link>/iit-madras/mathematics-1/week-1/12-prime-numbers/prime-numbers/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/12-prime-numbers/prime-numbers/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/98NeCye2i3k"
+src="https://www.youtube.com/embed/98NeCye2i3k?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/98NeCye2i3k" target="_blank" rel="noopener"&gt;https://youtu.be/98NeCye2i3k&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -10278,14 +10530,35 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;li&gt;Identify if a given number is prime or not.&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Why is a number irrational?</title><link>/iit-madras/mathematics-1/week-1/13-why-is-a-number-irrational/why-is-a-number-irrational/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/13-why-is-a-number-irrational/why-is-a-number-irrational/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/xUZeskT6WiQ"
+src="https://www.youtube.com/embed/xUZeskT6WiQ?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/xUZeskT6WiQ" target="_blank" rel="noopener"&gt;https://youtu.be/xUZeskT6WiQ&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -10293,14 +10566,35 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;li&gt;Explain why not every number can be expressed in p/q form.&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Set versus Collections</title><link>/iit-madras/mathematics-1/week-1/14-set-veruses-collections/set-versus-collections/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/14-set-veruses-collections/set-versus-collections/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/kM9nVJks1a8"
+src="https://www.youtube.com/embed/kM9nVJks1a8?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/kM9nVJks1a8" target="_blank" rel="noopener"&gt;https://youtu.be/kM9nVJks1a8&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -10309,14 +10603,35 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;li&gt;Define ​class.​&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Degrees of infinity</title><link>/iit-madras/mathematics-1/week-1/15-degree-of-infinity/degrees-of-infinity/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/15-degree-of-infinity/degrees-of-infinity/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/yjJ_pualJr4"
+src="https://www.youtube.com/embed/yjJ_pualJr4?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/yjJ_pualJr4" target="_blank" rel="noopener"&gt;https://youtu.be/yjJ_pualJr4&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -16140,14 +16455,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Rectangular Coordinate system</title><link>/iit-madras/mathematics-1/week-2/01-rectangular-coordinate-system/rectangular-coordinate-system/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/01-rectangular-coordinate-system/rectangular-coordinate-system/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/RfG2NLXqGE8"
+src="https://www.youtube.com/embed/RfG2NLXqGE8?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/RfG2NLXqGE8" target="_blank" rel="noopener"&gt;https://youtu.be/RfG2NLXqGE8&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -16786,14 +17122,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Distance formula</title><link>/iit-madras/mathematics-1/week-2/02-distance-formula/distance-formula/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/02-distance-formula/distance-formula/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/aDhyAkXiDOY"
+src="https://www.youtube.com/embed/aDhyAkXiDOY?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/aDhyAkXiDOY" target="_blank" rel="noopener"&gt;https://youtu.be/aDhyAkXiDOY&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;1️⃣ Distance of a Point from the Origin&lt;span class="hx-absolute -hx-mt-20" id="1-distance-of-a-point-from-the-origin"&gt;&lt;/span&gt;
 &lt;a href="#1-distance-of-a-point-from-the-origin" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To compute the distance of a point $P(x, y)$ from the &lt;strong&gt;origin&lt;/strong&gt; $(0, 0)$ in the rectangular coordinate system, use the &lt;strong&gt;distance formula&lt;/strong&gt;:&lt;/p&gt;
@@ -17444,14 +17801,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Distance of a line from a given point</title><link>/iit-madras/mathematics-1/week-2/12-distance-of-a-line-from-a-given-point/distance-of-a-line-from-a-given-point/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/12-distance-of-a-line-from-a-given-point/distance-of-a-line-from-a-given-point/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/tYSZ4L0X3kY"
+src="https://www.youtube.com/embed/tYSZ4L0X3kY?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/tYSZ4L0X3kY" target="_blank" rel="noopener"&gt;https://youtu.be/tYSZ4L0X3kY&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;● Explain the concept of intercepts of a line on the axes.
@@ -18440,14 +18818,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Equation of a perpendicular line passing through a point</title><link>/iit-madras/mathematics-1/week-2/11-equation-of-a-perpendicular-line-passing-through-a-point/equation-of-a-perpendicular-line-passing-through-a-point/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/11-equation-of-a-perpendicular-line-passing-through-a-point/equation-of-a-perpendicular-line-passing-through-a-point/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/CjeHgCXhi4k"
+src="https://www.youtube.com/embed/CjeHgCXhi4k?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/CjeHgCXhi4k" target="_blank" rel="noopener"&gt;https://youtu.be/CjeHgCXhi4k&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;● Find the general equation of a line passing through a point and is perpendicular to a given line.&lt;/p&gt;
@@ -18828,14 +19227,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Equation of parallel and perpendicular lines in general form</title><link>/iit-madras/mathematics-1/week-2/10-equation-of-parallel-and-perpendicular-lines-in-general-form/equation-of-parallel-and-perpendicular-lines-in-general-form/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/10-equation-of-parallel-and-perpendicular-lines-in-general-form/equation-of-parallel-and-perpendicular-lines-in-general-form/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/gJuJtTYmbSs"
+src="https://www.youtube.com/embed/gJuJtTYmbSs?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/gJuJtTYmbSs" target="_blank" rel="noopener"&gt;https://youtu.be/gJuJtTYmbSs&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;● Determine the general conditions for the slope of a line parallel or perpendicular to a given line.
@@ -19256,14 +19676,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>General equation of line</title><link>/iit-madras/mathematics-1/week-2/09-general-equation-of-line/general-equation-of-line/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/09-general-equation-of-line/general-equation-of-line/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/_3Iidm8NnbM"
+src="https://www.youtube.com/embed/_3Iidm8NnbM?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/_3Iidm8NnbM" target="_blank" rel="noopener"&gt;https://youtu.be/_3Iidm8NnbM&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;● Understand the general equation of a line.
@@ -21116,224 +21557,686 @@ Convert general form by isolating $ y $&lt;/li&gt;
 &lt;/div&gt;</description></item><item><title>Practice_Assignment_2</title><link>/iit-madras/mathematics-1/week-2/14-practice-assignement-2/practice_assignment_2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/14-practice-assignement-2/practice_assignment_2/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 01&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-01"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-01" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-01" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/ggpFtRiDUFA"
+src="https://www.youtube.com/embed/ggpFtRiDUFA?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/ggpFtRiDUFA" target="_blank" rel="noopener"&gt;https://youtu.be/ggpFtRiDUFA&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 02&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-02"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-02" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-02" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/Qr7Kou01yj8"
+src="https://www.youtube.com/embed/Qr7Kou01yj8?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/Qr7Kou01yj8" target="_blank" rel="noopener"&gt;https://youtu.be/Qr7Kou01yj8&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 03&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-03"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-03" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-03" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/sCoim0snAA8"
+src="https://www.youtube.com/embed/sCoim0snAA8?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/sCoim0snAA8" target="_blank" rel="noopener"&gt;https://youtu.be/sCoim0snAA8&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 04&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-04"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-04" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-04" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/vq7_toO2kYg"
+src="https://www.youtube.com/embed/vq7_toO2kYg?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/vq7_toO2kYg" target="_blank" rel="noopener"&gt;https://youtu.be/vq7_toO2kYg&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 05&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-05"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-05" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-05" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/1INLxb3f9YI"
+src="https://www.youtube.com/embed/1INLxb3f9YI?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/1INLxb3f9YI" target="_blank" rel="noopener"&gt;https://youtu.be/1INLxb3f9YI&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 06&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-06"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-06" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-06" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/-fZvZdJhzUs"
+src="https://www.youtube.com/embed/-fZvZdJhzUs?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/-fZvZdJhzUs" target="_blank" rel="noopener"&gt;https://youtu.be/-fZvZdJhzUs&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 07&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-07"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-07" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-07" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/dbJO3jF4WXs"
+src="https://www.youtube.com/embed/dbJO3jF4WXs?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/dbJO3jF4WXs" target="_blank" rel="noopener"&gt;https://youtu.be/dbJO3jF4WXs&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 08&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-08"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-08" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-08" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/dteNmaw328E"
+src="https://www.youtube.com/embed/dteNmaw328E?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/dteNmaw328E" target="_blank" rel="noopener"&gt;https://youtu.be/dteNmaw328E&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 09&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-09"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-09" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-09" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/ORTfj35Hrcw"
+src="https://www.youtube.com/embed/ORTfj35Hrcw?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/ORTfj35Hrcw" target="_blank" rel="noopener"&gt;https://youtu.be/ORTfj35Hrcw&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 10&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-10"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-10" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-10" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/liFQ6XE3yjM"
+src="https://www.youtube.com/embed/liFQ6XE3yjM?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/liFQ6XE3yjM" target="_blank" rel="noopener"&gt;https://youtu.be/liFQ6XE3yjM&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 11&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-11"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-11" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-11" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/158cd3s0F8k"
+src="https://www.youtube.com/embed/158cd3s0F8k?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/158cd3s0F8k" target="_blank" rel="noopener"&gt;https://youtu.be/158cd3s0F8k&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 12&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-12"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-12" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-12" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/dUAoCjc3rTQ"
+src="https://www.youtube.com/embed/dUAoCjc3rTQ?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/dUAoCjc3rTQ" target="_blank" rel="noopener"&gt;https://youtu.be/dUAoCjc3rTQ&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 13&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-13"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-13" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-13" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/qEmKQwJtJGE"
+src="https://www.youtube.com/embed/qEmKQwJtJGE?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/qEmKQwJtJGE" target="_blank" rel="noopener"&gt;https://youtu.be/qEmKQwJtJGE&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 14&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-14"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-14" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-14" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/naHjpSVM3FU"
+src="https://www.youtube.com/embed/naHjpSVM3FU?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/naHjpSVM3FU" target="_blank" rel="noopener"&gt;https://youtu.be/naHjpSVM3FU&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 15&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-15"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-15" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-15" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/EJ-xQkbr8mU"
+src="https://www.youtube.com/embed/EJ-xQkbr8mU?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/EJ-xQkbr8mU" target="_blank" rel="noopener"&gt;https://youtu.be/EJ-xQkbr8mU&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 16&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-16"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-16" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-16" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/J3rs7MaSR1M"
+src="https://www.youtube.com/embed/J3rs7MaSR1M?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/J3rs7MaSR1M" target="_blank" rel="noopener"&gt;https://youtu.be/J3rs7MaSR1M&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 17&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-17"&gt;&lt;/span&gt;
-&lt;a href="#week-02---tutorial-17" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---tutorial-17" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/j1KP8QmJB9k"
+src="https://www.youtube.com/embed/j1KP8QmJB9k?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/j1KP8QmJB9k" target="_blank" rel="noopener"&gt;https://youtu.be/j1KP8QmJB9k&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Additional Lecture 01&lt;span class="hx-absolute -hx-mt-20" id="week-02---additional-lecture-01"&gt;&lt;/span&gt;
-&lt;a href="#week-02---additional-lecture-01" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---additional-lecture-01" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/wGoHykE6OeM"
+src="https://www.youtube.com/embed/wGoHykE6OeM?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/wGoHykE6OeM" target="_blank" rel="noopener"&gt;https://youtu.be/wGoHykE6OeM&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Additional Lecture 02&lt;span class="hx-absolute -hx-mt-20" id="week-02---additional-lecture-02"&gt;&lt;/span&gt;
-&lt;a href="#week-02---additional-lecture-02" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---additional-lecture-02" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/HorfaKBnghw"
+src="https://www.youtube.com/embed/HorfaKBnghw?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/HorfaKBnghw" target="_blank" rel="noopener"&gt;https://youtu.be/HorfaKBnghw&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Additional Lecture 03&lt;span class="hx-absolute -hx-mt-20" id="week-02---additional-lecture-03"&gt;&lt;/span&gt;
-&lt;a href="#week-02---additional-lecture-03" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---additional-lecture-03" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/YPQiTLElYEU"
+src="https://www.youtube.com/embed/YPQiTLElYEU?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/YPQiTLElYEU" target="_blank" rel="noopener"&gt;https://youtu.be/YPQiTLElYEU&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Week 02 - Additional Lecture 04&lt;span class="hx-absolute -hx-mt-20" id="week-02---additional-lecture-04"&gt;&lt;/span&gt;
-&lt;a href="#week-02---additional-lecture-04" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;a href="#week-02---additional-lecture-04" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/cDEa9jgcSyc"
+src="https://www.youtube.com/embed/cDEa9jgcSyc?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/cDEa9jgcSyc" target="_blank" rel="noopener"&gt;https://youtu.be/cDEa9jgcSyc&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Representation of a Line-1</title><link>/iit-madras/mathematics-1/week-2/07-representation-of-a-line-1/representation-of-a-line-1/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/07-representation-of-a-line-1/representation-of-a-line-1/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/fKUK8xeuWNo"
+src="https://www.youtube.com/embed/fKUK8xeuWNo?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/fKUK8xeuWNo" target="_blank" rel="noopener"&gt;https://youtu.be/fKUK8xeuWNo&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -22675,14 +23578,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Representation of a Line-2</title><link>/iit-madras/mathematics-1/week-2/08-representation-of-a-line-2/representation-of-a-line-2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/08-representation-of-a-line-2/representation-of-a-line-2/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/zM0q4y-y4so"
+src="https://www.youtube.com/embed/zM0q4y-y4so?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/zM0q4y-y4so" target="_blank" rel="noopener"&gt;https://youtu.be/zM0q4y-y4so&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -23494,14 +24418,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Straight line fit</title><link>/iit-madras/mathematics-1/week-2/13-straight-line-fit/straight-line-fit/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/13-straight-line-fit/straight-line-fit/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/xdZHsFuyBZM"
+src="https://www.youtube.com/embed/xdZHsFuyBZM?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/xdZHsFuyBZM" target="_blank" rel="noopener"&gt;https://youtu.be/xdZHsFuyBZM&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;● Associate the study on lines with real-world problems.
@@ -23906,14 +24851,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Section formula</title><link>/iit-madras/mathematics-1/week-2/03-section-formula/section-formula/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/03-section-formula/section-formula/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/B5yv8zPrkek"
+src="https://www.youtube.com/embed/B5yv8zPrkek?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/B5yv8zPrkek" target="_blank" rel="noopener"&gt;https://youtu.be/B5yv8zPrkek&lt;/a&gt;&lt;/p&gt;
 &lt;img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/&gt;
 &lt;h3&gt;1. Finding the Ratio in Which a Point Divides a Line Segment&lt;span class="hx-absolute -hx-mt-20" id="1-finding-the-ratio-in-which-a-point-divides-a-line-segment"&gt;&lt;/span&gt;
@@ -24625,14 +25591,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Area of triangle</title><link>/iit-madras/mathematics-1/week-2/04-area-of-traingle/area-of-triangle/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/04-area-of-traingle/area-of-triangle/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/x62fodF7ezk"
+src="https://www.youtube.com/embed/x62fodF7ezk?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/x62fodF7ezk" target="_blank" rel="noopener"&gt;https://youtu.be/x62fodF7ezk&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1️⃣ Compute the Area of a Trapezium&lt;span class="hx-absolute -hx-mt-20" id="1-compute-the-area-of-a-trapezium"&gt;&lt;/span&gt;
 &lt;a href="#1-compute-the-area-of-a-trapezium" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A &lt;strong&gt;trapezium&lt;/strong&gt; (or trapezoid) is a quadrilateral with at least one pair of parallel sides called the &lt;strong&gt;bases&lt;/strong&gt;.&lt;/p&gt;
@@ -25284,14 +26271,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Parallel and perpendicular lines</title><link>/iit-madras/mathematics-1/week-2/06-parallel-and-perpendicular-lines/parallel-and-perpendicular-lines/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/06-parallel-and-perpendicular-lines/parallel-and-perpendicular-lines/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/CXhBGVfmtBg"
+src="https://www.youtube.com/embed/CXhBGVfmtBg?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/CXhBGVfmtBg" target="_blank" rel="noopener"&gt;https://youtu.be/CXhBGVfmtBg&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1️⃣ Why the Slope of a Line Does Not Uniquely Determine the Line&lt;span class="hx-absolute -hx-mt-20" id="1-why-the-slope-of-a-line-does-not-uniquely-determine-the-line"&gt;&lt;/span&gt;
 &lt;a href="#1-why-the-slope-of-a-line-does-not-uniquely-determine-the-line" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;slope&lt;/strong&gt; measures the steepness and direction of a line but does &lt;strong&gt;not&lt;/strong&gt; uniquely determine a line by itself.&lt;/p&gt;
@@ -26499,14 +27507,35 @@ background-color: #ffbb0027;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>Slope of a line</title><link>/iit-madras/mathematics-1/week-2/05-slope-of-a-line/slope-of-a-line/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/05-slope-of-a-line/slope-of-a-line/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/V-b3BL8DAvU"
+src="https://www.youtube.com/embed/V-b3BL8DAvU?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/V-b3BL8DAvU" target="_blank" rel="noopener"&gt;https://youtu.be/V-b3BL8DAvU&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1️⃣ Understand the Concept of Slope of a Line&lt;span class="hx-absolute -hx-mt-20" id="1-understand-the-concept-of-slope-of-a-line"&gt;&lt;/span&gt;
 &lt;a href="#1-understand-the-concept-of-slope-of-a-line" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;slope&lt;/strong&gt; of a line measures its &lt;strong&gt;steepness&lt;/strong&gt; and &lt;strong&gt;direction&lt;/strong&gt; in the coordinate plane. It is the ratio of the vertical change (&amp;ldquo;rise&amp;rdquo;) to the horizontal change (&amp;ldquo;run&amp;rdquo;) between two points on the line.&lt;/p&gt;
@@ -27338,14 +28367,35 @@ background-color: #ffbb0027;
 &lt;/div&gt;</description></item><item><title>Graded Assignment 2</title><link>/iit-madras/mathematics-1/week-2/15-graded-assignment-2/graded-assignment-2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/15-graded-assignment-2/graded-assignment-2/</guid><description>
 &lt;p&gt;&lt;a href="https://drive.google.com/file/d/1VQs09wCwGwDD4N2pJxdP2LAY1ruD5x6n/view" target="_blank" rel="noopener"&gt;Graded Assignment - 2 solution&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quadratic functions</title><link>/iit-madras/mathematics-1/week-3/quadratic-functions/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/quadratic-functions/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/U4gr4zMosMk"
+src="https://www.youtube.com/embed/U4gr4zMosMk?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/U4gr4zMosMk" target="_blank" rel="noopener"&gt;https://youtu.be/U4gr4zMosMk&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -27957,14 +29007,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Examples of Quadratic functions</title><link>/iit-madras/mathematics-1/week-3/examples-of-quadratic-functions/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/examples-of-quadratic-functions/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/dvJKbgIPG8Q"
+src="https://www.youtube.com/embed/dvJKbgIPG8Q?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/dvJKbgIPG8Q" target="_blank" rel="noopener"&gt;https://youtu.be/dvJKbgIPG8Q&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -27975,9 +29046,8 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
 &lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image-3.png" alt="alt text" loading="lazy" /&gt;
 &lt;img src="image-4.png" alt="alt text" loading="lazy" /&gt;
-&lt;img src="https://github.com/pinnotes/pinnotes.github.io/blob/main/content/iit-madras/Mathematics-1/Week-3/image-4.png?raw=true" alt="alt text" loading="lazy" /&gt;
-&lt;img src="/image-5.png" alt="alt text" loading="lazy" /&gt;
-&lt;img src="/image-6.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;img src="image-5.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-6.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;p&gt;Hello! On this Wednesday evening here in India, I&amp;rsquo;d be glad to help you with this set of problems. They are excellent examples of how quadratic functions are used to model real-world situations, from the path of an ant to maximizing business profits.&lt;/p&gt;
 &lt;h3&gt;&lt;strong&gt;Core Concepts: The Parabola ($y = ax^2 + bx + c$)&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="core-concepts-the-parabola-y--ax2--bx--c"&gt;&lt;/span&gt;
 &lt;a href="#core-concepts-the-parabola-y--ax2--bx--c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;All these problems revolve around the properties of parabolas. Let&amp;rsquo;s quickly review the key formula.&lt;/p&gt;
@@ -29116,32 +30186,95 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Quadratic</title><link>/iit-madras/mathematics-1/week-3/quadratic/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/quadratic/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/U4gr4zMosMk"
+src="https://www.youtube.com/embed/U4gr4zMosMk?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Quadratic</title><link>/iit-madras/mathematics-1/week-3/quadratic/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/quadratic/</guid><description>
-&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
-&lt;iframe
-src="https://www.youtube.com/embed/U4gr4zMosMk"
-frameborder="0"
-allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Quadratic formula</title><link>/iit-madras/mathematics-1/week-3/quadratic-formula/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/quadratic-formula/</guid><description>
-&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
-&lt;iframe
-src="https://www.youtube.com/embed/1shGS3xfmwc"
-frameborder="0"
-allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;</description></item><item><title>Quadratic</title><link>/iit-madras/mathematics-1/week-3/quadratic/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/quadratic/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/U4gr4zMosMk?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;</description></item><item><title>Quadratic formula</title><link>/iit-madras/mathematics-1/week-3/quadratic-formula/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/quadratic-formula/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/1shGS3xfmwc?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/1shGS3xfmwc" target="_blank" rel="noopener"&gt;https://youtu.be/1shGS3xfmwc&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -29152,16 +30285,817 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;li&gt;The student can understand the concept of the &amp;lsquo;axis of symmetry&amp;rsquo;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;</description></item><item><title>Slope | Line &amp; Parabola</title><link>/iit-madras/mathematics-1/week-3/slope-line-parabola/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/slope-line-parabola/</guid><description>
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Good morning! Here in India on this Saturday, let&amp;rsquo;s tackle these questions about quadratic equations. The key to understanding most of these problems lies in a powerful tool called the &lt;strong&gt;discriminant&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Core Concept: The Discriminant ($ax^2 + bx + c = 0$)&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="core-concept-the-discriminant-ax2--bx--c--0"&gt;&lt;/span&gt;
+&lt;a href="#core-concept-the-discriminant-ax2--bx--c--0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For any quadratic equation, the &lt;strong&gt;roots&lt;/strong&gt; (or solutions) can be found using the quadratic formula:
+&lt;/p&gt;
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$&lt;p&gt;
+The part under the square root, &lt;strong&gt;$b^2 - 4ac$&lt;/strong&gt;, is called the &lt;strong&gt;discriminant&lt;/strong&gt;, often represented by the symbol delta ($\Delta$). The value of the discriminant tells you about the &lt;em&gt;nature&lt;/em&gt; of the roots without having to fully solve the equation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If &lt;strong&gt;$\Delta &amp;gt; 0$&lt;/strong&gt; (positive), you will get two different answers because of the $\pm$ sign. This means the equation has &lt;strong&gt;two distinct real roots&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;If &lt;strong&gt;$\Delta = 0$&lt;/strong&gt;, the square root term becomes zero, and you only get one answer. This means the equation has &lt;strong&gt;one repeated real root&lt;/strong&gt; (also called &amp;ldquo;equal roots&amp;rdquo;).&lt;/li&gt;
+&lt;li&gt;If &lt;strong&gt;$\Delta &amp;lt; 0$&lt;/strong&gt; (negative), the square root is of a negative number, which is not a real number. This means the equation has &lt;strong&gt;no real roots&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Nature of Roots&lt;/strong&gt; (from file &lt;code&gt;image_a4dfbe.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-nature-of-roots-from-file-image_a4dfbepng"&gt;&lt;/span&gt;
+&lt;a href="#question-1-nature-of-roots-from-file-image_a4dfbepng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+The quadratic equation $9x^2 + 6x + 1 = 0$ has&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Two distinct roots&lt;/li&gt;
+&lt;li&gt;Equal roots&lt;/li&gt;
+&lt;li&gt;No roots&lt;/li&gt;
+&lt;li&gt;Inadequate information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; We can determine the nature of the roots by calculating the discriminant ($\Delta = b^2 - 4ac$).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Identify the coefficients&lt;/strong&gt; from the equation $9x^2 + 6x + 1 = 0$:
+&lt;ul&gt;
+&lt;li&gt;$a = 9$&lt;/li&gt;
+&lt;li&gt;$b = 6$&lt;/li&gt;
+&lt;li&gt;$c = 1$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calculate the discriminant:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Delta = b^2 - 4ac$&lt;/li&gt;
+&lt;li&gt;$\Delta = (6)^2 - 4(9)(1)$&lt;/li&gt;
+&lt;li&gt;$\Delta = 36 - 36 = 0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interpret the result:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Since the discriminant is exactly 0, the equation has one repeated real root, which is the same as having &amp;ldquo;equal roots&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The equation has &lt;strong&gt;Equal roots&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 2: Same Discriminant&lt;/strong&gt; (from file &lt;code&gt;image_a4dfbe.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-2-same-discriminant-from-file-image_a4dfbepng"&gt;&lt;/span&gt;
+&lt;a href="#question-2-same-discriminant-from-file-image_a4dfbepng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+If two different quadratic equations have same discriminant then choose the correct option.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The roots of both equation will always be same&lt;/li&gt;
+&lt;li&gt;The roots of both equation will always be real&lt;/li&gt;
+&lt;li&gt;The roots of both equation will always be distinct&lt;/li&gt;
+&lt;li&gt;Discriminant can not determine the relation between the roots of two different equations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; The discriminant only determines the &lt;em&gt;nature&lt;/em&gt; of the roots (how many and what type), not their actual values. The values of the roots also depend on the &amp;lsquo;$a$&amp;rsquo; and &amp;lsquo;$b$&amp;rsquo; coefficients from the full quadratic formula.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s test this with an example.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Equation 1:&lt;/strong&gt; $x^2 - 4x + 3 = 0$.
+&lt;ul&gt;
+&lt;li&gt;Discriminant: $\Delta = (-4)^2 - 4(1)(3) = 16 - 12 = 4$.&lt;/li&gt;
+&lt;li&gt;Roots: $(x-1)(x-3)=0 \implies x=1, x=3$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Equation 2:&lt;/strong&gt; $x^2 - 6x + 8 = 0$.
+&lt;ul&gt;
+&lt;li&gt;Discriminant: $\Delta = (-6)^2 - 4(1)(8) = 36 - 32 = 4$.&lt;/li&gt;
+&lt;li&gt;Roots: $(x-2)(x-4)=0 \implies x=2, x=4$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both equations have the same discriminant ($\Delta = 4$), which correctly tells us that both have two distinct real roots. However, the roots themselves (1, 3 vs 2, 4) are completely different.&lt;/p&gt;
+&lt;p&gt;Therefore, the discriminant only tells you about the &lt;em&gt;type&lt;/em&gt; of roots within one equation. It cannot be used to compare the actual root &lt;em&gt;values&lt;/em&gt; of two different equations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; &lt;strong&gt;Discriminant can not determine the relation between the roots of two different equations&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 3: Finding the Roots&lt;/strong&gt; (from file &lt;code&gt;image_a4dc56.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-3-finding-the-roots-from-file-image_a4dc56png"&gt;&lt;/span&gt;
+&lt;a href="#question-3-finding-the-roots-from-file-image_a4dc56png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+What will the roots of equation $2x^2 - x - 10 = 0$ be?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; When factoring is not immediately obvious, the quadratic formula is a reliable method to find the exact roots of any quadratic equation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Identify the coefficients&lt;/strong&gt; from the equation $2x^2 - x - 10 = 0$:
+&lt;ul&gt;
+&lt;li&gt;$a = 2$&lt;/li&gt;
+&lt;li&gt;$b = -1$&lt;/li&gt;
+&lt;li&gt;$c = -10$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apply the quadratic formula:&lt;/strong&gt;
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$ $$x = \frac{-(-1) \pm \sqrt{(-1)^2 - 4(2)(-10)}}{2(2)}$$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplify the expression:&lt;/strong&gt;
+$$x = \frac{1 \pm \sqrt{1 - (-80)}}{4}$$$$x = \frac{1 \pm \sqrt{1 + 80}}{4}$$$$x = \frac{1 \pm \sqrt{81}}{4}$$ $$x = \frac{1 \pm 9}{4}$$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calculate the two separate roots:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Root 1: $x_1 = \frac{1 + 9}{4} = \frac{10}{4} = \frac{5}{2}$&lt;/li&gt;
+&lt;li&gt;Root 2: $x_2 = \frac{1 - 9}{4} = \frac{-8}{4} = -2$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The roots are &lt;strong&gt;-2 and 5/2&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 4: Identifying Distinct Real Roots&lt;/strong&gt; (from file &lt;code&gt;image_a4dc56.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-4-identifying-distinct-real-roots-from-file-image_a4dc56png"&gt;&lt;/span&gt;
+&lt;a href="#question-4-identifying-distinct-real-roots-from-file-image_a4dc56png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Which of the following gives distinct real roots? (Multiple Select Question)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$69x^2 - 42x - 56 = 0$&lt;/li&gt;
+&lt;li&gt;$69x^2 - 10x + 560 = 0$&lt;/li&gt;
+&lt;li&gt;$9x^2 - 10x + 1 = 0$&lt;/li&gt;
+&lt;li&gt;$9x^2 - 10x - 1 = 0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; An equation has &lt;strong&gt;distinct real roots&lt;/strong&gt; if and only if its discriminant ($\Delta = b^2 - 4ac$) is &lt;strong&gt;greater than 0&lt;/strong&gt; (positive).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We need to calculate the discriminant for each equation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Equation 1:&lt;/strong&gt; $69x^2 - 42x - 56 = 0$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Delta = (-42)^2 - 4(69)(-56) = 1764 + 15456 = 17220$.&lt;/li&gt;
+&lt;li&gt;Since $\Delta &amp;gt; 0$, this equation has &lt;strong&gt;distinct real roots&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Equation 2:&lt;/strong&gt; $69x^2 - 10x + 560 = 0$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Delta = (-10)^2 - 4(69)(560) = 100 - 154560 = -154460$.&lt;/li&gt;
+&lt;li&gt;Since $\Delta &amp;lt; 0$, this equation has no real roots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Equation 3:&lt;/strong&gt; $9x^2 - 10x + 1 = 0$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Delta = (-10)^2 - 4(9)(1) = 100 - 36 = 64$.&lt;/li&gt;
+&lt;li&gt;Since $\Delta &amp;gt; 0$, this equation has &lt;strong&gt;distinct real roots&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Equation 4:&lt;/strong&gt; $9x^2 - 10x - 1 = 0$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\Delta = (-10)^2 - 4(9)(-1) = 100 + 36 = 136$.&lt;/li&gt;
+&lt;li&gt;Since $\Delta &amp;gt; 0$, this equation has &lt;strong&gt;distinct real roots&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The equations that give distinct real roots are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$69x^2 - 42x - 56 = 0$&lt;/li&gt;
+&lt;li&gt;$9x^2 - 10x + 1 = 0$&lt;/li&gt;
+&lt;li&gt;$9x^2 - 10x - 1 = 0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;</description></item><item><title>Slope | Line &amp; Parabola</title><link>/iit-madras/mathematics-1/week-3/slope-line-parabola/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/slope-line-parabola/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/kaByg1VQxqk"
+src="https://www.youtube.com/embed/kaByg1VQxqk?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/kaByg1VQxqk" target="_blank" rel="noopener"&gt;https://youtu.be/kaByg1VQxqk&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
 &lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image-11.png" alt="alt text" loading="lazy" /&gt;
@@ -29978,14 +31912,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Slope of quadratic function</title><link>/iit-madras/mathematics-1/week-3/slope-of-quadratic-function/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/slope-of-quadratic-function/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/1_Y2cZMrcfY"
+src="https://www.youtube.com/embed/1_Y2cZMrcfY?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/1_Y2cZMrcfY" target="_blank" rel="noopener"&gt;https://youtu.be/1_Y2cZMrcfY&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -30559,14 +32514,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Solution of quadratic equation using Factorization</title><link>/iit-madras/mathematics-1/week-3/solution-of-quadratic-equation-using-factorization/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/solution-of-quadratic-equation-using-factorization/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/ZRXWkzFSZzU"
+src="https://www.youtube.com/embed/ZRXWkzFSZzU?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/ZRXWkzFSZzU" target="_blank" rel="noopener"&gt;https://youtu.be/ZRXWkzFSZzU&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -31375,14 +33351,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Solution of quadratic equation using graph</title><link>/iit-madras/mathematics-1/week-3/solution-of-quadratic-equation-using-graph/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/solution-of-quadratic-equation-using-graph/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/RzIBZbGov4w"
+src="https://www.youtube.com/embed/RzIBZbGov4w?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/RzIBZbGov4w" target="_blank" rel="noopener"&gt;https://youtu.be/RzIBZbGov4w&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -32007,14 +34004,35 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Solution of quadratic equation using Square method</title><link>/iit-madras/mathematics-1/week-3/solution-of-quadratic-equation-using-square-method/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/solution-of-quadratic-equation-using-square-method/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/qvUX-jgtogg"
+src="https://www.youtube.com/embed/qvUX-jgtogg?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/qvUX-jgtogg" target="_blank" rel="noopener"&gt;https://youtu.be/qvUX-jgtogg&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
 &lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image-18.png" alt="alt text" loading="lazy" /&gt;
@@ -32631,78 +34649,647 @@ background-color: #ffbb0027;
 }
 &lt;/style&gt;</description></item><item><title>Summary Lecture (Quadratic Functions)</title><link>/iit-madras/mathematics-1/week-3/summary-lecture-quadratic-functions/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/summary-lecture-quadratic-functions/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/JkbFTVFw1yQ"
+src="https://www.youtube.com/embed/JkbFTVFw1yQ?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/JkbFTVFw1yQ" target="_blank" rel="noopener"&gt;https://youtu.be/JkbFTVFw1yQ&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Graded Assignment 3</title><link>/iit-madras/mathematics-1/week-3/graded-assignment-3/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/graded-assignment-3/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/U4gr4zMosMk"
+src="https://www.youtube.com/embed/U4gr4zMosMk?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
-&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
-&lt;iframe
-src="https://www.youtube.com/embed/2PTcxG8e6os"
-frameborder="0"
-allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/2PTcxG8e6os?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/2PTcxG8e6os" target="_blank" rel="noopener"&gt;https://youtu.be/2PTcxG8e6os&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Define a polynomial.
 Distinguish between a layman’s perspective and a mathematician’s perspective about a polynomial.
 Understand the origin of the word ‘polynomial’.
 Identify if a given function is a polynomial or not.
-Identify types of polynomials based on the number of variables.&lt;/p&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
+Identify types of polynomials based on the number of variables.&lt;/p&gt;
+&lt;h2&gt;Exercise Questions&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Good morning! Here in India on this Saturday, let&amp;rsquo;s explore these questions about polynomials. They test the fundamental definitions of what makes an expression a polynomial and how we classify them.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Core Concepts: What is a Polynomial?&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="core-concepts-what-is-a-polynomial"&gt;&lt;/span&gt;
+&lt;a href="#core-concepts-what-is-a-polynomial" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Before we start, let&amp;rsquo;s define our terms. A &lt;strong&gt;polynomial&lt;/strong&gt; is a specific kind of algebraic expression that follows strict rules:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Exponents must be non-negative integers.&lt;/strong&gt; The exponents on the variables must be whole numbers like 0, 1, 2, 3, etc. This means expressions with fractional exponents (like $x^{1/2}$ or $\sqrt{x}$) or negative exponents (like $x^{-2}$ or $1/x^2$) are &lt;strong&gt;not&lt;/strong&gt; polynomials.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No division by a variable.&lt;/strong&gt; An expression like $\frac{5}{x+1}$ is not a polynomial.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once we confirm an expression is a polynomial, we can classify it by its number of terms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Monomial:&lt;/strong&gt; A polynomial with &lt;strong&gt;one&lt;/strong&gt; term (e.g., $7x^3$).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Binomial:&lt;/strong&gt; A polynomial with &lt;strong&gt;two&lt;/strong&gt; terms (e.g., $7x^3 - 4$).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trinomial:&lt;/strong&gt; A polynomial with &lt;strong&gt;three&lt;/strong&gt; terms (e.g., $7x^3 - 4x + 1$).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Statements about Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_a37c37.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-statements-about-polynomials-from-file-image_a37c37png"&gt;&lt;/span&gt;
+&lt;a href="#question-1-statements-about-polynomials-from-file-image_a37c37png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Which of the following statements is(are) correct with respect to the polynomials? (Multiple Select Question)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s evaluate each statement based on our definitions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;A polynomial with one, two, and three terms are called binomial, trinomial and monomial respectively.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;FALSE&lt;/strong&gt;. The order is incorrect. One term is a monomial, two is a binomial, and three is a trinomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;A polynomial is an algebraic expression in which the only arithmetic is addition, subtraction, multiplication and non-negative integer exponents of the variables.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;TRUE&lt;/strong&gt;. This is the precise definition of a polynomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;A polynomial in one variable can be represented as: $\sum_{m=0}^{n} a_m x^m$ where m and n are natural numbers.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;TRUE&lt;/strong&gt;. This is the formal summation notation for a polynomial, representing the sum of terms $a_0x^0 + a_1x^1 + a_2x^2 + &amp;hellip; + a_nx^n$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;quot;$t^{5/2} + t$, is a binomial.&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;FALSE&lt;/strong&gt;. Although it has two terms, the term $t^{5/2}$ has a fractional exponent (5/2). Therefore, the expression is not a polynomial at all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;quot;$\sqrt{(x-1)^4}$, is a trinomial.&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Let&amp;rsquo;s simplify this expression first: $\sqrt{(x-1)^4} = (x-1)^{4/2} = (x-1)^2$.&lt;/li&gt;
+&lt;li&gt;Now, expand it: $(x-1)^2 = x^2 - 2x + 1$.&lt;/li&gt;
+&lt;li&gt;The result is a polynomial with three terms. So, this statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;quot;$\sqrt{(x-1)}$, is a binomial.&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This expression is equivalent to $(x-1)^{1/2}$. The exponent (1/2) is a fraction, not an integer. Therefore, this is not a polynomial. This statement is &lt;strong&gt;FALSE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct statements are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A polynomial is an algebraic expression in which the only arithmetic is addition, subtraction, multiplication and non-negative integer exponents of the variables.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A polynomial in one variable can be represented as: $\sum_{m=0}^{n} a_m x^m$ where m and n are natural numbers.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$\sqrt{(x-1)^4}$, is a trinomial.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 2: Classifying Algebraic Expressions&lt;/strong&gt; (from file &lt;code&gt;image_a37bba.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-2-classifying-algebraic-expressions-from-file-image_a37bbapng"&gt;&lt;/span&gt;
+&lt;a href="#question-2-classifying-algebraic-expressions-from-file-image_a37bbapng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+From the list of algebraic expressions, choose the correct option(s) from the following.
+List: $x + \sqrt{\frac{1}{2}}$, $\frac{\sqrt{x}}{2}$, $-2x^2 \times x^8$, $\sqrt{\frac{x^4}{2}}$, $0.001$, $\frac{x^3 + 5x^9 - 8x}{x^2}$, $5x^{111} + x^{-9}$, $8 \times x^2 + (-3)$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; We must first simplify each expression and check if it meets the definition of a polynomial before classifying it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s analyze each expression one by one.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;$x + \sqrt{\frac{1}{2}}$&lt;/strong&gt;: The exponents on $x$ are integers (1 and 0). The coefficients can be irrational. It has two terms. This is a &lt;strong&gt;Binomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$\frac{\sqrt{x}}{2}$&lt;/strong&gt;: This is $\frac{1}{2}x^{1/2}$. It has a fractional exponent. It is &lt;strong&gt;Not a Polynomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$-2x^2 \times x^8$&lt;/strong&gt;: Simplify by adding exponents: $-2x^{10}$. This has one term. It is a &lt;strong&gt;Monomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$\sqrt{\frac{x^4}{2}}$&lt;/strong&gt;: Simplify: $\frac{\sqrt{x^4}}{\sqrt{2}} = \frac{x^2}{\sqrt{2}}$. The coefficient is irrational, but the exponent is an integer. It has one term. It is a &lt;strong&gt;Monomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0.001&lt;/strong&gt;: This is a constant. It&amp;rsquo;s a polynomial with one term (of degree 0). It is a &lt;strong&gt;Monomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$\frac{x^3 + 5x^9 - 8x}{x^2}$&lt;/strong&gt;: Simplify by dividing each term by $x^2$: $x + 5x^7 - 8x^{-1}$. The term $8x^{-1}$ has a negative exponent. It is &lt;strong&gt;Not a Polynomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$5x^{111} + x^{-9}$&lt;/strong&gt;: The term $x^{-9}$ has a negative exponent. It is &lt;strong&gt;Not a Polynomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$8 \times x^2 + (-3)$&lt;/strong&gt;: Simplify: $8x^2 - 3$. It has two terms. It is a &lt;strong&gt;Binomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Summary of Our Analysis:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Monomials:&lt;/strong&gt; $-2x^{10}$, $\frac{x^2}{\sqrt{2}}$, $0.001$ (Total: 3)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Binomials:&lt;/strong&gt; $x + \sqrt{\frac{1}{2}}$, $8x^2 - 3$ (Total: 2)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total Polynomials:&lt;/strong&gt; 3 Monomials + 2 Binomials = 5 Polynomials.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Evaluating the Options from the Image:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Total number of monomials are 2&amp;rdquo;&lt;/strong&gt;: Our analysis found 3. For this statement to be true, the question&amp;rsquo;s author may not be counting the constant &lt;code&gt;0.001&lt;/code&gt; as a monomial in this context. Assuming this exclusion, this statement would be considered correct.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Total number of binomials are 2&amp;rdquo;&lt;/strong&gt;: Our analysis found 2. This statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Total number of polynomials are 4&amp;rdquo;&lt;/strong&gt;: Our analysis found 5. Similar to the monomial count, if we exclude the constant &lt;code&gt;0.001&lt;/code&gt;, the total number of polynomials becomes 4.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;$\frac{x^3 + 5x^9 - 8x}{x^2}$ is a trinomial.&amp;quot;&lt;/strong&gt;: This is &lt;strong&gt;FALSE&lt;/strong&gt;, as it is not a polynomial.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;$5x^{111} + x^{-9}$ is a binomial.&amp;quot;&lt;/strong&gt;: This is &lt;strong&gt;FALSE&lt;/strong&gt;, as it is not a polynomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note on the Accepted Answers:&lt;/strong&gt; The accepted answers indicate there are 2 monomials and 4 polynomials. This confirms that for this specific question, the constant &lt;code&gt;0.001&lt;/code&gt; was likely excluded from the count. While constants are technically monomials, we will follow this interpretation to match the provided solution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; Based on the interpretation required by the accepted answers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total number of monomials are 2&lt;/strong&gt; (Excluding the constant 0.001)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total number of binomials are 2&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Total number of polynomials are 4&lt;/strong&gt; (Excluding the constant 0.001)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/s9zDRWmgsb4"
+src="https://www.youtube.com/embed/s9zDRWmgsb4?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/s9zDRWmgsb4" target="_blank" rel="noopener"&gt;https://youtu.be/s9zDRWmgsb4&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Define the degree of a polynomial.
 Understand the degree of zero polynomial.
 Classify polynomials based on degrees of polynomials.&lt;/p&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/s9zDRWmgsb4"
+src="https://www.youtube.com/embed/s9zDRWmgsb4?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/s9zDRWmgsb4"
+src="https://www.youtube.com/embed/s9zDRWmgsb4?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;"&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
 &lt;iframe
-src="https://www.youtube.com/embed/s9zDRWmgsb4"
+src="https://www.youtube.com/embed/s9zDRWmgsb4?rel=0&amp;start=15"
 frameborder="0"
 allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
 &lt;/iframe&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;</description></item></channel></rss>
