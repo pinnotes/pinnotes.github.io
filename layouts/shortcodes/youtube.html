@@ -1,8 +1,30 @@
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1.5rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/{{ .Get 0 }}" 
-    frameborder="0" 
+<div
+  style="
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+  "
+>
+  <iframe
+    src="https://www.youtube.com/embed/{{ .Get 0 }}?rel=0&start={{ with .Get 1 }}{{ . }}{{ else }}15{{ end }}"
+    frameborder="0"
     allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+  >
   </iframe>
 </div>
+
+<style>
+  .ytp-pause-overlay-container {
+    display: none !important;
+  }
+  .ytp-pause-overlay {
+    display: none !important;
+  }
+  .ytp-pause-overlay-container .ytp-pause-overlay {
+    display: none !important;
+  }
+</style>

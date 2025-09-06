@@ -155,7 +155,7 @@ $readMore := (T "readMore") | default "Read here →" -}}
         <ul class="grid-container three-grid">
           <li class="grid-item card-large featured-grid-item">
             {{ range first 1 (where .Pages "Params.tags" "intersect" (slice
-            "featured")) }}
+            "featured-2")) }}
             <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
               <div class="grid-layout__item">
                 <img
@@ -182,8 +182,8 @@ $readMore := (T "readMore") | default "Read here →" -}}
             {{ end }}
           </li>
 
-          {{ range first 4 (where .Site.RegularPages "Params.categories"
-          "intersect" (slice "graded assignment")) }}
+          {{ range first 4 (where .Site.RegularPages "Params.tags"
+          "intersect" (slice "IIT Madras")) }}
           <li class="grid-item featured-grid-item">
             <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
               <div class="grid-layout__item">
@@ -251,7 +251,7 @@ $readMore := (T "readMore") | default "Read here →" -}}
       <hr class="section-divider">
       <div class="animated-section-header">
         <div class="animated-header-title">
-          Programming Playlist
+          Foundation Level Courses 🎒
         </div>
         <span class="animated-header-link">View All </span>
       </div>
@@ -260,8 +260,8 @@ $readMore := (T "readMore") | default "Read here →" -}}
 
       <div class="grid-layout-section">
         <ul class="grid-container one-grid">
-          {{ range first 5 (where .Site.RegularPages "Params.tags" "intersect"
-          (slice "Programming")) }}
+          {{ range first 5 (where .Pages "Params.tags" "intersect"
+          (slice "IITM-Foundation-Course")) }}
           <li class="grid-item featured-grid-item">
             <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
               <div class="grid-layout__item">

@@ -25,9 +25,8 @@ https://youtu.be/dvJKbgIPG8Q
 
 ![alt text](image-3.png)
 ![alt text](image-4.png)
-![alt text](https://github.com/pinnotes/pinnotes.github.io/blob/main/content/iit-madras/Mathematics-1/Week-3/image-4.png?raw=true)
-![alt text](/image-5.png)
-![alt text](/image-6.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
 
 Hello! On this Wednesday evening here in India, I'd be glad to help you with this set of problems. They are excellent examples of how quadratic functions are used to model real-world situations, from the path of an ant to maximizing business profits.
 
