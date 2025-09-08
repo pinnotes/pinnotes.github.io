@@ -1,1 +1,123 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – IITM-Foundation-Course-Programming-in-Python</title><link>/series/iitm-foundation-course-programming-in-python/</link><description>Recent content in IITM-Foundation-Course-Programming-in-Python on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/series/iitm-foundation-course-programming-in-python/index.xml" rel="self" type="application/rss+xml"/><item><title>Programming in Python</title><link>/iit-madras/intro-to-python/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/intro-to-python/</guid><description/></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – IITM-Foundation-Course-Programming-in-Python</title><link>/series/iitm-foundation-course-programming-in-python/</link><description>Recent content in IITM-Foundation-Course-Programming-in-Python on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/series/iitm-foundation-course-programming-in-python/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to Google Colab</title><link>/iit-madras/intro-to-python/week-1/introduction-to-google-colab/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/intro-to-python/week-1/introduction-to-google-colab/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/jr9wuxm9kfg?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;</description></item><item><title>Live Python Tutor Demo</title><link>/iit-madras/intro-to-python/week-1/live-python-tutor-demo/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/intro-to-python/week-1/live-python-tutor-demo/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/jr9wuxm9kfg?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/jr9wuxm9kfg" target="_blank" rel="noopener"&gt;https://youtu.be/jr9wuxm9kfg&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Programming in Python</title><link>/iit-madras/intro-to-python/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/intro-to-python/</guid><description/></item><item><title>Introduction</title><link>/iit-madras/intro-to-python/week-1/introduction/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/intro-to-python/week-1/introduction/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/8ndsDXohLMQ?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/8ndsDXohLMQ" target="_blank" rel="noopener"&gt;https://youtu.be/8ndsDXohLMQ&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Introduction</title><link>/iit-madras/intro-to-python/week-1/introduction/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/intro-to-python/week-1/introduction/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/8ndsDXohLMQ?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;</description></item></channel></rss>

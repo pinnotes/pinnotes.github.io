@@ -35167,7 +35167,2032 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
+&lt;/style&gt;</description></item><item><title>Algebra of polynomials - Addition &amp; Subtraction</title><link>/iit-madras/mathematics-1/week-4/algebra-of-polynomials-addition-subtraction/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/algebra-of-polynomials-addition-subtraction/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/KJXkTzKAZ6k?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/KJXkTzKAZ6k" target="_blank" rel="noopener"&gt;https://youtu.be/KJXkTzKAZ6k&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Understand n-degree polynomials of one variable.
+Compute the sum of polynomials.
+Compute the difference between polynomials.&lt;/p&gt;
+&lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-3.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-4.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Good evening! Here in India on this Sunday, let&amp;rsquo;s work through these questions. They explore the fundamental properties of polynomials, such as their domain and range, and what happens when we add and subtract them.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Core Concepts: Properties and Arithmetic of Polynomials&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="core-concepts-properties-and-arithmetic-of-polynomials"&gt;&lt;/span&gt;
+&lt;a href="#core-concepts-properties-and-arithmetic-of-polynomials" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Domain and Range of a Polynomial:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Domain:&lt;/strong&gt; The domain is the set of all possible input x-values. For any polynomial function (e.g., $y = x^2 + 2x + 1$), you can plug in any real number for $x$ without causing a mathematical error like division by zero. Therefore, the domain of any polynomial is &lt;strong&gt;all real numbers&lt;/strong&gt;, denoted as $\mathbb{R}$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Range:&lt;/strong&gt; The range is the set of all possible output y-values. This &lt;strong&gt;depends on the specific polynomial&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;For &lt;strong&gt;odd-degree&lt;/strong&gt; polynomials (like lines, cubics), the range is also all real numbers ($\mathbb{R}$).&lt;/li&gt;
+&lt;li&gt;For &lt;strong&gt;even-degree&lt;/strong&gt; polynomials (like quadratics), the range is restricted. For example, $y=x^2$ has a range of $y \ge 0$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Adding and Subtracting Polynomials:&lt;/strong&gt;
+This is done by &lt;strong&gt;combining like terms&lt;/strong&gt;—terms that have the exact same variable parts (e.g., $x^2$ terms are combined with other $x^2$ terms).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Domain and Range of a Polynomial&lt;/strong&gt; (from file &lt;code&gt;image_d1ed54.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-domain-and-range-of-a-polynomial-from-file-image_d1ed54png"&gt;&lt;/span&gt;
+&lt;a href="#question-1-domain-and-range-of-a-polynomial-from-file-image_d1ed54png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Choose the correct option with respect to the domain and range of the polynomial function $p(x)$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Domain and range of $p(x)$ is $\mathbb{R}$.&lt;/li&gt;
+&lt;li&gt;Domain of $p(x)$ depends on the function and the range is $\mathbb{R}$.&lt;/li&gt;
+&lt;li&gt;Domain of $p(x)$ is $\mathbb{R}$ and the range depends on the function.&lt;/li&gt;
+&lt;li&gt;Both range and domain of $p(x)$ depends on the function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Domain:&lt;/strong&gt; As defined in the core concepts, a polynomial function is defined for any real number input. There are no restrictions. Therefore, the &lt;strong&gt;domain is always $\mathbb{R}$&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Range:&lt;/strong&gt; The range is not always $\mathbb{R}$. For example, the polynomial $p(x) = x^2$ is an even-degree polynomial, and its range is only the set of non-negative real numbers ($y \ge 0$). The polynomial $p(x) = x^3$ is an odd-degree polynomial, and its range is all real numbers. Therefore, the &lt;strong&gt;range depends on the specific function&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct statement is &lt;strong&gt;&amp;ldquo;Domain of $p(x)$ is $\mathbb{R}$ and the range depends on the function.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 2: Degree of a Sum of Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_d1ec9a.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-2-degree-of-a-sum-of-polynomials-from-file-image_d1ec9apng"&gt;&lt;/span&gt;
+&lt;a href="#question-2-degree-of-a-sum-of-polynomials-from-file-image_d1ec9apng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+The non constant polynomials $p(x)$ and $q(x)$ with degree $m$ and $n$ respectively, when added the resultant polynomial is $r(x)$. Choose the correct option from the following.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If $m &amp;lt; n$ then the degree of the polynomial $r(x)$ is $n$.&lt;/li&gt;
+&lt;li&gt;If $m = n$ then the degree of the polynomial $r(x)$ is $m+n$.&lt;/li&gt;
+&lt;li&gt;If $m &amp;gt; n$ then the degree of the polynomial $r(x)$ is $n$.&lt;/li&gt;
+&lt;li&gt;If $m &amp;lt; n$ then the degree of the polynomial $r(x)$ is $n-m$.&lt;/li&gt;
+&lt;li&gt;If $m &amp;gt; n$ then the degree of the polynomial $r(x)$ is $m-n$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept: Degree of a Sum&lt;/strong&gt;
+When you add two polynomials, the degree of the resulting polynomial is determined by the highest degree of the original polynomials. If the degrees are different, the highest degree term will always survive the addition.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Let the highest power term in $p(x)$ be $a_m x^m$ (where $a_m \neq 0$).&lt;/li&gt;
+&lt;li&gt;Let the highest power term in $q(x)$ be $b_n x^n$ (where $b_n \neq 0$).&lt;/li&gt;
+&lt;li&gt;If we are given that &lt;strong&gt;$m &amp;lt; n$&lt;/strong&gt;, then $n$ is the higher degree.&lt;/li&gt;
+&lt;li&gt;When we add $p(x) + q(x)$, the term $b_n x^n$ from $q(x)$ has no term of the same degree in $p(x)$ to be combined with. Therefore, it will be the highest degree term in the resulting polynomial $r(x)$.&lt;/li&gt;
+&lt;li&gt;Thus, the degree of $r(x)$ will be $n$. (Similarly, if $m &amp;gt; n$, the degree of the result would be $m$).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; &lt;strong&gt;If $m &amp;lt; n$ then the degree of the polynomial $r(x)$ is $n$.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 3: Subtraction of Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_d1e9af.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-3-subtraction-of-polynomials-from-file-image_d1e9afpng"&gt;&lt;/span&gt;
+&lt;a href="#question-3-subtraction-of-polynomials-from-file-image_d1e9afpng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+The difference between the cubic polynomial $p(x) = \sum_{k=0}^{3} a_k x^k$ and $q(x) = \sum_{j=0}^{3} b_j x^j$, using subtraction algorithm is __________.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept: Polynomial Subtraction&lt;/strong&gt;
+To subtract one polynomial from another, you subtract the coefficients of the &amp;ldquo;like terms&amp;rdquo; (terms with the same power of x).
+$p(x) - q(x) = (a_3x^3 + &amp;hellip; + a_0) - (b_3x^3 + &amp;hellip; + b_0)$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Expand the polynomials:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;$p(x) = a_3x^3 + a_2x^2 + a_1x^1 + a_0x^0$&lt;/li&gt;
+&lt;li&gt;$q(x) = b_3x^3 + b_2x^2 + b_1x^1 + b_0x^0$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set up the subtraction:&lt;/strong&gt;
+$p(x) - q(x) = (a_3x^3 + a_2x^2 + a_1x + a_0) - (b_3x^3 + b_2x^2 + b_1x + b_0)$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distribute the negative sign&lt;/strong&gt; to every term in the second polynomial:
+$p(x) - q(x) = a_3x^3 + a_2x^2 + a_1x + a_0 - b_3x^3 - b_2x^2 - b_1x - b_0$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Group the like terms together:&lt;/strong&gt;
+$p(x) - q(x) = (a_3x^3 - b_3x^3) + (a_2x^2 - b_2x^2) + (a_1x - b_1x) + (a_0 - b_0)$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Factor out the common powers of x:&lt;/strong&gt;
+$p(x) - q(x) = (a_3 - b_3)x^3 + (a_2 - b_2)x^2 + (a_1 - b_1)x^1 + (a_0 - b_0)x^0$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; $(a_3 - b_3)x^3 + (a_2 - b_2)x^2 + (a_1 - b_1)x^1 + (a_0 - b_0)x^0$&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 4: Summation Notation for Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_d1e935.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-4-summation-notation-for-polynomials-from-file-image_d1e935png"&gt;&lt;/span&gt;
+&lt;a href="#question-4-summation-notation-for-polynomials-from-file-image_d1e935png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Choose the right option(s) with respect to the polynomials $p(x) = \sum_{k=0}^{n} a_k x^k$ and $q(x) = \sum_{j=0}^{m} b_j x^j$. (Multiple Select Question)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept: Summation Notation&lt;/strong&gt;
+The summation symbol $\sum$ is a compact way to write a sum. When adding or subtracting two polynomials represented this way, we can combine them into a single summation by adding or subtracting the coefficients ($a_k$ and $b_k$) for each corresponding power of $x^k$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Addition $p(x) + q(x)$:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The sum of the two polynomials is the sum of their corresponding terms.&lt;/li&gt;
+&lt;li&gt;$\sum a_k x^k + \sum b_k x^k = \sum (a_k x^k + b_k x^k)$&lt;/li&gt;
+&lt;li&gt;We can factor out the common $x^k$ term: $\sum (a_k + b_k)x^k$.&lt;/li&gt;
+&lt;li&gt;This matches the &lt;strong&gt;first option&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Subtraction $p(x) - q(x)$:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The difference of the two polynomials is the difference of their corresponding terms.&lt;/li&gt;
+&lt;li&gt;$\sum a_k x^k - \sum b_k x^k = \sum (a_k x^k - b_k x^k)$&lt;/li&gt;
+&lt;li&gt;We can factor out the common $x^k$ term: $\sum (a_k - b_k)x^k$.&lt;/li&gt;
+&lt;li&gt;This matches the &lt;strong&gt;fourth option&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The other options are incorrect because they incorrectly manipulate the exponents (e.g., $x^{m+n}$) or swap the operations inside the parentheses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct options are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$p(x) + q(x) = \sum_{k=0}^{m\lor n} (a_k + b_k)x^k$&lt;/li&gt;
+&lt;li&gt;$p(x) - q(x) = \sum_{k=0}^{m\lor n} (a_k - b_k)x^k$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 5: Adding and Subtracting Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_d1e8d1.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-5-adding-and-subtracting-polynomials-from-file-image_d1e8d1png"&gt;&lt;/span&gt;
+&lt;a href="#question-5-adding-and-subtracting-polynomials-from-file-image_d1e8d1png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Choose the correct option(s) with respect to the polynomial $p(x) = \sum_{k=0}^{n} a_k x^k$ and $q(x) = \sum_{j=0}^{m} a_j x^j$. (Multiple Select Question)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; We can test absolute statements (&amp;ldquo;always&amp;rdquo;) with counterexamples. If we can find one case where the statement is false, the statement is false.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Sum of two distinct binomials is always binomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. The highest power terms can cancel out.&lt;/li&gt;
+&lt;li&gt;Counterexample: Let $p(x) = x^2 + 1$ and $q(x) = -x^2 + 2x$. Their sum is $(x^2+1) + (-x^2+2x) = 2x+1$, which is a binomial. Wait, let me try another one. Let $p(x)=x+1$ and $q(x)=-x+2$. Their sum is $3$, a monomial. This counterexample proves the statement is false.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Difference of two distinct trinomials is always a trinomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. Terms can cancel.&lt;/li&gt;
+&lt;li&gt;Counterexample: Let $p(x) = x^2 + 2x + 3$ and $q(x) = x^2 + 2x + 1$. Their difference is $(x^2+2x+3) - (x^2+2x+1) = 2$, which is a monomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Sum or difference of a binomial and a trinomial can be a trinomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TRUE&lt;/strong&gt;. This is a &amp;ldquo;can be&amp;rdquo; statement, so we just need one example.&lt;/li&gt;
+&lt;li&gt;Example: $(x^2 + 1) + (x^2 + x + 5) = 2x^2 + x + 6$. The result is a trinomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;A quadratic trinomial when added to itself the resultant is quadratic trinomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TRUE&lt;/strong&gt;. Let the quadratic trinomial be $ax^2 + bx + c$ (where $a, b, c$ are non-zero).&lt;/li&gt;
+&lt;li&gt;Adding it to itself gives: $(ax^2 + bx + c) + (ax^2 + bx + c) = 2ax^2 + 2bx + 2c$.&lt;/li&gt;
+&lt;li&gt;The result still has degree 2 (so it&amp;rsquo;s quadratic) and still has three non-zero terms (so it&amp;rsquo;s a trinomial).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;A quadratic trinomial when it is subtracted from itself the resultant is quadratic trinomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. Subtracting anything from itself results in 0. The zero polynomial is not a quadratic trinomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct options are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sum or difference of a binomial and a trinomial can be a trinomial.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A quadratic trinomial when added to itself the resultant is quadratic trinomial.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;</description></item><item><title>Algebra of polynomials - Division</title><link>/iit-madras/mathematics-1/week-4/algebra-of-polynomials-division/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/algebra-of-polynomials-division/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/2eWP19N8wn4?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/2eWP19N8wn4" target="_blank" rel="noopener"&gt;https://youtu.be/2eWP19N8wn4&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Compute the quotient and remainder from division of one polynomial by another.
+Determine the feasibility of division of polynomials based on degrees of numerator and denominator.&lt;/p&gt;
+&lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Good evening! Here in India on this Sunday, let&amp;rsquo;s explore these questions about the division of polynomials. This is a key algebraic skill with important rules about when and how it can be performed.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Core Concepts: Division of Polynomials&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="core-concepts-division-of-polynomials"&gt;&lt;/span&gt;
+&lt;a href="#core-concepts-division-of-polynomials" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Division Algorithm:&lt;/strong&gt; When you divide a polynomial $p(x)$ (the dividend) by another polynomial $q(x)$ (the divisor), you get a unique &lt;strong&gt;quotient&lt;/strong&gt; polynomial $s(x)$ and a &lt;strong&gt;remainder&lt;/strong&gt; polynomial $r(x)$. The relationship is:
+&lt;/p&gt;
+$$p(x) = q(x) \cdot s(x) + r(x)$$&lt;p&gt;
+where the degree of the remainder $r(x)$ is strictly less than the degree of the divisor $q(x)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;When is Division &amp;ldquo;Possible&amp;rdquo;?&lt;/strong&gt; For the standard process of long division to yield a non-zero quotient, the degree of the dividend must be &lt;strong&gt;greater than or equal to&lt;/strong&gt; the degree of the divisor. If the dividend&amp;rsquo;s degree is smaller, the quotient is simply 0 and the remainder is the dividend itself.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Polynomial Long Division:&lt;/strong&gt; This is an algorithm similar to long division with numbers. You divide the leading term of the dividend by the leading term of the divisor to find the next term of the quotient, then multiply, subtract, and bring down the next term.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;{{&amp;lt; border &amp;gt;}}&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Question 1: Polynomial Long Division&lt;/strong&gt; (from file &lt;code&gt;image_d187ba.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-polynomial-long-division-from-file-image_d187bapng"&gt;&lt;/span&gt;
+&lt;a href="#question-1-polynomial-long-division-from-file-image_d187bapng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+If $p(x) = x^5 - 4x^4 + 3x^3 + 3x^2 - 4$ and $q(x) = (x - 2)^2$, then $\frac{p(x)}{q(x)}$ is __________.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; This requires performing polynomial long division. First, we need to expand the divisor $q(x)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Expand the divisor:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$q(x) = (x - 2)^2 = (x - 2)(x - 2) = x^2 - 2x - 2x + 4 = x^2 - 4x + 4$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Set up the long division:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s important to include placeholder terms for missing powers in the dividend (like $0x$).&lt;/li&gt;
+&lt;li&gt;The dividend is $x^5 - 4x^4 + 3x^3 + 3x^2 + 0x - 4$.&lt;/li&gt;
+&lt;li&gt;The divisor is $x^2 - 4x + 4$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Perform the division step-by-step:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+&lt;pre&gt;&lt;code&gt; x³ - x - 1
+____________________
+x²-4x&amp;#43;4 | x⁵ - 4x⁴ &amp;#43; 3x³ &amp;#43; 3x² &amp;#43; 0x - 4
+-(x⁵ - 4x⁴ &amp;#43; 4x³)
+____________________
+0 - x³ &amp;#43; 3x² &amp;#43; 0x
+-(- x³ &amp;#43; 4x² - 4x)
+____________________
+- x² &amp;#43; 4x - 4
+-(- x² &amp;#43; 4x - 4)
+_________________
+0 &lt;/code&gt;&lt;/pre&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+&gt;
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step A:&lt;/strong&gt; $x^5 \div x^2 = x^3$. Multiply $x^3$ by the divisor and subtract.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step B:&lt;/strong&gt; Bring down the next term. The new leading term is $-x^3$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step C:&lt;/strong&gt; $-x^3 \div x^2 = -x$. Multiply $-x$ by the divisor and subtract.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step D:&lt;/strong&gt; Bring down the next term. The new leading term is $-x^2$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step E:&lt;/strong&gt; $-x^2 \div x^2 = -1$. Multiply $-1$ by the divisor and subtract.&lt;/li&gt;
+&lt;li&gt;The remainder is 0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The quotient is &lt;strong&gt;$x^3 - x - 1$&lt;/strong&gt;.
+{{&amp;lt; /border &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;{{&amp;lt; border &amp;gt;}}&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Question 2: Possibility of Division&lt;/strong&gt; (from file &lt;code&gt;image_d187ba.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-2-possibility-of-division-from-file-image_d187bapng"&gt;&lt;/span&gt;
+&lt;a href="#question-2-possibility-of-division-from-file-image_d187bapng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+When a polynomial $q(x) = x^6 + 3x^4 + 3x^3 - 3x^2 - 10$ is divided by another polynomial $p(x) = (x-2)^4(x+2)^3$, then which of the following is correct?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; The standard algorithm for polynomial division requires the degree of the dividend to be greater than or equal to the degree of the divisor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the degree of the dividend:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The dividend is $q(x) = x^6 + 3x^4 + 3x^3 - 3x^2 - 10$.&lt;/li&gt;
+&lt;li&gt;The highest power of $x$ is 6, so the &lt;strong&gt;degree of the dividend is 6&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the degree of the divisor:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The divisor is $p(x) = (x-2)^4(x+2)^3$.&lt;/li&gt;
+&lt;li&gt;We don&amp;rsquo;t need to expand it fully. The highest power term from $(x-2)^4$ will be $x^4$. The highest power term from $(x+2)^3$ will be $x^3$.&lt;/li&gt;
+&lt;li&gt;When we multiply these, the highest power term of the resulting polynomial will be $x^4 \times x^3 = x^7$.&lt;/li&gt;
+&lt;li&gt;So, the &lt;strong&gt;degree of the divisor is 7&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Compare the degrees:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Degree of Dividend (6) &amp;lt; Degree of Divisor (7).&lt;/li&gt;
+&lt;li&gt;Since the degree of the polynomial we are dividing by is larger than the degree of the polynomial being divided, the standard long division is not possible in a way that yields a non-zero polynomial quotient. The result is a rational expression, not a simplified polynomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; &lt;strong&gt;Division is not possible.&lt;/strong&gt;
+{{&amp;lt; /border &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;{{&amp;lt; border &amp;gt;}}&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Question 3: Conceptual Division of Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_d18737.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-3-conceptual-division-of-polynomials-from-file-image_d18737png"&gt;&lt;/span&gt;
+&lt;a href="#question-3-conceptual-division-of-polynomials-from-file-image_d18737png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Which of the following is(are) correct with respect to the division of polynomial if the dividend and the divisor are $p(x) = \sum_{k=0}^{n} a_k x^k$ and $q(x) = \sum_{j=0}^{m} b_j x^j$ respectively and they are not a constant polynomial? (Multiple Select Question)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; This question tests the fundamental rules and definitions of the polynomial division algorithm.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let the degree of the dividend $p(x)$ be $n$ and the degree of the divisor $q(x)$ be $m$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The division is possible when $n \ge m$.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TRUE&lt;/strong&gt;. As explained in the core concepts, for the long division process to proceed and yield a meaningful, non-zero quotient polynomial, the degree of the dividend must be greater than or equal to the degree of the divisor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;If $p(x)$ is a trinomial, then the quotient is always a trinomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. The number of terms in the quotient is not directly related to the number of terms in the dividend. For example, dividing the trinomial $x^2+x+1$ by the binomial $x+1$ gives a quotient of $x$ (a monomial) with a remainder of 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The quotient is always a polynomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TRUE&lt;/strong&gt;. In the context of the Division Algorithm ($p(x) = q(x) \cdot s(x) + r(x)$), the term &amp;ldquo;quotient&amp;rdquo; specifically refers to the polynomial $s(x)$. By definition, the algorithm produces a polynomial quotient and a polynomial remainder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;If $m = 6$ and $n = 4$, then division is possible.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. Here, the degree of the divisor ($m=6$) is greater than the degree of the dividend ($n=4$). This violates the condition $n \ge m$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct statements are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The division is possible when $n \ge m$.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The quotient is always a polynomial.&lt;/strong&gt;
+{{&amp;lt; /border &amp;gt;}}&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Algebra of polynomials - Multiplication</title><link>/iit-madras/mathematics-1/week-4/algebra-of-polynomials-multiplication/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/algebra-of-polynomials-multiplication/</guid><description>
+&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/WOqISzw8jYs?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/WOqISzw8jYs" target="_blank" rel="noopener"&gt;https://youtu.be/WOqISzw8jYs&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Compute the product of two general polynomials using corresponding coefficients.&lt;/p&gt;
+&lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Good evening! Here in India on this Sunday, let&amp;rsquo;s work through these questions, which focus on the multiplication of polynomials and understanding the properties of the resulting product.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Core Concepts: Multiplication of Polynomials&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="core-concepts-multiplication-of-polynomials"&gt;&lt;/span&gt;
+&lt;a href="#core-concepts-multiplication-of-polynomials" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Process:&lt;/strong&gt; To multiply two polynomials, you must multiply &lt;strong&gt;every term&lt;/strong&gt; in the first polynomial by &lt;strong&gt;every term&lt;/strong&gt; in the second polynomial. Afterwards, you combine any &amp;ldquo;like terms&amp;rdquo; (terms with the same power of x) to simplify.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Degree of the Product:&lt;/strong&gt; The degree of the product of two non-zero polynomials is simply the &lt;strong&gt;sum&lt;/strong&gt; of their individual degrees.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;degree(p(x) * q(x)) = degree(p(x)) + degree(q(x))&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Leading Coefficient of the Product:&lt;/strong&gt; The leading coefficient of the product is the &lt;strong&gt;product&lt;/strong&gt; of the leading coefficients of the original polynomials.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Slope of a Polynomial:&lt;/strong&gt; The &amp;ldquo;slope&amp;rdquo; of a polynomial at any point is given by its &lt;strong&gt;derivative&lt;/strong&gt;. For a term $ax^n$, its derivative is $(a \cdot n)x^{n-1}$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Product of a Polynomial and its Slope&lt;/strong&gt; (from file &lt;code&gt;image_d19339.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-product-of-a-polynomial-and-its-slope-from-file-image_d19339png"&gt;&lt;/span&gt;
+&lt;a href="#question-1-product-of-a-polynomial-and-its-slope-from-file-image_d19339png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+If the polynomial $r(x)$ is the product of a degree two polynomial $p(x) = -8x^2 - 12x + 2$ and its slope then the coefficient of term with highest power is __________.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; The term with the highest power in the product polynomial, $r(x)$, is the product of the highest power terms of the original polynomials.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identify the first polynomial, $p(x)$:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$p(x) = -8x^2 - 12x + 2$.&lt;/li&gt;
+&lt;li&gt;Its highest power term is $-8x^2$. Its degree is 2.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the slope of $p(x)$ by finding its derivative, $p&amp;rsquo;(x)$:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The derivative of $-8x^2$ is $(2 \cdot -8)x^{2-1} = -16x$.&lt;/li&gt;
+&lt;li&gt;The derivative of $-12x$ is $-12$.&lt;/li&gt;
+&lt;li&gt;The derivative of $2$ is $0$.&lt;/li&gt;
+&lt;li&gt;So, the slope is $p&amp;rsquo;(x) = -16x - 12$.&lt;/li&gt;
+&lt;li&gt;Its highest power term is $-16x$. Its degree is 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the highest power term of the product, $r(x)$:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$r(x) = p(x) \times p&amp;rsquo;(x)$.&lt;/li&gt;
+&lt;li&gt;The highest power term of $r(x)$ is the product of the highest power terms of $p(x)$ and $p&amp;rsquo;(x)$.&lt;/li&gt;
+&lt;li&gt;Highest Term = $(-8x^2) \times (-16x) = 128x^3$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identify the coefficient:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The coefficient of the highest power term ($x^3$) is 128.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; &lt;strong&gt;128&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 2: Product of Two Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_d19339.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-2-product-of-two-polynomials-from-file-image_d19339png"&gt;&lt;/span&gt;
+&lt;a href="#question-2-product-of-two-polynomials-from-file-image_d19339png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+The product of the polynomials $p(x) = 2x^2 + 2x + 2$ and $q(x) = x^2 - x - 1$ is __________.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; Use the distributive property to multiply every term in $p(x)$ by every term in $q(x)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Set up the multiplication:&lt;/strong&gt;
+$(2x^2 + 2x + 2)(x^2 - x - 1)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Distribute each term of the first polynomial:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiply by $2x^2$: $2x^2(x^2 - x - 1) = 2x^4 - 2x^3 - 2x^2$&lt;/li&gt;
+&lt;li&gt;Multiply by $2x$: $2x(x^2 - x - 1) = 2x^3 - 2x^2 - 2x$&lt;/li&gt;
+&lt;li&gt;Multiply by $2$: $2(x^2 - x - 1) = 2x^2 - 2x - 2$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Add the results and combine like terms:&lt;/strong&gt;
+&lt;/p&gt;
+$$(2x^4 - 2x^3 - 2x^2) + (2x^3 - 2x^2 - 2x) + (2x^2 - 2x - 2)$$&lt;p&gt; &lt;/p&gt;
+$$= 2x^4 + (-2x^3 + 2x^3) + (-2x^2 - 2x^2 + 2x^2) + (-2x - 2x) - 2$$&lt;p&gt; &lt;/p&gt;
+$$= 2x^4 + 0x^3 - 2x^2 - 4x - 2$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; $2x^4 - 2x^2 - 4x - 2$&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 3: Multiplication Formula in Summation Notation&lt;/strong&gt; (from file &lt;code&gt;image_d19281.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-3-multiplication-formula-in-summation-notation-from-file-image_d19281png"&gt;&lt;/span&gt;
+&lt;a href="#question-3-multiplication-formula-in-summation-notation-from-file-image_d19281png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Choose the correct option(s) with respect to the product of the polynomials $p(x) = \sum_{k=0}^{n} a_k x^k$ and $q(x) = \sum_{j=0}^{m} b_j x^j$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept: The Cauchy Product for Polynomials&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This formula looks complex, but it&amp;rsquo;s a formal way of saying what we do when we multiply. The coefficient of a term like $x^k$ in the final product is found by summing up all the products of coefficients ($a_j b_i$) where the powers add up to $k$ (i.e., $j+i=k$).&lt;/p&gt;
+&lt;p&gt;The formula is:
+&lt;/p&gt;
+$$p(x) \times q(x) = \sum_{k=0}^{m+n} \left( \sum_{j=0}^{k} a_j b_{k-j} \right) x^k$$&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Degree of the Product:&lt;/strong&gt; The highest power in the result will be $x^{m+n}$. So the outer sum must go from $k=0$ to $m+n$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coefficient of $x^k$:&lt;/strong&gt; As stated in the concept, the coefficient for any term $x^k$ is the sum of products of coefficients $a_j$ and $b_{k-j}$ for all possible $j$ from 0 to $k$. This is written as $\sum_{j=0}^{k} a_j b_{k-j}$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Putting it together:&lt;/strong&gt; This gives the formula $p(x) \times q(x) = \sum_{k=0}^{m+n} \left( \sum_{j=0}^{k} a_j b_{k-j} \right) x^k$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commutativity:&lt;/strong&gt; Since polynomial multiplication is commutative, $p(x) \times q(x) = q(x) \times p(x)$. This means the same formula holds for the product in the reverse order.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let&amp;rsquo;s check the options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;third option&lt;/strong&gt; matches the formula for $p(x) \times q(x)$ exactly. &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;fourth option&lt;/strong&gt; gives the same correct formula for $q(x) \times p(x)$. &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The other options incorrectly alter the exponents or the indices of the sums.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct options are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$p(x) \times q(x) = \sum_{k=0}^{m+n} \sum_{j=0}^{k} (a_j b_{k-j}) x^k$&lt;/li&gt;
+&lt;li&gt;$q(x) \times p(x) = \sum_{k=0}^{m+n} \sum_{j=0}^{k} (a_j b_{k-j}) x^k$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 4: Analyzing the Product of Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_d18f94.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-4-analyzing-the-product-of-polynomials-from-file-image_d18f94png"&gt;&lt;/span&gt;
+&lt;a href="#question-4-analyzing-the-product-of-polynomials-from-file-image_d18f94png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+If $r(x) = p(x)q(x)$ where $p(x) = -2x^9 + 4x^5 + 2x^2 + 1$ and $q(x) = 8x^4 - 2x^2 + x$ then choose the correct option(s) from the following.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s evaluate each statement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Degree of $r(x)=13$ and coefficient of $x^{13}=-16$&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Degree of $r(x) = \text{deg}(p) + \text{deg}(q) = 9 + 4 = 13$.&lt;/li&gt;
+&lt;li&gt;The coefficient of the highest power term ($x^{13}$) is the product of the leading coefficients of $p(x)$ and $q(x)$.&lt;/li&gt;
+&lt;li&gt;Coefficient = $(-2) \times (8) = -16$.&lt;/li&gt;
+&lt;li&gt;This statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Degree of polynomial $r(x)=36$ and it has 0 coefficient.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. The degree is 13, not 36 ($9 \times 4$).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Coefficient of $x^2$ in $r(x)$ and $q(x)$ is -2&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In $q(x) = 8x^4 - 2x^2 + x$, the coefficient of $x^2$ is indeed -2.&lt;/li&gt;
+&lt;li&gt;To get the $x^2$ term in $r(x)$, we find all pairs of terms from $p(x)$ and $q(x)$ that multiply to give a power of 2:
+&lt;ul&gt;
+&lt;li&gt;$(2x^2 \text{ from } p) \times (\text{constant term from } q) = 2x^2 \times 0 = 0$&lt;/li&gt;
+&lt;li&gt;$(\text{constant term from } p) \times (-2x^2 \text{ from } q) = 1 \times (-2x^2) = -2x^2$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The total coefficient of $x^2$ in $r(x)$ is $0 + (-2) = -2$.&lt;/li&gt;
+&lt;li&gt;The statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Coefficient of $x^8$ in $r(x)$ is 0&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To get an $x^8$ term, we need terms with powers that sum to 8. Let&amp;rsquo;s check the possibilities:
+&lt;ul&gt;
+&lt;li&gt;$p(x)$ has powers 9, 5, 2, 0.&lt;/li&gt;
+&lt;li&gt;$q(x)$ has powers 4, 2, 1.&lt;/li&gt;
+&lt;li&gt;Can we combine any pair to get 8? (9+?) no, (5+?) no, (2+?) no, (0+?) no.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Since there is no way to form an $x^8$ term, its coefficient must be 0. This statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Coefficient of $x^9$ in $r(x)$ and $p(x)$ is 32 and -2 respectively&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The coefficient of $x^9$ in $p(x)$ is clearly -2.&lt;/li&gt;
+&lt;li&gt;To get the $x^9$ term in $r(x)$, we find all pairs with powers that sum to 9:
+&lt;ul&gt;
+&lt;li&gt;$(-2x^9 \text{ from } p) \times (\text{constant from } q) = -2x^9 \times 0 = 0$&lt;/li&gt;
+&lt;li&gt;$(4x^5 \text{ from } p) \times (8x^4 \text{ from } q) = 32x^9$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The total coefficient of $x^9$ in $r(x)$ is $0 + 32 = 32$.&lt;/li&gt;
+&lt;li&gt;The statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct statements are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Degree of $r(x) = 13$ and coefficient of $x^{13} = -16$&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coefficient of $x^2$ in $r(x)$ and $q(x)$ is -2&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coefficient of $x^8$ in $r(x)$ is 0&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coefficient of $x^9$ in $r(x)$ and $p(x)$ is 32 and -2 respectively&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;</description></item><item><title>Degree of Polynomials</title><link>/iit-madras/mathematics-1/week-4/degree-of-polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/degree-of-polynomials/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -35202,94 +37227,965 @@ display: none !important;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Define the degree of a polynomial.
 Understand the degree of zero polynomial.
-Classify polynomials based on degrees of polynomials.&lt;/p&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
-&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div
-style="
-position: relative;
-padding-bottom: 56.25%;
-height: 0;
-overflow: hidden;
-margin-top: 1.5rem;
-border-radius: 0.5rem;
-"
-&gt;
-&lt;iframe
-src="https://www.youtube.com/embed/s9zDRWmgsb4?rel=0&amp;start=15"
-frameborder="0"
-allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-&gt;
-&lt;/iframe&gt;
+Classify polynomials based on degrees of polynomials.&lt;/p&gt;
+&lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-3.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Sunday evening here in India, let&amp;rsquo;s explore these questions about polynomials. They are designed to test your understanding of a key property: the &lt;strong&gt;degree&lt;/strong&gt; of a polynomial.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Core Concepts: The Degree of a Polynomial&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="core-concepts-the-degree-of-a-polynomial"&gt;&lt;/span&gt;
+&lt;a href="#core-concepts-the-degree-of-a-polynomial" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;What is a Polynomial?&lt;/strong&gt;
+Remember, an expression is only a polynomial if the exponents on its variables are &lt;strong&gt;non-negative integers&lt;/strong&gt; (0, 1, 2, 3, &amp;hellip;). Expressions with fractional exponents (like $\sqrt{x}$ or $x^{1/2}$) or negative exponents (like $1/x$ or $x^{-1}$) are not polynomials.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Degree of a Term:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For a term with one variable, like $5x^4$, the degree is the exponent, &lt;strong&gt;4&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;For a term with multiple variables, like $3x^2y^5$, the degree is the &lt;strong&gt;sum&lt;/strong&gt; of the exponents on the variables: $2 + 5 = 7$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Degree of a Polynomial:&lt;/strong&gt;
+The degree of an entire polynomial is the &lt;strong&gt;highest degree&lt;/strong&gt; found among all of its individual terms.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Special Cases:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Constant Polynomial:&lt;/strong&gt; A non-zero number (e.g., 7) has a degree of &lt;strong&gt;0&lt;/strong&gt;, because we can think of it as $7x^0$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zero Polynomial:&lt;/strong&gt; The number 0 itself. Its degree is considered &lt;strong&gt;not defined&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Identifying a Polynomial&lt;/strong&gt; (from file &lt;code&gt;image_d1ff9b.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-identifying-a-polynomial-from-file-image_d1ff9bpng"&gt;&lt;/span&gt;
+&lt;a href="#question-1-identifying-a-polynomial-from-file-image_d1ff9bpng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+The degree of the 3rd term of a polynomial $5x^6 - 4x^5 + x^{0.5} - x^1 + 4$ is __________.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; The first step is always to check if the given expression is a polynomial at all. The concept of &amp;ldquo;degree&amp;rdquo; only applies to valid polynomials.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Examine the expression: $5x^6 - 4x^5 + x^{0.5} - x^1 + 4$.&lt;/li&gt;
+&lt;li&gt;Look at the exponents of the variable $x$: 6, 5, 0.5, 1, 0.&lt;/li&gt;
+&lt;li&gt;The third term, $x^{0.5}$, has an exponent of 0.5, which is a fraction and not an integer.&lt;/li&gt;
+&lt;li&gt;Because an expression must have only non-negative integer exponents to be a polynomial, this expression fails the test.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct statement is &lt;strong&gt;&amp;ldquo;It is not a polynomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;style&gt;
-.ytp-pause-overlay-container {
-display: none !important;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
 }
-.ytp-pause-overlay {
-display: none !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
 }
-.ytp-pause-overlay-container .ytp-pause-overlay {
-display: none !important;
+p {
+margin-top: 1rem;
 }
-&lt;/style&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
-&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div
-style="
-position: relative;
-padding-bottom: 56.25%;
-height: 0;
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
 overflow: hidden;
-margin-top: 1.5rem;
-border-radius: 0.5rem;
-"
-&gt;
-&lt;iframe
-src="https://www.youtube.com/embed/s9zDRWmgsb4?rel=0&amp;start=15"
-frameborder="0"
-allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-&gt;
-&lt;/iframe&gt;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 2: Degree of a Simplified Polynomial&lt;/strong&gt; (from file &lt;code&gt;image_d1ff9b.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-2-degree-of-a-simplified-polynomial-from-file-image_d1ff9bpng"&gt;&lt;/span&gt;
+&lt;a href="#question-2-degree-of-a-simplified-polynomial-from-file-image_d1ff9bpng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+The degree of a polynomial $\sqrt{x^8} + \frac{5}{2}x^3 - \sqrt{2}$ is __________.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; Before finding the degree, you must simplify all terms in the expression.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Simplify the expression:&lt;/strong&gt; $\sqrt{x^8} + \frac{5}{2}x^3 - \sqrt{2}$.
+&lt;ul&gt;
+&lt;li&gt;The first term is $\sqrt{x^8} = (x^8)^{1/2} = x^{(8 \times 1/2)} = x^4$.&lt;/li&gt;
+&lt;li&gt;The simplified expression is $x^4 + \frac{5}{2}x^3 - \sqrt{2}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Check if it&amp;rsquo;s a polynomial:&lt;/strong&gt; The exponents are 4, 3, and 0 (for the constant term). These are all non-negative integers, so it is a polynomial.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Find the degree of each term:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Degree of $x^4$ is 4.&lt;/li&gt;
+&lt;li&gt;Degree of $\frac{5}{2}x^3$ is 3.&lt;/li&gt;
+&lt;li&gt;Degree of $-\sqrt{2}$ is 0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Find the degree of the polynomial:&lt;/strong&gt; The degree is the highest degree among the terms.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The degree of the polynomial is &lt;strong&gt;4&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;style&gt;
-.ytp-pause-overlay-container {
-display: none !important;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
 }
-.ytp-pause-overlay {
-display: none !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
 }
-.ytp-pause-overlay-container .ytp-pause-overlay {
-display: none !important;
+p {
+margin-top: 1rem;
 }
-&lt;/style&gt;</description></item><item><title>Polynomials</title><link>/iit-madras/mathematics-1/week-4/polynomials/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-4/polynomials/</guid><description>
-&lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
-&lt;div
-style="
-position: relative;
-padding-bottom: 56.25%;
-height: 0;
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
 overflow: hidden;
-margin-top: 1.5rem;
-border-radius: 0.5rem;
-"
-&gt;
-&lt;iframe
-src="https://www.youtube.com/embed/s9zDRWmgsb4?rel=0&amp;start=15"
-frameborder="0"
-allowfullscreen
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-&gt;
-&lt;/iframe&gt;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 3: Degree of the Zero Polynomial&lt;/strong&gt; (from file &lt;code&gt;image_d1fc1a.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-3-degree-of-the-zero-polynomial-from-file-image_d1fc1apng"&gt;&lt;/span&gt;
+&lt;a href="#question-3-degree-of-the-zero-polynomial-from-file-image_d1fc1apng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+The degree of zero polynomial is __________.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0&lt;/li&gt;
+&lt;li&gt;Can be a positive real number&lt;/li&gt;
+&lt;li&gt;1&lt;/li&gt;
+&lt;li&gt;Not defined.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Core Concept:&lt;/strong&gt; The zero polynomial, $P(x) = 0$, is a special case. We could write it as $0 = 0x^1$, $0 = 0x^2$, or $0 = 0x^{100}$. Since there is no highest-power term with a &lt;em&gt;non-zero&lt;/em&gt; coefficient, we cannot assign a specific degree to it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;By mathematical convention, because the degree cannot be determined, it is said to be undefined.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; &lt;strong&gt;Not defined.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;style&gt;
-.ytp-pause-overlay-container {
-display: none !important;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
 }
-.ytp-pause-overlay {
-display: none !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
 }
-.ytp-pause-overlay-container .ytp-pause-overlay {
-display: none !important;
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 4: Statements about Degree&lt;/strong&gt; (from file &lt;code&gt;image_d1fb96.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-4-statements-about-degree-from-file-image_d1fb96png"&gt;&lt;/span&gt;
+&lt;a href="#question-4-statements-about-degree-from-file-image_d1fb96png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Choose the correct options. (Multiple Select Question)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s evaluate each statement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The degree of the polynomial is the largest degree of any one of the terms with or without zero coefficients.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;FALSE&lt;/strong&gt;. The degree is determined by the term with the highest power that has a &lt;strong&gt;non-zero&lt;/strong&gt; coefficient. For example, the degree of $0x^5 + 2x^2 + 1$ is 2, not 5.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Degree of any term in a polynomial, is the sum of the degrees of the variables in that term.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is &lt;strong&gt;TRUE&lt;/strong&gt;. This is the definition of the degree of a multi-variable term. For example, the degree of $7x^2y^3$ is $2+3=5$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Degree of the polynomial $\sqrt{10x^{16}y^{12}z^8}$ is 18&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First, simplify the expression: $\sqrt{10} \cdot \sqrt{x^{16}} \cdot \sqrt{y^{12}} \cdot \sqrt{z^8} = \sqrt{10}x^8y^6z^4$.&lt;/li&gt;
+&lt;li&gt;This is a monomial. Its degree is the sum of the exponents of the variables: $8 + 6 + 4 = 18$. This statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The degree of the binomial $\frac{8x^4 + \sqrt{8}x^4}{\sqrt{5}x^4}$ is 4&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First, simplify the expression by factoring out $x^4$ and canceling:
+$$\frac{x^4(8 + \sqrt{8})}{x^4\sqrt{5}} = \frac{8 + \sqrt{8}}{\sqrt{5}}$$&lt;/li&gt;
+&lt;li&gt;The result is just a constant number. A non-zero constant is a polynomial of degree &lt;strong&gt;0&lt;/strong&gt;. The statement says the degree is 4. This is &lt;strong&gt;FALSE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct statements are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Degree of any term in a polynomial, is the sum of the degrees of the variables in that term.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Degree of the polynomial $\sqrt{10x^{16}y^{12}z^8}$ is 18&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 5: Properties of Polynomials&lt;/strong&gt; (from file &lt;code&gt;image_d1f892.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-5-properties-of-polynomials-from-file-image_d1f892png"&gt;&lt;/span&gt;
+&lt;a href="#question-5-properties-of-polynomials-from-file-image_d1f892png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
+Choose the correct options with respect to the polynomials. (Multiple Select Question)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s evaluate each statement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The degree of a constant polynomial is 1.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. The degree of a non-zero constant polynomial (like 5) is 0, since $5 = 5x^0$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The degree of the binomial, $\sqrt{2x^4y} + 2y + 0$ is 3&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This appears to be a &lt;strong&gt;typo in the question&lt;/strong&gt;. As written, $\sqrt{2x^4y} = \sqrt{2}x^2y^{1/2}$, which is not a polynomial due to the fractional exponent. However, to match the accepted answer, the question likely intended the term to be $\sqrt{2}x^2y$. Let&amp;rsquo;s analyze this corrected term:&lt;/li&gt;
+&lt;li&gt;The degree of $\sqrt{2}x^2y$ is $2+1=3$. The degree of $2y$ is 1. The highest degree is 3. With this correction, the statement would be &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The equation of a straight line is an example of linear polynomial, which is always a binomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. A linear polynomial has degree 1. While $y = 2x+1$ is a binomial, $y = 2x$ is a monomial. So, it is not &lt;em&gt;always&lt;/em&gt; a binomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The binomial, $2x^2 + 0x + \sqrt{2}$ is a quadratic polynomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplify the expression: $2x^2 + \sqrt{2}$. This is a polynomial with two terms. The highest degree is 2, which by definition makes it a &lt;strong&gt;quadratic&lt;/strong&gt; polynomial. This statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;The cubic polynomial must be a trinomial.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FALSE&lt;/strong&gt;. A cubic polynomial must have a degree of 3. It can have one, two, three, or four terms. For example, $x^3$ is a cubic monomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Degree of a cubic monomial, $x^2yz^0$ is 3&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First, simplify the term: Since $z^0 = 1$, the term is $x^2y$.&lt;/li&gt;
+&lt;li&gt;The degree is the sum of the exponents: $2 + 1 = 3$.&lt;/li&gt;
+&lt;li&gt;A monomial of degree 3 is indeed a cubic monomial. This statement is &lt;strong&gt;TRUE&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Answer:&lt;/strong&gt; The correct statements (assuming a typo is corrected in the second statement) are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The degree of the binomial, $\sqrt{2}x^2y + 2y$ is 3&lt;/strong&gt; (Corrected from the original)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The binomial, $2x^2 + 0x + \sqrt{2}$ is a quadratic polynomial.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Degree of a cubic monomial, $x^2yz^0$ is 3&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
 }
 &lt;/style&gt;</description></item></channel></rss>
