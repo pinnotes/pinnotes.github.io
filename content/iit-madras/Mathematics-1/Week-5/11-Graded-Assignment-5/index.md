@@ -9,15 +9,4 @@ linkTitle: Graded_assignment_5
 series_order: 70
 ---
 
-A well-defined collection of distinct objects called elements or members.
-
-{{< youtube dMvBjIeJe80 >}}
-
-https://youtu.be/dMvBjIeJe80
-
-#### Learning Outcomes:
-
-The student will be able to
-(a) Understand the behaviour of exponential functions via graphs.
-(b) Find the domain, range, intercepts, asymptotes, increasing or decreasing, end
-behaviour of exponential functions.
+[Graded assignment week 5 solution](https://drive.google.com/file/d/15mkC5MuoaHhU8PlEeXYIQNgPPvlSaE2s/view)

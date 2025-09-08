@@ -9,6 +9,4 @@ linkTitle: Graded Assignment 4
 series_order: 59
 ---
 
-A well-defined collection of distinct objects called elements or members.
-
-{{< youtube s9zDRWmgsb4 >}}
+Graded Assignment - 4 solution](https://drive.google.com/file/d/10E0_BPD-S_cWdLgj5iTZkR7AhbBaAsRu/view)

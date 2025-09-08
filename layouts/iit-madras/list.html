@@ -182,8 +182,8 @@ $readMore := (T "readMore") | default "Read here →" -}}
             {{ end }}
           </li>
 
-          {{ range first 4 (where .Site.RegularPages "Params.tags"
-          "intersect" (slice "IIT Madras")) }}
+          {{ range first 4 (where .Site.RegularPages "Params.series"
+          "intersect" (slice "IITM-Foundation-Course-Programming-in-Python")) }}
           <li class="grid-item featured-grid-item">
             <a href="{{ .RelPermalink }}" class="grid-layout__item-link">
               <div class="grid-layout__item">

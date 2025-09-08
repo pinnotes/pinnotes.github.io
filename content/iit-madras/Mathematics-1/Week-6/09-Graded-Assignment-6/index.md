@@ -9,16 +9,4 @@ linkTitle: Graded_assignment_6
 series_order: 79
 ---
 
-A well-defined collection of distinct objects called elements or members.
-
-{{< youtube G5A7imv2Otc >}}
-
-https://youtu.be/G5A7imv2Otc
-
-#### Learning Outcomes:
-
-1. To learn inverse of an exponential function and understand its properties
-2. Learn ‘7-rule’
-3. Understand the domain and range of exponential functions and logarithmic functions
-4. Solve problems on domains and ranges of exponential functions and logarithmic functions
-5. To plot graph of inverse function of exponential functions
+[Week 6 graded assignment solution](https://drive.google.com/file/d/17x9AgP3xQT8Iyqj-fm_b1yPJAwP6C2VN/view)
