@@ -14,3 +14,7 @@ A well-defined collection of distinct objects called elements or members.
 {{< youtube wUPkaBwF1-Y >}}
 
 https://youtu.be/wUPkaBwF1-Y
+
+
+## Exercise Questions 
+
