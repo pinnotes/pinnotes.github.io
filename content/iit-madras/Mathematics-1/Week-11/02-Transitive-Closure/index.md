@@ -1,24 +1,27 @@
 ---
-title: Longest Paths in DAGs                           
+title:  Transitive Closure                         
 date: 2025-08-09
 weight: 113
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAqdMsvc5XhJHtxsl8pmOmOPh0Bt30gAcVtA&s
 emoji: 🧮
-slug: "Longest Paths in DAGs"
-linkTitle: Longest Paths in DAGs   
+slug: "Transitive Closure"
+linkTitle: Transitive Closure  
 series_order: 113
 ---
 
 A well-defined collection of distinct objects called elements or members.
 
-{{< youtube 934a17SB5NY >}}
+{{< youtube 6Ax9K7gSuJE >}}
 
-https://youtu.be/934a17SB5NY
+https://youtu.be/6Ax9K7gSuJE
 
 #### Learning Outcomes:
 
-The student will be able to:
+Understand the representation of relationships using graphs.
 
-find the order of the dependencies using topological sorting.
+Understand the concept of transitive closure and finding the reachability.
 
-Calculate the longest path to a node using a topological sorting algorithm.
+## Exercise Questions
+
+![alt text](image.png)
+![alt text](image-1.png)

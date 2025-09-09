@@ -22,3 +22,10 @@ To explain the relation as a subset of the Cartesian product
 Formal introduction to graphs: vertices, edges, directed and undirected graph, path, walk
 
 Concept of path and reachability in directed graphs
+
+## Exercise Questions 
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)

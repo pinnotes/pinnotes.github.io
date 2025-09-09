@@ -1,24 +1,30 @@
 ---
-title: Introduction to Graphs         
+title:  Topological Sorting        
 date: 2025-08-09
 weight: 101
 image: https://media.geeksforgeeks.org/wp-content/uploads/20240506131502/Introduction-to-Graphs.webp
 emoji: 🧮
-slug: "Introduction to Graphs"
-linkTitle: Introduction to Graphs   
+slug: " Topological Sorting"
+linkTitle:  Topological Sorting 
 series_order: 101
 ---
 
 A well-defined collection of distinct objects called elements or members.
 
-{{< youtube wtQ6RtTwCVk >}}
+{{< youtube Rax3k-rCYkY >}}
 
-https://youtu.be/wtQ6RtTwCVk
+https://youtu.be/Rax3k-rCYkY
 
 #### Learning Outcomes:
 
-To explain the relation as a subset of the Cartesian product
+learn about topological sorting.
 
-Formal introduction to graphs: vertices, edges, directed and undirected graph, path, walk
+find the possible sorting orders of DAGs.
 
-Concept of path and reachability in directed graphs
+
+## Exercise Questions
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)

@@ -1,24 +1,21 @@
 ---
-title: Introduction to Graphs         
+title:  Applications of BFS and DFS-2       
 date: 2025-08-09
 weight: 101
 image: https://media.geeksforgeeks.org/wp-content/uploads/20240506131502/Introduction-to-Graphs.webp
 emoji: 🧮
-slug: "Introduction to Graphs"
-linkTitle: Introduction to Graphs   
+slug: " Applications of BFS and DFS-2"
+linkTitle:  Applications of BFS and DFS-2
 series_order: 101
 ---
 
 A well-defined collection of distinct objects called elements or members.
 
-{{< youtube wtQ6RtTwCVk >}}
+{{< youtube yD4mk9nD_-s >}}
 
-https://youtu.be/wtQ6RtTwCVk
+https://youtu.be/yD4mk9nD_-s
 
-#### Learning Outcomes:
 
-To explain the relation as a subset of the Cartesian product
+## Exercise Questions
 
-Formal introduction to graphs: vertices, edges, directed and undirected graph, path, walk
-
-Concept of path and reachability in directed graphs
+![alt text](image.png)

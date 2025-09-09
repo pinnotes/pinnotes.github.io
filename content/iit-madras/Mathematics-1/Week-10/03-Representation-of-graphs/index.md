@@ -1,24 +1,28 @@
 ---
-title: Introduction to Graphs         
+title: Representation of graphs        
 date: 2025-08-09
 weight: 101
 image: https://media.geeksforgeeks.org/wp-content/uploads/20240506131502/Introduction-to-Graphs.webp
 emoji: 🧮
-slug: "Introduction to Graphs"
-linkTitle: Introduction to Graphs   
+slug: "Representation of graphs"
+linkTitle: Representation of graphs   
 series_order: 101
 ---
 
 A well-defined collection of distinct objects called elements or members.
 
-{{< youtube wtQ6RtTwCVk >}}
+{{< youtube 4M-1F4DORps >}}
 
-https://youtu.be/wtQ6RtTwCVk
+https://youtu.be/4M-1F4DORps
 
 #### Learning Outcomes:
 
-To explain the relation as a subset of the Cartesian product
+To learn the concept of adjacency matrix; for directed and undirected graphs
 
-Formal introduction to graphs: vertices, edges, directed and undirected graph, path, walk
+To calculate the degree of vertex, outdegree and indegree in a directed graph
 
-Concept of path and reachability in directed graphs
+## Exercise Questions 🧠
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)

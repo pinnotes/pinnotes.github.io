@@ -1,24 +1,25 @@
 ---
-title: Longest Paths in DAGs                           
+title: Single Source Shortest Paths                         
 date: 2025-08-09
 weight: 113
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAqdMsvc5XhJHtxsl8pmOmOPh0Bt30gAcVtA&s
 emoji: 🧮
-slug: "Longest Paths in DAGs"
-linkTitle: Longest Paths in DAGs   
+slug: "Single Source Shortest Paths"
+linkTitle: Single Source Shortest Paths   
 series_order: 113
 ---
 
 A well-defined collection of distinct objects called elements or members.
 
-{{< youtube 934a17SB5NY >}}
+{{< youtube XXFcZyP2KlM >}}
 
-https://youtu.be/934a17SB5NY
+https://youtu.be/XXFcZyP2KlM
 
 #### Learning Outcomes:
 
-The student will be able to:
+The students will be able to understand the conceptual numerical on single source shortest paths and Dijkstra’s algorithm.
 
-find the order of the dependencies using topological sorting.
+## Exercise Questions
 
-Calculate the longest path to a node using a topological sorting algorithm.
+![alt text](image.png)
+![alt text](image-1.png)

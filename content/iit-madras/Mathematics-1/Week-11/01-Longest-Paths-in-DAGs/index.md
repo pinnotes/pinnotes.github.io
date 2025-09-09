@@ -22,3 +22,11 @@ The student will be able to:
 find the order of the dependencies using topological sorting.
 
 Calculate the longest path to a node using a topological sorting algorithm.
+
+
+## Exercise Questions
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
