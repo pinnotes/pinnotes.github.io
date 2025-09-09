@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – IITM-Foundation-Course-Mathematics-1</title><link>/series/iitm-foundation-course-mathematics-1/</link><description>Recent content in IITM-Foundation-Course-Mathematics-1 on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/series/iitm-foundation-course-mathematics-1/index.xml" rel="self" type="application/rss+xml"/><item><title>Construction of Subsets and set operations</title><link>/iit-madras/mathematics-1/week-1/05-construction-of-subsets-and-set-operations/construction-of-subsets-and-set-operations/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/05-construction-of-subsets-and-set-operations/construction-of-subsets-and-set-operations/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – IITM-Foundation-Course-Mathematics-1</title><link>/series/iitm-foundation-course-mathematics-1/</link><description>Recent content in IITM-Foundation-Course-Mathematics-1 on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/series/iitm-foundation-course-mathematics-1/index.xml" rel="self" type="application/rss+xml"/><item><title>Construction of Subsets and set operations</title><link>/iit-madras/mathematics-1/week-1/construction-of-subsets-and-set-operations/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/construction-of-subsets-and-set-operations/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -29,6 +29,13 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
+&lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Write a set in its comprehensive form called set comprehension.&lt;/li&gt;
+&lt;li&gt;Construct different subsets from a given set.&lt;/li&gt;
+&lt;li&gt;Distinguish between closed interval and open interval.&lt;/li&gt;
+&lt;li&gt;Demonstrate the ability to perform operations like union, intersection, set difference, and complement on sets using proper notation.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;1️⃣ Set Comprehension: Writing Sets in Comprehensive Form&lt;span class="hx-absolute -hx-mt-20" id="1-set-comprehension-writing-sets-in-comprehensive-form"&gt;&lt;/span&gt;
 &lt;a href="#1-set-comprehension-writing-sets-in-comprehensive-form" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Set comprehension&lt;/strong&gt; is a way to define a set by describing the properties its members must satisfy instead of listing elements.&lt;/li&gt;
@@ -95,7 +102,11 @@ Example: $ A - B = {1} $&lt;/li&gt;
 &lt;p&gt;&lt;img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/complement-and-difference-of-sets-1632911138.png" alt="Set Difference and Complement" loading="lazy" /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-3.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-4.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) Which of the following is a correct representation of set comprehension?&lt;span class="hx-absolute -hx-mt-20" id="1-which-of-the-following-is-a-correct-representation-of-set-comprehension"&gt;&lt;/span&gt;
 &lt;a href="#1-which-of-the-following-is-a-correct-representation-of-set-comprehension" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A) $ {x \mid x \in \mathbb{N}, x is even} $
@@ -1457,7 +1468,7 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Examples of Set Operations and Counting Problems</title><link>/iit-madras/mathematics-1/week-1/07-examples-of-set-operations-and-counting-problems/examples-of-set-operations-and-counting-problems/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/07-examples-of-set-operations-and-counting-problems/examples-of-set-operations-and-counting-problems/</guid><description>
+&lt;/style&gt;</description></item><item><title>Examples of Set Operations and Counting Problems</title><link>/iit-madras/mathematics-1/week-1/examples-of-set-operations-and-counting-problems/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/examples-of-set-operations-and-counting-problems/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -1488,6 +1499,11 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
+&lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Understand set notations.&lt;/li&gt;
+&lt;li&gt;Solve counting problems using Venn diagrams.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;Here is a detailed guide covering set notations and solving counting problems using Venn diagrams with 10 examples, including diagrams and emojis to enhance clarity.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;1️⃣ Understanding Set Notations&lt;span class="hx-absolute -hx-mt-20" id="1-understanding-set-notations"&gt;&lt;/span&gt;
@@ -1628,7 +1644,8 @@ $$&lt;p&gt;Neither = $60 - 55 = 5$&lt;/p&gt;
 &lt;p&gt;These illustrations and examples offer solid practice in set theory and counting with Venn diagrams.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exercise Questions 🧠&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) In a class of 40 students, 20 took Mathematics, 18 took Statistics, 16 took English, 7 took Mathematics and Statistics, 7 took Mathematics and English, 9 took Statistics and English, and 3 took all three courses. How many students are not taking any of these courses?&lt;span class="hx-absolute -hx-mt-20" id="1-in-a-class-of-40-students-20-took-mathematics-18-took-statistics-16-took-english-7-took-mathematics-and-statistics-7-took-mathematics-and-english-9-took-statistics-and-english-and-3-took-all-three-courses-how-many-students-are-not-taking-any-of-these-courses"&gt;&lt;/span&gt;
 &lt;a href="#1-in-a-class-of-40-students-20-took-mathematics-18-took-statistics-16-took-english-7-took-mathematics-and-statistics-7-took-mathematics-and-english-9-took-statistics-and-english-and-3-took-all-three-courses-how-many-students-are-not-taking-any-of-these-courses" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;Detailed Solution:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="detailed-solution"&gt;&lt;/span&gt;
@@ -2488,7 +2505,7 @@ background-color: #ffbb0027;
 &lt;p&gt;image.jpg&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Functions</title><link>/iit-madras/mathematics-1/week-1/09-functions/functions/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/09-functions/functions/</guid><description>
+&lt;/div&gt;</description></item><item><title>Functions</title><link>/iit-madras/mathematics-1/week-1/functions/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/functions/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -2519,6 +2536,13 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
+&lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Define a &lt;em&gt;​function​&lt;/em&gt;, &lt;em&gt;​domain&lt;/em&gt;, &lt;em&gt;co-domain&lt;/em&gt;,​ and &lt;em&gt;​range&lt;/em&gt; of a &lt;em&gt;function&lt;/em&gt;.​&lt;/li&gt;
+&lt;li&gt;Identify the domain and range of a given function.&lt;/li&gt;
+&lt;li&gt;Classify a function as an injective function, a surjective function, both or neither.&lt;/li&gt;
+&lt;li&gt;Define &lt;em&gt;​bijection&lt;/em&gt;.​&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;1️⃣ Define Function, Domain, Co-domain, and Range&lt;span class="hx-absolute -hx-mt-20" id="1-define-function-domain-co-domain-and-range"&gt;&lt;/span&gt;
 &lt;a href="#1-define-function-domain-co-domain-and-range" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Function:&lt;/strong&gt; A relation $f$ from set $A$ (domain) to set $B$ (co-domain) that assigns &lt;strong&gt;each element in $A$ exactly one element in $B$&lt;/strong&gt;. Denoted as $f: A \to B$.&lt;/li&gt;
@@ -2622,7 +2646,8 @@ $f:\mathbb{R} \to \mathbb{R}$, $f(x) = x + 3$&lt;/li&gt;
 &lt;p&gt;🚀&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) Suppose $ f: \mathbb{Z} \to \mathbb{Z} $ is a function defined by $ f(k) = k^3 + 4k - 10 $. The value of $ f(k) $ at $ k = 4 $ is ______.&lt;span class="hx-absolute -hx-mt-20" id="1-suppose--f-mathbbz-to-mathbbz--is-a-function-defined-by--fk--k3--4k---10--the-value-of--fk--at--k--4--is-______"&gt;&lt;/span&gt;
 &lt;a href="#1-suppose--f-mathbbz-to-mathbbz--is-a-function-defined-by--fk--k3--4k---10--the-value-of--fk--at--k--4--is-______" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;Detailed Answer:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="detailed-answer"&gt;&lt;/span&gt;
@@ -3803,7 +3828,8 @@ Example: 12 = 2 × 2 × 3 = $2^2 \times 3$.&lt;/li&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) How many natural numbers are there in the given list?&lt;span class="hx-absolute -hx-mt-20" id="1-how-many-natural-numbers-are-there-in-the-given-list"&gt;&lt;/span&gt;
 &lt;a href="#1-how-many-natural-numbers-are-there-in-the-given-list" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;List:&lt;/strong&gt; 22, -17, 47, -2000, 0, 1, 43, 1729, 6174, -63, 100, 32, -9.&lt;/p&gt;
@@ -4707,6 +4733,13 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
+&lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Define rational numbers.&lt;/li&gt;
+&lt;li&gt;Order and compare rational numbers.&lt;/li&gt;
+&lt;li&gt;Find the greatest common divisor of two integers.&lt;/li&gt;
+&lt;li&gt;Understand why rational numbers are dense on the number line.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;🧮 Define Rational Numbers&lt;span class="hx-absolute -hx-mt-20" id="-define-rational-numbers"&gt;&lt;/span&gt;
 &lt;a href="#-define-rational-numbers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A &lt;strong&gt;rational number&lt;/strong&gt; is any number that can be written as a fraction $\frac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4791,7 +4824,7 @@ display: none !important;
 &lt;span style="display:none"&gt;&lt;sup id="fnref:14"&gt;&lt;a href="#fn:14" class="footnote-ref" role="doc-noteref"&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:15"&gt;&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref"&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h2&gt;1. Which of the following option(s) is (are) true?&lt;span class="hx-absolute -hx-mt-20" id="1-which-of-the-following-options-is-are-true"&gt;&lt;/span&gt;
 &lt;a href="#1-which-of-the-following-options-is-are-true" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A) $ \frac{4}{7} &amp;gt; \frac{5}{8} $&lt;/p&gt;
@@ -5407,7 +5440,7 @@ background-color: #ffbb0027;
 &lt;p&gt;&lt;a href="https://www.nagwa.com/en/explainers/570164325210/" target="_blank" rel="noopener"&gt;https://www.nagwa.com/en/explainers/570164325210/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Real and Complex Numbers</title><link>/iit-madras/mathematics-1/week-1/03-real-and-complex-numbers/real-and-complex-numbers/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/03-real-and-complex-numbers/real-and-complex-numbers/</guid><description>
+&lt;/div&gt;</description></item><item><title>Real and Complex Numbers</title><link>/iit-madras/mathematics-1/week-1/real-and-complex-numbers/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/real-and-complex-numbers/</guid><description>
 &lt;p&gt;Real Numbers (R) include all rational numbers plus all irrational numbers (numbers that cannot be expressed as fractions). This makes the real numbers a complete set covering every possible point on the number line.&lt;/p&gt;
 &lt;div
 style="
@@ -5438,6 +5471,12 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
+&lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Know how rational numbers extend to real numbers.&lt;/li&gt;
+&lt;li&gt;Identify irrational numbers and complex numbers.&lt;/li&gt;
+&lt;li&gt;Classify a real number as an integer, rational, or irrational number.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;1️⃣ How Rational Numbers Extend to Real Numbers&lt;span class="hx-absolute -hx-mt-20" id="1-how-rational-numbers-extend-to-real-numbers"&gt;&lt;/span&gt;
 &lt;a href="#1-how-rational-numbers-extend-to-real-numbers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Rational Numbers&lt;/strong&gt; ($\mathbb{Q}$) are numbers expressed as fractions $\frac{p}{q}$, where $p, q$ are integers, $q \neq 0$. Examples: $\frac{1}{2}, 0.75, -3$.&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -5502,7 +5541,8 @@ Example: $3 + 4i$, where 3 is the real part and 4i is the imaginary part.&lt;/li
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) Which of the following statement(s) is(are) false?&lt;span class="hx-absolute -hx-mt-20" id="1-which-of-the-following-statements-isare-false"&gt;&lt;/span&gt;
 &lt;a href="#1-which-of-the-following-statements-isare-false" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -6420,7 +6460,7 @@ background-color: #ffbb0027;
 &lt;p&gt;&lt;a href="https://byjus.com/maths/complex-numbers/" target="_blank" rel="noopener"&gt;https://byjus.com/maths/complex-numbers/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Relations</title><link>/iit-madras/mathematics-1/week-1/08-relations/relationss/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/08-relations/relationss/</guid><description>
+&lt;/div&gt;</description></item><item><title>Relations</title><link>/iit-madras/mathematics-1/week-1/relationss/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/relationss/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -6451,6 +6491,13 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
+&lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Compute the cartesian product of two non-empty sets.&lt;/li&gt;
+&lt;li&gt;Identify relations as a subset of the cartesian product.&lt;/li&gt;
+&lt;li&gt;List the properties of relations like reflexive, symmetric, transitive, and antisymmetric.&lt;/li&gt;
+&lt;li&gt;Define ​equivalence relation​ and ​equivalence classes​.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;1️⃣ Compute the Cartesian Product of Two Non-Empty Sets&lt;span class="hx-absolute -hx-mt-20" id="1-compute-the-cartesian-product-of-two-non-empty-sets"&gt;&lt;/span&gt;
 &lt;a href="#1-compute-the-cartesian-product-of-two-non-empty-sets" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Definition:&lt;/strong&gt; The Cartesian Product $ A \times B $ of sets $ A $ and $ B $ is the set of all ordered pairs $(a, b)$ such that $a \in A$ and $b \in B$.&lt;/li&gt;
@@ -6575,7 +6622,9 @@ $$&lt;ol start="3"&gt;
 &lt;p&gt;This detailed explanation with illustrations builds a solid conceptual foundation for understanding relations in sets.Here is a detailed guide explaining Cartesian products, relations, their properties, and equivalence relations with examples, diagrams, and emojis to enhance understanding.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exercise Questions 🐻‍❄️&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) Let $A = {1,4}$ and $B = {2,4,6,8}$. Which of the following is the Cartesian product of $A$ and $B$?&lt;span class="hx-absolute -hx-mt-20" id="1-let-a--14-and-b--2468-which-of-the-following-is-the-cartesian-product-of-a-and-b"&gt;&lt;/span&gt;
 &lt;a href="#1-let-a--14-and-b--2468-which-of-the-following-is-the-cartesian-product-of-a-and-b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;&lt;strong&gt;Detailed Answer:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="detailed-answer"&gt;&lt;/span&gt;
@@ -7779,7 +7828,7 @@ background-color: #ffbb0027;
 &lt;p&gt;image.jpg&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Set Examples</title><link>/iit-madras/mathematics-1/week-1/06-sets-examples/set-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/06-sets-examples/set-examples/</guid><description>
+&lt;/div&gt;</description></item><item><title>Set Examples</title><link>/iit-madras/mathematics-1/week-1/set-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/set-examples/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -7810,6 +7859,11 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
+&lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Describe the membership of sets.&lt;/li&gt;
+&lt;li&gt;Recognize that set comprehension combines generators, filters, and transformations to produce new sets from old sets.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;1️⃣ Describe the Membership of Sets&lt;span class="hx-absolute -hx-mt-20" id="1-describe-the-membership-of-sets"&gt;&lt;/span&gt;
 &lt;a href="#1-describe-the-membership-of-sets" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Membership&lt;/strong&gt; refers to whether an element belongs to a set or not.&lt;/li&gt;
@@ -7871,7 +7925,9 @@ $$&lt;ul&gt;
 &lt;p&gt;This explanation covers how to understand set membership and the multiple components combined in set comprehension visually and conceptually.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Excercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="excercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#excercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#excercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) Which of the following sets is(are) infinite?&lt;span class="hx-absolute -hx-mt-20" id="1-which-of-the-following-sets-isare-infinite"&gt;&lt;/span&gt;
 &lt;a href="#1-which-of-the-following-sets-isare-infinite" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -9090,7 +9146,7 @@ background-color: #ffbb0027;
 &lt;p&gt;image.jpg&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Set Theory</title><link>/iit-madras/mathematics-1/week-1/04-set-theory/set-theory/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/04-set-theory/set-theory/</guid><description>
+&lt;/div&gt;</description></item><item><title>Set Theory</title><link>/iit-madras/mathematics-1/week-1/set-theory/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/set-theory/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -9121,6 +9177,12 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
+&lt;h4&gt;Learning Outcomes:&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Define a set, cardinality of a set, ​subset,​ ​proper subset​, ​power set,​ and ​empty set​, using proper notations.&lt;/li&gt;
+&lt;li&gt;Interpret a Venn diagram as a visual representation of a set.&lt;/li&gt;
+&lt;li&gt;Explain why a set with n elements has 2 n subsets.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;1️⃣ Define Set Concepts with Notations&lt;span class="hx-absolute -hx-mt-20" id="1-define-set-concepts-with-notations"&gt;&lt;/span&gt;
 &lt;a href="#1-define-set-concepts-with-notations" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Set ( $ A $ )&lt;/strong&gt;: A well-defined collection of distinct objects called elements or members.
@@ -9195,7 +9257,9 @@ $ \emptyset, {a}, {b}, {a,b} $ → 4 subsets = $ 2^2 $.&lt;/li&gt;
 &lt;p&gt;This detailed guide combines mathematical notation, visualization, and intuitive reasoning to make set theory concepts clear and engaging.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) Which of the following sets are same?&lt;span class="hx-absolute -hx-mt-20" id="1-which-of-the-following-sets-are-same"&gt;&lt;/span&gt;
 &lt;a href="#1-which-of-the-following-sets-are-same" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;(i) {Ankitha, Keerthana, Raju, Suresh}
@@ -10418,7 +10482,7 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Relations examples</title><link>/iit-madras/mathematics-1/week-1/10-relations-examples/relations-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/10-relations-examples/relations-examples/</guid><description>
+&lt;/style&gt;</description></item><item><title>Relations examples</title><link>/iit-madras/mathematics-1/week-1/relations-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/relations-examples/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -10454,7 +10518,11 @@ display: none !important;
 &lt;li&gt;List the number of elements in the cartesian product of two finite sets.&lt;/li&gt;
 &lt;li&gt;Interpret relations as a subset of the cartesian product.&lt;/li&gt;
 &lt;li&gt;Represent data tables as relations.&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Functions Examples</title><link>/iit-madras/mathematics-1/week-1/11-functions-examples/functions-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/11-functions-examples/functions-examples/</guid><description>
+&lt;/ol&gt;
+&lt;h2&gt;Exercise Questions&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;</description></item><item><title>Functions Examples</title><link>/iit-madras/mathematics-1/week-1/functions-examples/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/functions-examples/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -10492,7 +10560,12 @@ display: none !important;
 &lt;li&gt;Understand what is the maximum value, minimum value of a function.&lt;/li&gt;
 &lt;li&gt;Understand ​local maximum​ and ​local minimum​.&lt;/li&gt;
 &lt;li&gt;Identify whether one function grows faster than another.&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Prime Numbers</title><link>/iit-madras/mathematics-1/week-1/12-prime-numbers/prime-numbers/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/12-prime-numbers/prime-numbers/</guid><description>
+&lt;/ol&gt;
+&lt;h2&gt;Exercise Questions&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions"&gt;&lt;/span&gt;
+&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-3.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;</description></item><item><title>Prime Numbers</title><link>/iit-madras/mathematics-1/week-1/prime-numbers/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/prime-numbers/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -10528,7 +10601,7 @@ display: none !important;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;Argue why the set of prime numbers is infinite.&lt;/li&gt;
 &lt;li&gt;Identify if a given number is prime or not.&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Why is a number irrational?</title><link>/iit-madras/mathematics-1/week-1/13-why-is-a-number-irrational/why-is-a-number-irrational/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/13-why-is-a-number-irrational/why-is-a-number-irrational/</guid><description>
+&lt;/ol&gt;</description></item><item><title>Why is a number irrational?</title><link>/iit-madras/mathematics-1/week-1/why-is-a-number-irrational/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/why-is-a-number-irrational/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -10564,7 +10637,7 @@ display: none !important;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;Understand why root 2 is an irrational number.&lt;/li&gt;
 &lt;li&gt;Explain why not every number can be expressed in p/q form.&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Set versus Collections</title><link>/iit-madras/mathematics-1/week-1/14-set-veruses-collections/set-versus-collections/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/14-set-veruses-collections/set-versus-collections/</guid><description>
+&lt;/ol&gt;</description></item><item><title>Set versus Collections</title><link>/iit-madras/mathematics-1/week-1/set-versus-collections/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/set-versus-collections/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -10601,7 +10674,7 @@ display: none !important;
 &lt;li&gt;Express natural numbers as sets.&lt;/li&gt;
 &lt;li&gt;Understand Russell&amp;rsquo;s paradox (why not every collection can be called a set).&lt;/li&gt;
 &lt;li&gt;Define ​class.​&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Degrees of infinity</title><link>/iit-madras/mathematics-1/week-1/15-degree-of-infinity/degrees-of-infinity/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/15-degree-of-infinity/degrees-of-infinity/</guid><description>
+&lt;/ol&gt;</description></item><item><title>Degrees of infinity</title><link>/iit-madras/mathematics-1/week-1/degrees-of-infinity/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/degrees-of-infinity/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -10639,7 +10712,7 @@ display: none !important;
 &lt;li&gt;Know what countable sets are.&lt;/li&gt;
 &lt;li&gt;Explain why the cardinalities of N,Z, and Q are the same.&lt;/li&gt;
 &lt;li&gt;Argue that the real numbers are not countable.&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Week 1 | Practice Assignemnt</title><link>/iit-madras/mathematics-1/week-1/16-practice-assignment/week-1-practice-assignemnt/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/16-practice-assignment/week-1-practice-assignemnt/</guid><description>
+&lt;/ol&gt;</description></item><item><title>Week 1 | Practice Assignemnt</title><link>/iit-madras/mathematics-1/week-1/week-1-practice-assignemnt/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/week-1-practice-assignemnt/</guid><description>
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Venn Diagram Interpretation&lt;/strong&gt; (from file &lt;code&gt;image_5c141c.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-venn-diagram-interpretation-from-file-image_5c141cpng"&gt;&lt;/span&gt;
 &lt;a href="#question-1-venn-diagram-interpretation-from-file-image_5c141cpng" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -12796,7 +12869,7 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Week 1 | Graded Assignment</title><link>/iit-madras/mathematics-1/week-1/17-graded-assignment/week-1-graded-assignment/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/17-graded-assignment/week-1-graded-assignment/</guid><description>
+&lt;/style&gt;</description></item><item><title>Week 1 | Graded Assignment</title><link>/iit-madras/mathematics-1/week-1/week-1-graded-assignment/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-1/week-1-graded-assignment/</guid><description>
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Irrational Numbers&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-1-irrational-numbers"&gt;&lt;/span&gt;
 &lt;a href="#question-1-irrational-numbers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -16453,7 +16526,7 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Rectangular Coordinate system</title><link>/iit-madras/mathematics-1/week-2/01-rectangular-coordinate-system/rectangular-coordinate-system/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/01-rectangular-coordinate-system/rectangular-coordinate-system/</guid><description>
+&lt;/style&gt;</description></item><item><title>Rectangular Coordinate system</title><link>/iit-madras/mathematics-1/week-2/rectangular-coordinate-system/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/rectangular-coordinate-system/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -16538,7 +16611,8 @@ display: none !important;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hello! On this Wednesday evening here in India, I would be happy to help you with these questions on the rectangular coordinate system. Let&amp;rsquo;s break them down one by one.&lt;/p&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Wednesday evening here in India, I would be happy to help you with these questions on the rectangular coordinate system. Let&amp;rsquo;s break them down one by one.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Locating Points&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-1-locating-points"&gt;&lt;/span&gt;
 &lt;a href="#question-1-locating-points" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -17120,7 +17194,7 @@ background-color: #ffbb0027;
 &lt;p&gt;&lt;a href="https://www.cuemath.com/geometry/quadrant/" target="_blank" rel="noopener"&gt;https://www.cuemath.com/geometry/quadrant/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Distance formula</title><link>/iit-madras/mathematics-1/week-2/02-distance-formula/distance-formula/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/02-distance-formula/distance-formula/</guid><description>
+&lt;/div&gt;</description></item><item><title>Distance formula</title><link>/iit-madras/mathematics-1/week-2/distance-formula/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/distance-formula/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -17152,6 +17226,11 @@ display: none !important;
 }
 &lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/aDhyAkXiDOY" target="_blank" rel="noopener"&gt;https://youtu.be/aDhyAkXiDOY&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Compute the distance of a point from the origin in the rectangular coordinate system.&lt;/li&gt;
+&lt;li&gt;Derive a general distance formula between any two points on the coordinate plane.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;1️⃣ Distance of a Point from the Origin&lt;span class="hx-absolute -hx-mt-20" id="1-distance-of-a-point-from-the-origin"&gt;&lt;/span&gt;
 &lt;a href="#1-distance-of-a-point-from-the-origin" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To compute the distance of a point $P(x, y)$ from the &lt;strong&gt;origin&lt;/strong&gt; $(0, 0)$ in the rectangular coordinate system, use the &lt;strong&gt;distance formula&lt;/strong&gt;:&lt;/p&gt;
 $$
@@ -17196,7 +17275,9 @@ $$&lt;p&gt;&lt;strong&gt;Image:&lt;/strong&gt;&lt;/p&gt;
 &lt;/ul&gt;
 &lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hello! On this Wednesday evening here in India, I would be happy to help you with these questions on the rectangular coordinate system. Let&amp;rsquo;s break them down one by one.&lt;/p&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Wednesday evening here in India, I would be happy to help you with these questions on the rectangular coordinate system. Let&amp;rsquo;s break them down one by one.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Locating Points&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-1-locating-points"&gt;&lt;/span&gt;
 &lt;a href="#question-1-locating-points" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -17799,7 +17880,7 @@ background-color: #ffbb0027;
 &lt;p&gt;&lt;a href="https://www.cuemath.com/geometry/coordinate-geometry/" target="_blank" rel="noopener"&gt;https://www.cuemath.com/geometry/coordinate-geometry/&lt;/a&gt;&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Distance of a line from a given point</title><link>/iit-madras/mathematics-1/week-2/12-distance-of-a-line-from-a-given-point/distance-of-a-line-from-a-given-point/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/12-distance-of-a-line-from-a-given-point/distance-of-a-line-from-a-given-point/</guid><description>
+&lt;/div&gt;</description></item><item><title>Distance of a line from a given point</title><link>/iit-madras/mathematics-1/week-2/distance-of-a-line-from-a-given-point/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/distance-of-a-line-from-a-given-point/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -17836,7 +17917,9 @@ display: none !important;
 ● Calculate the distance of a point from a line using the general linear expression.
 ● Determine the distance between two parallel lines.&lt;/p&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hello! On this Wednesday evening here in India, I can certainly help you solve these problems. They cover some very important formulas in coordinate geometry, including how to analyze linear equations and calculate various distances.&lt;/p&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Wednesday evening here in India, I can certainly help you solve these problems. They cover some very important formulas in coordinate geometry, including how to analyze linear equations and calculate various distances.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Analyzing a Linear Equation&lt;/strong&gt; (from file &lt;code&gt;image_015799.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-analyzing-a-linear-equation-from-file-image_015799png"&gt;&lt;/span&gt;
 &lt;a href="#question-1-analyzing-a-linear-equation-from-file-image_015799png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -18816,7 +18899,7 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Equation of a perpendicular line passing through a point</title><link>/iit-madras/mathematics-1/week-2/11-equation-of-a-perpendicular-line-passing-through-a-point/equation-of-a-perpendicular-line-passing-through-a-point/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/11-equation-of-a-perpendicular-line-passing-through-a-point/equation-of-a-perpendicular-line-passing-through-a-point/</guid><description>
+&lt;/style&gt;</description></item><item><title>Equation of a perpendicular line passing through a point</title><link>/iit-madras/mathematics-1/week-2/equation-of-a-perpendicular-line-passing-through-a-point/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/equation-of-a-perpendicular-line-passing-through-a-point/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -18851,7 +18934,7 @@ display: none !important;
 &lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;● Find the general equation of a line passing through a point and is perpendicular to a given line.&lt;/p&gt;
 &lt;h2&gt;Exercise Questions&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) The equation of a line passing through the point $(3,4)$ and perpendicular to the line $3x + 4y - 8 = 0$ is&lt;span class="hx-absolute -hx-mt-20" id="1-the-equation-of-a-line-passing-through-the-point-34-and-perpendicular-to-the-line-3x--4y---8--0-is"&gt;&lt;/span&gt;
 &lt;a href="#1-the-equation-of-a-line-passing-through-the-point-34-and-perpendicular-to-the-line-3x--4y---8--0-is" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Concepts:&lt;span class="hx-absolute -hx-mt-20" id="concepts"&gt;&lt;/span&gt;
@@ -19225,7 +19308,7 @@ background-color: #ffbb0027;
 &lt;p&gt;image.jpeg&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Equation of parallel and perpendicular lines in general form</title><link>/iit-madras/mathematics-1/week-2/10-equation-of-parallel-and-perpendicular-lines-in-general-form/equation-of-parallel-and-perpendicular-lines-in-general-form/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/10-equation-of-parallel-and-perpendicular-lines-in-general-form/equation-of-parallel-and-perpendicular-lines-in-general-form/</guid><description>
+&lt;/div&gt;</description></item><item><title>Equation of parallel and perpendicular lines in general form</title><link>/iit-madras/mathematics-1/week-2/equation-of-parallel-and-perpendicular-lines-in-general-form/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/equation-of-parallel-and-perpendicular-lines-in-general-form/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -19261,7 +19344,7 @@ display: none !important;
 &lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;● Determine the general conditions for the slope of a line parallel or perpendicular to a given line.
 ● Find the general equation of a line parallel or perpendicular to a given line.&lt;/p&gt;
 &lt;h4&gt;Exercise Questions&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) Which of the following statements are true?&lt;span class="hx-absolute -hx-mt-20" id="1-which-of-the-following-statements-are-true"&gt;&lt;/span&gt;
 &lt;a href="#1-which-of-the-following-statements-are-true" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Concepts:&lt;span class="hx-absolute -hx-mt-20" id="concepts"&gt;&lt;/span&gt;
@@ -19674,7 +19757,7 @@ background-color: #ffbb0027;
 &lt;p&gt;image.jpeg&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>General equation of line</title><link>/iit-madras/mathematics-1/week-2/09-general-equation-of-line/general-equation-of-line/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/09-general-equation-of-line/general-equation-of-line/</guid><description>
+&lt;/div&gt;</description></item><item><title>General equation of line</title><link>/iit-madras/mathematics-1/week-2/general-equation-of-line/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/general-equation-of-line/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -19711,7 +19794,9 @@ display: none !important;
 ● Find the different forms of the equation of a line including slope-point form,
 slope-intercept form, two-point form and intercept form from the general linear equation.&lt;/p&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hello! On this Wednesday evening here in India, I&amp;rsquo;d be happy to guide you through these questions. They focus on converting the equation of a line between different forms to find its key properties like slope and intercepts.&lt;/p&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Wednesday evening here in India, I&amp;rsquo;d be happy to guide you through these questions. They focus on converting the equation of a line between different forms to find its key properties like slope and intercepts.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Questions 4, 5, &amp;amp; 6: Analyzing a Linear Equation&lt;/strong&gt; (from file &lt;code&gt;image_0b5b27.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="questions-4-5--6-analyzing-a-linear-equation-from-file-image_0b5b27png"&gt;&lt;/span&gt;
 &lt;a href="#questions-4-5--6-analyzing-a-linear-equation-from-file-image_0b5b27png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Equation:&lt;/strong&gt;
@@ -21554,7 +21639,7 @@ Convert general form by isolating $ y $&lt;/li&gt;
 &lt;p&gt;image.jpeg&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Practice_Assignment_2</title><link>/iit-madras/mathematics-1/week-2/14-practice-assignement-2/practice_assignment_2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/14-practice-assignement-2/practice_assignment_2/</guid><description>
+&lt;/div&gt;</description></item><item><title>Practice_Assignment_2</title><link>/iit-madras/mathematics-1/week-2/practice_assignment_2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/practice_assignment_2/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;h2&gt;Week 02 - Tutorial 01&lt;span class="hx-absolute -hx-mt-20" id="week-02---tutorial-01"&gt;&lt;/span&gt;
 &lt;a href="#week-02---tutorial-01" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div
@@ -22206,7 +22291,7 @@ display: none !important;
 display: none !important;
 }
 &lt;/style&gt;
-&lt;p&gt;&lt;a href="https://youtu.be/cDEa9jgcSyc" target="_blank" rel="noopener"&gt;https://youtu.be/cDEa9jgcSyc&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Representation of a Line-1</title><link>/iit-madras/mathematics-1/week-2/07-representation-of-a-line-1/representation-of-a-line-1/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/07-representation-of-a-line-1/representation-of-a-line-1/</guid><description>
+&lt;p&gt;&lt;a href="https://youtu.be/cDEa9jgcSyc" target="_blank" rel="noopener"&gt;https://youtu.be/cDEa9jgcSyc&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Representation of a Line-1</title><link>/iit-madras/mathematics-1/week-2/representation-of-a-line-1/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/representation-of-a-line-1/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -22296,7 +22381,10 @@ $$&lt;hr&gt;
 &lt;/ul&gt;
 &lt;p&gt;These forms allow flexible calculation and graphing of linear equations.&lt;/p&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hello! On this Wednesday evening here in India, I would be happy to explain these questions about the equations of lines. This is a key area of coordinate geometry.&lt;/p&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Wednesday evening here in India, I would be happy to explain these questions about the equations of lines. This is a key area of coordinate geometry.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Equation of a Horizontal Line&lt;/strong&gt; (from file &lt;code&gt;image_0e0a21.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-equation-of-a-horizontal-line-from-file-image_0e0a21png"&gt;&lt;/span&gt;
 &lt;a href="#question-1-equation-of-a-horizontal-line-from-file-image_0e0a21png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -23576,7 +23664,7 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Representation of a Line-2</title><link>/iit-madras/mathematics-1/week-2/08-representation-of-a-line-2/representation-of-a-line-2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/08-representation-of-a-line-2/representation-of-a-line-2/</guid><description>
+&lt;/style&gt;</description></item><item><title>Representation of a Line-2</title><link>/iit-madras/mathematics-1/week-2/representation-of-a-line-2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/representation-of-a-line-2/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -23613,7 +23701,9 @@ display: none !important;
 &lt;li&gt;Find the equation of a line in slope-intercept form and intercept form.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4&gt;Exercise Questions&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Hello! On this Wednesday evening here in India, let&amp;rsquo;s work through these questions about the different forms of linear equations.&lt;/p&gt;
+&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Wednesday evening here in India, let&amp;rsquo;s work through these questions about the different forms of linear equations.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Equation from a Point and Slope&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-1-equation-from-a-point-and-slope"&gt;&lt;/span&gt;
 &lt;a href="#question-1-equation-from-a-point-and-slope" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -24416,7 +24506,7 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Straight line fit</title><link>/iit-madras/mathematics-1/week-2/13-straight-line-fit/straight-line-fit/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/13-straight-line-fit/straight-line-fit/</guid><description>
+&lt;/style&gt;</description></item><item><title>Straight line fit</title><link>/iit-madras/mathematics-1/week-2/straight-line-fit/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/straight-line-fit/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -24453,7 +24543,7 @@ display: none !important;
 ● Predict the suitable line among the given set of lines for a given set of points.
 ● Find the best fit line among the given set of lines using the Sum Squared Error Method for a given data.&lt;/p&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;1) If a line fit $ y = x + 1 $ is given for the data as shown in Table AQ-3.1, then compute the Sum Squares Error (SSE).&lt;span class="hx-absolute -hx-mt-20" id="1-if-a-line-fit--y--x--1--is-given-for-the-data-as-shown-in-table-aq-31-then-compute-the-sum-squares-error-sse"&gt;&lt;/span&gt;
 &lt;a href="#1-if-a-line-fit--y--x--1--is-given-for-the-data-as-shown-in-table-aq-31-then-compute-the-sum-squares-error-sse" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
@@ -24849,7 +24939,7 @@ background-color: #ffbb0027;
 &lt;p&gt;image.jpeg&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Section formula</title><link>/iit-madras/mathematics-1/week-2/03-section-formula/section-formula/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/03-section-formula/section-formula/</guid><description>
+&lt;/div&gt;</description></item><item><title>Section formula</title><link>/iit-madras/mathematics-1/week-2/section-formula/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/section-formula/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -24881,7 +24971,11 @@ display: none !important;
 }
 &lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/B5yv8zPrkek" target="_blank" rel="noopener"&gt;https://youtu.be/B5yv8zPrkek&lt;/a&gt;&lt;/p&gt;
-&lt;img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Find the ratio in which a point divides a line segment.&lt;/li&gt;
+&lt;li&gt;Derive the section formula to find the coordinate of a point that divides a line segment.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;1. Finding the Ratio in Which a Point Divides a Line Segment&lt;span class="hx-absolute -hx-mt-20" id="1-finding-the-ratio-in-which-a-point-divides-a-line-segment"&gt;&lt;/span&gt;
 &lt;a href="#1-finding-the-ratio-in-which-a-point-divides-a-line-segment" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Suppose you have points $ A(x_1, y_1) $ and $ B(x_2, y_2) $, and a third point $ P(x, y) $ somewhere between them (or on the extension), and you want to know &lt;strong&gt;the ratio $ m:n $ in which $ P $ divides $ AB $&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;The formula relates the coordinates and the ratio:&lt;/p&gt;
@@ -24933,7 +25027,8 @@ $$&lt;ul&gt;
 &lt;/ul&gt;
 &lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Good evening! On this Wednesday here in India, I&amp;rsquo;d be happy to guide you through these coordinate geometry problems. They primarily use two important formulas: the Midpoint Formula and the Section Formula. Let&amp;rsquo;s get started.&lt;/p&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Good evening! On this Wednesday here in India, I&amp;rsquo;d be happy to guide you through these coordinate geometry problems. They primarily use two important formulas: the Midpoint Formula and the Section Formula. Let&amp;rsquo;s get started.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: The Midpoint Formula&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-1-the-midpoint-formula"&gt;&lt;/span&gt;
 &lt;a href="#question-1-the-midpoint-formula" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -25589,7 +25684,7 @@ background-color: #ffbb0027;
 &lt;p&gt;&lt;a href="https://study.com/skill/learn/finding-a-point-that-partitions-a-segment-in-the-plane-into-a-given-ratio-explanation.html" target="_blank" rel="noopener"&gt;https://study.com/skill/learn/finding-a-point-that-partitions-a-segment-in-the-plane-into-a-given-ratio-explanation.html&lt;/a&gt;&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Area of triangle</title><link>/iit-madras/mathematics-1/week-2/04-area-of-traingle/area-of-triangle/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/04-area-of-traingle/area-of-triangle/</guid><description>
+&lt;/div&gt;</description></item><item><title>Area of triangle</title><link>/iit-madras/mathematics-1/week-2/area-of-triangle/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/area-of-triangle/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -25621,6 +25716,11 @@ display: none !important;
 }
 &lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/x62fodF7ezk" target="_blank" rel="noopener"&gt;https://youtu.be/x62fodF7ezk&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Compute the area of a trapezium.&lt;/li&gt;
+&lt;li&gt;Compute the area of a triangle using coordinates of its vertices.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;1️⃣ Compute the Area of a Trapezium&lt;span class="hx-absolute -hx-mt-20" id="1-compute-the-area-of-a-trapezium"&gt;&lt;/span&gt;
 &lt;a href="#1-compute-the-area-of-a-trapezium" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A &lt;strong&gt;trapezium&lt;/strong&gt; (or trapezoid) is a quadrilateral with at least one pair of parallel sides called the &lt;strong&gt;bases&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
@@ -25674,7 +25774,9 @@ $$&lt;hr&gt;
 &lt;/table&gt;
 &lt;p&gt;These formulas help find areas using lengths or coordinates precisely.&lt;/p&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Good evening! On this Wednesday here in India, I can certainly help you with these questions about calculating the area of triangles in a coordinate system. Let&amp;rsquo;s break down each problem.&lt;/p&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Good evening! On this Wednesday here in India, I can certainly help you with these questions about calculating the area of triangles in a coordinate system. Let&amp;rsquo;s break down each problem.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Area of a Triangle and Collinearity&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-1-area-of-a-triangle-and-collinearity"&gt;&lt;/span&gt;
 &lt;a href="#question-1-area-of-a-triangle-and-collinearity" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -26269,7 +26371,7 @@ border: 2px dotted #ffc107;
 background-color: #ffbb0027;
 }
 }
-&lt;/style&gt;</description></item><item><title>Parallel and perpendicular lines</title><link>/iit-madras/mathematics-1/week-2/06-parallel-and-perpendicular-lines/parallel-and-perpendicular-lines/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/06-parallel-and-perpendicular-lines/parallel-and-perpendicular-lines/</guid><description>
+&lt;/style&gt;</description></item><item><title>Parallel and perpendicular lines</title><link>/iit-madras/mathematics-1/week-2/parallel-and-perpendicular-lines/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/parallel-and-perpendicular-lines/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -26301,6 +26403,12 @@ display: none !important;
 }
 &lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/CXhBGVfmtBg" target="_blank" rel="noopener"&gt;https://youtu.be/CXhBGVfmtBg&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Explain why the slope of a line does not uniquely determine the line.&lt;/li&gt;
+&lt;li&gt;Characterize parallel and perpendicular lines using the slope.&lt;/li&gt;
+&lt;li&gt;Compute the angle between 2 lines using their slopes.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;1️⃣ Why the Slope of a Line Does Not Uniquely Determine the Line&lt;span class="hx-absolute -hx-mt-20" id="1-why-the-slope-of-a-line-does-not-uniquely-determine-the-line"&gt;&lt;/span&gt;
 &lt;a href="#1-why-the-slope-of-a-line-does-not-uniquely-determine-the-line" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;slope&lt;/strong&gt; measures the steepness and direction of a line but does &lt;strong&gt;not&lt;/strong&gt; uniquely determine a line by itself.&lt;/p&gt;
 &lt;ul&gt;
@@ -26357,7 +26465,10 @@ $$&lt;ul&gt;
 &lt;span style="display:none"&gt;&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:6"&gt;&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:7"&gt;&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref"&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id="fnref:8"&gt;&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref"&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
 &lt;h2&gt;Exercise Questions&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Good evening! On this Wednesday here in India, I&amp;rsquo;d be glad to walk you through these questions, which cover the important relationships between slope, inclination, and parallel and perpendicular lines.&lt;/p&gt;
+&lt;a href="#exercise-questions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Good evening! On this Wednesday here in India, I&amp;rsquo;d be glad to walk you through these questions, which cover the important relationships between slope, inclination, and parallel and perpendicular lines.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Slope of a Perpendicular Line&lt;/strong&gt; (from file &lt;code&gt;image_0e1da5.png&lt;/code&gt;)&lt;span class="hx-absolute -hx-mt-20" id="question-1-slope-of-a-perpendicular-line-from-file-image_0e1da5png"&gt;&lt;/span&gt;
 &lt;a href="#question-1-slope-of-a-perpendicular-line-from-file-image_0e1da5png" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -27505,7 +27616,7 @@ background-color: #ffbb0027;
 &lt;p&gt;&lt;a href="https://www.slideshare.net/slideshow/parallel-and-perpendicular-slopes-lines/27811834" target="_blank" rel="noopener"&gt;https://www.slideshare.net/slideshow/parallel-and-perpendicular-slopes-lines/27811834&lt;/a&gt;&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Slope of a line</title><link>/iit-madras/mathematics-1/week-2/05-slope-of-a-line/slope-of-a-line/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/05-slope-of-a-line/slope-of-a-line/</guid><description>
+&lt;/div&gt;</description></item><item><title>Slope of a line</title><link>/iit-madras/mathematics-1/week-2/slope-of-a-line/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/slope-of-a-line/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
 style="
@@ -27537,6 +27648,11 @@ display: none !important;
 }
 &lt;/style&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/V-b3BL8DAvU" target="_blank" rel="noopener"&gt;https://youtu.be/V-b3BL8DAvU&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Outcomes&lt;span class="hx-absolute -hx-mt-20" id="learning-outcomes"&gt;&lt;/span&gt;
+&lt;a href="#learning-outcomes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Understand the concept of slope of a line.&lt;/li&gt;
+&lt;li&gt;Determine the slope of the line.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;1️⃣ Understand the Concept of Slope of a Line&lt;span class="hx-absolute -hx-mt-20" id="1-understand-the-concept-of-slope-of-a-line"&gt;&lt;/span&gt;
 &lt;a href="#1-understand-the-concept-of-slope-of-a-line" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;slope&lt;/strong&gt; of a line measures its &lt;strong&gt;steepness&lt;/strong&gt; and &lt;strong&gt;direction&lt;/strong&gt; in the coordinate plane. It is the ratio of the vertical change (&amp;ldquo;rise&amp;rdquo;) to the horizontal change (&amp;ldquo;run&amp;rdquo;) between two points on the line.&lt;/p&gt;
 &lt;p&gt;Mathematically, if two points on the line are $ (x_1, y_1) $ and $ (x_2, y_2) $, the slope $ m $ is:&lt;/p&gt;
@@ -27579,7 +27695,9 @@ $$&lt;p&gt;The slope is 2, indicating the line rises twice as fast vertically fo
 &lt;/ul&gt;
 &lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
 &lt;h2&gt;Exercise Questions 🤯&lt;span class="hx-absolute -hx-mt-20" id="exercise-questions-"&gt;&lt;/span&gt;
-&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hello! On this Wednesday evening here in India, I can certainly help you master the concept of a line&amp;rsquo;s slope with detailed explanations for each of these questions.&lt;/p&gt;
+&lt;a href="#exercise-questions-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hello! On this Wednesday evening here in India, I can certainly help you master the concept of a line&amp;rsquo;s slope with detailed explanations for each of these questions.&lt;/p&gt;
 &lt;div class="border-card border-card-basic"&gt;
 &lt;div class="border-card-content"&gt;&lt;h3&gt;&lt;strong&gt;Question 1: Calculating the Slope of a Line&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="question-1-calculating-the-slope-of-a-line"&gt;&lt;/span&gt;
 &lt;a href="#question-1-calculating-the-slope-of-a-line" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;The Question:&lt;/strong&gt;
@@ -28364,7 +28482,7 @@ background-color: #ffbb0027;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=0OMitbtWLpk" target="_blank" rel="noopener"&gt;https://www.youtube.com/watch?v=0OMitbtWLpk&lt;/a&gt;&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Graded Assignment 2</title><link>/iit-madras/mathematics-1/week-2/15-graded-assignment-2/graded-assignment-2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/15-graded-assignment-2/graded-assignment-2/</guid><description>
+&lt;/div&gt;</description></item><item><title>Graded Assignment 2</title><link>/iit-madras/mathematics-1/week-2/graded-assignment-2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-2/graded-assignment-2/</guid><description>
 &lt;p&gt;&lt;a href="https://drive.google.com/file/d/1VQs09wCwGwDD4N2pJxdP2LAY1ruD5x6n/view" target="_blank" rel="noopener"&gt;Graded Assignment - 2 solution&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quadratic functions</title><link>/iit-madras/mathematics-1/week-3/quadratic-functions/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/mathematics-1/week-3/quadratic-functions/</guid><description>
 &lt;p&gt;A well-defined collection of distinct objects called elements or members.&lt;/p&gt;
 &lt;div
