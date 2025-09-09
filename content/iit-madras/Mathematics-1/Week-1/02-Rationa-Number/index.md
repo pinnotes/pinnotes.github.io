@@ -13,6 +13,12 @@ Here is a detailed, emoji-enhanced guide to rational numbers, ordering, GCD, and
 
 {{< youtube jHBIJ50DhJQ >}}
 
+#### Learning Outcomes:
+
+1. Define rational numbers.
+2. Order and compare rational numbers.
+3. Find the greatest common divisor of two integers.
+4. Understand why rational numbers are dense on the number line.
 
 ## 🧮 Define Rational Numbers
 
@@ -111,6 +117,7 @@ Let these visual tools and emojis help reinforce your understanding of rational 
 
 ## Exercise Questions 🤯
 
+![alt text](image.png)
 
 {{< border >}}
 

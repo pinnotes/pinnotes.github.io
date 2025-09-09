@@ -93,6 +93,8 @@ Visual: Factor trees are diagrams showing branches, each end-point is a prime nu
 
 ## Exercise Questions 🤯
 
+![alt text](image.png)
+![alt text](image-1.png)
 
 {{< border >}}
 
