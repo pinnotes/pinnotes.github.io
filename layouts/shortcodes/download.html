@@ -1,0 +1,257 @@
+{{ $url := .Get "url" | default "#" }} {{ $title := .Get "title" | default
+"Download File" }} {{ $time := .Get "time" | default 5 }} {{ $modalId := printf
+"dl-modal-%d" (math.Counter) }}
+
+<button class="dl-btn" data-modal-target="#{{ $modalId }}">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    fill="currentColor"
+    viewBox="0 0 16 16"
+  >
+    <path
+      d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
+    />
+    <path
+      d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
+    />
+  </svg>
+  {{ $title }}
+</button>
+
+<div
+  class="dl-modal-overlay"
+  id="{{ $modalId }}"
+  data-url="{{ $url }}"
+  data-time="{{ $time }}"
+>
+  <div class="dl-modal-content">
+    {{/*  {{ partial "google/displayAd.html" . }}  */}}
+        {{/*  {{ partial "google/blog-in-feed-ad.html" . }}  */}}
+    <h2 class="dl-modal-title">{{ $title }}</h2>
+    <p>Your download will begin shortly...</p>
+    <div class="dl-timer-wrapper">
+      <svg class="dl-timer-svg" width="120" height="120" viewBox="0 0 120 120">
+        <circle class="dl-timer-bg" cx="60" cy="60" r="54" />
+        <circle class="dl-timer-progress" cx="60" cy="60" r="54" />
+      </svg>
+      <span id="dl-timer-countdown" class="dl-timer-text">{{ $time }}</span>
+    </div>
+    <button class="dl-modal-close" aria-label="Close modal">&times;</button>
+  </div>
+</div>
+
+<style>
+  /* assets/css/download-button.css */
+
+  /* --- Variables for easy customization --- */
+  :root {
+    --dl-primary-color: #007bff;
+    --dl-primary-hover: #0056b3;
+    --dl-light-gray: #f0f0f0;
+    --dl-dark-gray: #4a4a4a;
+    --dl-modal-bg: #ffffff;
+    --dl-overlay-bg: rgba(0, 0, 0, 0.65);
+  }
+
+  /* --- The Download Button --- */
+  .dl-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--dl-primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+  }
+
+  .dl-btn:hover {
+    background-color: var(--dl-primary-hover);
+    transform: translateY(-2px);
+  }
+
+  /* --- The Modal Overlay --- */
+  .dl-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dl-overlay-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .dl-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* --- The Modal Content Box --- */
+  .dl-modal-content {
+    background-color: var(--dl-modal-bg);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+  }
+
+  .dl-modal-overlay.active .dl-modal-content {
+    transform: scale(1);
+  }
+
+  .dl-modal-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--dl-dark-gray);
+  }
+
+  .dl-modal-content p {
+    color: #6c757d;
+    margin-bottom: 25px;
+  }
+
+  /* --- The Circular Timer --- */
+  .dl-timer-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .dl-timer-svg {
+    transform: rotate(-90deg); /* Start animation from the top */
+  }
+
+  .dl-timer-bg {
+    fill: none;
+    stroke: var(--dl-light-gray);
+    stroke-width: 12;
+  }
+
+  .dl-timer-progress {
+    fill: none;
+    stroke: var(--dl-primary-color);
+    stroke-width: 12;
+    stroke-linecap: round;
+    stroke-dasharray: 339.29; /* 2 * pi * 54 */
+    stroke-dashoffset: 339.29;
+    transition: stroke-dashoffset 1s linear;
+  }
+
+  .dl-timer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--dl-primary-color);
+  }
+
+  /* --- Close Button --- */
+  .dl-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+
+  .dl-modal-close:hover {
+    color: #333;
+  }
+</style>
+
+<script>
+  // assets/js/download-button.js
+  document.addEventListener("DOMContentLoaded", () => {
+    const openModalButtons = document.querySelectorAll("[data-modal-target]");
+    let timerInterval = null;
+
+    const startTimer = (duration, display, progressCircle, url) => {
+      let timer = duration;
+      const circumference = progressCircle.r.baseVal.value * 2 * Math.PI;
+      progressCircle.style.strokeDasharray = circumference;
+
+      const updateTimer = () => {
+        display.textContent = timer;
+        const offset = circumference - (timer / duration) * circumference;
+        progressCircle.style.strokeDashoffset = offset;
+
+        if (--timer < 0) {
+          clearInterval(timerInterval);
+          window.location.href = url;
+        }
+      };
+
+      // Call immediately to show the initial state
+      updateTimer();
+      timerInterval = setInterval(updateTimer, 1000);
+    };
+
+    const openModal = (modal) => {
+      if (modal == null) return;
+      modal.classList.add("active");
+      const url = modal.dataset.url;
+      const time = parseInt(modal.dataset.time, 10);
+      const countdownDisplay = modal.querySelector(".dl-timer-text");
+      const progressCircle = modal.querySelector(".dl-timer-progress");
+
+      // Reset any previous timer
+      clearInterval(timerInterval);
+      startTimer(time, countdownDisplay, progressCircle, url);
+    };
+
+    const closeModal = (modal) => {
+      if (modal == null) return;
+      modal.classList.remove("active");
+      clearInterval(timerInterval); // Stop timer if modal is closed manually
+    };
+
+    openModalButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const modal = document.querySelector(button.dataset.modalTarget);
+        openModal(modal);
+      });
+    });
+
+    document.querySelectorAll(".dl-modal-overlay").forEach((overlay) => {
+      overlay.addEventListener("click", (e) => {
+        // Close only if the overlay itself is clicked, not its content
+        if (e.target === overlay) {
+          closeModal(overlay);
+        }
+      });
+    });
+
+    document.querySelectorAll(".dl-modal-close").forEach((button) => {
+      button.addEventListener("click", () => {
+        const modal = button.closest(".dl-modal-overlay");
+        closeModal(modal);
+      });
+    });
+  });
+</script>

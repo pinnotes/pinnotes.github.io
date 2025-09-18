@@ -1,0 +1,122 @@
+{{ define "main" }}
+<div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+  {{/*  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true
+  "displayPlaceholder" true) }}  */}}
+  <article
+    class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]"
+  >
+    <main class="hx-w-full hx-min-w-0 hx-px-6 hx-pt-4 hx-md-px-12">
+      {{/* hx-max-w-6xl */}} {{/* {{ partial "breadcrumb.html" . }} */}}
+      <div class="content">
+        <span class="hx-mb-8"></span>
+        {{ if .Title }}
+        <h1>{{ .Title }}</h1>
+        {{ end }} {{/* {{ .Content }} */}}
+      </div>
+
+      <div class="highlight-movies-section">
+        {{ partial "hero_section.html" . }}
+      </div>
+
+      <div id="all-movies-container">
+        <section class="game-category-section">
+          <h2 class="category-title">All Games</h2>
+          <div class="game-grid" id="all-movies-grid">
+            {{ range where .Site.RegularPages "Type" "movies" }} {{ partial
+            "game_card.html" . }} {{ end }}
+          </div>
+        </section>
+      </div>
+      {{ partial "components/last-updated.html" . }} {{ partial
+      "components/pager.html" . }} {{ partial "components/comments.html" . }}
+    </main>
+  </article>
+</div>
+
+<style>
+  :root {
+    /* --primary-bg: #f0f4f9; */
+    --primary-bg: #ffffff;
+    --secondary-bg: #ffffff;
+    --header-bg: #8c82ff;
+    --header-gradient: linear-gradient(135deg, #7451eb 0%, #3a75e3 100%);
+    --nav-bg: #e6e9f0;
+    --nav-btn-bg: #ffffff;
+    --nav-btn-hover-bg: #d9dce1;
+    --nav-btn-active-bg: #f9f9f9;
+    --text-color: #2c2f35;
+    --light-text-color: #5c6270;
+    --border-color: #e0e0e0;
+    --search-bg: #e6e9f0;
+    --search-placeholder: #5c6270;
+    --search-icon: #5c6270;
+    --card-bg: #ffffff;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --card-hover-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    --border-radius-sm: 8px;
+    --border-radius-md: 16px;
+    --border-radius-lg: 24px;
+  }
+
+  /* Styles for the highlight movies section */
+  .highlight-movies-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+
+  .highlight-game {
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: var(--card-shadow);
+  }
+
+  .highlight-game img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .game-category-section {
+    margin-bottom: 32px;
+    padding: 0;
+    padding-top: 0;
+  }
+
+  .category-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .game-grid {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .category-title {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .category-title {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+
+{{ end }}

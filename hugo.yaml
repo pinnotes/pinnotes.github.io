@@ -98,6 +98,9 @@ menu:
     - name: Blog
       pageRef: /blog
       weight: 7
+    - name: Movies
+      pageRef: /movies
+      weight: 8
     - name: Search
       weight: 10
       params:
@@ -122,6 +125,10 @@ sidebar:
        name: "IIT Madras"
        url: "/iit-madras"
        weight: 3
+     - identifier: movies
+       name: "Free Movies"
+       url: "/movies"
+       weight: 30
     #  - identifier: examples
       #  name: "Examples"
       #  url: "/examples"

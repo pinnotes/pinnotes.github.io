@@ -731,6 +731,24 @@ mark {
   font-variation-settings: "wdth" 100;
 }
 
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 .blog-card-tag:is(html[class~="dark"] *) {
   /* background: linear-gradient(to right, #121fcf 0%, #cf1512 100%); */
 
