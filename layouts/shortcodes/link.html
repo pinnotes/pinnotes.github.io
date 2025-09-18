@@ -30,7 +30,7 @@ ID for each modal to avoid conflicts */}} {{ $modalId := printf "lb-modal-%d"
   data-time="{{ $time }}"
 >
   <div class="lb-modal-content">
-    {{ partial "google/blog-in-feed-ad.html" . }}
+    {{/*  {{ partial "google/blog-in-feed-ad.html" . }}  */}}
     <h2 class="lb-modal-title">{{ $title }}</h2>
     <p class="lb-timer-message">Please wait a moment before proceeding...</p>
 
