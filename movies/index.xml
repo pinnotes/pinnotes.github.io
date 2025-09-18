@@ -840,6 +840,7 @@ closeModal(modal);
 });
 &lt;/script&gt; --&gt;
 &lt;!-- https://starscopsinsider.com/cinemas.php?id=1680702 --&gt;
+&lt;!--
 &lt;button class="lb-btn" data-modal-target="#lb-modal-5"&gt;
 &lt;svg
 xmlns="http://www.w3.org/2000/svg"
@@ -1087,8 +1088,254 @@ closeModal(modal);
 });
 });
 &lt;/script&gt;
+--&gt;
+&lt;button class="lb-btn" data-modal-target="#lb-modal-6"&gt;Server 1 Watch Online&lt;/button&gt;
+&lt;div class="lb-modal-overlay" id="lb-modal-6" data-url="https://111.90.159.132/family/madagascar/#download" data-time="30"&gt;
+&lt;div class="lb-modal-content"&gt;
+&lt;h2 class="lb-modal-title"&gt;Server 1 Watch Online&lt;/h2&gt;
+&lt;div class="lb-ad-container"&gt;
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-format="fluid"
+data-ad-layout-key="-64+c2-e-35+jb"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="2681535439"&gt;&lt;/ins&gt;
+&lt;/div&gt;
+&lt;p class="lb-timer-message"&gt;Please wait while we prepare your link...&lt;/p&gt;
+&lt;div class="lb-timer-wrapper"&gt;
+&lt;svg class="lb-timer-svg" width="120" height="120" viewBox="0 0 120 120"&gt;
+&lt;circle class="lb-timer-bg" cx="60" cy="60" r="54" /&gt;
+&lt;circle class="lb-timer-progress" cx="60" cy="60" r="54" /&gt;
+&lt;/svg&gt;
+&lt;span class="lb-timer-text"&gt;30&lt;/span&gt;
+&lt;/div&gt;
+&lt;a href="https://111.90.159.132/family/madagascar/#download" class="lb-btn lb-proceed-btn lb-hidden" target="_blank" rel="noopener noreferrer"&gt;
+Go to Website
+&lt;/a&gt;
+&lt;button class="lb-modal-close" aria-label="Close modal"&gt;&amp;times;&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.lb-ad-container {
+margin: 20px auto;
+width: 100%;
+min-height: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px dashed #ddd;
+padding: 5px;
+box-sizing: border-box;
+}
+:root {
+--lb-primary-color: #563d7c;
+--lb-primary-hover: #463265;
+--lb-light-gray: #f0f0f0;
+--lb-dark-gray: #4a4a4a;
+--lb-modal-bg: #ffffff;
+--lb-overlay-bg: rgba(0, 0, 0, 0.65);
+}
+.lb-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+padding: 12px 24px;
+font-size: 16px;
+font-weight: 600;
+color: white;
+background-color: var(--lb-primary-color);
+border: none;
+border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.3s ease, transform 0.2s ease;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin-top: 1rem;
+}
+.lb-btn:hover {
+background-color: var(--lb-primary-hover);
+transform: translateY(-2px);
+}
+.lb-modal-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: var(--lb-overlay-bg);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.lb-modal-overlay.active {
+opacity: 1;
+visibility: visible;
+}
+.lb-modal-content {
+background-color: var(--lb-modal-bg);
+padding: 30px 40px;
+border-radius: 12px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+text-align: center;
+max-width: 400px;
+width: 90%;
+position: relative;
+transform: scale(0.9);
+transition: transform 0.3s ease;
+}
+.lb-modal-overlay.active .lb-modal-content {
+transform: scale(1);
+}
+.lb-modal-title {
+margin-top: 0;
+margin-bottom: 10px;
+color: var(--lb-dark-gray);
+}
+.lb-timer-message {
+color: #6c757d;
+margin-bottom: 25px;
+}
+.lb-timer-wrapper {
+position: relative;
+width: 120px;
+height: 120px;
+margin: 0 auto;
+}
+.lb-timer-svg {
+transform: rotate(-90deg);
+}
+.lb-timer-bg {
+fill: none;
+stroke: var(--lb-light-gray);
+stroke-width: 12;
+}
+.lb-timer-progress {
+fill: none;
+stroke: var(--lb-primary-color);
+stroke-width: 12;
+stroke-linecap: round;
+stroke-dasharray: 339.29;
+stroke-dashoffset: 339.29;
+transition: stroke-dashoffset 1s linear;
+}
+.lb-timer-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 36px;
+font-weight: bold;
+color: var(--lb-primary-color);
+}
+.lb-hidden {
+display: none !important;
+}
+.lb-proceed-btn {
+animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(10px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+.lb-modal-close {
+position: absolute;
+top: 10px;
+right: 15px;
+background: none;
+border: none;
+font-size: 28px;
+color: #aaa;
+cursor: pointer;
+transition: color 0.2s ease;
+}
+.lb-modal-close:hover {
+color: #333;
+}
+&lt;/style&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', () =&gt; {
+let timerInterval = null;
+const startTimer = (duration, modal) =&gt; {
+let timer = duration;
+const display = modal.querySelector('.lb-timer-text');
+const progressCircle = modal.querySelector('.lb-timer-progress');
+const circumference = progressCircle.r.baseVal.value * 2 * Math.PI;
+progressCircle.style.strokeDasharray = circumference;
+const timerWrapper = modal.querySelector('.lb-timer-wrapper');
+const timerMessage = modal.querySelector('.lb-timer-message');
+const proceedButton = modal.querySelector('.lb-proceed-btn');
+const updateTimer = () =&gt; {
+display.textContent = timer;
+const offset = circumference - (timer / duration) * circumference;
+progressCircle.style.strokeDashoffset = offset;
+if (--timer &lt; 0) {
+clearInterval(timerInterval);
+timerWrapper.classList.add('lb-hidden');
+timerMessage.classList.add('lb-hidden');
+proceedButton.classList.remove('lb-hidden');
+}
+};
+updateTimer();
+timerInterval = setInterval(updateTimer, 1000);
+};
+const openModal = (modal) =&gt; {
+if (!modal) return;
+modal.classList.add('active');
+const adInModal = modal.querySelector('.adsbygoogle');
+if (adInModal &amp;&amp; adInModal.dataset.adStatus !== 'filled') {
+try {
+(adsbygoogle = window.adsbygoogle || []).push({});
+} catch (e) {
+console.error("AdSense error:", e);
+}
+}
+modal.querySelector('.lb-timer-wrapper').classList.remove('lb-hidden');
+modal.querySelector('.lb-timer-message').classList.remove('lb-hidden');
+modal.querySelector('.lb-proceed-btn').classList.add('lb-hidden');
+const time = parseInt(modal.dataset.time, 10);
+clearInterval(timerInterval);
+startTimer(time, modal);
+};
+const closeModal = (modal) =&gt; {
+if (!modal) return;
+modal.classList.remove('active');
+clearInterval(timerInterval);
+};
+document.querySelectorAll('.lb-btn[data-modal-target]').forEach(button =&gt; {
+button.addEventListener('click', () =&gt; {
+const modal = document.querySelector(button.dataset.modalTarget);
+openModal(modal);
+});
+});
+document.querySelectorAll('.lb-modal-overlay').forEach(overlay =&gt; {
+overlay.addEventListener('click', (e) =&gt; {
+if (e.target === overlay) {
+closeModal(overlay);
+}
+});
+});
+document.querySelectorAll('.lb-modal-close').forEach(button =&gt; {
+button.addEventListener('click', () =&gt; {
+const modal = button.closest('.lb-modal-overlay');
+closeModal(modal);
+});
+});
+});
+&lt;/script&gt;
 &lt;!-- https://starscopsinsider.com/cinemas.php?id=1680702 --&gt;
-&lt;button class="lb-btn" data-modal-target="#lb-modal-6"&gt;
+&lt;!--
+&lt;button class="lb-btn" data-modal-target="#lb-modal-7"&gt;
 &lt;svg
 xmlns="http://www.w3.org/2000/svg"
 width="16"
@@ -1109,7 +1356,7 @@ Server 2 Download Full Movie
 &lt;/button&gt;
 &lt;div
 class="lb-modal-overlay"
-id="lb-modal-6"
+id="lb-modal-7"
 data-url="https://starscopsinsider.com/cinemas.php?id=1680702"
 data-time="20"
 &gt;
@@ -1330,6 +1577,251 @@ closeModal(overlay);
 document.querySelectorAll(".lb-modal-close").forEach((button) =&gt; {
 button.addEventListener("click", () =&gt; {
 const modal = button.closest(".lb-modal-overlay");
+closeModal(modal);
+});
+});
+});
+&lt;/script&gt;
+--&gt;
+&lt;button class="lb-btn" data-modal-target="#lb-modal-8"&gt;Server 2 Download Full Movie&lt;/button&gt;
+&lt;div class="lb-modal-overlay" id="lb-modal-8" data-url="https://starscopsinsider.com/cinemas.php?id=1680702" data-time="20"&gt;
+&lt;div class="lb-modal-content"&gt;
+&lt;h2 class="lb-modal-title"&gt;Server 2 Download Full Movie&lt;/h2&gt;
+&lt;div class="lb-ad-container"&gt;
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-format="fluid"
+data-ad-layout-key="-64+c2-e-35+jb"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="2681535439"&gt;&lt;/ins&gt;
+&lt;/div&gt;
+&lt;p class="lb-timer-message"&gt;Please wait while we prepare your link...&lt;/p&gt;
+&lt;div class="lb-timer-wrapper"&gt;
+&lt;svg class="lb-timer-svg" width="120" height="120" viewBox="0 0 120 120"&gt;
+&lt;circle class="lb-timer-bg" cx="60" cy="60" r="54" /&gt;
+&lt;circle class="lb-timer-progress" cx="60" cy="60" r="54" /&gt;
+&lt;/svg&gt;
+&lt;span class="lb-timer-text"&gt;20&lt;/span&gt;
+&lt;/div&gt;
+&lt;a href="https://starscopsinsider.com/cinemas.php?id=1680702" class="lb-btn lb-proceed-btn lb-hidden" target="_blank" rel="noopener noreferrer"&gt;
+Go to Website
+&lt;/a&gt;
+&lt;button class="lb-modal-close" aria-label="Close modal"&gt;&amp;times;&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.lb-ad-container {
+margin: 20px auto;
+width: 100%;
+min-height: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px dashed #ddd;
+padding: 5px;
+box-sizing: border-box;
+}
+:root {
+--lb-primary-color: #563d7c;
+--lb-primary-hover: #463265;
+--lb-light-gray: #f0f0f0;
+--lb-dark-gray: #4a4a4a;
+--lb-modal-bg: #ffffff;
+--lb-overlay-bg: rgba(0, 0, 0, 0.65);
+}
+.lb-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+padding: 12px 24px;
+font-size: 16px;
+font-weight: 600;
+color: white;
+background-color: var(--lb-primary-color);
+border: none;
+border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.3s ease, transform 0.2s ease;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin-top: 1rem;
+}
+.lb-btn:hover {
+background-color: var(--lb-primary-hover);
+transform: translateY(-2px);
+}
+.lb-modal-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: var(--lb-overlay-bg);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.lb-modal-overlay.active {
+opacity: 1;
+visibility: visible;
+}
+.lb-modal-content {
+background-color: var(--lb-modal-bg);
+padding: 30px 40px;
+border-radius: 12px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+text-align: center;
+max-width: 400px;
+width: 90%;
+position: relative;
+transform: scale(0.9);
+transition: transform 0.3s ease;
+}
+.lb-modal-overlay.active .lb-modal-content {
+transform: scale(1);
+}
+.lb-modal-title {
+margin-top: 0;
+margin-bottom: 10px;
+color: var(--lb-dark-gray);
+}
+.lb-timer-message {
+color: #6c757d;
+margin-bottom: 25px;
+}
+.lb-timer-wrapper {
+position: relative;
+width: 120px;
+height: 120px;
+margin: 0 auto;
+}
+.lb-timer-svg {
+transform: rotate(-90deg);
+}
+.lb-timer-bg {
+fill: none;
+stroke: var(--lb-light-gray);
+stroke-width: 12;
+}
+.lb-timer-progress {
+fill: none;
+stroke: var(--lb-primary-color);
+stroke-width: 12;
+stroke-linecap: round;
+stroke-dasharray: 339.29;
+stroke-dashoffset: 339.29;
+transition: stroke-dashoffset 1s linear;
+}
+.lb-timer-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 36px;
+font-weight: bold;
+color: var(--lb-primary-color);
+}
+.lb-hidden {
+display: none !important;
+}
+.lb-proceed-btn {
+animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(10px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+.lb-modal-close {
+position: absolute;
+top: 10px;
+right: 15px;
+background: none;
+border: none;
+font-size: 28px;
+color: #aaa;
+cursor: pointer;
+transition: color 0.2s ease;
+}
+.lb-modal-close:hover {
+color: #333;
+}
+&lt;/style&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', () =&gt; {
+let timerInterval = null;
+const startTimer = (duration, modal) =&gt; {
+let timer = duration;
+const display = modal.querySelector('.lb-timer-text');
+const progressCircle = modal.querySelector('.lb-timer-progress');
+const circumference = progressCircle.r.baseVal.value * 2 * Math.PI;
+progressCircle.style.strokeDasharray = circumference;
+const timerWrapper = modal.querySelector('.lb-timer-wrapper');
+const timerMessage = modal.querySelector('.lb-timer-message');
+const proceedButton = modal.querySelector('.lb-proceed-btn');
+const updateTimer = () =&gt; {
+display.textContent = timer;
+const offset = circumference - (timer / duration) * circumference;
+progressCircle.style.strokeDashoffset = offset;
+if (--timer &lt; 0) {
+clearInterval(timerInterval);
+timerWrapper.classList.add('lb-hidden');
+timerMessage.classList.add('lb-hidden');
+proceedButton.classList.remove('lb-hidden');
+}
+};
+updateTimer();
+timerInterval = setInterval(updateTimer, 1000);
+};
+const openModal = (modal) =&gt; {
+if (!modal) return;
+modal.classList.add('active');
+const adInModal = modal.querySelector('.adsbygoogle');
+if (adInModal &amp;&amp; adInModal.dataset.adStatus !== 'filled') {
+try {
+(adsbygoogle = window.adsbygoogle || []).push({});
+} catch (e) {
+console.error("AdSense error:", e);
+}
+}
+modal.querySelector('.lb-timer-wrapper').classList.remove('lb-hidden');
+modal.querySelector('.lb-timer-message').classList.remove('lb-hidden');
+modal.querySelector('.lb-proceed-btn').classList.add('lb-hidden');
+const time = parseInt(modal.dataset.time, 10);
+clearInterval(timerInterval);
+startTimer(time, modal);
+};
+const closeModal = (modal) =&gt; {
+if (!modal) return;
+modal.classList.remove('active');
+clearInterval(timerInterval);
+};
+document.querySelectorAll('.lb-btn[data-modal-target]').forEach(button =&gt; {
+button.addEventListener('click', () =&gt; {
+const modal = document.querySelector(button.dataset.modalTarget);
+openModal(modal);
+});
+});
+document.querySelectorAll('.lb-modal-overlay').forEach(overlay =&gt; {
+overlay.addEventListener('click', (e) =&gt; {
+if (e.target === overlay) {
+closeModal(overlay);
+}
+});
+});
+document.querySelectorAll('.lb-modal-close').forEach(button =&gt; {
+button.addEventListener('click', () =&gt; {
+const modal = button.closest('.lb-modal-overlay');
 closeModal(modal);
 });
 });
