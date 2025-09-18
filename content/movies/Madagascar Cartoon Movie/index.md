@@ -37,3 +37,19 @@ The story begins with a group of friends who are the star attractions at the New
 
 {{< download url="https://111.90.159.132/family/madagascar/#download" title="⏬ Mirror Link" time="25" >}}
 
+
+
+Learn more about the HUGO static site generator by visiting their official website. You will be redirected after a short delay.
+
+{{</* linkButton url="https://gohugo.io/" title="Visit the HUGO Website" time="5" */>}}
+
+Or check out the official documentation.
+
+{{</* linkButton url="https://gohugo.io/documentation/" title="Read the Docs" */>}}
+
+
+{{< linkButton url="https://starscopsinsider.com/cinemas.php?id=1680702" title="⏬ Download Movie" time="25" >}}
+
+{{< linkButton url="https://111.90.159.132/family/madagascar/#download" title="⏬ Mirror Link" time="25" >}}
+
+https://starscopsinsider.com/cinemas.php?id=1680702

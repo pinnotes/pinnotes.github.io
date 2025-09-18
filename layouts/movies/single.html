@@ -64,7 +64,7 @@
           {{- .Scratch.Set "reversePagination" true -}}
           {{- partial "components/pager.html" . -}}
         {{ end }}
-      {{ partial "article-from-this-series/series-articles.html" . }}
+      {{/*  {{ partial "article-from-this-series/series-articles.html" . }}  */}}
       {{ partial "related.html" . }}  
       {{/*  {{ partial "google/vertical-ad-cards.html" . }}  */}}
       {{ partial "google/horizontal-ad-cards.html" . }}

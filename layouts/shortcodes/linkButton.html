@@ -1,0 +1,244 @@
+{{ $url := .Get "url" | default "#" }}
+{{ $title := .Get "title" | default "Visit Website" }}
+{{ $time := .Get "time" | default 5 }}
+{{/* Generate a unique ID for each modal on the page */}}
+{{ $modalId := printf "lb-modal-%d" (math.Counter) }}
+
+<button class="lb-btn" data-modal-target="#{{ $modalId }}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5-.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+        <path fill-rule="evenodd" d="M16 1.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 2.707V6.5a.5.5 0 0 0 1 0v-5z"/>
+    </svg>
+    {{ $title }}
+</button>
+
+<div class="lb-modal-overlay" id="{{ $modalId }}" data-url="{{ $url }}" data-time="{{ $time }}">
+    <div class="lb-modal-content">
+        <h2 class="lb-modal-title">{{ $title }}</h2>
+        <p>Redirecting you to the destination...</p>
+        <div class="lb-timer-wrapper">
+            <svg class="lb-timer-svg" width="120" height="120" viewBox="0 0 120 120">
+                <circle class="lb-timer-bg" cx="60" cy="60" r="54" />
+                <circle class="lb-timer-progress" cx="60" cy="60" r="54" />
+            </svg>
+            <span class="lb-timer-text">{{ $time }}</span>
+        </div>
+        <button class="lb-modal-close" aria-label="Close modal">&times;</button>
+    </div>
+</div>
+
+
+<style>
+    /* assets/css/link-button.css */
+
+/* --- Variables for easy customization --- */
+:root {
+    --lb-primary-color: #28a745; /* Green for go/link */
+    --lb-primary-hover: #218838;
+    --lb-light-gray: #f0f0f0;
+    --lb-dark-gray: #4a4a4a;
+    --lb-modal-bg: #ffffff;
+    --lb-overlay-bg: rgba(0, 0, 0, 0.65);
+}
+
+/* --- The Link Button --- */
+.lb-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--lb-primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.lb-btn:hover {
+    background-color: var(--lb-primary-hover);
+    transform: translateY(-2px);
+}
+
+/* --- The Modal --- */
+.lb-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--lb-overlay-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.lb-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lb-modal-content {
+    background-color: var(--lb-modal-bg);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+.lb-modal-overlay.active .lb-modal-content {
+    transform: scale(1);
+}
+
+.lb-modal-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--lb-dark-gray);
+}
+
+.lb-modal-content p {
+    color: #6c757d;
+    margin-bottom: 25px;
+}
+
+/* --- The Circular Timer --- */
+.lb-timer-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.lb-timer-svg {
+    transform: rotate(-90deg); /* Start animation from the top */
+}
+
+.lb-timer-bg {
+    fill: none;
+    stroke: var(--lb-light-gray);
+    stroke-width: 12;
+}
+
+.lb-timer-progress {
+    fill: none;
+    stroke: var(--lb-primary-color);
+    stroke-width: 12;
+    stroke-linecap: round;
+    /* Circumference = 2 * pi * r = 2 * 3.14159 * 54 = 339.29 */
+    stroke-dasharray: 339.29; 
+    stroke-dashoffset: 339.29;
+    transition: stroke-dashoffset 1s linear;
+}
+
+.lb-timer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--lb-primary-color);
+}
+
+/* --- Close Button --- */
+.lb-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.lb-modal-close:hover {
+    color: #333;
+}
+</style>
+
+
+<script>
+    // assets/js/link-button.js
+document.addEventListener('DOMContentLoaded', () => {
+    let timerInterval = null;
+
+    const startTimer = (duration, display, progressCircle, url) => {
+        let timer = duration;
+        const circumference = progressCircle.r.baseVal.value * 2 * Math.PI;
+        progressCircle.style.strokeDasharray = circumference;
+
+        const updateTimer = () => {
+            display.textContent = timer;
+            // Calculate the stroke offset based on the time remaining
+            const offset = circumference - (timer / duration) * circumference;
+            progressCircle.style.strokeDashoffset = offset;
+
+            if (--timer < 0) {
+                clearInterval(timerInterval);
+                window.location.href = url; // Redirect the user
+            }
+        };
+
+        updateTimer(); // Run once immediately
+        timerInterval = setInterval(updateTimer, 1000);
+    };
+
+    const openModal = (modal) => {
+        if (!modal) return;
+        modal.classList.add('active');
+        const url = modal.dataset.url;
+        const time = parseInt(modal.dataset.time, 10);
+        const countdownDisplay = modal.querySelector('.lb-timer-text');
+        const progressCircle = modal.querySelector('.lb-timer-progress');
+
+        clearInterval(timerInterval); // Clear any existing timers
+        startTimer(time, countdownDisplay, progressCircle, url);
+    };
+
+    const closeModal = (modal) => {
+        if (!modal) return;
+        modal.classList.remove('active');
+        clearInterval(timerInterval); // Stop timer if user closes manually
+    };
+    
+    // Event listener for all link buttons
+    document.querySelectorAll('.lb-btn[data-modal-target]').forEach(button => {
+        button.addEventListener('click', () => {
+            const modal = document.querySelector(button.dataset.modalTarget);
+            openModal(modal);
+        });
+    });
+
+    // Event listener to close modal by clicking overlay
+    document.querySelectorAll('.lb-modal-overlay').forEach(overlay => {
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) { // Ensure click is on overlay, not content
+                closeModal(overlay);
+            }
+        });
+    });
+    
+    // Event listener for the 'X' close buttons
+    document.querySelectorAll('.lb-modal-close').forEach(button => {
+        button.addEventListener('click', () => {
+            const modal = button.closest('.lb-modal-overlay');
+            closeModal(modal);
+        });
+    });
+});
+</script>
