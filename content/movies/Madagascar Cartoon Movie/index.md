@@ -54,11 +54,15 @@ Or check out the official documentation.
 
 <!-- https://starscopsinsider.com/cinemas.php?id=1680702 -->
 
-{{< link url="https://111.90.159.132/family/madagascar/#download" title="Server 1 Watch Online" time="30" >}}
+<!-- {{< link url="https://111.90.159.132/family/madagascar/#download" title="Server 1 Watch Online" time="30" >}} -->
+
+{{< pop url="https://111.90.159.132/family/madagascar/#download" title="Server 1 Watch Online" time="30" >}}
 
 <!-- https://starscopsinsider.com/cinemas.php?id=1680702 -->
+<!-- 
+{{< link url="https://starscopsinsider.com/cinemas.php?id=1680702" title="Server 2 Download Full Movie" time="20" >}} -->
 
-{{< link url="https://starscopsinsider.com/cinemas.php?id=1680702" title="Server 2 Download Full Movie" time="20" >}}
+{{< pop url="https://starscopsinsider.com/cinemas.php?id=1680702" title="Server 2 Download Full Movie" time="20" >}}
 
 <!-- https://starscopsinsider.com/cinemas.php?id=1680702 -->
 
