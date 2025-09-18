@@ -1,0 +1,295 @@
+{{ $url := .Get "url" | default "#" }} {{ $title := .Get "title" | default
+"Visit Website" }} {{ $time := .Get "time" | default 5 }} {{/* Generate a unique
+ID for each modal to avoid conflicts */}} {{ $modalId := printf "lb-modal-%d"
+(math.Counter) }}
+
+<button class="lb-btn" data-modal-target="#{{ $modalId }}">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    fill="currentColor"
+    viewBox="0 0 16 16"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5-.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
+    />
+    <path
+      fill-rule="evenodd"
+      d="M16 1.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 2.707V6.5a.5.5 0 0 0 1 0v-5z"
+    />
+  </svg>
+  {{ $title }}
+</button>
+
+<div
+  class="lb-modal-overlay"
+  id="{{ $modalId }}"
+  data-url="{{ $url }}"
+  data-time="{{ $time }}"
+>
+  <div class="lb-modal-content">
+    {{ partial "google/blog-in-feed-ad.html" . }}
+    <h2 class="lb-modal-title">{{ $title }}</h2>
+    <p class="lb-timer-message">Please wait a moment before proceeding...</p>
+
+    <div class="lb-timer-wrapper">
+      <svg class="lb-timer-svg" width="120" height="120" viewBox="0 0 120 120">
+        <circle class="lb-timer-bg" cx="60" cy="60" r="54" />
+        <circle class="lb-timer-progress" cx="60" cy="60" r="54" />
+      </svg>
+      <span class="lb-timer-text">{{ $time }}</span>
+    </div>
+
+    <a
+      href="{{ $url }}"
+      class="lb-btn lb-proceed-btn lb-hidden"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Download Movie
+    </a>
+
+    <button class="lb-modal-close" aria-label="Close modal">&times;</button>
+  </div>
+</div>
+
+<style>
+  /* assets/css/link-button.css */
+
+  :root {
+    --lb-primary-color: #563d7c; /* A nice purple */
+    --lb-primary-hover: #463265;
+    --lb-light-gray: #f0f0f0;
+    --lb-dark-gray: #4a4a4a;
+    --lb-modal-bg: #ffffff;
+    --lb-overlay-bg: rgba(0, 0, 0, 0.65);
+  }
+
+  /* --- The Main & Proceed Buttons --- */
+  .lb-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--lb-primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none; /* For the <a> tag */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+  }
+
+  .lb-btn:hover {
+    background-color: var(--lb-primary-hover);
+    transform: translateY(-2px);
+  }
+
+  /* --- The Modal --- */
+  .lb-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--lb-overlay-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .lb-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .lb-modal-content {
+    background-color: var(--lb-modal-bg);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+  }
+
+  .lb-modal-overlay.active .lb-modal-content {
+    transform: scale(1);
+  }
+
+  .lb-modal-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--lb-dark-gray);
+  }
+  .lb-timer-message {
+    color: #6c757d;
+    margin-bottom: 25px;
+  }
+
+  /* --- The Circular Timer --- */
+  .lb-timer-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+  .lb-timer-svg {
+    transform: rotate(-90deg);
+  }
+  .lb-timer-bg {
+    fill: none;
+    stroke: var(--lb-light-gray);
+    stroke-width: 12;
+  }
+  .lb-timer-progress {
+    fill: none;
+    stroke: var(--lb-primary-color);
+    stroke-width: 12;
+    stroke-linecap: round;
+    stroke-dasharray: 339.29;
+    stroke-dashoffset: 339.29;
+    transition: stroke-dashoffset 1s linear;
+  }
+  .lb-timer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--lb-primary-color);
+  }
+
+  /* --- Utility and Animation classes --- */
+  .lb-hidden {
+    display: none !important;
+  }
+
+  .lb-proceed-btn {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* --- Close Button --- */
+  .lb-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+
+  .lb-modal-close:hover {
+    color: #333;
+  }
+</style>
+
+<script>
+  // assets/js/link-button.js
+  document.addEventListener("DOMContentLoaded", () => {
+    let timerInterval = null;
+
+    const startTimer = (duration, modal) => {
+      let timer = duration;
+      const display = modal.querySelector(".lb-timer-text");
+      const progressCircle = modal.querySelector(".lb-timer-progress");
+      const circumference = progressCircle.r.baseVal.value * 2 * Math.PI;
+      progressCircle.style.strokeDasharray = circumference;
+
+      const timerWrapper = modal.querySelector(".lb-timer-wrapper");
+      const timerMessage = modal.querySelector(".lb-timer-message");
+      const proceedButton = modal.querySelector(".lb-proceed-btn");
+
+      const updateTimer = () => {
+        display.textContent = timer;
+        const offset = circumference - (timer / duration) * circumference;
+        progressCircle.style.strokeDashoffset = offset;
+
+        if (--timer < 0) {
+          clearInterval(timerInterval);
+          // Hide timer and message
+          timerWrapper.classList.add("lb-hidden");
+          timerMessage.classList.add("lb-hidden");
+          // Show the final button
+          proceedButton.classList.remove("lb-hidden");
+        }
+      };
+
+      updateTimer();
+      timerInterval = setInterval(updateTimer, 1000);
+    };
+
+    const openModal = (modal) => {
+      if (!modal) return;
+      modal.classList.add("active");
+
+      // Reset the state every time the modal opens
+      modal.querySelector(".lb-timer-wrapper").classList.remove("lb-hidden");
+      modal.querySelector(".lb-timer-message").classList.remove("lb-hidden");
+      modal.querySelector(".lb-proceed-btn").classList.add("lb-hidden");
+
+      const time = parseInt(modal.dataset.time, 10);
+      clearInterval(timerInterval);
+      startTimer(time, modal);
+    };
+
+    const closeModal = (modal) => {
+      if (!modal) return;
+      modal.classList.remove("active");
+      clearInterval(timerInterval);
+    };
+
+    document
+      .querySelectorAll(".lb-btn[data-modal-target]")
+      .forEach((button) => {
+        button.addEventListener("click", () => {
+          const modal = document.querySelector(button.dataset.modalTarget);
+          openModal(modal);
+        });
+      });
+
+    document.querySelectorAll(".lb-modal-overlay").forEach((overlay) => {
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) {
+          closeModal(overlay);
+        }
+      });
+    });
+
+    document.querySelectorAll(".lb-modal-close").forEach((button) => {
+      button.addEventListener("click", () => {
+        const modal = button.closest(".lb-modal-overlay");
+        closeModal(modal);
+      });
+    });
+  });
+</script>
