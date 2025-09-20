@@ -1,4 +1,409 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Blog</title><link>/blog/</link><description>Recent content in Blog on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>American Heritage Football</title><link>/blog/america/american-heritage-football/</link><pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate><guid>/blog/america/american-heritage-football/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Blog</title><link>/blog/</link><description>Recent content in Blog on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>🐍 Blender Product Animation Tutorial | Snake Wrap Effect 🌟</title><link>/blog/blender/product-animation-snake-wrap/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>/blog/blender/product-animation-snake-wrap/</guid><description>
+&lt;p&gt;Here’s a blog-style summary (with clear step-by-step guidance and emojis) based on the &amp;ldquo;Blender Product Animation Tutorial | Snake Wrap Effect&amp;rdquo; by Visual Gravity&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📂 Download Tutorial Assets&lt;span class="hx-absolute -hx-mt-20" id="-download-tutorial-assets"&gt;&lt;/span&gt;
+&lt;a href="#-download-tutorial-assets" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style="text-align:center"&gt;
+&lt;h4&gt;Click and wait for 20 seconds 👇
+&lt;/div&gt;
+&lt;a href="/assets/product-animation/" class="timer-btn"&gt; Download Tutorial Assets &lt;/a&gt;
+&lt;div class="display-ad"&gt;
+&lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
+crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="3255877740"
+data-ad-format="auto"
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "\/assets\/product-animation\/";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script&gt;
+&lt;style&gt;
+.display-ad {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+}
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style&gt;
+&lt;div
+style="
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-top: 1.5rem;
+border-radius: 0.5rem;
+"
+&gt;
+&lt;iframe
+src="https://www.youtube.com/embed/ptmd8HReKc0?rel=0&amp;start=15"
+frameborder="0"
+allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.ytp-pause-overlay-container {
+display: none !important;
+}
+.ytp-pause-overlay {
+display: none !important;
+}
+.ytp-pause-overlay-container .ytp-pause-overlay {
+display: none !important;
+}
+&lt;/style&gt;
+&lt;h3&gt;1️⃣ Get Assets &amp;amp; Prep the Scene 🧴🐍🪵&lt;span class="hx-absolute -hx-mt-20" id="1-get-assets--prep-the-scene-"&gt;&lt;/span&gt;
+&lt;a href="#1-get-assets--prep-the-scene-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Import your models&lt;/strong&gt;: bottle, snake, and wooden base. These are the building blocks of your scene.&lt;sup id="fnref1:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arrange them&lt;/strong&gt;: Place the bottle on the wooden base for a clean, commercial-ready look.&lt;sup id="fnref2:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pro tip&lt;/strong&gt;: You can download assets from the video description to follow along easily!🔗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;2️⃣ Snake Setup 🐍&lt;span class="hx-absolute -hx-mt-20" id="2-snake-setup-"&gt;&lt;/span&gt;
+&lt;a href="#2-snake-setup-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Select the snake&lt;/strong&gt; and adjust its size so it looks natural next to the bottle.&lt;sup id="fnref3:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Move it&lt;/strong&gt; close to the bottle, where animation begins.&lt;sup id="fnref4:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Always apply scale&lt;/strong&gt; (Object &amp;gt; Apply &amp;gt; Scale) to avoid weird modifier glitches later on. This keeps everything looking right!✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;3️⃣ Curve Magic ✨&lt;span class="hx-absolute -hx-mt-20" id="3-curve-magic-"&gt;&lt;/span&gt;
+&lt;a href="#3-curve-magic-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Add a curve object&lt;/strong&gt; to the scene (Shift+A &amp;gt; Curve &amp;gt; Bezier, for example).&lt;sup id="fnref5:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apply the Curve Modifier&lt;/strong&gt; to the snake via the modifiers panel.&lt;sup id="fnref6:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;In the modifier, select the new curve as the target.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Now, &lt;strong&gt;move the snake on the X-axis&lt;/strong&gt; and watch it follow the curve path—so cool!😮&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;4️⃣ Shaping the Snake’s Path 🎯&lt;span class="hx-absolute -hx-mt-20" id="4-shaping-the-snakes-path-"&gt;&lt;/span&gt;
+&lt;a href="#4-shaping-the-snakes-path-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Edit the curve&lt;/strong&gt;: Go to Edit Mode with the curve selected.&lt;sup id="fnref7:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Extrude and rotate points&lt;/strong&gt; to make the curve wrap smoothly around the bottle and base for a natural, snaky movement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Take your time here: a smoother curve gives a more lifelike animation!🌀&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Twist control&lt;/strong&gt;: Select a curve vertex, press &lt;code&gt;Ctrl+T&lt;/code&gt; and rotate for fine control of the snake’s twist. Perfect for adding realism.&lt;sup id="fnref8:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;5️⃣ Render Settings &amp;amp; Lighting 💡&lt;span class="hx-absolute -hx-mt-20" id="5-render-settings--lighting-"&gt;&lt;/span&gt;
+&lt;a href="#5-render-settings--lighting-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Render Engine&lt;/strong&gt;: Switch from Eevee to Cycles for the best quality.&lt;sup id="fnref9:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Device&lt;/strong&gt;: Opt for GPU if available, for faster rendering.&lt;sup id="fnref10:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Viewport samples&lt;/strong&gt;: Lower to 20 while working to keep things responsive.&lt;sup id="fnref11:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Denoising&lt;/strong&gt;: Turn it on for clean previews.&lt;sup id="fnref12:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;Lighting Tips&lt;span class="hx-absolute -hx-mt-20" id="lighting-tips"&gt;&lt;/span&gt;
+&lt;a href="#lighting-tips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;🎇 &lt;strong&gt;Area light:&lt;/strong&gt; Add, scale up, and boost power for soft scene lighting.&lt;/li&gt;
+&lt;li&gt;✨ &lt;strong&gt;Point lights:&lt;/strong&gt; Add one or two more to highlight the snake and bottle from various angles, adjusting power for balance.&lt;sup id="fnref13:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;🌑 &lt;strong&gt;World lighting:&lt;/strong&gt; Lower background strength for drama and focus on the product effect.&lt;sup id="fnref14:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;6️⃣ Animating the Snake 🕺&lt;span class="hx-absolute -hx-mt-20" id="6-animating-the-snake-"&gt;&lt;/span&gt;
+&lt;a href="#6-animating-the-snake-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Select the snake&lt;/strong&gt; object.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Insert keyframes&lt;/strong&gt; on its X position at the start and end points (timeline).&lt;sup id="fnref15:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Move the timeline slider, change the X-value, and add another keyframe to make the snake smoothly wrap along your curve.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Playback&lt;/strong&gt;: Watch as the snake gracefully twirls around the bottle—satisfying!🐍🌀&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;7️⃣ Camera, Action, Render! 🎬&lt;span class="hx-absolute -hx-mt-20" id="7-camera-action-render-"&gt;&lt;/span&gt;
+&lt;a href="#7-camera-action-render-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Add a camera&lt;/strong&gt; and frame the perfect shot for your animation.&lt;sup id="fnref16:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Render!&lt;/strong&gt; Your product animation is ready to shine!🏆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Final Thoughts 🎉&lt;span class="hx-absolute -hx-mt-20" id="final-thoughts-"&gt;&lt;/span&gt;
+&lt;a href="#final-thoughts-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;With these steps, you can create an eye-catching snake wrap effect in Blender that brings any product animation to life! Don’t forget to experiment with different curves, lighting, and camera angles for your unique style. Be sure to like, comment, and subscribe to Visual Gravity for more awesome Blender tutorials!&lt;sup id="fnref17:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Stay creative and keep blending! 🐍✨&lt;/p&gt;
+&lt;div style="text-align: center"&gt;⁂&lt;/div&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=ptmd8HReKc0" target="_blank" rel="noopener"&gt;https://www.youtube.com/watch?v=ptmd8HReKc0&lt;/a&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref2:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref3:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref4:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref5:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref6:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref7:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref8:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref9:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref10:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref11:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref12:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref13:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref14:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref15:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref16:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref17:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>Download Assets | 🐍 Blender Product Animation Tutorial | Snake Wrap Effect 🌟</title><link>/assets/product-animation/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>/assets/product-animation/</guid><description>
+&lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
+crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="3255877740"
+data-ad-format="auto"
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;div class="timer-container"&gt;
+&lt;span class="timer-label"&gt;&lt;/span&gt;
+&lt;progress class="timer-progress" value="0" max="20"&gt;&lt;/progress&gt;
+&lt;/div&gt;
+&lt;div class="display-ad"&gt;
+&lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
+crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="3255877740"
+data-ad-format="auto"
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "https:\/\/drive.google.com\/file\/d\/1xM_OOmtC1NHGP-OyGwY-Rm59Wn0vTll_\/view?usp=drive_link";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script&gt;
+&lt;style&gt;
+.display-ad {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+}
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style&gt;</description></item><item><title>American Heritage Football</title><link>/blog/america/american-heritage-football/</link><pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate><guid>/blog/america/american-heritage-football/</guid><description>
 &lt;h2&gt;American Heritage Football: Tradition, Excellence, and Community Impact 🏈🇺🇸&lt;span class="hx-absolute -hx-mt-20" id="american-heritage-football-tradition-excellence-and-community-impact-"&gt;&lt;/span&gt;
 &lt;a href="#american-heritage-football-tradition-excellence-and-community-impact-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;American Heritage Football is more than just a sport; it represents a vibrant tradition and a source of pride for players, families, and communities. Rooted deeply in the culture of American schools, football unites people with its thrilling competitions, values of teamwork, and lessons in perseverance. This blog dives into what makes American Heritage Football special, highlighting its history, significance, key programs, and community impact.&lt;/p&gt;
 &lt;hr&gt;

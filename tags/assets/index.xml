@@ -1,4 +1,157 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Assets</title><link>/tags/assets/</link><description>Recent content in Assets on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/assets/index.xml" rel="self" type="application/rss+xml"/><item><title>Download Assets | Car Burnout in 10 Minutes – Blender</title><link>/assets/car-burnout-model/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/assets/car-burnout-model/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – Assets</title><link>/tags/assets/</link><description>Recent content in Assets on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/assets/index.xml" rel="self" type="application/rss+xml"/><item><title>Download Assets | 🐍 Blender Product Animation Tutorial | Snake Wrap Effect 🌟</title><link>/assets/product-animation/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>/assets/product-animation/</guid><description>
+&lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
+crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="3255877740"
+data-ad-format="auto"
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;div class="timer-container"&gt;
+&lt;span class="timer-label"&gt;&lt;/span&gt;
+&lt;progress class="timer-progress" value="0" max="20"&gt;&lt;/progress&gt;
+&lt;/div&gt;
+&lt;div class="display-ad"&gt;
+&lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
+crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-7993314093599705"
+data-ad-slot="3255877740"
+data-ad-format="auto"
+data-full-width-responsive="true"&gt;&lt;/ins&gt;
+&lt;script&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function link_timer() {
+var btns = document.querySelectorAll(".timer-btn");
+btns.forEach(function (btn) {
+if (btn.dataset.timerAttached) return;
+btn.dataset.timerAttached = "true";
+btn.addEventListener("click", function timer() {
+if (btn.disabled) return;
+btn.disabled = true;
+var label = btn.nextElementSibling;
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "sec ...";
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "sec ...";
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = btn.getAttribute("data-link");
+}
+}, 1000);
+});
+});
+})();
+window.addEventListener("load", function () {
+var btn = document.querySelector(".timer-btn");
+var label = document.querySelector(".timer-label");
+var progress = document.querySelector(".timer-progress");
+var link = "https:\/\/drive.google.com\/file\/d\/1xM_OOmtC1NHGP-OyGwY-Rm59Wn0vTll_\/view?usp=drive_link";
+var countdown = 20;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 0;
+var timer = setInterval(function () {
+countdown--;
+label.textContent = " Downloading in " + countdown + "s...";
+progress.value = 20 - countdown;
+if (countdown &lt;= 0) {
+clearInterval(timer);
+window.location.href = link;
+}
+}, 1000);
+});
+&lt;/script&gt;
+&lt;style&gt;
+.display-ad {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+}
+.timer-btn {
+margin-top: 1.5rem;
+display: block;
+padding: 0.5em 1.2em;
+background: #d45039;
+color: #fff;
+border-radius: 4px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+width: -webkit-fill-available;
+font-size: 1.2rem;
+}
+.timer-btn:disabled {
+background: #aaa;
+cursor: not-allowed;
+}
+.timer-label {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+margin-left: 10px;
+color: #333;
+font-weight: bold;
+display: block;
+text-align: center;
+font-size: 1.5rem;
+}
+.timer-progress {
+width: 100%;
+height: 1em;
+border-radius: 6px;
+appearance: none;
+background-color: #e0e0e0;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+.timer-progress::-webkit-progress-bar {
+background-color: #e0e0e0;
+border-radius: 6px;
+}
+.timer-progress::-webkit-progress-value {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+border-radius: 6px;
+transition: width 0.2s;
+}
+html:is(.dark) {
+.timer-btn {
+background: #d45039;
+color: #eee;
+border: none;
+}
+.timer-btn:disabled {
+background: #555;
+cursor: not-allowed;
+}
+.timer-label {
+color: #ccc;
+}
+.timer-progress,
+.timer-progress::-webkit-progress-bar {
+background-color: #222;
+}
+.timer-progress::-webkit-progress-value,
+.timer-progress::-moz-progress-bar {
+background-color: #d45039;
+}
+}
+&lt;/style&gt;</description></item><item><title>Download Assets | Car Burnout in 10 Minutes – Blender</title><link>/assets/car-burnout-model/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>/assets/car-burnout-model/</guid><description>
 &lt;p&gt;In this beginner-friendly tutorial, I’ll guide you through animation, smoke simulation settings, and render setup to make your car scenes look cinematic.
 Perfect for anyone starting with Blender’s physics and VFX tools.&lt;/p&gt;
 &lt;script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7993314093599705"
