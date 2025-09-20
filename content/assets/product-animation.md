@@ -2,7 +2,7 @@
 title: Download Assets | 🐍 Blender Product Animation Tutorial | Snake Wrap Effect 🌟
 description: Are you ready to create a stunning product animation in Blender? In today’s tutorial by Visual Gravity, discover how to make a realistic snake wrap dramatically around a bottle—perfect for product ads or creative VFX work! Let’s break it down step by step, making the process super easy for Blender beginners. 🎥✨
 date: 2025-09-17
-image: "/images/blender/product-animationjpg"
+image: "/images/blender/product-animation.jpg"
 width: full
 type: blog
 authors:
