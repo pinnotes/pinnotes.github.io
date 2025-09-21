@@ -1089,10 +1089,10 @@ closeModal(modal);
 });
 &lt;/script&gt;
 --&gt;
-&lt;button class="lb-btn" data-modal-target="#lb-modal-6"&gt;Server 1 Watch Online&lt;/button&gt;
+&lt;button class="lb-btn" data-modal-target="#lb-modal-6"&gt;Server 1 Download &amp;amp; Watch Online&lt;/button&gt;
 &lt;div class="lb-modal-overlay" id="lb-modal-6" data-url="https://111.90.159.132/family/madagascar/#download" data-time="30"&gt;
 &lt;div class="lb-modal-content"&gt;
-&lt;h2 class="lb-modal-title"&gt;Server 1 Watch Online&lt;/h2&gt;
+&lt;h2 class="lb-modal-title"&gt;Server 1 Download &amp;amp; Watch Online&lt;/h2&gt;
 &lt;div class="lb-ad-container"&gt;
 &lt;ins class="adsbygoogle"
 style="display:block"
@@ -1583,10 +1583,10 @@ closeModal(modal);
 });
 &lt;/script&gt;
 --&gt;
-&lt;button class="lb-btn" data-modal-target="#lb-modal-8"&gt;Server 2 Download Full Movie&lt;/button&gt;
+&lt;button class="lb-btn" data-modal-target="#lb-modal-8"&gt;Server 2 Download &amp;amp; Watch Online&lt;/button&gt;
 &lt;div class="lb-modal-overlay" id="lb-modal-8" data-url="https://starscopsinsider.com/cinemas.php?id=1680702" data-time="20"&gt;
 &lt;div class="lb-modal-content"&gt;
-&lt;h2 class="lb-modal-title"&gt;Server 2 Download Full Movie&lt;/h2&gt;
+&lt;h2 class="lb-modal-title"&gt;Server 2 Download &amp;amp; Watch Online&lt;/h2&gt;
 &lt;div class="lb-ad-container"&gt;
 &lt;ins class="adsbygoogle"
 style="display:block"
