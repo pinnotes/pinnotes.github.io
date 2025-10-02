@@ -1,0 +1,2190 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PinNotes – IITM-Foundation-Course-Statistics-2</title><link>/series/iitm-foundation-course-statistics-2/</link><description>Recent content in IITM-Foundation-Course-Statistics-2 on PinNotes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="/series/iitm-foundation-course-statistics-2/index.xml" rel="self" type="application/rss+xml"/><item><title>Joint PMF of two discrete random variables</title><link>/iit-madras/statistics-2/week-1/l1.1-joint-pmf-of-two-discrete-random-variables/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/statistics-2/week-1/l1.1-joint-pmf-of-two-discrete-random-variables/</guid><description/></item><item><title>Statistics II</title><link>/iit-madras/statistics-2/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/statistics-2/</guid><description/></item><item><title>Graded Assignment 1</title><link>/iit-madras/statistics-2/week-1/graded-assignment-1/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate><guid>/iit-madras/statistics-2/week-1/graded-assignment-1/</guid><description>
+&lt;p&gt;&lt;img src="image.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-1.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-2.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-3.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-4.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="image-5.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-6.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-7.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="image-8.png" alt="alt text" loading="lazy" /&gt;
+&lt;img src="image-9.png" alt="alt text" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Of course! Here are the solutions and explanations for all the questions you provided.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Question 1: Conditional Probability&lt;span class="hx-absolute -hx-mt-20" id="question-1-conditional-probability"&gt;&lt;/span&gt;
+&lt;a href="#question-1-conditional-probability" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; The joint PMF of two discrete random variables $X$ and $Y$ is given by:
+$f_{XY}(x, y) = \begin{cases} \frac{1}{36}(3x + y), &amp;amp; x, y \in {0, 1, 2} \ 0, &amp;amp; \text{otherwise} \end{cases}$
+What is the value of $P(0 &amp;lt; X &amp;lt; 2 \ | \ Y &amp;gt; 1)$? Enter the answer correct to two decimal places.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer: 0.33&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer-033"&gt;&lt;/span&gt;
+&lt;a href="#answer-033" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Joint Probability Mass Function (PMF):&lt;/strong&gt; A function $f_{XY}(x, y)$ that gives the probability that discrete random variables $X$ and $Y$ take on the specific values $x$ and $y$, respectively. So, $f_{XY}(x, y) = P(X=x, Y=y)$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marginal PMF:&lt;/strong&gt; The probability distribution of a single variable from a joint distribution. For example, to get the marginal PMF of $Y$, $f_Y(y)$, you sum the joint probabilities over all possible values of $X$: $f_Y(y) = P(Y=y) = \sum_x f_{XY}(x, y)$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conditional Probability:&lt;/strong&gt; The probability of an event occurring, given that another event has already occurred. The formula is $P(A|B) = \frac{P(A \cap B)}{P(B)}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Interpret the Probability Statement:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The condition $0 &amp;lt; X &amp;lt; 2$ for an integer $X$ means $X=1$.&lt;/li&gt;
+&lt;li&gt;The condition $Y &amp;gt; 1$ for an integer $Y$ in the set ${0, 1, 2}$ means $Y=2$.&lt;/li&gt;
+&lt;li&gt;So, we need to calculate $P(X=1 \ | \ Y=2)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Apply the Conditional Probability Formula:&lt;/strong&gt;
+&lt;/p&gt;
+$$P(X=1 \ | \ Y=2) = \frac{P(X=1, Y=2)}{P(Y=2)}$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Joint Probability $P(X=1, Y=2)$:&lt;/strong&gt;
+This is given directly by the joint PMF $f_{XY}(1, 2)$.
+&lt;/p&gt;
+$$P(X=1, Y=2) = f_{XY}(1, 2) = \frac{1}{36}(3(1) + 2) = \frac{5}{36}$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Marginal Probability $P(Y=2)$:&lt;/strong&gt;
+We need to sum the joint probabilities over all possible values of $X$ (which are 0, 1, and 2) while keeping $Y=2$.
+&lt;/p&gt;
+$$P(Y=2) = \sum_{x=0}^{2} f_{XY}(x, 2) = f_{XY}(0, 2) + f_{XY}(1, 2) + f_{XY}(2, 2)$$&lt;p&gt; &lt;/p&gt;
+$$P(Y=2) = \frac{1}{36}(3(0) + 2) + \frac{1}{36}(3(1) + 2) + \frac{1}{36}(3(2) + 2)$$&lt;p&gt; &lt;/p&gt;
+$$P(Y=2) = \frac{2}{36} + \frac{5}{36} + \frac{8}{36} = \frac{15}{36}$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Final Conditional Probability:&lt;/strong&gt;
+&lt;/p&gt;
+$$P(X=1 \ | \ Y=2) = \frac{5/36}{15/36} = \frac{5}{15} = \frac{1}{3}$$&lt;p&gt;
+Converting to a decimal rounded to two places, we get &lt;strong&gt;0.33&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Question 2: Conditional PMF from a Table&lt;span class="hx-absolute -hx-mt-20" id="question-2-conditional-pmf-from-a-table"&gt;&lt;/span&gt;
+&lt;a href="#question-2-conditional-pmf-from-a-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; The joint distribution of two random variables $X$ and $Y$ is given as:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Y \ X&lt;/th&gt;
+&lt;th style="text-align: center"&gt;0&lt;/th&gt;
+&lt;th style="text-align: center"&gt;1&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;1/4&lt;/td&gt;
+&lt;td style="text-align: center"&gt;1/8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;1/4&lt;/td&gt;
+&lt;td style="text-align: center"&gt;k&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;1/8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Find the value of $f_{Y|X=1}(2)$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer: 0.50&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer-050"&gt;&lt;/span&gt;
+&lt;a href="#answer-050" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Joint Distribution Table:&lt;/strong&gt; A table that displays the probabilities for each possible pair of outcomes for two random variables.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Normalization Property:&lt;/strong&gt; The sum of all probabilities in a joint distribution must equal 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conditional PMF:&lt;/strong&gt; The probability distribution of one variable given a specific value of another. It&amp;rsquo;s calculated as:
+$$f_{Y|X}(y|x) = P(Y=y \ | \ X=x) = \frac{P(X=x, Y=y)}{P(X=x)}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the value of $k$:&lt;/strong&gt;
+The sum of all probabilities in the table must be 1.
+&lt;/p&gt;
+$$\frac{1}{4} + \frac{1}{4} + 0 + \frac{1}{8} + k + \frac{1}{8} = 1$$&lt;p&gt; &lt;/p&gt;
+$$\frac{2}{4} + \frac{2}{8} + k = 1$$&lt;p&gt; &lt;/p&gt;
+$$\frac{1}{2} + \frac{1}{4} + k = 1$$&lt;p&gt; &lt;/p&gt;
+$$\frac{3}{4} + k = 1 \implies k = \frac{1}{4}$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identify the Required Probability:&lt;/strong&gt;
+We need to find $f_{Y|X=1}(2)$, which is the conditional probability $P(Y=2 \ | \ X=1)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Apply the Formula:&lt;/strong&gt;
+&lt;/p&gt;
+$$P(Y=2 \ | \ X=1) = \frac{P(X=1, Y=2)}{P(X=1)}$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the Probabilities from the Table:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The joint probability $P(X=1, Y=2)$ is the value of $k$, which we found to be &lt;strong&gt;1/4&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The marginal probability $P(X=1)$ is the sum of all probabilities in the column where $X=1$.
+$$P(X=1) = P(X=1, Y=1) + P(X=1, Y=2) + P(X=1, Y=3)$$ $$P(X=1) = \frac{1}{8} + \frac{1}{4} + \frac{1}{8} = \frac{2}{8} + \frac{1}{4} = \frac{1}{4} + \frac{1}{4} = \frac{1}{2}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Result:&lt;/strong&gt;
+&lt;/p&gt;
+$$P(Y=2 \ | \ X=1) = \frac{1/4}{1/2} = \frac{1}{4} \times 2 = \frac{1}{2}$$&lt;p&gt;
+The final answer is &lt;strong&gt;0.50&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Question 3: Law of Total Probability&lt;span class="hx-absolute -hx-mt-20" id="question-3-law-of-total-probability"&gt;&lt;/span&gt;
+&lt;a href="#question-3-law-of-total-probability" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Akshat draws a card from a well-shuffled pack of 52 cards. If the drawn card is a face card, he draws two balls randomly from bag A which contains 5 Red, 6 Black and 4 Green balls. If the drawn card is not a face card, then he draws three balls randomly from bag B which contains 7 Red, 9 Black and 4 Green balls. Let two random variables $X$ and $Y$ be defined as:
+$X = \begin{cases} 1 &amp;amp; \text{if the drawn card is a face card} \ 0 &amp;amp; \text{if the drawn card is not a face card} \end{cases}$
+and $Y$ be the number of Red balls drawn. Find the value of $f_Y(1)$. Write your answer correct up to two decimal places.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer: 0.48&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer-048"&gt;&lt;/span&gt;
+&lt;a href="#answer-048" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Law of Total Probability:&lt;/strong&gt; This law allows you to find the probability of an event by considering all possible scenarios (partitions) that lead to it. The formula is:
+$$P(A) = \sum_i P(A|B_i)P(B_i)$$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Combinations (Hypergeometric Probability):&lt;/strong&gt; Used to find the probability of drawing a specific number of successes (e.g., red balls) without replacement. The formula to choose $k$ successes from a population of $K$ successes in $n$ draws from a total population $N$ is:
+$$P(\text{k successes}) = \frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identify the Goal:&lt;/strong&gt;
+We need to find $f_Y(1)$, which is the overall probability $P(Y=1)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Use the Law of Total Probability:&lt;/strong&gt;
+The event $Y=1$ (drawing 1 red ball) can happen in two ways: either a face card was drawn first ($X=1$) or not ($X=0$).
+&lt;/p&gt;
+$$P(Y=1) = P(Y=1 | X=1)P(X=1) + P(Y=1 | X=0)P(X=0)$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate Probabilities for $X$:&lt;/strong&gt;
+A standard deck has 12 face cards (J, Q, K).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P(X=1) = P(\text{face card}) = \frac{12}{52} = \frac{3}{13}$&lt;/li&gt;
+&lt;li&gt;$P(X=0) = P(\text{not face card}) = 1 - \frac{3}{13} = \frac{10}{13}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate Conditional Probabilities for $Y=1$:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Case 1: Given $X=1$ (drew a face card, use Bag A)&lt;/strong&gt;
+Bag A has 5 Red and 10 non-Red balls (total 15). We draw 2 balls.
+$$P(Y=1|X=1) = \frac{\text{Ways to choose 1R and 1 non-R}}{\text{Total ways to choose 2 balls}} = \frac{\binom{5}{1}\binom{10}{1}}{\binom{15}{2}}$$ $$= \frac{5 \times 10}{105} = \frac{50}{105} = \frac{10}{21}$$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Case 2: Given $X=0$ (drew non-face card, use Bag B)&lt;/strong&gt;
+Bag B has 7 Red and 13 non-Red balls (total 20). We draw 3 balls.
+$$P(Y=1|X=0) = \frac{\text{Ways to choose 1R and 2 non-R}}{\text{Total ways to choose 3 balls}} = \frac{\binom{7}{1}\binom{13}{2}}{\binom{20}{3}}$$ $$= \frac{7 \times 78}{1140} = \frac{546}{1140} = \frac{91}{190}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Combine Everything:&lt;/strong&gt;
+&lt;/p&gt;
+$$P(Y=1) = \left(\frac{10}{21} \times \frac{3}{13}\right) + \left(\frac{91}{190} \times \frac{10}{13}\right)$$&lt;p&gt; &lt;/p&gt;
+$$P(Y=1) = \frac{10}{91} + \frac{910}{2470} = \frac{10}{91} + \frac{91}{247} = \frac{10}{91} + \frac{7 \times 13}{19 \times 13} = \frac{10}{91} + \frac{7}{19}$$&lt;p&gt; &lt;/p&gt;
+$$P(Y=1) = \frac{10(19) + 7(91)}{91 \times 19} = \frac{190 + 637}{1729} = \frac{827}{1729} \approx 0.4783$$&lt;p&gt;
+Rounding to two decimal places, the answer is &lt;strong&gt;0.48&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Question 4: Fundamental Probability Formulas&lt;span class="hx-absolute -hx-mt-20" id="question-4-fundamental-probability-formulas"&gt;&lt;/span&gt;
+&lt;a href="#question-4-fundamental-probability-formulas" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Which of the following options is/are always correct?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$f_{XYZ}(x, y, z) = f_X(Y=y, Z=z|x)f_X(x)$&lt;/li&gt;
+&lt;li&gt;$f_X(x) = \sum_{y \in R_Y} f_{XY}(x,y)$&lt;/li&gt;
+&lt;li&gt;$f_{XYZ}(x, y, z) = f_X(Y=y, Z=z|x)f_Y(y)f_Z(z)$&lt;/li&gt;
+&lt;li&gt;$f_{XYZ}(x, y, z) = f_{X|Y=y,Z=z}(x)f_Y(y)f_Z(z)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer"&gt;&lt;/span&gt;
+&lt;a href="#answer" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The only statement that is always correct is:
+&lt;/p&gt;
+$$f_X(x) = \sum_{y \in R_Y} f_{XY}(x,y)$$&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chain Rule of Probability:&lt;/strong&gt; This rule allows you to break down a joint probability into a product of conditional and marginal probabilities. For three variables, it is:
+$f_{XYZ}(x,y,z) = f_{Z|X,Y}(z|x,y) f_{Y|X}(y|x) f_X(x)$.
+Another common form is $f_{XYZ}(x,y,z) = f_{X|Y,Z}(x|y,z) f_{YZ}(y,z)$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marginal Distribution:&lt;/strong&gt; As explained before, this is the probability distribution of a subset of random variables from a larger set. The provided formula is the definition of the marginal PMF of $X$ derived from the joint PMF of $X$ and $Y$. It is obtained by &amp;ldquo;summing out&amp;rdquo; the other variable, $Y$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statistical Independence:&lt;/strong&gt; Two random variables $Y$ and $Z$ are independent if and only if their joint PMF is the product of their marginal PMFs: $f_{YZ}(y,z) = f_Y(y)f_Z(z)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Analysis of Options&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="analysis-of-options"&gt;&lt;/span&gt;
+&lt;a href="#analysis-of-options" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;$f_{XYZ}(x, y, z) = f_X(Y=y, Z=z|x)f_X(x)$:&lt;/strong&gt; The notation is non-standard, but it appears to be an attempt at the chain rule. A correct version of the chain rule is $f_{XYZ}(x, y, z) = f_{Y,Z|X}(y, z|x)f_X(x)$. While this rule is always true, the notation in the option is garbled and incorrect.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$f_X(x) = \sum_{y \in R_Y} f_{XY}(x,y)$:&lt;/strong&gt; This is the &lt;strong&gt;definition&lt;/strong&gt; of the marginal PMF of $X$. It is always true for any pair of discrete random variables $X$ and $Y$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$f_{XYZ}(x, y, z) = f_X(Y=y, Z=z|x)f_Y(y)f_Z(z)$:&lt;/strong&gt; This is incorrect. It mixes a conditional probability with marginals in a way that is not generally valid.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$f_{XYZ}(x, y, z) = f_{X|Y=y,Z=z}(x)f_Y(y)f_Z(z)$:&lt;/strong&gt; This is also incorrect. The correct chain rule would be $f_{XYZ}(x,y,z) = f_{X|Y,Z}(x|y,z) f_{Y,Z}(y,z)$. The formula in the option is only true if $Y$ and $Z$ are independent, which is not always the case.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Therefore, the only universally correct statement is the second one.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Question 5: Solving for Parameters in a Joint PMF&lt;span class="hx-absolute -hx-mt-20" id="question-5-solving-for-parameters-in-a-joint-pmf"&gt;&lt;/span&gt;
+&lt;a href="#question-5-solving-for-parameters-in-a-joint-pmf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Two random variables $X$ and $Y$ are jointly distributed with joint pmf $f_{XY}(x, y) = a(bx + y)$, where $x$ and $y$ are integers in $0 \le x \le 2$ and $0 \le y \le 3$ such that $P(X &amp;gt; 1, Y &amp;lt; 2) = \frac{4}{9}$. Find the value of $f_{XY}(2, 0)$. Write your answer correct to two decimal places.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer: 0.23&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer-023"&gt;&lt;/span&gt;
+&lt;a href="#answer-023" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Properties of a Joint PMF:&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;$f_{XY}(x, y) \ge 0$ for all $(x, y)$.&lt;/li&gt;
+&lt;li&gt;The sum of the PMF over all possible pairs $(x, y)$ must be 1 (Normalization). $\sum_x \sum_y f_{XY}(x,y) = 1$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solving Systems of Equations:&lt;/strong&gt; This problem requires setting up two equations based on the properties of the PMF and the given information, then solving for the unknown parameters &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Note: This problem statement is technically flawed as it leads to a PMF with some negative probabilities. However, we can solve it formally by following the mathematical steps.&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Set up the Normalization Equation:&lt;/strong&gt;
+The sum of $f_{XY}(x, y)$ over all $x \in {0, 1, 2}$ and $y \in {0, 1, 2, 3}$ must be 1.
+&lt;/p&gt;
+$$\sum_{x=0}^{2} \sum_{y=0}^{3} a(bx + y) = 1$$&lt;p&gt; &lt;/p&gt;
+$$a \sum_{x=0}^{2} \left( \sum_{y=0}^{3} bx + \sum_{y=0}^{3} y \right) = 1$$&lt;p&gt;
+The inner sum is over 4 values of y, and $\sum_{y=0}^{3} y = 0+1+2+3=6$.
+&lt;/p&gt;
+$$a \sum_{x=0}^{2} (4bx + 6) = 1$$&lt;p&gt; &lt;/p&gt;
+$$a [(4b(0)+6) + (4b(1)+6) + (4b(2)+6)] = 1$$&lt;p&gt; &lt;/p&gt;
+$$a [6 + 4b+6 + 8b+6] = 1$$&lt;p&gt; &lt;/p&gt;
+$$a(12b + 18) = 1 \quad \text{(Equation 1)}$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Set up the Second Equation from Given Info:&lt;/strong&gt;
+We are given $P(X &amp;gt; 1, Y &amp;lt; 2) = 4/9$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$X &amp;gt; 1 \implies X=2$.&lt;/li&gt;
+&lt;li&gt;$Y &amp;lt; 2 \implies Y=0, 1$.
+$$P(X=2, Y=0) + P(X=2, Y=1) = \frac{4}{9}$$ $$f_{XY}(2,0) + f_{XY}(2,1) = \frac{4}{9}$$ $$a(b(2)+0) + a(b(2)+1) = \frac{4}{9}$$ $$a(2b) + a(2b+1) = \frac{4}{9}$$ $$a(4b+1) = \frac{4}{9} \quad \text{(Equation 2)}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Solve the System of Equations for &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt;:&lt;/strong&gt;
+From Equation 2, we have $a = \frac{4}{9(4b+1)}$. Substitute this into Equation 1:
+&lt;/p&gt;
+$$\frac{4}{9(4b+1)}(12b+18) = 1$$&lt;p&gt; &lt;/p&gt;
+$$4(12b+18) = 9(4b+1)$$&lt;p&gt; &lt;/p&gt;
+$$48b + 72 = 36b + 9$$&lt;p&gt; &lt;/p&gt;
+$$12b = -63 \implies b = -\frac{63}{12} = -\frac{21}{4}$$&lt;p&gt;
+Now find &lt;code&gt;a&lt;/code&gt; using Equation 2:
+&lt;/p&gt;
+$$a(4(-\frac{21}{4})+1) = \frac{4}{9} \implies a(-21+1) = \frac{4}{9} \implies a(-20) = \frac{4}{9} \implies a = -\frac{4}{180} = -\frac{1}{45}$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find the Required Value:&lt;/strong&gt;
+The question asks for $f_{XY}(2,0)$.
+&lt;/p&gt;
+$$f_{XY}(2,0) = a(b(2)+0) = 2ab$$&lt;p&gt; &lt;/p&gt;
+$$f_{XY}(2,0) = 2 \left(-\frac{1}{45}\right) \left(-\frac{21}{4}\right) = \frac{42}{180} = \frac{7}{30}$$&lt;p&gt;
+As a decimal, this is approximately 0.2333&amp;hellip; Rounding to two decimal places gives &lt;strong&gt;0.23&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Question 6: Conditional Probability Logic&lt;span class="hx-absolute -hx-mt-20" id="question-6-conditional-probability-logic"&gt;&lt;/span&gt;
+&lt;a href="#question-6-conditional-probability-logic" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; A fair coin is tossed 7 times. Let $X$ be the total number of heads and $Y$ be the number of heads before the first tail. (If there is no tail in all the seven tosses, then $Y=7$). What is the value of $f_{Y|X=x}(0|0)$? Write your answer correct to two decimal places.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer: 1.00&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer-100"&gt;&lt;/span&gt;
+&lt;a href="#answer-100" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Conditional Probability:&lt;/strong&gt; The question asks for $f_{Y|X}(0|0)$, which is the probability $P(Y=0 | X=0)$. This is the probability that event $Y=0$ occurs, given that we know for a fact that event $X=0$ has occurred.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Logical Implication:&lt;/strong&gt; If the occurrence of event B guarantees the occurrence of event A, then the conditional probability $P(A|B)$ is 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Understand the Given Event:&lt;/strong&gt; The condition is $X=0$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$X$ is the total number of heads in 7 tosses.&lt;/li&gt;
+&lt;li&gt;$X=0$ means there were &lt;strong&gt;zero heads&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The only possible outcome for the 7 tosses is &lt;strong&gt;TTTTTTT&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Understand the Event We&amp;rsquo;re Finding the Probability Of:&lt;/strong&gt; We want the probability of $Y=0$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$Y$ is the number of heads before the first tail.&lt;/li&gt;
+&lt;li&gt;$Y=0$ means there were &lt;strong&gt;zero heads&lt;/strong&gt; before the first tail occurred. This implies that the very first toss must be a Tail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Combine the Logic:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are &lt;em&gt;given&lt;/em&gt; that the outcome was TTTTTTT (because $X=0$).&lt;/li&gt;
+&lt;li&gt;In the outcome TTTTTTT, is it true that the number of heads before the first tail is zero?&lt;/li&gt;
+&lt;li&gt;Yes. The first toss is a Tail. There are no heads before it. Therefore, $Y=0$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;
+The event $X=0$ (outcome is TTTTTTT) logically implies that the event $Y=0$ must also have occurred. When a given condition guarantees the outcome, the conditional probability is 1.
+&lt;/p&gt;
+$$P(Y=0 | X=0) = 1$$&lt;p&gt;
+The answer correct to two decimal places is &lt;strong&gt;1.00&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Question 7: Combinations for a Joint PMF&lt;span class="hx-absolute -hx-mt-20" id="question-7-combinations-for-a-joint-pmf"&gt;&lt;/span&gt;
+&lt;a href="#question-7-combinations-for-a-joint-pmf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; From a group of 3 members of party A, 2 members of party B, and 1 member of party C, a committee of two people is to be selected uniformly at random. Let $X$ denote the number of party A members and $Y$ denote the number of party B members on the committee. Find the value of $f_{XY}(1, 1)$. Write your answer correct to two decimal places.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer: 0.40&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer-040"&gt;&lt;/span&gt;
+&lt;a href="#answer-040" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Combinations:&lt;/strong&gt; The number of ways to choose a subset of items from a larger set without regard to the order of selection. The formula is $\binom{n}{k} = \frac{n!}{k!(n-k)!}$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classical Probability:&lt;/strong&gt; When all outcomes are equally likely, the probability of an event is the ratio of the number of favorable outcomes to the total number of possible outcomes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identify the Goal:&lt;/strong&gt;
+We need to find $f_{XY}(1, 1)$, which is the probability $P(X=1, Y=1)$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$X=1$ means the committee has 1 member from party A.&lt;/li&gt;
+&lt;li&gt;$Y=1$ means the committee has 1 member from party B.&lt;/li&gt;
+&lt;li&gt;Since the committee size is 2, this means the committee must consist of exactly one person from A and one from B.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Number of Favorable Outcomes:&lt;/strong&gt;
+We need to choose 1 person from A AND 1 person from B.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ways to choose 1 from 3 party A members: $\binom{3}{1} = 3$.&lt;/li&gt;
+&lt;li&gt;Ways to choose 1 from 2 party B members: $\binom{2}{1} = 2$.&lt;/li&gt;
+&lt;li&gt;Total favorable outcomes = $3 \times 2 = 6$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Total Number of Possible Outcomes:&lt;/strong&gt;
+We are choosing a committee of 2 people from a total group of $3+2+1=6$ people.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Total ways to choose 2 from 6: $\binom{6}{2} = \frac{6 \times 5}{2 \times 1} = 15$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Probability:&lt;/strong&gt;
+&lt;/p&gt;
+$$P(X=1, Y=1) = \frac{\text{Favorable Outcomes}}{\text{Total Outcomes}} = \frac{6}{15} = \frac{2}{5}$$&lt;p&gt;
+As a decimal, this is &lt;strong&gt;0.40&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Question 8: Multinomial Probability&lt;span class="hx-absolute -hx-mt-20" id="question-8-multinomial-probability"&gt;&lt;/span&gt;
+&lt;a href="#question-8-multinomial-probability" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Suppose a fair six-sided die is rolled five times independently. Let $X$ denote the number of times a 1 is obtained and let $Y$ denote the number of times a 6 is obtained. Find $Pr(X = 1, Y = 1)$. Enter the answer correct to three decimal places.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer: 0.165&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer-0165"&gt;&lt;/span&gt;
+&lt;a href="#answer-0165" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multinomial Distribution:&lt;/strong&gt; An extension of the binomial distribution. It describes the probability of observing a specific count for each of several categories in a fixed number of independent trials ($n$), where each trial has the same probability for each category.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multinomial PMF:&lt;/strong&gt; The formula is:
+$$P(X_1=k_1, ..., X_m=k_m) = \frac{n!}{k_1!k_2!...k_m!} p_1^{k_1} p_2^{k_2} ... p_m^{k_m}$$
+where $k_i$ is the number of times outcome $i$ occurs, and $p_i$ is the probability of outcome $i$ in a single trial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Define the Experiment and Outcomes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number of trials ($n$) = 5 (five rolls of a die).&lt;/li&gt;
+&lt;li&gt;We are interested in three categories of outcomes for each roll:
+&lt;ol&gt;
+&lt;li&gt;Getting a &amp;lsquo;1&amp;rsquo;: Probability $p_1 = 1/6$. We want this to happen once ($k_1=1$).&lt;/li&gt;
+&lt;li&gt;Getting a &amp;lsquo;6&amp;rsquo;: Probability $p_2 = 1/6$. We want this to happen once ($k_2=1$).&lt;/li&gt;
+&lt;li&gt;Getting anything else (2, 3, 4, or 5): Probability $p_3 = 4/6 = 2/3$. This must happen the remaining times: $k_3 = 5 - 1 - 1 = 3$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Apply the Multinomial Formula:&lt;/strong&gt;
+We need to calculate $P(X=1, Y=1)$.
+&lt;/p&gt;
+$$P(X=1, Y=1) = \frac{5!}{1! \cdot 1! \cdot 3!} \left(\frac{1}{6}\right)^1 \left(\frac{1}{6}\right)^1 \left(\frac{4}{6}\right)^3$$&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Components:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Combinatorial coefficient:&lt;/strong&gt; $\frac{5!}{1!1!3!} = \frac{120}{1 \cdot 1 \cdot 6} = 20$. This represents the number of ways to arrange the outcomes (e.g., 1, 6, Other, Other, Other).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Probabilities:&lt;/strong&gt; $\left(\frac{1}{6}\right)^1 \left(\frac{1}{6}\right)^1 \left(\frac{4}{6}\right)^3 = \frac{1}{6} \times \frac{1}{6} \times \frac{64}{216} = \frac{64}{7776}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Compute the Final Probability:&lt;/strong&gt;
+&lt;/p&gt;
+$$P(X=1, Y=1) = 20 \times \frac{64}{7776} = \frac{1280}{7776}$$&lt;p&gt;
+Simplifying the fraction gives $\frac{40}{243}$.
+&lt;/p&gt;
+$$ \frac{40}{243} \approx 0.164609...$$&lt;p&gt;
+Rounding to three decimal places gives &lt;strong&gt;0.165&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Questions 9 &amp;amp; 10: Marginal PMFs from a Uniform Distribution&lt;span class="hx-absolute -hx-mt-20" id="questions-9--10-marginal-pmfs-from-a-uniform-distribution"&gt;&lt;/span&gt;
+&lt;a href="#questions-9--10-marginal-pmfs-from-a-uniform-distribution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Let random variables $X$ and $Y$ be uniformly distributed over the set of integers $x$ and $y$ satisfying $-1 \le y \le 1$ and $-2 \le x+y \le 2$.
+&lt;strong&gt;9)&lt;/strong&gt; Find the marginal PMF of $X$.
+&lt;strong&gt;10)&lt;/strong&gt; Find the marginal PMF of $Y$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer"&gt;&lt;/span&gt;
+&lt;a href="#answer" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;9)&lt;/strong&gt; The correct marginal PMF for $X$ is the &lt;strong&gt;second option&lt;/strong&gt;:
+$f_X(x) = \begin{cases} 1/15 &amp;amp; \text{if } x = -3, 3 \ 2/15 &amp;amp; \text{if } x = -2, 2 \ 3/15 &amp;amp; \text{if } x = -1, 0, 1 \ 0, &amp;amp; \text{otherwise} \end{cases}$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;10)&lt;/strong&gt; The correct marginal PMF for $Y$ is the &lt;strong&gt;second option&lt;/strong&gt;:
+$f_Y(y) = \begin{cases} 1/3, &amp;amp; \text{if } y = -1, 0, 1 \ 0, &amp;amp; \text{otherwise} \end{cases}$&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Discrete Uniform Distribution:&lt;/strong&gt; A distribution where all possible outcomes are equally likely. If there are $N$ outcomes, the probability of any single outcome is $1/N$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finding the Sample Space:&lt;/strong&gt; The first step is to carefully list all pairs of integers $(x, y)$ that satisfy the given constraints.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marginal PMF:&lt;/strong&gt; As seen before, to find the marginal PMF of one variable, you sum the joint probabilities over all possible values of the other variable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;List all valid $(x, y)$ pairs (the sample space):&lt;/strong&gt;
+The constraints are $y \in {-1, 0, 1}$ and $-2-y \le x \le 2-y$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For &lt;strong&gt;y = -1&lt;/strong&gt;: $-1 \le x \le 3 \implies$ Pairs are $(-1,-1), (0,-1), (1,-1), (2,-1), (3,-1)$. (5 pairs)&lt;/li&gt;
+&lt;li&gt;For &lt;strong&gt;y = 0&lt;/strong&gt;: $-2 \le x \le 2 \implies$ Pairs are $(-2,0), (-1,0), (0,0), (1,0), (2,0)$. (5 pairs)&lt;/li&gt;
+&lt;li&gt;For &lt;strong&gt;y = 1&lt;/strong&gt;: $-3 \le x \le 1 \implies$ Pairs are $(-3,1), (-2,1), (-1,1), (0,1), (1,1)$. (5 pairs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Determine the Joint Probability:&lt;/strong&gt;
+There are a total of $5+5+5=15$ possible pairs. Since the distribution is uniform, each pair has a probability of $f_{XY}(x,y) = 1/15$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Marginal PMF of X ($f_X(x)$):&lt;/strong&gt;
+Sum the probabilities for each value of $x$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$f_X(-3) = P(-3,1) = 1/15$&lt;/li&gt;
+&lt;li&gt;$f_X(-2) = P(-2,0) + P(-2,1) = 1/15 + 1/15 = 2/15$&lt;/li&gt;
+&lt;li&gt;$f_X(-1) = P(-1,-1) + P(-1,0) + P(-1,1) = 3/15$&lt;/li&gt;
+&lt;li&gt;$f_X(0) = P(0,-1) + P(0,0) + P(0,1) = 3/15$&lt;/li&gt;
+&lt;li&gt;$f_X(1) = P(1,-1) + P(1,0) + P(1,1) = 3/15$&lt;/li&gt;
+&lt;li&gt;$f_X(2) = P(2,-1) + P(2,0) = 2/15$&lt;/li&gt;
+&lt;li&gt;$f_X(3) = P(3,-1) = 1/15$
+This matches the second option for question 9.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calculate the Marginal PMF of Y ($f_Y(y)$):&lt;/strong&gt;
+Sum the probabilities for each value of $y$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$f_Y(-1)$: There are 5 pairs where $y=-1$. Sum = $5 \times (1/15) = 5/15 = 1/3$.&lt;/li&gt;
+&lt;li&gt;$f_Y(0)$: There are 5 pairs where $y=0$. Sum = $5 \times (1/15) = 5/15 = 1/3$.&lt;/li&gt;
+&lt;li&gt;$f_Y(1)$: There are 5 pairs where $y=1$. Sum = $5 \times (1/15) = 5/15 = 1/3$.
+This matches the second option for question 10.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;div class="border-card border-card-basic"&gt;
+&lt;div class="border-card-content"&gt;&lt;h3&gt;Questions 11 &amp;amp; 12: Joint Distributions from Placement Problems&lt;span class="hx-absolute -hx-mt-20" id="questions-11--12-joint-distributions-from-placement-problems"&gt;&lt;/span&gt;
+&lt;a href="#questions-11--12-joint-distributions-from-placement-problems" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; A teacher places three candies into three boxes, with each candy independently and uniformly likely to go into any box. Let $X_i$ be the number of candies in Box $i$, and let $N$ be the number of occupied boxes.
+&lt;strong&gt;11)&lt;/strong&gt; Obtain the joint distribution of $(X_1, N)$.
+&lt;strong&gt;12)&lt;/strong&gt; Obtain the joint distribution of $(X_1, X_2)$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="answer"&gt;&lt;/span&gt;
+&lt;a href="#answer" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;11)&lt;/strong&gt; The correct joint distribution for $(X_1, N)$ is &lt;strong&gt;option (b)&lt;/strong&gt; from image &lt;code&gt;image_309a1b.png&lt;/code&gt;.
+&lt;strong&gt;12)&lt;/strong&gt; The correct joint distribution for $(X_1, X_2)$ is &lt;strong&gt;option (a)&lt;/strong&gt; from image &lt;code&gt;image_309db7.png&lt;/code&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Concepts Explained 💡&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="concepts-explained-"&gt;&lt;/span&gt;
+&lt;a href="#concepts-explained-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sample Space Enumeration:&lt;/strong&gt; For problems with a small number of trials and outcomes, we can list all possibilities to find probabilities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multinomial Coefficients:&lt;/strong&gt; As seen in Q8, this helps count the number of ways to distribute distinct items into distinct bins. The number of ways to place $n$ items into $m$ bins, with $k_i$ items in bin $i$, is $\frac{n!}{k_1!k_2!&amp;hellip;k_m!}$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Joint Distribution Table:&lt;/strong&gt; A table summarizing the probabilities $P(X=x, Y=y)$ for all possible pairs $(x, y)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Step-by-Step Solution&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="step-by-step-solution"&gt;&lt;/span&gt;
+&lt;a href="#step-by-step-solution" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Total Outcomes:&lt;/strong&gt; Each of the 3 candies can go into any of the 3 boxes, so the total number of equally likely outcomes is $3 \times 3 \times 3 = 27$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enumerate Configurations and Count Ways:&lt;/strong&gt;
+A configuration is a tuple $(x_1, x_2, x_3)$ where $x_i$ is the number of candies in Box $i$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type (3,0,0):&lt;/strong&gt; All 3 candies in one box.
+&lt;ul&gt;
+&lt;li&gt;Configurations: (3,0,0), (0,3,0), (0,0,3).&lt;/li&gt;
+&lt;li&gt;Ways for (3,0,0): $\binom{3}{3}=1$. All candies go to Box 1.&lt;/li&gt;
+&lt;li&gt;Total ways for this type: 3 configurations $\times$ 1 way each = 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type (2,1,0):&lt;/strong&gt; 2 in one box, 1 in another.
+&lt;ul&gt;
+&lt;li&gt;Configurations: (2,1,0), (2,0,1), (1,2,0), (0,2,1), (1,0,2), (0,1,2). (6 total)&lt;/li&gt;
+&lt;li&gt;Ways for (2,1,0): Choose 2 of 3 candies for Box 1: $\binom{3}{2}=3$.&lt;/li&gt;
+&lt;li&gt;Total ways for this type: 6 configurations $\times$ 3 ways each = 18.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type (1,1,1):&lt;/strong&gt; 1 candy in each box.
+&lt;ul&gt;
+&lt;li&gt;Configuration: (1,1,1).&lt;/li&gt;
+&lt;li&gt;Ways for (1,1,1): The 3 distinct candies can be arranged in $3! = 6$ ways.&lt;/li&gt;
+&lt;li&gt;Total ways for this type: 1 configuration $\times$ 6 ways = 6.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Check:&lt;/em&gt; $3 + 18 + 6 = 27$. Correct.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Construct the Joint Table for $(X_1, N)$ (Question 11):&lt;/strong&gt;
+For each configuration $(x_1, x_2, x_3)$ with its associated number of ways, find the corresponding $(X_1, N)$ pair.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P(X_1=3, N=1)$: From config (3,0,0). Ways = 1. Prob = 1/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=2, N=2)$: From configs (2,1,0) &amp;amp; (2,0,1). Ways = 3+3 = 6. Prob = 6/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=1, N=2)$: From configs (1,2,0) &amp;amp; (1,0,2). Ways = 3+3 = 6. Prob = 6/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=1, N=3)$: From config (1,1,1). Ways = 6. Prob = 6/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=0, N=1)$: From configs (0,3,0) &amp;amp; (0,0,3). Ways = 1+1 = 2. Prob = 2/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=0, N=2)$: From configs (0,2,1) &amp;amp; (0,1,2). Ways = 3+3 = 6. Prob = 6/27.&lt;/li&gt;
+&lt;li&gt;All other probabilities are 0. This matches table (b).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Table for (X₁, N):&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center"&gt;X₁ \ N&lt;/th&gt;
+&lt;th style="text-align: center"&gt;1&lt;/th&gt;
+&lt;th style="text-align: center"&gt;2&lt;/th&gt;
+&lt;th style="text-align: center"&gt;3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;&lt;strong&gt;0&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;2/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;6/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;6/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;6/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;6/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;1/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Construct the Joint Table for $(X_1, X_2)$ (Question 12):&lt;/strong&gt;
+For each configuration $(x_1, x_2, x_3)$ with its ways, find the $(X_1, X_2)$ pair.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P(X_1=3, X_2=0)$: From config (3,0,0). Ways=1. Prob = 1/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=2, X_2=1)$: From config (2,1,0). Ways=3. Prob = 3/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=2, X_2=0)$: From config (2,0,1). Ways=3. Prob = 3/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=1, X_2=2)$: From config (1,2,0). Ways=3. Prob = 3/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=1, X_2=1)$: From config (1,1,1). Ways=6. Prob = 6/27.&lt;/li&gt;
+&lt;li&gt;$P(X_1=1, X_2=0)$: From config (1,0,2). Ways=3. Prob = 3/27.&lt;/li&gt;
+&lt;li&gt;&amp;hellip;and so on for all configs. This matches table (a).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Final Table for (X₁, X₂):&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center"&gt;X₁ \ X₂&lt;/th&gt;
+&lt;th style="text-align: center"&gt;0&lt;/th&gt;
+&lt;th style="text-align: center"&gt;1&lt;/th&gt;
+&lt;th style="text-align: center"&gt;2&lt;/th&gt;
+&lt;th style="text-align: center"&gt;3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;&lt;strong&gt;0&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;1/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;1/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;6/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;1/27&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.border-card {
+border-radius: 8px;
+padding: 16px;
+margin: 16px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.border-card-content {
+overflow-x: auto;
+overflow-y: hidden;
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+p {
+margin-top: 1rem;
+}
+ol {
+margin-top: 0;
+}
+ul {
+margin-left: 0;
+list-style: none;
+}
+table {
+margin-bottom: 1.5rem;
+}
+.katex-display {
+margin: 0;
+margin-top: 0.5rem;
+}
+}
+.border-card-content::-webkit-scrollbar {
+display: none;
+}
+.border-card-header {
+font-weight: bold;
+}
+.header-title {
+font-size: 1.25rem;
+margin: 0;
+color: inherit;
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #fff3e0;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+.border-card-header {
+background-color: #e8f5e9;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #fff8e1;
+}
+details.border-card {
+border: 2px dashed #8bc34a;
+padding: 0;
+overflow: hidden;
+}
+details.border-card summary {
+list-style: none;
+padding: 16px;
+margin: 0;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+details.border-card summary::-webkit-details-marker {
+display: none;
+}
+details.border-card[open] {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+details.border-card .border-card-content {
+padding: 16px;
+}
+.dropdown-toggle {
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #8bc34a;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 0.3s ease;
+}
+.dropdown-toggle::before {
+content: "";
+display: block;
+width: 8px;
+height: 8px;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+transform: rotate(45deg);
+transition: transform 0.3s ease;
+}
+details[open] .dropdown-toggle::before {
+transform: rotate(-135deg);
+}
+html:is([class~="dark"]) {
+.border-card {
+color: #e0e0e0;
+border-color: rgba(255, 255, 255, 0.2);
+}
+.border-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.border-card-basic {
+border: 2px solid #4caf50;
+}
+.border-card-question {
+border: 2px solid #2196f3;
+}
+.border-card-answer {
+border: 2px solid #ff9800;
+background-color: #3e2723;
+}
+.border-card-tip {
+border: 2px dashed #8bc34a;
+background-color: #212521;
+.border-card-header {
+background-color: #405f42;
+}
+}
+.border-card-conclusion {
+border: 2px solid #9c27b0;
+background-color: #4a148c33;
+}
+.border-card-bonus {
+border: 2px dotted #ffc107;
+background-color: #ffbb0027;
+}
+}
+&lt;/style&gt;
+&lt;/p&gt;</description></item></channel></rss>
